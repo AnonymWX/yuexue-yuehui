@@ -1,0 +1,7753 @@
+[
+    {
+        "id": "sentence_vi_001",
+        "text": "Xin chào.",
+        "translation": "你好。",
+        "words": [
+            "vi_xin_chao"
+        ],
+        "course": "course_vi_01",
+        "tags": [
+            "greeting",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_002",
+        "text": "Em chào cô ạ.",
+        "translation": "老师好。（学生向女老师）",
+        "words": [
+            "vi_em",
+            "vi_chao",
+            "vi_co"
+        ],
+        "course": "course_vi_01",
+        "tags": [
+            "greeting",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_003",
+        "text": "Em chào thầy ạ.",
+        "translation": "老师好。（学生向男老师）",
+        "words": [
+            "vi_em",
+            "vi_chao",
+            "vi_thay"
+        ],
+        "course": "course_vi_01",
+        "tags": [
+            "greeting",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_004",
+        "text": "Chào bạn!",
+        "translation": "你好，朋友。",
+        "words": [
+            "vi_chao",
+            "vi_ban_friend"
+        ],
+        "course": "course_vi_01",
+        "tags": [
+            "greeting",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_005",
+        "text": "Mình tên là Nam.",
+        "translation": "我叫 Nam。",
+        "words": [
+            "vi_ten"
+        ],
+        "course": "course_vi_01",
+        "tags": [
+            "introduction",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_006",
+        "text": "Tạm biệt!",
+        "translation": "再见！",
+        "words": [
+            "vi_tam_biet"
+        ],
+        "course": "course_vi_01",
+        "tags": [
+            "farewell",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_007",
+        "text": "Gia đình tôi có bốn người.",
+        "translation": "我家有四口人。",
+        "words": [
+            "vi_gia_dinh"
+        ],
+        "course": "course_vi_02",
+        "tags": [
+            "family",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_008",
+        "text": "Bố tôi là bác sĩ.",
+        "translation": "我爸爸是医生。",
+        "words": [
+            "vi_bo",
+            "vi_bac_si"
+        ],
+        "course": "course_vi_02",
+        "tags": [
+            "family",
+            "job",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_009",
+        "text": "Mẹ tôi là giáo viên.",
+        "translation": "我妈妈是老师。",
+        "words": [
+            "vi_me",
+            "vi_giao_vien"
+        ],
+        "course": "course_vi_02",
+        "tags": [
+            "family",
+            "job",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_010",
+        "text": "Tôi có một anh trai.",
+        "translation": "我有一个哥哥。",
+        "words": [
+            "vi_anh_trai"
+        ],
+        "course": "course_vi_02",
+        "tags": [
+            "family",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_011",
+        "text": "Chị gái tôi là sinh viên.",
+        "translation": "我姐姐是大学生。",
+        "words": [
+            "vi_chi_gai",
+            "vi_sinh_vien"
+        ],
+        "course": "course_vi_02",
+        "tags": [
+            "family",
+            "job",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_012",
+        "text": "Gia đình bạn có mấy người?",
+        "translation": "你家有几口人？",
+        "words": [
+            "vi_gia_dinh"
+        ],
+        "course": "course_vi_02",
+        "tags": [
+            "family",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_013",
+        "text": "Hôm nay tôi đi học.",
+        "translation": "今天我去上学。",
+        "words": [
+            "vi_hom_nay",
+            "vi_di_hoc"
+        ],
+        "course": "course_vi_03",
+        "tags": [
+            "time",
+            "daily",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_014",
+        "text": "Ngày mai tôi đi làm.",
+        "translation": "明天我去上班。",
+        "words": [
+            "vi_ngay_mai",
+            "vi_di_lam"
+        ],
+        "course": "course_vi_03",
+        "tags": [
+            "time",
+            "daily",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_015",
+        "text": "Buổi sáng, tôi thức dậy.",
+        "translation": "早上，我起床。",
+        "words": [
+            "vi_buoi_sang",
+            "vi_thuc_day"
+        ],
+        "course": "course_vi_03",
+        "tags": [
+            "time",
+            "daily",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_016",
+        "text": "Buổi chiều, tôi đi học.",
+        "translation": "下午，我去上学。",
+        "words": [
+            "vi_buoi_chieu",
+            "vi_di_hoc"
+        ],
+        "course": "course_vi_03",
+        "tags": [
+            "time",
+            "daily",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_017",
+        "text": "Buổi tối, tôi đi làm.",
+        "translation": "晚上，我去上班。",
+        "words": [
+            "vi_buoi_toi",
+            "vi_di_lam"
+        ],
+        "course": "course_vi_03",
+        "tags": [
+            "time",
+            "daily",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_018",
+        "text": "Ngày mai tôi không đi học.",
+        "translation": "明天我不去上学。",
+        "words": [
+            "vi_ngay_mai",
+            "vi_di_hoc"
+        ],
+        "course": "course_vi_03",
+        "tags": [
+            "time",
+            "daily",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_019",
+        "text": "Cái áo này giá bao nhiêu?",
+        "translation": "这件衣服多少钱？",
+        "words": [
+            "vi_ao",
+            "vi_gia",
+            "vi_bao_nhieu"
+        ],
+        "course": "course_vi_04",
+        "tags": [
+            "shopping",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_020",
+        "text": "Tôi muốn mua một quyển sách.",
+        "translation": "我想买一本书。",
+        "words": [
+            "vi_mua",
+            "vi_sach"
+        ],
+        "course": "course_vi_04",
+        "tags": [
+            "shopping",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_021",
+        "text": "Cửa hàng này bán áo.",
+        "translation": "这家商店卖衣服。",
+        "words": [
+            "vi_cua_hang",
+            "vi_ban_sell",
+            "vi_ao"
+        ],
+        "course": "course_vi_04",
+        "tags": [
+            "shopping",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_022",
+        "text": "Quyển sách này bao nhiêu tiền?",
+        "translation": "这本书多少钱？",
+        "words": [
+            "vi_sach",
+            "vi_bao_nhieu",
+            "vi_tien"
+        ],
+        "course": "course_vi_04",
+        "tags": [
+            "shopping",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_023",
+        "text": "Mười lăm nghìn đồng.",
+        "translation": "一万五千盾。",
+        "words": [
+            "vi_tien"
+        ],
+        "course": "course_vi_04",
+        "tags": [
+            "shopping",
+            "number",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_024",
+        "text": "Tôi đi mua sách.",
+        "translation": "我去买书。",
+        "words": [
+            "vi_mua",
+            "vi_sach"
+        ],
+        "course": "course_vi_04",
+        "tags": [
+            "shopping",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_025",
+        "text": "Tôi muốn ăn cơm.",
+        "translation": "我想吃饭。",
+        "words": [
+            "vi_an",
+            "vi_com"
+        ],
+        "course": "course_vi_05",
+        "tags": [
+            "food",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_026",
+        "text": "Cho tôi một bát phở.",
+        "translation": "请给我一碗河粉。",
+        "words": [
+            "vi_pho",
+            "vi_goi"
+        ],
+        "course": "course_vi_05",
+        "tags": [
+            "food",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_027",
+        "text": "Tôi uống cà phê.",
+        "translation": "我喝咖啡。",
+        "words": [
+            "vi_uong",
+            "vi_ca_phe"
+        ],
+        "course": "course_vi_05",
+        "tags": [
+            "food",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_028",
+        "text": "Phở rất ngon.",
+        "translation": "河粉很好吃。",
+        "words": [
+            "vi_pho",
+            "vi_ngon"
+        ],
+        "course": "course_vi_05",
+        "tags": [
+            "food",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_029",
+        "text": "Tôi muốn uống nước.",
+        "translation": "我想喝水。",
+        "words": [
+            "vi_uong",
+            "vi_nuoc"
+        ],
+        "course": "course_vi_05",
+        "tags": [
+            "food",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_030",
+        "text": "Cà phê này rất ngon.",
+        "translation": "这杯咖啡很好喝。",
+        "words": [
+            "vi_ca_phe",
+            "vi_ngon"
+        ],
+        "course": "course_vi_05",
+        "tags": [
+            "food",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_031",
+        "text": "Nhà ga ở đâu?",
+        "translation": "火车站在哪里？",
+        "words": [
+            "vi_o_dau"
+        ],
+        "course": "course_vi_06",
+        "tags": [
+            "direction",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_032",
+        "text": "Đi thẳng, rồi rẽ bên phải.",
+        "translation": "直走，然后向右转。",
+        "words": [
+            "vi_di_thang",
+            "vi_ben_phai"
+        ],
+        "course": "course_vi_06",
+        "tags": [
+            "direction",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_033",
+        "text": "Bưu điện ở bên trái.",
+        "translation": "邮局在左边。",
+        "words": [
+            "vi_ben_trai"
+        ],
+        "course": "course_vi_06",
+        "tags": [
+            "direction",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_034",
+        "text": "Tôi đi xe buýt.",
+        "translation": "我坐公交车。",
+        "words": [
+            "vi_xe_buyt"
+        ],
+        "course": "course_vi_06",
+        "tags": [
+            "transport",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_035",
+        "text": "Tôi đi xe đạp.",
+        "translation": "我骑自行车。",
+        "words": [
+            "vi_xe_dap"
+        ],
+        "course": "course_vi_06",
+        "tags": [
+            "transport",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_036",
+        "text": "Tôi đi bộ.",
+        "translation": "我走路。",
+        "words": [
+            "vi_di_bo"
+        ],
+        "course": "course_vi_06",
+        "tags": [
+            "transport",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_037",
+        "text": "Hôm nay trời nóng.",
+        "translation": "今天天热。",
+        "words": [
+            "vi_thoi_tiet",
+            "vi_nong"
+        ],
+        "course": "course_vi_07",
+        "tags": [
+            "weather",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_038",
+        "text": "Mùa đông rất lạnh.",
+        "translation": "冬天很冷。",
+        "words": [
+            "vi_mua_dong",
+            "vi_lanh"
+        ],
+        "course": "course_vi_07",
+        "tags": [
+            "weather",
+            "season",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_039",
+        "text": "Trời mưa.",
+        "translation": "下雨了。",
+        "words": [
+            "vi_mua"
+        ],
+        "course": "course_vi_07",
+        "tags": [
+            "weather",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_040",
+        "text": "Hôm nay nắng.",
+        "translation": "今天晴天。",
+        "words": [
+            "vi_nang"
+        ],
+        "course": "course_vi_07",
+        "tags": [
+            "weather",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_041",
+        "text": "Mùa hè rất nóng.",
+        "translation": "夏天很热。",
+        "words": [
+            "vi_mua_he",
+            "vi_nong"
+        ],
+        "course": "course_vi_07",
+        "tags": [
+            "weather",
+            "season",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_042",
+        "text": "Thời tiết hôm nay rất đẹp.",
+        "translation": "今天天气很好。",
+        "words": [
+            "vi_thoi_tiet"
+        ],
+        "course": "course_vi_07",
+        "tags": [
+            "weather",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_043",
+        "text": "Tôi thích đọc sách.",
+        "translation": "我喜欢读书。",
+        "words": [
+            "vi_thich",
+            "vi_doc_sach"
+        ],
+        "course": "course_vi_08",
+        "tags": [
+            "hobby",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_044",
+        "text": "Tôi thích nghe nhạc.",
+        "translation": "我喜欢听音乐。",
+        "words": [
+            "vi_thich",
+            "vi_nghe_nhac"
+        ],
+        "course": "course_vi_08",
+        "tags": [
+            "hobby",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_045",
+        "text": "Bạn có thích xem phim không?",
+        "translation": "你喜欢看电影吗？",
+        "words": [
+            "vi_thich",
+            "vi_xem_phim"
+        ],
+        "course": "course_vi_08",
+        "tags": [
+            "hobby",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_046",
+        "text": "Tôi thích chơi thể thao.",
+        "translation": "我喜欢做运动。",
+        "words": [
+            "vi_thich",
+            "vi_choi_the_thao"
+        ],
+        "course": "course_vi_08",
+        "tags": [
+            "hobby",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_047",
+        "text": "Hôm nay bạn có rảnh không?",
+        "translation": "你今天有空吗？",
+        "words": [
+            "vi_ranh"
+        ],
+        "course": "course_vi_08",
+        "tags": [
+            "social",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_048",
+        "text": "Chúng ta đi chơi nhé.",
+        "translation": "我们去玩吧。",
+        "words": [
+            "vi_di_choi",
+            "vi_ban_friend"
+        ],
+        "course": "course_vi_08",
+        "tags": [
+            "social",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_067",
+        "text": "Bạn bao nhiêu tuổi?",
+        "translation": "你几岁？",
+        "words": [
+            "vi_tuoi"
+        ],
+        "course": "course_vi_12",
+        "tags": [
+            "number",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_068",
+        "text": "Tôi hai mươi tuổi.",
+        "translation": "我二十岁。",
+        "words": [
+            "vi_tuoi",
+            "vi_hai_muoi"
+        ],
+        "course": "course_vi_12",
+        "tags": [
+            "number",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_069",
+        "text": "Tôi có ba quyển sách.",
+        "translation": "我有三本书。",
+        "words": [
+            "vi_ba"
+        ],
+        "course": "course_vi_12",
+        "tags": [
+            "number",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_070",
+        "text": "Nhà tôi có bốn người.",
+        "translation": "我家有四口人。",
+        "words": [
+            "vi_bon"
+        ],
+        "course": "course_vi_12",
+        "tags": [
+            "number",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_071",
+        "text": "Một, hai, ba, bốn, năm.",
+        "translation": "一、二、三、四、五。",
+        "words": [
+            "vi_mot",
+            "vi_hai",
+            "vi_ba",
+            "vi_bon",
+            "vi_nam"
+        ],
+        "course": "course_vi_12",
+        "tags": [
+            "number",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_072",
+        "text": "Mười lăm tuổi.",
+        "translation": "十五岁。",
+        "words": [
+            "vi_muoi",
+            "vi_tuoi"
+        ],
+        "course": "course_vi_12",
+        "tags": [
+            "number",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_073",
+        "text": "Cái này màu gì?",
+        "translation": "这个什么颜色？",
+        "words": [
+            "vi_mau"
+        ],
+        "course": "course_vi_13",
+        "tags": [
+            "color",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_074",
+        "text": "Cái này màu đỏ.",
+        "translation": "这个是红色。",
+        "words": [
+            "vi_mau_do"
+        ],
+        "course": "course_vi_13",
+        "tags": [
+            "color",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_075",
+        "text": "Áo của tôi màu xanh.",
+        "translation": "我的衣服是蓝色。",
+        "words": [
+            "vi_ao",
+            "vi_mau_xanh"
+        ],
+        "course": "course_vi_13",
+        "tags": [
+            "color",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_076",
+        "text": "Tôi thích màu vàng.",
+        "translation": "我喜欢黄色。",
+        "words": [
+            "vi_thich",
+            "vi_mau_vang"
+        ],
+        "course": "course_vi_13",
+        "tags": [
+            "color",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_077",
+        "text": "Cái bàn này hình tròn.",
+        "translation": "这张桌子是圆形的。",
+        "words": [
+            "vi_hinh_tron"
+        ],
+        "course": "course_vi_13",
+        "tags": [
+            "shape",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_078",
+        "text": "Nhà tôi màu trắng.",
+        "translation": "我的房子是白色。",
+        "words": [
+            "vi_mau_trang"
+        ],
+        "course": "course_vi_13",
+        "tags": [
+            "color",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_079",
+        "text": "Tôi bị đau đầu.",
+        "translation": "我头疼。",
+        "words": [
+            "vi_bi",
+            "vi_dau"
+        ],
+        "course": "course_vi_14",
+        "tags": [
+            "health",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_080",
+        "text": "Tôi bị đau bụng.",
+        "translation": "我肚子疼。",
+        "words": [
+            "vi_bi"
+        ],
+        "course": "course_vi_14",
+        "tags": [
+            "health",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_081",
+        "text": "Mắt tôi đau.",
+        "translation": "我眼睛疼。",
+        "words": [
+            "vi_mat"
+        ],
+        "course": "course_vi_14",
+        "tags": [
+            "health",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_082",
+        "text": "Tay tôi đau.",
+        "translation": "我手疼。",
+        "words": [
+            "vi_tay"
+        ],
+        "course": "course_vi_14",
+        "tags": [
+            "health",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_083",
+        "text": "Tôi bị đau chân.",
+        "translation": "我腿疼。",
+        "words": [
+            "vi_bi",
+            "vi_chan"
+        ],
+        "course": "course_vi_14",
+        "tags": [
+            "health",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_084",
+        "text": "Tôi không khỏe.",
+        "translation": "我不舒服。",
+        "words": [
+            "vi_bi"
+        ],
+        "course": "course_vi_14",
+        "tags": [
+            "health",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_085",
+        "text": "Tôi học tiếng Việt.",
+        "translation": "我学越南语。",
+        "words": [
+            "vi_hoc",
+            "vi_tieng_viet"
+        ],
+        "course": "course_vi_15",
+        "tags": [
+            "school",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_086",
+        "text": "Tôi học ở trường.",
+        "translation": "我在学校学习。",
+        "words": [
+            "vi_hoc",
+            "vi_truong"
+        ],
+        "course": "course_vi_15",
+        "tags": [
+            "school",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_087",
+        "text": "Đây là lớp học của tôi.",
+        "translation": "这是我的班级。",
+        "words": [
+            "vi_lop"
+        ],
+        "course": "course_vi_15",
+        "tags": [
+            "school",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_088",
+        "text": "Tôi có một quyển vở.",
+        "translation": "我有一个本子。",
+        "words": [
+            "vi_vo"
+        ],
+        "course": "course_vi_15",
+        "tags": [
+            "school",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_089",
+        "text": "Đây là cây bút của tôi.",
+        "translation": "这是我的笔。",
+        "words": [
+            "vi_but"
+        ],
+        "course": "course_vi_15",
+        "tags": [
+            "school",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_090",
+        "text": "Tôi học bài mới.",
+        "translation": "我学新课。",
+        "words": [
+            "vi_hoc",
+            "vi_bai"
+        ],
+        "course": "course_vi_15",
+        "tags": [
+            "school",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_091",
+        "text": "Tôi muốn đi xem phim.",
+        "translation": "我想去看电影。",
+        "words": [
+            "vi_di",
+            "vi_xem"
+        ],
+        "course": "course_vi_16",
+        "tags": [
+            "verb",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_092",
+        "text": "Tôi thích nghe nhạc.",
+        "translation": "我喜欢听音乐。",
+        "words": [
+            "vi_thich",
+            "vi_nghe"
+        ],
+        "course": "course_vi_16",
+        "tags": [
+            "verb",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_093",
+        "text": "Tôi về nhà.",
+        "translation": "我回家。",
+        "words": [
+            "vi_ve"
+        ],
+        "course": "course_vi_16",
+        "tags": [
+            "verb",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_094",
+        "text": "Tôi làm việc ở Hà Nội.",
+        "translation": "我在河内工作。",
+        "words": [
+            "vi_lam"
+        ],
+        "course": "course_vi_16",
+        "tags": [
+            "verb",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_095",
+        "text": "Tôi biết nói tiếng Việt.",
+        "translation": "我会说越南语。",
+        "words": [
+            "vi_biet",
+            "vi_noi",
+            "vi_tieng_viet"
+        ],
+        "course": "course_vi_16",
+        "tags": [
+            "verb",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_096",
+        "text": "Tôi đến trường mỗi ngày.",
+        "translation": "我每天去学校。",
+        "words": [
+            "vi_den",
+            "vi_truong"
+        ],
+        "course": "course_vi_16",
+        "tags": [
+            "verb",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_097",
+        "text": "Tôi là người Việt Nam.",
+        "translation": "我是越南人。",
+        "words": [
+            "vi_nguoi",
+            "vi_viet_nam"
+        ],
+        "course": "course_vi_17",
+        "tags": [
+            "country",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_098",
+        "text": "Bạn là người nước nào?",
+        "translation": "你是哪国人？",
+        "words": [
+            "vi_nguoi",
+            "vi_nuoc"
+        ],
+        "course": "course_vi_17",
+        "tags": [
+            "country",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_099",
+        "text": "Tôi là người Trung Quốc.",
+        "translation": "我是中国人。",
+        "words": [
+            "vi_nguoi",
+            "vi_trung_quoc"
+        ],
+        "course": "course_vi_17",
+        "tags": [
+            "country",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_100",
+        "text": "Anh ấy là người Mỹ.",
+        "translation": "他是美国人。",
+        "words": [
+            "vi_nguoi",
+            "vi_my"
+        ],
+        "course": "course_vi_17",
+        "tags": [
+            "country",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_101",
+        "text": "Chị ấy là người Nhật Bản.",
+        "translation": "她是日本人。",
+        "words": [
+            "vi_nguoi",
+            "vi_nhat_ban"
+        ],
+        "course": "course_vi_17",
+        "tags": [
+            "country",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_102",
+        "text": "Họ là người Hàn Quốc.",
+        "translation": "他们是韩国人。",
+        "words": [
+            "vi_nguoi",
+            "vi_han_quoc"
+        ],
+        "course": "course_vi_17",
+        "tags": [
+            "country",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_103",
+        "text": "Hôm nay trời rất nóng.",
+        "translation": "今天天很热。",
+        "words": [
+            "vi_thoi_tiet",
+            "vi_nong"
+        ],
+        "course": "course_vi_18",
+        "tags": [
+            "weather",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_104",
+        "text": "Mùa hè ở Hà Nội nóng lắm.",
+        "translation": "河内的夏天很热。",
+        "words": [
+            "vi_mua_he",
+            "vi_nong"
+        ],
+        "course": "course_vi_18",
+        "tags": [
+            "weather",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_105",
+        "text": "Hôm nay hơi lạnh.",
+        "translation": "今天有点冷。",
+        "words": [
+            "vi_lanh"
+        ],
+        "course": "course_vi_18",
+        "tags": [
+            "weather",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_106",
+        "text": "Trời có gió.",
+        "translation": "天刮风。",
+        "words": [
+            "vi_gio"
+        ],
+        "course": "course_vi_18",
+        "tags": [
+            "weather",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_107",
+        "text": "Mùa thu ở Hà Nội rất đẹp.",
+        "translation": "河内的秋天很美。",
+        "words": [
+            "vi_mua_thu",
+            "vi_dep"
+        ],
+        "course": "course_vi_18",
+        "tags": [
+            "weather",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_108",
+        "text": "Khí hậu miền Nam có hai mùa.",
+        "translation": "南方气候有两个季节。",
+        "words": [
+            "vi_khi_hau"
+        ],
+        "course": "course_vi_18",
+        "tags": [
+            "weather",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_109",
+        "text": "Nhà tôi ở trên tầng ba.",
+        "translation": "我家在三楼。",
+        "words": [
+            "vi_nha",
+            "vi_tren"
+        ],
+        "course": "course_vi_19",
+        "tags": [
+            "house",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_110",
+        "text": "Con mèo ở dưới bàn.",
+        "translation": "猫在桌子下面。",
+        "words": [
+            "vi_duoi"
+        ],
+        "course": "course_vi_19",
+        "tags": [
+            "house",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_111",
+        "text": "Sách ở trong cặp.",
+        "translation": "书在书包里。",
+        "words": [
+            "vi_trong"
+        ],
+        "course": "course_vi_19",
+        "tags": [
+            "house",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_112",
+        "text": "Ngoài trời đang mưa.",
+        "translation": "外面在下雨。",
+        "words": [
+            "vi_ngoai"
+        ],
+        "course": "course_vi_19",
+        "tags": [
+            "house",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_113",
+        "text": "Trước nhà có một cái cây.",
+        "translation": "房子前面有一棵树。",
+        "words": [
+            "vi_truoc",
+            "vi_nha"
+        ],
+        "course": "course_vi_19",
+        "tags": [
+            "house",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_114",
+        "text": "Sau nhà là một cái vườn.",
+        "translation": "房子后面是一个花园。",
+        "words": [
+            "vi_sau",
+            "vi_nha"
+        ],
+        "course": "course_vi_19",
+        "tags": [
+            "house",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_115",
+        "text": "Đây là cái bàn.",
+        "translation": "这是一张桌子。",
+        "words": [
+            "vi_cai",
+            "vi_ban_lam_viec"
+        ],
+        "course": "course_vi_20",
+        "tags": [
+            "furniture",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_116",
+        "text": "Cái ghế này rất đẹp.",
+        "translation": "这把椅子很漂亮。",
+        "words": [
+            "vi_ghe",
+            "vi_dep"
+        ],
+        "course": "course_vi_20",
+        "tags": [
+            "furniture",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_117",
+        "text": "Trên bàn có một chiếc đèn.",
+        "translation": "桌子上有一盏灯。",
+        "words": [
+            "vi_tren",
+            "vi_chiec",
+            "vi_den_dien"
+        ],
+        "course": "course_vi_20",
+        "tags": [
+            "furniture",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_118",
+        "text": "Cái giường kia là của tôi.",
+        "translation": "那张床是我的。",
+        "words": [
+            "vi_giuong"
+        ],
+        "course": "course_vi_20",
+        "tags": [
+            "furniture",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_119",
+        "text": "Cửa sổ này mở rồi.",
+        "translation": "这扇窗户开着。",
+        "words": [
+            "vi_cua_so"
+        ],
+        "course": "course_vi_20",
+        "tags": [
+            "furniture",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_120",
+        "text": "Trong tủ có nhiều quần áo.",
+        "translation": "柜子里有很多衣服。",
+        "words": [
+            "vi_tu",
+            "vi_trong",
+            "vi_ao"
+        ],
+        "course": "course_vi_20",
+        "tags": [
+            "furniture",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_121",
+        "text": "Tôi cao hơn anh ấy.",
+        "translation": "我比他高。",
+        "words": [
+            "vi_cao",
+            "vi_hon"
+        ],
+        "course": "course_vi_21",
+        "tags": [
+            "comparison",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_122",
+        "text": "Chị ấy đẹp nhất lớp.",
+        "translation": "她是班里最漂亮的。",
+        "words": [
+            "vi_nhat",
+            "vi_dep"
+        ],
+        "course": "course_vi_21",
+        "tags": [
+            "comparison",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_123",
+        "text": "Cái này đắt hơn cái kia.",
+        "translation": "这个比那个贵。",
+        "words": [
+            "vi_dat",
+            "vi_hon"
+        ],
+        "course": "course_vi_21",
+        "tags": [
+            "comparison",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_124",
+        "text": "Tôi không cao bằng anh ấy.",
+        "translation": "我没有他高。",
+        "words": [
+            "vi_cao",
+            "vi_bang"
+        ],
+        "course": "course_vi_21",
+        "tags": [
+            "comparison",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_125",
+        "text": "Hai cái này giống nhau.",
+        "translation": "这两个一样。",
+        "words": [
+            "vi_giong"
+        ],
+        "course": "course_vi_21",
+        "tags": [
+            "comparison",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_126",
+        "text": "Tiếng Việt khó hơn tiếng Anh không?",
+        "translation": "越南语比英语难吗？",
+        "words": [
+            "vi_khac",
+            "vi_hon"
+        ],
+        "course": "course_vi_21",
+        "tags": [
+            "comparison",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_127",
+        "text": "Tôi là sinh viên.",
+        "translation": "我是学生。",
+        "words": [
+            "vi_gioi_thieu"
+        ],
+        "course": "course_vi_22",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_128",
+        "text": "Tôi là người Việt Nam.",
+        "translation": "我是越南人。",
+        "words": [
+            "vi_viet_nam"
+        ],
+        "course": "course_vi_22",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_129",
+        "text": "Tôi hai mươi tuổi.",
+        "translation": "我二十岁。",
+        "words": [
+            "vi_tuoi"
+        ],
+        "course": "course_vi_22",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_130",
+        "text": "Tôi có một anh trai.",
+        "translation": "我有一个哥哥。",
+        "words": [
+            "vi_anh_trai"
+        ],
+        "course": "course_vi_22",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_131",
+        "text": "Sở thích của tôi là đọc sách.",
+        "translation": "我的爱好是读书。",
+        "words": [
+            "vi_so_thich",
+            "vi_doc_sach"
+        ],
+        "course": "course_vi_22",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_132",
+        "text": "Tôi có nhiều bạn bè.",
+        "translation": "我有很多朋友。",
+        "words": [
+            "vi_ban_be"
+        ],
+        "course": "course_vi_22",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_133",
+        "text": "Tôi sinh năm 2000.",
+        "translation": "我 2000 年出生。",
+        "words": [
+            "vi_sinh",
+            "vi_nam_sinh"
+        ],
+        "course": "course_vi_23",
+        "tags": [
+            "age",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_134",
+        "text": "Bạn sinh năm nào?",
+        "translation": "你哪年出生？",
+        "words": [
+            "vi_sinh"
+        ],
+        "course": "course_vi_23",
+        "tags": [
+            "age",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_135",
+        "text": "Hôm nay là sinh nhật của tôi.",
+        "translation": "今天是我的生日。",
+        "words": [
+            "vi_sinh_nhat"
+        ],
+        "course": "course_vi_23",
+        "tags": [
+            "age",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_136",
+        "text": "Chị ấy còn trẻ.",
+        "translation": "她还年轻。",
+        "words": [
+            "vi_tre"
+        ],
+        "course": "course_vi_23",
+        "tags": [
+            "age",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_137",
+        "text": "Ông ấy đã già rồi.",
+        "translation": "他已经老了。",
+        "words": [
+            "vi_gia_old"
+        ],
+        "course": "course_vi_23",
+        "tags": [
+            "age",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_138",
+        "text": "Tôi có một con trai và một con gái.",
+        "translation": "我有一个儿子和一个女儿。",
+        "words": [
+            "vi_con_trai",
+            "vi_con_gai"
+        ],
+        "course": "course_vi_23",
+        "tags": [
+            "age",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_139",
+        "text": "Hôm nay là thứ hai.",
+        "translation": "今天是星期一。",
+        "words": [
+            "vi_thu_hai"
+        ],
+        "course": "course_vi_24",
+        "tags": [
+            "date",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_140",
+        "text": "Ngày mai là thứ ba.",
+        "translation": "明天是星期二。",
+        "words": [
+            "vi_thu_ba"
+        ],
+        "course": "course_vi_24",
+        "tags": [
+            "date",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_141",
+        "text": "Hôm nay là thứ mấy?",
+        "translation": "今天星期几？",
+        "words": [
+            "vi_thu"
+        ],
+        "course": "course_vi_24",
+        "tags": [
+            "date",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_142",
+        "text": "Chủ nhật tôi được nghỉ.",
+        "translation": "星期日我休息。",
+        "words": [
+            "vi_chu_nhat"
+        ],
+        "course": "course_vi_24",
+        "tags": [
+            "date",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_143",
+        "text": "Thứ bảy tôi đi làm.",
+        "translation": "星期六我上班。",
+        "words": [
+            "vi_thu_bay"
+        ],
+        "course": "course_vi_24",
+        "tags": [
+            "date",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_144",
+        "text": "Thứ tư tôi có lớp tiếng Việt.",
+        "translation": "星期三我有越南语课。",
+        "words": [
+            "vi_thu_tu"
+        ],
+        "course": "course_vi_24",
+        "tags": [
+            "date",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_145",
+        "text": "Bây giờ là mấy giờ?",
+        "translation": "现在几点？",
+        "words": [
+            "vi_bay_gio",
+            "vi_gio"
+        ],
+        "course": "course_vi_25",
+        "tags": [
+            "time",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_146",
+        "text": "Bây giờ là ba giờ.",
+        "translation": "现在三点。",
+        "words": [
+            "vi_bay_gio",
+            "vi_gio"
+        ],
+        "course": "course_vi_25",
+        "tags": [
+            "time",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_147",
+        "text": "Tôi đã ăn cơm rồi.",
+        "translation": "我已经吃过饭了。",
+        "words": [
+            "vi_da",
+            "vi_an",
+            "vi_com"
+        ],
+        "course": "course_vi_25",
+        "tags": [
+            "tense",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_148",
+        "text": "Tôi đang học bài.",
+        "translation": "我正在学习。",
+        "words": [
+            "vi_dang",
+            "vi_hoc"
+        ],
+        "course": "course_vi_25",
+        "tags": [
+            "tense",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_149",
+        "text": "Ngày mai tôi sẽ đi Hà Nội.",
+        "translation": "明天我将去河内。",
+        "words": [
+            "vi_se",
+            "vi_di"
+        ],
+        "course": "course_vi_25",
+        "tags": [
+            "tense",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_150",
+        "text": "Tôi dậy sớm mỗi ngày.",
+        "translation": "我每天早起。",
+        "words": [
+            "vi_som"
+        ],
+        "course": "course_vi_25",
+        "tags": [
+            "time",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_151",
+        "text": "Tôi biết nói tiếng Việt.",
+        "translation": "我会说越南语。",
+        "words": [
+            "vi_biet_ability",
+            "vi_noi",
+            "vi_tieng_viet"
+        ],
+        "course": "course_vi_26",
+        "tags": [
+            "ability",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_152",
+        "text": "Tôi có thể giúp bạn.",
+        "translation": "我能帮你。",
+        "words": [
+            "vi_co_the",
+            "vi_giup"
+        ],
+        "course": "course_vi_26",
+        "tags": [
+            "ability",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_153",
+        "text": "Chị ấy hát rất hay.",
+        "translation": "她唱歌很好听。",
+        "words": [
+            "vi_hat"
+        ],
+        "course": "course_vi_26",
+        "tags": [
+            "ability",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_154",
+        "text": "Tôi không biết nấu ăn.",
+        "translation": "我不会做饭。",
+        "words": [
+            "vi_nau_an"
+        ],
+        "course": "course_vi_26",
+        "tags": [
+            "ability",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_155",
+        "text": "Anh ấy lái xe rất giỏi.",
+        "translation": "他开车很厉害。",
+        "words": [
+            "vi_lai_xe",
+            "vi_gioi"
+        ],
+        "course": "course_vi_26",
+        "tags": [
+            "ability",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_156",
+        "text": "Bạn có thể nói lại không?",
+        "translation": "你能再说一遍吗？",
+        "words": [
+            "vi_co_the"
+        ],
+        "course": "course_vi_26",
+        "tags": [
+            "ability",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_157",
+        "text": "Hãy ngồi xuống.",
+        "translation": "请坐下。",
+        "words": [
+            "vi_hay"
+        ],
+        "course": "course_vi_27",
+        "tags": [
+            "request",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_158",
+        "text": "Bạn nên nghỉ ngơi.",
+        "translation": "你应该休息。",
+        "words": [
+            "vi_nen"
+        ],
+        "course": "course_vi_27",
+        "tags": [
+            "request",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_159",
+        "text": "Đừng lo.",
+        "translation": "别担心。",
+        "words": [
+            "vi_dung"
+        ],
+        "course": "course_vi_27",
+        "tags": [
+            "request",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_160",
+        "text": "Xin đợi một chút.",
+        "translation": "请等一下。",
+        "words": [
+            "vi_xin",
+            "vi_doi"
+        ],
+        "course": "course_vi_27",
+        "tags": [
+            "request",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_161",
+        "text": "Làm ơn mở cửa.",
+        "translation": "请开门。",
+        "words": [
+            "vi_lam_on",
+            "vi_mo"
+        ],
+        "course": "course_vi_27",
+        "tags": [
+            "request",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_162",
+        "text": "Xin giúp đỡ tôi.",
+        "translation": "请帮助我。",
+        "words": [
+            "vi_giup_do"
+        ],
+        "course": "course_vi_27",
+        "tags": [
+            "request",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_163",
+        "text": "Tôi là sinh viên.",
+        "translation": "我是学生。",
+        "words": [
+            "vi_giao_tiep"
+        ],
+        "course": "course_vi_28",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_164",
+        "text": "Bạn có khỏe không?",
+        "translation": "你好吗？",
+        "words": [
+            "vi_hoi_thoai"
+        ],
+        "course": "course_vi_28",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_165",
+        "text": "Tôi học tiếng Việt.",
+        "translation": "我学越南语。",
+        "words": [
+            "vi_tu_vung"
+        ],
+        "course": "course_vi_28",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_166",
+        "text": "Ngữ pháp tiếng Việt không khó lắm.",
+        "translation": "越南语语法不太难。",
+        "words": [
+            "vi_ngu_phap"
+        ],
+        "course": "course_vi_28",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_167",
+        "text": "Phát âm của bạn rất tốt.",
+        "translation": "你的发音很好。",
+        "words": [
+            "vi_phat_am"
+        ],
+        "course": "course_vi_28",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_168",
+        "text": "Tôi thích học tiếng Việt.",
+        "translation": "我喜欢学越南语。",
+        "words": [
+            "vi_tong_on"
+        ],
+        "course": "course_vi_28",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_169",
+        "text": "Cái này bao nhiêu tiền?",
+        "translation": "这个多少钱？",
+        "words": [
+            "vi_gia_price",
+            "vi_tien"
+        ],
+        "course": "course_vi_29",
+        "tags": [
+            "market",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_170",
+        "text": "Đắt quá, bớt chút đi.",
+        "translation": "太贵了，便宜点吧。",
+        "words": [
+            "vi_dat"
+        ],
+        "course": "course_vi_29",
+        "tags": [
+            "market",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_171",
+        "text": "Rẻ hơn được không?",
+        "translation": "能便宜点吗？",
+        "words": [
+            "vi_re"
+        ],
+        "course": "course_vi_29",
+        "tags": [
+            "market",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_172",
+        "text": "Tôi mua hai cân.",
+        "translation": "我买两公斤。",
+        "words": [
+            "vi_mua",
+            "vi_can"
+        ],
+        "course": "course_vi_29",
+        "tags": [
+            "market",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_173",
+        "text": "Chợ này bán gì?",
+        "translation": "这个市场卖什么？",
+        "words": [
+            "vi_cho_market"
+        ],
+        "course": "course_vi_29",
+        "tags": [
+            "market",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_174",
+        "text": "Tôi trả tiền mặt.",
+        "translation": "我付现金。",
+        "words": [
+            "vi_tien"
+        ],
+        "course": "course_vi_29",
+        "tags": [
+            "market",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_175",
+        "text": "Cho tôi xem thực đơn.",
+        "translation": "请给我看菜单。",
+        "words": [
+            "vi_thuc_don"
+        ],
+        "course": "course_vi_30",
+        "tags": [
+            "restaurant",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_176",
+        "text": "Tôi muốn gọi món.",
+        "translation": "我想点菜。",
+        "words": [
+            "vi_goi_mon"
+        ],
+        "course": "course_vi_30",
+        "tags": [
+            "restaurant",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_177",
+        "text": "Món này có cay không?",
+        "translation": "这道菜辣吗？",
+        "words": [
+            "vi_mon_an"
+        ],
+        "course": "course_vi_30",
+        "tags": [
+            "restaurant",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_178",
+        "text": "Cho tôi một bát phở.",
+        "translation": "给我一碗河粉。",
+        "words": [
+            "vi_mon_an"
+        ],
+        "course": "course_vi_30",
+        "tags": [
+            "restaurant",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_179",
+        "text": "Cho tôi thanh toán hóa đơn.",
+        "translation": "请给我结账。",
+        "words": [
+            "vi_hoa_don"
+        ],
+        "course": "course_vi_30",
+        "tags": [
+            "restaurant",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_180",
+        "text": "Nhà hàng này ngon lắm.",
+        "translation": "这家餐厅很好吃。",
+        "words": [
+            "vi_nha_hang"
+        ],
+        "course": "course_vi_30",
+        "tags": [
+            "restaurant",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_181",
+        "text": "Cho tôi một cốc cà phê.",
+        "translation": "给我一杯咖啡。",
+        "words": [
+            "vi_coc",
+            "vi_ca_phe"
+        ],
+        "course": "course_vi_31",
+        "tags": [
+            "drink",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_182",
+        "text": "Cà phê có đường không?",
+        "translation": "咖啡加糖吗？",
+        "words": [
+            "vi_ca_phe",
+            "vi_duong"
+        ],
+        "course": "course_vi_31",
+        "tags": [
+            "drink",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_183",
+        "text": "Tôi uống trà nóng.",
+        "translation": "我喝热茶。",
+        "words": [
+            "vi_tra",
+            "vi_nong"
+        ],
+        "course": "course_vi_31",
+        "tags": [
+            "drink",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_184",
+        "text": "Cho thêm đá.",
+        "translation": "多加冰。",
+        "words": [
+            "vi_da"
+        ],
+        "course": "course_vi_31",
+        "tags": [
+            "drink",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_185",
+        "text": "Cà phê sữa đá rất ngon.",
+        "translation": "冰奶咖啡很好喝。",
+        "words": [
+            "vi_ca_phe",
+            "vi_sua",
+            "vi_da"
+        ],
+        "course": "course_vi_31",
+        "tags": [
+            "drink",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_186",
+        "text": "Anh uống gì ạ?",
+        "translation": "您喝什么？",
+        "words": [],
+        "course": "course_vi_31",
+        "tags": [
+            "drink",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_187",
+        "text": "Siêu thị ở đâu?",
+        "translation": "超市在哪里？",
+        "words": [
+            "vi_sieu_thi"
+        ],
+        "course": "course_vi_32",
+        "tags": [
+            "shopping",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_188",
+        "text": "Tôi đi mua sắm.",
+        "translation": "我去购物。",
+        "words": [
+            "vi_mua_sam"
+        ],
+        "course": "course_vi_32",
+        "tags": [
+            "shopping",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_189",
+        "text": "Hôm nay có khuyến mãi không?",
+        "translation": "今天有促销吗？",
+        "words": [
+            "vi_khuyen_mai"
+        ],
+        "course": "course_vi_32",
+        "tags": [
+            "shopping",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_190",
+        "text": "Cho tôi một cái túi.",
+        "translation": "给我一个袋子。",
+        "words": [
+            "vi_tui"
+        ],
+        "course": "course_vi_32",
+        "tags": [
+            "shopping",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_191",
+        "text": "Thanh toán ở quầy nào?",
+        "translation": "在哪号柜台结账？",
+        "words": [
+            "vi_thanh_toan",
+            "vi_quay"
+        ],
+        "course": "course_vi_32",
+        "tags": [
+            "shopping",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_192",
+        "text": "Cái này đang giảm giá.",
+        "translation": "这个正在打折。",
+        "words": [
+            "vi_hang"
+        ],
+        "course": "course_vi_32",
+        "tags": [
+            "shopping",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_193",
+        "text": "Tôi muốn cắt tóc.",
+        "translation": "我想剪头发。",
+        "words": [
+            "vi_cat_toc"
+        ],
+        "course": "course_vi_33",
+        "tags": [
+            "beauty",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_194",
+        "text": "Cắt ngắn một chút.",
+        "translation": "剪短一点。",
+        "words": [
+            "vi_cat_toc"
+        ],
+        "course": "course_vi_33",
+        "tags": [
+            "beauty",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_195",
+        "text": "Gội đầu bao nhiêu tiền?",
+        "translation": "洗头多少钱？",
+        "words": [
+            "vi_goi_dau",
+            "vi_tien"
+        ],
+        "course": "course_vi_33",
+        "tags": [
+            "beauty",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_196",
+        "text": "Tôi muốn nhuộm tóc màu nâu.",
+        "translation": "我想染棕色头发。",
+        "words": [
+            "vi_nhuom_toc",
+            "vi_mau"
+        ],
+        "course": "course_vi_33",
+        "tags": [
+            "beauty",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_197",
+        "text": "Tiệm này mở mấy giờ?",
+        "translation": "这家店几点开门？",
+        "words": [
+            "vi_tiem"
+        ],
+        "course": "course_vi_33",
+        "tags": [
+            "beauty",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_198",
+        "text": "Anh cắt đẹp lắm.",
+        "translation": "你剪得很好看。",
+        "words": [
+            "vi_cat_toc"
+        ],
+        "course": "course_vi_33",
+        "tags": [
+            "beauty",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_199",
+        "text": "Tôi muốn gửi lá thư này.",
+        "translation": "我想寄这封信。",
+        "words": [
+            "vi_gui",
+            "vi_thu"
+        ],
+        "course": "course_vi_34",
+        "tags": [
+            "post",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_200",
+        "text": "Bưu điện ở đâu?",
+        "translation": "邮局在哪里？",
+        "words": [
+            "vi_buu_dien"
+        ],
+        "course": "course_vi_34",
+        "tags": [
+            "post",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_201",
+        "text": "Gửi đi Mỹ bao nhiêu tiền?",
+        "translation": "寄到美国多少钱？",
+        "words": [
+            "vi_gui",
+            "vi_tien"
+        ],
+        "course": "course_vi_34",
+        "tags": [
+            "post",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_202",
+        "text": "Cho tôi một phong bì.",
+        "translation": "给我一个信封。",
+        "words": [
+            "vi_phong_bi"
+        ],
+        "course": "course_vi_34",
+        "tags": [
+            "post",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_203",
+        "text": "Tôi cần mua tem.",
+        "translation": "我需要买邮票。",
+        "words": [
+            "vi_tem"
+        ],
+        "course": "course_vi_34",
+        "tags": [
+            "post",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_204",
+        "text": "Địa chỉ của bạn là gì?",
+        "translation": "你的地址是什么？",
+        "words": [
+            "vi_dia_chi"
+        ],
+        "course": "course_vi_34",
+        "tags": [
+            "post",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_205",
+        "text": "Tôi bị đau đầu.",
+        "translation": "我头疼。",
+        "words": [
+            "vi_dau"
+        ],
+        "course": "course_vi_35",
+        "tags": [
+            "health",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_206",
+        "text": "Hiệu thuốc ở gần đây không?",
+        "translation": "附近有药店吗？",
+        "words": [
+            "vi_hieu_thuoc"
+        ],
+        "course": "course_vi_35",
+        "tags": [
+            "health",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_207",
+        "text": "Tôi bị sốt.",
+        "translation": "我发烧了。",
+        "words": [
+            "vi_sot"
+        ],
+        "course": "course_vi_35",
+        "tags": [
+            "health",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_208",
+        "text": "Uống thuốc này mỗi ngày hai lần.",
+        "translation": "这个药每天吃两次。",
+        "words": [
+            "vi_uong_thuoc",
+            "vi_thuoc"
+        ],
+        "course": "course_vi_35",
+        "tags": [
+            "health",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_209",
+        "text": "Bạn cần đơn thuốc không?",
+        "translation": "你需要处方吗？",
+        "words": [
+            "vi_don_thuoc"
+        ],
+        "course": "course_vi_35",
+        "tags": [
+            "health",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_210",
+        "text": "Tôi bị ho.",
+        "translation": "我咳嗽。",
+        "words": [
+            "vi_ho"
+        ],
+        "course": "course_vi_35",
+        "tags": [
+            "health",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_211",
+        "text": "Tôi muốn khám bệnh.",
+        "translation": "我想看病。",
+        "words": [
+            "vi_kham_benh"
+        ],
+        "course": "course_vi_36",
+        "tags": [
+            "hospital",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_212",
+        "text": "Bác sĩ ở phòng nào?",
+        "translation": "医生在哪个诊室？",
+        "words": [
+            "vi_bac_si",
+            "vi_phong_kham"
+        ],
+        "course": "course_vi_36",
+        "tags": [
+            "hospital",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_213",
+        "text": "Tôi cần xét nghiệm máu.",
+        "translation": "我需要验血。",
+        "words": [
+            "vi_xet_nghiem"
+        ],
+        "course": "course_vi_36",
+        "tags": [
+            "hospital",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_214",
+        "text": "Y tá tiêm cho tôi.",
+        "translation": "护士给我打针。",
+        "words": [
+            "vi_y_ta",
+            "vi_tiem_chich"
+        ],
+        "course": "course_vi_36",
+        "tags": [
+            "hospital",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_215",
+        "text": "Bệnh viện này lớn lắm.",
+        "translation": "这家医院很大。",
+        "words": [
+            "vi_benh_vien"
+        ],
+        "course": "course_vi_36",
+        "tags": [
+            "hospital",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_216",
+        "text": "Tôi phải chờ bao lâu?",
+        "translation": "我要等多久？",
+        "words": [],
+        "course": "course_vi_36",
+        "tags": [
+            "hospital",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_217",
+        "text": "Tôi muốn mở tài khoản.",
+        "translation": "我想开户。",
+        "words": [
+            "vi_tai_khoan"
+        ],
+        "course": "course_vi_37",
+        "tags": [
+            "bank",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_218",
+        "text": "Ngân hàng mở cửa mấy giờ?",
+        "translation": "银行几点开门？",
+        "words": [
+            "vi_ngan_hang"
+        ],
+        "course": "course_vi_37",
+        "tags": [
+            "bank",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_219",
+        "text": "Tôi muốn rút tiền.",
+        "translation": "我想取钱。",
+        "words": [
+            "vi_rut_tien"
+        ],
+        "course": "course_vi_37",
+        "tags": [
+            "bank",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_220",
+        "text": "Cho tôi xem giấy tờ.",
+        "translation": "请给我看证件。",
+        "words": [
+            "vi_giay_to"
+        ],
+        "course": "course_vi_37",
+        "tags": [
+            "bank",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_221",
+        "text": "Mật khẩu của bạn là gì?",
+        "translation": "你的密码是什么？",
+        "words": [
+            "vi_mat_khau"
+        ],
+        "course": "course_vi_37",
+        "tags": [
+            "bank",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_222",
+        "text": "Tôi muốn chuyển khoản.",
+        "translation": "我想转账。",
+        "words": [
+            "vi_chuyen_khoan"
+        ],
+        "course": "course_vi_37",
+        "tags": [
+            "bank",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_223",
+        "text": "Tôi muốn mua sim điện thoại.",
+        "translation": "我想买手机卡。",
+        "words": [
+            "vi_sim",
+            "vi_dien_thoai"
+        ],
+        "course": "course_vi_38",
+        "tags": [
+            "tech",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_224",
+        "text": "Wifi ở đây có không?",
+        "translation": "这里有 WiFi 吗？",
+        "words": [
+            "vi_wifi"
+        ],
+        "course": "course_vi_38",
+        "tags": [
+            "tech",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_225",
+        "text": "Tôi cần sạc điện thoại.",
+        "translation": "我需要给手机充电。",
+        "words": [
+            "vi_sac",
+            "vi_dien_thoai"
+        ],
+        "course": "course_vi_38",
+        "tags": [
+            "tech",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_226",
+        "text": "Pin điện thoại hết rồi.",
+        "translation": "手机没电了。",
+        "words": [
+            "vi_pin",
+            "vi_dien_thoai"
+        ],
+        "course": "course_vi_38",
+        "tags": [
+            "tech",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_227",
+        "text": "Tôi gọi điện cho bạn.",
+        "translation": "我给你打电话。",
+        "words": [
+            "vi_goi_dien"
+        ],
+        "course": "course_vi_38",
+        "tags": [
+            "tech",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_228",
+        "text": "Mạng ở đây chậm quá.",
+        "translation": "这里的网络太慢了。",
+        "words": [
+            "vi_mang"
+        ],
+        "course": "course_vi_38",
+        "tags": [
+            "tech",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_229",
+        "text": "Tôi đi đóng tiền điện.",
+        "translation": "我去交电费。",
+        "words": [
+            "vi_dong_tien",
+            "vi_tien_dien"
+        ],
+        "course": "course_vi_39",
+        "tags": [
+            "utility",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_230",
+        "text": "Hóa đơn tháng này bao nhiêu tiền?",
+        "translation": "这个月的账单多少钱？",
+        "words": [
+            "vi_hoa_don_dien",
+            "vi_tien"
+        ],
+        "course": "course_vi_39",
+        "tags": [
+            "utility",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_231",
+        "text": "Tiền nước tháng này cao quá.",
+        "translation": "这个月水费太高了。",
+        "words": [
+            "vi_tien_nuoc"
+        ],
+        "course": "course_vi_39",
+        "tags": [
+            "utility",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_232",
+        "text": "Đóng tiền ở đâu?",
+        "translation": "在哪里交钱？",
+        "words": [
+            "vi_dong_tien"
+        ],
+        "course": "course_vi_39",
+        "tags": [
+            "utility",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_233",
+        "text": "Tôi chưa đóng tiền tháng trước.",
+        "translation": "我上个月的钱还没交。",
+        "words": [
+            "vi_dong_tien",
+            "vi_no"
+        ],
+        "course": "course_vi_39",
+        "tags": [
+            "utility",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_234",
+        "text": "Chỉ số điện tháng này là bao nhiêu?",
+        "translation": "这个月的电表读数是多少？",
+        "words": [
+            "vi_chi_so",
+            "vi_dien"
+        ],
+        "course": "course_vi_39",
+        "tags": [
+            "utility",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_235",
+        "text": "Tôi muốn thuê nhà.",
+        "translation": "我想租房。",
+        "words": [
+            "vi_thue_nha"
+        ],
+        "course": "course_vi_40",
+        "tags": [
+            "housing",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_236",
+        "text": "Tiền thuê mỗi tháng bao nhiêu?",
+        "translation": "每月租金多少？",
+        "words": [
+            "vi_tien_thue"
+        ],
+        "course": "course_vi_40",
+        "tags": [
+            "housing",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_237",
+        "text": "Căn hộ này gần chợ.",
+        "translation": "这间公寓离市场近。",
+        "words": [
+            "vi_can_ho",
+            "vi_cho_market"
+        ],
+        "course": "course_vi_40",
+        "tags": [
+            "housing",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_238",
+        "text": "Tôi muốn xem phòng.",
+        "translation": "我想看房。",
+        "words": [
+            "vi_phong"
+        ],
+        "course": "course_vi_40",
+        "tags": [
+            "housing",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_239",
+        "text": "Đặt cọc bao nhiêu tiền?",
+        "translation": "押金多少钱？",
+        "words": [
+            "vi_dat_coc",
+            "vi_tien"
+        ],
+        "course": "course_vi_40",
+        "tags": [
+            "housing",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_240",
+        "text": "Chủ nhà rất tốt.",
+        "translation": "房东很好。",
+        "words": [
+            "vi_chu_nha"
+        ],
+        "course": "course_vi_40",
+        "tags": [
+            "housing",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_241",
+        "text": "Máy giặt bị hỏng rồi.",
+        "translation": "洗衣机坏了。",
+        "words": [
+            "vi_hu_hong"
+        ],
+        "course": "course_vi_41",
+        "tags": [
+            "chores",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_242",
+        "text": "Tôi cần dọn nhà.",
+        "translation": "我需要打扫房子。",
+        "words": [
+            "vi_don_dep"
+        ],
+        "course": "course_vi_41",
+        "tags": [
+            "chores",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_243",
+        "text": "Hôm nay tôi giặt đồ.",
+        "translation": "今天我洗衣服。",
+        "words": [
+            "vi_giat_do"
+        ],
+        "course": "course_vi_41",
+        "tags": [
+            "chores",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_244",
+        "text": "Tôi nhờ thợ sửa.",
+        "translation": "我请修理工来修。",
+        "words": [
+            "vi_tho_sua",
+            "vi_sua_chua"
+        ],
+        "course": "course_vi_41",
+        "tags": [
+            "chores",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_245",
+        "text": "Cần vệ sinh nhà cửa.",
+        "translation": "需要打扫房屋卫生。",
+        "words": [
+            "vi_ve_sinh"
+        ],
+        "course": "course_vi_41",
+        "tags": [
+            "chores",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_246",
+        "text": "Tôi rửa bát mỗi ngày.",
+        "translation": "我每天洗碗。",
+        "words": [
+            "vi_rua_bat"
+        ],
+        "course": "course_vi_41",
+        "tags": [
+            "chores",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_247",
+        "text": "Nhà tôi có hai con mèo.",
+        "translation": "我家有两只猫。",
+        "words": [
+            "vi_con_meo"
+        ],
+        "course": "course_vi_42",
+        "tags": [
+            "animal",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_248",
+        "text": "Con chó này rất dễ thương.",
+        "translation": "这只狗很可爱。",
+        "words": [
+            "vi_con_cho"
+        ],
+        "course": "course_vi_42",
+        "tags": [
+            "animal",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_249",
+        "text": "Tôi nuôi một con cá.",
+        "translation": "我养了一条鱼。",
+        "words": [
+            "vi_nuoi",
+            "vi_con_ca"
+        ],
+        "course": "course_vi_42",
+        "tags": [
+            "animal",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_250",
+        "text": "Tôi cho mèo ăn mỗi ngày.",
+        "translation": "我每天喂猫。",
+        "words": [
+            "vi_cho_an",
+            "vi_con_meo"
+        ],
+        "course": "course_vi_42",
+        "tags": [
+            "animal",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_251",
+        "text": "Bạn có thú cưng không?",
+        "translation": "你有宠物吗？",
+        "words": [
+            "vi_thu_cung"
+        ],
+        "course": "course_vi_42",
+        "tags": [
+            "animal",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_252",
+        "text": "Con chim hót rất hay.",
+        "translation": "鸟叫得很好听。",
+        "words": [
+            "vi_con_chim"
+        ],
+        "course": "course_vi_42",
+        "tags": [
+            "animal",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_253",
+        "text": "Chúc mừng sinh nhật!",
+        "translation": "生日快乐！",
+        "words": [
+            "vi_chuc_mung",
+            "vi_sinh_nhat"
+        ],
+        "course": "course_vi_43",
+        "tags": [
+            "festival",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_254",
+        "text": "Tết này bạn về quê không?",
+        "translation": "今年春节你回家乡吗？",
+        "words": [
+            "vi_tet"
+        ],
+        "course": "course_vi_43",
+        "tags": [
+            "festival",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_255",
+        "text": "Tôi tặng cô ấy một món quà.",
+        "translation": "我送她一份礼物。",
+        "words": [
+            "vi_qua_tang"
+        ],
+        "course": "course_vi_43",
+        "tags": [
+            "festival",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_256",
+        "text": "Tối nay có tiệc.",
+        "translation": "今晚有派对。",
+        "words": [
+            "vi_tiec"
+        ],
+        "course": "course_vi_43",
+        "tags": [
+            "festival",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_257",
+        "text": "Chúng tôi trang trí nhà.",
+        "translation": "我们装饰房子。",
+        "words": [
+            "vi_trang_tri"
+        ],
+        "course": "course_vi_43",
+        "tags": [
+            "festival",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_258",
+        "text": "Bánh ngọt này rất ngon.",
+        "translation": "这个蛋糕很好吃。",
+        "words": [
+            "vi_banh_ngot"
+        ],
+        "course": "course_vi_43",
+        "tags": [
+            "festival",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_259",
+        "text": "Tối nay bạn có rảnh không?",
+        "translation": "今晚你有空吗？",
+        "words": [
+            "vi_ranh"
+        ],
+        "course": "course_vi_44",
+        "tags": [
+            "social",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_260",
+        "text": "Mời bạn đến nhà tôi chơi.",
+        "translation": "邀请你来我家玩。",
+        "words": [
+            "vi_moi_invite"
+        ],
+        "course": "course_vi_44",
+        "tags": [
+            "social",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_261",
+        "text": "Xin lỗi, tôi bận rồi.",
+        "translation": "抱歉，我忙。",
+        "words": [
+            "vi_ban_busy"
+        ],
+        "course": "course_vi_44",
+        "tags": [
+            "social",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_262",
+        "text": "Chúng ta gặp nhau ở đâu?",
+        "translation": "我们在哪里见面？",
+        "words": [
+            "vi_dia_diem"
+        ],
+        "course": "course_vi_44",
+        "tags": [
+            "social",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_263",
+        "text": "Bạn tham gia tiệc không?",
+        "translation": "你参加派对吗？",
+        "words": [
+            "vi_tham_gia",
+            "vi_tiec"
+        ],
+        "course": "course_vi_44",
+        "tags": [
+            "social",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_264",
+        "text": "Thời gian là mấy giờ?",
+        "translation": "时间是几点？",
+        "words": [
+            "vi_thoi_gian"
+        ],
+        "course": "course_vi_44",
+        "tags": [
+            "social",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_265",
+        "text": "Tiếng Việt của tôi ngày càng tốt.",
+        "translation": "我的越南语越来越好。",
+        "words": [
+            "vi_tien_bo"
+        ],
+        "course": "course_vi_45",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_266",
+        "text": "Tôi có thể nói tiếng Việt.",
+        "translation": "我能说越南语。",
+        "words": [
+            "vi_ky_nang"
+        ],
+        "course": "course_vi_45",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_267",
+        "text": "Chúng ta cùng ôn tập nhé.",
+        "translation": "我们一起复习吧。",
+        "words": [
+            "vi_on_tap"
+        ],
+        "course": "course_vi_45",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_268",
+        "text": "Thực hành giao tiếp mỗi ngày.",
+        "translation": "每天练习交流。",
+        "words": [
+            "vi_thuc_hanh",
+            "vi_giao_tiep"
+        ],
+        "course": "course_vi_45",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_269",
+        "text": "Kiến thức này rất quan trọng.",
+        "translation": "这个知识很重要。",
+        "words": [
+            "vi_kien_thuc"
+        ],
+        "course": "course_vi_45",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_270",
+        "text": "Cố gắng lên nhé!",
+        "translation": "加油哦！",
+        "words": [
+            "vi_co_gang"
+        ],
+        "course": "course_vi_45",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_271",
+        "text": "Anh ấy là người cao.",
+        "translation": "他是高个子。",
+        "words": [
+            "vi_cao"
+        ],
+        "course": "course_vi_46",
+        "tags": [
+            "describe",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_272",
+        "text": "Cô ấy có tóc dài.",
+        "translation": "她有长头发。",
+        "words": [
+            "vi_toc"
+        ],
+        "course": "course_vi_46",
+        "tags": [
+            "describe",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_273",
+        "text": "Anh ấy có mắt đen.",
+        "translation": "他有黑眼睛。",
+        "words": [
+            "vi_mat_eye"
+        ],
+        "course": "course_vi_46",
+        "tags": [
+            "describe",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_274",
+        "text": "Cô ấy là người đẹp.",
+        "translation": "她是个美人。",
+        "words": [
+            "vi_dep"
+        ],
+        "course": "course_vi_46",
+        "tags": [
+            "describe",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_275",
+        "text": "Tính cách của anh ấy rất tốt.",
+        "translation": "他的性格很好。",
+        "words": [
+            "vi_tinh_cach"
+        ],
+        "course": "course_vi_46",
+        "tags": [
+            "describe",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_276",
+        "text": "Cô ấy còn trẻ.",
+        "translation": "她还年轻。",
+        "words": [
+            "vi_tre"
+        ],
+        "course": "course_vi_46",
+        "tags": [
+            "describe",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_277",
+        "text": "Cái túi này to.",
+        "translation": "这个包很大。",
+        "words": [
+            "vi_to"
+        ],
+        "course": "course_vi_47",
+        "tags": [
+            "describe",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_278",
+        "text": "Điện thoại mới của tôi nhỏ.",
+        "translation": "我的新手机很小。",
+        "words": [
+            "vi_moi_new",
+            "vi_nho"
+        ],
+        "course": "course_vi_47",
+        "tags": [
+            "describe",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_279",
+        "text": "Cái bàn này bằng gỗ.",
+        "translation": "这张桌子是木头的。",
+        "words": [
+            "vi_chat_lieu"
+        ],
+        "course": "course_vi_47",
+        "tags": [
+            "describe",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_280",
+        "text": "Cái hộp này nặng quá.",
+        "translation": "这个盒子太重了。",
+        "words": [
+            "vi_nang"
+        ],
+        "course": "course_vi_47",
+        "tags": [
+            "describe",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_281",
+        "text": "Cái này rất nhẹ.",
+        "translation": "这个很轻。",
+        "words": [
+            "vi_nhe"
+        ],
+        "course": "course_vi_47",
+        "tags": [
+            "describe",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_282",
+        "text": "Hình dáng của nó đẹp.",
+        "translation": "它的形状很美。",
+        "words": [
+            "vi_hinh_dang"
+        ],
+        "course": "course_vi_47",
+        "tags": [
+            "describe",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_283",
+        "text": "Tôi cảm thấy vui.",
+        "translation": "我感到高兴。",
+        "words": [
+            "vi_vui"
+        ],
+        "course": "course_vi_48",
+        "tags": [
+            "emotion",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_284",
+        "text": "Cô ấy cảm thấy buồn.",
+        "translation": "她感到难过。",
+        "words": [
+            "vi_buon"
+        ],
+        "course": "course_vi_48",
+        "tags": [
+            "emotion",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_285",
+        "text": "Tôi lo lắng về kỳ thi.",
+        "translation": "我担心考试。",
+        "words": [
+            "vi_lo_lang"
+        ],
+        "course": "course_vi_48",
+        "tags": [
+            "emotion",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_286",
+        "text": "Tôi rất thích cuốn sách này.",
+        "translation": "我很喜欢这本书。",
+        "words": [
+            "vi_thich"
+        ],
+        "course": "course_vi_48",
+        "tags": [
+            "emotion",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_287",
+        "text": "Tôi sợ độ cao.",
+        "translation": "我怕高。",
+        "words": [
+            "vi_so"
+        ],
+        "course": "course_vi_48",
+        "tags": [
+            "emotion",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_288",
+        "text": "Cô ấy rất hạnh phúc.",
+        "translation": "她很幸福。",
+        "words": [
+            "vi_hanh_phuc"
+        ],
+        "course": "course_vi_48",
+        "tags": [
+            "emotion",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_289",
+        "text": "Tôi nghĩ vấn đề này quan trọng.",
+        "translation": "我认为这个问题重要。",
+        "words": [
+            "vi_nghi",
+            "vi_van_de"
+        ],
+        "course": "course_vi_49",
+        "tags": [
+            "opinion",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_290",
+        "text": "Theo tôi, việc này nên làm.",
+        "translation": "在我看来，这件事应该做。",
+        "words": [
+            "vi_theo"
+        ],
+        "course": "course_vi_49",
+        "tags": [
+            "opinion",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_291",
+        "text": "Ý kiến của bạn thế nào?",
+        "translation": "你的意见如何？",
+        "words": [
+            "vi_y_kien"
+        ],
+        "course": "course_vi_49",
+        "tags": [
+            "opinion",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_292",
+        "text": "Tôi có suy nghĩ khác.",
+        "translation": "我有不同的想法。",
+        "words": [
+            "vi_suy_nghi"
+        ],
+        "course": "course_vi_49",
+        "tags": [
+            "opinion",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_293",
+        "text": "Có lẽ bạn đúng.",
+        "translation": "也许你是对的。",
+        "words": [
+            "vi_co_le"
+        ],
+        "course": "course_vi_49",
+        "tags": [
+            "opinion",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_294",
+        "text": "Điều này thật quan trọng.",
+        "translation": "这真的很重要。",
+        "words": [
+            "vi_that",
+            "vi_quan_trong"
+        ],
+        "course": "course_vi_49",
+        "tags": [
+            "opinion",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_295",
+        "text": "Tôi hoàn toàn đồng ý với bạn.",
+        "translation": "我完全同意你。",
+        "words": [
+            "vi_dong_y",
+            "vi_hoan_toan"
+        ],
+        "course": "course_vi_50",
+        "tags": [
+            "agree",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_296",
+        "text": "Tôi không đồng ý vì lý do này.",
+        "translation": "我不同意，因为这个理由。",
+        "words": [
+            "vi_ly_do"
+        ],
+        "course": "course_vi_50",
+        "tags": [
+            "agree",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_297",
+        "text": "Bạn nói đúng.",
+        "translation": "你说得对。",
+        "words": [
+            "vi_dung_right"
+        ],
+        "course": "course_vi_50",
+        "tags": [
+            "agree",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_298",
+        "text": "Điều đó sai rồi.",
+        "translation": "那是错的。",
+        "words": [
+            "vi_sai"
+        ],
+        "course": "course_vi_50",
+        "tags": [
+            "agree",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_299",
+        "text": "Tôi ủng hộ ý kiến này.",
+        "translation": "我支持这个意见。",
+        "words": [
+            "vi_ung_ho"
+        ],
+        "course": "course_vi_50",
+        "tags": [
+            "agree",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_300",
+        "text": "Tôi phản đối ý kiến đó.",
+        "translation": "我反对那个意见。",
+        "words": [
+            "vi_phan_doi"
+        ],
+        "course": "course_vi_50",
+        "tags": [
+            "agree",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_301",
+        "text": "Xin lỗi vì tôi đến muộn.",
+        "translation": "抱歉我迟到了。",
+        "words": [
+            "vi_xin_loi"
+        ],
+        "course": "course_vi_51",
+        "tags": [
+            "apology",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_302",
+        "text": "Không sao, đừng lo.",
+        "translation": "没关系，别担心。",
+        "words": [
+            "vi_khong_sao"
+        ],
+        "course": "course_vi_51",
+        "tags": [
+            "apology",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_303",
+        "text": "Đây là lỗi của tôi.",
+        "translation": "这是我的错。",
+        "words": [
+            "vi_loi"
+        ],
+        "course": "course_vi_51",
+        "tags": [
+            "apology",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_304",
+        "text": "Tôi không cố ý.",
+        "translation": "我不是故意的。",
+        "words": [
+            "vi_co_y"
+        ],
+        "course": "course_vi_51",
+        "tags": [
+            "apology",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_305",
+        "text": "Tôi hứa sẽ không tái phạm.",
+        "translation": "我保证不再犯。",
+        "words": [
+            "vi_hua"
+        ],
+        "course": "course_vi_51",
+        "tags": [
+            "apology",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_306",
+        "text": "Tôi tha thứ cho bạn.",
+        "translation": "我原谅你。",
+        "words": [
+            "vi_tha_thu"
+        ],
+        "course": "course_vi_51",
+        "tags": [
+            "apology",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_307",
+        "text": "Cảm ơn vì đã giúp tôi.",
+        "translation": "谢谢你帮了我。",
+        "words": [
+            "vi_cam_on",
+            "vi_giup"
+        ],
+        "course": "course_vi_52",
+        "tags": [
+            "thanks",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_308",
+        "text": "Cảm ơn nhiều nhé!",
+        "translation": "非常感谢！",
+        "words": [
+            "vi_cam_on_nhieu"
+        ],
+        "course": "course_vi_52",
+        "tags": [
+            "thanks",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_309",
+        "text": "Không có gì đâu.",
+        "translation": "没什么啦。",
+        "words": [
+            "vi_khong_co_gi"
+        ],
+        "course": "course_vi_52",
+        "tags": [
+            "thanks",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_310",
+        "text": "Bạn thật tốt bụng.",
+        "translation": "你真好心。",
+        "words": [
+            "vi_tot_bung"
+        ],
+        "course": "course_vi_52",
+        "tags": [
+            "thanks",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_311",
+        "text": "Xin lỗi đã làm phiền bạn.",
+        "translation": "抱歉打扰你了。",
+        "words": [
+            "vi_lam_phien"
+        ],
+        "course": "course_vi_52",
+        "tags": [
+            "thanks",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_312",
+        "text": "Tôi sẵn sàng giúp đỡ.",
+        "translation": "我随时愿意帮忙。",
+        "words": [
+            "vi_san_sang",
+            "vi_giup_do"
+        ],
+        "course": "course_vi_52",
+        "tags": [
+            "thanks",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_313",
+        "text": "Bạn giỏi quá!",
+        "translation": "你真棒！",
+        "words": [
+            "vi_gioi"
+        ],
+        "course": "course_vi_53",
+        "tags": [
+            "praise",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_314",
+        "text": "Cố lên, bạn làm được!",
+        "translation": "加油，你能做到！",
+        "words": [
+            "vi_co_len"
+        ],
+        "course": "course_vi_53",
+        "tags": [
+            "praise",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_315",
+        "text": "Thật tuyệt vời!",
+        "translation": "太棒了！",
+        "words": [
+            "vi_tuyet_voi"
+        ],
+        "course": "course_vi_53",
+        "tags": [
+            "praise",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_316",
+        "text": "Tôi tin tưởng bạn.",
+        "translation": "我相信你。",
+        "words": [
+            "vi_tin_tuong"
+        ],
+        "course": "course_vi_53",
+        "tags": [
+            "praise",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_317",
+        "text": "Chúc bạn thành công!",
+        "translation": "祝你成功！",
+        "words": [
+            "vi_thanh_cong"
+        ],
+        "course": "course_vi_53",
+        "tags": [
+            "praise",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_318",
+        "text": "Đừng lo, tôi động viên bạn.",
+        "translation": "别担心，我鼓励你。",
+        "words": [
+            "vi_dong_vien"
+        ],
+        "course": "course_vi_53",
+        "tags": [
+            "praise",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_319",
+        "text": "Dịch vụ ở đây tệ quá.",
+        "translation": "这里的服务太差了。",
+        "words": [
+            "vi_te"
+        ],
+        "course": "course_vi_54",
+        "tags": [
+            "complain",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_320",
+        "text": "Tôi không hài lòng với sản phẩm này.",
+        "translation": "我对这个产品不满意。",
+        "words": [
+            "vi_khong_hai_long"
+        ],
+        "course": "course_vi_54",
+        "tags": [
+            "complain",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_321",
+        "text": "Tôi muốn đổi trả sản phẩm này.",
+        "translation": "我想退换这个产品。",
+        "words": [
+            "vi_doi_tra"
+        ],
+        "course": "course_vi_54",
+        "tags": [
+            "complain",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_322",
+        "text": "Có thể hoàn tiền không?",
+        "translation": "可以退款吗？",
+        "words": [
+            "vi_hoan_tien"
+        ],
+        "course": "course_vi_54",
+        "tags": [
+            "complain",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_323",
+        "text": "Giao hàng chậm quá.",
+        "translation": "送货太慢了。",
+        "words": [
+            "vi_cham"
+        ],
+        "course": "course_vi_54",
+        "tags": [
+            "complain",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_324",
+        "text": "Tôi muốn khiếu nại về sự cố này.",
+        "translation": "我想就这个故障投诉。",
+        "words": [
+            "vi_khieu_nai",
+            "vi_su_co"
+        ],
+        "course": "course_vi_54",
+        "tags": [
+            "complain",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_325",
+        "text": "Bạn nên nghỉ ngơi.",
+        "translation": "你应该休息。",
+        "words": [
+            "vi_nen"
+        ],
+        "course": "course_vi_55",
+        "tags": [
+            "advice",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_326",
+        "text": "Bạn không nên thức khuya.",
+        "translation": "你不应该熬夜。",
+        "words": [
+            "vi_khong_nen"
+        ],
+        "course": "course_vi_55",
+        "tags": [
+            "advice",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_327",
+        "text": "Tôi có một lời khuyên cho bạn.",
+        "translation": "我有个忠告给你。",
+        "words": [
+            "vi_loi_khuyen"
+        ],
+        "course": "course_vi_55",
+        "tags": [
+            "advice",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_328",
+        "text": "Tốt nhất là bạn đi khám bác sĩ.",
+        "translation": "你最好去看医生。",
+        "words": [
+            "vi_tot_nhat"
+        ],
+        "course": "course_vi_55",
+        "tags": [
+            "advice",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_329",
+        "text": "Tôi đề nghị bạn thử xem.",
+        "translation": "我建议你试试看。",
+        "words": [
+            "vi_de_nghi",
+            "vi_thu_xem"
+        ],
+        "course": "course_vi_55",
+        "tags": [
+            "advice",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_330",
+        "text": "Mẹ khuyên tôi nên học chăm.",
+        "translation": "妈妈劝我要用功学习。",
+        "words": [
+            "vi_khuyen"
+        ],
+        "course": "course_vi_55",
+        "tags": [
+            "advice",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_331",
+        "text": "Chúng ta hẹn gặp lúc 7 giờ.",
+        "translation": "我们约在 7 点见面。",
+        "words": [
+            "vi_hen"
+        ],
+        "course": "course_vi_56",
+        "tags": [
+            "promise",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_332",
+        "text": "Tôi hứa sẽ giữ lời.",
+        "translation": "我保证守信。",
+        "words": [
+            "vi_giu_loi"
+        ],
+        "course": "course_vi_56",
+        "tags": [
+            "promise",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_333",
+        "text": "Tôi cam kết thực hiện đúng.",
+        "translation": "我承诺按时完成。",
+        "words": [
+            "vi_cam_ket",
+            "vi_thuc_hien"
+        ],
+        "course": "course_vi_56",
+        "tags": [
+            "promise",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_334",
+        "text": "Đừng quên nhắc tôi nhé.",
+        "translation": "别忘了提醒我。",
+        "words": [
+            "vi_quen",
+            "vi_nhac"
+        ],
+        "course": "course_vi_56",
+        "tags": [
+            "promise",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_335",
+        "text": "Chúng ta thỏa thuận như vậy nhé.",
+        "translation": "我们就这么商定吧。",
+        "words": [
+            "vi_thoa_thuan"
+        ],
+        "course": "course_vi_56",
+        "tags": [
+            "promise",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_336",
+        "text": "Tôi đảm bảo sẽ đến đúng giờ.",
+        "translation": "我保证准时到。",
+        "words": [
+            "vi_dam_bao"
+        ],
+        "course": "course_vi_56",
+        "tags": [
+            "promise",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_337",
+        "text": "Tôi gọi điện cho mẹ.",
+        "translation": "我打电话给妈妈。",
+        "words": [
+            "vi_goi_dien"
+        ],
+        "course": "course_vi_57",
+        "tags": [
+            "phone",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_338",
+        "text": "Gọi lại cho tôi nhé.",
+        "translation": "给我回个电话吧。",
+        "words": [
+            "vi_goi_lai"
+        ],
+        "course": "course_vi_57",
+        "tags": [
+            "phone",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_339",
+        "text": "Tôi sẽ nhắn tin cho bạn.",
+        "translation": "我会给你发短信。",
+        "words": [
+            "vi_nhan_tin"
+        ],
+        "course": "course_vi_57",
+        "tags": [
+            "phone",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_340",
+        "text": "Xin lỗi, tôi nhầm máy.",
+        "translation": "对不起，我打错了。",
+        "words": [
+            "vi_nham_may"
+        ],
+        "course": "course_vi_57",
+        "tags": [
+            "phone",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_341",
+        "text": "Đường dây đang bận.",
+        "translation": "线路正忙。",
+        "words": [
+            "vi_duong_day",
+            "vi_am_mac"
+        ],
+        "course": "course_vi_57",
+        "tags": [
+            "phone",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_342",
+        "text": "Chúng ta giữ liên lạc nhé.",
+        "translation": "我们保持联系吧。",
+        "words": [
+            "vi_lien_lac"
+        ],
+        "course": "course_vi_57",
+        "tags": [
+            "phone",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_343",
+        "text": "Cô ấy đăng bài trên mạng xã hội.",
+        "translation": "她在社交网络上发帖。",
+        "words": [
+            "vi_dang_bai",
+            "vi_mang_xa_hoi"
+        ],
+        "course": "course_vi_58",
+        "tags": [
+            "online",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_344",
+        "text": "Tôi muốn kết bạn với anh ấy.",
+        "translation": "我想和他加好友。",
+        "words": [
+            "vi_ket_ban"
+        ],
+        "course": "course_vi_58",
+        "tags": [
+            "online",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_345",
+        "text": "Chia sẻ bài này cho bạn bè.",
+        "translation": "把这个帖子分享给朋友。",
+        "words": [
+            "vi_chia_se"
+        ],
+        "course": "course_vi_58",
+        "tags": [
+            "online",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_346",
+        "text": "Tôi theo dõi trang này.",
+        "translation": "我关注这个页面。",
+        "words": [
+            "vi_theo_doi"
+        ],
+        "course": "course_vi_58",
+        "tags": [
+            "online",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_347",
+        "text": "Anh ấy bình luận rất nhiều.",
+        "translation": "他评论了很多。",
+        "words": [
+            "vi_binh_luan"
+        ],
+        "course": "course_vi_58",
+        "tags": [
+            "online",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_348",
+        "text": "Tôi đang trực tuyến.",
+        "translation": "我在线。",
+        "words": [
+            "vi_truc_tuyen"
+        ],
+        "course": "course_vi_58",
+        "tags": [
+            "online",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_349",
+        "text": "Tôi từng đến Việt Nam.",
+        "translation": "我曾去过越南。",
+        "words": [
+            "vi_tung"
+        ],
+        "course": "course_vi_59",
+        "tags": [
+            "past",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_350",
+        "text": "Tôi đã ăn cơm rồi.",
+        "translation": "我已经吃饭了。",
+        "words": [
+            "vi_da_past",
+            "vi_roi"
+        ],
+        "course": "course_vi_59",
+        "tags": [
+            "past",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_351",
+        "text": "Hôm qua tôi đi chợ.",
+        "translation": "昨天我去了市场。",
+        "words": [
+            "vi_hom_qua"
+        ],
+        "course": "course_vi_59",
+        "tags": [
+            "past",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_352",
+        "text": "Tuần trước tôi nghỉ ở nhà.",
+        "translation": "上周我在家休息。",
+        "words": [
+            "vi_tuan_truoc"
+        ],
+        "course": "course_vi_59",
+        "tags": [
+            "past",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_353",
+        "text": "Đó là một kỷ niệm đẹp.",
+        "translation": "那是一个美好的回忆。",
+        "words": [
+            "vi_ky_uc"
+        ],
+        "course": "course_vi_59",
+        "tags": [
+            "past",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_354",
+        "text": "Năm ngoái tôi học tiếng Việt.",
+        "translation": "去年我学了越南语。",
+        "words": [
+            "vi_nam_ngoai"
+        ],
+        "course": "course_vi_59",
+        "tags": [
+            "past",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_355",
+        "text": "Ngày mai tôi sẽ đi Hà Nội.",
+        "translation": "明天我要去河内。",
+        "words": [
+            "vi_se",
+            "vi_ngay_mai"
+        ],
+        "course": "course_vi_60",
+        "tags": [
+            "future",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_356",
+        "text": "Tôi dự định học tiếng Việt.",
+        "translation": "我打算学越南语。",
+        "words": [
+            "vi_du_dinh"
+        ],
+        "course": "course_vi_60",
+        "tags": [
+            "future",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_357",
+        "text": "Tuần sau tôi sẽ đi công tác.",
+        "translation": "下周我要出差。",
+        "words": [
+            "vi_tuan_sau"
+        ],
+        "course": "course_vi_60",
+        "tags": [
+            "future",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_358",
+        "text": "Năm sau tôi sẽ về quê.",
+        "translation": "明年我要回家乡。",
+        "words": [
+            "vi_nam_sau"
+        ],
+        "course": "course_vi_60",
+        "tags": [
+            "future",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_359",
+        "text": "Tương lai tôi muốn làm bác sĩ.",
+        "translation": "将来我想当医生。",
+        "words": [
+            "vi_tuong_lai"
+        ],
+        "course": "course_vi_60",
+        "tags": [
+            "future",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_360",
+        "text": "Đây là mong muốn của tôi.",
+        "translation": "这是我的愿望。",
+        "words": [
+            "vi_mong_muon"
+        ],
+        "course": "course_vi_60",
+        "tags": [
+            "future",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_361",
+        "text": "Tôi đang ăn cơm.",
+        "translation": "我正在吃饭。",
+        "words": [
+            "vi_dang_now"
+        ],
+        "course": "course_vi_61",
+        "tags": [
+            "present",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_362",
+        "text": "Bây giờ tôi đang học bài.",
+        "translation": "现在我正在学习。",
+        "words": [
+            "vi_bay_gio"
+        ],
+        "course": "course_vi_61",
+        "tags": [
+            "present",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_363",
+        "text": "Trời sắp mưa.",
+        "translation": "天快下雨了。",
+        "words": [
+            "vi_sap"
+        ],
+        "course": "course_vi_61",
+        "tags": [
+            "present",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_364",
+        "text": "Tôi vừa mới đến.",
+        "translation": "我刚到。",
+        "words": [
+            "vi_vua_moi"
+        ],
+        "course": "course_vi_61",
+        "tags": [
+            "present",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_365",
+        "text": "Làm ngay lập tức.",
+        "translation": "马上做。",
+        "words": [
+            "vi_ngay_lap_tuc"
+        ],
+        "course": "course_vi_61",
+        "tags": [
+            "present",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_366",
+        "text": "Chúng ta tiếp tục học nhé.",
+        "translation": "我们继续学习吧。",
+        "words": [
+            "vi_tiep_tuc"
+        ],
+        "course": "course_vi_61",
+        "tags": [
+            "present",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_367",
+        "text": "Chúng ta luyện tập hội thoại.",
+        "translation": "我们练习对话。",
+        "words": [
+            "vi_luyen_tap",
+            "vi_hoi_thoai"
+        ],
+        "course": "course_vi_62",
+        "tags": [
+            "dialogue",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_368",
+        "text": "Đây là một tình huống thực tế.",
+        "translation": "这是一个真实情景。",
+        "words": [
+            "vi_tinh_huong"
+        ],
+        "course": "course_vi_62",
+        "tags": [
+            "dialogue",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_369",
+        "text": "Chúng ta nhập vai nhé.",
+        "translation": "我们来角色扮演吧。",
+        "words": [
+            "vi_nhap_vai"
+        ],
+        "course": "course_vi_62",
+        "tags": [
+            "dialogue",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_370",
+        "text": "Cảm ơn phản hồi của bạn.",
+        "translation": "谢谢你的反馈。",
+        "words": [
+            "vi_phan_hoi"
+        ],
+        "course": "course_vi_62",
+        "tags": [
+            "dialogue",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_371",
+        "text": "Nói chuyện tự nhiên hơn.",
+        "translation": "说话更自然一点。",
+        "words": [
+            "vi_tu_nhien"
+        ],
+        "course": "course_vi_62",
+        "tags": [
+            "dialogue",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_372",
+        "text": "Bạn nói tiếng Việt rất lưu loát.",
+        "translation": "你越南语说得很流利。",
+        "words": [
+            "vi_luu_loat"
+        ],
+        "course": "course_vi_62",
+        "tags": [
+            "dialogue",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_373",
+        "text": "Chúng ta tổng ôn lại nhé.",
+        "translation": "我们总复习一遍吧。",
+        "words": [
+            "vi_tong_on"
+        ],
+        "course": "course_vi_63",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_374",
+        "text": "Ngữ pháp tiếng Việt rất hệ thống.",
+        "translation": "越南语语法很系统。",
+        "words": [
+            "vi_ngu_phap",
+            "vi_he_thong"
+        ],
+        "course": "course_vi_63",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_375",
+        "text": "Phải rèn luyện mỗi ngày.",
+        "translation": "必须每天锻炼。",
+        "words": [
+            "vi_ren_luyen"
+        ],
+        "course": "course_vi_63",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_376",
+        "text": "Tôi ngày càng tự tin.",
+        "translation": "我越来越自信。",
+        "words": [
+            "vi_tu_tin"
+        ],
+        "course": "course_vi_63",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_377",
+        "text": "Từ vựng của tôi còn ít.",
+        "translation": "我的词汇还很少。",
+        "words": [
+            "vi_tu_vung"
+        ],
+        "course": "course_vi_63",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_378",
+        "text": "Mục tiêu của tôi là nói lưu loát.",
+        "translation": "我的目标是说得流利。",
+        "words": [
+            "vi_muc_tieu"
+        ],
+        "course": "course_vi_63",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_379",
+        "text": "Tôi muốn mua vé tàu.",
+        "translation": "我想买火车票。",
+        "words": [
+            "vi_mua_ve",
+            "vi_ve_tau"
+        ],
+        "course": "course_vi_64",
+        "tags": [
+            "transport",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_380",
+        "text": "Bến xe ở đâu?",
+        "translation": "汽车站在哪里？",
+        "words": [
+            "vi_ben_xe"
+        ],
+        "course": "course_vi_64",
+        "tags": [
+            "transport",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_381",
+        "text": "Mấy giờ tàu khởi hành?",
+        "translation": "火车几点出发？",
+        "words": [
+            "vi_gio_khoi_hanh"
+        ],
+        "course": "course_vi_64",
+        "tags": [
+            "transport",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_382",
+        "text": "Cho tôi một chỗ ngồi.",
+        "translation": "给我一个座位。",
+        "words": [
+            "vi_cho_ngoi"
+        ],
+        "course": "course_vi_64",
+        "tags": [
+            "transport",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_383",
+        "text": "Tôi đi xe buýt.",
+        "translation": "我坐公交车。",
+        "words": [
+            "vi_xe_bus"
+        ],
+        "course": "course_vi_64",
+        "tags": [
+            "transport",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_384",
+        "text": "Giao thông ở đây rất tốt.",
+        "translation": "这里的交通很好。",
+        "words": [
+            "vi_giao_thong"
+        ],
+        "course": "course_vi_64",
+        "tags": [
+            "transport",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_385",
+        "text": "Máy bay cất cánh lúc mấy giờ?",
+        "translation": "飞机几点起飞？",
+        "words": [
+            "vi_may_bay"
+        ],
+        "course": "course_vi_65",
+        "tags": [
+            "flight",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_386",
+        "text": "Tôi cần làm thủ tục.",
+        "translation": "我需要办手续。",
+        "words": [
+            "vi_lam_thu_tuc"
+        ],
+        "course": "course_vi_65",
+        "tags": [
+            "flight",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_387",
+        "text": "Hành lý của tôi đâu?",
+        "translation": "我的行李在哪？",
+        "words": [
+            "vi_hanh_ly"
+        ],
+        "course": "course_vi_65",
+        "tags": [
+            "flight",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_388",
+        "text": "Tôi muốn mua vé máy bay.",
+        "translation": "我想买机票。",
+        "words": [
+            "vi_ve_may_bay"
+        ],
+        "course": "course_vi_65",
+        "tags": [
+            "flight",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_389",
+        "text": "Chuyến bay này bị hoãn.",
+        "translation": "这个航班延误了。",
+        "words": [
+            "vi_chuyen_bay"
+        ],
+        "course": "course_vi_65",
+        "tags": [
+            "flight",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_390",
+        "text": "Máy bay sắp hạ cánh.",
+        "translation": "飞机即将降落。",
+        "words": [
+            "vi_ha_canh"
+        ],
+        "course": "course_vi_65",
+        "tags": [
+            "flight",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_391",
+        "text": "Tôi đi xe khách.",
+        "translation": "我坐长途客车。",
+        "words": [
+            "vi_xe_khach"
+        ],
+        "course": "course_vi_66",
+        "tags": [
+            "transport",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_392",
+        "text": "Tàu này có toa nằm không?",
+        "translation": "这火车有卧铺吗？",
+        "words": [
+            "vi_toa_tau",
+            "vi_ghe_nam"
+        ],
+        "course": "course_vi_66",
+        "tags": [
+            "transport",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_393",
+        "text": "Tuyến đường này rất dài.",
+        "translation": "这条路线很长。",
+        "words": [
+            "vi_tuyen_duong"
+        ],
+        "course": "course_vi_66",
+        "tags": [
+            "transport",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_394",
+        "text": "Tàu bị trễ chuyến.",
+        "translation": "火车晚点了。",
+        "words": [
+            "vi_tre_chuyen"
+        ],
+        "course": "course_vi_66",
+        "tags": [
+            "transport",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_395",
+        "text": "Tôi muốn đi đường sắt.",
+        "translation": "我想坐铁路。",
+        "words": [
+            "vi_duong_sat"
+        ],
+        "course": "course_vi_66",
+        "tags": [
+            "transport",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_396",
+        "text": "Xe dừng ở bến nào?",
+        "translation": "车停在哪一站？",
+        "words": [
+            "vi_dung_ben"
+        ],
+        "course": "course_vi_66",
+        "tags": [
+            "transport",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_397",
+        "text": "Tôi muốn thuê xe.",
+        "translation": "我想租车。",
+        "words": [
+            "vi_thue_xe"
+        ],
+        "course": "course_vi_67",
+        "tags": [
+            "drive",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_398",
+        "text": "Bạn có bằng lái không?",
+        "translation": "你有驾照吗？",
+        "words": [
+            "vi_bang_lai"
+        ],
+        "course": "course_vi_67",
+        "tags": [
+            "drive",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_399",
+        "text": "Đổ xăng ở đâu?",
+        "translation": "在哪里加油？",
+        "words": [
+            "vi_do_xang",
+            "vi_xang"
+        ],
+        "course": "course_vi_67",
+        "tags": [
+            "drive",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_400",
+        "text": "Bãi đỗ xe ở đâu?",
+        "translation": "停车场在哪里？",
+        "words": [
+            "vi_bai_do"
+        ],
+        "course": "course_vi_67",
+        "tags": [
+            "drive",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_401",
+        "text": "Tôi lái xe rất cẩn thận.",
+        "translation": "我开车很小心。",
+        "words": [
+            "vi_lai_xe"
+        ],
+        "course": "course_vi_67",
+        "tags": [
+            "drive",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_402",
+        "text": "Chú ý biển báo.",
+        "translation": "注意路标。",
+        "words": [
+            "vi_bien_bao"
+        ],
+        "course": "course_vi_67",
+        "tags": [
+            "drive",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_403",
+        "text": "Tôi muốn gọi taxi.",
+        "translation": "我想叫出租车。",
+        "words": [
+            "vi_taxi"
+        ],
+        "course": "course_vi_68",
+        "tags": [
+            "taxi",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_404",
+        "text": "Tài xế rất thân thiện.",
+        "translation": "司机很友好。",
+        "words": [
+            "vi_tai_xe"
+        ],
+        "course": "course_vi_68",
+        "tags": [
+            "taxi",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_405",
+        "text": "Cước phí bao nhiêu?",
+        "translation": "车费多少？",
+        "words": [
+            "vi_cuoc_phi"
+        ],
+        "course": "course_vi_68",
+        "tags": [
+            "taxi",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_406",
+        "text": "Đồng hồ tính tiền chạy rồi.",
+        "translation": "计价器开始计费了。",
+        "words": [
+            "vi_dong_ho"
+        ],
+        "course": "course_vi_68",
+        "tags": [
+            "taxi",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_407",
+        "text": "Tôi đặt xe qua ứng dụng.",
+        "translation": "我通过应用叫车。",
+        "words": [
+            "vi_dat_xe",
+            "vi_ung_dung"
+        ],
+        "course": "course_vi_68",
+        "tags": [
+            "taxi",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_408",
+        "text": "Điểm hẹn ở đâu?",
+        "translation": "约定地点在哪里？",
+        "words": [
+            "vi_diem_hen"
+        ],
+        "course": "course_vi_68",
+        "tags": [
+            "taxi",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_409",
+        "text": "Tôi muốn hỏi đường.",
+        "translation": "我想问路。",
+        "words": [
+            "vi_hoi_duong"
+        ],
+        "course": "course_vi_69",
+        "tags": [
+            "direction",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_410",
+        "text": "Đi thẳng rồi quẹo trái.",
+        "translation": "直走然后左转。",
+        "words": [
+            "vi_di_thang",
+            "vi_queo"
+        ],
+        "course": "course_vi_69",
+        "tags": [
+            "direction",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_411",
+        "text": "Quẹo phải ở ngã tư.",
+        "translation": "在十字路口右转。",
+        "words": [
+            "vi_nga_tu",
+            "vi_ben_phai"
+        ],
+        "course": "course_vi_69",
+        "tags": [
+            "direction",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_412",
+        "text": "Ngân hàng ở bên trái.",
+        "translation": "银行在左边。",
+        "words": [
+            "vi_ben_trai"
+        ],
+        "course": "course_vi_69",
+        "tags": [
+            "direction",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_413",
+        "text": "Khách sạn đối diện công viên.",
+        "translation": "酒店在公园对面。",
+        "words": [
+            "vi_doi_dien",
+            "vi_cong_vien"
+        ],
+        "course": "course_vi_69",
+        "tags": [
+            "direction",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_414",
+        "text": "Bạn có thể chỉ đường cho tôi không?",
+        "translation": "你能给我指路吗？",
+        "words": [
+            "vi_chi_duong"
+        ],
+        "course": "course_vi_69",
+        "tags": [
+            "direction",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_415",
+        "text": "Vé vào cửa bao nhiêu tiền?",
+        "translation": "门票多少钱？",
+        "words": [
+            "vi_ve_vao_cua"
+        ],
+        "course": "course_vi_70",
+        "tags": [
+            "sightseeing",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_416",
+        "text": "Tôi muốn tham quan bảo tàng.",
+        "translation": "我想参观博物馆。",
+        "words": [
+            "vi_tham_quan",
+            "vi_bao_tang"
+        ],
+        "course": "course_vi_70",
+        "tags": [
+            "sightseeing",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_417",
+        "text": "Chùa này được xây dựng cách đây 100 năm.",
+        "translation": "这座寺庙建于 100 年前。",
+        "words": [
+            "vi_chua_temple"
+        ],
+        "course": "course_vi_70",
+        "tags": [
+            "sightseeing",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_418",
+        "text": "Điểm tham quan này rất đẹp.",
+        "translation": "这个景点很美。",
+        "words": [
+            "vi_diem_tham_quan",
+            "vi_canh_dep"
+        ],
+        "course": "course_vi_70",
+        "tags": [
+            "sightseeing",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_419",
+        "text": "Di tích này có lịch sử lâu đời.",
+        "translation": "这个遗迹历史悠久。",
+        "words": [
+            "vi_di_tich"
+        ],
+        "course": "course_vi_70",
+        "tags": [
+            "sightseeing",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_420",
+        "text": "Tôi đi dạo ở công viên.",
+        "translation": "我在公园散步。",
+        "words": [
+            "vi_cong_vien"
+        ],
+        "course": "course_vi_70",
+        "tags": [
+            "sightseeing",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_421",
+        "text": "Hướng dẫn viên rất nhiệt tình.",
+        "translation": "导游很热情。",
+        "words": [
+            "vi_huong_dan_vien"
+        ],
+        "course": "course_vi_71",
+        "tags": [
+            "tour",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_422",
+        "text": "Tôi sẽ giới thiệu về lịch sử.",
+        "translation": "我将介绍历史。",
+        "words": [
+            "vi_gioi_thieu",
+            "vi_lich_su"
+        ],
+        "course": "course_vi_71",
+        "tags": [
+            "tour",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_423",
+        "text": "Ngôi chùa có 500 năm lịch sử.",
+        "translation": "这座寺庙有 500 年历史。",
+        "words": [
+            "vi_chua_temple",
+            "vi_lich_su"
+        ],
+        "course": "course_vi_71",
+        "tags": [
+            "tour",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_424",
+        "text": "Văn hóa Việt Nam rất phong phú.",
+        "translation": "越南文化很丰富。",
+        "words": [
+            "vi_van_hoa"
+        ],
+        "course": "course_vi_71",
+        "tags": [
+            "tour",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_425",
+        "text": "Đoàn khách đến rồi.",
+        "translation": "旅游团到了。",
+        "words": [
+            "vi_doan_khach"
+        ],
+        "course": "course_vi_71",
+        "tags": [
+            "tour",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_426",
+        "text": "Đây là nghệ thuật truyền thống.",
+        "translation": "这是传统艺术。",
+        "words": [
+            "vi_nghe_thuat",
+            "vi_truyen_thong"
+        ],
+        "course": "course_vi_71",
+        "tags": [
+            "tour",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_427",
+        "text": "Tôi muốn chụp ảnh.",
+        "translation": "我想拍照。",
+        "words": [
+            "vi_chup_anh"
+        ],
+        "course": "course_vi_72",
+        "tags": [
+            "photo",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_428",
+        "text": "Tôi nhờ anh ấy chụp ảnh.",
+        "translation": "我请他拍照。",
+        "words": [
+            "vi_chup_anh"
+        ],
+        "course": "course_vi_72",
+        "tags": [
+            "photo",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_429",
+        "text": "Bức ảnh này rất đẹp.",
+        "translation": "这张照片很美。",
+        "words": [
+            "vi_buc_anh"
+        ],
+        "course": "course_vi_72",
+        "tags": [
+            "photo",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_430",
+        "text": "Tôi mua quà lưu niệm.",
+        "translation": "我买纪念品。",
+        "words": [
+            "vi_qua_luu_niem"
+        ],
+        "course": "course_vi_72",
+        "tags": [
+            "photo",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_431",
+        "text": "Tôi cần bản đồ.",
+        "translation": "我需要地图。",
+        "words": [
+            "vi_ban_do"
+        ],
+        "course": "course_vi_72",
+        "tags": [
+            "photo",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_432",
+        "text": "Tôi muốn in ảnh.",
+        "translation": "我想洗照片。",
+        "words": [
+            "vi_in_anh"
+        ],
+        "course": "course_vi_72",
+        "tags": [
+            "photo",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_433",
+        "text": "Tôi chuẩn bị đi du lịch.",
+        "translation": "我准备去旅游。",
+        "words": [
+            "vi_chuan_bi"
+        ],
+        "course": "course_vi_73",
+        "tags": [
+            "plan",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_434",
+        "text": "Tôi đặt phòng khách sạn.",
+        "translation": "我订酒店房间。",
+        "words": [
+            "vi_dat_phong"
+        ],
+        "course": "course_vi_73",
+        "tags": [
+            "plan",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_435",
+        "text": "Tôi muốn đi tour.",
+        "translation": "我想跟团游。",
+        "words": [
+            "vi_di_tour",
+            "vi_tour"
+        ],
+        "course": "course_vi_73",
+        "tags": [
+            "plan",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_436",
+        "text": "Tôi thích đi tự túc.",
+        "translation": "我喜欢自由行。",
+        "words": [
+            "vi_tu_tuc"
+        ],
+        "course": "course_vi_73",
+        "tags": [
+            "plan",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_437",
+        "text": "Hành trình này rất thú vị.",
+        "translation": "这个行程很有趣。",
+        "words": [
+            "vi_hanh_trinh"
+        ],
+        "course": "course_vi_73",
+        "tags": [
+            "plan",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_438",
+        "text": "Điểm đến tiếp theo là Đà Nẵng.",
+        "translation": "下一个目的地是岘港。",
+        "words": [
+            "vi_diem_den"
+        ],
+        "course": "course_vi_73",
+        "tags": [
+            "plan",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_439",
+        "text": "Chúng tôi đi cắm trại.",
+        "translation": "我们去露营。",
+        "words": [
+            "vi_cam_trai"
+        ],
+        "course": "course_vi_74",
+        "tags": [
+            "camping",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_440",
+        "text": "Tôi cần dựng lều.",
+        "translation": "我需要搭帐篷。",
+        "words": [
+            "vi_leu"
+        ],
+        "course": "course_vi_74",
+        "tags": [
+            "camping",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_441",
+        "text": "Đi dã ngoại rất vui.",
+        "translation": "去郊游很开心。",
+        "words": [
+            "vi_da_ngoai"
+        ],
+        "course": "course_vi_74",
+        "tags": [
+            "camping",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_442",
+        "text": "Ngủ ngoài trời rất thú vị.",
+        "translation": "在户外睡觉很有趣。",
+        "words": [
+            "vi_ngu",
+            "vi_ngoai_troi"
+        ],
+        "course": "course_vi_74",
+        "tags": [
+            "camping",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_443",
+        "text": "Tôi mang ba lô.",
+        "translation": "我带背包。",
+        "words": [
+            "vi_ba_lo"
+        ],
+        "course": "course_vi_74",
+        "tags": [
+            "camping",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_444",
+        "text": "Đốt lửa trại buổi tối.",
+        "translation": "晚上点篝火。",
+        "words": [
+            "vi_lua_trai"
+        ],
+        "course": "course_vi_74",
+        "tags": [
+            "camping",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_445",
+        "text": "Tôi muốn đi biển.",
+        "translation": "我想去海边。",
+        "words": [
+            "vi_bien"
+        ],
+        "course": "course_vi_75",
+        "tags": [
+            "beach",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_446",
+        "text": "Bãi biển này rất đẹp.",
+        "translation": "这个海滩很美。",
+        "words": [
+            "vi_bai_bien"
+        ],
+        "course": "course_vi_75",
+        "tags": [
+            "beach",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_447",
+        "text": "Tôi biết bơi.",
+        "translation": "我会游泳。",
+        "words": [
+            "vi_boi"
+        ],
+        "course": "course_vi_75",
+        "tags": [
+            "beach",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_448",
+        "text": "Tắm biển rất mát.",
+        "translation": "在海里游泳很凉快。",
+        "words": [
+            "vi_tam_bien"
+        ],
+        "course": "course_vi_75",
+        "tags": [
+            "beach",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_449",
+        "text": "Cát ở đây trắng quá.",
+        "translation": "这里的沙子好白。",
+        "words": [
+            "vi_cat"
+        ],
+        "course": "course_vi_75",
+        "tags": [
+            "beach",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_450",
+        "text": "Sóng biển rất lớn.",
+        "translation": "海浪很大。",
+        "words": [
+            "vi_song",
+            "vi_bien"
+        ],
+        "course": "course_vi_75",
+        "tags": [
+            "beach",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_451",
+        "text": "Tôi muốn leo núi.",
+        "translation": "我想爬山。",
+        "words": [
+            "vi_leo_nui"
+        ],
+        "course": "course_vi_76",
+        "tags": [
+            "mountain",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_452",
+        "text": "Ngọn núi này rất cao.",
+        "translation": "这座山很高。",
+        "words": [
+            "vi_nui"
+        ],
+        "course": "course_vi_76",
+        "tags": [
+            "mountain",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_453",
+        "text": "Chúng tôi đi trong rừng.",
+        "translation": "我们在森林里走。",
+        "words": [
+            "vi_rung"
+        ],
+        "course": "course_vi_76",
+        "tags": [
+            "mountain",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_454",
+        "text": "Thác nước rất đẹp.",
+        "translation": "瀑布很美。",
+        "words": [
+            "vi_thac_nuoc"
+        ],
+        "course": "course_vi_76",
+        "tags": [
+            "mountain",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_455",
+        "text": "Đường mòn này khó đi.",
+        "translation": "这条小径很难走。",
+        "words": [
+            "vi_duong_mon"
+        ],
+        "course": "course_vi_76",
+        "tags": [
+            "mountain",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_456",
+        "text": "Tôi cần gậy leo núi.",
+        "translation": "我需要登山杖。",
+        "words": [
+            "vi_gay",
+            "vi_leo_nui"
+        ],
+        "course": "course_vi_76",
+        "tags": [
+            "mountain",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_457",
+        "text": "Hà Nội là thủ đô.",
+        "translation": "河内是首都。",
+        "words": [
+            "vi_thu_do"
+        ],
+        "course": "course_vi_77",
+        "tags": [
+            "city",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_458",
+        "text": "Thành phố này rất đông người.",
+        "translation": "这座城市人很多。",
+        "words": [
+            "vi_thanh_pho"
+        ],
+        "course": "course_vi_77",
+        "tags": [
+            "city",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_459",
+        "text": "Nhà thờ ở trung tâm.",
+        "translation": "教堂在市中心。",
+        "words": [
+            "vi_nha_tho",
+            "vi_trung_tam"
+        ],
+        "course": "course_vi_77",
+        "tags": [
+            "city",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_460",
+        "text": "Quảng trường rất rộng.",
+        "translation": "广场很大。",
+        "words": [
+            "vi_quang_truong"
+        ],
+        "course": "course_vi_77",
+        "tags": [
+            "city",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_461",
+        "text": "Tòa nhà này rất cao.",
+        "translation": "这栋楼很高。",
+        "words": [
+            "vi_toa_nha"
+        ],
+        "course": "course_vi_77",
+        "tags": [
+            "city",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_462",
+        "text": "Tôi đi dạo trên đường phố.",
+        "translation": "我在街上散步。",
+        "words": [
+            "vi_duong_pho"
+        ],
+        "course": "course_vi_77",
+        "tags": [
+            "city",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_463",
+        "text": "Tôi về nông thôn.",
+        "translation": "我回乡村。",
+        "words": [
+            "vi_nong_thon"
+        ],
+        "course": "course_vi_78",
+        "tags": [
+            "countryside",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_464",
+        "text": "Ngôi làng này rất yên tĩnh.",
+        "translation": "这个村子很安静。",
+        "words": [
+            "vi_lang",
+            "vi_yen_tinh"
+        ],
+        "course": "course_vi_78",
+        "tags": [
+            "countryside",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_465",
+        "text": "Tôi ở homestay.",
+        "translation": "我住民宿。",
+        "words": [
+            "vi_homestay"
+        ],
+        "course": "course_vi_78",
+        "tags": [
+            "countryside",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_466",
+        "text": "Nông dân làm việc trên ruộng.",
+        "translation": "农民在田里干活。",
+        "words": [
+            "vi_nong_dan",
+            "vi_ruong"
+        ],
+        "course": "course_vi_78",
+        "tags": [
+            "countryside",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_467",
+        "text": "Cây cối xanh tươi.",
+        "translation": "树木绿油油的。",
+        "words": [
+            "vi_cay_doi"
+        ],
+        "course": "course_vi_78",
+        "tags": [
+            "countryside",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_468",
+        "text": "Thiên nhiên ở đây rất đẹp.",
+        "translation": "这里的自然很美。",
+        "words": [
+            "vi_thien_nhien"
+        ],
+        "course": "course_vi_78",
+        "tags": [
+            "countryside",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_469",
+        "text": "Tôi bị lạc đường.",
+        "translation": "我迷路了。",
+        "words": [
+            "vi_lac"
+        ],
+        "course": "course_vi_79",
+        "tags": [
+            "problem",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_470",
+        "text": "Tôi cần giúp đỡ.",
+        "translation": "我需要帮助。",
+        "words": [
+            "vi_kho_khan"
+        ],
+        "course": "course_vi_79",
+        "tags": [
+            "problem",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_471",
+        "text": "Cô ấy bị mất tiền.",
+        "translation": "她丢了钱。",
+        "words": [
+            "vi_mat_tien"
+        ],
+        "course": "course_vi_79",
+        "tags": [
+            "problem",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_472",
+        "text": "Gọi cấp cứu nhanh lên!",
+        "translation": "快叫急救！",
+        "words": [
+            "vi_cap_cuu"
+        ],
+        "course": "course_vi_79",
+        "tags": [
+            "problem",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_473",
+        "text": "Tôi có bảo hiểm du lịch.",
+        "translation": "我有旅行保险。",
+        "words": [
+            "vi_bao_hiem"
+        ],
+        "course": "course_vi_79",
+        "tags": [
+            "problem",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_474",
+        "text": "Đội cứu hộ đã đến.",
+        "translation": "救援队到了。",
+        "words": [
+            "vi_cuu_ho"
+        ],
+        "course": "course_vi_79",
+        "tags": [
+            "problem",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_475",
+        "text": "Chúng ta tổng kết chuyến đi nhé.",
+        "translation": "我们总结一下这次旅行吧。",
+        "words": [
+            "vi_tong_ket",
+            "vi_chuyen_di"
+        ],
+        "course": "course_vi_80",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_476",
+        "text": "Đây là một trải nghiệm tuyệt vời.",
+        "translation": "这是一次很棒的体验。",
+        "words": [
+            "vi_trai_nghiem"
+        ],
+        "course": "course_vi_80",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_477",
+        "text": "Tôi có ấn tượng về Hà Nội.",
+        "translation": "我对河内有印象。",
+        "words": [
+            "vi_an_tuong"
+        ],
+        "course": "course_vi_80",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_478",
+        "text": "Chuyến đi này rất đáng nhớ.",
+        "translation": "这次旅行很值得记住。",
+        "words": [
+            "vi_chuyen_di"
+        ],
+        "course": "course_vi_80",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_479",
+        "text": "Du lịch giúp mở rộng hiểu biết.",
+        "translation": "旅行帮助拓宽见识。",
+        "words": [
+            "vi_mo_rong"
+        ],
+        "course": "course_vi_80",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_480",
+        "text": "Chuyến đi rất bổ ích.",
+        "translation": "这次旅行很有益。",
+        "words": [
+            "vi_bo_ich"
+        ],
+        "course": "course_vi_80",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_481",
+        "text": "Bạn làm nghề gì?",
+        "translation": "你做什么工作？",
+        "words": [
+            "vi_nghe_nghiep"
+        ],
+        "course": "course_vi_81",
+        "tags": [
+            "career",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_482",
+        "text": "Tôi làm nhân viên.",
+        "translation": "我是职员。",
+        "words": [
+            "vi_nhan_vien"
+        ],
+        "course": "course_vi_81",
+        "tags": [
+            "career",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_483",
+        "text": "Sếp của tôi rất tốt.",
+        "translation": "我的老板很好。",
+        "words": [
+            "vi_sep"
+        ],
+        "course": "course_vi_81",
+        "tags": [
+            "career",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_484",
+        "text": "Đồng nghiệp của tôi thân thiện.",
+        "translation": "我的同事很友好。",
+        "words": [
+            "vi_dong_nghiep"
+        ],
+        "course": "course_vi_81",
+        "tags": [
+            "career",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_485",
+        "text": "Anh ấy là kỹ sư.",
+        "translation": "他是工程师。",
+        "words": [
+            "vi_ky_su"
+        ],
+        "course": "course_vi_81",
+        "tags": [
+            "career",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_486",
+        "text": "Công việc này rất thú vị.",
+        "translation": "这份工作很有趣。",
+        "words": [
+            "vi_cong_viec"
+        ],
+        "course": "course_vi_81",
+        "tags": [
+            "career",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_487",
+        "text": "Tôi làm ở phòng kế toán.",
+        "translation": "我在会计部工作。",
+        "words": [
+            "vi_ke_toan"
+        ],
+        "course": "course_vi_82",
+        "tags": [
+            "company",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_488",
+        "text": "Công ty này có nhiều phòng ban.",
+        "translation": "这家公司有很多部门。",
+        "words": [
+            "vi_cong_ty",
+            "vi_phong_ban"
+        ],
+        "course": "course_vi_82",
+        "tags": [
+            "company",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_489",
+        "text": "Văn phòng ở tầng ba.",
+        "translation": "办公室在三楼。",
+        "words": [
+            "vi_van_phong"
+        ],
+        "course": "course_vi_82",
+        "tags": [
+            "company",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_490",
+        "text": "Tôi phụ trách tiếp thị.",
+        "translation": "我负责营销。",
+        "words": [
+            "vi_tiep_thi"
+        ],
+        "course": "course_vi_82",
+        "tags": [
+            "company",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_491",
+        "text": "Bộ phận sản xuất rất quan trọng.",
+        "translation": "生产部门很重要。",
+        "words": [
+            "vi_san_xuat"
+        ],
+        "course": "course_vi_82",
+        "tags": [
+            "company",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_492",
+        "text": "Công ty kinh doanh gì?",
+        "translation": "公司经营什么？",
+        "words": [
+            "vi_kinh_doanh"
+        ],
+        "course": "course_vi_82",
+        "tags": [
+            "company",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_493",
+        "text": "Tôi muốn ứng tuyển vị trí này.",
+        "translation": "我想应聘这个职位。",
+        "words": [
+            "vi_tuyen_dung"
+        ],
+        "course": "course_vi_83",
+        "tags": [
+            "job",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_494",
+        "text": "Tôi có ba năm kinh nghiệm.",
+        "translation": "我有三年经验。",
+        "words": [
+            "vi_kinh_nghiem"
+        ],
+        "course": "course_vi_83",
+        "tags": [
+            "job",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_495",
+        "text": "Khi nào tôi có buổi phỏng vấn?",
+        "translation": "我什么时候面试？",
+        "words": [
+            "vi_phong_van"
+        ],
+        "course": "course_vi_83",
+        "tags": [
+            "job",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_496",
+        "text": "Tôi đã gửi hồ sơ.",
+        "translation": "我已经提交简历。",
+        "words": [
+            "vi_ho_so"
+        ],
+        "course": "course_vi_83",
+        "tags": [
+            "job",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_497",
+        "text": "Trình độ của tôi phù hợp.",
+        "translation": "我的水平符合要求。",
+        "words": [
+            "vi_trinh_do"
+        ],
+        "course": "course_vi_83",
+        "tags": [
+            "job",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_498",
+        "text": "Tôi sẵn sàng thử việc.",
+        "translation": "我准备好试用了。",
+        "words": [
+            "vi_thu_viec",
+            "vi_san_sang"
+        ],
+        "course": "course_vi_83",
+        "tags": [
+            "job",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_499",
+        "text": "Tôi tên là Nam.",
+        "translation": "我叫南。",
+        "words": [
+            "vi_ho_ten"
+        ],
+        "course": "course_vi_84",
+        "tags": [
+            "resume",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_500",
+        "text": "Tôi đến từ Hà Nội.",
+        "translation": "我来自河内。",
+        "words": [
+            "vi_que_quan"
+        ],
+        "course": "course_vi_84",
+        "tags": [
+            "resume",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_501",
+        "text": "Tôi muốn tự giới thiệu.",
+        "translation": "我想自我介绍。",
+        "words": [
+            "vi_tu_gioi_thieu"
+        ],
+        "course": "course_vi_84",
+        "tags": [
+            "resume",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_502",
+        "text": "Sở thích của tôi là đọc sách.",
+        "translation": "我的爱好是读书。",
+        "words": [
+            "vi_so_thich"
+        ],
+        "course": "course_vi_84",
+        "tags": [
+            "resume",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_503",
+        "text": "Điểm mạnh của tôi là chăm chỉ.",
+        "translation": "我的优点是勤奋。",
+        "words": [
+            "vi_diem_manh"
+        ],
+        "course": "course_vi_84",
+        "tags": [
+            "resume",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_504",
+        "text": "Tôi đang cải thiện điểm yếu.",
+        "translation": "我正在改善缺点。",
+        "words": [
+            "vi_diem_yeu"
+        ],
+        "course": "course_vi_84",
+        "tags": [
+            "resume",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_505",
+        "text": "Tôi làm việc từ 8 giờ đến 5 giờ.",
+        "translation": "我从 8 点工作到 5 点。",
+        "words": [
+            "vi_gio_lam_viec"
+        ],
+        "course": "course_vi_85",
+        "tags": [
+            "daily work",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_506",
+        "text": "Hôm nay tôi phải tăng ca.",
+        "translation": "今天我要加班。",
+        "words": [
+            "vi_tang_ca"
+        ],
+        "course": "course_vi_85",
+        "tags": [
+            "daily work",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_507",
+        "text": "Tôi muốn nghỉ phép.",
+        "translation": "我想请假。",
+        "words": [
+            "vi_nghi_phep"
+        ],
+        "course": "course_vi_85",
+        "tags": [
+            "daily work",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_508",
+        "text": "Chiều nay có cuộc họp.",
+        "translation": "今天下午有会议。",
+        "words": [
+            "vi_hop"
+        ],
+        "course": "course_vi_85",
+        "tags": [
+            "daily work",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_509",
+        "text": "Tôi đã hoàn thành nhiệm vụ.",
+        "translation": "我已经完成任务。",
+        "words": [
+            "vi_nhiem_vu"
+        ],
+        "course": "course_vi_85",
+        "tags": [
+            "daily work",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_510",
+        "text": "Tiến độ dự án rất tốt.",
+        "translation": "项目进度很好。",
+        "words": [
+            "vi_tien_do"
+        ],
+        "course": "course_vi_85",
+        "tags": [
+            "daily work",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_511",
+        "text": "Cuộc họp bắt đầu lúc 9 giờ.",
+        "translation": "会议 9 点开始。",
+        "words": [
+            "vi_cuoc_hop"
+        ],
+        "course": "course_vi_86",
+        "tags": [
+            "meeting",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_512",
+        "text": "Chúng ta thảo luận về dự án.",
+        "translation": "我们讨论项目。",
+        "words": [
+            "vi_thao_luan"
+        ],
+        "course": "course_vi_86",
+        "tags": [
+            "meeting",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_513",
+        "text": "Giám đốc chủ trì cuộc họp.",
+        "translation": "经理主持会议。",
+        "words": [
+            "vi_chu_tri"
+        ],
+        "course": "course_vi_86",
+        "tags": [
+            "meeting",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_514",
+        "text": "Mọi người thống nhất ý kiến.",
+        "translation": "大家达成一致意见。",
+        "words": [
+            "vi_thong_nhat"
+        ],
+        "course": "course_vi_86",
+        "tags": [
+            "meeting",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_515",
+        "text": "Cần tìm giải pháp.",
+        "translation": "需要找解决方案。",
+        "words": [
+            "vi_giai_phap"
+        ],
+        "course": "course_vi_86",
+        "tags": [
+            "meeting",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_516",
+        "text": "Thư ký ghi biên bản.",
+        "translation": "秘书做会议记录。",
+        "words": [
+            "vi_bien_ban"
+        ],
+        "course": "course_vi_86",
+        "tags": [
+            "meeting",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_517",
+        "text": "Tôi đã gửi email rồi.",
+        "translation": "我已经发邮件了。",
+        "words": [
+            "vi_email",
+            "vi_gui_thu_dt"
+        ],
+        "course": "course_vi_87",
+        "tags": [
+            "email",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_518",
+        "text": "Tôi gửi email cho sếp.",
+        "translation": "我给老板发邮件。",
+        "words": [
+            "vi_email"
+        ],
+        "course": "course_vi_87",
+        "tags": [
+            "email",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_519",
+        "text": "File đính kèm ở đâu?",
+        "translation": "附件在哪里？",
+        "words": [
+            "vi_file_dinh_kem"
+        ],
+        "course": "course_vi_87",
+        "tags": [
+            "email",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_520",
+        "text": "Tiêu đề email là gì?",
+        "translation": "邮件标题是什么？",
+        "words": [
+            "vi_tieu_de"
+        ],
+        "course": "course_vi_87",
+        "tags": [
+            "email",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_521",
+        "text": "Nội dung email rất rõ ràng.",
+        "translation": "邮件内容很清楚。",
+        "words": [
+            "vi_noi_dung"
+        ],
+        "course": "course_vi_87",
+        "tags": [
+            "email",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_522",
+        "text": "Tôi đã nhận thông báo.",
+        "translation": "我收到了通知。",
+        "words": [
+            "vi_thong_bao"
+        ],
+        "course": "course_vi_87",
+        "tags": [
+            "email",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_523",
+        "text": "Tôi muốn để lại lời nhắn.",
+        "translation": "我想留言。",
+        "words": [
+            "vi_de_lai_loi_nhan",
+            "vi_loi_nhan"
+        ],
+        "course": "course_vi_88",
+        "tags": [
+            "work call",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_524",
+        "text": "Xin chuyển máy cho giám đốc.",
+        "translation": "请转接经理。",
+        "words": [
+            "vi_chuyen_may"
+        ],
+        "course": "course_vi_88",
+        "tags": [
+            "work call",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_525",
+        "text": "Số máy của anh ấy là gì?",
+        "translation": "他的分机号是多少？",
+        "words": [
+            "vi_so_may"
+        ],
+        "course": "course_vi_88",
+        "tags": [
+            "work call",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_526",
+        "text": "Tôi cần ghi chú lại.",
+        "translation": "我需要记下来。",
+        "words": [
+            "vi_ghi_chu"
+        ],
+        "course": "course_vi_88",
+        "tags": [
+            "work call",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_527",
+        "text": "Lát nữa tôi gọi lại.",
+        "translation": "我一会儿回电话。",
+        "words": [
+            "vi_hen_goi_lai"
+        ],
+        "course": "course_vi_88",
+        "tags": [
+            "work call",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_528",
+        "text": "Cuộc gọi này được ghi âm.",
+        "translation": "这通电话会被录音。",
+        "words": [
+            "vi_ghi_am"
+        ],
+        "course": "course_vi_88",
+        "tags": [
+            "work call",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_529",
+        "text": "Tôi sẽ trình bày số liệu.",
+        "translation": "我将展示数据。",
+        "words": [
+            "vi_thuyet_trinh",
+            "vi_so_lieu"
+        ],
+        "course": "course_vi_89",
+        "tags": [
+            "presentation",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_530",
+        "text": "Biểu đồ này rất rõ ràng.",
+        "translation": "这个图表很清楚。",
+        "words": [
+            "vi_bieu_do"
+        ],
+        "course": "course_vi_89",
+        "tags": [
+            "presentation",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_531",
+        "text": "Kết quả rất tốt.",
+        "translation": "结果很好。",
+        "words": [
+            "vi_ket_qua"
+        ],
+        "course": "course_vi_89",
+        "tags": [
+            "presentation",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_532",
+        "text": "Dựa trên số liệu, chúng tôi phân tích.",
+        "translation": "根据数据，我们分析。",
+        "words": [
+            "vi_phan_tich"
+        ],
+        "course": "course_vi_89",
+        "tags": [
+            "presentation",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_533",
+        "text": "Có câu hỏi nào không?",
+        "translation": "有问题吗？",
+        "words": [
+            "vi_cau_hoi"
+        ],
+        "course": "course_vi_89",
+        "tags": [
+            "presentation",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_534",
+        "text": "Tôi xin tóm tắt lại.",
+        "translation": "我总结一下。",
+        "words": [
+            "vi_tom_tat"
+        ],
+        "course": "course_vi_89",
+        "tags": [
+            "presentation",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_535",
+        "text": "Tôi đàm phán với đối tác.",
+        "translation": "我和合作伙伴谈判。",
+        "words": [
+            "vi_dam_phan",
+            "vi_doi_tac"
+        ],
+        "course": "course_vi_90",
+        "tags": [
+            "negotiation",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_536",
+        "text": "Chúng tôi đồng ý với điều khoản.",
+        "translation": "我们同意条款。",
+        "words": [
+            "vi_dieu_khoan"
+        ],
+        "course": "course_vi_90",
+        "tags": [
+            "negotiation",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_537",
+        "text": "Giá cả có thể thương lượng.",
+        "translation": "价格可以协商。",
+        "words": [
+            "vi_gia_ca",
+            "vi_thuong_luong"
+        ],
+        "course": "course_vi_90",
+        "tags": [
+            "negotiation",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_538",
+        "text": "Chúng ta ký kết hợp đồng.",
+        "translation": "我们签订合同。",
+        "words": [
+            "vi_ky_ket"
+        ],
+        "course": "course_vi_90",
+        "tags": [
+            "negotiation",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_539",
+        "text": "Đây là thỏa thuận hợp đồng.",
+        "translation": "这是合同协议。",
+        "words": [
+            "vi_thoa_thuan_hd"
+        ],
+        "course": "course_vi_90",
+        "tags": [
+            "negotiation",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_540",
+        "text": "Hợp đồng kinh tế rất quan trọng.",
+        "translation": "经济合同很重要。",
+        "words": [
+            "vi_hop_dong_kinh"
+        ],
+        "course": "course_vi_90",
+        "tags": [
+            "negotiation",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_541",
+        "text": "Tôi muốn xin nghỉ ốm.",
+        "translation": "我想请病假。",
+        "words": [
+            "vi_xin_nghi",
+            "vi_nghi_om"
+        ],
+        "course": "course_vi_91",
+        "tags": [
+            "leave",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_542",
+        "text": "Tôi cần nghỉ việc riêng.",
+        "translation": "我需要请事假。",
+        "words": [
+            "vi_nghi_viec_rieng"
+        ],
+        "course": "course_vi_91",
+        "tags": [
+            "leave",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_543",
+        "text": "Hôm nay tôi làm thêm giờ.",
+        "translation": "今天我要加班。",
+        "words": [
+            "vi_lam_them_gio"
+        ],
+        "course": "course_vi_91",
+        "tags": [
+            "leave",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_544",
+        "text": "Đơn của tôi được duyệt rồi.",
+        "translation": "我的申请被批准了。",
+        "words": [
+            "vi_duyet",
+            "vi_don_xin_nghi"
+        ],
+        "course": "course_vi_91",
+        "tags": [
+            "leave",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_545",
+        "text": "Tôi còn ba ngày phép.",
+        "translation": "我还有三天年假。",
+        "words": [
+            "vi_ngay_phep"
+        ],
+        "course": "course_vi_91",
+        "tags": [
+            "leave",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_546",
+        "text": "Công ty bồi thường cho tôi.",
+        "translation": "公司补偿我。",
+        "words": [
+            "vi_boi_thuong"
+        ],
+        "course": "course_vi_91",
+        "tags": [
+            "leave",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_547",
+        "text": "Lương của bạn bao nhiêu?",
+        "translation": "你的工资多少？",
+        "words": [
+            "vi_luong"
+        ],
+        "course": "course_vi_92",
+        "tags": [
+            "salary",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_548",
+        "text": "Công ty trả lương mỗi tháng.",
+        "translation": "公司每月发工资。",
+        "words": [
+            "vi_tra_luong"
+        ],
+        "course": "course_vi_92",
+        "tags": [
+            "salary",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_549",
+        "text": "Tôi được thưởng Tết.",
+        "translation": "我拿到了年终奖。",
+        "words": [
+            "vi_thuong"
+        ],
+        "course": "course_vi_92",
+        "tags": [
+            "salary",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_550",
+        "text": "Phụ cấp bao nhiêu tiền?",
+        "translation": "津贴多少钱？",
+        "words": [
+            "vi_phu_cap"
+        ],
+        "course": "course_vi_92",
+        "tags": [
+            "salary",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_551",
+        "text": "Công ty đóng bảo hiểm xã hội.",
+        "translation": "公司缴纳社会保险。",
+        "words": [
+            "vi_bao_hiem_xh"
+        ],
+        "course": "course_vi_92",
+        "tags": [
+            "salary",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_552",
+        "text": "Tôi muốn tăng lương.",
+        "translation": "我想加薪。",
+        "words": [
+            "vi_tang_luong"
+        ],
+        "course": "course_vi_92",
+        "tags": [
+            "salary",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_553",
+        "text": "Chúng tôi giúp đỡ lẫn nhau.",
+        "translation": "我们互相帮助。",
+        "words": [
+            "vi_giup_do_dn"
+        ],
+        "course": "course_vi_93",
+        "tags": [
+            "relationship",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_554",
+        "text": "Anh ấy rất hòa đồng.",
+        "translation": "他很合群。",
+        "words": [
+            "vi_hoa_dong"
+        ],
+        "course": "course_vi_93",
+        "tags": [
+            "relationship",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_555",
+        "text": "Tôi tôn trọng đồng nghiệp.",
+        "translation": "我尊重同事。",
+        "words": [
+            "vi_ton_trong"
+        ],
+        "course": "course_vi_93",
+        "tags": [
+            "relationship",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_556",
+        "text": "Đồng nghiệp chia sẻ công việc.",
+        "translation": "同事分担工作。",
+        "words": [
+            "vi_chia_se_cv"
+        ],
+        "course": "course_vi_93",
+        "tags": [
+            "relationship",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_557",
+        "text": "Chúng tôi tin nhiệm nhau.",
+        "translation": "我们互相信任。",
+        "words": [
+            "vi_tin_nhiem"
+        ],
+        "course": "course_vi_93",
+        "tags": [
+            "relationship",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_558",
+        "text": "Quan hệ đồng nghiệp rất tốt.",
+        "translation": "同事关系很好。",
+        "words": [
+            "vi_quan_he"
+        ],
+        "course": "course_vi_93",
+        "tags": [
+            "relationship",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_559",
+        "text": "Tôi đi công tác ở Hà Nội.",
+        "translation": "我去河内出差。",
+        "words": [
+            "vi_di_cong_tac",
+            "vi_cong_tac"
+        ],
+        "course": "course_vi_94",
+        "tags": [
+            "business trip",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_560",
+        "text": "Tôi đi công tác để khảo sát thị trường.",
+        "translation": "我出差是为了考察市场。",
+        "words": [
+            "vi_khao_sat"
+        ],
+        "course": "course_vi_94",
+        "tags": [
+            "business trip",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_561",
+        "text": "Chi phí công tác bao nhiêu?",
+        "translation": "出差费用多少？",
+        "words": [
+            "vi_chi_phi"
+        ],
+        "course": "course_vi_94",
+        "tags": [
+            "business trip",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_562",
+        "text": "Tôi cần hóa đơn công tác.",
+        "translation": "我需要出差发票。",
+        "words": [
+            "vi_hoa_don_ct"
+        ],
+        "course": "course_vi_94",
+        "tags": [
+            "business trip",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_563",
+        "text": "Tôi đang viết báo cáo công tác.",
+        "translation": "我正在写出差报告。",
+        "words": [
+            "vi_bao_cao_ct"
+        ],
+        "course": "course_vi_94",
+        "tags": [
+            "business trip",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_564",
+        "text": "Kế hoạch công tác đã xong.",
+        "translation": "出差计划已经完成。",
+        "words": [
+            "vi_ke_hoach_ct"
+        ],
+        "course": "course_vi_94",
+        "tags": [
+            "business trip",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_565",
+        "text": "Tôi học tiếng Việt.",
+        "translation": "我学越南语。",
+        "words": [
+            "vi_khoa_hoc"
+        ],
+        "course": "course_vi_95",
+        "tags": [
+            "school",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_566",
+        "text": "Tôi học ở trường đại học.",
+        "translation": "我在大学上学。",
+        "words": [
+            "vi_truong_hoc"
+        ],
+        "course": "course_vi_95",
+        "tags": [
+            "school",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_567",
+        "text": "Cô ấy học chuyên ngành kinh tế.",
+        "translation": "她学经济专业。",
+        "words": [
+            "vi_chuyen_nganh"
+        ],
+        "course": "course_vi_95",
+        "tags": [
+            "school",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_568",
+        "text": "Học kỳ này có bao nhiêu môn?",
+        "translation": "这个学期有多少门课？",
+        "words": [
+            "vi_hoc_ky"
+        ],
+        "course": "course_vi_95",
+        "tags": [
+            "school",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_569",
+        "text": "Giáo viên rất nhiệt tình.",
+        "translation": "老师很热情。",
+        "words": [
+            "vi_giao_vien"
+        ],
+        "course": "course_vi_95",
+        "tags": [
+            "school",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_570",
+        "text": "Học phí năm nay tăng.",
+        "translation": "今年学费涨了。",
+        "words": [
+            "vi_hoc_phi"
+        ],
+        "course": "course_vi_95",
+        "tags": [
+            "school",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_571",
+        "text": "Ngày mai tôi thi tiếng Việt.",
+        "translation": "明天我考越南语。",
+        "words": [
+            "vi_thi"
+        ],
+        "course": "course_vi_96",
+        "tags": [
+            "exam",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_572",
+        "text": "Tôi được điểm cao.",
+        "translation": "我得了高分。",
+        "words": [
+            "vi_diem_cao",
+            "vi_diem"
+        ],
+        "course": "course_vi_96",
+        "tags": [
+            "exam",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_573",
+        "text": "Tôi phải ôn thi.",
+        "translation": "我要备考。",
+        "words": [
+            "vi_on_thi"
+        ],
+        "course": "course_vi_96",
+        "tags": [
+            "exam",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_574",
+        "text": "Anh ấy đạt kết quả tốt.",
+        "translation": "他取得了好成绩。",
+        "words": [
+            "vi_dat"
+        ],
+        "course": "course_vi_96",
+        "tags": [
+            "exam",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_575",
+        "text": "Cô ấy bị rớt kỳ thi.",
+        "translation": "她考试不及格。",
+        "words": [
+            "vi_rot"
+        ],
+        "course": "course_vi_96",
+        "tags": [
+            "exam",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_576",
+        "text": "Kết quả thi đã có.",
+        "translation": "考试成绩出来了。",
+        "words": [
+            "vi_ket_qua_thi"
+        ],
+        "course": "course_vi_96",
+        "tags": [
+            "exam",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_577",
+        "text": "Tôi tự học trong thư viện.",
+        "translation": "我在图书馆自习。",
+        "words": [
+            "vi_tu_hoc",
+            "vi_thu_vien"
+        ],
+        "course": "course_vi_97",
+        "tags": [
+            "library",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_578",
+        "text": "Tôi muốn mượn sách.",
+        "translation": "我想借书。",
+        "words": [
+            "vi_muon_sach"
+        ],
+        "course": "course_vi_97",
+        "tags": [
+            "library",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_579",
+        "text": "Trả sách đúng hạn.",
+        "translation": "按时还书。",
+        "words": [
+            "vi_tra_sach"
+        ],
+        "course": "course_vi_97",
+        "tags": [
+            "library",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_580",
+        "text": "Tôi cần tài liệu tham khảo.",
+        "translation": "我需要参考资料。",
+        "words": [
+            "vi_tai_lieu",
+            "vi_tham_khao"
+        ],
+        "course": "course_vi_97",
+        "tags": [
+            "library",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_581",
+        "text": "Tôi có thẻ đọc sách.",
+        "translation": "我有借书证。",
+        "words": [
+            "vi_the_doc_sach"
+        ],
+        "course": "course_vi_97",
+        "tags": [
+            "library",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_582",
+        "text": "Sách ở trên giá sách.",
+        "translation": "书在书架上。",
+        "words": [
+            "vi_gia_sach"
+        ],
+        "course": "course_vi_97",
+        "tags": [
+            "library",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_583",
+        "text": "Tôi đang viết luận văn.",
+        "translation": "我正在写论文。",
+        "words": [
+            "vi_luan_van"
+        ],
+        "course": "course_vi_98",
+        "tags": [
+            "academic",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_584",
+        "text": "Tôi phải nộp bài đúng hạn.",
+        "translation": "我必须按时交作业。",
+        "words": [
+            "vi_nop_bai",
+            "vi_bai_tap"
+        ],
+        "course": "course_vi_98",
+        "tags": [
+            "academic",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_585",
+        "text": "Đề tài nghiên cứu rất thú vị.",
+        "translation": "研究课题很有趣。",
+        "words": [
+            "vi_de_tai",
+            "vi_nghien_cuu"
+        ],
+        "course": "course_vi_98",
+        "tags": [
+            "academic",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_586",
+        "text": "Tôi cần tài liệu tham khảo.",
+        "translation": "我需要参考资料。",
+        "words": [
+            "vi_tham_khao"
+        ],
+        "course": "course_vi_98",
+        "tags": [
+            "academic",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_587",
+        "text": "Tôi sắp hoàn thành luận văn.",
+        "translation": "我快完成论文了。",
+        "words": [
+            "vi_hoan_thanh_lv"
+        ],
+        "course": "course_vi_98",
+        "tags": [
+            "academic",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_588",
+        "text": "Tháng sau tôi bảo vệ luận văn.",
+        "translation": "下个月我论文答辩。",
+        "words": [
+            "vi_bao_ve"
+        ],
+        "course": "course_vi_98",
+        "tags": [
+            "academic",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_589",
+        "text": "Tôi muốn du học ở Việt Nam.",
+        "translation": "我想去越南留学。",
+        "words": [
+            "vi_du_hoc"
+        ],
+        "course": "course_vi_99",
+        "tags": [
+            "study abroad",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_590",
+        "text": "Tôi muốn xin học bổng.",
+        "translation": "我想申请奖学金。",
+        "words": [
+            "vi_hoc_bong"
+        ],
+        "course": "course_vi_99",
+        "tags": [
+            "study abroad",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_591",
+        "text": "Tôi cần xin visa.",
+        "translation": "我需要办签证。",
+        "words": [
+            "vi_visa"
+        ],
+        "course": "course_vi_99",
+        "tags": [
+            "study abroad",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_592",
+        "text": "Tôi đã nhận giấy mời nhập học.",
+        "translation": "我收到了录取通知书。",
+        "words": [
+            "vi_giay_moi",
+            "vi_nhap_hoc"
+        ],
+        "course": "course_vi_99",
+        "tags": [
+            "study abroad",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_593",
+        "text": "Cô ấy là du học sinh.",
+        "translation": "她是留学生。",
+        "words": [
+            "vi_du_hoc_sinh"
+        ],
+        "course": "course_vi_99",
+        "tags": [
+            "study abroad",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_594",
+        "text": "Tôi đăng ký học ở đại học.",
+        "translation": "我在大学注册入学。",
+        "words": [
+            "vi_dang_ky_hoc",
+            "vi_dai_hoc"
+        ],
+        "course": "course_vi_99",
+        "tags": [
+            "study abroad",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_595",
+        "text": "Tôi nỗ lực học tập.",
+        "translation": "我努力学习。",
+        "words": [
+            "vi_no_luc"
+        ],
+        "course": "course_vi_100",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_596",
+        "text": "Tôi có hoài bão lớn.",
+        "translation": "我有远大抱负。",
+        "words": [
+            "vi_hoai_bao"
+        ],
+        "course": "course_vi_100",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_597",
+        "text": "Tôi làm việc vì lý tưởng.",
+        "translation": "我为了理想而工作。",
+        "words": [
+            "vi_ly_tuong"
+        ],
+        "course": "course_vi_100",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_598",
+        "text": "Sự nghiệp của tôi đang phát triển.",
+        "translation": "我的事业正在发展。",
+        "words": [
+            "vi_su_nghiep",
+            "vi_phat_trien"
+        ],
+        "course": "course_vi_100",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_599",
+        "text": "Đây là thành tựu của tôi.",
+        "translation": "这是我的成就。",
+        "words": [
+            "vi_thanh_tuu"
+        ],
+        "course": "course_vi_100",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_vi_600",
+        "text": "Chúc bạn thành đạt!",
+        "translation": "祝你事业有成！",
+        "words": [
+            "vi_thanh_dat"
+        ],
+        "course": "course_vi_100",
+        "tags": [
+            "review",
+            "A1"
+        ]
+    }
+]

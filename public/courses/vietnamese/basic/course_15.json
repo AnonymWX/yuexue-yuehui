@@ -1,0 +1,193 @@
+{
+    "id": "course_vi_23",
+    "title": "第15课：年龄与出生",
+    "titleVi": "Bài 15: Tuổi tác và Ngày sinh",
+    "level": "A1",
+    "order": 15,
+    "scenario": "basic",
+    "goals": [
+        "能问「你哪年出生？」",
+        "能用「sinh」表达出生",
+        "能说出出生年份",
+        "能问「你属什么？」"
+    ],
+    "words": [
+        {
+            "id": "vi_sinh",
+            "name": "sinh",
+            "trans": [
+                "出生",
+                "生"
+            ],
+            "tags": [
+                "age",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_sinh_nhat",
+            "name": "sinh nhật",
+            "trans": [
+                "生日"
+            ],
+            "tags": [
+                "age",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nam_sinh",
+            "name": "năm sinh",
+            "trans": [
+                "出生年"
+            ],
+            "tags": [
+                "age",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tre",
+            "name": "trẻ",
+            "trans": [
+                "年轻"
+            ],
+            "tags": [
+                "age",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_gia_old",
+            "name": "già",
+            "trans": [
+                "老"
+            ],
+            "tags": [
+                "age",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_con_trai",
+            "name": "con trai",
+            "trans": [
+                "男孩",
+                "儿子"
+            ],
+            "tags": [
+                "age",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_con_gai",
+            "name": "con gái",
+            "trans": [
+                "女孩",
+                "女儿"
+            ],
+            "tags": [
+                "age",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_cung",
+            "name": "cung",
+            "trans": [
+                "生肖",
+                "宫"
+            ],
+            "tags": [
+                "age",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_133",
+        "sentence_vi_134",
+        "sentence_vi_135",
+        "sentence_vi_136",
+        "sentence_vi_137",
+        "sentence_vi_138"
+    ],
+    "grammar": [
+        {
+            "point": "「sinh năm + 年份」表示出生年",
+            "explain": "「Tôi sinh năm 2000.」=「我 2000 年出生。」「năm」后接年份数字。",
+            "examples": [
+                {
+                    "vi": "Tôi sinh năm 2000.",
+                    "zh": "我 2000 年出生。"
+                },
+                {
+                    "vi": "Chị ấy sinh năm 1998.",
+                    "zh": "她 1998 年出生。"
+                }
+            ]
+        },
+        {
+            "point": "问出生年份「sinh năm nào?」",
+            "explain": "「nào」表示「哪」。「Bạn sinh năm nào?」=「你哪年出生？」",
+            "examples": [
+                {
+                    "vi": "Bạn sinh năm nào?",
+                    "zh": "你哪年出生？"
+                },
+                {
+                    "vi": "Anh sinh năm nào?",
+                    "zh": "你（哥）哪年出生？"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「sinh nhật」的中文意思是？",
+            "options": [
+                "出生年",
+                "生日",
+                "年龄"
+            ],
+            "answer": "生日"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi ___ năm 2000.（填「出生」）",
+            "answer": "sinh"
+        },
+        {
+            "type": "telex_input",
+            "question": "请用越南语输入「年轻」",
+            "answer": "trẻ"
+        }
+    ]
+}

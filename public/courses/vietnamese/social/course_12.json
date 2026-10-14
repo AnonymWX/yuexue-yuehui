@@ -1,0 +1,194 @@
+{
+    "id": "course_vi_55",
+    "title": "第 12 课：建议与劝告",
+    "titleVi": "Bài 12: Đề nghị và Khuyên bảo",
+    "level": "A1",
+    "order": 12,
+    "scenario": "social",
+    "goals": [
+        "掌握建议劝告的 8 个核心词汇",
+        "学会提出建议",
+        "掌握应该与不应该的表达",
+        "能给予他人忠告"
+    ],
+    "words": [
+        {
+            "id": "vi_de_nghi",
+            "name": "đề nghị",
+            "trans": [
+                "建议",
+                "提议"
+            ],
+            "tags": [
+                "advice",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_khuyen",
+            "name": "khuyên",
+            "trans": [
+                "劝告",
+                "劝导"
+            ],
+            "tags": [
+                "advice",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nen",
+            "name": "nên",
+            "trans": [
+                "应该"
+            ],
+            "tags": [
+                "advice",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_khong_nen",
+            "name": "không nên",
+            "trans": [
+                "不应该",
+                "别"
+            ],
+            "tags": [
+                "advice",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_loi_khuyen",
+            "name": "lời khuyên",
+            "trans": [
+                "忠告",
+                "建议"
+            ],
+            "tags": [
+                "advice",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_goi_y",
+            "name": "gợi ý",
+            "trans": [
+                "提议",
+                "暗示"
+            ],
+            "tags": [
+                "advice",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tot_nhat",
+            "name": "tốt nhất",
+            "trans": [
+                "最好"
+            ],
+            "tags": [
+                "advice",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thu_xem",
+            "name": "thử xem",
+            "trans": [
+                "试试看"
+            ],
+            "tags": [
+                "advice",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_325",
+        "sentence_vi_326",
+        "sentence_vi_327",
+        "sentence_vi_328",
+        "sentence_vi_329",
+        "sentence_vi_330"
+    ],
+    "grammar": [
+        {
+            "point": "应该做：nên + 动词",
+            "explain": "nên 意为「应该」，放在动词前表示建议。không nên 表示「不应该」。",
+            "examples": [
+                {
+                    "vi": "Bạn nên nghỉ ngơi.",
+                    "zh": "你应该休息。"
+                },
+                {
+                    "vi": "Bạn không nên thức khuya.",
+                    "zh": "你不应该熬夜。"
+                }
+            ]
+        },
+        {
+            "point": "最好：tốt nhất là + 动词",
+            "explain": "tốt nhất 意为「最好」，加 là 后接动词，表示最推荐的做法。",
+            "examples": [
+                {
+                    "vi": "Tốt nhất là bạn đi khám bác sĩ.",
+                    "zh": "你最好去看医生。"
+                },
+                {
+                    "vi": "Tốt nhất là đi sớm.",
+                    "zh": "最好早点去。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Bạn nên nghỉ ngơi.」是什么意思？",
+            "options": [
+                "你应该休息。",
+                "你不应该休息。",
+                "你可以休息。"
+            ],
+            "answer": "你应该休息。"
+        },
+        {
+            "type": "fill",
+            "question": "Bạn không ___ thức khuya.（你不应该熬夜。）",
+            "answer": "nên"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「lời khuyên」（忠告）",
+            "answer": "lời khuyên"
+        }
+    ]
+}

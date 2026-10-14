@@ -1,0 +1,189 @@
+{
+    "id": "course_vi_10",
+    "title": "第2课：换钱与银行",
+    "titleVi": "Bài 2: Đổi tiền và Ngân hàng",
+    "level": "A1",
+    "order": 2,
+    "scenario": "travel",
+    "goals": [
+        "能说出「银行」「换钱」「美元」",
+        "能用「đổi A thành B」表达兑换",
+        "能问「今天汇率多少？」",
+        "能用「được không?」请求许可"
+    ],
+    "words": [
+        {
+            "id": "vi_doi_tien",
+            "name": "đổi tiền",
+            "trans": [
+                "换钱"
+            ],
+            "tags": [
+                "travel",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ngan_hang",
+            "name": "ngân hàng",
+            "trans": [
+                "银行"
+            ],
+            "tags": [
+                "travel",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_do_la",
+            "name": "đô la",
+            "trans": [
+                "美元"
+            ],
+            "tags": [
+                "travel",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tien_viet",
+            "name": "tiền Việt",
+            "trans": [
+                "越南盾"
+            ],
+            "tags": [
+                "travel",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ty_gia",
+            "name": "tỷ giá",
+            "trans": [
+                "汇率"
+            ],
+            "tags": [
+                "travel",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_atm",
+            "name": "ATM",
+            "trans": [
+                "自动取款机"
+            ],
+            "tags": [
+                "travel",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_the",
+            "name": "thẻ",
+            "trans": [
+                "卡"
+            ],
+            "tags": [
+                "travel",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_quay",
+            "name": "quầy",
+            "trans": [
+                "柜台"
+            ],
+            "tags": [
+                "travel",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_055",
+        "sentence_vi_056",
+        "sentence_vi_057",
+        "sentence_vi_058",
+        "sentence_vi_059",
+        "sentence_vi_060"
+    ],
+    "grammar": [
+        {
+            "point": "「đổi A thành B」表示「把 A 换成 B」",
+            "explain": "「đổi」后接要换的东西，用「thành」引出换成的结果。「đổi đô la thành tiền Việt」=「把美元换成越南盾」。",
+            "examples": [
+                {
+                    "vi": "Tôi muốn đổi đô la thành tiền Việt.",
+                    "zh": "我想把美元换成越南盾。"
+                },
+                {
+                    "vi": "Đổi tiền ở đâu?",
+                    "zh": "在哪里换钱？"
+                }
+            ]
+        },
+        {
+            "point": "「được không?」表示「可以吗？」",
+            "explain": "放在动词短语后构成请求许可的疑问句，回答用「được」（可以）或「không được」（不可以）。",
+            "examples": [
+                {
+                    "vi": "Tôi dùng thẻ được không?",
+                    "zh": "我可以用卡吗？"
+                },
+                {
+                    "vi": "Tôi đổi tiền ở đây được không?",
+                    "zh": "我可以在这里换钱吗？"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「ngân hàng」的中文意思是？",
+            "options": [
+                "酒店",
+                "银行",
+                "商店"
+            ],
+            "answer": "银行"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi muốn đổi đô la ___ tiền Việt.（填空）",
+            "answer": "thành"
+        },
+        {
+            "type": "telex_input",
+            "question": "请用越南语输入「换钱」",
+            "answer": "đổi tiền"
+        }
+    ]
+}

@@ -1,0 +1,191 @@
+{
+    "id": "course_vi_71",
+    "title": "第 11 课：导游与讲解",
+    "titleVi": "Bài 11: Hướng dẫn viên và Thuyết minh",
+    "level": "A1",
+    "order": 11,
+    "scenario": "travel",
+    "goals": [
+        "掌握导游讲解的 8 个核心词汇",
+        "学会介绍历史文化",
+        "掌握询问讲解服务",
+        "能听懂导游的基础讲解"
+    ],
+    "words": [
+        {
+            "id": "vi_huong_dan_vien",
+            "name": "hướng dẫn viên",
+            "trans": [
+                "导游"
+            ],
+            "tags": [
+                "tour",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thuyet_minh",
+            "name": "thuyết minh",
+            "trans": [
+                "讲解",
+                "解说"
+            ],
+            "tags": [
+                "tour",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_gioi_thieu",
+            "name": "giới thiệu",
+            "trans": [
+                "介绍"
+            ],
+            "tags": [
+                "tour",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_lich_su",
+            "name": "lịch sử",
+            "trans": [
+                "历史"
+            ],
+            "tags": [
+                "tour",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_van_hoa",
+            "name": "văn hóa",
+            "trans": [
+                "文化"
+            ],
+            "tags": [
+                "tour",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_doan_khach",
+            "name": "đoàn khách",
+            "trans": [
+                "旅游团",
+                "旅行团"
+            ],
+            "tags": [
+                "tour",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nghe_thuat",
+            "name": "nghệ thuật",
+            "trans": [
+                "艺术"
+            ],
+            "tags": [
+                "tour",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_truyen_thong",
+            "name": "truyền thống",
+            "trans": [
+                "传统"
+            ],
+            "tags": [
+                "tour",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_421",
+        "sentence_vi_422",
+        "sentence_vi_423",
+        "sentence_vi_424",
+        "sentence_vi_425",
+        "sentence_vi_426"
+    ],
+    "grammar": [
+        {
+            "point": "介绍关于：giới thiệu về + 名词",
+            "explain": "giới thiệu 意为「介绍」，về 引出介绍的主题。",
+            "examples": [
+                {
+                    "vi": "Tôi sẽ giới thiệu về lịch sử.",
+                    "zh": "我将介绍历史。"
+                },
+                {
+                    "vi": "Cô ấy giới thiệu về văn hóa Việt Nam.",
+                    "zh": "她介绍越南文化。"
+                }
+            ]
+        },
+        {
+            "point": "有……年历史：có ... năm lịch sử",
+            "explain": "có ... năm 表示「有……年」，lịch sử 意为「历史」，用于描述古迹的年代。",
+            "examples": [
+                {
+                    "vi": "Ngôi chùa có 500 năm lịch sử.",
+                    "zh": "这座寺庙有 500 年历史。"
+                },
+                {
+                    "vi": "Thành phố có 1000 năm lịch sử.",
+                    "zh": "这座城市有 1000 年历史。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Ngôi chùa có 500 năm lịch sử.」是什么意思？",
+            "options": [
+                "这座寺庙有 500 年历史。",
+                "这座寺庙有 500 年历史了。",
+                "这座寺庙很新。"
+            ],
+            "answer": "这座寺庙有 500 年历史。"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi sẽ giới thiệu ___ lịch sử.（我将介绍历史。）",
+            "answer": "về"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「văn hóa」（文化）",
+            "answer": "văn hóa"
+        }
+    ]
+}

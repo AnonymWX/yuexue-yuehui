@@ -1,0 +1,192 @@
+{
+    "id": "course_vi_08",
+    "title": "第2课：爱好与休闲",
+    "titleVi": "Bài 2: Sở thích và Giải trí",
+    "level": "A1",
+    "order": 8,
+    "scenario": "hobby",
+    "goals": [
+        "能说出「喜欢」「不喜欢」",
+        "能说出常见爱好活动",
+        "能用「thích」+ 动词表达喜好",
+        "能用「có...không?」提问"
+    ],
+    "words": [
+        {
+            "id": "vi_thich",
+            "name": "thích",
+            "trans": [
+                "喜欢"
+            ],
+            "tags": [
+                "hobby",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_doc_sach",
+            "name": "đọc sách",
+            "trans": [
+                "读书"
+            ],
+            "tags": [
+                "hobby",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nghe_nhac",
+            "name": "nghe nhạc",
+            "trans": [
+                "听音乐"
+            ],
+            "tags": [
+                "hobby",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_xem_phim",
+            "name": "xem phim",
+            "trans": [
+                "看电影"
+            ],
+            "tags": [
+                "hobby",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_choi_the_thao",
+            "name": "chơi thể thao",
+            "trans": [
+                "做运动",
+                "运动"
+            ],
+            "tags": [
+                "hobby",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_di_choi",
+            "name": "đi chơi",
+            "trans": [
+                "出去玩",
+                "逛街"
+            ],
+            "tags": [
+                "hobby",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ban_friend",
+            "name": "bạn",
+            "trans": [
+                "朋友"
+            ],
+            "tags": [
+                "social",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ranh",
+            "name": "rảnh",
+            "trans": [
+                "有空",
+                "空闲"
+            ],
+            "tags": [
+                "hobby",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_043",
+        "sentence_vi_044",
+        "sentence_vi_045",
+        "sentence_vi_046",
+        "sentence_vi_047",
+        "sentence_vi_048"
+    ],
+    "grammar": [
+        {
+            "point": "「thích + 动词」表示喜好",
+            "explain": "「thích」后直接接动词或动词短语，表示喜欢做某事。否定用「không thích」。「Tôi thích đọc sách.」=「我喜欢读书。」",
+            "examples": [
+                {
+                    "vi": "Tôi thích nghe nhạc.",
+                    "zh": "我喜欢听音乐。"
+                },
+                {
+                    "vi": "Tôi không thích xem phim.",
+                    "zh": "我不喜欢看电影。"
+                }
+            ]
+        },
+        {
+            "point": "「có...không?」疑问句型",
+            "explain": "在陈述句末加「có...không?」构成一般疑问句，回答用「có」（是）或「không」（不）。「Bạn có thích đọc sách không?」=「你喜欢读书吗？」",
+            "examples": [
+                {
+                    "vi": "Bạn có thích chơi thể thao không?",
+                    "zh": "你喜欢做运动吗？"
+                },
+                {
+                    "vi": "Bạn có rảnh không?",
+                    "zh": "你有空吗？"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「thích」的中文意思是？",
+            "options": [
+                "讨厌",
+                "喜欢",
+                "有空"
+            ],
+            "answer": "喜欢"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi thích ___ sách.（用「读」的动词填空）",
+            "answer": "đọc"
+        },
+        {
+            "type": "telex_input",
+            "question": "请用越南语输入「听音乐」",
+            "answer": "nghe nhạc"
+        }
+    ]
+}

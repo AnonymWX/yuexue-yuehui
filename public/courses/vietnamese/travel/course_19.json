@@ -1,0 +1,193 @@
+{
+    "id": "course_vi_79",
+    "title": "第 19 课：旅行问题与解决",
+    "titleVi": "Bài 19: Vấn đề du lịch và Cách giải quyết",
+    "level": "A1",
+    "order": 19,
+    "scenario": "travel",
+    "goals": [
+        "掌握旅行问题的 8 个核心词汇",
+        "学会表达迷路、丢东西",
+        "掌握求助与报警",
+        "能处理旅行中的突发状况"
+    ],
+    "words": [
+        {
+            "id": "vi_kho_khan",
+            "name": "khó khăn",
+            "trans": [
+                "困难"
+            ],
+            "tags": [
+                "problem",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_lac",
+            "name": "lạc",
+            "trans": [
+                "迷路",
+                "走失"
+            ],
+            "tags": [
+                "problem",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_giai_quyet",
+            "name": "giải quyết",
+            "trans": [
+                "解决",
+                "处理"
+            ],
+            "tags": [
+                "problem",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_mat_tien",
+            "name": "mất tiền",
+            "trans": [
+                "丢钱"
+            ],
+            "tags": [
+                "problem",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_cuu_ho",
+            "name": "cứu hộ",
+            "trans": [
+                "救援",
+                "救助"
+            ],
+            "tags": [
+                "problem",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_cap_cuu",
+            "name": "cấp cứu",
+            "trans": [
+                "急救"
+            ],
+            "tags": [
+                "problem",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_bao_hiem",
+            "name": "bảo hiểm",
+            "trans": [
+                "保险"
+            ],
+            "tags": [
+                "problem",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tai_nan",
+            "name": "tai nạn",
+            "trans": [
+                "事故",
+                "意外"
+            ],
+            "tags": [
+                "problem",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_469",
+        "sentence_vi_470",
+        "sentence_vi_471",
+        "sentence_vi_472",
+        "sentence_vi_473",
+        "sentence_vi_474"
+    ],
+    "grammar": [
+        {
+            "point": "被 / 遭遇：bị + 名词",
+            "explain": "bị 后接不愉快的事件，表示「遭遇、被」，如 bị lạc（迷路）、bị mất（丢了）。",
+            "examples": [
+                {
+                    "vi": "Tôi bị lạc đường.",
+                    "zh": "我迷路了。"
+                },
+                {
+                    "vi": "Cô ấy bị mất tiền.",
+                    "zh": "她丢了钱。"
+                }
+            ]
+        },
+        {
+            "point": "需要帮助：cần giúp đỡ",
+            "explain": "cần 意为「需要」，giúp đỡ 意为「帮助」，合起来表示需要帮忙，是求助常用语。",
+            "examples": [
+                {
+                    "vi": "Tôi cần giúp đỡ.",
+                    "zh": "我需要帮助。"
+                },
+                {
+                    "vi": "Ai có thể giúp đỡ tôi?",
+                    "zh": "谁能帮我？"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Tôi bị lạc đường.」是什么意思？",
+            "options": [
+                "我迷路了。",
+                "我丢钱了。",
+                "我生病了。"
+            ],
+            "answer": "我迷路了。"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi cần ___.（我需要帮助。）",
+            "answer": "giúp đỡ"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「bảo hiểm」（保险）",
+            "answer": "bảo hiểm"
+        }
+    ]
+}

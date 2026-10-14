@@ -1,0 +1,194 @@
+{
+    "id": "course_vi_05",
+    "title": "第2课：饮食与点餐",
+    "titleVi": "Bài 2: Ăn uống và Gọi món",
+    "level": "A1",
+    "order": 5,
+    "scenario": "food",
+    "goals": [
+        "能说出常见食物和饮料名称",
+        "能点餐：「我要一碗...」",
+        "能用「ăn」「uống」表达吃/喝",
+        "能说「好吃」「好喝」"
+    ],
+    "words": [
+        {
+            "id": "vi_an",
+            "name": "ăn",
+            "trans": [
+                "吃"
+            ],
+            "tags": [
+                "food",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_uong",
+            "name": "uống",
+            "trans": [
+                "喝"
+            ],
+            "tags": [
+                "food",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_com",
+            "name": "cơm",
+            "trans": [
+                "米饭",
+                "饭"
+            ],
+            "tags": [
+                "food",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_pho",
+            "name": "phở",
+            "trans": [
+                "河粉"
+            ],
+            "tags": [
+                "food",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nuoc",
+            "name": "nước",
+            "trans": [
+                "水",
+                "饮料"
+            ],
+            "tags": [
+                "food",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ca_phe",
+            "name": "cà phê",
+            "trans": [
+                "咖啡"
+            ],
+            "tags": [
+                "food",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ngon",
+            "name": "ngon",
+            "trans": [
+                "好吃",
+                "好喝"
+            ],
+            "tags": [
+                "food",
+                "adjective",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_goi",
+            "name": "gọi",
+            "trans": [
+                "叫",
+                "点（餐）"
+            ],
+            "tags": [
+                "food",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_025",
+        "sentence_vi_026",
+        "sentence_vi_027",
+        "sentence_vi_028",
+        "sentence_vi_029",
+        "sentence_vi_030"
+    ],
+    "grammar": [
+        {
+            "point": "量词「một + 量词 + 名词」",
+            "explain": "越南语中数词后通常要加量词。碗：bát；杯：ly/cốc。例如「một bát phở」=「一碗河粉」，「một ly cà phê」=「一杯咖啡」。",
+            "examples": [
+                {
+                    "vi": "Tôi muốn một bát phở.",
+                    "zh": "我要一碗河粉。"
+                },
+                {
+                    "vi": "Cho tôi một ly cà phê.",
+                    "zh": "请给我一杯咖啡。"
+                }
+            ]
+        },
+        {
+            "point": "形容词「ngon」（好吃/好喝）",
+            "explain": "「ngon」用于评价食物或饮料的味道，前面可加「rất」表示「很」。例如「Phở rất ngon.」=「河粉很好吃。」",
+            "examples": [
+                {
+                    "vi": "Phở rất ngon.",
+                    "zh": "河粉很好吃。"
+                },
+                {
+                    "vi": "Cà phê này ngon.",
+                    "zh": "这杯咖啡好喝。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「uống」的中文意思是？",
+            "options": [
+                "吃",
+                "喝",
+                "买"
+            ],
+            "answer": "喝"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi muốn ___ một bát phở.（用「点餐」的动词填空）",
+            "answer": "gọi"
+        },
+        {
+            "type": "telex_input",
+            "question": "请用越南语输入「河粉」",
+            "answer": "phở"
+        }
+    ]
+}

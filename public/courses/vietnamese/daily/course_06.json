@@ -1,0 +1,194 @@
+{
+    "id": "course_vi_31",
+    "title": "第 6 课：咖啡与饮品",
+    "titleVi": "Bài 6: Cà phê và Đồ uống",
+    "level": "A1",
+    "order": 6,
+    "scenario": "daily",
+    "goals": [
+        "掌握饮品场景的 8 个核心词汇",
+        "学会点一杯咖啡或茶",
+        "掌握「加糖 / 加冰」的表达",
+        "能描述饮品的冷热与口味"
+    ],
+    "words": [
+        {
+            "id": "vi_ca_phe",
+            "name": "cà phê",
+            "trans": [
+                "咖啡"
+            ],
+            "tags": [
+                "drink",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tra",
+            "name": "trà",
+            "trans": [
+                "茶"
+            ],
+            "tags": [
+                "drink",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_sua",
+            "name": "sữa",
+            "trans": [
+                "牛奶",
+                "奶"
+            ],
+            "tags": [
+                "drink",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_duong",
+            "name": "đường",
+            "trans": [
+                "糖"
+            ],
+            "tags": [
+                "drink",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_da",
+            "name": "đá",
+            "trans": [
+                "冰",
+                "冰块"
+            ],
+            "tags": [
+                "drink",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nong",
+            "name": "nóng",
+            "trans": [
+                "热",
+                "烫"
+            ],
+            "tags": [
+                "drink",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_lanh",
+            "name": "lạnh",
+            "trans": [
+                "冷",
+                "凉"
+            ],
+            "tags": [
+                "drink",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_coc",
+            "name": "cốc",
+            "trans": [
+                "杯子",
+                "杯"
+            ],
+            "tags": [
+                "drink",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_181",
+        "sentence_vi_182",
+        "sentence_vi_183",
+        "sentence_vi_184",
+        "sentence_vi_185",
+        "sentence_vi_186"
+    ],
+    "grammar": [
+        {
+            "point": "量词：một cốc / một ly",
+            "explain": "越南语中「一杯」常用 một cốc 或 một ly（南方更常用 ly），后接饮品名。",
+            "examples": [
+                {
+                    "vi": "Cho tôi một cốc cà phê.",
+                    "zh": "给我一杯咖啡。"
+                },
+                {
+                    "vi": "Một ly trà đá.",
+                    "zh": "一杯冰茶。"
+                }
+            ]
+        },
+        {
+            "point": "形容词后置：cà phê nóng / trà lạnh",
+            "explain": "越南语形容词放在名词之后修饰，与中文相反。nóng（热）、lạnh（冷）、ngon（好喝）都后置。",
+            "examples": [
+                {
+                    "vi": "Tôi uống trà nóng.",
+                    "zh": "我喝热茶。"
+                },
+                {
+                    "vi": "Cà phê sữa đá rất ngon.",
+                    "zh": "冰奶咖啡很好喝。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Cà phê sữa đá」是什么？",
+            "options": [
+                "冰奶咖啡",
+                "热牛奶",
+                "冰茶"
+            ],
+            "answer": "冰奶咖啡"
+        },
+        {
+            "type": "fill",
+            "question": "Cho tôi một ___ cà phê.（给我一杯咖啡。）",
+            "answer": "cốc"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「cà phê」（咖啡）",
+            "answer": "cà phê"
+        }
+    ]
+}

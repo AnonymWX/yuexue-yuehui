@@ -1,0 +1,190 @@
+{
+    "id": "course_vi_13",
+    "title": "第5课：颜色与形状",
+    "titleVi": "Bài 5: Màu sắc và Hình dạng",
+    "level": "A1",
+    "order": 5,
+    "scenario": "basic",
+    "goals": [
+        "能说出常见颜色",
+        "能问「这是什么颜色？」",
+        "能说出基本形状",
+        "理解形容词后置规则"
+    ],
+    "words": [
+        {
+            "id": "vi_mau",
+            "name": "màu",
+            "trans": [
+                "颜色"
+            ],
+            "tags": [
+                "color",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_mau_do",
+            "name": "màu đỏ",
+            "trans": [
+                "红色"
+            ],
+            "tags": [
+                "color",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_mau_xanh",
+            "name": "màu xanh",
+            "trans": [
+                "蓝色",
+                "绿色"
+            ],
+            "tags": [
+                "color",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_mau_vang",
+            "name": "màu vàng",
+            "trans": [
+                "黄色"
+            ],
+            "tags": [
+                "color",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_mau_trang",
+            "name": "màu trắng",
+            "trans": [
+                "白色"
+            ],
+            "tags": [
+                "color",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_mau_den",
+            "name": "màu đen",
+            "trans": [
+                "黑色"
+            ],
+            "tags": [
+                "color",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_hinh_tron",
+            "name": "hình tròn",
+            "trans": [
+                "圆形"
+            ],
+            "tags": [
+                "shape",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_hinh_vuong",
+            "name": "hình vuông",
+            "trans": [
+                "方形"
+            ],
+            "tags": [
+                "shape",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_073",
+        "sentence_vi_074",
+        "sentence_vi_075",
+        "sentence_vi_076",
+        "sentence_vi_077",
+        "sentence_vi_078"
+    ],
+    "grammar": [
+        {
+            "point": "「màu gì?」问颜色",
+            "explain": "「Cái này màu gì?」=「这个什么颜色？」回答：「màu + 颜色」。「màu」放在颜色词前。",
+            "examples": [
+                {
+                    "vi": "Cái này màu gì?",
+                    "zh": "这个什么颜色？"
+                },
+                {
+                    "vi": "Cái này màu đỏ.",
+                    "zh": "这个是红色。"
+                }
+            ]
+        },
+        {
+            "point": "形容词后置",
+            "explain": "越南语形容词放在名词后。「áo đỏ」=「红衣服」（字面：衣服红）。「nhà trắng」=「白房子」。",
+            "examples": [
+                {
+                    "vi": "Áo đỏ",
+                    "zh": "红衣服"
+                },
+                {
+                    "vi": "Nhà trắng",
+                    "zh": "白房子"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「màu vàng」的中文意思是？",
+            "options": [
+                "红色",
+                "蓝色",
+                "黄色"
+            ],
+            "answer": "黄色"
+        },
+        {
+            "type": "fill",
+            "question": "Cái này màu ___?（填「什么」）",
+            "answer": "gì"
+        },
+        {
+            "type": "telex_input",
+            "question": "请用越南语输入「红色」",
+            "answer": "màu đỏ"
+        }
+    ]
+}

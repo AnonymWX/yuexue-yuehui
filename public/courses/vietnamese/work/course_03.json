@@ -1,0 +1,192 @@
+{
+    "id": "course_vi_83",
+    "title": "第 3 课：求职与面试",
+    "titleVi": "Bài 3: Xin việc và Phỏng vấn",
+    "level": "A1",
+    "order": 3,
+    "scenario": "work",
+    "goals": [
+        "掌握求职面试的 8 个核心词汇",
+        "学会投简历与应聘",
+        "掌握面试常见问答",
+        "能进行基础面试对话"
+    ],
+    "words": [
+        {
+            "id": "vi_tuyen_dung",
+            "name": "tuyển dụng",
+            "trans": [
+                "招聘"
+            ],
+            "tags": [
+                "job",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_phong_van",
+            "name": "phỏng vấn",
+            "trans": [
+                "面试"
+            ],
+            "tags": [
+                "job",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ung_vien",
+            "name": "ứng viên",
+            "trans": [
+                "应聘者",
+                "候选人"
+            ],
+            "tags": [
+                "job",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ho_so",
+            "name": "hồ sơ",
+            "trans": [
+                "档案",
+                "简历"
+            ],
+            "tags": [
+                "job",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_kinh_nghiem",
+            "name": "kinh nghiệm",
+            "trans": [
+                "经验"
+            ],
+            "tags": [
+                "job",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_trinh_do",
+            "name": "trình độ",
+            "trans": [
+                "水平",
+                "程度"
+            ],
+            "tags": [
+                "job",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_hop_tac",
+            "name": "hợp tác",
+            "trans": [
+                "合作"
+            ],
+            "tags": [
+                "job",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thu_viec",
+            "name": "thử việc",
+            "trans": [
+                "试用"
+            ],
+            "tags": [
+                "job",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_493",
+        "sentence_vi_494",
+        "sentence_vi_495",
+        "sentence_vi_496",
+        "sentence_vi_497",
+        "sentence_vi_498"
+    ],
+    "grammar": [
+        {
+            "point": "有经验：có kinh nghiệm",
+            "explain": "có 意为「有」，kinh nghiệm 意为「经验」，合起来表示有经验。",
+            "examples": [
+                {
+                    "vi": "Tôi có ba năm kinh nghiệm.",
+                    "zh": "我有三年经验。"
+                },
+                {
+                    "vi": "Cô ấy có kinh nghiệm làm việc.",
+                    "zh": "她有工作经验。"
+                }
+            ]
+        },
+        {
+            "point": "申请：ứng tuyển / xin việc",
+            "explain": "ứng tuyển 意为「应聘」，xin việc 意为「求职」，两者都与找工作相关。",
+            "examples": [
+                {
+                    "vi": "Tôi muốn ứng tuyển vị trí này.",
+                    "zh": "我想应聘这个职位。"
+                },
+                {
+                    "vi": "Tôi đang xin việc.",
+                    "zh": "我在找工作。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Tôi có ba năm kinh nghiệm.」是什么意思？",
+            "options": [
+                "我有三年经验。",
+                "我有三年工龄。",
+                "我三年前毕业。"
+            ],
+            "answer": "我有三年经验。"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi muốn ứng ___ vị trí này.（我想应聘这个职位。）",
+            "answer": "tuyển"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「phỏng vấn」（面试）",
+            "answer": "phỏng vấn"
+        }
+    ]
+}

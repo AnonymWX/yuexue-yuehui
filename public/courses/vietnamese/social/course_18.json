@@ -1,0 +1,193 @@
+{
+    "id": "course_vi_61",
+    "title": "第 18 课：谈论正在发生",
+    "titleVi": "Bài 18: Nói về sự việc đang diễn ra",
+    "level": "A1",
+    "order": 18,
+    "scenario": "social",
+    "goals": [
+        "掌握谈论正在发生的 8 个核心词汇",
+        "学会使用「đang」表示进行",
+        "掌握刚刚、即将等时间词",
+        "能描述当下正在做的事情"
+    ],
+    "words": [
+        {
+            "id": "vi_dang_now",
+            "name": "đang",
+            "trans": [
+                "正在（进行标记）"
+            ],
+            "tags": [
+                "present",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_bay_gio",
+            "name": "bây giờ",
+            "trans": [
+                "现在"
+            ],
+            "tags": [
+                "present",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_luc_nay",
+            "name": "lúc này",
+            "trans": [
+                "此刻",
+                "此时"
+            ],
+            "tags": [
+                "present",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_hien_tai",
+            "name": "hiện tại",
+            "trans": [
+                "现在",
+                "当代"
+            ],
+            "tags": [
+                "present",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_vua_moi",
+            "name": "vừa mới",
+            "trans": [
+                "刚刚"
+            ],
+            "tags": [
+                "present",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_sap",
+            "name": "sắp",
+            "trans": [
+                "即将",
+                "快要"
+            ],
+            "tags": [
+                "present",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ngay_lap_tuc",
+            "name": "ngay lập tức",
+            "trans": [
+                "立即",
+                "马上"
+            ],
+            "tags": [
+                "present",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tiep_tuc",
+            "name": "tiếp tục",
+            "trans": [
+                "继续"
+            ],
+            "tags": [
+                "present",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_361",
+        "sentence_vi_362",
+        "sentence_vi_363",
+        "sentence_vi_364",
+        "sentence_vi_365",
+        "sentence_vi_366"
+    ],
+    "grammar": [
+        {
+            "point": "进行时：đang + 动词",
+            "explain": "đang 放在动词前，表示动作正在进行，相当于中文的「正在」。",
+            "examples": [
+                {
+                    "vi": "Tôi đang ăn cơm.",
+                    "zh": "我正在吃饭。"
+                },
+                {
+                    "vi": "Cô ấy đang học bài.",
+                    "zh": "她正在学习。"
+                }
+            ]
+        },
+        {
+            "point": "即将：sắp + 动词",
+            "explain": "sắp 放在动词前，表示动作马上要发生。",
+            "examples": [
+                {
+                    "vi": "Tôi sắp đi học.",
+                    "zh": "我快要去上学了。"
+                },
+                {
+                    "vi": "Trời sắp mưa.",
+                    "zh": "天快下雨了。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Tôi đang ăn cơm.」是什么意思？",
+            "options": [
+                "我正在吃饭。",
+                "我已经吃了。",
+                "我要吃饭。"
+            ],
+            "answer": "我正在吃饭。"
+        },
+        {
+            "type": "fill",
+            "question": "Trời ___ mưa.（天快下雨了。）",
+            "answer": "sắp"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「bây giờ」（现在）",
+            "answer": "bây giờ"
+        }
+    ]
+}

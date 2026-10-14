@@ -1,0 +1,10417 @@
+[
+  {
+    "id": "vi_a1_xin_chao",
+    "name": "xin chào",
+    "trans": [
+      "你好；您好"
+    ],
+    "tags": [
+      "greeting",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cam_on",
+    "name": "cảm ơn",
+    "trans": [
+      "谢谢"
+    ],
+    "tags": [
+      "greeting",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tam_biet",
+    "name": "tạm biệt",
+    "trans": [
+      "再见"
+    ],
+    "tags": [
+      "greeting",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_xin_loi",
+    "name": "xin lỗi",
+    "trans": [
+      "对不起；抱歉"
+    ],
+    "tags": [
+      "greeting",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_vang",
+    "name": "vâng",
+    "trans": [
+      "是的；好的"
+    ],
+    "tags": [
+      "greeting",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_khong",
+    "name": "không",
+    "trans": [
+      "不；没有"
+    ],
+    "tags": [
+      "greeting",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chao_buoi_sang",
+    "name": "chào buổi sáng",
+    "trans": [
+      "早上好"
+    ],
+    "tags": [
+      "greeting",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chao_buoi_chieu",
+    "name": "chào buổi chiều",
+    "trans": [
+      "下午好"
+    ],
+    "tags": [
+      "greeting",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chao_buoi_toi",
+    "name": "chào buổi tối",
+    "trans": [
+      "晚上好"
+    ],
+    "tags": [
+      "greeting",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hen_gap_lai",
+    "name": "hẹn gặp lại",
+    "trans": [
+      "下次见"
+    ],
+    "tags": [
+      "greeting",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_mot",
+    "name": "một",
+    "trans": [
+      "一；1"
+    ],
+    "tags": [
+      "number",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hai",
+    "name": "hai",
+    "trans": [
+      "二；2"
+    ],
+    "tags": [
+      "number",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ba",
+    "name": "ba",
+    "trans": [
+      "三；3"
+    ],
+    "tags": [
+      "number",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_bon",
+    "name": "bốn",
+    "trans": [
+      "四；4"
+    ],
+    "tags": [
+      "number",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nam",
+    "name": "năm",
+    "trans": [
+      "五；5"
+    ],
+    "tags": [
+      "number",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_sau",
+    "name": "sáu",
+    "trans": [
+      "六；6"
+    ],
+    "tags": [
+      "number",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_bay",
+    "name": "bảy",
+    "trans": [
+      "七；7"
+    ],
+    "tags": [
+      "number",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tam",
+    "name": "tám",
+    "trans": [
+      "八；8"
+    ],
+    "tags": [
+      "number",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chin",
+    "name": "chín",
+    "trans": [
+      "九；9"
+    ],
+    "tags": [
+      "number",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_muoi",
+    "name": "mười",
+    "trans": [
+      "十；10"
+    ],
+    "tags": [
+      "number",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_muoi_mot",
+    "name": "mười một",
+    "trans": [
+      "十一；11"
+    ],
+    "tags": [
+      "number",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hai_muoi",
+    "name": "hai mươi",
+    "trans": [
+      "二十；20"
+    ],
+    "tags": [
+      "number",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tram",
+    "name": "trăm",
+    "trans": [
+      "百；100"
+    ],
+    "tags": [
+      "number",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nghin",
+    "name": "nghìn",
+    "trans": [
+      "千；1000"
+    ],
+    "tags": [
+      "number",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_trieu",
+    "name": "triệu",
+    "trans": [
+      "百万"
+    ],
+    "tags": [
+      "number",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_toi",
+    "name": "tôi",
+    "trans": [
+      "我"
+    ],
+    "tags": [
+      "pronoun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ban",
+    "name": "bạn",
+    "trans": [
+      "你；朋友"
+    ],
+    "tags": [
+      "pronoun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_anh",
+    "name": "anh",
+    "trans": [
+      "你（对年长男性）；哥哥"
+    ],
+    "tags": [
+      "pronoun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chi",
+    "name": "chị",
+    "trans": [
+      "你（对年长女性）；姐姐"
+    ],
+    "tags": [
+      "pronoun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_em",
+    "name": "em",
+    "trans": [
+      "你（对年幼者）；弟妹"
+    ],
+    "tags": [
+      "pronoun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ong",
+    "name": "ông",
+    "trans": [
+      "爷爷；先生"
+    ],
+    "tags": [
+      "pronoun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ba_gia",
+    "name": "bà",
+    "trans": [
+      "奶奶；女士"
+    ],
+    "tags": [
+      "pronoun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chung_toi",
+    "name": "chúng tôi",
+    "trans": [
+      "我们（排除式）"
+    ],
+    "tags": [
+      "pronoun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chung_ta",
+    "name": "chúng ta",
+    "trans": [
+      "咱们（包括式）"
+    ],
+    "tags": [
+      "pronoun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ho",
+    "name": "họ",
+    "trans": [
+      "他们；她们"
+    ],
+    "tags": [
+      "pronoun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_gia_dinh",
+    "name": "gia đình",
+    "trans": [
+      "家庭"
+    ],
+    "tags": [
+      "family",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_bo",
+    "name": "bố",
+    "trans": [
+      "爸爸"
+    ],
+    "tags": [
+      "family",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_me",
+    "name": "mẹ",
+    "trans": [
+      "妈妈"
+    ],
+    "tags": [
+      "family",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_anh_trai",
+    "name": "anh trai",
+    "trans": [
+      "哥哥"
+    ],
+    "tags": [
+      "family",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chi_gai",
+    "name": "chị gái",
+    "trans": [
+      "姐姐"
+    ],
+    "tags": [
+      "family",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_em_trai",
+    "name": "em trai",
+    "trans": [
+      "弟弟"
+    ],
+    "tags": [
+      "family",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_em_gai",
+    "name": "em gái",
+    "trans": [
+      "妹妹"
+    ],
+    "tags": [
+      "family",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_con",
+    "name": "con",
+    "trans": [
+      "孩子；儿子/女儿"
+    ],
+    "tags": [
+      "family",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chau",
+    "name": "cháu",
+    "trans": [
+      "孙子/孙女；侄子/侄女"
+    ],
+    "tags": [
+      "family",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_vo",
+    "name": "vợ",
+    "trans": [
+      "妻子"
+    ],
+    "tags": [
+      "family",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chong",
+    "name": "chồng",
+    "trans": [
+      "丈夫"
+    ],
+    "tags": [
+      "family",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_an",
+    "name": "ăn",
+    "trans": [
+      "吃"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_uong",
+    "name": "uống",
+    "trans": [
+      "喝"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_di",
+    "name": "đi",
+    "trans": [
+      "去；走"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_den",
+    "name": "đến",
+    "trans": [
+      "来；到"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ve",
+    "name": "về",
+    "trans": [
+      "回；回去"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ngu",
+    "name": "ngủ",
+    "trans": [
+      "睡觉"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_lam",
+    "name": "làm",
+    "trans": [
+      "做；工作"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hoc",
+    "name": "học",
+    "trans": [
+      "学习"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_doc",
+    "name": "đọc",
+    "trans": [
+      "读"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_viet",
+    "name": "viết",
+    "trans": [
+      "写"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_noi",
+    "name": "nói",
+    "trans": [
+      "说；讲"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nghe",
+    "name": "nghe",
+    "trans": [
+      "听"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_xem",
+    "name": "xem",
+    "trans": [
+      "看"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hieu",
+    "name": "hiểu",
+    "trans": [
+      "懂；明白"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_biet",
+    "name": "biết",
+    "trans": [
+      "知道；会"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thich",
+    "name": "thích",
+    "trans": [
+      "喜欢"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_muon",
+    "name": "muốn",
+    "trans": [
+      "想要"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_can",
+    "name": "cần",
+    "trans": [
+      "需要"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_mua",
+    "name": "mua",
+    "trans": [
+      "买"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ban_hang",
+    "name": "bán",
+    "trans": [
+      "卖"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hom_nay",
+    "name": "hôm nay",
+    "trans": [
+      "今天"
+    ],
+    "tags": [
+      "time",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ngay_mai",
+    "name": "ngày mai",
+    "trans": [
+      "明天"
+    ],
+    "tags": [
+      "time",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hom_qua",
+    "name": "hôm qua",
+    "trans": [
+      "昨天"
+    ],
+    "tags": [
+      "time",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_buoi_sang",
+    "name": "buổi sáng",
+    "trans": [
+      "早上；上午"
+    ],
+    "tags": [
+      "time",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_buoi_chieu",
+    "name": "buổi chiều",
+    "trans": [
+      "下午"
+    ],
+    "tags": [
+      "time",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_buoi_toi",
+    "name": "buổi tối",
+    "trans": [
+      "晚上"
+    ],
+    "tags": [
+      "time",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tuan",
+    "name": "tuần",
+    "trans": [
+      "星期；周"
+    ],
+    "tags": [
+      "time",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thang",
+    "name": "tháng",
+    "trans": [
+      "月；月份"
+    ],
+    "tags": [
+      "time",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_gio",
+    "name": "giờ",
+    "trans": [
+      "小时；点钟"
+    ],
+    "tags": [
+      "time",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_phut",
+    "name": "phút",
+    "trans": [
+      "分钟"
+    ],
+    "tags": [
+      "time",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thu_hai",
+    "name": "thứ hai",
+    "trans": [
+      "星期一"
+    ],
+    "tags": [
+      "time",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thu_ba",
+    "name": "thứ ba",
+    "trans": [
+      "星期二"
+    ],
+    "tags": [
+      "time",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thu_tu",
+    "name": "thứ tư",
+    "trans": [
+      "星期三"
+    ],
+    "tags": [
+      "time",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chu_nhat",
+    "name": "chủ nhật",
+    "trans": [
+      "星期日"
+    ],
+    "tags": [
+      "time",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_com",
+    "name": "cơm",
+    "trans": [
+      "米饭；饭"
+    ],
+    "tags": [
+      "food",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nuoc",
+    "name": "nước",
+    "trans": [
+      "水"
+    ],
+    "tags": [
+      "food",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tra",
+    "name": "trà",
+    "trans": [
+      "茶"
+    ],
+    "tags": [
+      "food",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ca_phe",
+    "name": "cà phê",
+    "trans": [
+      "咖啡"
+    ],
+    "tags": [
+      "food",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_bia",
+    "name": "bia",
+    "trans": [
+      "啤酒"
+    ],
+    "tags": [
+      "food",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thit",
+    "name": "thịt",
+    "trans": [
+      "肉"
+    ],
+    "tags": [
+      "food",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ca",
+    "name": "cá",
+    "trans": [
+      "鱼"
+    ],
+    "tags": [
+      "food",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_rau",
+    "name": "rau",
+    "trans": [
+      "蔬菜"
+    ],
+    "tags": [
+      "food",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_trai_cay",
+    "name": "trái cây",
+    "trans": [
+      "水果"
+    ],
+    "tags": [
+      "food",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_banh_mi",
+    "name": "bánh mì",
+    "trans": [
+      "面包"
+    ],
+    "tags": [
+      "food",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_pho",
+    "name": "phở",
+    "trans": [
+      "越南河粉"
+    ],
+    "tags": [
+      "food",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_sua",
+    "name": "sữa",
+    "trans": [
+      "牛奶"
+    ],
+    "tags": [
+      "food",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_duong",
+    "name": "đường",
+    "trans": [
+      "糖"
+    ],
+    "tags": [
+      "food",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_trung",
+    "name": "trứng",
+    "trans": [
+      "蛋；鸡蛋"
+    ],
+    "tags": [
+      "food",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_do",
+    "name": "đỏ",
+    "trans": [
+      "红色"
+    ],
+    "tags": [
+      "color",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_xanh",
+    "name": "xanh",
+    "trans": [
+      "蓝色；绿色"
+    ],
+    "tags": [
+      "color",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_trang",
+    "name": "trắng",
+    "trans": [
+      "白色"
+    ],
+    "tags": [
+      "color",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hong",
+    "name": "hồng",
+    "trans": [
+      "粉色"
+    ],
+    "tags": [
+      "color",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tim",
+    "name": "tím",
+    "trans": [
+      "紫色"
+    ],
+    "tags": [
+      "color",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nau",
+    "name": "nâu",
+    "trans": [
+      "棕色"
+    ],
+    "tags": [
+      "color",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nha",
+    "name": "nhà",
+    "trans": [
+      "家；房子"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_truong_hoc",
+    "name": "trường học",
+    "trans": [
+      "学校"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_lop_hoc",
+    "name": "lớp học",
+    "trans": [
+      "教室；班级"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_benh_vien",
+    "name": "bệnh viện",
+    "trans": [
+      "医院"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cong_ty",
+    "name": "công ty",
+    "trans": [
+      "公司"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cho",
+    "name": "chợ",
+    "trans": [
+      "市场；集市"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_sieu_thi",
+    "name": "siêu thị",
+    "trans": [
+      "超市"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nha_hang",
+    "name": "nhà hàng",
+    "trans": [
+      "餐厅；饭店"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_khach_san",
+    "name": "khách sạn",
+    "trans": [
+      "酒店；宾馆"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_san_bay",
+    "name": "sân bay",
+    "trans": [
+      "机场"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ga_tau",
+    "name": "ga tàu",
+    "trans": [
+      "火车站"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ngan_hang",
+    "name": "ngân hàng",
+    "trans": [
+      "银行"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_buu_dien",
+    "name": "bưu điện",
+    "trans": [
+      "邮局"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cong_vien",
+    "name": "công viên",
+    "trans": [
+      "公园"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thu_vien",
+    "name": "thư viện",
+    "trans": [
+      "图书馆"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nha_ve_sinh",
+    "name": "nhà vệ sinh",
+    "trans": [
+      "厕所；洗手间"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_phong",
+    "name": "phòng",
+    "trans": [
+      "房间"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cua",
+    "name": "cửa",
+    "trans": [
+      "门"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thanh_pho",
+    "name": "thành phố",
+    "trans": [
+      "城市"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tot",
+    "name": "tốt",
+    "trans": [
+      "好"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_xau",
+    "name": "xấu",
+    "trans": [
+      "坏；丑"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_lon",
+    "name": "lớn",
+    "trans": [
+      "大"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nho",
+    "name": "nhỏ",
+    "trans": [
+      "小"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_moi",
+    "name": "mới",
+    "trans": [
+      "新"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cu",
+    "name": "cũ",
+    "trans": [
+      "旧"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dep",
+    "name": "đẹp",
+    "trans": [
+      "美；漂亮"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nong",
+    "name": "nóng",
+    "trans": [
+      "热"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_lanh",
+    "name": "lạnh",
+    "trans": [
+      "冷"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nhanh",
+    "name": "nhanh",
+    "trans": [
+      "快"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cham",
+    "name": "chậm",
+    "trans": [
+      "慢"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_kho",
+    "name": "khó",
+    "trans": [
+      "难"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_de",
+    "name": "dễ",
+    "trans": [
+      "容易"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cao",
+    "name": "cao",
+    "trans": [
+      "高"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thap",
+    "name": "thấp",
+    "trans": [
+      "矮；低"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dai",
+    "name": "dài",
+    "trans": [
+      "长"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ngan",
+    "name": "ngắn",
+    "trans": [
+      "短"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_rong",
+    "name": "rộng",
+    "trans": [
+      "宽；宽敞"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hep",
+    "name": "hẹp",
+    "trans": [
+      "窄"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_vui",
+    "name": "vui",
+    "trans": [
+      "开心；快乐"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_buon",
+    "name": "buồn",
+    "trans": [
+      "伤心；难过"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_met",
+    "name": "mệt",
+    "trans": [
+      "累；疲劳"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_doi",
+    "name": "đói",
+    "trans": [
+      "饿"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_khat",
+    "name": "khát",
+    "trans": [
+      "渴"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_khoe",
+    "name": "khỏe",
+    "trans": [
+      "健康；强壮"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_mot_cai",
+    "name": "cái",
+    "trans": [
+      "个（量词）"
+    ],
+    "tags": [
+      "classifier",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_quyen",
+    "name": "quyển",
+    "trans": [
+      "本（书量词）"
+    ],
+    "tags": [
+      "classifier",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cai_ban",
+    "name": "bàn",
+    "trans": [
+      "桌子"
+    ],
+    "tags": [
+      "object",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cai_ghe",
+    "name": "ghế",
+    "trans": [
+      "椅子"
+    ],
+    "tags": [
+      "object",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cai_giuong",
+    "name": "giường",
+    "trans": [
+      "床"
+    ],
+    "tags": [
+      "object",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cai_tu",
+    "name": "tủ",
+    "trans": [
+      "柜子"
+    ],
+    "tags": [
+      "object",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cai_quat",
+    "name": "quạt",
+    "trans": [
+      "风扇"
+    ],
+    "tags": [
+      "object",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_den_dien",
+    "name": "đèn",
+    "trans": [
+      "灯"
+    ],
+    "tags": [
+      "object",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dien_thoai",
+    "name": "điện thoại",
+    "trans": [
+      "电话；手机"
+    ],
+    "tags": [
+      "object",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_may_tinh",
+    "name": "máy tính",
+    "trans": [
+      "电脑"
+    ],
+    "tags": [
+      "object",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_sach",
+    "name": "sách",
+    "trans": [
+      "书"
+    ],
+    "tags": [
+      "object",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_but",
+    "name": "bút",
+    "trans": [
+      "笔"
+    ],
+    "tags": [
+      "object",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_giay",
+    "name": "giấy",
+    "trans": [
+      "纸"
+    ],
+    "tags": [
+      "object",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ao",
+    "name": "áo",
+    "trans": [
+      "衣服；上衣"
+    ],
+    "tags": [
+      "object",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_quan",
+    "name": "quần",
+    "trans": [
+      "裤子"
+    ],
+    "tags": [
+      "object",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_giay_dep",
+    "name": "giày",
+    "trans": [
+      "鞋"
+    ],
+    "tags": [
+      "object",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_mu",
+    "name": "mũ",
+    "trans": [
+      "帽子"
+    ],
+    "tags": [
+      "object",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tui",
+    "name": "túi",
+    "trans": [
+      "包；袋子"
+    ],
+    "tags": [
+      "object",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tien",
+    "name": "tiền",
+    "trans": [
+      "钱"
+    ],
+    "tags": [
+      "object",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chieu_khoa",
+    "name": "chìa khóa",
+    "trans": [
+      "钥匙"
+    ],
+    "tags": [
+      "object",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dong_ho",
+    "name": "đồng hồ",
+    "trans": [
+      "手表；钟"
+    ],
+    "tags": [
+      "object",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_kinh",
+    "name": "kính",
+    "trans": [
+      "眼镜；玻璃"
+    ],
+    "tags": [
+      "object",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_xe_dap",
+    "name": "xe đạp",
+    "trans": [
+      "自行车"
+    ],
+    "tags": [
+      "vehicle",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_xe_may",
+    "name": "xe máy",
+    "trans": [
+      "摩托车"
+    ],
+    "tags": [
+      "vehicle",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_o_to",
+    "name": "ô tô",
+    "trans": [
+      "汽车"
+    ],
+    "tags": [
+      "vehicle",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_xe_buyt",
+    "name": "xe buýt",
+    "trans": [
+      "公交车"
+    ],
+    "tags": [
+      "vehicle",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tau_hoa",
+    "name": "tàu hỏa",
+    "trans": [
+      "火车"
+    ],
+    "tags": [
+      "vehicle",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_may_bay",
+    "name": "máy bay",
+    "trans": [
+      "飞机"
+    ],
+    "tags": [
+      "vehicle",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tau_thuy",
+    "name": "tàu thủy",
+    "trans": [
+      "船"
+    ],
+    "tags": [
+      "vehicle",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_di_bo",
+    "name": "đi bộ",
+    "trans": [
+      "走路；步行"
+    ],
+    "tags": [
+      "vehicle",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dau",
+    "name": "đầu",
+    "trans": [
+      "头"
+    ],
+    "tags": [
+      "body",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_mat",
+    "name": "mắt",
+    "trans": [
+      "眼睛"
+    ],
+    "tags": [
+      "body",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_mui",
+    "name": "mũi",
+    "trans": [
+      "鼻子"
+    ],
+    "tags": [
+      "body",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_mieng",
+    "name": "miệng",
+    "trans": [
+      "嘴"
+    ],
+    "tags": [
+      "body",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tai",
+    "name": "tai",
+    "trans": [
+      "耳朵"
+    ],
+    "tags": [
+      "body",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_rang",
+    "name": "răng",
+    "trans": [
+      "牙齿"
+    ],
+    "tags": [
+      "body",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_toc",
+    "name": "tóc",
+    "trans": [
+      "头发"
+    ],
+    "tags": [
+      "body",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tay",
+    "name": "tay",
+    "trans": [
+      "手；手臂"
+    ],
+    "tags": [
+      "body",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chan",
+    "name": "chân",
+    "trans": [
+      "脚；腿"
+    ],
+    "tags": [
+      "body",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_bung",
+    "name": "bụng",
+    "trans": [
+      "肚子"
+    ],
+    "tags": [
+      "body",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_troi",
+    "name": "trời",
+    "trans": [
+      "天；天空"
+    ],
+    "tags": [
+      "weather",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nang",
+    "name": "nắng",
+    "trans": [
+      "太阳；晴天"
+    ],
+    "tags": [
+      "weather",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_may",
+    "name": "mây",
+    "trans": [
+      "云"
+    ],
+    "tags": [
+      "weather",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_am",
+    "name": "ấm",
+    "trans": [
+      "温暖"
+    ],
+    "tags": [
+      "weather",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_bao",
+    "name": "bão",
+    "trans": [
+      "暴风雨"
+    ],
+    "tags": [
+      "weather",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tuyet",
+    "name": "tuyết",
+    "trans": [
+      "雪"
+    ],
+    "tags": [
+      "weather",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_mua_xuan",
+    "name": "mùa xuân",
+    "trans": [
+      "春天"
+    ],
+    "tags": [
+      "weather",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_mua_he",
+    "name": "mùa hè",
+    "trans": [
+      "夏天"
+    ],
+    "tags": [
+      "weather",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_mua_thu",
+    "name": "mùa thu",
+    "trans": [
+      "秋天"
+    ],
+    "tags": [
+      "weather",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_mua_dong",
+    "name": "mùa đông",
+    "trans": [
+      "冬天"
+    ],
+    "tags": [
+      "weather",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_giao_vien",
+    "name": "giáo viên",
+    "trans": [
+      "老师；教师"
+    ],
+    "tags": [
+      "job",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hoc_sinh",
+    "name": "học sinh",
+    "trans": [
+      "学生（中小学）"
+    ],
+    "tags": [
+      "job",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_sinh_vien",
+    "name": "sinh viên",
+    "trans": [
+      "大学生"
+    ],
+    "tags": [
+      "job",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_bac_si",
+    "name": "bác sĩ",
+    "trans": [
+      "医生"
+    ],
+    "tags": [
+      "job",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_y_ta",
+    "name": "y tá",
+    "trans": [
+      "护士"
+    ],
+    "tags": [
+      "job",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ky_su",
+    "name": "kỹ sư",
+    "trans": [
+      "工程师"
+    ],
+    "tags": [
+      "job",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cong_nhan",
+    "name": "công nhân",
+    "trans": [
+      "工人"
+    ],
+    "tags": [
+      "job",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nong_dan",
+    "name": "nông dân",
+    "trans": [
+      "农民"
+    ],
+    "tags": [
+      "job",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_canh_sat",
+    "name": "cảnh sát",
+    "trans": [
+      "警察"
+    ],
+    "tags": [
+      "job",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_bo_doi",
+    "name": "bộ đội",
+    "trans": [
+      "军人"
+    ],
+    "tags": [
+      "job",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dau_bep",
+    "name": "đầu bếp",
+    "trans": [
+      "厨师"
+    ],
+    "tags": [
+      "job",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tai_xe",
+    "name": "tài xế",
+    "trans": [
+      "司机"
+    ],
+    "tags": [
+      "job",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nhan_vien",
+    "name": "nhân viên",
+    "trans": [
+      "职员；员工"
+    ],
+    "tags": [
+      "job",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_giam_doc",
+    "name": "giám đốc",
+    "trans": [
+      "经理；董事"
+    ],
+    "tags": [
+      "job",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thu_ky",
+    "name": "thư ký",
+    "trans": [
+      "秘书"
+    ],
+    "tags": [
+      "job",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_bang",
+    "name": "bảng",
+    "trans": [
+      "黑板"
+    ],
+    "tags": [
+      "school",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_bai_hoc",
+    "name": "bài học",
+    "trans": [
+      "课文；课程"
+    ],
+    "tags": [
+      "school",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tu_moi",
+    "name": "từ mới",
+    "trans": [
+      "生词"
+    ],
+    "tags": [
+      "school",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ngu_phap",
+    "name": "ngữ pháp",
+    "trans": [
+      "语法"
+    ],
+    "tags": [
+      "school",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_bai_tap",
+    "name": "bài tập",
+    "trans": [
+      "练习；作业"
+    ],
+    "tags": [
+      "school",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ky_thi",
+    "name": "kỳ thi",
+    "trans": [
+      "考试"
+    ],
+    "tags": [
+      "school",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_diem",
+    "name": "điểm",
+    "trans": [
+      "分数；点"
+    ],
+    "tags": [
+      "school",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cau_hoi",
+    "name": "câu hỏi",
+    "trans": [
+      "问题"
+    ],
+    "tags": [
+      "school",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cau_tra_loi",
+    "name": "câu trả lời",
+    "trans": [
+      "答案"
+    ],
+    "tags": [
+      "school",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tieng_viet",
+    "name": "tiếng Việt",
+    "trans": [
+      "越南语"
+    ],
+    "tags": [
+      "school",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tieng_anh",
+    "name": "tiếng Anh",
+    "trans": [
+      "英语"
+    ],
+    "tags": [
+      "school",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tieng_trung",
+    "name": "tiếng Trung",
+    "trans": [
+      "中文；汉语"
+    ],
+    "tags": [
+      "school",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tieng_nhat",
+    "name": "tiếng Nhật",
+    "trans": [
+      "日语"
+    ],
+    "tags": [
+      "school",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tieng_han",
+    "name": "tiếng Hàn",
+    "trans": [
+      "韩语"
+    ],
+    "tags": [
+      "school",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tieng_phap",
+    "name": "tiếng Pháp",
+    "trans": [
+      "法语"
+    ],
+    "tags": [
+      "school",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tu_dien",
+    "name": "từ điển",
+    "trans": [
+      "词典"
+    ],
+    "tags": [
+      "school",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ai",
+    "name": "ai",
+    "trans": [
+      "谁"
+    ],
+    "tags": [
+      "question",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_gi",
+    "name": "gì",
+    "trans": [
+      "什么"
+    ],
+    "tags": [
+      "question",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nao",
+    "name": "nào",
+    "trans": [
+      "哪个"
+    ],
+    "tags": [
+      "question",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_khi_nao",
+    "name": "khi nào",
+    "trans": [
+      "什么时候"
+    ],
+    "tags": [
+      "question",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_bao_gio",
+    "name": "bao giờ",
+    "trans": [
+      "何时"
+    ],
+    "tags": [
+      "question",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tai_sao",
+    "name": "tại sao",
+    "trans": [
+      "为什么"
+    ],
+    "tags": [
+      "question",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_vi_sao",
+    "name": "vì sao",
+    "trans": [
+      "为什么"
+    ],
+    "tags": [
+      "question",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_the_nao",
+    "name": "thế nào",
+    "trans": [
+      "怎么样"
+    ],
+    "tags": [
+      "question",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nhu_the_nao",
+    "name": "như thế nào",
+    "trans": [
+      "如何；怎样"
+    ],
+    "tags": [
+      "question",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_bao_nhieu",
+    "name": "bao nhiêu",
+    "trans": [
+      "多少（十以上）"
+    ],
+    "tags": [
+      "question",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tren",
+    "name": "trên",
+    "trans": [
+      "上面；在…上"
+    ],
+    "tags": [
+      "position",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_duoi",
+    "name": "dưới",
+    "trans": [
+      "下面；在…下"
+    ],
+    "tags": [
+      "position",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_trong",
+    "name": "trong",
+    "trans": [
+      "里面；在…中"
+    ],
+    "tags": [
+      "position",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ngoai",
+    "name": "ngoài",
+    "trans": [
+      "外面；在…外"
+    ],
+    "tags": [
+      "position",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_truoc",
+    "name": "trước",
+    "trans": [
+      "前面；以前"
+    ],
+    "tags": [
+      "position",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_sau_pos",
+    "name": "sau",
+    "trans": [
+      "后面；以后"
+    ],
+    "tags": [
+      "position",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_trai",
+    "name": "trái",
+    "trans": [
+      "左边；水果"
+    ],
+    "tags": [
+      "position",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_phai",
+    "name": "phải",
+    "trans": [
+      "右边；必须；对"
+    ],
+    "tags": [
+      "position",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_giua",
+    "name": "giữa",
+    "trans": [
+      "中间"
+    ],
+    "tags": [
+      "position",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_gan",
+    "name": "gần",
+    "trans": [
+      "近"
+    ],
+    "tags": [
+      "position",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_xa",
+    "name": "xa",
+    "trans": [
+      "远"
+    ],
+    "tags": [
+      "position",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_rat",
+    "name": "rất",
+    "trans": [
+      "很；非常"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_qua",
+    "name": "quá",
+    "trans": [
+      "太；过于"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_luon",
+    "name": "luôn",
+    "trans": [
+      "总是；马上"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thuong",
+    "name": "thường",
+    "trans": [
+      "经常"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thinh_thoang",
+    "name": "thỉnh thoảng",
+    "trans": [
+      "偶尔"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_khong_bao_gio",
+    "name": "không bao giờ",
+    "trans": [
+      "从不"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_da",
+    "name": "đã",
+    "trans": [
+      "已经（过去）"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dang",
+    "name": "đang",
+    "trans": [
+      "正在"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_se",
+    "name": "sẽ",
+    "trans": [
+      "将要"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_roi",
+    "name": "rồi",
+    "trans": [
+      "了；已经"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cung",
+    "name": "cũng",
+    "trans": [
+      "也"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_deu",
+    "name": "đều",
+    "trans": [
+      "都"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_va",
+    "name": "và",
+    "trans": [
+      "和；与"
+    ],
+    "tags": [
+      "conjunction",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nhung",
+    "name": "nhưng",
+    "trans": [
+      "但是"
+    ],
+    "tags": [
+      "conjunction",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hoac",
+    "name": "hoặc",
+    "trans": [
+      "或者"
+    ],
+    "tags": [
+      "conjunction",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_vi",
+    "name": "vì",
+    "trans": [
+      "因为"
+    ],
+    "tags": [
+      "conjunction",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nen",
+    "name": "nên",
+    "trans": [
+      "所以；应该"
+    ],
+    "tags": [
+      "conjunction",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_neu",
+    "name": "nếu",
+    "trans": [
+      "如果"
+    ],
+    "tags": [
+      "conjunction",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_vi_vay",
+    "name": "vì vậy",
+    "trans": [
+      "因此"
+    ],
+    "tags": [
+      "conjunction",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_yeu",
+    "name": "yêu",
+    "trans": [
+      "爱"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ghet",
+    "name": "ghét",
+    "trans": [
+      "恨；讨厌"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_vui_verb",
+    "name": "cười",
+    "trans": [
+      "笑"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_khoc",
+    "name": "khóc",
+    "trans": [
+      "哭"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_lay",
+    "name": "lấy",
+    "trans": [
+      "拿；取"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dat",
+    "name": "đặt",
+    "trans": [
+      "放；订"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_gap",
+    "name": "gặp",
+    "trans": [
+      "见面；遇到"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cho_doi",
+    "name": "đợi",
+    "trans": [
+      "等；等待"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_giup",
+    "name": "giúp",
+    "trans": [
+      "帮助"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hoi",
+    "name": "hỏi",
+    "trans": [
+      "问"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tra_loi_verb",
+    "name": "trả lời",
+    "trans": [
+      "回答"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_goi",
+    "name": "gọi",
+    "trans": [
+      "叫；打电话"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_guI",
+    "name": "gửi",
+    "trans": [
+      "寄；发送"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nhan",
+    "name": "nhận",
+    "trans": [
+      "收到；接受"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_mo",
+    "name": "mở",
+    "trans": [
+      "打开"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dong",
+    "name": "đóng",
+    "trans": [
+      "关闭"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_bat",
+    "name": "bắt đầu",
+    "trans": [
+      "开始"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ket_thuc",
+    "name": "kết thúc",
+    "trans": [
+      "结束"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nghi",
+    "name": "nghỉ",
+    "trans": [
+      "休息"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chay",
+    "name": "chạy",
+    "trans": [
+      "跑"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ngoi",
+    "name": "ngồi",
+    "trans": [
+      "坐"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dung",
+    "name": "đứng",
+    "trans": [
+      "站"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nam_verb",
+    "name": "nằm",
+    "trans": [
+      "躺；位于"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_boi",
+    "name": "bơi",
+    "trans": [
+      "游泳"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hat",
+    "name": "hát",
+    "trans": [
+      "唱歌"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nhay",
+    "name": "nhảy",
+    "trans": [
+      "跳；跳舞"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_choi",
+    "name": "chơi",
+    "trans": [
+      "玩"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tap",
+    "name": "tập",
+    "trans": [
+      "练习；锻炼"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ve_verb",
+    "name": "vẽ",
+    "trans": [
+      "画"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_rua",
+    "name": "rửa",
+    "trans": [
+      "洗"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_quet",
+    "name": "quét",
+    "trans": [
+      "扫"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_phai_khong",
+    "name": "phải không",
+    "trans": [
+      "对吗？是吗？"
+    ],
+    "tags": [
+      "phrase",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_co_khong",
+    "name": "có... không",
+    "trans": [
+      "……吗？"
+    ],
+    "tags": [
+      "phrase",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_da_chua",
+    "name": "đã... chưa",
+    "trans": [
+      "……了吗？"
+    ],
+    "tags": [
+      "phrase",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_xin_vui_long",
+    "name": "xin vui lòng",
+    "trans": [
+      "请"
+    ],
+    "tags": [
+      "phrase",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_khong_sao",
+    "name": "không sao",
+    "trans": [
+      "没事；没关系"
+    ],
+    "tags": [
+      "phrase",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_khong_co_gi",
+    "name": "không có gì",
+    "trans": [
+      "没什么"
+    ],
+    "tags": [
+      "phrase",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_that_vay",
+    "name": "thật vậy",
+    "trans": [
+      "真的吗？"
+    ],
+    "tags": [
+      "phrase",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chuc_mung",
+    "name": "chúc mừng",
+    "trans": [
+      "祝贺"
+    ],
+    "tags": [
+      "phrase",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chuc_ngu_ngon",
+    "name": "chúc ngủ ngon",
+    "trans": [
+      "晚安"
+    ],
+    "tags": [
+      "phrase",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tet",
+    "name": "Tết",
+    "trans": [
+      "春节"
+    ],
+    "tags": [
+      "culture",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_trung_thu",
+    "name": "Trung thu",
+    "trans": [
+      "中秋节"
+    ],
+    "tags": [
+      "culture",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_quoc_khanh",
+    "name": "Quốc khánh",
+    "trans": [
+      "国庆"
+    ],
+    "tags": [
+      "culture",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_sinh_nhat",
+    "name": "sinh nhật",
+    "trans": [
+      "生日"
+    ],
+    "tags": [
+      "culture",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dam_cuoi",
+    "name": "đám cưới",
+    "trans": [
+      "婚礼"
+    ],
+    "tags": [
+      "culture",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_le_hoi",
+    "name": "lễ hội",
+    "trans": [
+      "节日；庙会"
+    ],
+    "tags": [
+      "culture",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nam_moi",
+    "name": "năm mới",
+    "trans": [
+      "新年"
+    ],
+    "tags": [
+      "culture",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_giang_sinh",
+    "name": "Giáng sinh",
+    "trans": [
+      "圣诞节"
+    ],
+    "tags": [
+      "culture",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_li_xi",
+    "name": "lì xì",
+    "trans": [
+      "红包"
+    ],
+    "tags": [
+      "culture",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_banh_chung",
+    "name": "bánh chưng",
+    "trans": [
+      "年粽"
+    ],
+    "tags": [
+      "culture",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hoa_mai",
+    "name": "hoa mai",
+    "trans": [
+      "黄梅花"
+    ],
+    "tags": [
+      "culture",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hoa_dao",
+    "name": "hoa đào",
+    "trans": [
+      "桃花"
+    ],
+    "tags": [
+      "culture",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_phao_hoa",
+    "name": "pháo hoa",
+    "trans": [
+      "烟花"
+    ],
+    "tags": [
+      "culture",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_mua_lan",
+    "name": "múa lân",
+    "trans": [
+      "舞狮"
+    ],
+    "tags": [
+      "culture",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_den_long",
+    "name": "đèn lồng",
+    "trans": [
+      "灯笼"
+    ],
+    "tags": [
+      "culture",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_phim",
+    "name": "phim",
+    "trans": [
+      "电影"
+    ],
+    "tags": [
+      "entertainment",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nhac",
+    "name": "nhạc",
+    "trans": [
+      "音乐"
+    ],
+    "tags": [
+      "entertainment",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_bai_hat",
+    "name": "bài hát",
+    "trans": [
+      "歌曲"
+    ],
+    "tags": [
+      "entertainment",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tro_choi",
+    "name": "trò chơi",
+    "trans": [
+      "游戏"
+    ],
+    "tags": [
+      "entertainment",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_du_lich",
+    "name": "du lịch",
+    "trans": [
+      "旅游"
+    ],
+    "tags": [
+      "entertainment",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nghi_mat",
+    "name": "nghỉ mát",
+    "trans": [
+      "度假"
+    ],
+    "tags": [
+      "entertainment",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_the_thao",
+    "name": "thể thao",
+    "trans": [
+      "体育"
+    ],
+    "tags": [
+      "entertainment",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_bong_da",
+    "name": "bóng đá",
+    "trans": [
+      "足球"
+    ],
+    "tags": [
+      "entertainment",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_bong_ro",
+    "name": "bóng rổ",
+    "trans": [
+      "篮球"
+    ],
+    "tags": [
+      "entertainment",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cau_long",
+    "name": "cầu lông",
+    "trans": [
+      "羽毛球"
+    ],
+    "tags": [
+      "entertainment",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_boi_loi",
+    "name": "bơi lội",
+    "trans": [
+      "游泳"
+    ],
+    "tags": [
+      "entertainment",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chay_bo",
+    "name": "chạy bộ",
+    "trans": [
+      "跑步"
+    ],
+    "tags": [
+      "entertainment",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_doc_sach",
+    "name": "đọc sách",
+    "trans": [
+      "读书"
+    ],
+    "tags": [
+      "entertainment",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nghe_nhac",
+    "name": "nghe nhạc",
+    "trans": [
+      "听音乐"
+    ],
+    "tags": [
+      "entertainment",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_xem_phim",
+    "name": "xem phim",
+    "trans": [
+      "看电影"
+    ],
+    "tags": [
+      "entertainment",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ca_si",
+    "name": "ca sĩ",
+    "trans": [
+      "歌手"
+    ],
+    "tags": [
+      "entertainment",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dien_vien",
+    "name": "diễn viên",
+    "trans": [
+      "演员"
+    ],
+    "tags": [
+      "entertainment",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ban_nhac",
+    "name": "ban nhạc",
+    "trans": [
+      "乐队"
+    ],
+    "tags": [
+      "entertainment",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_san_van_dong",
+    "name": "sân vận động",
+    "trans": [
+      "体育场"
+    ],
+    "tags": [
+      "entertainment",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_rap_chieu_phim",
+    "name": "rạp chiếu phim",
+    "trans": [
+      "电影院"
+    ],
+    "tags": [
+      "entertainment",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_song",
+    "name": "sống",
+    "trans": [
+      "活；生活"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chet",
+    "name": "chết",
+    "trans": [
+      "死"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_sinh_ra",
+    "name": "sinh ra",
+    "trans": [
+      "出生"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_lon_len",
+    "name": "lớn lên",
+    "trans": [
+      "长大"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ket_hon",
+    "name": "kết hôn",
+    "trans": [
+      "结婚"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_lam_viec",
+    "name": "làm việc",
+    "trans": [
+      "工作"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hoc_tap",
+    "name": "học tập",
+    "trans": [
+      "学习"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tot_nghiep",
+    "name": "tốt nghiệp",
+    "trans": [
+      "毕业"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_vao",
+    "name": "vào",
+    "trans": [
+      "进入"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ra",
+    "name": "ra",
+    "trans": [
+      "出去"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_len",
+    "name": "lên",
+    "trans": [
+      "上；上升"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_xuong",
+    "name": "xuống",
+    "trans": [
+      "下；下降"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_roi_di",
+    "name": "rời",
+    "trans": [
+      "离开"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_o",
+    "name": "ở",
+    "trans": [
+      "在；住"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_quen",
+    "name": "quên",
+    "trans": [
+      "忘记"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nho_verb",
+    "name": "nhớ",
+    "trans": [
+      "记得；想念"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tin",
+    "name": "tin",
+    "trans": [
+      "相信"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_so",
+    "name": "sợ",
+    "trans": [
+      "害怕"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thu",
+    "name": "thử",
+    "trans": [
+      "试"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chon",
+    "name": "chọn",
+    "trans": [
+      "选择"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_quyet_dinh",
+    "name": "quyết định",
+    "trans": [
+      "决定"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thay_doi",
+    "name": "thay đổi",
+    "trans": [
+      "改变"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_kiem_tra",
+    "name": "kiểm tra",
+    "trans": [
+      "检查"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_so_sanh",
+    "name": "so sánh",
+    "trans": [
+      "比较"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_gioi_thieu",
+    "name": "giới thiệu",
+    "trans": [
+      "介绍"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_giai_thich",
+    "name": "giải thích",
+    "trans": [
+      "解释"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_huong_dan",
+    "name": "hướng dẫn",
+    "trans": [
+      "指导"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cam_thay",
+    "name": "cảm thấy",
+    "trans": [
+      "感觉"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thay",
+    "name": "thấy",
+    "trans": [
+      "看见"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ngui",
+    "name": "ngửi",
+    "trans": [
+      "闻"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nem",
+    "name": "nếm",
+    "trans": [
+      "尝"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tiep_tuc",
+    "name": "tiếp tục",
+    "trans": [
+      "继续"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hoan_thanh",
+    "name": "hoàn thành",
+    "trans": [
+      "完成"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thang_verb",
+    "name": "thắng",
+    "trans": [
+      "赢"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thua",
+    "name": "thua",
+    "trans": [
+      "输"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_giu",
+    "name": "giữ",
+    "trans": [
+      "保持；拿住"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dung_adj",
+    "name": "đúng",
+    "trans": [
+      "对；正确"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_sai",
+    "name": "sai",
+    "trans": [
+      "错；错误"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_giong",
+    "name": "giống",
+    "trans": [
+      "像；相同"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_khac",
+    "name": "khác",
+    "trans": [
+      "不同"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_giau",
+    "name": "giàu",
+    "trans": [
+      "富"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ngheo",
+    "name": "nghèo",
+    "trans": [
+      "穷"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_mac",
+    "name": "mắc",
+    "trans": [
+      "贵"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_re",
+    "name": "rẻ",
+    "trans": [
+      "便宜"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_de_thuong",
+    "name": "dễ thương",
+    "trans": [
+      "可爱"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thong_minh",
+    "name": "thông minh",
+    "trans": [
+      "聪明"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_luoi",
+    "name": "lười",
+    "trans": [
+      "懒"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_sieng",
+    "name": "siêng",
+    "trans": [
+      "勤奋"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_vui_ve",
+    "name": "vui vẻ",
+    "trans": [
+      "开心；愉快"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_buon_chan",
+    "name": "buồn chán",
+    "trans": [
+      "无聊"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_quan_trong",
+    "name": "quan trọng",
+    "trans": [
+      "重要"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_can_thiet",
+    "name": "cần thiết",
+    "trans": [
+      "必要"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dac_biet",
+    "name": "đặc biệt",
+    "trans": [
+      "特别"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cuoc_song",
+    "name": "cuộc sống",
+    "trans": [
+      "生活"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_the_gioi",
+    "name": "thế giới",
+    "trans": [
+      "世界"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dat_nuoc",
+    "name": "đất nước",
+    "trans": [
+      "国家"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nguoi",
+    "name": "người",
+    "trans": [
+      "人"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dan_ong",
+    "name": "đàn ông",
+    "trans": [
+      "男人"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_phu_nu",
+    "name": "phụ nữ",
+    "trans": [
+      "女人"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tre_em",
+    "name": "trẻ em",
+    "trans": [
+      "儿童"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nguoi_gia",
+    "name": "người già",
+    "trans": [
+      "老人"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ban_be",
+    "name": "bạn bè",
+    "trans": [
+      "朋友（复数）"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hang_xom",
+    "name": "hàng xóm",
+    "trans": [
+      "邻居"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cau_chuyen",
+    "name": "câu chuyện",
+    "trans": [
+      "故事"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tin_tuc",
+    "name": "tin tức",
+    "trans": [
+      "新闻"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_van_de",
+    "name": "vấn đề",
+    "trans": [
+      "问题（难题）"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ke_hoach",
+    "name": "kế hoạch",
+    "trans": [
+      "计划"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_y_kien",
+    "name": "ý kiến",
+    "trans": [
+      "意见"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ly_do",
+    "name": "lý do",
+    "trans": [
+      "理由"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ket_qua",
+    "name": "kết quả",
+    "trans": [
+      "结果"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_kinh_nghiem",
+    "name": "kinh nghiệm",
+    "trans": [
+      "经验"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_co_hoi",
+    "name": "cơ hội",
+    "trans": [
+      "机会"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_giac_mo",
+    "name": "giấc mơ",
+    "trans": [
+      "梦；梦想"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hy_vong",
+    "name": "hy vọng",
+    "trans": [
+      "希望"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tinh_yeu",
+    "name": "tình yêu",
+    "trans": [
+      "爱情"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hanh_phuc",
+    "name": "hạnh phúc",
+    "trans": [
+      "幸福"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_noi_buon",
+    "name": "nỗi buồn",
+    "trans": [
+      "悲伤"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_niem_vui",
+    "name": "niềm vui",
+    "trans": [
+      "喜悦"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_suc_khoe",
+    "name": "sức khỏe",
+    "trans": [
+      "健康"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_benh",
+    "name": "bệnh",
+    "trans": [
+      "病"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thuoc",
+    "name": "thuốc",
+    "trans": [
+      "药"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cam_giac",
+    "name": "cảm giác",
+    "trans": [
+      "感觉"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_y_nghia",
+    "name": "ý nghĩa",
+    "trans": [
+      "意义"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tuc_gian",
+    "name": "tức giận",
+    "trans": [
+      "生气"
+    ],
+    "tags": [
+      "emotion",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_lo_lang",
+    "name": "lo lắng",
+    "trans": [
+      "担心"
+    ],
+    "tags": [
+      "emotion",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cang_thang",
+    "name": "căng thẳng",
+    "trans": [
+      "紧张"
+    ],
+    "tags": [
+      "emotion",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_binh_tinh",
+    "name": "bình tĩnh",
+    "trans": [
+      "冷静"
+    ],
+    "tags": [
+      "emotion",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ngac_nhien",
+    "name": "ngạc nhiên",
+    "trans": [
+      "惊讶"
+    ],
+    "tags": [
+      "emotion",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_that_vong",
+    "name": "thất vọng",
+    "trans": [
+      "失望"
+    ],
+    "tags": [
+      "emotion",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tu_hao",
+    "name": "tự hào",
+    "trans": [
+      "自豪"
+    ],
+    "tags": [
+      "emotion",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_xau_ho",
+    "name": "xấu hổ",
+    "trans": [
+      "羞愧；害羞"
+    ],
+    "tags": [
+      "emotion",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ghen_ti",
+    "name": "ghen tị",
+    "trans": [
+      "嫉妒"
+    ],
+    "tags": [
+      "emotion",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thuong_xot",
+    "name": "thương xót",
+    "trans": [
+      "心疼；怜悯"
+    ],
+    "tags": [
+      "emotion",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hai_long",
+    "name": "hài lòng",
+    "trans": [
+      "满意"
+    ],
+    "tags": [
+      "emotion",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thoai_mai",
+    "name": "thoải mái",
+    "trans": [
+      "舒服；轻松"
+    ],
+    "tags": [
+      "emotion",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_kho_chiu",
+    "name": "khó chịu",
+    "trans": [
+      "难受；不舒服"
+    ],
+    "tags": [
+      "emotion",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_co_don",
+    "name": "cô đơn",
+    "trans": [
+      "孤独"
+    ],
+    "tags": [
+      "emotion",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_sung_suong",
+    "name": "sung sướng",
+    "trans": [
+      "幸福；快乐"
+    ],
+    "tags": [
+      "emotion",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_danh_dau",
+    "name": "đánh dấu",
+    "trans": [
+      "打标；标记"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_keo",
+    "name": "kéo",
+    "trans": [
+      "拉"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_day_verb",
+    "name": "đẩy",
+    "trans": [
+      "推"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nang_verb",
+    "name": "nâng",
+    "trans": [
+      "举起"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_do_verb",
+    "name": "đổ",
+    "trans": [
+      "倒；洒"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_rot",
+    "name": "rót",
+    "trans": [
+      "倒（水）"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cat",
+    "name": "cắt",
+    "trans": [
+      "切；剪"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dam",
+    "name": "đâm",
+    "trans": [
+      "扎；刺"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_danh",
+    "name": "đánh",
+    "trans": [
+      "打；敲"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dap",
+    "name": "đập",
+    "trans": [
+      "砸；拍"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nem_verb",
+    "name": "ném",
+    "trans": [
+      "扔；投"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_bat_verb",
+    "name": "bắt",
+    "trans": [
+      "抓；捕捉"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thay_verb",
+    "name": "thay",
+    "trans": [
+      "换；替换"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_sap_xep",
+    "name": "sắp xếp",
+    "trans": [
+      "安排；整理"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_lau",
+    "name": "lau",
+    "trans": [
+      "擦"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_giat",
+    "name": "giặt",
+    "trans": [
+      "洗（衣服）"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_phoi",
+    "name": "phơi",
+    "trans": [
+      "晒；晾"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ui",
+    "name": "ủi",
+    "trans": [
+      "熨"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_mac_ao",
+    "name": "mặc",
+    "trans": [
+      "穿"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chai",
+    "name": "chải",
+    "trans": [
+      "梳；刷"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_rua_mat",
+    "name": "rửa mặt",
+    "trans": [
+      "洗脸"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_danh_rang",
+    "name": "đánh răng",
+    "trans": [
+      "刷牙"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_som",
+    "name": "sớm",
+    "trans": [
+      "早"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ngay_lap_tuc",
+    "name": "ngay lập tức",
+    "trans": [
+      "立刻"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ngay_bay_gio",
+    "name": "ngay bây giờ",
+    "trans": [
+      "现在马上"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_lap_tuc",
+    "name": "lập tức",
+    "trans": [
+      "马上；立即"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dan_dan",
+    "name": "dần dần",
+    "trans": [
+      "渐渐"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hon_nua",
+    "name": "hơn nữa",
+    "trans": [
+      "而且；此外"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tuy_nhien",
+    "name": "tuy nhiên",
+    "trans": [
+      "然而"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_mac_du",
+    "name": "mặc dù",
+    "trans": [
+      "尽管"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chi_co",
+    "name": "chỉ có",
+    "trans": [
+      "只有"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_that_su",
+    "name": "thật sự",
+    "trans": [
+      "真的；确实"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hoan_toan",
+    "name": "hoàn toàn",
+    "trans": [
+      "完全"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_gan_nhu",
+    "name": "gần như",
+    "trans": [
+      "几乎"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_co_the",
+    "name": "có thể",
+    "trans": [
+      "可以；能够"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_khong_the",
+    "name": "không thể",
+    "trans": [
+      "不能；无法"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_mau",
+    "name": "màu",
+    "trans": [
+      "颜色"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hinh",
+    "name": "hình",
+    "trans": [
+      "形状"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hinh_tron",
+    "name": "hình tròn",
+    "trans": [
+      "圆形"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hinh_vuong",
+    "name": "hình vuông",
+    "trans": [
+      "正方形"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hinh_chu_nhat",
+    "name": "hình chữ nhật",
+    "trans": [
+      "长方形"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hinh_tam_giac",
+    "name": "hình tam giác",
+    "trans": [
+      "三角形"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_to_adj",
+    "name": "to",
+    "trans": [
+      "大"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dac",
+    "name": "đặc",
+    "trans": [
+      "稠；浓"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_long",
+    "name": "lỏng",
+    "trans": [
+      "稀；松"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cung_adj",
+    "name": "cứng",
+    "trans": [
+      "硬"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_mem",
+    "name": "mềm",
+    "trans": [
+      "软"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nang_adj",
+    "name": "nặng",
+    "trans": [
+      "重"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nhe",
+    "name": "nhẹ",
+    "trans": [
+      "轻"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_day_adj",
+    "name": "dày",
+    "trans": [
+      "厚"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_mong",
+    "name": "mỏng",
+    "trans": [
+      "薄"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_sang",
+    "name": "sáng",
+    "trans": [
+      "亮；早上"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_toi_adj",
+    "name": "tối",
+    "trans": [
+      "暗；晚上"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_on",
+    "name": "ồn",
+    "trans": [
+      "吵"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_yen_tinh",
+    "name": "yên tĩnh",
+    "trans": [
+      "安静"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_than_thien",
+    "name": "thân thiện",
+    "trans": [
+      "友好"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_trang_trong",
+    "name": "trang trọng",
+    "trans": [
+      "隆重；庄重"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hien_lanh",
+    "name": "hiền lành",
+    "trans": [
+      "和善"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hung_du",
+    "name": "hung dữ",
+    "trans": [
+      "凶狠"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dung_cam",
+    "name": "dũng cảm",
+    "trans": [
+      "勇敢"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nhut_nhat",
+    "name": "nhút nhát",
+    "trans": [
+      "胆小"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_that_tha",
+    "name": "thật thà",
+    "trans": [
+      "老实；诚实"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_gia_doi",
+    "name": "giả dối",
+    "trans": [
+      "虚假"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thoi_tiet",
+    "name": "thời tiết",
+    "trans": [
+      "天气"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_khi_hau",
+    "name": "khí hậu",
+    "trans": [
+      "气候"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nhiet_do",
+    "name": "nhiệt độ",
+    "trans": [
+      "温度"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_do_c",
+    "name": "độ C",
+    "trans": [
+      "摄氏度"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_muc",
+    "name": "mực",
+    "trans": [
+      "水平；水位"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_bien",
+    "name": "biển",
+    "trans": [
+      "海"
+    ],
+    "tags": [
+      "nature",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nui",
+    "name": "núi",
+    "trans": [
+      "山"
+    ],
+    "tags": [
+      "nature",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_song_nm",
+    "name": "sông",
+    "trans": [
+      "河；江"
+    ],
+    "tags": [
+      "nature",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ho_nm",
+    "name": "hồ",
+    "trans": [
+      "湖"
+    ],
+    "tags": [
+      "nature",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_rung",
+    "name": "rừng",
+    "trans": [
+      "森林"
+    ],
+    "tags": [
+      "nature",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hoa",
+    "name": "hoa",
+    "trans": [
+      "花"
+    ],
+    "tags": [
+      "nature",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cay",
+    "name": "cây",
+    "trans": [
+      "树"
+    ],
+    "tags": [
+      "nature",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_co_nm",
+    "name": "cỏ",
+    "trans": [
+      "草"
+    ],
+    "tags": [
+      "nature",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_la",
+    "name": "lá",
+    "trans": [
+      "叶子"
+    ],
+    "tags": [
+      "nature",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dat_nm",
+    "name": "đất",
+    "trans": [
+      "土；土地"
+    ],
+    "tags": [
+      "nature",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_da_nm",
+    "name": "đá",
+    "trans": [
+      "石头"
+    ],
+    "tags": [
+      "nature",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cat_nm",
+    "name": "cát",
+    "trans": [
+      "沙"
+    ],
+    "tags": [
+      "nature",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_lua",
+    "name": "lửa",
+    "trans": [
+      "火"
+    ],
+    "tags": [
+      "nature",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_khong_khi",
+    "name": "không khí",
+    "trans": [
+      "空气"
+    ],
+    "tags": [
+      "nature",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_anh_sang",
+    "name": "ánh sáng",
+    "trans": [
+      "光"
+    ],
+    "tags": [
+      "nature",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_co_the_nm",
+    "name": "cơ thể",
+    "trans": [
+      "身体"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_suc_manh",
+    "name": "sức mạnh",
+    "trans": [
+      "力量"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tinh_than",
+    "name": "tinh thần",
+    "trans": [
+      "精神"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tri_tue",
+    "name": "trí tuệ",
+    "trans": [
+      "智慧"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tinh_cach",
+    "name": "tính cách",
+    "trans": [
+      "性格"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thoi_quen",
+    "name": "thói quen",
+    "trans": [
+      "习惯"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_so_thich",
+    "name": "sở thích",
+    "trans": [
+      "爱好"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ky_nang",
+    "name": "kỹ năng",
+    "trans": [
+      "技能"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_kien_thuc",
+    "name": "kiến thức",
+    "trans": [
+      "知识"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_trinh_do",
+    "name": "trình độ",
+    "trans": [
+      "水平；程度"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ban_lam_viec",
+    "name": "bàn làm việc",
+    "trans": [
+      "办公桌"
+    ],
+    "tags": [
+      "furniture",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ghe_sofa",
+    "name": "ghế sofa",
+    "trans": [
+      "沙发"
+    ],
+    "tags": [
+      "furniture",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tu_lanh",
+    "name": "tủ lạnh",
+    "trans": [
+      "冰箱"
+    ],
+    "tags": [
+      "appliance",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_may_giat",
+    "name": "máy giặt",
+    "trans": [
+      "洗衣机"
+    ],
+    "tags": [
+      "appliance",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_noi_com",
+    "name": "nồi cơm điện",
+    "trans": [
+      "电饭锅"
+    ],
+    "tags": [
+      "appliance",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_lo_vi_song",
+    "name": "lò vi sóng",
+    "trans": [
+      "微波炉"
+    ],
+    "tags": [
+      "appliance",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tivi",
+    "name": "tivi",
+    "trans": [
+      "电视"
+    ],
+    "tags": [
+      "appliance",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dieu_hoa",
+    "name": "điều hòa",
+    "trans": [
+      "空调"
+    ],
+    "tags": [
+      "appliance",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_noi_chao",
+    "name": "nồi",
+    "trans": [
+      "锅"
+    ],
+    "tags": [
+      "kitchen",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chao_kitchen",
+    "name": "chảo",
+    "trans": [
+      "平底锅"
+    ],
+    "tags": [
+      "kitchen",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_bat_dia",
+    "name": "bát đĩa",
+    "trans": [
+      "碗碟"
+    ],
+    "tags": [
+      "kitchen",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thia",
+    "name": "thìa",
+    "trans": [
+      "勺子"
+    ],
+    "tags": [
+      "kitchen",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dua_kitchen",
+    "name": "đũa",
+    "trans": [
+      "筷子"
+    ],
+    "tags": [
+      "kitchen",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dao",
+    "name": "dao",
+    "trans": [
+      "刀"
+    ],
+    "tags": [
+      "kitchen",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thot",
+    "name": "thớt",
+    "trans": [
+      "砧板"
+    ],
+    "tags": [
+      "kitchen",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_coc",
+    "name": "cốc",
+    "trans": [
+      "杯子"
+    ],
+    "tags": [
+      "kitchen",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ly",
+    "name": "ly",
+    "trans": [
+      "玻璃杯"
+    ],
+    "tags": [
+      "kitchen",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_phich",
+    "name": "phích",
+    "trans": [
+      "保温瓶"
+    ],
+    "tags": [
+      "kitchen",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_meo",
+    "name": "mèo",
+    "trans": [
+      "猫"
+    ],
+    "tags": [
+      "animal",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ga",
+    "name": "gà",
+    "trans": [
+      "鸡"
+    ],
+    "tags": [
+      "animal",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_vit",
+    "name": "vịt",
+    "trans": [
+      "鸭"
+    ],
+    "tags": [
+      "animal",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_bo_animal",
+    "name": "bò",
+    "trans": [
+      "牛"
+    ],
+    "tags": [
+      "animal",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_heo",
+    "name": "heo",
+    "trans": [
+      "猪"
+    ],
+    "tags": [
+      "animal",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ngua",
+    "name": "ngựa",
+    "trans": [
+      "马"
+    ],
+    "tags": [
+      "animal",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_voi",
+    "name": "voi",
+    "trans": [
+      "大象"
+    ],
+    "tags": [
+      "animal",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ho_animal",
+    "name": "hổ",
+    "trans": [
+      "老虎"
+    ],
+    "tags": [
+      "animal",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_su_tu",
+    "name": "sư tử",
+    "trans": [
+      "狮子"
+    ],
+    "tags": [
+      "animal",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_khi",
+    "name": "khỉ",
+    "trans": [
+      "猴子"
+    ],
+    "tags": [
+      "animal",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tho_con",
+    "name": "thỏ",
+    "trans": [
+      "兔子"
+    ],
+    "tags": [
+      "animal",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chuot",
+    "name": "chuột",
+    "trans": [
+      "老鼠"
+    ],
+    "tags": [
+      "animal",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chim",
+    "name": "chim",
+    "trans": [
+      "鸟"
+    ],
+    "tags": [
+      "animal",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_rua_animal",
+    "name": "rùa",
+    "trans": [
+      "乌龟"
+    ],
+    "tags": [
+      "animal",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ran",
+    "name": "rắn",
+    "trans": [
+      "蛇"
+    ],
+    "tags": [
+      "animal",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ech",
+    "name": "ếch",
+    "trans": [
+      "青蛙"
+    ],
+    "tags": [
+      "animal",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cong",
+    "name": "công",
+    "trans": [
+      "孔雀"
+    ],
+    "tags": [
+      "animal",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_buom",
+    "name": "bướm",
+    "trans": [
+      "蝴蝶"
+    ],
+    "tags": [
+      "animal",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_kien",
+    "name": "kiến",
+    "trans": [
+      "蚂蚁"
+    ],
+    "tags": [
+      "animal",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ruoi",
+    "name": "ruồi",
+    "trans": [
+      "苍蝇"
+    ],
+    "tags": [
+      "animal",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tao",
+    "name": "táo",
+    "trans": [
+      "苹果"
+    ],
+    "tags": [
+      "fruit",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chuoi",
+    "name": "chuối",
+    "trans": [
+      "香蕉"
+    ],
+    "tags": [
+      "fruit",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cam",
+    "name": "cam",
+    "trans": [
+      "橙子"
+    ],
+    "tags": [
+      "fruit",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_du_du",
+    "name": "đu đủ",
+    "trans": [
+      "木瓜"
+    ],
+    "tags": [
+      "fruit",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_xoai",
+    "name": "xoài",
+    "trans": [
+      "芒果"
+    ],
+    "tags": [
+      "fruit",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dua_hau",
+    "name": "dưa hấu",
+    "trans": [
+      "西瓜"
+    ],
+    "tags": [
+      "fruit",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dau_tay",
+    "name": "dâu tây",
+    "trans": [
+      "草莓"
+    ],
+    "tags": [
+      "fruit",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chanh",
+    "name": "chanh",
+    "trans": [
+      "柠檬"
+    ],
+    "tags": [
+      "fruit",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_le",
+    "name": "lê",
+    "trans": [
+      "梨"
+    ],
+    "tags": [
+      "fruit",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_man",
+    "name": "mận",
+    "trans": [
+      "李子"
+    ],
+    "tags": [
+      "fruit",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_vai",
+    "name": "vải",
+    "trans": [
+      "荔枝"
+    ],
+    "tags": [
+      "fruit",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_mit",
+    "name": "mít",
+    "trans": [
+      "菠萝蜜"
+    ],
+    "tags": [
+      "fruit",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cai",
+    "name": "cải",
+    "trans": [
+      "白菜；芥菜"
+    ],
+    "tags": [
+      "vegetable",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ca_rot",
+    "name": "cà rốt",
+    "trans": [
+      "胡萝卜"
+    ],
+    "tags": [
+      "vegetable",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hanh",
+    "name": "hành",
+    "trans": [
+      "洋葱"
+    ],
+    "tags": [
+      "vegetable",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ot",
+    "name": "ớt",
+    "trans": [
+      "辣椒"
+    ],
+    "tags": [
+      "vegetable",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ca_chua",
+    "name": "cà chua",
+    "trans": [
+      "西红柿"
+    ],
+    "tags": [
+      "vegetable",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dua_leo",
+    "name": "dưa leo",
+    "trans": [
+      "黄瓜"
+    ],
+    "tags": [
+      "vegetable",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_khoai_tay",
+    "name": "khoai tây",
+    "trans": [
+      "土豆"
+    ],
+    "tags": [
+      "vegetable",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_khoai_lang",
+    "name": "khoai lang",
+    "trans": [
+      "红薯"
+    ],
+    "tags": [
+      "vegetable",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_bap",
+    "name": "bắp",
+    "trans": [
+      "玉米"
+    ],
+    "tags": [
+      "vegetable",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dau_hu",
+    "name": "đậu hũ",
+    "trans": [
+      "豆腐"
+    ],
+    "tags": [
+      "vegetable",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thuc_day",
+    "name": "thức dậy",
+    "trans": [
+      "起床"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_danh_thuc",
+    "name": "đánh thức",
+    "trans": [
+      "叫醒"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ra_khoi",
+    "name": "ra khỏi",
+    "trans": [
+      "离开"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tro_ve",
+    "name": "trở về",
+    "trans": [
+      "返回"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_di_lam",
+    "name": "đi làm",
+    "trans": [
+      "上班"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_di_hoc",
+    "name": "đi học",
+    "trans": [
+      "上学"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ve_nha",
+    "name": "về nhà",
+    "trans": [
+      "回家"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_xong",
+    "name": "xong",
+    "trans": [
+      "完成"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chuan_bi",
+    "name": "chuẩn bị",
+    "trans": [
+      "准备"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_doi_x",
+    "name": "chờ",
+    "trans": [
+      "等待"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_gioi_thieu_ban",
+    "name": "bàn giao",
+    "trans": [
+      "交付"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_muon_x",
+    "name": "mượn",
+    "trans": [
+      "借"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cho_vay",
+    "name": "cho vay",
+    "trans": [
+      "借出"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tra_lai",
+    "name": "trả lại",
+    "trans": [
+      "归还"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_giu_ho",
+    "name": "giữ hộ",
+    "trans": [
+      "保管"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_kiem_tra_x",
+    "name": "xem xét",
+    "trans": [
+      "查看"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_doan",
+    "name": "đoán",
+    "trans": [
+      "猜"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nghi_ngo",
+    "name": "nghi ngờ",
+    "trans": [
+      "怀疑"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chac_chan",
+    "name": "chắc chắn",
+    "trans": [
+      "确定；肯定"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_co_le",
+    "name": "có lẽ",
+    "trans": [
+      "也许"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chac_x",
+    "name": "có thể là",
+    "trans": [
+      "可能是"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nhat_dinh",
+    "name": "nhất định",
+    "trans": [
+      "一定"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tuyet_doi",
+    "name": "tuyệt đối",
+    "trans": [
+      "绝对"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thuong_xuyen",
+    "name": "thường xuyên",
+    "trans": [
+      "经常"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hiem_khi",
+    "name": "hiếm khi",
+    "trans": [
+      "很少"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hau_nhu",
+    "name": "hầu như",
+    "trans": [
+      "几乎"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hoan_toan_x",
+    "name": "hoàn toàn không",
+    "trans": [
+      "完全不"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dac_biet_x",
+    "name": "đặc biệt là",
+    "trans": [
+      "尤其是"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nhat_la",
+    "name": "nhất là",
+    "trans": [
+      "特别是"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_vi_du",
+    "name": "ví dụ",
+    "trans": [
+      "例如"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_noi_chung",
+    "name": "nói chung",
+    "trans": [
+      "总的来说"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_noi_rieng",
+    "name": "nói riêng",
+    "trans": [
+      "单独说"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tom_lai",
+    "name": "tóm lại",
+    "trans": [
+      "总之"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_doi_khi",
+    "name": "đôi khi",
+    "trans": [
+      "有时"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_luc_nay",
+    "name": "lúc này",
+    "trans": [
+      "此时"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_luc_do",
+    "name": "lúc đó",
+    "trans": [
+      "那时"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_sau_nay",
+    "name": "sau này",
+    "trans": [
+      "以后"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_truoc_day",
+    "name": "trước đây",
+    "trans": [
+      "以前"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_gan_day",
+    "name": "gần đây",
+    "trans": [
+      "最近"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_sap_toi",
+    "name": "sắp tới",
+    "trans": [
+      "即将"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dang_x",
+    "name": "đang khi",
+    "trans": [
+      "正在"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_vua",
+    "name": "vừa",
+    "trans": [
+      "刚；既…又…"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nua",
+    "name": "nữa",
+    "trans": [
+      "再；更多"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hon",
+    "name": "hơn",
+    "trans": [
+      "比…更"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nhat",
+    "name": "nhất",
+    "trans": [
+      "最"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_rat_x",
+    "name": "hơi",
+    "trans": [
+      "有点"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_kha",
+    "name": "khá",
+    "trans": [
+      "相当"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_that",
+    "name": "thật",
+    "trans": [
+      "真"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_du",
+    "name": "đủ",
+    "trans": [
+      "够"
+    ],
+    "tags": [
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_them",
+    "name": "thêm",
+    "trans": [
+      "更多；另外"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_bot",
+    "name": "bớt",
+    "trans": [
+      "少一些"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chi_x",
+    "name": "chỉ",
+    "trans": [
+      "只"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_rieng",
+    "name": "riêng",
+    "trans": [
+      "单独"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chung",
+    "name": "chung",
+    "trans": [
+      "共同"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_khac_x",
+    "name": "ngoài ra",
+    "trans": [
+      "另外"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thay_vi",
+    "name": "thay vì",
+    "trans": [
+      "代替"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thay_cho",
+    "name": "thay cho",
+    "trans": [
+      "代替"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cao_x",
+    "name": "cỡ",
+    "trans": [
+      "尺寸；大约"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_kich_thuoc",
+    "name": "kích thước",
+    "trans": [
+      "尺寸"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_do_x",
+    "name": "đo",
+    "trans": [
+      "测量"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_so_sanh_x",
+    "name": "so",
+    "trans": [
+      "比较"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dem",
+    "name": "đếm",
+    "trans": [
+      "数"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_chia",
+    "name": "chia",
+    "trans": [
+      "分；除"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nhan_x",
+    "name": "nhân",
+    "trans": [
+      "乘"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tru",
+    "name": "trừ",
+    "trans": [
+      "减"
+    ],
+    "tags": [
+      "verb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_dau_tien",
+    "name": "đầu tiên",
+    "trans": [
+      "第一；首先"
+    ],
+    "tags": [
+      "ordinal",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thu_hai_x",
+    "name": "thứ hai là",
+    "trans": [
+      "第二；其次"
+    ],
+    "tags": [
+      "ordinal",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cuoi_cung",
+    "name": "cuối cùng",
+    "trans": [
+      "最后"
+    ],
+    "tags": [
+      "ordinal",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ke_tiep",
+    "name": "kế tiếp",
+    "trans": [
+      "接着"
+    ],
+    "tags": [
+      "ordinal",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_truoc_tien",
+    "name": "trước tiên",
+    "trans": [
+      "首先"
+    ],
+    "tags": [
+      "ordinal",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_sau_do",
+    "name": "sau đó",
+    "trans": [
+      "然后"
+    ],
+    "tags": [
+      "ordinal",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ngay_sau",
+    "name": "ngay sau",
+    "trans": [
+      "紧接着"
+    ],
+    "tags": [
+      "ordinal",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ngay_lien",
+    "name": "liền",
+    "trans": [
+      "立刻"
+    ],
+    "tags": [
+      "adverb",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_tinh",
+    "name": "tỉnh",
+    "trans": [
+      "省"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_huyen",
+    "name": "huyện",
+    "trans": [
+      "县"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_thon",
+    "name": "thôn",
+    "trans": [
+      "村"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_lang",
+    "name": "làng",
+    "trans": [
+      "村庄"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_phuong",
+    "name": "phường",
+    "trans": [
+      "坊"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ngo",
+    "name": "ngõ",
+    "trans": [
+      "巷"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_hem",
+    "name": "hẻm",
+    "trans": [
+      "小巷"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ngoai_o",
+    "name": "ngoại ô",
+    "trans": [
+      "郊区"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_trung_tam",
+    "name": "trung tâm",
+    "trans": [
+      "中心"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_ven_bien",
+    "name": "ven biển",
+    "trans": [
+      "海边"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_bai_bien",
+    "name": "bãi biển",
+    "trans": [
+      "海滩"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_quoc_lo",
+    "name": "quốc lộ",
+    "trans": [
+      "国道"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_cau_place",
+    "name": "cầu",
+    "trans": [
+      "桥"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_duong_place",
+    "name": "đường phố",
+    "trans": [
+      "街道"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_nga_tu",
+    "name": "ngã tư",
+    "trans": [
+      "十字路口"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_den_giao_thong",
+    "name": "đèn giao thông",
+    "trans": [
+      "红绿灯"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_a1_bai_do_xe",
+    "name": "bãi đỗ xe",
+    "trans": [
+      "停车场"
+    ],
+    "tags": [
+      "place",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_xin_chao",
+    "name": "xin chào",
+    "trans": [
+      "你好",
+      "您好"
+    ],
+    "tags": [
+      "greeting",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_chao",
+    "name": "chào",
+    "trans": [
+      "问候",
+      "告别"
+    ],
+    "tags": [
+      "greeting",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_tam_biet",
+    "name": "tạm biệt",
+    "trans": [
+      "再见"
+    ],
+    "tags": [
+      "greeting",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_em",
+    "name": "em",
+    "trans": [
+      "我（对长辈自称）",
+      "你（对年幼者）"
+    ],
+    "tags": [
+      "pronoun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_co",
+    "name": "cô",
+    "trans": [
+      "女老师",
+      "阿姨",
+      "小姐"
+    ],
+    "tags": [
+      "address",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_thay",
+    "name": "thầy",
+    "trans": [
+      "男老师"
+    ],
+    "tags": [
+      "address",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_ban",
+    "name": "bạn",
+    "trans": [
+      "朋友",
+      "你（同辈）"
+    ],
+    "tags": [
+      "pronoun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_ten",
+    "name": "tên",
+    "trans": [
+      "名字"
+    ],
+    "tags": [
+      "noun",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_gia_dinh",
+    "name": "gia đình",
+    "trans": [
+      "家庭"
+    ],
+    "tags": [
+      "family",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_bo",
+    "name": "bố",
+    "trans": [
+      "父亲",
+      "爸爸"
+    ],
+    "tags": [
+      "family",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_me",
+    "name": "mẹ",
+    "trans": [
+      "母亲",
+      "妈妈"
+    ],
+    "tags": [
+      "family",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_anh_trai",
+    "name": "anh trai",
+    "trans": [
+      "哥哥"
+    ],
+    "tags": [
+      "family",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_chi_gai",
+    "name": "chị gái",
+    "trans": [
+      "姐姐"
+    ],
+    "tags": [
+      "family",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_giao_vien",
+    "name": "giáo viên",
+    "trans": [
+      "教师",
+      "老师"
+    ],
+    "tags": [
+      "job",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_bac_si",
+    "name": "bác sĩ",
+    "trans": [
+      "医生"
+    ],
+    "tags": [
+      "job",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_sinh_vien",
+    "name": "sinh viên",
+    "trans": [
+      "大学生",
+      "学生"
+    ],
+    "tags": [
+      "job",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_hom_nay",
+    "name": "hôm nay",
+    "trans": [
+      "今天"
+    ],
+    "tags": [
+      "time",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_ngay_mai",
+    "name": "ngày mai",
+    "trans": [
+      "明天"
+    ],
+    "tags": [
+      "time",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_buoi_sang",
+    "name": "buổi sáng",
+    "trans": [
+      "早上",
+      "上午"
+    ],
+    "tags": [
+      "time",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_buoi_chieu",
+    "name": "buổi chiều",
+    "trans": [
+      "下午"
+    ],
+    "tags": [
+      "time",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_buoi_toi",
+    "name": "buổi tối",
+    "trans": [
+      "晚上"
+    ],
+    "tags": [
+      "time",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_thuc_day",
+    "name": "thức dậy",
+    "trans": [
+      "起床"
+    ],
+    "tags": [
+      "daily",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_di_hoc",
+    "name": "đi học",
+    "trans": [
+      "去上学",
+      "上学"
+    ],
+    "tags": [
+      "daily",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_di_lam",
+    "name": "đi làm",
+    "trans": [
+      "去上班",
+      "上班"
+    ],
+    "tags": [
+      "daily",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_mua",
+    "name": "mua",
+    "trans": [
+      "买"
+    ],
+    "tags": [
+      "shopping",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_gia",
+    "name": "giá",
+    "trans": [
+      "价格",
+      "价钱"
+    ],
+    "tags": [
+      "shopping",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_bao_nhieu",
+    "name": "bao nhiêu",
+    "trans": [
+      "多少"
+    ],
+    "tags": [
+      "question",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_tien",
+    "name": "tiền",
+    "trans": [
+      "钱"
+    ],
+    "tags": [
+      "shopping",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_ao",
+    "name": "áo",
+    "trans": [
+      "衣服",
+      "上衣"
+    ],
+    "tags": [
+      "shopping",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_sach",
+    "name": "sách",
+    "trans": [
+      "书"
+    ],
+    "tags": [
+      "shopping",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_cua_hang",
+    "name": "cửa hàng",
+    "trans": [
+      "商店"
+    ],
+    "tags": [
+      "shopping",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_an",
+    "name": "ăn",
+    "trans": [
+      "吃"
+    ],
+    "tags": [
+      "food",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_uong",
+    "name": "uống",
+    "trans": [
+      "喝"
+    ],
+    "tags": [
+      "food",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_com",
+    "name": "cơm",
+    "trans": [
+      "米饭",
+      "饭"
+    ],
+    "tags": [
+      "food",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_pho",
+    "name": "phở",
+    "trans": [
+      "河粉"
+    ],
+    "tags": [
+      "food",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_nuoc",
+    "name": "nước",
+    "trans": [
+      "水",
+      "饮料"
+    ],
+    "tags": [
+      "food",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_ca_phe",
+    "name": "cà phê",
+    "trans": [
+      "咖啡"
+    ],
+    "tags": [
+      "food",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_ngon",
+    "name": "ngon",
+    "trans": [
+      "好吃",
+      "好喝"
+    ],
+    "tags": [
+      "food",
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_goi",
+    "name": "gọi",
+    "trans": [
+      "叫",
+      "点（餐）"
+    ],
+    "tags": [
+      "food",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_o_dau",
+    "name": "ở đâu",
+    "trans": [
+      "在哪里"
+    ],
+    "tags": [
+      "direction",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_ben_phai",
+    "name": "bên phải",
+    "trans": [
+      "右边"
+    ],
+    "tags": [
+      "direction",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_ben_trai",
+    "name": "bên trái",
+    "trans": [
+      "左边"
+    ],
+    "tags": [
+      "direction",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_di_thang",
+    "name": "đi thẳng",
+    "trans": [
+      "直走"
+    ],
+    "tags": [
+      "direction",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_xe_buyt",
+    "name": "xe buýt",
+    "trans": [
+      "公交车"
+    ],
+    "tags": [
+      "transport",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_xe_dap",
+    "name": "xe đạp",
+    "trans": [
+      "自行车"
+    ],
+    "tags": [
+      "transport",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_xe_may",
+    "name": "xe máy",
+    "trans": [
+      "摩托车"
+    ],
+    "tags": [
+      "transport",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_di_bo",
+    "name": "đi bộ",
+    "trans": [
+      "走路",
+      "步行"
+    ],
+    "tags": [
+      "transport",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_thoi_tiet",
+    "name": "thời tiết",
+    "trans": [
+      "天气"
+    ],
+    "tags": [
+      "weather",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_nong",
+    "name": "nóng",
+    "trans": [
+      "热"
+    ],
+    "tags": [
+      "weather",
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_lanh",
+    "name": "lạnh",
+    "trans": [
+      "冷"
+    ],
+    "tags": [
+      "weather",
+      "adjective",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_nang",
+    "name": "nắng",
+    "trans": [
+      "晴",
+      "阳光"
+    ],
+    "tags": [
+      "weather",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_mua_xuan",
+    "name": "mùa xuân",
+    "trans": [
+      "春天"
+    ],
+    "tags": [
+      "season",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_mua_he",
+    "name": "mùa hè",
+    "trans": [
+      "夏天"
+    ],
+    "tags": [
+      "season",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_mua_dong",
+    "name": "mùa đông",
+    "trans": [
+      "冬天"
+    ],
+    "tags": [
+      "season",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_thich",
+    "name": "thích",
+    "trans": [
+      "喜欢"
+    ],
+    "tags": [
+      "hobby",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_doc_sach",
+    "name": "đọc sách",
+    "trans": [
+      "读书"
+    ],
+    "tags": [
+      "hobby",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_nghe_nhac",
+    "name": "nghe nhạc",
+    "trans": [
+      "听音乐"
+    ],
+    "tags": [
+      "hobby",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_xem_phim",
+    "name": "xem phim",
+    "trans": [
+      "看电影"
+    ],
+    "tags": [
+      "hobby",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_choi_the_thao",
+    "name": "chơi thể thao",
+    "trans": [
+      "做运动",
+      "运动"
+    ],
+    "tags": [
+      "hobby",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_di_choi",
+    "name": "đi chơi",
+    "trans": [
+      "出去玩",
+      "逛街"
+    ],
+    "tags": [
+      "hobby",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  },
+  {
+    "id": "vi_ranh",
+    "name": "rảnh",
+    "trans": [
+      "有空",
+      "空闲"
+    ],
+    "tags": [
+      "hobby",
+      "A1"
+    ],
+    "source": [
+      "vietnamese_a1"
+    ]
+  }
+]

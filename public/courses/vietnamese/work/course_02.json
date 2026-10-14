@@ -1,0 +1,191 @@
+{
+    "id": "course_vi_82",
+    "title": "第 2 课：公司部门",
+    "titleVi": "Bài 2: Công ty và Phòng ban",
+    "level": "A1",
+    "order": 2,
+    "scenario": "work",
+    "goals": [
+        "掌握公司部门的 8 个核心词汇",
+        "学会介绍公司结构",
+        "掌握各部门名称",
+        "能谈论公司业务"
+    ],
+    "words": [
+        {
+            "id": "vi_cong_ty",
+            "name": "công ty",
+            "trans": [
+                "公司"
+            ],
+            "tags": [
+                "company",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_phong_ban",
+            "name": "phòng ban",
+            "trans": [
+                "部门"
+            ],
+            "tags": [
+                "company",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_van_phong",
+            "name": "văn phòng",
+            "trans": [
+                "办公室"
+            ],
+            "tags": [
+                "company",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ke_toan",
+            "name": "kế toán",
+            "trans": [
+                "会计"
+            ],
+            "tags": [
+                "company",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nhan_su",
+            "name": "nhân sự",
+            "trans": [
+                "人事"
+            ],
+            "tags": [
+                "company",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tiep_thi",
+            "name": "tiếp thị",
+            "trans": [
+                "营销",
+                "市场推广"
+            ],
+            "tags": [
+                "company",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_san_xuat",
+            "name": "sản xuất",
+            "trans": [
+                "生产"
+            ],
+            "tags": [
+                "company",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_kinh_doanh",
+            "name": "kinh doanh",
+            "trans": [
+                "经营",
+                "业务"
+            ],
+            "tags": [
+                "company",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_487",
+        "sentence_vi_488",
+        "sentence_vi_489",
+        "sentence_vi_490",
+        "sentence_vi_491",
+        "sentence_vi_492"
+    ],
+    "grammar": [
+        {
+            "point": "在……部门：ở phòng + 部门名",
+            "explain": "phòng 意为「室、部门」，ở phòng 表示「在……部门」，后接具体部门。",
+            "examples": [
+                {
+                    "vi": "Tôi làm ở phòng kế toán.",
+                    "zh": "我在会计部工作。"
+                },
+                {
+                    "vi": "Anh ấy ở phòng nhân sự.",
+                    "zh": "他在人事部。"
+                }
+            ]
+        },
+        {
+            "point": "负责：phụ trách + 名词",
+            "explain": "phụ trách 意为「负责」，后接工作内容或部门。",
+            "examples": [
+                {
+                    "vi": "Tôi phụ trách tiếp thị.",
+                    "zh": "我负责营销。"
+                },
+                {
+                    "vi": "Cô ấy phụ trách kinh doanh.",
+                    "zh": "她负责业务。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Tôi làm ở phòng kế toán.」是什么意思？",
+            "options": [
+                "我在会计部工作。",
+                "我在人事部工作。",
+                "我在市场部工作。"
+            ],
+            "answer": "我在会计部工作。"
+        },
+        {
+            "type": "fill",
+            "question": "Công ty này có nhiều ___ ban.（这家公司有很多部门。）",
+            "answer": "phòng"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「công ty」（公司）",
+            "answer": "công ty"
+        }
+    ]
+}

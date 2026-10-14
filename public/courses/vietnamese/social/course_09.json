@@ -1,0 +1,195 @@
+{
+    "id": "course_vi_52",
+    "title": "第 9 课：感谢与回应",
+    "titleVi": "Bài 9: Cảm ơn và Đáp lại",
+    "level": "A1",
+    "order": 9,
+    "scenario": "social",
+    "goals": [
+        "掌握感谢与回应的 8 个核心词汇",
+        "学会表达不同程度的感谢",
+        "掌握回应感谢的方式",
+        "能在日常中礼貌应答"
+    ],
+    "words": [
+        {
+            "id": "vi_cam_on",
+            "name": "cảm ơn",
+            "trans": [
+                "感谢",
+                "谢谢"
+            ],
+            "tags": [
+                "thanks",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_cam_on_nhieu",
+            "name": "cảm ơn nhiều",
+            "trans": [
+                "非常感谢"
+            ],
+            "tags": [
+                "thanks",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_khong_co_gi",
+            "name": "không có gì",
+            "trans": [
+                "没什么",
+                "不客气"
+            ],
+            "tags": [
+                "thanks",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_giup",
+            "name": "giúp",
+            "trans": [
+                "帮助"
+            ],
+            "tags": [
+                "thanks",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_giup_do",
+            "name": "giúp đỡ",
+            "trans": [
+                "帮忙",
+                "援助"
+            ],
+            "tags": [
+                "thanks",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tot_bung",
+            "name": "tốt bụng",
+            "trans": [
+                "好心",
+                "善良"
+            ],
+            "tags": [
+                "thanks",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_lam_phien",
+            "name": "làm phiền",
+            "trans": [
+                "打扰",
+                "麻烦"
+            ],
+            "tags": [
+                "thanks",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_san_sang",
+            "name": "sẵn sàng",
+            "trans": [
+                "愿意",
+                "随时"
+            ],
+            "tags": [
+                "thanks",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_307",
+        "sentence_vi_308",
+        "sentence_vi_309",
+        "sentence_vi_310",
+        "sentence_vi_311",
+        "sentence_vi_312"
+    ],
+    "grammar": [
+        {
+            "point": "感谢某事：Cảm ơn vì / về ...",
+            "explain": "cảm ơn 后接 vì 或 về 引出感谢的原因，vì 更常用于具体行为。",
+            "examples": [
+                {
+                    "vi": "Cảm ơn vì đã giúp tôi.",
+                    "zh": "谢谢你帮了我。"
+                },
+                {
+                    "vi": "Cảm ơn về món quà.",
+                    "zh": "谢谢你的礼物。"
+                }
+            ]
+        },
+        {
+            "point": "回应感谢：Không có gì / Đừng khách sáo",
+            "explain": "không có gì 意为「没什么」，是最常见的回应；đừng khách sáo 意为「别客气」。",
+            "examples": [
+                {
+                    "vi": "Không có gì, đừng khách sáo.",
+                    "zh": "没什么，别客气。"
+                },
+                {
+                    "vi": "Không có gì đâu.",
+                    "zh": "没什么啦。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Cảm ơn vì đã giúp tôi.」是什么意思？",
+            "options": [
+                "谢谢你帮了我。",
+                "对不起麻烦你。",
+                "请你帮我。"
+            ],
+            "answer": "谢谢你帮了我。"
+        },
+        {
+            "type": "fill",
+            "question": "Cảm ơn ___.（非常感谢。）",
+            "answer": "nhiều"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「cảm ơn」（谢谢）",
+            "answer": "cảm ơn"
+        }
+    ]
+}

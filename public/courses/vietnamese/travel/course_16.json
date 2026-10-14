@@ -1,0 +1,195 @@
+{
+    "id": "course_vi_76",
+    "title": "第 16 课：山区与徒步",
+    "titleVi": "Bài 16: Núi rừng và Đi bộ đường dài",
+    "level": "A1",
+    "order": 16,
+    "scenario": "travel",
+    "goals": [
+        "掌握山区徒步的 8 个核心词汇",
+        "学会描述山与森林",
+        "掌握徒步与登山表达",
+        "能谈论户外探险体验"
+    ],
+    "words": [
+        {
+            "id": "vi_nui",
+            "name": "núi",
+            "trans": [
+                "山"
+            ],
+            "tags": [
+                "mountain",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_leo_nui",
+            "name": "leo núi",
+            "trans": [
+                "爬山",
+                "登山"
+            ],
+            "tags": [
+                "mountain",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_doi_hill",
+            "name": "đồi",
+            "trans": [
+                "丘陵",
+                "山丘"
+            ],
+            "tags": [
+                "mountain",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_rung",
+            "name": "rừng",
+            "trans": [
+                "森林",
+                "树林"
+            ],
+            "tags": [
+                "mountain",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thac_nuoc",
+            "name": "thác nước",
+            "trans": [
+                "瀑布"
+            ],
+            "tags": [
+                "mountain",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_duong_mon",
+            "name": "đường mòn",
+            "trans": [
+                "小径",
+                "山道"
+            ],
+            "tags": [
+                "mountain",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_gay",
+            "name": "gậy",
+            "trans": [
+                "杖",
+                "拐杖"
+            ],
+            "tags": [
+                "mountain",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tham_hiem",
+            "name": "thám hiểm",
+            "trans": [
+                "探险",
+                "考察"
+            ],
+            "tags": [
+                "mountain",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_451",
+        "sentence_vi_452",
+        "sentence_vi_453",
+        "sentence_vi_454",
+        "sentence_vi_455",
+        "sentence_vi_456"
+    ],
+    "grammar": [
+        {
+            "point": "爬山：leo núi",
+            "explain": "leo 意为「攀爬」，núi 意为「山」，合起来表示爬山、登山。",
+            "examples": [
+                {
+                    "vi": "Tôi muốn leo núi.",
+                    "zh": "我想爬山。"
+                },
+                {
+                    "vi": "Cuối tuần chúng tôi leo núi.",
+                    "zh": "周末我们去爬山。"
+                }
+            ]
+        },
+        {
+            "point": "在森林里：trong rừng",
+            "explain": "trong 意为「在……里」，rừng 意为「森林」，合起来表示在森林里。",
+            "examples": [
+                {
+                    "vi": "Chúng tôi đi trong rừng.",
+                    "zh": "我们在森林里走。"
+                },
+                {
+                    "vi": "Có nhiều cây trong rừng.",
+                    "zh": "森林里有很多树。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Tôi muốn leo núi.」是什么意思？",
+            "options": [
+                "我想爬山。",
+                "我想游泳。",
+                "我想露营。"
+            ],
+            "answer": "我想爬山。"
+        },
+        {
+            "type": "fill",
+            "question": "Thác ___ rất đẹp.（瀑布很美。）",
+            "answer": "nước"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「rừng」（森林）",
+            "answer": "rừng"
+        }
+    ]
+}

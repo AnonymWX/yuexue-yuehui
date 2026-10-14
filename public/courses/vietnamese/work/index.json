@@ -1,0 +1,147 @@
+{
+    "id": "work",
+    "title": "工作学习",
+    "titleVi": "Công việc và Học tập",
+    "courses": [
+        {
+            "id": "course_vi_81",
+            "file": "course_01.json",
+            "title": "第 1 课：职业与职位",
+            "titleVi": "Bài 1: Nghề nghiệp và Chức vụ",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_82",
+            "file": "course_02.json",
+            "title": "第 2 课：公司部门",
+            "titleVi": "Bài 2: Công ty và Phòng ban",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_83",
+            "file": "course_03.json",
+            "title": "第 3 课：求职与面试",
+            "titleVi": "Bài 3: Xin việc và Phỏng vấn",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_84",
+            "file": "course_04.json",
+            "title": "第 4 课：简历与自我介绍",
+            "titleVi": "Bài 4: Lý lịch và Tự giới thiệu",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_85",
+            "file": "course_05.json",
+            "title": "第 5 课：工作日常",
+            "titleVi": "Bài 5: Công việc hàng ngày",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_86",
+            "file": "course_06.json",
+            "title": "第 6 课：会议与讨论",
+            "titleVi": "Bài 6: Cuộc họp và Thảo luận",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_87",
+            "file": "course_07.json",
+            "title": "第 7 课：邮件与沟通",
+            "titleVi": "Bài 7: Email và Giao tiếp",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_88",
+            "file": "course_08.json",
+            "title": "第 8 课：电话与留言",
+            "titleVi": "Bài 8: Điện thoại và Lời nhắn",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_89",
+            "file": "course_09.json",
+            "title": "第 9 课：汇报与演示",
+            "titleVi": "Bài 9: Báo cáo và Thuyết trình",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_90",
+            "file": "course_10.json",
+            "title": "第 10 课：谈判与合同",
+            "titleVi": "Bài 10: Đàm phán và Hợp đồng",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_91",
+            "file": "course_11.json",
+            "title": "第 11 课：请假与加班",
+            "titleVi": "Bài 11: Xin nghỉ phép và Tăng ca",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_92",
+            "file": "course_12.json",
+            "title": "第 12 课：工资与福利",
+            "titleVi": "Bài 12: Lương và Phúc lợi",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_93",
+            "file": "course_13.json",
+            "title": "第 13 课：同事与关系",
+            "titleVi": "Bài 13: Đồng nghiệp và Quan hệ",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_94",
+            "file": "course_14.json",
+            "title": "第 14 课：出差与考察",
+            "titleVi": "Bài 14: Công tác và Khảo sát",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_95",
+            "file": "course_15.json",
+            "title": "第 15 课：学校与课程",
+            "titleVi": "Bài 15: Trường học và Khóa học",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_96",
+            "file": "course_16.json",
+            "title": "第 16 课：考试与成绩",
+            "titleVi": "Bài 16: Thi cử và Điểm số",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_97",
+            "file": "course_17.json",
+            "title": "第 17 课：图书馆与自习",
+            "titleVi": "Bài 17: Thư viện và Tự học",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_98",
+            "file": "course_18.json",
+            "title": "第 18 课：论文与作业",
+            "titleVi": "Bài 18: Luận văn và Bài tập",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_99",
+            "file": "course_19.json",
+            "title": "第 19 课：留学与申请",
+            "titleVi": "Bài 19: Du học và Xin học",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_100",
+            "file": "course_20.json",
+            "title": "第 20 课：工作学习总复习",
+            "titleVi": "Bài 20: Ôn tập tổng hợp Công việc và Học tập",
+            "level": "A1"
+        }
+    ]
+}

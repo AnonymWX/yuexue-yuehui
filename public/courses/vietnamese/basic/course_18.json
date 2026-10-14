@@ -1,0 +1,192 @@
+{
+    "id": "course_vi_26",
+    "title": "第18课：爱好与能力",
+    "titleVi": "Bài 18: Sở thích và Khả năng",
+    "level": "A1",
+    "order": 18,
+    "scenario": "basic",
+    "goals": [
+        "能用「biết」表达会做某事",
+        "能用「có thể」表达能力",
+        "能说「我会说越南语」",
+        "能问「你会...吗？」"
+    ],
+    "words": [
+        {
+            "id": "vi_co_the",
+            "name": "có thể",
+            "trans": [
+                "能够",
+                "可以"
+            ],
+            "tags": [
+                "ability",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_biet_ability",
+            "name": "biết",
+            "trans": [
+                "会",
+                "知道"
+            ],
+            "tags": [
+                "ability",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_gioi",
+            "name": "giỏi",
+            "trans": [
+                "擅长",
+                "厉害"
+            ],
+            "tags": [
+                "ability",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_hat",
+            "name": "hát",
+            "trans": [
+                "唱歌"
+            ],
+            "tags": [
+                "ability",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nhay",
+            "name": "nhảy",
+            "trans": [
+                "跳舞"
+            ],
+            "tags": [
+                "ability",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ve",
+            "name": "vẽ",
+            "trans": [
+                "画画"
+            ],
+            "tags": [
+                "ability",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nau_an",
+            "name": "nấu ăn",
+            "trans": [
+                "做饭"
+            ],
+            "tags": [
+                "ability",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_lai_xe",
+            "name": "lái xe",
+            "trans": [
+                "开车"
+            ],
+            "tags": [
+                "ability",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_151",
+        "sentence_vi_152",
+        "sentence_vi_153",
+        "sentence_vi_154",
+        "sentence_vi_155",
+        "sentence_vi_156"
+    ],
+    "grammar": [
+        {
+            "point": "「biết + 动词」表示会做某事",
+            "explain": "「biết」表示学会的技能。「Tôi biết nói tiếng Việt.」=「我会说越南语。」否定「không biết」。",
+            "examples": [
+                {
+                    "vi": "Tôi biết nói tiếng Việt.",
+                    "zh": "我会说越南语。"
+                },
+                {
+                    "vi": "Tôi không biết hát.",
+                    "zh": "我不会唱歌。"
+                }
+            ]
+        },
+        {
+            "point": "「có thể + 动词」表示能够",
+            "explain": "「có thể」表示能力或可能性，比「biết」更正式，可用于请求。「Tôi có thể giúp bạn.」=「我能帮你。」",
+            "examples": [
+                {
+                    "vi": "Tôi có thể giúp bạn.",
+                    "zh": "我能帮你。"
+                },
+                {
+                    "vi": "Bạn có thể nói lại không?",
+                    "zh": "你能再说一遍吗？"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「có thể」的中文意思是？",
+            "options": [
+                "会",
+                "能够",
+                "擅长"
+            ],
+            "answer": "能够"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi biết ___ tiếng Việt.（填「说」）",
+            "answer": "nói"
+        },
+        {
+            "type": "telex_input",
+            "question": "请用越南语输入「唱歌」",
+            "answer": "hát"
+        }
+    ]
+}

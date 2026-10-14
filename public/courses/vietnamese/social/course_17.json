@@ -1,0 +1,191 @@
+{
+    "id": "course_vi_60",
+    "title": "第 17 课：谈论未来",
+    "titleVi": "Bài 17: Nói về tương lai",
+    "level": "A1",
+    "order": 17,
+    "scenario": "social",
+    "goals": [
+        "掌握谈论未来的 8 个核心词汇",
+        "学会使用「sẽ」表示将来",
+        "掌握时间状语 tomorrow/next week 等",
+        "能表达计划与愿望"
+    ],
+    "words": [
+        {
+            "id": "vi_tuong_lai",
+            "name": "tương lai",
+            "trans": [
+                "未来"
+            ],
+            "tags": [
+                "future",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_se",
+            "name": "sẽ",
+            "trans": [
+                "将（将来标记）"
+            ],
+            "tags": [
+                "future",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_du_dinh",
+            "name": "dự định",
+            "trans": [
+                "打算",
+                "计划"
+            ],
+            "tags": [
+                "future",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ke_hoach",
+            "name": "kế hoạch",
+            "trans": [
+                "计划"
+            ],
+            "tags": [
+                "future",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ngay_mai",
+            "name": "ngày mai",
+            "trans": [
+                "明天"
+            ],
+            "tags": [
+                "future",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tuan_sau",
+            "name": "tuần sau",
+            "trans": [
+                "下周"
+            ],
+            "tags": [
+                "future",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nam_sau",
+            "name": "năm sau",
+            "trans": [
+                "明年"
+            ],
+            "tags": [
+                "future",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_mong_muon",
+            "name": "mong muốn",
+            "trans": [
+                "愿望",
+                "期望"
+            ],
+            "tags": [
+                "future",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_355",
+        "sentence_vi_356",
+        "sentence_vi_357",
+        "sentence_vi_358",
+        "sentence_vi_359",
+        "sentence_vi_360"
+    ],
+    "grammar": [
+        {
+            "point": "将来标记：sẽ + 动词",
+            "explain": "sẽ 放在动词前，表示将来的动作或状态。",
+            "examples": [
+                {
+                    "vi": "Ngày mai tôi sẽ đi Hà Nội.",
+                    "zh": "明天我要去河内。"
+                },
+                {
+                    "vi": "Tôi sẽ gọi cho bạn.",
+                    "zh": "我会给你打电话。"
+                }
+            ]
+        },
+        {
+            "point": "打算：dự định + 动词",
+            "explain": "dự định 意为「打算」，后接动词，表示已有计划。",
+            "examples": [
+                {
+                    "vi": "Tôi dự định học tiếng Việt.",
+                    "zh": "我打算学越南语。"
+                },
+                {
+                    "vi": "Cô ấy dự định đi du lịch.",
+                    "zh": "她打算去旅游。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Ngày mai tôi sẽ đi Hà Nội.」是什么意思？",
+            "options": [
+                "明天我要去河内。",
+                "昨天我去了河内。",
+                "我正要去河内。"
+            ],
+            "answer": "明天我要去河内。"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi ___ định học tiếng Việt.（我打算学越南语。）",
+            "answer": "dự"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「tương lai」（未来）",
+            "answer": "tương lai"
+        }
+    ]
+}

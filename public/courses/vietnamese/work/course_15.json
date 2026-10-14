@@ -1,0 +1,190 @@
+{
+    "id": "course_vi_95",
+    "title": "第 15 课：学校与课程",
+    "titleVi": "Bài 15: Trường học và Khóa học",
+    "level": "A1",
+    "order": 15,
+    "scenario": "work",
+    "goals": [
+        "掌握学校课程的 8 个核心词汇",
+        "学会描述课程与班级",
+        "掌握专业与学期表达",
+        "能谈论学习安排"
+    ],
+    "words": [
+        {
+            "id": "vi_truong_hoc",
+            "name": "trường học",
+            "trans": [
+                "学校"
+            ],
+            "tags": [
+                "school",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_khoa_hoc",
+            "name": "khóa học",
+            "trans": [
+                "课程"
+            ],
+            "tags": [
+                "school",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_lop_hoc",
+            "name": "lớp học",
+            "trans": [
+                "班级"
+            ],
+            "tags": [
+                "school",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_chuyen_nganh",
+            "name": "chuyên ngành",
+            "trans": [
+                "专业"
+            ],
+            "tags": [
+                "school",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_hoc_ky",
+            "name": "học kỳ",
+            "trans": [
+                "学期"
+            ],
+            "tags": [
+                "school",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_giao_vien",
+            "name": "giáo viên",
+            "trans": [
+                "老师",
+                "教师"
+            ],
+            "tags": [
+                "school",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_sinh_vien",
+            "name": "sinh viên",
+            "trans": [
+                "大学生"
+            ],
+            "tags": [
+                "school",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_hoc_phi",
+            "name": "học phí",
+            "trans": [
+                "学费"
+            ],
+            "tags": [
+                "school",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_565",
+        "sentence_vi_566",
+        "sentence_vi_567",
+        "sentence_vi_568",
+        "sentence_vi_569",
+        "sentence_vi_570"
+    ],
+    "grammar": [
+        {
+            "point": "学习：học + 名词",
+            "explain": "học 意为「学习」，后接学习对象，如 học tiếng Việt（学越南语）。",
+            "examples": [
+                {
+                    "vi": "Tôi học tiếng Việt.",
+                    "zh": "我学越南语。"
+                },
+                {
+                    "vi": "Cô ấy học chuyên ngành kinh tế.",
+                    "zh": "她学经济专业。"
+                }
+            ]
+        },
+        {
+            "point": "在……上学：học ở / tại + 学校",
+            "explain": "học ở 或 học tại 表示在某个学校上学。",
+            "examples": [
+                {
+                    "vi": "Tôi học ở trường đại học.",
+                    "zh": "我在大学上学。"
+                },
+                {
+                    "vi": "Anh ấy học tại Hà Nội.",
+                    "zh": "他在河内上学。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Tôi học tiếng Việt.」是什么意思？",
+            "options": [
+                "我学越南语。",
+                "我教越南语。",
+                "我说越南语。"
+            ],
+            "answer": "我学越南语。"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi học ở ___ đại học.（我在大学上学。）",
+            "answer": "trường"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「khóa học」（课程）",
+            "answer": "khóa học"
+        }
+    ]
+}

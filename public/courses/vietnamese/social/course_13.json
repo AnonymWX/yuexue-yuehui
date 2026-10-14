@@ -1,0 +1,195 @@
+{
+    "id": "course_vi_56",
+    "title": "第 13 课：承诺与约定",
+    "titleVi": "Bài 13: Hứa hẹn và Thỏa thuận",
+    "level": "A1",
+    "order": 13,
+    "scenario": "social",
+    "goals": [
+        "掌握承诺约定的 8 个核心词汇",
+        "学会许下承诺",
+        "掌握约定时间地点",
+        "能表达守信与失信"
+    ],
+    "words": [
+        {
+            "id": "vi_hen",
+            "name": "hẹn",
+            "trans": [
+                "约定",
+                "约会"
+            ],
+            "tags": [
+                "promise",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thoa_thuan",
+            "name": "thỏa thuận",
+            "trans": [
+                "商定",
+                "协议"
+            ],
+            "tags": [
+                "promise",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_cam_ket",
+            "name": "cam kết",
+            "trans": [
+                "承诺",
+                "保证"
+            ],
+            "tags": [
+                "promise",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_dam_bao",
+            "name": "đảm bảo",
+            "trans": [
+                "担保",
+                "确保"
+            ],
+            "tags": [
+                "promise",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thuc_hien",
+            "name": "thực hiện",
+            "trans": [
+                "实现",
+                "履行"
+            ],
+            "tags": [
+                "promise",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_giu_loi",
+            "name": "giữ lời",
+            "trans": [
+                "守约",
+                "守信"
+            ],
+            "tags": [
+                "promise",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_quen",
+            "name": "quên",
+            "trans": [
+                "忘记"
+            ],
+            "tags": [
+                "promise",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nhac",
+            "name": "nhắc",
+            "trans": [
+                "提醒"
+            ],
+            "tags": [
+                "promise",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_331",
+        "sentence_vi_332",
+        "sentence_vi_333",
+        "sentence_vi_334",
+        "sentence_vi_335",
+        "sentence_vi_336"
+    ],
+    "grammar": [
+        {
+            "point": "约定：hẹn + 时间 / 地点",
+            "explain": "hẹn 意为「约」，可接时间或地点，表示约定见面。",
+            "examples": [
+                {
+                    "vi": "Chúng ta hẹn gặp lúc 7 giờ.",
+                    "zh": "我们约在 7 点见面。"
+                },
+                {
+                    "vi": "Tôi hẹn bạn ở quán cà phê.",
+                    "zh": "我约你在咖啡馆见面。"
+                }
+            ]
+        },
+        {
+            "point": "承诺：Hứa / Cam kết + 动词",
+            "explain": "hứa 和 cam kết 都表示「承诺」，后接动词，cam kết 语气更正式。",
+            "examples": [
+                {
+                    "vi": "Tôi cam kết thực hiện đúng.",
+                    "zh": "我承诺按时完成。"
+                },
+                {
+                    "vi": "Tôi hứa sẽ giữ lời.",
+                    "zh": "我保证守信。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Chúng ta hẹn gặp lúc 7 giờ.」是什么意思？",
+            "options": [
+                "我们约在 7 点见面。",
+                "我们 7 点出发。",
+                "我们 7 点吃饭。"
+            ],
+            "answer": "我们约在 7 点见面。"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi hứa sẽ ___ lời.（我保证守信。）",
+            "answer": "giữ"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「cam kết」（承诺）",
+            "answer": "cam kết"
+        }
+    ]
+}

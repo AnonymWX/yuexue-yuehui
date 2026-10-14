@@ -1,0 +1,195 @@
+{
+    "id": "course_vi_98",
+    "title": "第 18 课：论文与作业",
+    "titleVi": "Bài 18: Luận văn và Bài tập",
+    "level": "A1",
+    "order": 18,
+    "scenario": "work",
+    "goals": [
+        "掌握论文作业的 8 个核心词汇",
+        "学会描述写论文与交作业",
+        "掌握研究与引用表达",
+        "能谈论学术任务"
+    ],
+    "words": [
+        {
+            "id": "vi_luan_van",
+            "name": "luận văn",
+            "trans": [
+                "论文"
+            ],
+            "tags": [
+                "academic",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_bai_tap",
+            "name": "bài tập",
+            "trans": [
+                "作业",
+                "练习"
+            ],
+            "tags": [
+                "academic",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nghien_cuu",
+            "name": "nghiên cứu",
+            "trans": [
+                "研究"
+            ],
+            "tags": [
+                "academic",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_de_tai",
+            "name": "đề tài",
+            "trans": [
+                "课题",
+                "题目"
+            ],
+            "tags": [
+                "academic",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ],
+            "source_note": ""
+        },
+        {
+            "id": "vi_tham_khao",
+            "name": "tham khảo",
+            "trans": [
+                "参考",
+                "借鉴"
+            ],
+            "tags": [
+                "academic",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nop_bai",
+            "name": "nộp bài",
+            "trans": [
+                "交作业",
+                "提交"
+            ],
+            "tags": [
+                "academic",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_hoan_thanh_lv",
+            "name": "hoàn thành luận văn",
+            "trans": [
+                "完成论文"
+            ],
+            "tags": [
+                "academic",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_bao_ve",
+            "name": "bảo vệ",
+            "trans": [
+                "答辩",
+                "保护"
+            ],
+            "tags": [
+                "academic",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_583",
+        "sentence_vi_584",
+        "sentence_vi_585",
+        "sentence_vi_586",
+        "sentence_vi_587",
+        "sentence_vi_588"
+    ],
+    "grammar": [
+        {
+            "point": "关于：về + 名词",
+            "explain": "về 意为「关于」，用于引出论文或研究的主题。",
+            "examples": [
+                {
+                    "vi": "Luận văn về kinh tế.",
+                    "zh": "关于经济的论文。"
+                },
+                {
+                    "vi": "Nghiên cứu về văn hóa.",
+                    "zh": "关于文化的研究。"
+                }
+            ]
+        },
+        {
+            "point": "按时：đúng hạn",
+            "explain": "đúng 意为「正确、准时」，hạn 意为「期限」，đúng hạn 表示「按时、如期」。",
+            "examples": [
+                {
+                    "vi": "Nộp bài đúng hạn.",
+                    "zh": "按时交作业。"
+                },
+                {
+                    "vi": "Hoàn thành đúng hạn.",
+                    "zh": "按时完成。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Nộp bài đúng hạn.」是什么意思？",
+            "options": [
+                "按时交作业。",
+                "迟交作业。",
+                "不交作业。"
+            ],
+            "answer": "按时交作业。"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi phải nộp ___ đúng hạn.（我必须按时交作业。）",
+            "answer": "bài"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「luận văn」（论文）",
+            "answer": "luận văn"
+        }
+    ]
+}

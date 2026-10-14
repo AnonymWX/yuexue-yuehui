@@ -1,0 +1,194 @@
+{
+    "id": "course_vi_100",
+    "title": "第 20 课：工作学习总复习",
+    "titleVi": "Bài 20: Ôn tập tổng hợp Công việc và Học tập",
+    "level": "A1",
+    "order": 20,
+    "scenario": "work",
+    "goals": [
+        "复习工作学习高频词汇",
+        "综合运用职场与学术对话",
+        "巩固求职、汇报、考试句型",
+        "提升职业与学术交流自信"
+    ],
+    "words": [
+        {
+            "id": "vi_phat_trien",
+            "name": "phát triển",
+            "trans": [
+                "发展",
+                "成长"
+            ],
+            "tags": [
+                "review",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_su_nghiep",
+            "name": "sự nghiệp",
+            "trans": [
+                "事业"
+            ],
+            "tags": [
+                "review",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thanh_tuu",
+            "name": "thành tựu",
+            "trans": [
+                "成就",
+                "成果"
+            ],
+            "tags": [
+                "review",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_no_luc",
+            "name": "nỗ lực",
+            "trans": [
+                "努力",
+                "尽力"
+            ],
+            "tags": [
+                "review",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_quyet_tam",
+            "name": "quyết tâm",
+            "trans": [
+                "决心"
+            ],
+            "tags": [
+                "review",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_hoai_bao",
+            "name": "hoài bão",
+            "trans": [
+                "抱负",
+                "志向"
+            ],
+            "tags": [
+                "review",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ly_tuong",
+            "name": "lý tưởng",
+            "trans": [
+                "理想"
+            ],
+            "tags": [
+                "review",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thanh_dat",
+            "name": "thành đạt",
+            "trans": [
+                "有成就",
+                "成功"
+            ],
+            "tags": [
+                "review",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_595",
+        "sentence_vi_596",
+        "sentence_vi_597",
+        "sentence_vi_598",
+        "sentence_vi_599",
+        "sentence_vi_600"
+    ],
+    "grammar": [
+        {
+            "point": "努力做某事：nỗ lực + 动词",
+            "explain": "nỗ lực 意为「努力」，后接动词，表示努力做某事。",
+            "examples": [
+                {
+                    "vi": "Tôi nỗ lực học tập.",
+                    "zh": "我努力学习。"
+                },
+                {
+                    "vi": "Cô ấy nỗ lực làm việc.",
+                    "zh": "她努力工作。"
+                }
+            ]
+        },
+        {
+            "point": "为了理想：vì lý tưởng",
+            "explain": "vì 意为「为了、因为」，lý tưởng 意为「理想」，合起来表示为了理想。",
+            "examples": [
+                {
+                    "vi": "Tôi làm việc vì lý tưởng.",
+                    "zh": "我为了理想而工作。"
+                },
+                {
+                    "vi": "Chúng ta cần có hoài bão.",
+                    "zh": "我们需要有抱负。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Tôi nỗ lực học tập.」是什么意思？",
+            "options": [
+                "我努力学习。",
+                "我努力找工作。",
+                "我努力赚钱。"
+            ],
+            "answer": "我努力学习。"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi có ___ bão lớn.（我有远大抱负。）",
+            "answer": "hoài"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「thành tựu」（成就）",
+            "answer": "thành tựu"
+        }
+    ]
+}

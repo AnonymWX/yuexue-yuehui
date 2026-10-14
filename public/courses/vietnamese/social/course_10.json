@@ -1,0 +1,193 @@
+{
+    "id": "course_vi_70",
+    "title": "第 10 课：景点与门票",
+    "titleVi": "Bài 10: Điểm tham quan và Vé vào cửa",
+    "level": "A1",
+    "order": 10,
+    "scenario": "travel",
+    "goals": [
+        "掌握景点门票的 8 个核心词汇",
+        "学会购买景点门票",
+        "掌握询问开放时间",
+        "能谈论参观体验"
+    ],
+    "words": [
+        {
+            "id": "vi_diem_tham_quan",
+            "name": "điểm tham quan",
+            "trans": [
+                "景点"
+            ],
+            "tags": [
+                "sightseeing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ve_vao_cua",
+            "name": "vé vào cửa",
+            "trans": [
+                "门票"
+            ],
+            "tags": [
+                "sightseeing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tham_quan",
+            "name": "tham quan",
+            "trans": [
+                "参观",
+                "游览"
+            ],
+            "tags": [
+                "sightseeing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_bao_tang",
+            "name": "bảo tàng",
+            "trans": [
+                "博物馆"
+            ],
+            "tags": [
+                "sightseeing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_chua_temple",
+            "name": "chùa",
+            "trans": [
+                "寺庙",
+                "佛寺"
+            ],
+            "tags": [
+                "sightseeing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_cong_vien",
+            "name": "công viên",
+            "trans": [
+                "公园"
+            ],
+            "tags": [
+                "sightseeing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_di_tich",
+            "name": "di tích",
+            "trans": [
+                "遗迹",
+                "古迹"
+            ],
+            "tags": [
+                "sightseeing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_canh_dep",
+            "name": "cảnh đẹp",
+            "trans": [
+                "美景",
+                "风景"
+            ],
+            "tags": [
+                "sightseeing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_415",
+        "sentence_vi_416",
+        "sentence_vi_417",
+        "sentence_vi_418",
+        "sentence_vi_419",
+        "sentence_vi_420"
+    ],
+    "grammar": [
+        {
+            "point": "被建造：được xây dựng",
+            "explain": "được 表示被动，xây dựng 意为「建造」，合起来表示「被建造」，常用于介绍古迹。",
+            "examples": [
+                {
+                    "vi": "Chùa này được xây dựng cách đây 100 năm.",
+                    "zh": "这座寺庙建于 100 年前。"
+                },
+                {
+                    "vi": "Bảo tàng được xây dựng năm 1990.",
+                    "zh": "博物馆建于 1990 年。"
+                }
+            ]
+        },
+        {
+            "point": "开放时间：mở cửa từ ... đến ...",
+            "explain": "từ ... đến ... 表示「从……到……」，用于描述营业或开放时间。",
+            "examples": [
+                {
+                    "vi": "Bảo tàng mở cửa từ 8 giờ đến 5 giờ.",
+                    "zh": "博物馆从 8 点开放到 5 点。"
+                },
+                {
+                    "vi": "Chùa mở cửa cả ngày.",
+                    "zh": "寺庙全天开放。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Vé vào cửa bao nhiêu tiền?」是什么意思？",
+            "options": [
+                "门票多少钱？",
+                "开放时间是什么？",
+                "景点在哪里？"
+            ],
+            "answer": "门票多少钱？"
+        },
+        {
+            "type": "fill",
+            "question": "Bảo tàng mở cửa ___ 8 giờ đến 5 giờ.（博物馆从 8 点开放到 5 点。）",
+            "answer": "từ"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「bảo tàng」（博物馆）",
+            "answer": "bảo tàng"
+        }
+    ]
+}

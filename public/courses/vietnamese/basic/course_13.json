@@ -1,0 +1,193 @@
+{
+    "id": "course_vi_21",
+    "title": "第13课：比较级",
+    "titleVi": "Bài 13: So sánh",
+    "level": "A1",
+    "order": 13,
+    "scenario": "basic",
+    "goals": [
+        "能用「hơn」表示「比…更」",
+        "能用「bằng」表示「和…一样」",
+        "能用「nhất」表示「最」",
+        "能比较两个事物"
+    ],
+    "words": [
+        {
+            "id": "vi_hon",
+            "name": "hơn",
+            "trans": [
+                "比",
+                "更"
+            ],
+            "tags": [
+                "comparison",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_bang",
+            "name": "bằng",
+            "trans": [
+                "等于",
+                "和…一样"
+            ],
+            "tags": [
+                "comparison",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nhat",
+            "name": "nhất",
+            "trans": [
+                "最"
+            ],
+            "tags": [
+                "comparison",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_giong",
+            "name": "giống",
+            "trans": [
+                "相同",
+                "像"
+            ],
+            "tags": [
+                "comparison",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_khac",
+            "name": "khác",
+            "trans": [
+                "不同"
+            ],
+            "tags": [
+                "comparison",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_cao",
+            "name": "cao",
+            "trans": [
+                "高"
+            ],
+            "tags": [
+                "adjective",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thap",
+            "name": "thấp",
+            "trans": [
+                "矮",
+                "低"
+            ],
+            "tags": [
+                "adjective",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_dat",
+            "name": "đắt",
+            "trans": [
+                "贵"
+            ],
+            "tags": [
+                "adjective",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_121",
+        "sentence_vi_122",
+        "sentence_vi_123",
+        "sentence_vi_124",
+        "sentence_vi_125",
+        "sentence_vi_126"
+    ],
+    "grammar": [
+        {
+            "point": "「A + 形容词 + hơn + B」表示「A 比 B 更…」",
+            "explain": "「hơn」放在形容词后，后接被比较对象。「Tôi cao hơn anh ấy.」=「我比他高。」",
+            "examples": [
+                {
+                    "vi": "Tôi cao hơn anh ấy.",
+                    "zh": "我比他高。"
+                },
+                {
+                    "vi": "Cái này đắt hơn cái kia.",
+                    "zh": "这个比那个贵。"
+                }
+            ]
+        },
+        {
+            "point": "「A + 形容词 + nhất」表示「A 最…」",
+            "explain": "「nhất」放在形容词后，表示最高级。「Chị ấy đẹp nhất lớp.」=「她是班里最漂亮的。」",
+            "examples": [
+                {
+                    "vi": "Chị ấy đẹp nhất lớp.",
+                    "zh": "她是班里最漂亮的。"
+                },
+                {
+                    "vi": "Đây là món ngon nhất.",
+                    "zh": "这是最好吃的一道菜。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「hơn」的中文意思是？",
+            "options": [
+                "和…一样",
+                "比…更",
+                "最"
+            ],
+            "answer": "比…更"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi cao ___ anh ấy.（填「比」）",
+            "answer": "hơn"
+        },
+        {
+            "type": "telex_input",
+            "question": "请用越南语输入「最」",
+            "answer": "nhất"
+        }
+    ]
+}

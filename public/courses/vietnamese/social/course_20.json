@@ -1,0 +1,190 @@
+{
+    "id": "course_vi_63",
+    "title": "第 20 课：日常交流总复习",
+    "titleVi": "Bài 20: Ôn tập tổng hợp Giao tiếp hàng ngày",
+    "level": "A1",
+    "order": 20,
+    "scenario": "social",
+    "goals": [
+        "复习日常交流高频词汇",
+        "综合运用意见、道歉、感谢表达",
+        "巩固时态与问答句型",
+        "提升交流自信与流利度"
+    ],
+    "words": [
+        {
+            "id": "vi_tong_on",
+            "name": "tổng ôn",
+            "trans": [
+                "总复习"
+            ],
+            "tags": [
+                "review",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_he_thong",
+            "name": "hệ thống",
+            "trans": [
+                "系统"
+            ],
+            "tags": [
+                "review",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ren_luyen",
+            "name": "rèn luyện",
+            "trans": [
+                "锻炼",
+                "磨练"
+            ],
+            "tags": [
+                "review",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tu_tin",
+            "name": "tự tin",
+            "trans": [
+                "自信"
+            ],
+            "tags": [
+                "review",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_phat_am",
+            "name": "phát âm",
+            "trans": [
+                "发音"
+            ],
+            "tags": [
+                "review",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tu_vung",
+            "name": "từ vựng",
+            "trans": [
+                "词汇"
+            ],
+            "tags": [
+                "review",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ngu_phap",
+            "name": "ngữ pháp",
+            "trans": [
+                "语法"
+            ],
+            "tags": [
+                "review",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_muc_tieu",
+            "name": "mục tiêu",
+            "trans": [
+                "目标"
+            ],
+            "tags": [
+                "review",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_373",
+        "sentence_vi_374",
+        "sentence_vi_375",
+        "sentence_vi_376",
+        "sentence_vi_377",
+        "sentence_vi_378"
+    ],
+    "grammar": [
+        {
+            "point": "越来越：ngày càng + 形容词",
+            "explain": "ngày càng 意为「越来越」，后接形容词，表示程度逐渐加深。",
+            "examples": [
+                {
+                    "vi": "Tôi ngày càng tự tin.",
+                    "zh": "我越来越自信。"
+                },
+                {
+                    "vi": "Phát âm của tôi ngày càng tốt.",
+                    "zh": "我的发音越来越好。"
+                }
+            ]
+        },
+        {
+            "point": "为了：để + 动词",
+            "explain": "để 意为「为了」，引出目的。",
+            "examples": [
+                {
+                    "vi": "Tôi học để nói tiếng Việt tốt.",
+                    "zh": "我学习是为了说好越南语。"
+                },
+                {
+                    "vi": "Luyện tập để tiến bộ.",
+                    "zh": "练习是为了进步。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Tôi ngày càng tự tin.」是什么意思？",
+            "options": [
+                "我越来越自信。",
+                "我很自信。",
+                "我不自信。"
+            ],
+            "answer": "我越来越自信。"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi học ___ nói tiếng Việt tốt.（我学习是为了说好越南语。）",
+            "answer": "để"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「tự tin」（自信）",
+            "answer": "tự tin"
+        }
+    ]
+}

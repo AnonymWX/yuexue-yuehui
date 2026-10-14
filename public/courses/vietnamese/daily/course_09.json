@@ -1,0 +1,191 @@
+{
+    "id": "course_vi_34",
+    "title": "第 9 课：邮局与快递",
+    "titleVi": "Bài 9: Bưu điện và Chuyển phát",
+    "level": "A1",
+    "order": 9,
+    "scenario": "daily",
+    "goals": [
+        "掌握邮局场景的 8 个核心词汇",
+        "学会寄信、寄包裹的表达",
+        "掌握询问邮费与地址",
+        "能独立完成一次寄件对话"
+    ],
+    "words": [
+        {
+            "id": "vi_buu_dien",
+            "name": "bưu điện",
+            "trans": [
+                "邮局"
+            ],
+            "tags": [
+                "post",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_gui",
+            "name": "gửi",
+            "trans": [
+                "寄",
+                "发送"
+            ],
+            "tags": [
+                "post",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thu",
+            "name": "thư",
+            "trans": [
+                "信"
+            ],
+            "tags": [
+                "post",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_buu_pham",
+            "name": "bưu phẩm",
+            "trans": [
+                "包裹",
+                "邮件"
+            ],
+            "tags": [
+                "post",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_dia_chi",
+            "name": "địa chỉ",
+            "trans": [
+                "地址"
+            ],
+            "tags": [
+                "post",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_phong_bi",
+            "name": "phong bì",
+            "trans": [
+                "信封"
+            ],
+            "tags": [
+                "post",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tem",
+            "name": "tem",
+            "trans": [
+                "邮票"
+            ],
+            "tags": [
+                "post",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nguoi_gui",
+            "name": "người gửi",
+            "trans": [
+                "寄件人"
+            ],
+            "tags": [
+                "post",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_199",
+        "sentence_vi_200",
+        "sentence_vi_201",
+        "sentence_vi_202",
+        "sentence_vi_203",
+        "sentence_vi_204"
+    ],
+    "grammar": [
+        {
+            "point": "寄给某人：gửi ... cho ...",
+            "explain": "gửi + 物品 + cho + 人，表示「把某物寄给某人」。cho 在这里表示「给」。",
+            "examples": [
+                {
+                    "vi": "Tôi gửi lá thư này cho mẹ.",
+                    "zh": "我把这封信寄给妈妈。"
+                },
+                {
+                    "vi": "Gửi bưu phẩm cho anh ấy.",
+                    "zh": "把包裹寄给他。"
+                }
+            ]
+        },
+        {
+            "point": "量词：lá thư / con tem / cái phong bì",
+            "explain": "越南语量词因物而异：信用量词 lá（叶子），邮票用 con，信封用 cái。",
+            "examples": [
+                {
+                    "vi": "Một lá thư.",
+                    "zh": "一封信。"
+                },
+                {
+                    "vi": "Hai con tem.",
+                    "zh": "两张邮票。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Tôi muốn gửi lá thư này.」是什么意思？",
+            "options": [
+                "我想寄这封信。",
+                "我想买这张邮票。",
+                "我想写信。"
+            ],
+            "answer": "我想寄这封信。"
+        },
+        {
+            "type": "fill",
+            "question": "Bưu điện ở ___?（邮局在哪里？）",
+            "answer": "đâu"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「bưu điện」（邮局）",
+            "answer": "bưu điện"
+        }
+    ]
+}

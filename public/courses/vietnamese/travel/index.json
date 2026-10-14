@@ -1,0 +1,147 @@
+{
+    "id": "travel",
+    "title": "旅行出行",
+    "titleVi": "Du lịch",
+    "courses": [
+        {
+            "id": "course_vi_09",
+            "file": "course_01.json",
+            "title": "第1课：订酒店与住宿",
+            "titleVi": "Bài 1: Đặt phòng và Chỗ ở",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_10",
+            "file": "course_02.json",
+            "title": "第2课：换钱与银行",
+            "titleVi": "Bài 2: Đổi tiền và Ngân hàng",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_11",
+            "file": "course_03.json",
+            "title": "第3课：紧急情况与求助",
+            "titleVi": "Bài 3: Tình huống khẩn cấp và Cầu cứu",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_64",
+            "file": "course_04.json",
+            "title": "第 4 课：交通与购票",
+            "titleVi": "Bài 4: Giao thông và Mua vé",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_65",
+            "file": "course_05.json",
+            "title": "第 5 课：飞机与机场",
+            "titleVi": "Bài 5: Máy bay và Sân bay",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_66",
+            "file": "course_06.json",
+            "title": "第 6 课：火车与长途汽车",
+            "titleVi": "Bài 6: Tàu hỏa và Xe khách",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_67",
+            "file": "course_07.json",
+            "title": "第 7 课：租车与自驾",
+            "titleVi": "Bài 7: Thuê xe và Tự lái",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_68",
+            "file": "course_08.json",
+            "title": "第 8 课：出租车与网约车",
+            "titleVi": "Bài 8: Taxi và Xe công nghệ",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_69",
+            "file": "course_09.json",
+            "title": "第 9 课：问路与指路（进阶）",
+            "titleVi": "Bài 9: Hỏi đường và Chỉ đường (Nâng cao)",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_70",
+            "file": "course_10.json",
+            "title": "第 10 课：景点与门票",
+            "titleVi": "Bài 10: Điểm tham quan và Vé vào cửa",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_71",
+            "file": "course_11.json",
+            "title": "第 11 课：导游与讲解",
+            "titleVi": "Bài 11: Hướng dẫn viên và Thuyết minh",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_72",
+            "file": "course_12.json",
+            "title": "第 12 课：拍照与纪念品",
+            "titleVi": "Bài 12: Chụp ảnh và Quà lưu niệm",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_73",
+            "file": "course_13.json",
+            "title": "第 13 课：旅行计划与行程",
+            "titleVi": "Bài 13: Kế hoạch du lịch và Lịch trình",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_74",
+            "file": "course_14.json",
+            "title": "第 14 课：露营与户外",
+            "titleVi": "Bài 14: Cắm trại và Hoạt động ngoài trời",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_75",
+            "file": "course_15.json",
+            "title": "第 15 课：海边与游泳",
+            "titleVi": "Bài 15: Biển và Bơi lội",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_76",
+            "file": "course_16.json",
+            "title": "第 16 课：山区与徒步",
+            "titleVi": "Bài 16: Núi rừng và Đi bộ đường dài",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_77",
+            "file": "course_17.json",
+            "title": "第 17 课：城市观光",
+            "titleVi": "Bài 17: Tham quan thành phố",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_78",
+            "file": "course_18.json",
+            "title": "第 18 课：乡村与民宿",
+            "titleVi": "Bài 18: Nông thôn và Homestay",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_79",
+            "file": "course_19.json",
+            "title": "第 19 课：旅行问题与解决",
+            "titleVi": "Bài 19: Vấn đề du lịch và Cách giải quyết",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_80",
+            "file": "course_20.json",
+            "title": "第 20 课：旅行出行总复习",
+            "titleVi": "Bài 20: Ôn tập tổng hợp Du lịch",
+            "level": "A1"
+        }
+    ]
+}

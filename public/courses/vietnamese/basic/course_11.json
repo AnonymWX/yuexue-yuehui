@@ -1,0 +1,196 @@
+{
+    "id": "course_vi_19",
+    "title": "第11课：房屋与居住",
+    "titleVi": "Bài 11: Nhà ở và Nơi cư trú",
+    "level": "A1",
+    "order": 11,
+    "scenario": "basic",
+    "goals": [
+        "能说出「房子」「公寓」",
+        "能用方位词描述位置",
+        "能说「我家在三楼」",
+        "掌握 trên/dưới/trong/ngoài 等方位词"
+    ],
+    "words": [
+        {
+            "id": "vi_nha",
+            "name": "nhà",
+            "trans": [
+                "房子",
+                "家"
+            ],
+            "tags": [
+                "house",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_can_ho",
+            "name": "căn hộ",
+            "trans": [
+                "公寓"
+            ],
+            "tags": [
+                "house",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tren",
+            "name": "trên",
+            "trans": [
+                "上",
+                "上面"
+            ],
+            "tags": [
+                "position",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_duoi",
+            "name": "dưới",
+            "trans": [
+                "下",
+                "下面"
+            ],
+            "tags": [
+                "position",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_trong",
+            "name": "trong",
+            "trans": [
+                "里",
+                "里面"
+            ],
+            "tags": [
+                "position",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ngoai",
+            "name": "ngoài",
+            "trans": [
+                "外",
+                "外面"
+            ],
+            "tags": [
+                "position",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_truoc",
+            "name": "trước",
+            "trans": [
+                "前",
+                "前面"
+            ],
+            "tags": [
+                "position",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_sau",
+            "name": "sau",
+            "trans": [
+                "后",
+                "后面"
+            ],
+            "tags": [
+                "position",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_109",
+        "sentence_vi_110",
+        "sentence_vi_111",
+        "sentence_vi_112",
+        "sentence_vi_113",
+        "sentence_vi_114"
+    ],
+    "grammar": [
+        {
+            "point": "方位词直接放名词前",
+            "explain": "「trên bàn」= 桌子上，「dưới ghế」= 椅子下，「trong nhà」= 家里。方位词在前，名词在后。",
+            "examples": [
+                {
+                    "vi": "Sách ở trên bàn.",
+                    "zh": "书在桌子上。"
+                },
+                {
+                    "vi": "Mèo ở dưới ghế.",
+                    "zh": "猫在椅子下面。"
+                }
+            ]
+        },
+        {
+            "point": "「ở + 方位 + 名词」表示位置",
+            "explain": "「ở」引出位置，后接方位短语。「Tôi ở trong nhà.」=「我在家里。」",
+            "examples": [
+                {
+                    "vi": "Tôi ở trong nhà.",
+                    "zh": "我在家里。"
+                },
+                {
+                    "vi": "Ngoài trời đang mưa.",
+                    "zh": "外面在下雨。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「dưới」的中文意思是？",
+            "options": [
+                "上面",
+                "下面",
+                "里面"
+            ],
+            "answer": "下面"
+        },
+        {
+            "type": "fill",
+            "question": "Sách ở ___ bàn.（填「上面」）",
+            "answer": "trên"
+        },
+        {
+            "type": "telex_input",
+            "question": "请用越南语输入「房子」",
+            "answer": "nhà"
+        }
+    ]
+}

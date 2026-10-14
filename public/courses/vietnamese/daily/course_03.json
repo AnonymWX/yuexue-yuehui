@@ -1,0 +1,190 @@
+{
+    "id": "course_vi_06",
+    "title": "第3课：问路与交通",
+    "titleVi": "Bài 3: Hỏi đường và Giao thông",
+    "level": "A1",
+    "order": 6,
+    "scenario": "direction",
+    "goals": [
+        "能问「在哪里？」「怎么走？」",
+        "能说出「左边」「右边」「直走」",
+        "能说出常见交通工具",
+        "能用「đi」+ 交通工具表达出行方式"
+    ],
+    "words": [
+        {
+            "id": "vi_o_dau",
+            "name": "ở đâu",
+            "trans": [
+                "在哪里"
+            ],
+            "tags": [
+                "direction",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ben_phai",
+            "name": "bên phải",
+            "trans": [
+                "右边"
+            ],
+            "tags": [
+                "direction",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ben_trai",
+            "name": "bên trái",
+            "trans": [
+                "左边"
+            ],
+            "tags": [
+                "direction",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_di_thang",
+            "name": "đi thẳng",
+            "trans": [
+                "直走"
+            ],
+            "tags": [
+                "direction",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_xe_buyt",
+            "name": "xe buýt",
+            "trans": [
+                "公交车"
+            ],
+            "tags": [
+                "transport",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_xe_dap",
+            "name": "xe đạp",
+            "trans": [
+                "自行车"
+            ],
+            "tags": [
+                "transport",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_xe_may",
+            "name": "xe máy",
+            "trans": [
+                "摩托车"
+            ],
+            "tags": [
+                "transport",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_di_bo",
+            "name": "đi bộ",
+            "trans": [
+                "走路",
+                "步行"
+            ],
+            "tags": [
+                "transport",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_031",
+        "sentence_vi_032",
+        "sentence_vi_033",
+        "sentence_vi_034",
+        "sentence_vi_035",
+        "sentence_vi_036"
+    ],
+    "grammar": [
+        {
+            "point": "疑问词「ở đâu」（在哪里）",
+            "explain": "「ở đâu」用于询问地点，放在句末。「Nhà ga ở đâu?」=「火车站在哪里？」",
+            "examples": [
+                {
+                    "vi": "Nhà ga ở đâu?",
+                    "zh": "火车站在哪里？"
+                },
+                {
+                    "vi": "Cửa hàng ở đâu?",
+                    "zh": "商店在哪里？"
+                }
+            ]
+        },
+        {
+            "point": "「đi + 交通工具」表示出行方式",
+            "explain": "「đi」后接交通工具表示「乘坐...去」。走路则用「đi bộ」。「Tôi đi xe buýt.」=「我坐公交车去。」",
+            "examples": [
+                {
+                    "vi": "Tôi đi xe buýt.",
+                    "zh": "我坐公交车。"
+                },
+                {
+                    "vi": "Tôi đi bộ.",
+                    "zh": "我走路。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「bên trái」的中文意思是？",
+            "options": [
+                "右边",
+                "左边",
+                "直走"
+            ],
+            "answer": "左边"
+        },
+        {
+            "type": "fill",
+            "question": "Nhà ga ___ đâu?（填空）",
+            "answer": "ở"
+        },
+        {
+            "type": "telex_input",
+            "question": "请用越南语输入「公交车」",
+            "answer": "xe buýt"
+        }
+    ]
+}

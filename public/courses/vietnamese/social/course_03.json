@@ -1,0 +1,192 @@
+{
+    "id": "course_vi_46",
+    "title": "第 3 课：描述人物",
+    "titleVi": "Bài 3: Miêu tả người",
+    "level": "A1",
+    "order": 3,
+    "scenario": "social",
+    "goals": [
+        "掌握描述外貌的 8 个核心词汇",
+        "学会描述高矮胖瘦",
+        "掌握五官与头发的表达",
+        "能完整描述一个人"
+    ],
+    "words": [
+        {
+            "id": "vi_cao",
+            "name": "cao",
+            "trans": [
+                "高"
+            ],
+            "tags": [
+                "describe",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thap",
+            "name": "thấp",
+            "trans": [
+                "矮",
+                "低"
+            ],
+            "tags": [
+                "describe",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_dep",
+            "name": "đẹp",
+            "trans": [
+                "美",
+                "漂亮"
+            ],
+            "tags": [
+                "describe",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tre",
+            "name": "trẻ",
+            "trans": [
+                "年轻"
+            ],
+            "tags": [
+                "describe",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_toc",
+            "name": "tóc",
+            "trans": [
+                "头发"
+            ],
+            "tags": [
+                "describe",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_mat_eye",
+            "name": "mắt",
+            "trans": [
+                "眼睛"
+            ],
+            "tags": [
+                "describe",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_khuon_mat",
+            "name": "khuôn mặt",
+            "trans": [
+                "脸",
+                "面容"
+            ],
+            "tags": [
+                "describe",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tinh_cach",
+            "name": "tính cách",
+            "trans": [
+                "性格"
+            ],
+            "tags": [
+                "describe",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_271",
+        "sentence_vi_272",
+        "sentence_vi_273",
+        "sentence_vi_274",
+        "sentence_vi_275",
+        "sentence_vi_276"
+    ],
+    "grammar": [
+        {
+            "point": "形容词后置：người + 形容词",
+            "explain": "描述人时用 người（人）作中心词，形容词后置，如 người cao（高个子）。",
+            "examples": [
+                {
+                    "vi": "Anh ấy là người cao.",
+                    "zh": "他是高个子。"
+                },
+                {
+                    "vi": "Cô ấy là người đẹp.",
+                    "zh": "她是个美人。"
+                }
+            ]
+        },
+        {
+            "point": "有：có + 名词",
+            "explain": "có 意为「有」，用于描述某人具备的特征，如 có tóc dài（有长头发）。",
+            "examples": [
+                {
+                    "vi": "Cô ấy có tóc dài.",
+                    "zh": "她有长头发。"
+                },
+                {
+                    "vi": "Anh ấy có mắt đen.",
+                    "zh": "他有黑眼睛。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Cô ấy có tóc dài.」是什么意思？",
+            "options": [
+                "她有长头发。",
+                "她有短头发。",
+                "她头发是黑的。"
+            ],
+            "answer": "她有长头发。"
+        },
+        {
+            "type": "fill",
+            "question": "Anh ấy là người ___.（他是高个子。）",
+            "answer": "cao"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「khuôn mặt」（脸）",
+            "answer": "khuôn mặt"
+        }
+    ]
+}

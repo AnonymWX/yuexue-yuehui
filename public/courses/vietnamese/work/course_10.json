@@ -1,0 +1,191 @@
+{
+    "id": "course_vi_90",
+    "title": "第 10 课：谈判与合同",
+    "titleVi": "Bài 10: Đàm phán và Hợp đồng",
+    "level": "A1",
+    "order": 10,
+    "scenario": "work",
+    "goals": [
+        "掌握谈判合同的 8 个核心词汇",
+        "学会价格与条件谈判",
+        "掌握签订合同表达",
+        "能进行基础商务谈判"
+    ],
+    "words": [
+        {
+            "id": "vi_dam_phan",
+            "name": "đàm phán",
+            "trans": [
+                "谈判"
+            ],
+            "tags": [
+                "negotiation",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_hop_dong_kinh",
+            "name": "hợp đồng kinh tế",
+            "trans": [
+                "经济合同"
+            ],
+            "tags": [
+                "negotiation",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_dieu_khoan",
+            "name": "điều khoản",
+            "trans": [
+                "条款"
+            ],
+            "tags": [
+                "negotiation",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_gia_ca",
+            "name": "giá cả",
+            "trans": [
+                "价格"
+            ],
+            "tags": [
+                "negotiation",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thoa_thuan_hd",
+            "name": "thỏa thuận hợp đồng",
+            "trans": [
+                "合同协议"
+            ],
+            "tags": [
+                "negotiation",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ky_ket",
+            "name": "ký kết",
+            "trans": [
+                "签订",
+                "签署"
+            ],
+            "tags": [
+                "negotiation",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_doi_tac",
+            "name": "đối tác",
+            "trans": [
+                "合作伙伴"
+            ],
+            "tags": [
+                "negotiation",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thuong_luong",
+            "name": "thương lượng",
+            "trans": [
+                "协商",
+                "商谈"
+            ],
+            "tags": [
+                "negotiation",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_535",
+        "sentence_vi_536",
+        "sentence_vi_537",
+        "sentence_vi_538",
+        "sentence_vi_539",
+        "sentence_vi_540"
+    ],
+    "grammar": [
+        {
+            "point": "与某人：với + 人",
+            "explain": "với 意为「和、与」，用于引出合作或谈判的对象。",
+            "examples": [
+                {
+                    "vi": "Tôi đàm phán với đối tác.",
+                    "zh": "我和合作伙伴谈判。"
+                },
+                {
+                    "vi": "Ký hợp đồng với công ty.",
+                    "zh": "和公司签合同。"
+                }
+            ]
+        },
+        {
+            "point": "同意条件：đồng ý với + 名词",
+            "explain": "đồng ý với 意为「同意……」，后接条件或人。",
+            "examples": [
+                {
+                    "vi": "Chúng tôi đồng ý với điều khoản.",
+                    "zh": "我们同意条款。"
+                },
+                {
+                    "vi": "Họ đồng ý với giá cả.",
+                    "zh": "他们同意价格。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Tôi đàm phán với đối tác.」是什么意思？",
+            "options": [
+                "我和合作伙伴谈判。",
+                "我和同事开会。",
+                "我和客户吃饭。"
+            ],
+            "answer": "我和合作伙伴谈判。"
+        },
+        {
+            "type": "fill",
+            "question": "Chúng tôi đồng ý với ___ khoản.（我们同意条款。）",
+            "answer": "điều"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「đàm phán」（谈判）",
+            "answer": "đàm phán"
+        }
+    ]
+}

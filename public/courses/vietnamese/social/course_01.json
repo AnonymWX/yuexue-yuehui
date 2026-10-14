@@ -1,0 +1,193 @@
+{
+    "id": "course_vi_07",
+    "title": "第1课：天气与季节",
+    "titleVi": "Bài 1: Thời tiết và Mùa",
+    "level": "A1",
+    "order": 7,
+    "scenario": "weather",
+    "goals": [
+        "能说出「热」「冷」「下雨」",
+        "能说出四季名称",
+        "能用形容词谓语句描述天气",
+        "能用「rất」加强语气"
+    ],
+    "words": [
+        {
+            "id": "vi_thoi_tiet",
+            "name": "thời tiết",
+            "trans": [
+                "天气"
+            ],
+            "tags": [
+                "weather",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nong",
+            "name": "nóng",
+            "trans": [
+                "热"
+            ],
+            "tags": [
+                "weather",
+                "adjective",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_lanh",
+            "name": "lạnh",
+            "trans": [
+                "冷"
+            ],
+            "tags": [
+                "weather",
+                "adjective",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_mua",
+            "name": "mưa",
+            "trans": [
+                "雨",
+                "下雨"
+            ],
+            "tags": [
+                "weather",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nang",
+            "name": "nắng",
+            "trans": [
+                "晴",
+                "阳光"
+            ],
+            "tags": [
+                "weather",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_mua_xuan",
+            "name": "mùa xuân",
+            "trans": [
+                "春天"
+            ],
+            "tags": [
+                "season",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_mua_he",
+            "name": "mùa hè",
+            "trans": [
+                "夏天"
+            ],
+            "tags": [
+                "season",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_mua_dong",
+            "name": "mùa đông",
+            "trans": [
+                "冬天"
+            ],
+            "tags": [
+                "season",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_037",
+        "sentence_vi_038",
+        "sentence_vi_039",
+        "sentence_vi_040",
+        "sentence_vi_041",
+        "sentence_vi_042"
+    ],
+    "grammar": [
+        {
+            "point": "形容词谓语句（不用「là」）",
+            "explain": "越南语中形容词可以直接作谓语，不加「là」。「Trời nóng.」=「天热。」「Hôm nay lạnh.」=「今天冷。」",
+            "examples": [
+                {
+                    "vi": "Trời nóng.",
+                    "zh": "天热。"
+                },
+                {
+                    "vi": "Hôm nay lạnh.",
+                    "zh": "今天冷。"
+                }
+            ]
+        },
+        {
+            "point": "「rất」表示「很」",
+            "explain": "「rất」放在形容词前表示程度加深。「Trời rất nóng.」=「天很热。」",
+            "examples": [
+                {
+                    "vi": "Trời rất nóng.",
+                    "zh": "天很热。"
+                },
+                {
+                    "vi": "Mùa đông rất lạnh.",
+                    "zh": "冬天很冷。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「lạnh」的中文意思是？",
+            "options": [
+                "热",
+                "冷",
+                "下雨"
+            ],
+            "answer": "冷"
+        },
+        {
+            "type": "fill",
+            "question": "Trời ___ nóng.（用「很」填空）",
+            "answer": "rất"
+        },
+        {
+            "type": "telex_input",
+            "question": "请用越南语输入「天气」",
+            "answer": "thời tiết"
+        }
+    ]
+}

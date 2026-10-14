@@ -1,0 +1,193 @@
+{
+    "id": "course_vi_09",
+    "title": "第1课：订酒店与住宿",
+    "titleVi": "Bài 1: Đặt phòng và Chỗ ở",
+    "level": "A1",
+    "order": 1,
+    "scenario": "travel",
+    "goals": [
+        "能说出「酒店」「房间」「订房」",
+        "能问「一晚多少钱？」",
+        "能说「我住两晚」",
+        "能用「đặt」表达预订"
+    ],
+    "words": [
+        {
+            "id": "vi_khach_san",
+            "name": "khách sạn",
+            "trans": [
+                "酒店",
+                "旅馆"
+            ],
+            "tags": [
+                "travel",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_phong",
+            "name": "phòng",
+            "trans": [
+                "房间"
+            ],
+            "tags": [
+                "travel",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_dat_phong",
+            "name": "đặt phòng",
+            "trans": [
+                "订房",
+                "预订房间"
+            ],
+            "tags": [
+                "travel",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_dem",
+            "name": "đêm",
+            "trans": [
+                "夜",
+                "晚"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_o_lai",
+            "name": "ở lại",
+            "trans": [
+                "留宿",
+                "住下"
+            ],
+            "tags": [
+                "travel",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_phong_don",
+            "name": "phòng đơn",
+            "trans": [
+                "单人间"
+            ],
+            "tags": [
+                "travel",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_phong_doi",
+            "name": "phòng đôi",
+            "trans": [
+                "双人间"
+            ],
+            "tags": [
+                "travel",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tang",
+            "name": "tầng",
+            "trans": [
+                "楼层"
+            ],
+            "tags": [
+                "travel",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_049",
+        "sentence_vi_050",
+        "sentence_vi_051",
+        "sentence_vi_052",
+        "sentence_vi_053",
+        "sentence_vi_054"
+    ],
+    "grammar": [
+        {
+            "point": "「đặt」表示「预订」",
+            "explain": "「đặt」后直接接名词，表示预订某物。订房用「đặt phòng」，订桌用「đặt bàn」。",
+            "examples": [
+                {
+                    "vi": "Tôi muốn đặt một phòng.",
+                    "zh": "我想订一个房间。"
+                },
+                {
+                    "vi": "Tôi đặt phòng đơn.",
+                    "zh": "我订单人间。"
+                }
+            ]
+        },
+        {
+            "point": "「một đêm」表示「一晚」",
+            "explain": "「đêm」是时间量词，放在数词后表示「几晚」。问价格：「một đêm bao nhiêu tiền?」=「一晚多少钱？」",
+            "examples": [
+                {
+                    "vi": "Một đêm bao nhiêu tiền?",
+                    "zh": "一晚多少钱？"
+                },
+                {
+                    "vi": "Tôi ở lại hai đêm.",
+                    "zh": "我住两晚。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「khách sạn」的中文意思是？",
+            "options": [
+                "餐厅",
+                "酒店",
+                "机场"
+            ],
+            "answer": "酒店"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi muốn ___ một phòng.（用「预订」的动词填空）",
+            "answer": "đặt"
+        },
+        {
+            "type": "telex_input",
+            "question": "请用越南语输入「房间」",
+            "answer": "phòng"
+        }
+    ]
+}

@@ -1,0 +1,193 @@
+{
+    "id": "course_vi_75",
+    "title": "第 15 课：海边与游泳",
+    "titleVi": "Bài 15: Biển và Bơi lội",
+    "level": "A1",
+    "order": 15,
+    "scenario": "travel",
+    "goals": [
+        "掌握海边游泳的 8 个核心词汇",
+        "学会表达游泳与戏水",
+        "掌握沙滩与海浪描述",
+        "能谈论海边度假体验"
+    ],
+    "words": [
+        {
+            "id": "vi_bien",
+            "name": "biển",
+            "trans": [
+                "海"
+            ],
+            "tags": [
+                "beach",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_bai_bien",
+            "name": "bãi biển",
+            "trans": [
+                "海滩"
+            ],
+            "tags": [
+                "beach",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_boi",
+            "name": "bơi",
+            "trans": [
+                "游泳"
+            ],
+            "tags": [
+                "beach",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tam_bien",
+            "name": "tắm biển",
+            "trans": [
+                "洗海澡",
+                "在海里游泳"
+            ],
+            "tags": [
+                "beach",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_cat",
+            "name": "cát",
+            "trans": [
+                "沙",
+                "沙子"
+            ],
+            "tags": [
+                "beach",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_song",
+            "name": "sóng",
+            "trans": [
+                "浪",
+                "波浪"
+            ],
+            "tags": [
+                "beach",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nang_sun",
+            "name": "nắng",
+            "trans": [
+                "阳光",
+                "日晒"
+            ],
+            "tags": [
+                "beach",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ao_tam",
+            "name": "áo tắm",
+            "trans": [
+                "泳衣"
+            ],
+            "tags": [
+                "beach",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_445",
+        "sentence_vi_446",
+        "sentence_vi_447",
+        "sentence_vi_448",
+        "sentence_vi_449",
+        "sentence_vi_450"
+    ],
+    "grammar": [
+        {
+            "point": "会游泳：biết bơi",
+            "explain": "biết 意为「会、知道」，后接动词表示具备某种技能，biết bơi 意为「会游泳」。",
+            "examples": [
+                {
+                    "vi": "Tôi biết bơi.",
+                    "zh": "我会游泳。"
+                },
+                {
+                    "vi": "Cô ấy không biết bơi.",
+                    "zh": "她不会游泳。"
+                }
+            ]
+        },
+        {
+            "point": "在……很：ở ... rất ...",
+            "explain": "ở 引出地点，rất 后接形容词，表示在某地具有某种特征。",
+            "examples": [
+                {
+                    "vi": "Bãi biển này rất đẹp.",
+                    "zh": "这个海滩很美。"
+                },
+                {
+                    "vi": "Cát ở đây rất trắng.",
+                    "zh": "这里的沙子很白。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Tôi biết bơi.」是什么意思？",
+            "options": [
+                "我会游泳。",
+                "我想游泳。",
+                "我怕游泳。"
+            ],
+            "answer": "我会游泳。"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi muốn đi ___.（我想去海边。）",
+            "answer": "biển"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「bãi biển」（海滩）",
+            "answer": "bãi biển"
+        }
+    ]
+}

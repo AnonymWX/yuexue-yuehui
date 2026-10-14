@@ -1,0 +1,192 @@
+{
+    "id": "course_vi_85",
+    "title": "第 5 课：工作日常",
+    "titleVi": "Bài 5: Công việc hàng ngày",
+    "level": "A1",
+    "order": 5,
+    "scenario": "work",
+    "goals": [
+        "掌握工作日常的 8 个核心词汇",
+        "学会描述工作时间与任务",
+        "掌握加班与请假表达",
+        "能谈论日常工作安排"
+    ],
+    "words": [
+        {
+            "id": "vi_gio_lam_viec",
+            "name": "giờ làm việc",
+            "trans": [
+                "工作时间"
+            ],
+            "tags": [
+                "daily work",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tang_ca",
+            "name": "tăng ca",
+            "trans": [
+                "加班"
+            ],
+            "tags": [
+                "daily work",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nghi_phep",
+            "name": "nghỉ phép",
+            "trans": [
+                "请假",
+                "休假"
+            ],
+            "tags": [
+                "daily work",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_hop",
+            "name": "họp",
+            "trans": [
+                "开会"
+            ],
+            "tags": [
+                "daily work",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_bao_cao",
+            "name": "báo cáo",
+            "trans": [
+                "报告",
+                "汇报"
+            ],
+            "tags": [
+                "daily work",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nhiem_vu",
+            "name": "nhiệm vụ",
+            "trans": [
+                "任务"
+            ],
+            "tags": [
+                "daily work",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tien_do",
+            "name": "tiến độ",
+            "trans": [
+                "进度"
+            ],
+            "tags": [
+                "daily work",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_cham_cong",
+            "name": "chấm công",
+            "trans": [
+                "打卡",
+                "考勤"
+            ],
+            "tags": [
+                "daily work",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_505",
+        "sentence_vi_506",
+        "sentence_vi_507",
+        "sentence_vi_508",
+        "sentence_vi_509",
+        "sentence_vi_510"
+    ],
+    "grammar": [
+        {
+            "point": "从……到……：từ ... đến ...",
+            "explain": "từ ... đến ... 表示时间或空间的起止，常用于描述工作时间。",
+            "examples": [
+                {
+                    "vi": "Tôi làm việc từ 8 giờ đến 5 giờ.",
+                    "zh": "我从 8 点工作到 5 点。"
+                },
+                {
+                    "vi": "Họp từ 2 giờ đến 3 giờ.",
+                    "zh": "从 2 点开会到 3 点。"
+                }
+            ]
+        },
+        {
+            "point": "完成：hoàn thành + 名词",
+            "explain": "hoàn thành 意为「完成」，后接任务或工作内容。",
+            "examples": [
+                {
+                    "vi": "Tôi đã hoàn thành nhiệm vụ.",
+                    "zh": "我已经完成任务。"
+                },
+                {
+                    "vi": "Cần hoàn thành báo cáo.",
+                    "zh": "需要完成报告。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Tôi làm việc từ 8 giờ đến 5 giờ.」是什么意思？",
+            "options": [
+                "我从 8 点工作到 5 点。",
+                "我 8 点上班。",
+                "我 5 点下班。"
+            ],
+            "answer": "我从 8 点工作到 5 点。"
+        },
+        {
+            "type": "fill",
+            "question": "Hôm nay tôi phải ___ ca.（今天我要加班。）",
+            "answer": "tăng"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「báo cáo」（报告）",
+            "answer": "báo cáo"
+        }
+    ]
+}

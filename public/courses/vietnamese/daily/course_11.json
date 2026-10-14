@@ -1,0 +1,194 @@
+{
+    "id": "course_vi_36",
+    "title": "第 11 课：医院与看病",
+    "titleVi": "Bài 11: Bệnh viện và Khám bệnh",
+    "level": "A1",
+    "order": 11,
+    "scenario": "daily",
+    "goals": [
+        "掌握医院场景的 8 个核心词汇",
+        "学会挂号与看病的表达",
+        "掌握化验、打针等医疗用语",
+        "能描述就医流程"
+    ],
+    "words": [
+        {
+            "id": "vi_benh_vien",
+            "name": "bệnh viện",
+            "trans": [
+                "医院"
+            ],
+            "tags": [
+                "hospital",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_kham_benh",
+            "name": "khám bệnh",
+            "trans": [
+                "看病",
+                "就诊"
+            ],
+            "tags": [
+                "hospital",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_bac_si",
+            "name": "bác sĩ",
+            "trans": [
+                "医生"
+            ],
+            "tags": [
+                "hospital",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_y_ta",
+            "name": "y tá",
+            "trans": [
+                "护士"
+            ],
+            "tags": [
+                "hospital",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_phong_kham",
+            "name": "phòng khám",
+            "trans": [
+                "诊室",
+                "诊所"
+            ],
+            "tags": [
+                "hospital",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_xet_nghiem",
+            "name": "xét nghiệm",
+            "trans": [
+                "化验",
+                "检验"
+            ],
+            "tags": [
+                "hospital",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tiem_chich",
+            "name": "tiêm chích",
+            "trans": [
+                "打针",
+                "注射"
+            ],
+            "tags": [
+                "hospital",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_kham",
+            "name": "khám",
+            "trans": [
+                "检查",
+                "诊查"
+            ],
+            "tags": [
+                "hospital",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_211",
+        "sentence_vi_212",
+        "sentence_vi_213",
+        "sentence_vi_214",
+        "sentence_vi_215",
+        "sentence_vi_216"
+    ],
+    "grammar": [
+        {
+            "point": "需要做某事：cần + 动词",
+            "explain": "cần 意为「需要」，后接动词原形，表示需要做某事。",
+            "examples": [
+                {
+                    "vi": "Tôi cần xét nghiệm máu.",
+                    "zh": "我需要验血。"
+                },
+                {
+                    "vi": "Bạn cần nghỉ ngơi.",
+                    "zh": "你需要休息。"
+                }
+            ]
+        },
+        {
+            "point": "必须做某事：phải + 动词",
+            "explain": "phải 意为「必须、得」，语气比 cần 更强，表示义务或必要性。",
+            "examples": [
+                {
+                    "vi": "Tôi phải chờ bao lâu?",
+                    "zh": "我要等多久？"
+                },
+                {
+                    "vi": "Bạn phải uống thuốc đều.",
+                    "zh": "你必须按时吃药。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Tôi muốn khám bệnh.」是什么意思？",
+            "options": [
+                "我想看病。",
+                "我想买药。",
+                "我想住院。"
+            ],
+            "answer": "我想看病。"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi cần ___ máu.（我需要验血。）",
+            "answer": "xét nghiệm"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「bệnh viện」（医院）",
+            "answer": "bệnh viện"
+        }
+    ]
+}

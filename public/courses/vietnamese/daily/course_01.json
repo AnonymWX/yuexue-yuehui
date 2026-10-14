@@ -1,0 +1,191 @@
+{
+    "id": "course_vi_04",
+    "title": "第1课：购物与价钱",
+    "titleVi": "Bài 1: Mua sắm và Giá cả",
+    "level": "A1",
+    "order": 4,
+    "scenario": "shopping",
+    "goals": [
+        "能问价格：「多少钱？」",
+        "能说出 11–100 的数词",
+        "能说出常见商品名称",
+        "能用「mua」表达购买意图"
+    ],
+    "words": [
+        {
+            "id": "vi_mua",
+            "name": "mua",
+            "trans": [
+                "买"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ban_sell",
+            "name": "bán",
+            "trans": [
+                "卖"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_gia",
+            "name": "giá",
+            "trans": [
+                "价格",
+                "价钱"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_bao_nhieu",
+            "name": "bao nhiêu",
+            "trans": [
+                "多少"
+            ],
+            "tags": [
+                "question",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tien",
+            "name": "tiền",
+            "trans": [
+                "钱"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ao",
+            "name": "áo",
+            "trans": [
+                "衣服",
+                "上衣"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_sach",
+            "name": "sách",
+            "trans": [
+                "书"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_cua_hang",
+            "name": "cửa hàng",
+            "trans": [
+                "商店"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_019",
+        "sentence_vi_020",
+        "sentence_vi_021",
+        "sentence_vi_022",
+        "sentence_vi_023",
+        "sentence_vi_024"
+    ],
+    "grammar": [
+        {
+            "point": "疑问词「bao nhiêu」（多少）",
+            "explain": "「bao nhiêu」用于询问数量或价格，放在名词前。问价格：「Cái này giá bao nhiêu?」=「这个多少钱？」",
+            "examples": [
+                {
+                    "vi": "Cái áo này giá bao nhiêu?",
+                    "zh": "这件衣服多少钱？"
+                },
+                {
+                    "vi": "Quyển sách này bao nhiêu tiền?",
+                    "zh": "这本书多少钱？"
+                }
+            ]
+        },
+        {
+            "point": "数词 11–100",
+            "explain": "11–19：mười + 个位数（如 mười một = 11）。20–99：十位数 + mươi + 个位数（如 hai mươi = 20，hai mươi lăm = 25）。100：một trăm。",
+            "examples": [
+                {
+                    "vi": "Mười lăm nghìn đồng.",
+                    "zh": "一万五千盾。（15,000₫）"
+                },
+                {
+                    "vi": "Hai mươi nghìn đồng.",
+                    "zh": "两万盾。（20,000₫）"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「bao nhiêu」的中文意思是？",
+            "options": [
+                "什么",
+                "多少",
+                "哪里"
+            ],
+            "answer": "多少"
+        },
+        {
+            "type": "fill",
+            "question": "Cái áo này giá ___ nhiêu?（填空）",
+            "answer": "bao"
+        },
+        {
+            "type": "telex_input",
+            "question": "请用越南语输入「买」",
+            "answer": "mua"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>越学越会 — 多语言学习工具</title>
+    <meta name="description" content="越学越会，多语言学习工具。课程式学习、输入法练习、每日复习，支持云端同步进度。" />
+    <meta name="keywords" content="越学越会, 语言学习, 越南语学习, Telex 输入, 背单词, 打字练习" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#818CF8" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <script>
+      // Dark mode init
+      if (
+        ('state' in localStorage && JSON.parse(localStorage.state).darkMode) ||
+        (!('state' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
+      ) {
+        document.documentElement.classList.add('dark')
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <div>你需要启用 JavaScript 才能运行越学越会。</div>
+    </noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/index.tsx"></script>
+  </body>
+</html>

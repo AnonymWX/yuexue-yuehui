@@ -1,0 +1,192 @@
+{
+    "id": "course_vi_03",
+    "title": "第3课：时间与日常活动",
+    "titleVi": "Bài 3: Thời gian và Hoạt động hàng ngày",
+    "level": "A1",
+    "order": 3,
+    "scenario": "daily_life",
+    "goals": [
+        "能说出今天、明天",
+        "能说出早上、下午、晚上",
+        "能说出「起床」「去上学」「去上班」",
+        "能用「không」进行否定表达"
+    ],
+    "words": [
+        {
+            "id": "vi_hom_nay",
+            "name": "hôm nay",
+            "trans": [
+                "今天"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ngay_mai",
+            "name": "ngày mai",
+            "trans": [
+                "明天"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_buoi_sang",
+            "name": "buổi sáng",
+            "trans": [
+                "早上",
+                "上午"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_buoi_chieu",
+            "name": "buổi chiều",
+            "trans": [
+                "下午"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_buoi_toi",
+            "name": "buổi tối",
+            "trans": [
+                "晚上"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thuc_day",
+            "name": "thức dậy",
+            "trans": [
+                "起床"
+            ],
+            "tags": [
+                "daily",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_di_hoc",
+            "name": "đi học",
+            "trans": [
+                "去上学",
+                "上学"
+            ],
+            "tags": [
+                "daily",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_di_lam",
+            "name": "đi làm",
+            "trans": [
+                "去上班",
+                "上班"
+            ],
+            "tags": [
+                "daily",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_013",
+        "sentence_vi_014",
+        "sentence_vi_015",
+        "sentence_vi_016",
+        "sentence_vi_017",
+        "sentence_vi_018"
+    ],
+    "grammar": [
+        {
+            "point": "时间词放句首",
+            "explain": "越南语中时间词常放在句首，用逗号隔开，再接主语和谓语。例如「Buổi sáng, tôi thức dậy.」=「早上，我起床。」",
+            "examples": [
+                {
+                    "vi": "Buổi sáng, tôi thức dậy.",
+                    "zh": "早上，我起床。"
+                },
+                {
+                    "vi": "Buổi chiều, tôi đi học.",
+                    "zh": "下午，我去上学。"
+                }
+            ]
+        },
+        {
+            "point": "否定用「không」",
+            "explain": "「không」放在动词前表示否定，相当于中文的「不」。例如「Tôi không đi học.」=「我不去上学。」",
+            "examples": [
+                {
+                    "vi": "Ngày mai tôi không đi học.",
+                    "zh": "明天我不去上学。"
+                },
+                {
+                    "vi": "Hôm nay tôi không đi làm.",
+                    "zh": "今天我不去上班。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「hôm nay」的中文意思是？",
+            "options": [
+                "昨天",
+                "今天",
+                "明天"
+            ],
+            "answer": "今天"
+        },
+        {
+            "type": "fill",
+            "question": "Buổi sáng, tôi ___ dậy.（用「起床」的动词填空）",
+            "answer": "thức"
+        },
+        {
+            "type": "telex_input",
+            "question": "请用越南语输入「去上学」",
+            "answer": "đi học"
+        }
+    ]
+}

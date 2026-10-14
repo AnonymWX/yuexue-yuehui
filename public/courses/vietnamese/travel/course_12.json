@@ -1,0 +1,192 @@
+{
+    "id": "course_vi_72",
+    "title": "第 12 课：拍照与纪念品",
+    "titleVi": "Bài 12: Chụp ảnh và Quà lưu niệm",
+    "level": "A1",
+    "order": 12,
+    "scenario": "travel",
+    "goals": [
+        "掌握拍照纪念的 8 个核心词汇",
+        "学会请求拍照与合影",
+        "掌握购买纪念品的表达",
+        "能描述旅行照片"
+    ],
+    "words": [
+        {
+            "id": "vi_chup_anh",
+            "name": "chụp ảnh",
+            "trans": [
+                "拍照",
+                "照相"
+            ],
+            "tags": [
+                "photo",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_buc_anh",
+            "name": "bức ảnh",
+            "trans": [
+                "照片"
+            ],
+            "tags": [
+                "photo",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_may_anh",
+            "name": "máy ảnh",
+            "trans": [
+                "相机"
+            ],
+            "tags": [
+                "photo",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_qua_luu_niem",
+            "name": "quà lưu niệm",
+            "trans": [
+                "纪念品"
+            ],
+            "tags": [
+                "photo",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_luu_niem",
+            "name": "lưu niệm",
+            "trans": [
+                "留念",
+                "纪念"
+            ],
+            "tags": [
+                "photo",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ban_do",
+            "name": "bản đồ",
+            "trans": [
+                "地图"
+            ],
+            "tags": [
+                "photo",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ong_nhom",
+            "name": "ống nhòm",
+            "trans": [
+                "望远镜"
+            ],
+            "tags": [
+                "photo",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_in_anh",
+            "name": "in ảnh",
+            "trans": [
+                "洗照片",
+                "冲印"
+            ],
+            "tags": [
+                "photo",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_427",
+        "sentence_vi_428",
+        "sentence_vi_429",
+        "sentence_vi_430",
+        "sentence_vi_431",
+        "sentence_vi_432"
+    ],
+    "grammar": [
+        {
+            "point": "请人拍照：nhờ + 人 + chụp ảnh",
+            "explain": "nhờ 意为「请、托」，后接人和动作，nhờ ai chụp ảnh 表示「请某人拍照」。",
+            "examples": [
+                {
+                    "vi": "Tôi nhờ anh ấy chụp ảnh.",
+                    "zh": "我请他拍照。"
+                },
+                {
+                    "vi": "Nhờ cô ấy chụp giúp.",
+                    "zh": "请她帮忙拍照。"
+                }
+            ]
+        },
+        {
+            "point": "买……作为礼物：mua ... làm quà",
+            "explain": "làm 意为「作为、当作」，làm quà 表示「作为礼物」。",
+            "examples": [
+                {
+                    "vi": "Tôi mua cái này làm quà.",
+                    "zh": "我买这个作为礼物。"
+                },
+                {
+                    "vi": "Mua quà lưu niệm cho bạn bè.",
+                    "zh": "给朋友买纪念品。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Tôi nhờ anh ấy chụp ảnh.」是什么意思？",
+            "options": [
+                "我请他拍照。",
+                "他请我拍照。",
+                "我自己拍照。"
+            ],
+            "answer": "我请他拍照。"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi mua cái này ___ quà.（我买这个作为礼物。）",
+            "answer": "làm"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「quà lưu niệm」（纪念品）",
+            "answer": "quà lưu niệm"
+        }
+    ]
+}

@@ -1,0 +1,193 @@
+{
+    "id": "course_vi_89",
+    "title": "第 9 课：汇报与演示",
+    "titleVi": "Bài 9: Báo cáo và Thuyết trình",
+    "level": "A1",
+    "order": 9,
+    "scenario": "work",
+    "goals": [
+        "掌握汇报演示的 8 个核心词汇",
+        "学会做工作汇报",
+        "掌握演示 PPT 与图表表达",
+        "能回答提问"
+    ],
+    "words": [
+        {
+            "id": "vi_thuyet_trinh",
+            "name": "thuyết trình",
+            "trans": [
+                "演示",
+                "演讲"
+            ],
+            "tags": [
+                "presentation",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_bai_trinh_bay",
+            "name": "bài trình bày",
+            "trans": [
+                "演示文稿",
+                "报告"
+            ],
+            "tags": [
+                "presentation",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_so_lieu",
+            "name": "số liệu",
+            "trans": [
+                "数据"
+            ],
+            "tags": [
+                "presentation",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_bieu_do",
+            "name": "biểu đồ",
+            "trans": [
+                "图表"
+            ],
+            "tags": [
+                "presentation",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ket_qua",
+            "name": "kết quả",
+            "trans": [
+                "结果"
+            ],
+            "tags": [
+                "presentation",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_phan_tich",
+            "name": "phân tích",
+            "trans": [
+                "分析"
+            ],
+            "tags": [
+                "presentation",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_cau_hoi",
+            "name": "câu hỏi",
+            "trans": [
+                "问题",
+                "提问"
+            ],
+            "tags": [
+                "presentation",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tom_tat",
+            "name": "tóm tắt",
+            "trans": [
+                "总结",
+                "概括"
+            ],
+            "tags": [
+                "presentation",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_529",
+        "sentence_vi_530",
+        "sentence_vi_531",
+        "sentence_vi_532",
+        "sentence_vi_533",
+        "sentence_vi_534"
+    ],
+    "grammar": [
+        {
+            "point": "展示：trình bày + 名词",
+            "explain": "trình bày 意为「展示、陈述」，后接内容，是汇报中的核心动词。",
+            "examples": [
+                {
+                    "vi": "Tôi sẽ trình bày số liệu.",
+                    "zh": "我将展示数据。"
+                },
+                {
+                    "vi": "Anh ấy trình bày kết quả.",
+                    "zh": "他展示结果。"
+                }
+            ]
+        },
+        {
+            "point": "根据：dựa trên / dựa vào + 名词",
+            "explain": "dựa trên 和 dựa vào 都表示「根据、基于」，后接依据。",
+            "examples": [
+                {
+                    "vi": "Dựa trên số liệu, chúng tôi phân tích.",
+                    "zh": "根据数据，我们分析。"
+                },
+                {
+                    "vi": "Dựa vào kết quả, ta kết luận.",
+                    "zh": "根据结果，我们得出结论。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Tôi sẽ trình bày số liệu.」是什么意思？",
+            "options": [
+                "我将展示数据。",
+                "我将分析结果。",
+                "我将提问。"
+            ],
+            "answer": "我将展示数据。"
+        },
+        {
+            "type": "fill",
+            "question": "Dựa ___ số liệu, chúng tôi phân tích.（根据数据，我们分析。）",
+            "answer": "trên"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「thuyết trình」（演示）",
+            "answer": "thuyết trình"
+        }
+    ]
+}

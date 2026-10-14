@@ -1,0 +1,193 @@
+{
+    "id": "course_vi_92",
+    "title": "第 12 课：工资与福利",
+    "titleVi": "Bài 12: Lương và Phúc lợi",
+    "level": "A1",
+    "order": 12,
+    "scenario": "work",
+    "goals": [
+        "掌握工资福利的 8 个核心词汇",
+        "学会谈论薪水与奖金",
+        "掌握社保与津贴表达",
+        "能处理薪酬相关问题"
+    ],
+    "words": [
+        {
+            "id": "vi_luong",
+            "name": "lương",
+            "trans": [
+                "工资",
+                "薪水"
+            ],
+            "tags": [
+                "salary",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thuong",
+            "name": "thưởng",
+            "trans": [
+                "奖金",
+                "奖励"
+            ],
+            "tags": [
+                "salary",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_phu_cap",
+            "name": "phụ cấp",
+            "trans": [
+                "津贴",
+                "补贴"
+            ],
+            "tags": [
+                "salary",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_bao_hiem_xh",
+            "name": "bảo hiểm xã hội",
+            "trans": [
+                "社会保险"
+            ],
+            "tags": [
+                "salary",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tang_luong",
+            "name": "tăng lương",
+            "trans": [
+                "加薪"
+            ],
+            "tags": [
+                "salary",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tra_luong",
+            "name": "trả lương",
+            "trans": [
+                "发工资",
+                "付薪"
+            ],
+            "tags": [
+                "salary",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thue_tncn",
+            "name": "thuế thu nhập",
+            "trans": [
+                "所得税"
+            ],
+            "tags": [
+                "salary",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_phuc_loi",
+            "name": "phúc lợi",
+            "trans": [
+                "福利"
+            ],
+            "tags": [
+                "salary",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_547",
+        "sentence_vi_548",
+        "sentence_vi_549",
+        "sentence_vi_550",
+        "sentence_vi_551",
+        "sentence_vi_552"
+    ],
+    "grammar": [
+        {
+            "point": "每月：mỗi tháng + 动作",
+            "explain": "mỗi tháng 意为「每月」，用于说明薪酬发放频率。",
+            "examples": [
+                {
+                    "vi": "Công ty trả lương mỗi tháng.",
+                    "zh": "公司每月发工资。"
+                },
+                {
+                    "vi": "Tôi nhận lương mỗi tháng một lần.",
+                    "zh": "我每月领一次工资。"
+                }
+            ]
+        },
+        {
+            "point": "多少：bao nhiêu + 名词",
+            "explain": "bao nhiêu 意为「多少」，放在名词前构成疑问，如 bao nhiêu tiền（多少钱）。",
+            "examples": [
+                {
+                    "vi": "Lương của bạn bao nhiêu?",
+                    "zh": "你的工资多少？"
+                },
+                {
+                    "vi": "Phụ cấp bao nhiêu tiền?",
+                    "zh": "津贴多少钱？"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Lương của bạn bao nhiêu?」是什么意思？",
+            "options": [
+                "你的工资多少？",
+                "你的奖金多少？",
+                "你的津贴多少？"
+            ],
+            "answer": "你的工资多少？"
+        },
+        {
+            "type": "fill",
+            "question": "Công ty ___ lương mỗi tháng.（公司每月发工资。）",
+            "answer": "trả"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「phúc lợi」（福利）",
+            "answer": "phúc lợi"
+        }
+    ]
+}

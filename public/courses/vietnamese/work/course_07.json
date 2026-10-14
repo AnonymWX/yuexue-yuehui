@@ -1,0 +1,193 @@
+{
+    "id": "course_vi_87",
+    "title": "第 7 课：邮件与沟通",
+    "titleVi": "Bài 7: Email và Giao tiếp",
+    "level": "A1",
+    "order": 7,
+    "scenario": "work",
+    "goals": [
+        "掌握邮件沟通的 8 个核心词汇",
+        "学会写与发邮件",
+        "掌握附件与标题表达",
+        "能处理工作邮件往来"
+    ],
+    "words": [
+        {
+            "id": "vi_email",
+            "name": "email",
+            "trans": [
+                "电子邮件"
+            ],
+            "tags": [
+                "email",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_gui_thu_dt",
+            "name": "gửi thư điện tử",
+            "trans": [
+                "发送电子邮件"
+            ],
+            "tags": [
+                "email",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_file_dinh_kem",
+            "name": "file đính kèm",
+            "trans": [
+                "附件"
+            ],
+            "tags": [
+                "email",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tieu_de",
+            "name": "tiêu đề",
+            "trans": [
+                "标题",
+                "主题"
+            ],
+            "tags": [
+                "email",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_noi_dung",
+            "name": "nội dung",
+            "trans": [
+                "内容"
+            ],
+            "tags": [
+                "email",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thong_bao",
+            "name": "thông báo",
+            "trans": [
+                "通知",
+                "公告"
+            ],
+            "tags": [
+                "email",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ky_ten",
+            "name": "ký tên",
+            "trans": [
+                "签名",
+                "署名"
+            ],
+            "tags": [
+                "email",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_hop_thu",
+            "name": "hộp thư",
+            "trans": [
+                "邮箱",
+                "收件箱"
+            ],
+            "tags": [
+                "email",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_517",
+        "sentence_vi_518",
+        "sentence_vi_519",
+        "sentence_vi_520",
+        "sentence_vi_521",
+        "sentence_vi_522"
+    ],
+    "grammar": [
+        {
+            "point": "发送给：gửi ... cho ...",
+            "explain": "gửi 意为「发送」，cho 引出接收者，表示把某物发给某人。",
+            "examples": [
+                {
+                    "vi": "Tôi gửi email cho sếp.",
+                    "zh": "我给老板发邮件。"
+                },
+                {
+                    "vi": "Gửi file cho đồng nghiệp.",
+                    "zh": "把文件发给同事。"
+                }
+            ]
+        },
+        {
+            "point": "已经：đã + 动词",
+            "explain": "đã 表示动作已完成，放在动词前，常用于工作沟通中的确认。",
+            "examples": [
+                {
+                    "vi": "Tôi đã gửi email rồi.",
+                    "zh": "我已经发邮件了。"
+                },
+                {
+                    "vi": "Cô ấy đã thông báo.",
+                    "zh": "她已经通知了。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Tôi đã gửi email rồi.」是什么意思？",
+            "options": [
+                "我已经发邮件了。",
+                "我要发邮件。",
+                "我没发邮件。"
+            ],
+            "answer": "我已经发邮件了。"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi gửi email ___ sếp.（我给老板发邮件。）",
+            "answer": "cho"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「tiêu đề」（标题）",
+            "answer": "tiêu đề"
+        }
+    ]
+}

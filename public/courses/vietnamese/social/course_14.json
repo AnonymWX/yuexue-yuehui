@@ -1,0 +1,194 @@
+{
+    "id": "course_vi_57",
+    "title": "第 14 课：电话与短信",
+    "titleVi": "Bài 14: Điện thoại và Tin nhắn",
+    "level": "A1",
+    "order": 14,
+    "scenario": "social",
+    "goals": [
+        "掌握电话短信的 8 个核心词汇",
+        "学会接电话与回电话",
+        "掌握发短信与回复",
+        "能处理打错电话等状况"
+    ],
+    "words": [
+        {
+            "id": "vi_nhan_tin",
+            "name": "nhắn tin",
+            "trans": [
+                "发短信",
+                "发消息"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tra_loi",
+            "name": "trả lời",
+            "trans": [
+                "回复",
+                "回答"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nghe_may",
+            "name": "nghe máy",
+            "trans": [
+                "接电话"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_goi_lai",
+            "name": "gọi lại",
+            "trans": [
+                "回电话"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nham_may",
+            "name": "nhầm máy",
+            "trans": [
+                "打错电话"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_duong_day",
+            "name": "đường dây",
+            "trans": [
+                "线路",
+                "电话线"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_am_mac",
+            "name": "âm máy",
+            "trans": [
+                "占线",
+                "忙音"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_lien_lac",
+            "name": "liên lạc",
+            "trans": [
+                "联系",
+                "联络"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_337",
+        "sentence_vi_338",
+        "sentence_vi_339",
+        "sentence_vi_340",
+        "sentence_vi_341",
+        "sentence_vi_342"
+    ],
+    "grammar": [
+        {
+            "point": "打电话给某人：gọi (điện) cho + 人",
+            "explain": "gọi 意为「叫、打」，gọi điện 意为「打电话」，cho 引出对象。",
+            "examples": [
+                {
+                    "vi": "Tôi gọi điện cho mẹ.",
+                    "zh": "我打电话给妈妈。"
+                },
+                {
+                    "vi": "Gọi lại cho tôi nhé.",
+                    "zh": "给我回个电话吧。"
+                }
+            ]
+        },
+        {
+            "point": "稍后 / 等一下：một lát / chút nữa",
+            "explain": "một lát 和 chút nữa 都表示「一会儿、稍后」，常用于电话中让对方等待。",
+            "examples": [
+                {
+                    "vi": "Chờ một lát nhé.",
+                    "zh": "请稍等一会儿。"
+                },
+                {
+                    "vi": "Tôi sẽ gọi lại chút nữa.",
+                    "zh": "我稍后回电话。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Tôi gọi điện cho mẹ.」是什么意思？",
+            "options": [
+                "我打电话给妈妈。",
+                "妈妈打电话给我。",
+                "我和妈妈发短信。"
+            ],
+            "answer": "我打电话给妈妈。"
+        },
+        {
+            "type": "fill",
+            "question": "Gọi ___ cho tôi nhé.（给我回个电话吧。）",
+            "answer": "lại"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「nhắn tin」（发短信）",
+            "answer": "nhắn tin"
+        }
+    ]
+}

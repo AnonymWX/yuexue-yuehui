@@ -1,0 +1,193 @@
+{
+    "id": "course_vi_68",
+    "title": "第 8 课：出租车与网约车",
+    "titleVi": "Bài 8: Taxi và Xe công nghệ",
+    "level": "A1",
+    "order": 8,
+    "scenario": "travel",
+    "goals": [
+        "掌握出租车网约车的 8 个核心词汇",
+        "学会叫车与告知目的地",
+        "掌握车费与计价器表达",
+        "能独立完成一次打车对话"
+    ],
+    "words": [
+        {
+            "id": "vi_taxi",
+            "name": "taxi",
+            "trans": [
+                "出租车"
+            ],
+            "tags": [
+                "taxi",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_xe_om",
+            "name": "xe ôm",
+            "trans": [
+                "摩的"
+            ],
+            "tags": [
+                "taxi",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tai_xe",
+            "name": "tài xế",
+            "trans": [
+                "司机"
+            ],
+            "tags": [
+                "taxi",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_dat_xe",
+            "name": "đặt xe",
+            "trans": [
+                "叫车",
+                "订车"
+            ],
+            "tags": [
+                "taxi",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_cuoc_phi",
+            "name": "cước phí",
+            "trans": [
+                "车费",
+                "运费"
+            ],
+            "tags": [
+                "taxi",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_dong_ho",
+            "name": "đồng hồ",
+            "trans": [
+                "计价器",
+                "钟表"
+            ],
+            "tags": [
+                "taxi",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_diem_hen",
+            "name": "điểm hẹn",
+            "trans": [
+                "约定地点"
+            ],
+            "tags": [
+                "taxi",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ung_dung",
+            "name": "ứng dụng",
+            "trans": [
+                "应用",
+                "APP"
+            ],
+            "tags": [
+                "taxi",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_403",
+        "sentence_vi_404",
+        "sentence_vi_405",
+        "sentence_vi_406",
+        "sentence_vi_407",
+        "sentence_vi_408"
+    ],
+    "grammar": [
+        {
+            "point": "叫车：gọi / đặt + xe",
+            "explain": "gọi 是「叫」，đặt 是「订」，gọi taxi 或 đặt xe 都表示叫车。",
+            "examples": [
+                {
+                    "vi": "Tôi muốn gọi taxi.",
+                    "zh": "我想叫出租车。"
+                },
+                {
+                    "vi": "Tôi đặt xe qua ứng dụng.",
+                    "zh": "我通过应用叫车。"
+                }
+            ]
+        },
+        {
+            "point": "通过：qua + 方式",
+            "explain": "qua 意为「通过、经由」，引出方式或渠道，如 qua ứng dụng（通过应用）。",
+            "examples": [
+                {
+                    "vi": "Tôi đặt xe qua ứng dụng.",
+                    "zh": "我通过应用叫车。"
+                },
+                {
+                    "vi": "Thanh toán qua điện thoại.",
+                    "zh": "通过手机支付。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Tôi đặt xe qua ứng dụng.」是什么意思？",
+            "options": [
+                "我通过应用叫车。",
+                "我打电话叫车。",
+                "我走路去。"
+            ],
+            "answer": "我通过应用叫车。"
+        },
+        {
+            "type": "fill",
+            "question": "Cước ___ bao nhiêu?（车费多少？）",
+            "answer": "phí"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「đồng hồ」（计价器）",
+            "answer": "đồng hồ"
+        }
+    ]
+}

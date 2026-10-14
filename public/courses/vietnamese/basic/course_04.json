@@ -1,0 +1,190 @@
+{
+    "id": "course_vi_12",
+    "title": "第4课：数字与年龄",
+    "titleVi": "Bài 4: Số đếm và Tuổi",
+    "level": "A1",
+    "order": 4,
+    "scenario": "basic",
+    "goals": [
+        "能数 1 到 20",
+        "能问「你几岁？」",
+        "能说出自己的年龄",
+        "能用数词表达数量"
+    ],
+    "words": [
+        {
+            "id": "vi_tuoi",
+            "name": "tuổi",
+            "trans": [
+                "岁",
+                "年龄"
+            ],
+            "tags": [
+                "number",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_mot",
+            "name": "một",
+            "trans": [
+                "一"
+            ],
+            "tags": [
+                "number",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_hai",
+            "name": "hai",
+            "trans": [
+                "二"
+            ],
+            "tags": [
+                "number",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ba",
+            "name": "ba",
+            "trans": [
+                "三"
+            ],
+            "tags": [
+                "number",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_bon",
+            "name": "bốn",
+            "trans": [
+                "四"
+            ],
+            "tags": [
+                "number",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nam",
+            "name": "năm",
+            "trans": [
+                "五"
+            ],
+            "tags": [
+                "number",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_muoi",
+            "name": "mười",
+            "trans": [
+                "十"
+            ],
+            "tags": [
+                "number",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_hai_muoi",
+            "name": "hai mươi",
+            "trans": [
+                "二十"
+            ],
+            "tags": [
+                "number",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_067",
+        "sentence_vi_068",
+        "sentence_vi_069",
+        "sentence_vi_070",
+        "sentence_vi_071",
+        "sentence_vi_072"
+    ],
+    "grammar": [
+        {
+            "point": "数词 1～20",
+            "explain": "1-10：một, hai, ba, bốn, năm, sáu, bảy, tám, chín, mười。11-19：mười + 个位数（mười một = 11）。20：hai mươi。注意 5 在 15、25 里读成「lăm」。",
+            "examples": [
+                {
+                    "vi": "mười lăm",
+                    "zh": "十五"
+                },
+                {
+                    "vi": "hai mươi",
+                    "zh": "二十"
+                }
+            ]
+        },
+        {
+            "point": "问年龄「bao nhiêu tuổi」",
+            "explain": "「Bạn bao nhiêu tuổi?」=「你几岁？」回答「Tôi ... tuổi.」",
+            "examples": [
+                {
+                    "vi": "Bạn bao nhiêu tuổi?",
+                    "zh": "你几岁？"
+                },
+                {
+                    "vi": "Tôi hai mươi tuổi.",
+                    "zh": "我二十岁。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「bốn」的中文意思是？",
+            "options": [
+                "三",
+                "四",
+                "五"
+            ],
+            "answer": "四"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi hai mươi ___.（填「岁」）",
+            "answer": "tuổi"
+        },
+        {
+            "type": "telex_input",
+            "question": "请用越南语输入「十」",
+            "answer": "mười"
+        }
+    ]
+}

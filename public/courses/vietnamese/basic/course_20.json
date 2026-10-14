@@ -1,0 +1,190 @@
+{
+    "id": "course_vi_28",
+    "title": "第20课：入门阶段总复习",
+    "titleVi": "Bài 20: Ôn tập tổng hợp giai đoạn cơ bản",
+    "level": "A1",
+    "order": 20,
+    "scenario": "basic",
+    "goals": [
+        "综合复习第1～19课所有语法",
+        "掌握日常场景对话",
+        "能进行简单自我介绍和日常交流",
+        "为进入生活场景主题做准备"
+    ],
+    "words": [
+        {
+            "id": "vi_tong_on",
+            "name": "tổng ôn",
+            "trans": [
+                "总复习"
+            ],
+            "tags": [
+                "review",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_giao_tiep",
+            "name": "giao tiếp",
+            "trans": [
+                "交流",
+                "沟通"
+            ],
+            "tags": [
+                "review",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_hoi_thoai",
+            "name": "hội thoại",
+            "trans": [
+                "对话"
+            ],
+            "tags": [
+                "review",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_cau",
+            "name": "câu",
+            "trans": [
+                "句子"
+            ],
+            "tags": [
+                "review",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tu",
+            "name": "từ",
+            "trans": [
+                "词"
+            ],
+            "tags": [
+                "review",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ngu_phap",
+            "name": "ngữ pháp",
+            "trans": [
+                "语法"
+            ],
+            "tags": [
+                "review",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tu_vung",
+            "name": "từ vựng",
+            "trans": [
+                "词汇"
+            ],
+            "tags": [
+                "review",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_phat_am",
+            "name": "phát âm",
+            "trans": [
+                "发音"
+            ],
+            "tags": [
+                "review",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_163",
+        "sentence_vi_164",
+        "sentence_vi_165",
+        "sentence_vi_166",
+        "sentence_vi_167",
+        "sentence_vi_168"
+    ],
+    "grammar": [
+        {
+            "point": "综合句式复习",
+            "explain": "陈述句：主语 + là/có + 宾语。否定：không + 动词。疑问：có...không? 或 疑问词放句末。",
+            "examples": [
+                {
+                    "vi": "Tôi là sinh viên.",
+                    "zh": "我是学生。"
+                },
+                {
+                    "vi": "Bạn có khỏe không?",
+                    "zh": "你好吗？"
+                }
+            ]
+        },
+        {
+            "point": "日常交流核心句型",
+            "explain": "问候、介绍、问路、购物、点餐的常用句型在第1～19课都已学过，重点是综合运用。",
+            "examples": [
+                {
+                    "vi": "Xin chào, tôi tên là Nam.",
+                    "zh": "你好，我叫 Nam。"
+                },
+                {
+                    "vi": "Cho tôi một bát phở.",
+                    "zh": "请给我一碗河粉。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「từ vựng」的中文意思是？",
+            "options": [
+                "语法",
+                "词汇",
+                "发音"
+            ],
+            "answer": "词汇"
+        },
+        {
+            "type": "fill",
+            "question": "Xin chào, tôi ___ Nam.（填「叫/是」）",
+            "answer": "là"
+        },
+        {
+            "type": "telex_input",
+            "question": "请用越南语输入「对话」",
+            "answer": "hội thoại"
+        }
+    ]
+}

@@ -1,0 +1,193 @@
+{
+    "id": "course_vi_27",
+    "title": "第19课：请求与建议",
+    "titleVi": "Bài 19: Yêu cầu và Đề nghị",
+    "level": "A1",
+    "order": 19,
+    "scenario": "basic",
+    "goals": [
+        "能用「hãy」提出建议",
+        "能用「nên」表示应该",
+        "能用「đừng」表示不要",
+        "能礼貌地提出请求"
+    ],
+    "words": [
+        {
+            "id": "vi_hay",
+            "name": "hãy",
+            "trans": [
+                "请",
+                "（祈使）"
+            ],
+            "tags": [
+                "request",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nen",
+            "name": "nên",
+            "trans": [
+                "应该"
+            ],
+            "tags": [
+                "request",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_dung",
+            "name": "đừng",
+            "trans": [
+                "不要",
+                "别"
+            ],
+            "tags": [
+                "request",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_xin",
+            "name": "xin",
+            "trans": [
+                "请",
+                "求"
+            ],
+            "tags": [
+                "request",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_lam_on",
+            "name": "làm ơn",
+            "trans": [
+                "劳驾",
+                "请"
+            ],
+            "tags": [
+                "request",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_giup_do",
+            "name": "giúp đỡ",
+            "trans": [
+                "帮助"
+            ],
+            "tags": [
+                "request",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_doi",
+            "name": "đợi",
+            "trans": [
+                "等"
+            ],
+            "tags": [
+                "request",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_mo",
+            "name": "mở",
+            "trans": [
+                "打开"
+            ],
+            "tags": [
+                "request",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_157",
+        "sentence_vi_158",
+        "sentence_vi_159",
+        "sentence_vi_160",
+        "sentence_vi_161",
+        "sentence_vi_162"
+    ],
+    "grammar": [
+        {
+            "point": "「hãy + 动词」表示建议/命令",
+            "explain": "「hãy」放在动词前，表示让对方做某事，语气客气。「Hãy ngồi xuống.」=「请坐下。」",
+            "examples": [
+                {
+                    "vi": "Hãy ngồi xuống.",
+                    "zh": "请坐下。"
+                },
+                {
+                    "vi": "Hãy đợi một chút.",
+                    "zh": "请等一下。"
+                }
+            ]
+        },
+        {
+            "point": "「nên / đừng + 动词」表示应该/不要",
+            "explain": "「nên」= 应该，「đừng」= 不要。都放动词前。「Bạn nên nghỉ ngơi.」=「你应该休息。」「Đừng lo.」=「别担心。」",
+            "examples": [
+                {
+                    "vi": "Bạn nên nghỉ ngơi.",
+                    "zh": "你应该休息。"
+                },
+                {
+                    "vi": "Đừng lo.",
+                    "zh": "别担心。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「nên」的中文意思是？",
+            "options": [
+                "不要",
+                "应该",
+                "请"
+            ],
+            "answer": "应该"
+        },
+        {
+            "type": "fill",
+            "question": "___ ngồi xuống.（填「请」）",
+            "answer": "Hãy"
+        },
+        {
+            "type": "telex_input",
+            "question": "请用越南语输入「不要」",
+            "answer": "đừng"
+        }
+    ]
+}

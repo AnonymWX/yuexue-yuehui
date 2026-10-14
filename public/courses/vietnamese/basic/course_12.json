@@ -1,0 +1,192 @@
+{
+    "id": "course_vi_20",
+    "title": "第12课：家具与物品",
+    "titleVi": "Bài 12: Đồ đạc và Vật dụng",
+    "level": "A1",
+    "order": 12,
+    "scenario": "basic",
+    "goals": [
+        "能说出常见家具名称",
+        "能用量词 cái / chiếc",
+        "能用指示词 này / kia / ấy",
+        "能说「这是一张桌子」"
+    ],
+    "words": [
+        {
+            "id": "vi_cai",
+            "name": "cái",
+            "trans": [
+                "个",
+                "（量词）"
+            ],
+            "tags": [
+                "classifier",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_chiec",
+            "name": "chiếc",
+            "trans": [
+                "辆",
+                "只",
+                "（量词）"
+            ],
+            "tags": [
+                "classifier",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ban_lam_viec",
+            "name": "bàn",
+            "trans": [
+                "桌子"
+            ],
+            "tags": [
+                "furniture",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ghe",
+            "name": "ghế",
+            "trans": [
+                "椅子"
+            ],
+            "tags": [
+                "furniture",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_giuong",
+            "name": "giường",
+            "trans": [
+                "床"
+            ],
+            "tags": [
+                "furniture",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tu",
+            "name": "tủ",
+            "trans": [
+                "柜子"
+            ],
+            "tags": [
+                "furniture",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_den_dien",
+            "name": "đèn",
+            "trans": [
+                "灯"
+            ],
+            "tags": [
+                "furniture",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_cua_so",
+            "name": "cửa sổ",
+            "trans": [
+                "窗户"
+            ],
+            "tags": [
+                "furniture",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_115",
+        "sentence_vi_116",
+        "sentence_vi_117",
+        "sentence_vi_118",
+        "sentence_vi_119",
+        "sentence_vi_120"
+    ],
+    "grammar": [
+        {
+            "point": "量词「cái」和「chiếc」",
+            "explain": "「cái」用于大多数无生命物品（cái bàn, cái ghế）。「chiếc」多用于车辆、成对物之一（chiếc xe, chiếc đèn）。",
+            "examples": [
+                {
+                    "vi": "một cái bàn",
+                    "zh": "一张桌子"
+                },
+                {
+                    "vi": "một chiếc xe",
+                    "zh": "一辆车"
+                }
+            ]
+        },
+        {
+            "point": "指示词「này / kia / ấy」",
+            "explain": "「này」= 这（近），「kia」= 那（远），「ấy」= 那（中距离）。放在名词后。「Cái bàn này」= 这张桌子。",
+            "examples": [
+                {
+                    "vi": "Cái bàn này đẹp.",
+                    "zh": "这张桌子好看。"
+                },
+                {
+                    "vi": "Cái ghế kia cũ rồi.",
+                    "zh": "那把椅子旧了。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「giường」的中文意思是？",
+            "options": [
+                "桌子",
+                "椅子",
+                "床"
+            ],
+            "answer": "床"
+        },
+        {
+            "type": "fill",
+            "question": "Đây là một ___ bàn.（填量词）",
+            "answer": "cái"
+        },
+        {
+            "type": "telex_input",
+            "question": "请用越南语输入「椅子」",
+            "answer": "ghế"
+        }
+    ]
+}

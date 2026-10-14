@@ -1,0 +1,191 @@
+{
+    "id": "course_vi_67",
+    "title": "第 7 课：租车与自驾",
+    "titleVi": "Bài 7: Thuê xe và Tự lái",
+    "level": "A1",
+    "order": 7,
+    "scenario": "travel",
+    "goals": [
+        "掌握租车自驾的 8 个核心词汇",
+        "学会租车与询问价格",
+        "掌握加油与停车表达",
+        "能描述自驾注意事项"
+    ],
+    "words": [
+        {
+            "id": "vi_thue_xe",
+            "name": "thuê xe",
+            "trans": [
+                "租车"
+            ],
+            "tags": [
+                "drive",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_lai_xe",
+            "name": "lái xe",
+            "trans": [
+                "开车",
+                "驾驶"
+            ],
+            "tags": [
+                "drive",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_bang_lai",
+            "name": "bằng lái",
+            "trans": [
+                "驾照"
+            ],
+            "tags": [
+                "drive",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_xang",
+            "name": "xăng",
+            "trans": [
+                "汽油"
+            ],
+            "tags": [
+                "drive",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_do_xang",
+            "name": "đổ xăng",
+            "trans": [
+                "加油"
+            ],
+            "tags": [
+                "drive",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_bai_do",
+            "name": "bãi đỗ",
+            "trans": [
+                "停车场"
+            ],
+            "tags": [
+                "drive",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_toc_do",
+            "name": "tốc độ",
+            "trans": [
+                "速度"
+            ],
+            "tags": [
+                "drive",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_bien_bao",
+            "name": "biển báo",
+            "trans": [
+                "路标",
+                "标牌"
+            ],
+            "tags": [
+                "drive",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_397",
+        "sentence_vi_398",
+        "sentence_vi_399",
+        "sentence_vi_400",
+        "sentence_vi_401",
+        "sentence_vi_402"
+    ],
+    "grammar": [
+        {
+            "point": "开车：lái xe / 骑：đi xe",
+            "explain": "lái 用于驾驶机动车（汽车），đi 用于乘坐或骑行两轮车，注意区分。",
+            "examples": [
+                {
+                    "vi": "Tôi lái xe rất cẩn thận.",
+                    "zh": "我开车很小心。"
+                },
+                {
+                    "vi": "Anh ấy đi xe máy.",
+                    "zh": "他骑摩托车。"
+                }
+            ]
+        },
+        {
+            "point": "注意：chú ý + 名词 / 动词",
+            "explain": "chú ý 意为「注意」，后接名词或动词短语，用于提醒。",
+            "examples": [
+                {
+                    "vi": "Chú ý biển báo.",
+                    "zh": "注意路标。"
+                },
+                {
+                    "vi": "Chú ý tốc độ.",
+                    "zh": "注意速度。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Chú ý biển báo.」是什么意思？",
+            "options": [
+                "注意路标。",
+                "注意速度。",
+                "注意行人。"
+            ],
+            "answer": "注意路标。"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi cần ___ xăng.（我需要加油。）",
+            "answer": "đổ"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「bằng lái」（驾照）",
+            "answer": "bằng lái"
+        }
+    ]
+}

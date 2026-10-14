@@ -1,0 +1,190 @@
+{
+    "id": "course_vi_77",
+    "title": "第 17 课：城市观光",
+    "titleVi": "Bài 17: Tham quan thành phố",
+    "level": "A1",
+    "order": 17,
+    "scenario": "travel",
+    "goals": [
+        "掌握城市观光的 8 个核心词汇",
+        "学会描述城市与建筑",
+        "掌握街道与广场表达",
+        "能谈论城市印象"
+    ],
+    "words": [
+        {
+            "id": "vi_thanh_pho",
+            "name": "thành phố",
+            "trans": [
+                "城市"
+            ],
+            "tags": [
+                "city",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thu_do",
+            "name": "thủ đô",
+            "trans": [
+                "首都"
+            ],
+            "tags": [
+                "city",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_trung_tam",
+            "name": "trung tâm",
+            "trans": [
+                "中心"
+            ],
+            "tags": [
+                "city",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nha_tho",
+            "name": "nhà thờ",
+            "trans": [
+                "教堂"
+            ],
+            "tags": [
+                "city",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_quang_truong",
+            "name": "quảng trường",
+            "trans": [
+                "广场"
+            ],
+            "tags": [
+                "city",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_toa_nha",
+            "name": "tòa nhà",
+            "trans": [
+                "大楼",
+                "建筑"
+            ],
+            "tags": [
+                "city",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_duong_pho",
+            "name": "đường phố",
+            "trans": [
+                "街道"
+            ],
+            "tags": [
+                "city",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_giao_lo",
+            "name": "giao lộ",
+            "trans": [
+                "交叉路口"
+            ],
+            "tags": [
+                "city",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_457",
+        "sentence_vi_458",
+        "sentence_vi_459",
+        "sentence_vi_460",
+        "sentence_vi_461",
+        "sentence_vi_462"
+    ],
+    "grammar": [
+        {
+            "point": "位于：nằm ở + 地点",
+            "explain": "nằm 意为「位于、躺」，ở 引出地点，合起来表示位于某处。",
+            "examples": [
+                {
+                    "vi": "Nhà thờ nằm ở trung tâm.",
+                    "zh": "教堂位于市中心。"
+                },
+                {
+                    "vi": "Thành phố nằm ở phía nam.",
+                    "zh": "城市位于南方。"
+                }
+            ]
+        },
+        {
+            "point": "是：là",
+            "explain": "là 是系动词「是」，用于说明身份或属性。",
+            "examples": [
+                {
+                    "vi": "Hà Nội là thủ đô.",
+                    "zh": "河内是首都。"
+                },
+                {
+                    "vi": "Đây là tòa nhà cao nhất.",
+                    "zh": "这是最高的大楼。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「Hà Nội là thủ đô.」是什么意思？",
+            "options": [
+                "河内是首都。",
+                "河内是大城市。",
+                "河内是古都。"
+            ],
+            "answer": "河内是首都。"
+        },
+        {
+            "type": "fill",
+            "question": "Nhà thờ nằm ở ___ tâm.（教堂位于市中心。）",
+            "answer": "trung"
+        },
+        {
+            "type": "telex_input",
+            "question": "用 Telex 输入「thành phố」（城市）",
+            "answer": "thành phố"
+        }
+    ]
+}
