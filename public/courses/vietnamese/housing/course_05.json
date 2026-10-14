@@ -1,0 +1,190 @@
+{
+    "id": "course_vi_39",
+    "title": "第 5 课：家具与摆设",
+    "titleVi": "Bài 5: Đồ nội thất và bài trí",
+    "level": "A1",
+    "order": 5,
+    "scenario": "housing",
+    "goals": [
+        "掌握家居摆设类词汇",
+        "学会用「treo / đặt / để」表摆放",
+        "能描述房间的布置",
+        "能说出家具的位置"
+    ],
+    "words": [
+        {
+            "id": "vi_ban_ghe",
+            "name": "bàn ghế",
+            "trans": [
+                "桌椅"
+            ],
+            "tags": [
+                "housing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ke",
+            "name": "kệ",
+            "trans": [
+                "架子",
+                "搁板"
+            ],
+            "tags": [
+                "housing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tranh",
+            "name": "tranh",
+            "trans": [
+                "画"
+            ],
+            "tags": [
+                "housing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_den",
+            "name": "đèn",
+            "trans": [
+                "灯"
+            ],
+            "tags": [
+                "housing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_rem",
+            "name": "rèm",
+            "trans": [
+                "窗帘"
+            ],
+            "tags": [
+                "housing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tham_trai",
+            "name": "thảm",
+            "trans": [
+                "地毯"
+            ],
+            "tags": [
+                "housing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_guong",
+            "name": "gương",
+            "trans": [
+                "镜子"
+            ],
+            "tags": [
+                "housing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ke_sach",
+            "name": "kệ sách",
+            "trans": [
+                "书架"
+            ],
+            "tags": [
+                "housing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_229",
+        "sentence_vi_230",
+        "sentence_vi_231",
+        "sentence_vi_232",
+        "sentence_vi_233",
+        "sentence_vi_234"
+    ],
+    "grammar": [
+        {
+            "point": "「treo + 名词 + ở/trên + 位置」表挂",
+            "explain": "「treo」意为「挂」，如「treo tranh trên tường」（在墙上挂画）。",
+            "examples": [
+                {
+                    "vi": "Tranh treo trên tường.",
+                    "zh": "画挂在墙上。"
+                },
+                {
+                    "vi": "Rèm treo ở cửa sổ.",
+                    "zh": "窗帘挂在窗户上。"
+                }
+            ]
+        },
+        {
+            "point": "「đặt / để + 名词 + ở + 位置」表放置",
+            "explain": "「đặt」和「để」都可表示「放置」，前者更强调有意识的摆放，后者更口语。",
+            "examples": [
+                {
+                    "vi": "Tôi đặt đèn trên bàn.",
+                    "zh": "我把灯放在桌上。"
+                },
+                {
+                    "vi": "Tôi để sách ở kệ sách.",
+                    "zh": "我把书放在书架上。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「地毯」用越南语怎么说？",
+            "options": [
+                "thảm",
+                "rèm",
+                "gương"
+            ],
+            "answer": "thảm"
+        },
+        {
+            "type": "fill",
+            "question": "Tranh treo ___ tường.",
+            "answer": "trên"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「书架」的越南语",
+            "answer": "kệ sách"
+        }
+    ]
+}

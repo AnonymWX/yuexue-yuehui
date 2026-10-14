@@ -1,0 +1,63 @@
+{
+    "id": "housing",
+    "title": "房屋与家庭",
+    "titleVi": "Ngôi nhà và Gia đình",
+    "courses": [
+        {
+            "id": "course_vi_35",
+            "file": "course_01.json",
+            "title": "第 1 课：家庭成员称谓",
+            "titleVi": "Bài 1: Cách gọi thành viên gia đình",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_36",
+            "file": "course_02.json",
+            "title": "第 2 课：家庭人数与介绍",
+            "titleVi": "Bài 2: Số người trong gia đình và giới thiệu",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_37",
+            "file": "course_03.json",
+            "title": "第 3 课：房屋类型",
+            "titleVi": "Bài 3: Các loại nhà ở",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_38",
+            "file": "course_04.json",
+            "title": "第 4 课：房间名称",
+            "titleVi": "Bài 4: Tên các phòng",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_39",
+            "file": "course_05.json",
+            "title": "第 5 课：家具与摆设",
+            "titleVi": "Bài 5: Đồ nội thất và bài trí",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_40",
+            "file": "course_06.json",
+            "title": "第 6 课：租房",
+            "titleVi": "Bài 6: Thuê nhà",
+            "level": "A2"
+        },
+        {
+            "id": "course_vi_41",
+            "file": "course_07.json",
+            "title": "第 7 课：描述自己的家",
+            "titleVi": "Bài 7: Miêu tả ngôi nhà của mình",
+            "level": "A2"
+        },
+        {
+            "id": "course_vi_42",
+            "file": "course_08.json",
+            "title": "第 8 课：家务与家庭活动",
+            "titleVi": "Bài 8: Việc nhà và hoạt động gia đình",
+            "level": "A2"
+        }
+    ]
+}

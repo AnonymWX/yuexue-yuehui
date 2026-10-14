@@ -1,0 +1,194 @@
+{
+    "id": "course_vi_77",
+    "title": "第 8 课：投诉与退换",
+    "titleVi": "Bài 8: Khiếu nại và đổi trả",
+    "level": "A2",
+    "order": 8,
+    "scenario": "dining",
+    "goals": [
+        "掌握投诉相关表达",
+        "学会礼貌提出问题",
+        "掌握退换说法",
+        "能处理用餐纠纷"
+    ],
+    "words": [
+        {
+            "id": "vi_khieu_nai",
+            "name": "khiếu nại",
+            "trans": [
+                "投诉",
+                "申诉"
+            ],
+            "tags": [
+                "dining",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_phan_nan",
+            "name": "phàn nàn",
+            "trans": [
+                "抱怨",
+                "埋怨"
+            ],
+            "tags": [
+                "dining",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_doi_tra",
+            "name": "đổi trả",
+            "trans": [
+                "退换",
+                "换货"
+            ],
+            "tags": [
+                "dining",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_loi",
+            "name": "lỗi",
+            "trans": [
+                "错误",
+                "过失"
+            ],
+            "tags": [
+                "dining",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_sai_mon",
+            "name": "sai món",
+            "trans": [
+                "上错菜"
+            ],
+            "tags": [
+                "dining",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_nguoi_phuc_vu",
+            "name": "người phục vụ",
+            "trans": [
+                "服务员"
+            ],
+            "tags": [
+                "dining",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_quan_ly_dining",
+            "name": "quản lý",
+            "trans": [
+                "经理",
+                "管理者"
+            ],
+            "tags": [
+                "dining",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_xin_loi_dining",
+            "name": "xin lỗi",
+            "trans": [
+                "对不起"
+            ],
+            "tags": [
+                "dining",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_457",
+        "sentence_vi_458",
+        "sentence_vi_459",
+        "sentence_vi_460",
+        "sentence_vi_461",
+        "sentence_vi_462"
+    ],
+    "grammar": [
+        {
+            "point": "礼貌投诉「Xin lỗi, món này bị...」",
+            "explain": "礼貌投诉用「Xin lỗi, món này bị...」（不好意思，这道菜……），后接问题，如「bị sai」（上错了）、「bị nguội」（凉了）。",
+            "examples": [
+                {
+                    "vi": "Xin lỗi, món này bị sai.",
+                    "zh": "不好意思，这道菜上错了。"
+                },
+                {
+                    "vi": "Xin lỗi, món này bị nguội.",
+                    "zh": "不好意思，这道菜凉了。"
+                }
+            ]
+        },
+        {
+            "point": "「đổi + 名词」表换",
+            "explain": "「đổi」意为「换」，后接名词，如「đổi món」（换菜）、「đổi bàn」（换桌）。",
+            "examples": [
+                {
+                    "vi": "Cho tôi đổi món khác.",
+                    "zh": "请给我换一道菜。"
+                },
+                {
+                    "vi": "Tôi muốn đổi bàn.",
+                    "zh": "我想换桌。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「服务员」用越南语怎么说？",
+            "options": [
+                "người phục vụ",
+                "quản lý",
+                "khách"
+            ],
+            "answer": "người phục vụ"
+        },
+        {
+            "type": "fill",
+            "question": "Cho tôi đổi ___ khác.",
+            "answer": "món"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「投诉」的越南语",
+            "answer": "khiếu nại"
+        }
+    ]
+}

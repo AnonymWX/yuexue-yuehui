@@ -1,0 +1,49 @@
+{
+    "id": "phone",
+    "title": "打电话",
+    "titleVi": "Gọi điện thoại",
+    "courses": [
+        {
+            "id": "course_vi_91",
+            "file": "course_01.json",
+            "title": "第 1 课：电话基本礼仪",
+            "titleVi": "Bài 1: Phép lịch sự khi gọi điện",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_92",
+            "file": "course_02.json",
+            "title": "第 2 课：打电话",
+            "titleVi": "Bài 2: Gọi điện",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_93",
+            "file": "course_03.json",
+            "title": "第 3 课：接电话",
+            "titleVi": "Bài 3: Nghe điện thoại",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_94",
+            "file": "course_04.json",
+            "title": "第 4 课：留言",
+            "titleVi": "Bài 4: Để lại lời nhắn",
+            "level": "A2"
+        },
+        {
+            "id": "course_vi_95",
+            "file": "course_05.json",
+            "title": "第 5 课：打错电话",
+            "titleVi": "Bài 5: Gọi nhầm số",
+            "level": "A2"
+        },
+        {
+            "id": "course_vi_96",
+            "file": "course_06.json",
+            "title": "第 6 课：紧急电话",
+            "titleVi": "Bài 6: Gọi điện khẩn cấp",
+            "level": "A2"
+        }
+    ]
+}

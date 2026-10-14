@@ -1,0 +1,191 @@
+{
+    "id": "course_vi_08",
+    "title": "第 3 课：工作场所",
+    "titleVi": "Bài 3: Nơi làm việc",
+    "level": "A1",
+    "order": 3,
+    "scenario": "career",
+    "goals": [
+        "掌握常见工作场所名称",
+        "学会说「在……工作」",
+        "掌握「ở」表地点的用法",
+        "能描述某人在哪里工作"
+    ],
+    "words": [
+        {
+            "id": "vi_benh_vien",
+            "name": "bệnh viện",
+            "trans": [
+                "医院"
+            ],
+            "tags": [
+                "career",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_truong_hoc",
+            "name": "trường học",
+            "trans": [
+                "学校"
+            ],
+            "tags": [
+                "career",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nha_may",
+            "name": "nhà máy",
+            "trans": [
+                "工厂"
+            ],
+            "tags": [
+                "career",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ngan_hang",
+            "name": "ngân hàng",
+            "trans": [
+                "银行"
+            ],
+            "tags": [
+                "career",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_cua_hang",
+            "name": "cửa hàng",
+            "trans": [
+                "商店"
+            ],
+            "tags": [
+                "career",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_van_phong",
+            "name": "văn phòng",
+            "trans": [
+                "办公室"
+            ],
+            "tags": [
+                "career",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_khach_san",
+            "name": "khách sạn",
+            "trans": [
+                "酒店",
+                "宾馆"
+            ],
+            "tags": [
+                "career",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nha_hang",
+            "name": "nhà hàng",
+            "trans": [
+                "餐厅",
+                "饭店"
+            ],
+            "tags": [
+                "career",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_043",
+        "sentence_vi_044",
+        "sentence_vi_045",
+        "sentence_vi_046",
+        "sentence_vi_047",
+        "sentence_vi_048"
+    ],
+    "grammar": [
+        {
+            "point": "「làm việc ở + 地点」",
+            "explain": "表示在某处工作用「làm việc ở + 地点」。口语中可省略「việc」，直接用「làm ở + 地点」。",
+            "examples": [
+                {
+                    "vi": "Tôi làm việc ở bệnh viện.",
+                    "zh": "我在医院工作。"
+                },
+                {
+                    "vi": "Anh ấy làm ở ngân hàng.",
+                    "zh": "他在银行工作。"
+                }
+            ]
+        },
+        {
+            "point": "「ở」表地点",
+            "explain": "「ở」相当于汉语的「在」，可以表示存在、居住、工作等。",
+            "examples": [
+                {
+                    "vi": "Chị ấy ở Hà Nội.",
+                    "zh": "她在河内。"
+                },
+                {
+                    "vi": "Tôi ở văn phòng.",
+                    "zh": "我在办公室。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「我在医院工作」的正确说法是？",
+            "options": [
+                "Tôi làm việc ở bệnh viện",
+                "Tôi ở làm việc bệnh viện",
+                "Tôi bệnh viện làm việc"
+            ],
+            "answer": "Tôi làm việc ở bệnh viện"
+        },
+        {
+            "type": "fill",
+            "question": "Anh ấy làm ___ ngân hàng.",
+            "answer": "ở"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「办公室」的越南语",
+            "answer": "văn phòng"
+        }
+    ]
+}

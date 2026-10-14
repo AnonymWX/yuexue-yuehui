@@ -1,0 +1,190 @@
+{
+    "id": "course_vi_06",
+    "title": "第 1 课：常见职业名称",
+    "titleVi": "Bài 1: Các nghề nghiệp phổ biến",
+    "level": "A1",
+    "order": 1,
+    "scenario": "career",
+    "goals": [
+        "掌握常见职业的越南语名称",
+        "能听懂并说出 8 种基础职业",
+        "了解越南语职业名词的构词特点",
+        "能用「là」介绍职业"
+    ],
+    "words": [
+        {
+            "id": "vi_bac_si",
+            "name": "bác sĩ",
+            "trans": [
+                "医生"
+            ],
+            "tags": [
+                "career",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_giao_vien",
+            "name": "giáo viên",
+            "trans": [
+                "教师",
+                "老师"
+            ],
+            "tags": [
+                "career",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ky_su",
+            "name": "kỹ sư",
+            "trans": [
+                "工程师"
+            ],
+            "tags": [
+                "career",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_y_ta",
+            "name": "y tá",
+            "trans": [
+                "护士"
+            ],
+            "tags": [
+                "career",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_luat_su",
+            "name": "luật sư",
+            "trans": [
+                "律师"
+            ],
+            "tags": [
+                "career",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ca_si",
+            "name": "ca sĩ",
+            "trans": [
+                "歌手"
+            ],
+            "tags": [
+                "career",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_cong_nhan",
+            "name": "công nhân",
+            "trans": [
+                "工人"
+            ],
+            "tags": [
+                "career",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nong_dan",
+            "name": "nông dân",
+            "trans": [
+                "农民"
+            ],
+            "tags": [
+                "career",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_031",
+        "sentence_vi_032",
+        "sentence_vi_033",
+        "sentence_vi_034",
+        "sentence_vi_035",
+        "sentence_vi_036"
+    ],
+    "grammar": [
+        {
+            "point": "职业名词作表语",
+            "explain": "越南语中介绍职业用「主语 + là + 职业名词」，不需要冠词。",
+            "examples": [
+                {
+                    "vi": "Tôi là bác sĩ.",
+                    "zh": "我是医生。"
+                },
+                {
+                    "vi": "Anh ấy là kỹ sư.",
+                    "zh": "他是工程师。"
+                }
+            ]
+        },
+        {
+            "point": "职业名词的性别区分",
+            "explain": "部分职业可通过前缀区分性别，如「nam bác sĩ」（男医生）、「nữ bác sĩ」（女医生），但日常多不区分。",
+            "examples": [
+                {
+                    "vi": "Cô ấy là nữ bác sĩ.",
+                    "zh": "她是女医生。"
+                },
+                {
+                    "vi": "Anh ấy là nam y tá.",
+                    "zh": "他是男护士。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「医生」用越南语怎么说？",
+            "options": [
+                "bác sĩ",
+                "giáo viên",
+                "kỹ sư"
+            ],
+            "answer": "bác sĩ"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi là ___ (老师).",
+            "answer": "giáo viên"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「工程师」的越南语",
+            "answer": "kỹ sư"
+        }
+    ]
+}

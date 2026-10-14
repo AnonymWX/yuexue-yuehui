@@ -1,0 +1,190 @@
+{
+    "id": "course_vi_40",
+    "title": "第 6 课：租房",
+    "titleVi": "Bài 6: Thuê nhà",
+    "level": "A2",
+    "order": 6,
+    "scenario": "housing",
+    "goals": [
+        "掌握租房场景核心词汇",
+        "学会问租金与押金",
+        "能看懂租房信息",
+        "能进行看房对话"
+    ],
+    "words": [
+        {
+            "id": "vi_thue",
+            "name": "thuê",
+            "trans": [
+                "租"
+            ],
+            "tags": [
+                "housing",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_cho_thue",
+            "name": "cho thuê",
+            "trans": [
+                "出租"
+            ],
+            "tags": [
+                "housing",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_tien_thue",
+            "name": "tiền thuê",
+            "trans": [
+                "租金"
+            ],
+            "tags": [
+                "housing",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_hop_dong_thue",
+            "name": "hợp đồng thuê",
+            "trans": [
+                "租赁合同"
+            ],
+            "tags": [
+                "housing",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_dat_coc",
+            "name": "đặt cọc",
+            "trans": [
+                "押金",
+                "交定金"
+            ],
+            "tags": [
+                "housing",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_dien_tich",
+            "name": "diện tích",
+            "trans": [
+                "面积"
+            ],
+            "tags": [
+                "housing",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_tien_dien",
+            "name": "tiền điện",
+            "trans": [
+                "电费"
+            ],
+            "tags": [
+                "housing",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_tien_nuoc",
+            "name": "tiền nước",
+            "trans": [
+                "水费"
+            ],
+            "tags": [
+                "housing",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_235",
+        "sentence_vi_236",
+        "sentence_vi_237",
+        "sentence_vi_238",
+        "sentence_vi_239",
+        "sentence_vi_240"
+    ],
+    "grammar": [
+        {
+            "point": "问租金「tiền thuê bao nhiêu?」",
+            "explain": "问租金用「Tiền thuê bao nhiêu?」或「Giá thuê là bao nhiêu?」。",
+            "examples": [
+                {
+                    "vi": "Tiền thuê bao nhiêu một tháng?",
+                    "zh": "每月租金多少？"
+                },
+                {
+                    "vi": "Giá thuê là bao nhiêu?",
+                    "zh": "租金是多少？"
+                }
+            ]
+        },
+        {
+            "point": "「bao gồm + 名词」表包含",
+            "explain": "表示租金包含某些费用用「bao gồm + 名词」，如「bao gồm tiền điện」（包含电费）。",
+            "examples": [
+                {
+                    "vi": "Tiền thuê bao gồm tiền điện không?",
+                    "zh": "租金包含电费吗？"
+                },
+                {
+                    "vi": "Giá này bao gồm tiền nước.",
+                    "zh": "这个价格包含水费。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「押金」用越南语怎么说？",
+            "options": [
+                "đặt cọc",
+                "tiền thuê",
+                "tiền điện"
+            ],
+            "answer": "đặt cọc"
+        },
+        {
+            "type": "fill",
+            "question": "Tiền ___ bao nhiêu một tháng?",
+            "answer": "thuê"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「出租」的越南语",
+            "answer": "cho thuê"
+        }
+    ]
+}

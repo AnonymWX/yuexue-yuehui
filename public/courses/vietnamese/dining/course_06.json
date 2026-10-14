@@ -1,0 +1,192 @@
+{
+    "id": "course_vi_75",
+    "title": "第 6 课：用餐礼仪",
+    "titleVi": "Bài 6: Phép lịch sự khi ăn uống",
+    "level": "A2",
+    "order": 6,
+    "scenario": "dining",
+    "goals": [
+        "掌握越南用餐礼仪表达",
+        "学会邀客与回礼",
+        "掌握「mời」的用餐用法",
+        "能进行餐桌礼貌对话"
+    ],
+    "words": [
+        {
+            "id": "vi_moi_dining",
+            "name": "mời",
+            "trans": [
+                "请（吃饭）"
+            ],
+            "tags": [
+                "dining",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_lich_su",
+            "name": "lịch sự",
+            "trans": [
+                "礼貌",
+                "客气"
+            ],
+            "tags": [
+                "dining",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_phep",
+            "name": "phép",
+            "trans": [
+                "礼节",
+                "规矩"
+            ],
+            "tags": [
+                "dining",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_chan",
+            "name": "chén",
+            "trans": [
+                "碗（小）"
+            ],
+            "tags": [
+                "dining",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_bat",
+            "name": "bát",
+            "trans": [
+                "碗（大）"
+            ],
+            "tags": [
+                "dining",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_dua",
+            "name": "đũa",
+            "trans": [
+                "筷子"
+            ],
+            "tags": [
+                "dining",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_thia",
+            "name": "thìa",
+            "trans": [
+                "勺子"
+            ],
+            "tags": [
+                "dining",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_khan",
+            "name": "khăn",
+            "trans": [
+                "纸巾",
+                "手帕"
+            ],
+            "tags": [
+                "dining",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_445",
+        "sentence_vi_446",
+        "sentence_vi_447",
+        "sentence_vi_448",
+        "sentence_vi_449",
+        "sentence_vi_450"
+    ],
+    "grammar": [
+        {
+            "point": "「Mời + 人 + 动词」表请客",
+            "explain": "用餐时常用「Mời + 人 + 动词」邀请对方，如「Mời anh ăn cơm」（请您吃饭）。",
+            "examples": [
+                {
+                    "vi": "Mời anh ăn cơm.",
+                    "zh": "请您吃饭。"
+                },
+                {
+                    "vi": "Mời chị uống trà.",
+                    "zh": "请您喝茶。"
+                }
+            ]
+        },
+        {
+            "point": "「ăn cơm / uống nước」搭配",
+            "explain": "「ăn」用于固体食物（吃饭、吃菜），「uống」用于液体（喝水、喝茶）。",
+            "examples": [
+                {
+                    "vi": "Mời anh ăn cơm.",
+                    "zh": "请您吃饭。"
+                },
+                {
+                    "vi": "Mời chị uống nước.",
+                    "zh": "请您喝水。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「筷子」用越南语怎么说？",
+            "options": [
+                "đũa",
+                "thìa",
+                "bát"
+            ],
+            "answer": "đũa"
+        },
+        {
+            "type": "fill",
+            "question": "Mời anh ___ cơm.",
+            "answer": "ăn"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「礼貌」的越南语",
+            "answer": "lịch sự"
+        }
+    ]
+}

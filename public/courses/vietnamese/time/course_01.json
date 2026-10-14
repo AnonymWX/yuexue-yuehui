@@ -1,0 +1,191 @@
+{
+    "id": "course_vi_43",
+    "title": "第 1 课：问时间",
+    "titleVi": "Bài 1: Hỏi giờ",
+    "level": "A1",
+    "order": 1,
+    "scenario": "time",
+    "goals": [
+        "学会问「现在几点？」",
+        "掌握「bây giờ / mấy giờ」用法",
+        "掌握今明昨的时间表达",
+        "能进行简单时间问答"
+    ],
+    "words": [
+        {
+            "id": "vi_bay_gio",
+            "name": "bây giờ",
+            "trans": [
+                "现在"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_may_gio",
+            "name": "mấy giờ",
+            "trans": [
+                "几点"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_khi_nao",
+            "name": "khi nào",
+            "trans": [
+                "什么时候"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_gio",
+            "name": "giờ",
+            "trans": [
+                "小时",
+                "点"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_luc",
+            "name": "lúc",
+            "trans": [
+                "时候",
+                "当……时"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_hom_nay",
+            "name": "hôm nay",
+            "trans": [
+                "今天"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_hom_qua",
+            "name": "hôm qua",
+            "trans": [
+                "昨天"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ngay_mai",
+            "name": "ngày mai",
+            "trans": [
+                "明天"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_253",
+        "sentence_vi_254",
+        "sentence_vi_255",
+        "sentence_vi_256",
+        "sentence_vi_257",
+        "sentence_vi_258"
+    ],
+    "grammar": [
+        {
+            "point": "问时间「Bây giờ là mấy giờ?」",
+            "explain": "最常用的问时间句型是「Bây giờ là mấy giờ?」（现在几点？），口语可省略「là」说成「Bây giờ mấy giờ?」。",
+            "examples": [
+                {
+                    "vi": "Bây giờ là mấy giờ?",
+                    "zh": "现在几点？"
+                },
+                {
+                    "vi": "Bây giờ mấy giờ rồi?",
+                    "zh": "现在几点了？"
+                }
+            ]
+        },
+        {
+            "point": "「khi nào」问什么时候",
+            "explain": "问某事发生的时间用「khi nào?」，可放在句末。",
+            "examples": [
+                {
+                    "vi": "Anh đi khi nào?",
+                    "zh": "你什么时候走？"
+                },
+                {
+                    "vi": "Bạn đến khi nào?",
+                    "zh": "你什么时候到？"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「现在几点？」的正确说法是？",
+            "options": [
+                "Bây giờ là mấy giờ?",
+                "Mấy giờ bây giờ là?",
+                "Là bây giờ mấy giờ?"
+            ],
+            "answer": "Bây giờ là mấy giờ?"
+        },
+        {
+            "type": "fill",
+            "question": "___ giờ là mấy giờ?",
+            "answer": "Bây"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「什么时候」的越南语",
+            "answer": "khi nào"
+        }
+    ]
+}

@@ -1,0 +1,192 @@
+{
+    "id": "course_vi_57",
+    "title": "第 4 课：生日表达",
+    "titleVi": "Bài 4: Diễn đạt về sinh nhật",
+    "level": "A1",
+    "order": 4,
+    "scenario": "birthday",
+    "goals": [
+        "掌握生日相关词汇",
+        "学会说「我的生日是……」",
+        "掌握生日派对相关用语",
+        "能描述生日庆祝方式"
+    ],
+    "words": [
+        {
+            "id": "vi_sinh_nhat",
+            "name": "sinh nhật",
+            "trans": [
+                "生日"
+            ],
+            "tags": [
+                "birthday",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tiec",
+            "name": "tiệc",
+            "trans": [
+                "宴会",
+                "派对"
+            ],
+            "tags": [
+                "birthday",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_banh",
+            "name": "bánh",
+            "trans": [
+                "蛋糕",
+                "饼"
+            ],
+            "tags": [
+                "birthday",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_banh_sinh_nhat",
+            "name": "bánh sinh nhật",
+            "trans": [
+                "生日蛋糕"
+            ],
+            "tags": [
+                "birthday",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nen",
+            "name": "nến",
+            "trans": [
+                "蜡烛"
+            ],
+            "tags": [
+                "birthday",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_qua",
+            "name": "quà",
+            "trans": [
+                "礼物"
+            ],
+            "tags": [
+                "birthday",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thiep",
+            "name": "thiệp",
+            "trans": [
+                "贺卡"
+            ],
+            "tags": [
+                "birthday",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_to_chuc",
+            "name": "tổ chức",
+            "trans": [
+                "组织",
+                "举办"
+            ],
+            "tags": [
+                "birthday",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_337",
+        "sentence_vi_338",
+        "sentence_vi_339",
+        "sentence_vi_340",
+        "sentence_vi_341",
+        "sentence_vi_342"
+    ],
+    "grammar": [
+        {
+            "point": "「sinh nhật của tôi là ngày...」",
+            "explain": "表达「我的生日是……」用「Sinh nhật của tôi là ngày + 数字 + tháng + 数字」。",
+            "examples": [
+                {
+                    "vi": "Sinh nhật của tôi là ngày 15 tháng 8.",
+                    "zh": "我的生日是 8 月 15 日。"
+                },
+                {
+                    "vi": "Sinh nhật của anh ấy là ngày 1 tháng 1.",
+                    "zh": "他的生日是 1 月 1 日。"
+                }
+            ]
+        },
+        {
+            "point": "「tổ chức + 活动」表举办",
+            "explain": "「tổ chức」意为「组织、举办」，后接活动名词，如「tổ chức tiệc sinh nhật」（举办生日派对）。",
+            "examples": [
+                {
+                    "vi": "Tôi tổ chức tiệc sinh nhật.",
+                    "zh": "我举办生日派对。"
+                },
+                {
+                    "vi": "Chúng tôi tổ chức tiệc ở nhà.",
+                    "zh": "我们在家举办派对。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「生日蛋糕」用越南语怎么说？",
+            "options": [
+                "bánh sinh nhật",
+                "bánh mì",
+                "bánh ngọt"
+            ],
+            "answer": "bánh sinh nhật"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi tổ chức ___ sinh nhật.",
+            "answer": "tiệc"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「礼物」的越南语",
+            "answer": "quà"
+        }
+    ]
+}

@@ -1,0 +1,189 @@
+{
+    "id": "course_vi_36",
+    "title": "第 2 课：家庭人数与介绍",
+    "titleVi": "Bài 2: Số người trong gia đình và giới thiệu",
+    "level": "A1",
+    "order": 2,
+    "scenario": "housing",
+    "goals": [
+        "学会问家庭人数",
+        "掌握祖辈、夫妻称谓",
+        "能用「mấy người」提问",
+        "能完整介绍自己的家庭"
+    ],
+    "words": [
+        {
+            "id": "vi_may_nguoi",
+            "name": "mấy người",
+            "trans": [
+                "几个人"
+            ],
+            "tags": [
+                "housing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ong_noi",
+            "name": "ông nội",
+            "trans": [
+                "爷爷"
+            ],
+            "tags": [
+                "housing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ba_noi",
+            "name": "bà nội",
+            "trans": [
+                "奶奶"
+            ],
+            "tags": [
+                "housing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ong_ngoai",
+            "name": "ông ngoại",
+            "trans": [
+                "外公"
+            ],
+            "tags": [
+                "housing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ba_ngoai",
+            "name": "bà ngoại",
+            "trans": [
+                "外婆"
+            ],
+            "tags": [
+                "housing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_vo",
+            "name": "vợ",
+            "trans": [
+                "妻子"
+            ],
+            "tags": [
+                "housing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_chong",
+            "name": "chồng",
+            "trans": [
+                "丈夫"
+            ],
+            "tags": [
+                "housing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_vo_chong",
+            "name": "vợ chồng",
+            "trans": [
+                "夫妻"
+            ],
+            "tags": [
+                "housing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_211",
+        "sentence_vi_212",
+        "sentence_vi_213",
+        "sentence_vi_214",
+        "sentence_vi_215",
+        "sentence_vi_216"
+    ],
+    "grammar": [
+        {
+            "point": "问人数「mấy người?」",
+            "explain": "问家庭人数用「Gia đình + 人称 + có mấy người?」。回答用「có + 数字 + người」。",
+            "examples": [
+                {
+                    "vi": "Gia đình bạn có mấy người?",
+                    "zh": "你家有几口人？"
+                },
+                {
+                    "vi": "Gia đình tôi có bốn người.",
+                    "zh": "我家有四口人。"
+                }
+            ]
+        },
+        {
+            "point": "「nội」与「ngoại」的区别",
+            "explain": "「nội」指父系，「ngoại」指母系。所以「ông nội」是爷爷，「ông ngoại」是外公。",
+            "examples": [
+                {
+                    "vi": "Ông nội tôi 80 tuổi.",
+                    "zh": "我爷爷 80 岁。"
+                },
+                {
+                    "vi": "Bà ngoại tôi ở Hà Nội.",
+                    "zh": "我外婆在河内。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「我家有四口人」的正确说法是？",
+            "options": [
+                "Gia đình tôi có bốn người",
+                "Gia đình tôi bốn người có",
+                "Bốn người gia đình tôi có"
+            ],
+            "answer": "Gia đình tôi có bốn người"
+        },
+        {
+            "type": "fill",
+            "question": "Gia đình bạn có ___ người?",
+            "answer": "mấy"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「奶奶」的越南语",
+            "answer": "bà nội"
+        }
+    ]
+}

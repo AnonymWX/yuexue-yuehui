@@ -1,0 +1,196 @@
+{
+    "id": "course_vi_59",
+    "title": "第 6 课：生日习俗",
+    "titleVi": "Bài 6: Phong tục sinh nhật",
+    "level": "A2",
+    "order": 6,
+    "scenario": "birthday",
+    "goals": [
+        "了解越南生日习俗",
+        "掌握习俗相关词汇",
+        "能描述中越生日差异",
+        "能表达对习俗的看法"
+    ],
+    "words": [
+        {
+            "id": "vi_truyen_thong",
+            "name": "truyền thống",
+            "trans": [
+                "传统"
+            ],
+            "tags": [
+                "birthday",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_phong_tuc",
+            "name": "phong tục",
+            "trans": [
+                "风俗",
+                "习俗"
+            ],
+            "tags": [
+                "birthday",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_le",
+            "name": "lễ",
+            "trans": [
+                "礼",
+                "仪式"
+            ],
+            "tags": [
+                "birthday",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_khach",
+            "name": "khách",
+            "trans": [
+                "客人",
+                "宾客"
+            ],
+            "tags": [
+                "birthday",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_moi_invite",
+            "name": "mời",
+            "trans": [
+                "邀请",
+                "请"
+            ],
+            "tags": [
+                "birthday",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_chuc",
+            "name": "chúc",
+            "trans": [
+                "祝",
+                "祝福"
+            ],
+            "tags": [
+                "birthday",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_tang",
+            "name": "tặng",
+            "trans": [
+                "赠送",
+                "送"
+            ],
+            "tags": [
+                "birthday",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_an_mung",
+            "name": "ăn mừng",
+            "trans": [
+                "庆祝",
+                "庆贺"
+            ],
+            "tags": [
+                "birthday",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_349",
+        "sentence_vi_350",
+        "sentence_vi_351",
+        "sentence_vi_352",
+        "sentence_vi_353",
+        "sentence_vi_354"
+    ],
+    "grammar": [
+        {
+            "point": "「mời + 人 + 动词」表邀请",
+            "explain": "「mời」意为「邀请、请」，后接人或动词。常用「mời bạn đến」（邀请你来）。",
+            "examples": [
+                {
+                    "vi": "Tôi mời bạn đến tiệc sinh nhật.",
+                    "zh": "我邀请你来生日派对。"
+                },
+                {
+                    "vi": "Mời bạn ăn bánh.",
+                    "zh": "请你吃蛋糕。"
+                }
+            ]
+        },
+        {
+            "point": "「tặng + 人 + 物」表赠送",
+            "explain": "「tặng」意为「赠送、送」，结构为「tặng + 人 + 物」。",
+            "examples": [
+                {
+                    "vi": "Tôi tặng bạn một món quà.",
+                    "zh": "我送你一份礼物。"
+                },
+                {
+                    "vi": "Cô ấy tặng mẹ một bó hoa.",
+                    "zh": "她送妈妈一束花。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「邀请」用越南语怎么说？",
+            "options": [
+                "mời",
+                "tặng",
+                "chúc"
+            ],
+            "answer": "mời"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi ___ bạn một món quà.",
+            "answer": "tặng"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「传统」的越南语",
+            "answer": "truyền thống"
+        }
+    ]
+}

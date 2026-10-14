@@ -1,0 +1,191 @@
+{
+    "id": "course_vi_94",
+    "title": "第 4 课：留言",
+    "titleVi": "Bài 4: Để lại lời nhắn",
+    "level": "A2",
+    "order": 4,
+    "scenario": "phone",
+    "goals": [
+        "掌握留言相关表达",
+        "学会说「请转告……」",
+        "掌握短信与回电说法",
+        "能处理留言场景"
+    ],
+    "words": [
+        {
+            "id": "vi_loi_nhan",
+            "name": "lời nhắn",
+            "trans": [
+                "留言"
+            ],
+            "tags": [
+                "phone",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_nhan_tin",
+            "name": "nhắn tin",
+            "trans": [
+                "发短信"
+            ],
+            "tags": [
+                "phone",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_tin_nhan",
+            "name": "tin nhắn",
+            "trans": [
+                "短信",
+                "消息"
+            ],
+            "tags": [
+                "phone",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_de_lai",
+            "name": "để lại",
+            "trans": [
+                "留下"
+            ],
+            "tags": [
+                "phone",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_chuyen_loi",
+            "name": "chuyển lời",
+            "trans": [
+                "转告"
+            ],
+            "tags": [
+                "phone",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_nhan_lai",
+            "name": "nhắn lại",
+            "trans": [
+                "回话",
+                "转告"
+            ],
+            "tags": [
+                "phone",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_lien_lac_lai",
+            "name": "liên lạc lại",
+            "trans": [
+                "重新联系"
+            ],
+            "tags": [
+                "phone",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_goi_lai_sau",
+            "name": "gọi lại sau",
+            "trans": [
+                "稍后回电"
+            ],
+            "tags": [
+                "phone",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_559",
+        "sentence_vi_560",
+        "sentence_vi_561",
+        "sentence_vi_562",
+        "sentence_vi_563",
+        "sentence_vi_564"
+    ],
+    "grammar": [
+        {
+            "point": "「để lại lời nhắn」表留言",
+            "explain": "「để lại」意为「留下」，「lời nhắn」意为「留言」，合起来表示「留言」。",
+            "examples": [
+                {
+                    "vi": "Tôi muốn để lại lời nhắn.",
+                    "zh": "我想留言。"
+                },
+                {
+                    "vi": "Anh có muốn để lại lời nhắn không?",
+                    "zh": "您要留言吗？"
+                }
+            ]
+        },
+        {
+            "point": "「nhắn + 人 + 动词」表通知",
+            "explain": "「nhắn」意为「通知、转告」，结构为「nhắn + 人 + 动词」，如「nhắn anh ấy gọi lại」（转告他回电）。",
+            "examples": [
+                {
+                    "vi": "Nhắn anh ấy gọi lại cho tôi.",
+                    "zh": "转告他给我回电。"
+                },
+                {
+                    "vi": "Nhắn chị ấy tôi đã gọi.",
+                    "zh": "转告她我打过电话。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「留言」用越南语怎么说？",
+            "options": [
+                "lời nhắn",
+                "tin nhắn",
+                "số điện thoại"
+            ],
+            "answer": "lời nhắn"
+        },
+        {
+            "type": "fill",
+            "question": "Nhắn anh ấy gọi ___ cho tôi.",
+            "answer": "lại"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「发短信」的越南语",
+            "answer": "nhắn tin"
+        }
+    ]
+}

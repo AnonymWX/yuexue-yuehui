@@ -1,0 +1,190 @@
+{
+    "id": "course_vi_90",
+    "title": "第 5 课：交通规则与安全",
+    "titleVi": "Bài 5: Luật giao thông và an toàn",
+    "level": "A2",
+    "order": 5,
+    "scenario": "transport",
+    "goals": [
+        "掌握交通规则相关词汇",
+        "了解越南基本交通规则",
+        "学会说「遵守规则」",
+        "能描述交通安全"
+    ],
+    "words": [
+        {
+            "id": "vi_luat",
+            "name": "luật",
+            "trans": [
+                "法律",
+                "规则"
+            ],
+            "tags": [
+                "transport",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_giao_thong",
+            "name": "giao thông",
+            "trans": [
+                "交通"
+            ],
+            "tags": [
+                "transport",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_an_toan",
+            "name": "an toàn",
+            "trans": [
+                "安全"
+            ],
+            "tags": [
+                "transport",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_mu_bao_hiem",
+            "name": "mũ bảo hiểm",
+            "trans": [
+                "头盔"
+            ],
+            "tags": [
+                "transport",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_bang_lai",
+            "name": "bằng lái",
+            "trans": [
+                "驾照"
+            ],
+            "tags": [
+                "transport",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_canh_sat",
+            "name": "cảnh sát",
+            "trans": [
+                "警察"
+            ],
+            "tags": [
+                "transport",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_toc_do",
+            "name": "tốc độ",
+            "trans": [
+                "速度"
+            ],
+            "tags": [
+                "transport",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_tai_nan",
+            "name": "tai nạn",
+            "trans": [
+                "事故"
+            ],
+            "tags": [
+                "transport",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_535",
+        "sentence_vi_536",
+        "sentence_vi_537",
+        "sentence_vi_538",
+        "sentence_vi_539",
+        "sentence_vi_540"
+    ],
+    "grammar": [
+        {
+            "point": "「phải + 动词」表必须",
+            "explain": "表示「必须做某事」用「phải + 动词」，如「phải đội mũ bảo hiểm」（必须戴头盔）。",
+            "examples": [
+                {
+                    "vi": "Phải đội mũ bảo hiểm.",
+                    "zh": "必须戴头盔。"
+                },
+                {
+                    "vi": "Phải tuân thủ luật giao thông.",
+                    "zh": "必须遵守交通法规。"
+                }
+            ]
+        },
+        {
+            "point": "「cấm + 动词」表禁止",
+            "explain": "「cấm」意为「禁止」，后接动词或名词，如「cấm lái xe khi uống rượu」（禁止酒后驾车）。",
+            "examples": [
+                {
+                    "vi": "Cấm lái xe khi uống rượu.",
+                    "zh": "禁止酒后驾车。"
+                },
+                {
+                    "vi": "Cấm vượt đèn đỏ.",
+                    "zh": "禁止闯红灯。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「头盔」用越南语怎么说？",
+            "options": [
+                "mũ bảo hiểm",
+                "mũ",
+                "bằng lái"
+            ],
+            "answer": "mũ bảo hiểm"
+        },
+        {
+            "type": "fill",
+            "question": "Phải đội ___ bảo hiểm.",
+            "answer": "mũ"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「交通安全」的越南语",
+            "answer": "an toàn giao thông"
+        }
+    ]
+}

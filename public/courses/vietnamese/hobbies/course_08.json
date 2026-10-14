@@ -1,0 +1,193 @@
+{
+    "id": "course_vi_104",
+    "title": "第 8 课：爱好与社交",
+    "titleVi": "Bài 8: Sở thích và giao tiếp xã hội",
+    "level": "A2",
+    "order": 8,
+    "scenario": "hobbies",
+    "goals": [
+        "掌握通过爱好社交的表达",
+        "学会说「因为爱好认识朋友」",
+        "掌握加入社团、俱乐部说法",
+        "能描述爱好带来的社交"
+    ],
+    "words": [
+        {
+            "id": "vi_cau_lac_bo",
+            "name": "câu lạc bộ",
+            "trans": [
+                "俱乐部",
+                "社团"
+            ],
+            "tags": [
+                "hobbies",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_hoi_assoc",
+            "name": "hội",
+            "trans": [
+                "会",
+                "协会"
+            ],
+            "tags": [
+                "hobbies",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_thanh_vien",
+            "name": "thành viên",
+            "trans": [
+                "成员",
+                "会员"
+            ],
+            "tags": [
+                "hobbies",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_tham_gia",
+            "name": "tham gia",
+            "trans": [
+                "参加"
+            ],
+            "tags": [
+                "hobbies",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_gap_go",
+            "name": "gặp gỡ",
+            "trans": [
+                "见面",
+                "会面"
+            ],
+            "tags": [
+                "hobbies",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_ket_ban",
+            "name": "kết bạn",
+            "trans": [
+                "交朋友"
+            ],
+            "tags": [
+                "hobbies",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_chia_se",
+            "name": "chia sẻ",
+            "trans": [
+                "分享"
+            ],
+            "tags": [
+                "hobbies",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_hoat_dong",
+            "name": "hoạt động",
+            "trans": [
+                "活动"
+            ],
+            "tags": [
+                "hobbies",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_619",
+        "sentence_vi_620",
+        "sentence_vi_621",
+        "sentence_vi_622",
+        "sentence_vi_623",
+        "sentence_vi_624"
+    ],
+    "grammar": [
+        {
+            "point": "「tham gia + 活动/组织」表参加",
+            "explain": "「tham gia」意为「参加」，后接活动或组织，如「tham gia câu lạc bộ」（参加俱乐部）。",
+            "examples": [
+                {
+                    "vi": "Tôi tham gia câu lạc bộ bóng đá.",
+                    "zh": "我参加足球俱乐部。"
+                },
+                {
+                    "vi": "Anh ấy tham gia hội đọc sách.",
+                    "zh": "他参加读书会。"
+                }
+            ]
+        },
+        {
+            "point": "「vì + 名词 + nên + 结果」表因果关系",
+            "explain": "「vì... nên...」表示「因为……所以……」，用于说明爱好带来的结果。",
+            "examples": [
+                {
+                    "vi": "Vì thích đọc sách nên tôi tham gia hội đọc sách.",
+                    "zh": "因为喜欢读书，所以我参加读书会。"
+                },
+                {
+                    "vi": "Vì chơi bóng đá nên tôi kết bạn nhiều.",
+                    "zh": "因为踢足球，所以我交了很多朋友。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「俱乐部」用越南语怎么说？",
+            "options": [
+                "câu lạc bộ",
+                "hội",
+                "hoạt động"
+            ],
+            "answer": "câu lạc bộ"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi tham gia ___ lạc bộ bóng đá.",
+            "answer": "câu"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「交朋友」的越南语",
+            "answer": "kết bạn"
+        }
+    ]
+}

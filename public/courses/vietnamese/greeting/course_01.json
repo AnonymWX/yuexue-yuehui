@@ -1,0 +1,191 @@
+{
+    "id": "course_vi_01",
+    "title": "第 1 课：基本问候语",
+    "titleVi": "Bài 1: Chào hỏi cơ bản",
+    "level": "A1",
+    "order": 1,
+    "scenario": "greeting",
+    "goals": [
+        "掌握越南语最常用的问候语",
+        "区分不同时段的问候方式",
+        "学会告别用语",
+        "了解越南人问候时的称呼习惯"
+    ],
+    "words": [
+        {
+            "id": "vi_xin_chao",
+            "name": "xin chào",
+            "trans": [
+                "你好"
+            ],
+            "tags": [
+                "greeting",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_chao",
+            "name": "chào",
+            "trans": [
+                "问候",
+                "你好"
+            ],
+            "tags": [
+                "greeting",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tam_biet",
+            "name": "tạm biệt",
+            "trans": [
+                "再见"
+            ],
+            "tags": [
+                "greeting",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_hen_gap_lai",
+            "name": "hẹn gặp lại",
+            "trans": [
+                "下次见"
+            ],
+            "tags": [
+                "greeting",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_chao_buoi_sang",
+            "name": "chào buổi sáng",
+            "trans": [
+                "早上好"
+            ],
+            "tags": [
+                "greeting",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_chao_buoi_chieu",
+            "name": "chào buổi chiều",
+            "trans": [
+                "下午好"
+            ],
+            "tags": [
+                "greeting",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_chao_buoi_toi",
+            "name": "chào buổi tối",
+            "trans": [
+                "晚上好"
+            ],
+            "tags": [
+                "greeting",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_gap",
+            "name": "gặp",
+            "trans": [
+                "见面",
+                "遇见"
+            ],
+            "tags": [
+                "greeting",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_001",
+        "sentence_vi_002",
+        "sentence_vi_003",
+        "sentence_vi_004",
+        "sentence_vi_005",
+        "sentence_vi_006"
+    ],
+    "grammar": [
+        {
+            "point": "问候语「Xin chào」的使用",
+            "explain": "「Xin chào」是最正式、最通用的问候语，相当于汉语的「您好」。可以单独使用，也可以在后面加称呼。",
+            "examples": [
+                {
+                    "vi": "Xin chào!",
+                    "zh": "您好！"
+                },
+                {
+                    "vi": "Xin chào anh!",
+                    "zh": "您好，哥哥！"
+                }
+            ]
+        },
+        {
+            "point": "按时段问候",
+            "explain": "越南语按上午、下午、晚上分别使用不同的问候语，结构为「chào buổi + 时段」。",
+            "examples": [
+                {
+                    "vi": "Chào buổi sáng!",
+                    "zh": "早上好！"
+                },
+                {
+                    "vi": "Chào buổi tối!",
+                    "zh": "晚上好！"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「早上好」用越南语怎么说？",
+            "options": [
+                "Chào buổi sáng",
+                "Chào buổi chiều",
+                "Chào buổi tối"
+            ],
+            "answer": "Chào buổi sáng"
+        },
+        {
+            "type": "fill",
+            "question": "Tạm ___, hẹn gặp lại!",
+            "answer": "biệt"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「你好」的越南语（最正式形式）",
+            "answer": "xin chào"
+        }
+    ]
+}

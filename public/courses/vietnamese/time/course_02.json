@@ -1,0 +1,191 @@
+{
+    "id": "course_vi_44",
+    "title": "第 2 课：说时间（整点与半点）",
+    "titleVi": "Bài 2: Nói giờ (đúng và rưỡi)",
+    "level": "A1",
+    "order": 2,
+    "scenario": "time",
+    "goals": [
+        "掌握整点表达「giờ đúng」",
+        "掌握半点表达「giờ rưỡi」",
+        "学会说具体钟点",
+        "能准确报时"
+    ],
+    "words": [
+        {
+            "id": "vi_ruoi",
+            "name": "rưỡi",
+            "trans": [
+                "半（半小时）"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_dung_gio",
+            "name": "đúng giờ",
+            "trans": [
+                "准时",
+                "整点"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_som",
+            "name": "sớm",
+            "trans": [
+                "早"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_muon",
+            "name": "muộn",
+            "trans": [
+                "晚",
+                "迟"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_khuya",
+            "name": "khuya",
+            "trans": [
+                "深夜"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nua_tieng",
+            "name": "nửa tiếng",
+            "trans": [
+                "半小时"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_mot_tieng",
+            "name": "một tiếng",
+            "trans": [
+                "一小时"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tieng_dong_ho",
+            "name": "tiếng đồng hồ",
+            "trans": [
+                "小时（时长）"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_259",
+        "sentence_vi_260",
+        "sentence_vi_261",
+        "sentence_vi_262",
+        "sentence_vi_263",
+        "sentence_vi_264"
+    ],
+    "grammar": [
+        {
+            "point": "整点「số + giờ」",
+            "explain": "整点直接用「数字 + giờ」，如「bảy giờ」（7 点）。强调整点可说「đúng bảy giờ」。",
+            "examples": [
+                {
+                    "vi": "Bây giờ là bảy giờ.",
+                    "zh": "现在 7 点。"
+                },
+                {
+                    "vi": "Đúng bảy giờ tôi đi làm.",
+                    "zh": "我 7 点整去上班。"
+                }
+            ]
+        },
+        {
+            "point": "半点「số + giờ + rưỡi」",
+            "explain": "半点用「数字 + giờ + rưỡi」，如「bảy giờ rưỡi」（7 点半）。",
+            "examples": [
+                {
+                    "vi": "Bây giờ là bảy giờ rưỡi.",
+                    "zh": "现在 7 点半。"
+                },
+                {
+                    "vi": "Tám giờ rưỡi tôi tan làm.",
+                    "zh": "我 8 点半下班。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「7 点半」用越南语怎么说？",
+            "options": [
+                "bảy giờ rưỡi",
+                "bảy rưỡi giờ",
+                "rưỡi bảy giờ"
+            ],
+            "answer": "bảy giờ rưỡi"
+        },
+        {
+            "type": "fill",
+            "question": "Bây giờ là sáu ___.",
+            "answer": "giờ"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「半」的越南语",
+            "answer": "rưỡi"
+        }
+    ]
+}

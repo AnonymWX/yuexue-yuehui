@@ -1,0 +1,192 @@
+{
+    "id": "course_vi_27",
+    "title": "第 1 课：外貌描述",
+    "titleVi": "Bài 1: Miêu tả ngoại hình",
+    "level": "A1",
+    "order": 1,
+    "scenario": "people",
+    "goals": [
+        "掌握描述外貌的基本形容词",
+        "学会说「他/她长得……」",
+        "能用高矮胖瘦描述人物",
+        "能进行简单的人物外貌描述"
+    ],
+    "words": [
+        {
+            "id": "vi_map",
+            "name": "mập",
+            "trans": [
+                "胖"
+            ],
+            "tags": [
+                "people",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_gay",
+            "name": "gầy",
+            "trans": [
+                "瘦"
+            ],
+            "tags": [
+                "people",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_dep",
+            "name": "đẹp",
+            "trans": [
+                "漂亮",
+                "美"
+            ],
+            "tags": [
+                "people",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_xinh",
+            "name": "xinh",
+            "trans": [
+                "可爱",
+                "漂亮（口语）"
+            ],
+            "tags": [
+                "people",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_dep_trai",
+            "name": "đẹp trai",
+            "trans": [
+                "帅"
+            ],
+            "tags": [
+                "people",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ngoai_hinh",
+            "name": "ngoại hình",
+            "trans": [
+                "外表",
+                "外形"
+            ],
+            "tags": [
+                "people",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_dang_nguoi",
+            "name": "dáng người",
+            "trans": [
+                "身材"
+            ],
+            "tags": [
+                "people",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_can_nang",
+            "name": "cân nặng",
+            "trans": [
+                "体重"
+            ],
+            "tags": [
+                "people",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_157",
+        "sentence_vi_158",
+        "sentence_vi_159",
+        "sentence_vi_160",
+        "sentence_vi_161",
+        "sentence_vi_162"
+    ],
+    "grammar": [
+        {
+            "point": "形容词作谓语「主语 + 形容词」",
+            "explain": "越南语形容词可直接作谓语，不需要系动词，如「Anh ấy cao」（他高）。",
+            "examples": [
+                {
+                    "vi": "Anh ấy cao.",
+                    "zh": "他高。"
+                },
+                {
+                    "vi": "Cô ấy đẹp.",
+                    "zh": "她漂亮。"
+                }
+            ]
+        },
+        {
+            "point": "「trông + 形容词」表看起来",
+            "explain": "「trông」意为「看起来」，后接形容词表示外观给人印象。",
+            "examples": [
+                {
+                    "vi": "Cô ấy trông trẻ.",
+                    "zh": "她看起来很年轻。"
+                },
+                {
+                    "vi": "Anh ấy trông mập.",
+                    "zh": "他看起来很胖。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「他高」的正确说法是？",
+            "options": [
+                "Anh ấy cao",
+                "Anh cao ấy",
+                "Cao anh ấy"
+            ],
+            "answer": "Anh ấy cao"
+        },
+        {
+            "type": "fill",
+            "question": "Cô ấy ___, rất xinh.",
+            "answer": "đẹp"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「胖」的越南语",
+            "answer": "mập"
+        }
+    ]
+}

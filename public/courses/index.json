@@ -1,9 +1,20 @@
 {
     "vi": [
-        "basic",
-        "daily",
-        "social",
-        "travel",
-        "work"
+        "greeting",
+        "career",
+        "language",
+        "objects",
+        "people",
+        "housing",
+        "time",
+        "calendar",
+        "birthday",
+        "directions",
+        "places",
+        "dining",
+        "shopping",
+        "transport",
+        "phone",
+        "hobbies"
     ]
 }

@@ -1,0 +1,193 @@
+{
+    "id": "course_vi_54",
+    "title": "第 1 课：年份与出生年",
+    "titleVi": "Bài 1: Năm và năm sinh",
+    "level": "A1",
+    "order": 1,
+    "scenario": "birthday",
+    "goals": [
+        "掌握出生年、出生地相关表达",
+        "学会说「我出生于……」",
+        "掌握籍贯与原籍",
+        "能介绍自己的出生背景"
+    ],
+    "words": [
+        {
+            "id": "vi_sinh",
+            "name": "sinh",
+            "trans": [
+                "出生",
+                "生"
+            ],
+            "tags": [
+                "birthday",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nam_sinh",
+            "name": "năm sinh",
+            "trans": [
+                "出生年份"
+            ],
+            "tags": [
+                "birthday",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ngay_sinh",
+            "name": "ngày sinh",
+            "trans": [
+                "出生日期"
+            ],
+            "tags": [
+                "birthday",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_noi_sinh",
+            "name": "nơi sinh",
+            "trans": [
+                "出生地"
+            ],
+            "tags": [
+                "birthday",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_que_quan",
+            "name": "quê quán",
+            "trans": [
+                "籍贯",
+                "老家"
+            ],
+            "tags": [
+                "birthday",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nguyen_quan",
+            "name": "nguyên quán",
+            "trans": [
+                "原籍"
+            ],
+            "tags": [
+                "birthday",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_lich",
+            "name": "lịch",
+            "trans": [
+                "日历",
+                "历法"
+            ],
+            "tags": [
+                "birthday",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_lich_am",
+            "name": "âm lịch",
+            "trans": [
+                "农历",
+                "阴历"
+            ],
+            "tags": [
+                "birthday",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_319",
+        "sentence_vi_320",
+        "sentence_vi_321",
+        "sentence_vi_322",
+        "sentence_vi_323",
+        "sentence_vi_324"
+    ],
+    "grammar": [
+        {
+            "point": "「sinh năm + 数字」表出生年",
+            "explain": "表达「出生于某年」用「sinh năm + 数字」，如「sinh năm 2000」（2000 年出生）。",
+            "examples": [
+                {
+                    "vi": "Tôi sinh năm 2000.",
+                    "zh": "我 2000 年出生。"
+                },
+                {
+                    "vi": "Anh ấy sinh năm 1995.",
+                    "zh": "他 1995 年出生。"
+                }
+            ]
+        },
+        {
+            "point": "「quê quán ở + 地点」表籍贯",
+            "explain": "表示籍贯或老家用「quê quán ở + 地点」或「quê ở + 地点」。",
+            "examples": [
+                {
+                    "vi": "Quê quán tôi ở Hà Nội.",
+                    "zh": "我籍贯在河内。"
+                },
+                {
+                    "vi": "Quê tôi ở miền Nam.",
+                    "zh": "我老家在南方。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「我 2000 年出生」的正确说法是？",
+            "options": [
+                "Tôi sinh năm 2000",
+                "Tôi năm sinh 2000",
+                "Sinh tôi năm 2000"
+            ],
+            "answer": "Tôi sinh năm 2000"
+        },
+        {
+            "type": "fill",
+            "question": "___ quán tôi ở Hà Nội.",
+            "answer": "Quê"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「出生日期」的越南语",
+            "answer": "ngày sinh"
+        }
+    ]
+}

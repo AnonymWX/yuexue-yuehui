@@ -1,0 +1,192 @@
+{
+    "id": "course_vi_29",
+    "title": "第 3 课：穿着与打扮",
+    "titleVi": "Bài 3: Trang phục và ăn mặc",
+    "level": "A1",
+    "order": 3,
+    "scenario": "people",
+    "goals": [
+        "掌握服装配饰的越南语名称",
+        "学会说「穿着……」",
+        "能用「mặc」表穿戴",
+        "能描述他人的穿着"
+    ],
+    "words": [
+        {
+            "id": "vi_ao",
+            "name": "áo",
+            "trans": [
+                "衣服",
+                "上衣"
+            ],
+            "tags": [
+                "people",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_quan",
+            "name": "quần",
+            "trans": [
+                "裤子"
+            ],
+            "tags": [
+                "people",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_vay",
+            "name": "váy",
+            "trans": [
+                "裙子"
+            ],
+            "tags": [
+                "people",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_giay_shoe",
+            "name": "giày",
+            "trans": [
+                "鞋"
+            ],
+            "tags": [
+                "people",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_dep_sandal",
+            "name": "dép",
+            "trans": [
+                "拖鞋"
+            ],
+            "tags": [
+                "people",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_mu",
+            "name": "mũ",
+            "trans": [
+                "帽子"
+            ],
+            "tags": [
+                "people",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tui",
+            "name": "túi",
+            "trans": [
+                "包",
+                "袋"
+            ],
+            "tags": [
+                "people",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_dong_ho",
+            "name": "đồng hồ",
+            "trans": [
+                "手表",
+                "钟"
+            ],
+            "tags": [
+                "people",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_169",
+        "sentence_vi_170",
+        "sentence_vi_171",
+        "sentence_vi_172",
+        "sentence_vi_173",
+        "sentence_vi_174"
+    ],
+    "grammar": [
+        {
+            "point": "「mặc + 服装」表穿",
+            "explain": "「mặc」意为「穿」，后接服装名词，如「mặc áo」（穿衣服）。鞋帽用「đi」或「đội」。",
+            "examples": [
+                {
+                    "vi": "Cô ấy mặc áo đẹp.",
+                    "zh": "她穿着漂亮的衣服。"
+                },
+                {
+                    "vi": "Anh ấy đi giày mới.",
+                    "zh": "他穿着新鞋。"
+                }
+            ]
+        },
+        {
+            "point": "「đang mặc」表现在穿着",
+            "explain": "表示「正在穿」用「đang mặc」，描述当前穿着状态。",
+            "examples": [
+                {
+                    "vi": "Cô ấy đang mặc váy.",
+                    "zh": "她正穿着裙子。"
+                },
+                {
+                    "vi": "Anh ấy đang đội mũ.",
+                    "zh": "他正戴着帽子。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「裙子」用越南语怎么说？",
+            "options": [
+                "váy",
+                "quần",
+                "áo"
+            ],
+            "answer": "váy"
+        },
+        {
+            "type": "fill",
+            "question": "Cô ấy đang ___ áo.",
+            "answer": "mặc"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「鞋」的越南语",
+            "answer": "giày"
+        }
+    ]
+}

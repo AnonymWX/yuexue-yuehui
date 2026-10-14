@@ -1,0 +1,190 @@
+{
+    "id": "course_vi_19",
+    "title": "第 1 课：日常物品与量词",
+    "titleVi": "Bài 1: Đồ vật hàng ngày và lượng từ",
+    "level": "A1",
+    "order": 1,
+    "scenario": "objects",
+    "goals": [
+        "掌握越南语常用量词",
+        "了解量词与名词的搭配规则",
+        "能用「Đây là + 量词 + 名词」介绍物品",
+        "掌握「cái / con / quyển / chiếc / bức」五个核心量词"
+    ],
+    "words": [
+        {
+            "id": "vi_do_vat",
+            "name": "đồ vật",
+            "trans": [
+                "物品",
+                "东西"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_cai",
+            "name": "cái",
+            "trans": [
+                "个（量词，用于无生命物体）"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_con",
+            "name": "con",
+            "trans": [
+                "只（量词，用于动物）"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_quyen",
+            "name": "quyển",
+            "trans": [
+                "本（量词，用于书本）"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_chiec",
+            "name": "chiếc",
+            "trans": [
+                "辆/艘/件（量词，用于车船衣物）"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_buc",
+            "name": "bức",
+            "trans": [
+                "幅（量词，用于画、照片、信）"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ban_table",
+            "name": "bàn",
+            "trans": [
+                "桌子"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_sach",
+            "name": "sách",
+            "trans": [
+                "书"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_109",
+        "sentence_vi_110",
+        "sentence_vi_111",
+        "sentence_vi_112",
+        "sentence_vi_113",
+        "sentence_vi_114"
+    ],
+    "grammar": [
+        {
+            "point": "量词「cái」的通用性",
+            "explain": "「cái」是越南语最通用的量词，用于大多数无生命物体，如「cái bàn」（桌子）、「cái ghế」（椅子）、「cái bút」（笔）。",
+            "examples": [
+                {
+                    "vi": "Đây là cái bàn.",
+                    "zh": "这是桌子。"
+                },
+                {
+                    "vi": "Đây là cái ghế.",
+                    "zh": "这是椅子。"
+                }
+            ]
+        },
+        {
+            "point": "量词与名词的搭配",
+            "explain": "不同类别名词用不同量词：书本用「quyển」，动物用「con」，车辆衣物用「chiếc」，画/照片/信用「bức」。",
+            "examples": [
+                {
+                    "vi": "Đây là quyển sách.",
+                    "zh": "这是书。"
+                },
+                {
+                    "vi": "Đây là con mèo.",
+                    "zh": "这是猫。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「一本书」的量词应该用？",
+            "options": [
+                "cái",
+                "quyển",
+                "con"
+            ],
+            "answer": "quyển"
+        },
+        {
+            "type": "fill",
+            "question": "Đây là ___ bàn.",
+            "answer": "cái"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「书」的越南语",
+            "answer": "sách"
+        }
+    ]
+}

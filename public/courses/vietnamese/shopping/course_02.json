@@ -1,0 +1,195 @@
+{
+    "id": "course_vi_79",
+    "title": "第 2 课：服装购物",
+    "titleVi": "Bài 2: Mua quần áo",
+    "level": "A1",
+    "order": 2,
+    "scenario": "shopping",
+    "goals": [
+        "掌握服装购物相关词汇",
+        "学会问尺码与试穿",
+        "能描述合身程度",
+        "能完成一次服装购物对话"
+    ],
+    "words": [
+        {
+            "id": "vi_kich_co",
+            "name": "kích cỡ",
+            "trans": [
+                "尺码",
+                "尺寸"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thu",
+            "name": "thử",
+            "trans": [
+                "试",
+                "尝试"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_vua",
+            "name": "vừa",
+            "trans": [
+                "合身",
+                "刚好"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_chat",
+            "name": "chật",
+            "trans": [
+                "紧",
+                "太窄"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_rong",
+            "name": "rộng",
+            "trans": [
+                "宽",
+                "宽松"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_mau",
+            "name": "màu",
+            "trans": [
+                "颜色"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_phong_thu",
+            "name": "phòng thử",
+            "trans": [
+                "试衣间"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_kieu",
+            "name": "kiểu",
+            "trans": [
+                "款式",
+                "样式"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_469",
+        "sentence_vi_470",
+        "sentence_vi_471",
+        "sentence_vi_472",
+        "sentence_vi_473",
+        "sentence_vi_474"
+    ],
+    "grammar": [
+        {
+            "point": "「Tôi muốn thử + 服装」表试穿",
+            "explain": "试穿服装用「Tôi muốn thử + 服装」，售货员会指向试衣间「phòng thử」。",
+            "examples": [
+                {
+                    "vi": "Tôi muốn thử cái áo này.",
+                    "zh": "我想试这件衣服。"
+                },
+                {
+                    "vi": "Phòng thử ở đâu?",
+                    "zh": "试衣间在哪？"
+                }
+            ]
+        },
+        {
+            "point": "「vừa / chật / rộng」表合身程度",
+            "explain": "用「vừa」表示合身，「chật」表示太紧，「rộng」表示太宽。",
+            "examples": [
+                {
+                    "vi": "Cái áo này vừa.",
+                    "zh": "这件衣服合身。"
+                },
+                {
+                    "vi": "Cái quần này chật.",
+                    "zh": "这条裤子紧。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「尺码」用越南语怎么说？",
+            "options": [
+                "kích cỡ",
+                "kiểu",
+                "màu"
+            ],
+            "answer": "kích cỡ"
+        },
+        {
+            "type": "fill",
+            "question": "Cái áo này ___.",
+            "answer": "vừa"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「试衣间」的越南语",
+            "answer": "phòng thử"
+        }
+    ]
+}

@@ -1,0 +1,190 @@
+{
+    "id": "course_vi_50",
+    "title": "第 2 课：日期表达",
+    "titleVi": "Bài 2: Diễn đạt ngày",
+    "level": "A1",
+    "order": 2,
+    "scenario": "calendar",
+    "goals": [
+        "掌握日期表达「ngày mùng + 数字」",
+        "掌握「rằm」表农历十五",
+        "学会说月初、月中、月底",
+        "能说出前天、后天"
+    ],
+    "words": [
+        {
+            "id": "vi_mung",
+            "name": "mùng",
+            "trans": [
+                "（日期）号"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ram",
+            "name": "rằm",
+            "trans": [
+                "农历十五",
+                "望日"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_dau_thang",
+            "name": "đầu tháng",
+            "trans": [
+                "月初"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_giua_thang",
+            "name": "giữa tháng",
+            "trans": [
+                "月中"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_cuoi_thang",
+            "name": "cuối tháng",
+            "trans": [
+                "月底"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_hom_kia",
+            "name": "hôm kia",
+            "trans": [
+                "前天"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ngay_kia",
+            "name": "ngày kia",
+            "trans": [
+                "后天"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_so_ngay",
+            "name": "số ngày",
+            "trans": [
+                "日期号数"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_295",
+        "sentence_vi_296",
+        "sentence_vi_297",
+        "sentence_vi_298",
+        "sentence_vi_299",
+        "sentence_vi_300"
+    ],
+    "grammar": [
+        {
+            "point": "日期表达「ngày mùng + 数字」",
+            "explain": "1 号到 10 号用「ngày mùng + 数字」，如「ngày mùng 1」（1 号）。11 号以上直接用「ngày + 数字」。",
+            "examples": [
+                {
+                    "vi": "Hôm nay là ngày mùng 1.",
+                    "zh": "今天是 1 号。"
+                },
+                {
+                    "vi": "Ngày 15 là rằm.",
+                    "zh": "15 号是农历十五。"
+                }
+            ]
+        },
+        {
+            "point": "「đầu / giữa / cuối + tháng」表月内阶段",
+            "explain": "用「đầu tháng」（月初）、「giữa tháng」（月中）、「cuối tháng」（月底）表示月份内的不同阶段。",
+            "examples": [
+                {
+                    "vi": "Đầu tháng tôi bận.",
+                    "zh": "月初我忙。"
+                },
+                {
+                    "vi": "Cuối tháng tôi đi chơi.",
+                    "zh": "月底我出去玩。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「月初」用越南语怎么说？",
+            "options": [
+                "đầu tháng",
+                "cuối tháng",
+                "giữa tháng"
+            ],
+            "answer": "đầu tháng"
+        },
+        {
+            "type": "fill",
+            "question": "Hôm nay là ngày ___ 1.",
+            "answer": "mùng"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「后天」的越南语",
+            "answer": "ngày kia"
+        }
+    ]
+}

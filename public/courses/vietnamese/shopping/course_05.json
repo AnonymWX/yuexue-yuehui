@@ -1,0 +1,190 @@
+{
+    "id": "course_vi_86",
+    "title": "第 1 课：常见交通工具",
+    "titleVi": "Bài 1: Các phương tiện giao thông phổ biến",
+    "level": "A1",
+    "order": 1,
+    "scenario": "transport",
+    "goals": [
+        "掌握常见交通工具的越南语名称",
+        "学会用「đi bằng + 交通工具」",
+        "能区分陆海空交通工具",
+        "能说出自己常用的交通方式"
+    ],
+    "words": [
+        {
+            "id": "vi_phuong_tien",
+            "name": "phương tiện",
+            "trans": [
+                "工具",
+                "交通工具"
+            ],
+            "tags": [
+                "transport",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_xe_dap",
+            "name": "xe đạp",
+            "trans": [
+                "自行车"
+            ],
+            "tags": [
+                "transport",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_xe_may",
+            "name": "xe máy",
+            "trans": [
+                "摩托车"
+            ],
+            "tags": [
+                "transport",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_o_to",
+            "name": "ô tô",
+            "trans": [
+                "汽车"
+            ],
+            "tags": [
+                "transport",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_xe_buyt",
+            "name": "xe buýt",
+            "trans": [
+                "公交车"
+            ],
+            "tags": [
+                "transport",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tac_xi",
+            "name": "tắc xi",
+            "trans": [
+                "出租车"
+            ],
+            "tags": [
+                "transport",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tau_hoa",
+            "name": "tàu hỏa",
+            "trans": [
+                "火车"
+            ],
+            "tags": [
+                "transport",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_may_bay",
+            "name": "máy bay",
+            "trans": [
+                "飞机"
+            ],
+            "tags": [
+                "transport",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_511",
+        "sentence_vi_512",
+        "sentence_vi_513",
+        "sentence_vi_514",
+        "sentence_vi_515",
+        "sentence_vi_516"
+    ],
+    "grammar": [
+        {
+            "point": "「đi bằng + 交通工具」表乘坐方式",
+            "explain": "表示「乘……去」用「đi bằng + 交通工具」，如「đi bằng xe buýt」（乘公交去）、「đi bằng máy bay」（乘飞机去）。",
+            "examples": [
+                {
+                    "vi": "Tôi đi bằng xe buýt.",
+                    "zh": "我乘公交去。"
+                },
+                {
+                    "vi": "Anh ấy đi bằng máy bay.",
+                    "zh": "他乘飞机去。"
+                }
+            ]
+        },
+        {
+            "point": "「xe」的泛指用法",
+            "explain": "「xe」泛指车辆，可单独使用或与品类组合：「xe đạp」自行车、「xe máy」摩托、「xe buýt」公交。「ô tô」是汽车的固定说法。",
+            "examples": [
+                {
+                    "vi": "Tôi có xe máy.",
+                    "zh": "我有摩托车。"
+                },
+                {
+                    "vi": "Xe buýt đến rồi.",
+                    "zh": "公交车到了。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「摩托车」用越南语怎么说？",
+            "options": [
+                "xe máy",
+                "xe đạp",
+                "xe buýt"
+            ],
+            "answer": "xe máy"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi đi bằng xe ___.",
+            "answer": "buýt"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「飞机」的越南语",
+            "answer": "máy bay"
+        }
+    ]
+}

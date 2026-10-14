@@ -1,0 +1,192 @@
+{
+    "id": "course_vi_93",
+    "title": "第 3 课：接电话",
+    "titleVi": "Bài 3: Nghe điện thoại",
+    "level": "A1",
+    "order": 3,
+    "scenario": "phone",
+    "goals": [
+        "掌握接电话的完整表达",
+        "学会说「请稍等」「我找……」",
+        "掌握找人接电话的说法",
+        "能完成一次接电话流程"
+    ],
+    "words": [
+        {
+            "id": "vi_nhac_may",
+            "name": "nhấc máy",
+            "trans": [
+                "拿起话筒",
+                "接电话"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_cho_doi",
+            "name": "chờ một chút",
+            "trans": [
+                "请稍等"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tim",
+            "name": "tìm",
+            "trans": [
+                "找",
+                "寻找"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_goi_gap",
+            "name": "gọi gặp",
+            "trans": [
+                "打电话找"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_co_nha",
+            "name": "có nhà",
+            "trans": [
+                "在家"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_vang_mat",
+            "name": "vắng mặt",
+            "trans": [
+                "不在",
+                "缺席"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_giu_may",
+            "name": "giữ máy",
+            "trans": [
+                "别挂断"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_dang_ban",
+            "name": "đang bận",
+            "trans": [
+                "正在忙"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_553",
+        "sentence_vi_554",
+        "sentence_vi_555",
+        "sentence_vi_556",
+        "sentence_vi_557",
+        "sentence_vi_558"
+    ],
+    "grammar": [
+        {
+            "point": "「Cho tôi gặp + 人」表我找某人",
+            "explain": "打电话找某人用「Cho tôi gặp + 人」（请让某人接电话）或「Tôi muốn gặp + 人」。",
+            "examples": [
+                {
+                    "vi": "Cho tôi gặp anh Nam.",
+                    "zh": "请让阿南接电话。"
+                },
+                {
+                    "vi": "Tôi muốn gặp chị Lan.",
+                    "zh": "我想找阿兰。"
+                }
+            ]
+        },
+        {
+            "point": "「Chờ một chút」表请稍等",
+            "explain": "接电话时让对方稍等用「Chờ một chút」（请稍等）或「Giữ máy một chút」（请别挂断）。",
+            "examples": [
+                {
+                    "vi": "Chờ một chút, tôi đi tìm.",
+                    "zh": "请稍等，我去找一下。"
+                },
+                {
+                    "vi": "Giữ máy một chút nhé.",
+                    "zh": "请别挂断。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「请让阿南接电话」的正确说法是？",
+            "options": [
+                "Cho tôi gặp anh Nam",
+                "Tôi gặp cho anh Nam",
+                "Gặp anh Nam cho tôi"
+            ],
+            "answer": "Cho tôi gặp anh Nam"
+        },
+        {
+            "type": "fill",
+            "question": "Chờ một ___, tôi đi tìm.",
+            "answer": "chút"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「不在」的越南语",
+            "answer": "vắng mặt"
+        }
+    ]
+}

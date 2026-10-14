@@ -1,0 +1,192 @@
+{
+    "id": "course_vi_97",
+    "title": "第 1 课：常见爱好",
+    "titleVi": "Bài 1: Các sở thích phổ biến",
+    "level": "A1",
+    "order": 1,
+    "scenario": "hobbies",
+    "goals": [
+        "掌握常见爱好的越南语说法",
+        "学会「sở thích」的用法",
+        "能用动词表达爱好",
+        "能说出 8 种常见爱好"
+    ],
+    "words": [
+        {
+            "id": "vi_so_thich",
+            "name": "sở thích",
+            "trans": [
+                "爱好",
+                "兴趣"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thich",
+            "name": "thích",
+            "trans": [
+                "喜欢"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nhac",
+            "name": "nhạc",
+            "trans": [
+                "音乐"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_phim",
+            "name": "phim",
+            "trans": [
+                "电影"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_anh_photo",
+            "name": "ảnh",
+            "trans": [
+                "照片",
+                "相片"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_doc_sach",
+            "name": "đọc sách",
+            "trans": [
+                "读书"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nghe_nhac",
+            "name": "nghe nhạc",
+            "trans": [
+                "听音乐"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_di_dao",
+            "name": "đi dạo",
+            "trans": [
+                "散步",
+                "遛弯"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_577",
+        "sentence_vi_578",
+        "sentence_vi_579",
+        "sentence_vi_580",
+        "sentence_vi_581",
+        "sentence_vi_582"
+    ],
+    "grammar": [
+        {
+            "point": "「Sở thích của tôi là + 动词」表爱好",
+            "explain": "介绍爱好用「Sở thích của tôi là + 动词短语」，如「Sở thích của tôi là đọc sách」（我的爱好是读书）。",
+            "examples": [
+                {
+                    "vi": "Sở thích của tôi là đọc sách.",
+                    "zh": "我的爱好是读书。"
+                },
+                {
+                    "vi": "Sở thích của tôi là nghe nhạc.",
+                    "zh": "我的爱好是听音乐。"
+                }
+            ]
+        },
+        {
+            "point": "「thích + 动词/名词」表喜欢",
+            "explain": "「thích」后接动词或名词，如「thích đọc sách」（喜欢读书）、「thích âm nhạc」（喜欢音乐）。",
+            "examples": [
+                {
+                    "vi": "Tôi thích đọc sách.",
+                    "zh": "我喜欢读书。"
+                },
+                {
+                    "vi": "Anh ấy thích nghe nhạc.",
+                    "zh": "他喜欢听音乐。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「听音乐」用越南语怎么说？",
+            "options": [
+                "nghe nhạc",
+                "đọc sách",
+                "xem phim"
+            ],
+            "answer": "nghe nhạc"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi thích ___ sách.",
+            "answer": "đọc"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「爱好」的越南语",
+            "answer": "sở thích"
+        }
+    ]
+}

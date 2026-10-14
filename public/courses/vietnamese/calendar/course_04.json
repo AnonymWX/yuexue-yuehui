@@ -1,0 +1,191 @@
+{
+    "id": "course_vi_52",
+    "title": "第 4 课：年月日综合表达",
+    "titleVi": "Bài 4: Diễn đạt tổng hợp ngày tháng năm",
+    "level": "A1",
+    "order": 4,
+    "scenario": "calendar",
+    "goals": [
+        "掌握年份相关表达",
+        "掌握「năm nay / ngoái / sau」",
+        "掌握「tháng này / trước / tới」",
+        "能完整表达年月日"
+    ],
+    "words": [
+        {
+            "id": "vi_nam_year",
+            "name": "năm",
+            "trans": [
+                "年"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nam_nay",
+            "name": "năm nay",
+            "trans": [
+                "今年"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nam_ngoai",
+            "name": "năm ngoái",
+            "trans": [
+                "去年"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nam_sau",
+            "name": "năm sau",
+            "trans": [
+                "明年"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thang_nay",
+            "name": "tháng này",
+            "trans": [
+                "本月",
+                "这个月"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thang_truoc",
+            "name": "tháng trước",
+            "trans": [
+                "上个月"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thang_toi",
+            "name": "tháng tới",
+            "trans": [
+                "下个月"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ngay_thang_date",
+            "name": "ngày tháng",
+            "trans": [
+                "日期",
+                "年月日"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_307",
+        "sentence_vi_308",
+        "sentence_vi_309",
+        "sentence_vi_310",
+        "sentence_vi_311",
+        "sentence_vi_312"
+    ],
+    "grammar": [
+        {
+            "point": "「năm + 数字」表年份",
+            "explain": "年份用「năm + 数字」，如「năm 2026」（2026 年）。「năm nay」表示今年。",
+            "examples": [
+                {
+                    "vi": "Năm nay là năm 2026.",
+                    "zh": "今年是 2026 年。"
+                },
+                {
+                    "vi": "Tôi sinh năm 2000.",
+                    "zh": "我 2000 年出生。"
+                }
+            ]
+        },
+        {
+            "point": "「năm nay / ngoái / sau」三时",
+            "explain": "「năm nay」今年、「năm ngoái」去年、「năm sau」明年，三个一组记忆。",
+            "examples": [
+                {
+                    "vi": "Năm ngoái tôi ở Trung Quốc.",
+                    "zh": "去年我在中国。"
+                },
+                {
+                    "vi": "Năm sau tôi sẽ đi Việt Nam.",
+                    "zh": "明年我要去越南。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「去年」用越南语怎么说？",
+            "options": [
+                "năm ngoái",
+                "năm nay",
+                "năm sau"
+            ],
+            "answer": "năm ngoái"
+        },
+        {
+            "type": "fill",
+            "question": "___ nay tôi rất bận.",
+            "answer": "Tháng"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「下个月」的越南语",
+            "answer": "tháng tới"
+        }
+    ]
+}

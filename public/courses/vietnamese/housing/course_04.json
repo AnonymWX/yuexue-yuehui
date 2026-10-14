@@ -1,0 +1,190 @@
+{
+    "id": "course_vi_38",
+    "title": "第 4 课：房间名称",
+    "titleVi": "Bài 4: Tên các phòng",
+    "level": "A1",
+    "order": 4,
+    "scenario": "housing",
+    "goals": [
+        "掌握各房间的越南语名称",
+        "学会用「trong + 房间」表示在里面",
+        "能描述房屋的布局",
+        "能说出自己家的房间"
+    ],
+    "words": [
+        {
+            "id": "vi_phong",
+            "name": "phòng",
+            "trans": [
+                "房间"
+            ],
+            "tags": [
+                "housing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_phong_khach",
+            "name": "phòng khách",
+            "trans": [
+                "客厅"
+            ],
+            "tags": [
+                "housing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_phong_ngu",
+            "name": "phòng ngủ",
+            "trans": [
+                "卧室"
+            ],
+            "tags": [
+                "housing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nha_bep",
+            "name": "nhà bếp",
+            "trans": [
+                "厨房"
+            ],
+            "tags": [
+                "housing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_phong_tam",
+            "name": "phòng tắm",
+            "trans": [
+                "卫生间",
+                "浴室"
+            ],
+            "tags": [
+                "housing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ban_cong",
+            "name": "ban công",
+            "trans": [
+                "阳台"
+            ],
+            "tags": [
+                "housing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_phong_an",
+            "name": "phòng ăn",
+            "trans": [
+                "餐厅"
+            ],
+            "tags": [
+                "housing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nha_kho",
+            "name": "nhà kho",
+            "trans": [
+                "储藏室"
+            ],
+            "tags": [
+                "housing",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_223",
+        "sentence_vi_224",
+        "sentence_vi_225",
+        "sentence_vi_226",
+        "sentence_vi_227",
+        "sentence_vi_228"
+    ],
+    "grammar": [
+        {
+            "point": "「trong + 房间」表在某房间内",
+            "explain": "「trong」意为「在……里面」，后接房间名称，如「trong phòng khách」（在客厅里）。",
+            "examples": [
+                {
+                    "vi": "Mẹ tôi ở trong nhà bếp.",
+                    "zh": "我妈妈在厨房。"
+                },
+                {
+                    "vi": "Anh tôi ở trong phòng ngủ.",
+                    "zh": "我哥哥在卧室。"
+                }
+            ]
+        },
+        {
+            "point": "「Nhà tôi có + 房间数」表房间数量",
+            "explain": "表示家里有几个房间用「Nhà tôi có + 数字 + phòng」。",
+            "examples": [
+                {
+                    "vi": "Nhà tôi có ba phòng ngủ.",
+                    "zh": "我家有三间卧室。"
+                },
+                {
+                    "vi": "Nhà tôi có một phòng khách.",
+                    "zh": "我家有一个客厅。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「卧室」用越南语怎么说？",
+            "options": [
+                "phòng ngủ",
+                "phòng khách",
+                "phòng ăn"
+            ],
+            "answer": "phòng ngủ"
+        },
+        {
+            "type": "fill",
+            "question": "Mẹ tôi ở trong nhà ___.",
+            "answer": "bếp"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「客厅」的越南语",
+            "answer": "phòng khách"
+        }
+    ]
+}

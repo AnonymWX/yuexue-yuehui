@@ -1,0 +1,191 @@
+{
+    "id": "course_vi_72",
+    "title": "第 3 课：看菜单与点菜",
+    "titleVi": "Bài 3: Xem thực đơn và gọi món",
+    "level": "A1",
+    "order": 3,
+    "scenario": "dining",
+    "goals": [
+        "掌握菜单相关词汇",
+        "学会看菜单与点菜",
+        "掌握「gọi món」结构",
+        "能点几道菜"
+    ],
+    "words": [
+        {
+            "id": "vi_thuc_don",
+            "name": "thực đơn",
+            "trans": [
+                "菜单"
+            ],
+            "tags": [
+                "dining",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_goi_mon",
+            "name": "gọi món",
+            "trans": [
+                "点菜"
+            ],
+            "tags": [
+                "dining",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_mon_an",
+            "name": "món ăn",
+            "trans": [
+                "菜肴",
+                "菜品"
+            ],
+            "tags": [
+                "dining",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_com",
+            "name": "cơm",
+            "trans": [
+                "米饭",
+                "饭"
+            ],
+            "tags": [
+                "dining",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_pho",
+            "name": "phở",
+            "trans": [
+                "河粉"
+            ],
+            "tags": [
+                "dining",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_bun",
+            "name": "bún",
+            "trans": [
+                "米粉（细）"
+            ],
+            "tags": [
+                "dining",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_rau",
+            "name": "rau",
+            "trans": [
+                "蔬菜"
+            ],
+            "tags": [
+                "dining",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thit",
+            "name": "thịt",
+            "trans": [
+                "肉"
+            ],
+            "tags": [
+                "dining",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_427",
+        "sentence_vi_428",
+        "sentence_vi_429",
+        "sentence_vi_430",
+        "sentence_vi_431",
+        "sentence_vi_432"
+    ],
+    "grammar": [
+        {
+            "point": "点菜「Cho tôi + 菜名」",
+            "explain": "点菜常用「Cho tôi + 菜名」（给我……），或「Tôi gọi + 菜名」（我点……）。",
+            "examples": [
+                {
+                    "vi": "Cho tôi một tô phở.",
+                    "zh": "给我一碗河粉。"
+                },
+                {
+                    "vi": "Tôi gọi cơm và thịt.",
+                    "zh": "我点米饭和肉。"
+                }
+            ]
+        },
+        {
+            "point": "「một + 量词 + 菜名」点菜量",
+            "explain": "点菜时用「một + 量词 + 菜名」，如「một tô phở」（一碗河粉）、「một đĩa cơm」（一盘饭）。",
+            "examples": [
+                {
+                    "vi": "Cho tôi một tô phở.",
+                    "zh": "给我一碗河粉。"
+                },
+                {
+                    "vi": "Tôi muốn một đĩa cơm.",
+                    "zh": "我要一盘饭。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「菜单」用越南语怎么说？",
+            "options": [
+                "thực đơn",
+                "món ăn",
+                "gọi món"
+            ],
+            "answer": "thực đơn"
+        },
+        {
+            "type": "fill",
+            "question": "Cho tôi một tô ___.",
+            "answer": "phở"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「点菜」的越南语",
+            "answer": "gọi món"
+        }
+    ]
+}

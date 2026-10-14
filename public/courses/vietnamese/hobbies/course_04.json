@@ -1,0 +1,193 @@
+{
+    "id": "course_vi_100",
+    "title": "第 4 课：频率与程度",
+    "titleVi": "Bài 4: Tần suất và mức độ",
+    "level": "A1",
+    "order": 4,
+    "scenario": "hobbies",
+    "goals": [
+        "掌握频率副词的用法",
+        "学会「thường xuyên / thỉnh thoảng」",
+        "掌握程度副词的位置",
+        "能描述做某事的频率"
+    ],
+    "words": [
+        {
+            "id": "vi_luon_luon",
+            "name": "luôn luôn",
+            "trans": [
+                "总是",
+                "一直"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thuong_xuyen_hobby",
+            "name": "thường xuyên",
+            "trans": [
+                "经常"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thinh_thoang",
+            "name": "thỉnh thoảng",
+            "trans": [
+                "偶尔",
+                "有时候"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_hiem_khi",
+            "name": "hiếm khi",
+            "trans": [
+                "很少",
+                "罕有"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_khong_bao_gio",
+            "name": "không bao giờ",
+            "trans": [
+                "从不"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_moi_ngay_hobby",
+            "name": "mỗi ngày",
+            "trans": [
+                "每天"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_moi_tuan",
+            "name": "mỗi tuần",
+            "trans": [
+                "每周"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thuong",
+            "name": "thường",
+            "trans": [
+                "常常",
+                "通常"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_595",
+        "sentence_vi_596",
+        "sentence_vi_597",
+        "sentence_vi_598",
+        "sentence_vi_599",
+        "sentence_vi_600"
+    ],
+    "grammar": [
+        {
+            "point": "频率副词的位置",
+            "explain": "频率副词放在动词前：主语 + 频率副词 + 动词。如「Tôi thường đọc sách」（我常读书）。",
+            "examples": [
+                {
+                    "vi": "Tôi thường đọc sách.",
+                    "zh": "我常读书。"
+                },
+                {
+                    "vi": "Anh ấy luôn luôn nghe nhạc.",
+                    "zh": "他总是听音乐。"
+                }
+            ]
+        },
+        {
+            "point": "「thỉnh thoảng / hiếm khi / không bao giờ」频率递减",
+            "explain": "频率递减：「luôn luôn」（总是）>「thường xuyên」（经常）>「thỉnh thoảng」（偶尔）>「hiếm khi」（很少）>「không bao giờ」（从不）。",
+            "examples": [
+                {
+                    "vi": "Tôi thỉnh thoảng xem phim.",
+                    "zh": "我偶尔看电影。"
+                },
+                {
+                    "vi": "Tôi không bao giờ hút thuốc.",
+                    "zh": "我从不抽烟。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「经常」用越南语怎么说？",
+            "options": [
+                "thường xuyên",
+                "thỉnh thoảng",
+                "hiếm khi"
+            ],
+            "answer": "thường xuyên"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi ___ đọc sách.",
+            "answer": "thường"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「从不」的越南语",
+            "answer": "không bao giờ"
+        }
+    ]
+}

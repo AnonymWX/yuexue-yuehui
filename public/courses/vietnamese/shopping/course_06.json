@@ -1,0 +1,192 @@
+{
+    "id": "course_vi_83",
+    "title": "第 6 课：讨价还价",
+    "titleVi": "Bài 6: Mặc cả",
+    "level": "A2",
+    "order": 6,
+    "scenario": "shopping",
+    "goals": [
+        "掌握讨价还价用语",
+        "学会说「太贵」「便宜点」",
+        "掌握越南盾面值表达",
+        "能进行砍价对话"
+    ],
+    "words": [
+        {
+            "id": "vi_dat",
+            "name": "đắt",
+            "trans": [
+                "贵"
+            ],
+            "tags": [
+                "shopping",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_re",
+            "name": "rẻ",
+            "trans": [
+                "便宜"
+            ],
+            "tags": [
+                "shopping",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_mac_ca",
+            "name": "mặc cả",
+            "trans": [
+                "讨价还价",
+                "砍价"
+            ],
+            "tags": [
+                "shopping",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_bot",
+            "name": "bớt",
+            "trans": [
+                "少（减价）"
+            ],
+            "tags": [
+                "shopping",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_giam",
+            "name": "giảm",
+            "trans": [
+                "减",
+                "降"
+            ],
+            "tags": [
+                "shopping",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_dong",
+            "name": "đồng",
+            "trans": [
+                "盾（越南货币）"
+            ],
+            "tags": [
+                "shopping",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_tien",
+            "name": "tiền",
+            "trans": [
+                "钱"
+            ],
+            "tags": [
+                "shopping",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_phai_tra",
+            "name": "phải trả",
+            "trans": [
+                "须付",
+                "要付"
+            ],
+            "tags": [
+                "shopping",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_493",
+        "sentence_vi_494",
+        "sentence_vi_495",
+        "sentence_vi_496",
+        "sentence_vi_497",
+        "sentence_vi_498"
+    ],
+    "grammar": [
+        {
+            "point": "「đắt quá / rẻ quá」表太贵/太便宜",
+            "explain": "「đắt quá」意为「太贵」，「rẻ quá」意为「太便宜」。「quá」放在形容词后表示「太」。",
+            "examples": [
+                {
+                    "vi": "Cái này đắt quá.",
+                    "zh": "这个太贵了。"
+                },
+                {
+                    "vi": "Cái này rẻ quá.",
+                    "zh": "这个太便宜了。"
+                }
+            ]
+        },
+        {
+            "point": "砍价「Bớt cho tôi ... đồng」",
+            "explain": "砍价常用「Bớt cho tôi + 金额 + đồng」（给我减……盾）或「Giảm giá cho tôi」（给我打折）。",
+            "examples": [
+                {
+                    "vi": "Bớt cho tôi 10 nghìn đồng.",
+                    "zh": "给我减 1 万盾。"
+                },
+                {
+                    "vi": "Giảm giá cho tôi đi.",
+                    "zh": "给我打折吧。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「太贵」用越南语怎么说？",
+            "options": [
+                "đắt quá",
+                "rẻ quá",
+                "vừa quá"
+            ],
+            "answer": "đắt quá"
+        },
+        {
+            "type": "fill",
+            "question": "Bớt cho tôi ___ nghìn đồng.",
+            "answer": "10"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「便宜」的越南语",
+            "answer": "rẻ"
+        }
+    ]
+}

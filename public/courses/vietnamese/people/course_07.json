@@ -1,0 +1,195 @@
+{
+    "id": "course_vi_33",
+    "title": "第 7 课：情绪表达",
+    "titleVi": "Bài 7: Diễn đạt cảm xúc",
+    "level": "A2",
+    "order": 7,
+    "scenario": "people",
+    "goals": [
+        "掌握常见情绪词汇",
+        "学会表达自己的情绪",
+        "能问对方情绪状态",
+        "能描述他人的情绪"
+    ],
+    "words": [
+        {
+            "id": "vi_gian",
+            "name": "giận",
+            "trans": [
+                "生气",
+                "愤怒"
+            ],
+            "tags": [
+                "people",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_so",
+            "name": "sợ",
+            "trans": [
+                "害怕",
+                "怕"
+            ],
+            "tags": [
+                "people",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_lo_lang",
+            "name": "lo lắng",
+            "trans": [
+                "担心",
+                "焦虑"
+            ],
+            "tags": [
+                "people",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_ngac_nhien",
+            "name": "ngạc nhiên",
+            "trans": [
+                "惊讶"
+            ],
+            "tags": [
+                "people",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_hanh_phuc",
+            "name": "hạnh phúc",
+            "trans": [
+                "幸福"
+            ],
+            "tags": [
+                "people",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_xau_ho",
+            "name": "xấu hổ",
+            "trans": [
+                "害羞",
+                "羞耻"
+            ],
+            "tags": [
+                "people",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_tu_hao",
+            "name": "tự hào",
+            "trans": [
+                "自豪",
+                "骄傲"
+            ],
+            "tags": [
+                "people",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_ghen",
+            "name": "ghen",
+            "trans": [
+                "嫉妒",
+                "吃醋"
+            ],
+            "tags": [
+                "people",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_193",
+        "sentence_vi_194",
+        "sentence_vi_195",
+        "sentence_vi_196",
+        "sentence_vi_197",
+        "sentence_vi_198"
+    ],
+    "grammar": [
+        {
+            "point": "「cảm thấy + 情绪」表感觉",
+            "explain": "表达情绪常用「cảm thấy + 情绪形容词」，如「cảm thấy vui」（感到开心）。",
+            "examples": [
+                {
+                    "vi": "Tôi cảm thấy hạnh phúc.",
+                    "zh": "我感到幸福。"
+                },
+                {
+                    "vi": "Tôi cảm thấy lo lắng.",
+                    "zh": "我感到担心。"
+                }
+            ]
+        },
+        {
+            "point": "「làm cho + 人 + 情绪」表使役",
+            "explain": "表示「让某人感到……」用「làm cho + 人 + 情绪形容词」。",
+            "examples": [
+                {
+                    "vi": "Điều này làm cho tôi lo lắng.",
+                    "zh": "这让我担心。"
+                },
+                {
+                    "vi": "Anh ấy làm cho tôi giận.",
+                    "zh": "他让我生气。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「我感到幸福」的正确说法是？",
+            "options": [
+                "Tôi cảm thấy hạnh phúc",
+                "Tôi hạnh phúc cảm thấy",
+                "Cảm thấy tôi hạnh phúc"
+            ],
+            "answer": "Tôi cảm thấy hạnh phúc"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi cảm thấy lo ___.",
+            "answer": "lắng"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「惊讶」的越南语",
+            "answer": "ngạc nhiên"
+        }
+    ]
+}

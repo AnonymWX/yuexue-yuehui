@@ -1,0 +1,190 @@
+{
+    "id": "course_vi_51",
+    "title": "第 3 课：月份表达",
+    "titleVi": "Bài 3: Các tháng trong năm",
+    "level": "A1",
+    "order": 3,
+    "scenario": "calendar",
+    "goals": [
+        "掌握「tháng + 数字」表月份",
+        "能说出一年十二个月",
+        "掌握越南语月份名规律",
+        "能说出某事件发生在几月"
+    ],
+    "words": [
+        {
+            "id": "vi_thang",
+            "name": "tháng",
+            "trans": [
+                "月",
+                "月份"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thang_mot",
+            "name": "tháng một",
+            "trans": [
+                "一月"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thang_hai",
+            "name": "tháng hai",
+            "trans": [
+                "二月"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thang_ba",
+            "name": "tháng ba",
+            "trans": [
+                "三月"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thang_tu",
+            "name": "tháng tư",
+            "trans": [
+                "四月"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thang_nam_month",
+            "name": "tháng năm",
+            "trans": [
+                "五月"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thang_sau_month",
+            "name": "tháng sáu",
+            "trans": [
+                "六月"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thang_bay_month",
+            "name": "tháng bảy",
+            "trans": [
+                "七月"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_301",
+        "sentence_vi_302",
+        "sentence_vi_303",
+        "sentence_vi_304",
+        "sentence_vi_305",
+        "sentence_vi_306"
+    ],
+    "grammar": [
+        {
+            "point": "月份表达「tháng + 数字」",
+            "explain": "越南语月份从「tháng một」（一月）开始，直接「tháng + 数字」。注意「tháng tư」（四月）用「tư」而不是「bốn」。",
+            "examples": [
+                {
+                    "vi": "Tháng một là tháng đầu năm.",
+                    "zh": "一月是一年的第一个月。"
+                },
+                {
+                    "vi": "Tháng tư tôi đi du lịch.",
+                    "zh": "四月我去旅游。"
+                }
+            ]
+        },
+        {
+            "point": "「vào tháng + 数字」表在某月",
+            "explain": "表示在某月用「vào tháng + 数字」，如「vào tháng ba」（在三月）。",
+            "examples": [
+                {
+                    "vi": "Vào tháng ba tôi đi du lịch.",
+                    "zh": "三月我去旅游。"
+                },
+                {
+                    "vi": "Sinh nhật tôi vào tháng tư.",
+                    "zh": "我的生日在四月。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「四月」用越南语怎么说？",
+            "options": [
+                "tháng tư",
+                "tháng bốn",
+                "tháng tứ"
+            ],
+            "answer": "tháng tư"
+        },
+        {
+            "type": "fill",
+            "question": "Tháng ___ là tháng đầu năm.",
+            "answer": "một"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「七月」的越南语",
+            "answer": "tháng bảy"
+        }
+    ]
+}

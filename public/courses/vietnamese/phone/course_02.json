@@ -1,0 +1,193 @@
+{
+    "id": "course_vi_92",
+    "title": "第 2 课：打电话",
+    "titleVi": "Bài 2: Gọi điện",
+    "level": "A1",
+    "order": 2,
+    "scenario": "phone",
+    "goals": [
+        "掌握打电话的完整表达",
+        "学会说「我找……」",
+        "掌握拨号、接通、挂断",
+        "能完成一次打电话流程"
+    ],
+    "words": [
+        {
+            "id": "vi_goi_cho",
+            "name": "gọi cho",
+            "trans": [
+                "打给（某人）"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_so_dien_thoai",
+            "name": "số điện thoại",
+            "trans": [
+                "电话号码"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_bam_so",
+            "name": "bấm số",
+            "trans": [
+                "拨号",
+                "按键"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_goi_lai",
+            "name": "gọi lại",
+            "trans": [
+                "回电",
+                "再打一次"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ket_noi",
+            "name": "kết nối",
+            "trans": [
+                "接通",
+                "连接"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ngat_may",
+            "name": "ngắt máy",
+            "trans": [
+                "挂断电话"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_do_chuong",
+            "name": "đổ chuông",
+            "trans": [
+                "响铃"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ban_ron",
+            "name": "bận",
+            "trans": [
+                "忙",
+                "占线"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_547",
+        "sentence_vi_548",
+        "sentence_vi_549",
+        "sentence_vi_550",
+        "sentence_vi_551",
+        "sentence_vi_552"
+    ],
+    "grammar": [
+        {
+            "point": "「gọi cho + 人」表打给某人",
+            "explain": "「gọi cho」意为「打给某人」，如「gọi cho mẹ」（给妈妈打电话）。",
+            "examples": [
+                {
+                    "vi": "Tôi gọi cho mẹ.",
+                    "zh": "我给妈妈打电话。"
+                },
+                {
+                    "vi": "Anh ấy gọi cho bạn.",
+                    "zh": "他给你打电话。"
+                }
+            ]
+        },
+        {
+            "point": "「số điện thoại của + 人」表某人的电话",
+            "explain": "问或说电话号码用「số điện thoại của + 人」。",
+            "examples": [
+                {
+                    "vi": "Số điện thoại của bạn là gì?",
+                    "zh": "你的电话号码是多少？"
+                },
+                {
+                    "vi": "Số điện thoại của tôi là 0901234567.",
+                    "zh": "我的电话号码是 0901234567。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「电话号码」用越南语怎么说？",
+            "options": [
+                "số điện thoại",
+                "số nhà",
+                "số ghế"
+            ],
+            "answer": "số điện thoại"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi gọi ___ mẹ.",
+            "answer": "cho"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「挂断电话」的越南语",
+            "answer": "ngắt máy"
+        }
+    ]
+}

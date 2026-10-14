@@ -1,0 +1,193 @@
+{
+    "id": "course_vi_17",
+    "title": "第 4 课：问语言能力",
+    "titleVi": "Bài 4: Hỏi khả năng ngôn ngữ",
+    "level": "A1",
+    "order": 4,
+    "scenario": "language",
+    "goals": [
+        "学会问对方会说什么语言",
+        "掌握「biết nói」结构",
+        "掌握程度副词",
+        "能描述自己的语言水平"
+    ],
+    "words": [
+        {
+            "id": "vi_biet",
+            "name": "biết",
+            "trans": [
+                "会",
+                "知道"
+            ],
+            "tags": [
+                "language",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_noi",
+            "name": "nói",
+            "trans": [
+                "说"
+            ],
+            "tags": [
+                "language",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_doc",
+            "name": "đọc",
+            "trans": [
+                "读"
+            ],
+            "tags": [
+                "language",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_viet",
+            "name": "viết",
+            "trans": [
+                "写"
+            ],
+            "tags": [
+                "language",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nghe",
+            "name": "nghe",
+            "trans": [
+                "听"
+            ],
+            "tags": [
+                "language",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_hieu",
+            "name": "hiểu",
+            "trans": [
+                "懂",
+                "理解"
+            ],
+            "tags": [
+                "language",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_gioi",
+            "name": "giỏi",
+            "trans": [
+                "擅长",
+                "好"
+            ],
+            "tags": [
+                "language",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_mot_chut",
+            "name": "một chút",
+            "trans": [
+                "一点",
+                "一点点"
+            ],
+            "tags": [
+                "language",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_097",
+        "sentence_vi_098",
+        "sentence_vi_099",
+        "sentence_vi_100",
+        "sentence_vi_101",
+        "sentence_vi_102"
+    ],
+    "grammar": [
+        {
+            "point": "「biết + 动词」表会做某事",
+            "explain": "「biết」后接动词表示「会做某事」，如「biết nói」（会说）、「biết viết」（会写）。",
+            "examples": [
+                {
+                    "vi": "Tôi biết nói tiếng Anh.",
+                    "zh": "我会说英语。"
+                },
+                {
+                    "vi": "Anh ấy biết viết tiếng Việt.",
+                    "zh": "他会写越南语。"
+                }
+            ]
+        },
+        {
+            "point": "程度表达「giỏi / một chút / không biết」",
+            "explain": "语言水平用「giỏi」（擅长）、「một chút」（一点）、「không biết」（不会）等表达。",
+            "examples": [
+                {
+                    "vi": "Tôi nói tiếng Anh giỏi.",
+                    "zh": "我英语说得好。"
+                },
+                {
+                    "vi": "Tôi biết một chút tiếng Việt.",
+                    "zh": "我会一点越南语。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「我会说英语」的正确说法是？",
+            "options": [
+                "Tôi biết nói tiếng Anh",
+                "Tôi nói biết tiếng Anh",
+                "Biết tôi nói tiếng Anh"
+            ],
+            "answer": "Tôi biết nói tiếng Anh"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi biết một ___ tiếng Việt.",
+            "answer": "chút"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「听」的越南语",
+            "answer": "nghe"
+        }
+    ]
+}

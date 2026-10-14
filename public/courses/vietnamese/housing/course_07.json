@@ -1,0 +1,191 @@
+{
+    "id": "course_vi_41",
+    "title": "第 7 课：描述自己的家",
+    "titleVi": "Bài 7: Miêu tả ngôi nhà của mình",
+    "level": "A2",
+    "order": 7,
+    "scenario": "housing",
+    "goals": [
+        "掌握地址与周边环境词汇",
+        "学会说自家位置",
+        "能描述家附近的环境",
+        "能评价居住环境"
+    ],
+    "words": [
+        {
+            "id": "vi_dia_chi",
+            "name": "địa chỉ",
+            "trans": [
+                "地址"
+            ],
+            "tags": [
+                "housing",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_hem",
+            "name": "hẻm",
+            "trans": [
+                "小巷",
+                "巷子"
+            ],
+            "tags": [
+                "housing",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_duong_pho",
+            "name": "đường phố",
+            "trans": [
+                "街道"
+            ],
+            "tags": [
+                "housing",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_gan",
+            "name": "gần",
+            "trans": [
+                "近"
+            ],
+            "tags": [
+                "housing",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_xa",
+            "name": "xa",
+            "trans": [
+                "远"
+            ],
+            "tags": [
+                "housing",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_thuan_tien",
+            "name": "thuận tiện",
+            "trans": [
+                "方便"
+            ],
+            "tags": [
+                "housing",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_yen_tinh",
+            "name": "yên tĩnh",
+            "trans": [
+                "安静"
+            ],
+            "tags": [
+                "housing",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_dong_duc",
+            "name": "đông đúc",
+            "trans": [
+                "拥挤",
+                "热闹"
+            ],
+            "tags": [
+                "housing",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_241",
+        "sentence_vi_242",
+        "sentence_vi_243",
+        "sentence_vi_244",
+        "sentence_vi_245",
+        "sentence_vi_246"
+    ],
+    "grammar": [
+        {
+            "point": "「Nhà tôi ở + 地点」介绍家的位置",
+            "explain": "介绍家的位置用「Nhà tôi ở + 地点」，如「Nhà tôi ở đường Nguyễn Huệ」。",
+            "examples": [
+                {
+                    "vi": "Nhà tôi ở đường Nguyễn Huệ.",
+                    "zh": "我家在阮惠街。"
+                },
+                {
+                    "vi": "Nhà tôi ở trong hẻm nhỏ.",
+                    "zh": "我家在小巷里。"
+                }
+            ]
+        },
+        {
+            "point": "「gần / xa + 地点」表远近",
+            "explain": "「gần」意为「近」，「xa」意为「远」，后接地点名词。",
+            "examples": [
+                {
+                    "vi": "Nhà tôi gần chợ.",
+                    "zh": "我家靠近市场。"
+                },
+                {
+                    "vi": "Nhà tôi xa trung tâm.",
+                    "zh": "我家离市中心远。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「我家靠近市场」的正确说法是？",
+            "options": [
+                "Nhà tôi gần chợ",
+                "Nhà tôi chợ gần",
+                "Gần nhà tôi chợ"
+            ],
+            "answer": "Nhà tôi gần chợ"
+        },
+        {
+            "type": "fill",
+            "question": "Nhà tôi ___ trung tâm.",
+            "answer": "xa"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「地址」的越南语",
+            "answer": "địa chỉ"
+        }
+    ]
+}

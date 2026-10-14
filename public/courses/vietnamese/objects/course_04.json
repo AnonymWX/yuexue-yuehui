@@ -1,0 +1,190 @@
+{
+    "id": "course_vi_22",
+    "title": "第 4 课：家具与家电",
+    "titleVi": "Bài 4: Đồ nội thất và đồ điện",
+    "level": "A1",
+    "order": 4,
+    "scenario": "objects",
+    "goals": [
+        "掌握常见家具名称",
+        "掌握常见家电名称",
+        "学会用「nhà tôi có...」介绍家里的东西",
+        "能描述家里有哪些家具家电"
+    ],
+    "words": [
+        {
+            "id": "vi_ghe",
+            "name": "ghế",
+            "trans": [
+                "椅子"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tu",
+            "name": "tủ",
+            "trans": [
+                "柜子",
+                "橱"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_giuong",
+            "name": "giường",
+            "trans": [
+                "床"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tivi",
+            "name": "tivi",
+            "trans": [
+                "电视"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tu_lanh",
+            "name": "tủ lạnh",
+            "trans": [
+                "冰箱"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_quat",
+            "name": "quạt",
+            "trans": [
+                "风扇"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_dieu_hoa",
+            "name": "điều hòa",
+            "trans": [
+                "空调"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_may_giat",
+            "name": "máy giặt",
+            "trans": [
+                "洗衣机"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_127",
+        "sentence_vi_128",
+        "sentence_vi_129",
+        "sentence_vi_130",
+        "sentence_vi_131",
+        "sentence_vi_132"
+    ],
+    "grammar": [
+        {
+            "point": "「Nhà tôi có + 名词」表拥有",
+            "explain": "表示「我家有……」用「Nhà tôi có + 名词」。泛指「有」时也可省略「nhà」，直接用「Tôi có...」。",
+            "examples": [
+                {
+                    "vi": "Nhà tôi có tivi.",
+                    "zh": "我家有电视。"
+                },
+                {
+                    "vi": "Nhà tôi có tủ lạnh.",
+                    "zh": "我家有冰箱。"
+                }
+            ]
+        },
+        {
+            "point": "家电名词的组合特点",
+            "explain": "越南语家电名词多为组合词，如「tủ lạnh」（冷柜→冰箱）、「máy giặt」（洗衣机器→洗衣机）、「điều hòa」（调节→空调）。",
+            "examples": [
+                {
+                    "vi": "Đây là tủ lạnh.",
+                    "zh": "这是冰箱。"
+                },
+                {
+                    "vi": "Đây là máy giặt.",
+                    "zh": "这是洗衣机。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「冰箱」用越南语怎么说？",
+            "options": [
+                "tủ lạnh",
+                "máy giặt",
+                "điều hòa"
+            ],
+            "answer": "tủ lạnh"
+        },
+        {
+            "type": "fill",
+            "question": "Nhà tôi ___ tivi.",
+            "answer": "có"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「洗衣机」的越南语",
+            "answer": "máy giặt"
+        }
+    ]
+}

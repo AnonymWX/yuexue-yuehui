@@ -1,0 +1,195 @@
+{
+    "id": "course_vi_99",
+    "title": "第 3 课：表达喜欢与不喜欢",
+    "titleVi": "Bài 3: Diễn đạt thích và không thích",
+    "level": "A1",
+    "order": 3,
+    "scenario": "hobbies",
+    "goals": [
+        "掌握喜欢与不喜欢的表达",
+        "掌握「thích / không thích / ghét」",
+        "掌握「yêu」表热爱",
+        "能表达不同程度的好恶"
+    ],
+    "words": [
+        {
+            "id": "vi_khong_thich",
+            "name": "không thích",
+            "trans": [
+                "不喜欢"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ghet",
+            "name": "ghét",
+            "trans": [
+                "讨厌",
+                "恨"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_yeu",
+            "name": "yêu",
+            "trans": [
+                "爱",
+                "热爱"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_me_hobby",
+            "name": "mê",
+            "trans": [
+                "迷恋",
+                "酷爱"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thich_thu",
+            "name": "thích thú",
+            "trans": [
+                "感兴趣"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_hung_thu",
+            "name": "hứng thú",
+            "trans": [
+                "兴致",
+                "兴趣"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_chan",
+            "name": "chán",
+            "trans": [
+                "厌烦",
+                "无聊"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tho_o",
+            "name": "thờ ơ",
+            "trans": [
+                "冷淡",
+                "漠不关心"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_589",
+        "sentence_vi_590",
+        "sentence_vi_591",
+        "sentence_vi_592",
+        "sentence_vi_593",
+        "sentence_vi_594"
+    ],
+    "grammar": [
+        {
+            "point": "「rất thích / không thích lắm / ghét」程度递进",
+            "explain": "好恶程度递进：「rất thích」（很喜欢）>「thích」（喜欢）>「không thích lắm」（不太喜欢）>「không thích」（不喜欢）>「ghét」（讨厌）。",
+            "examples": [
+                {
+                    "vi": "Tôi rất thích đọc sách.",
+                    "zh": "我很喜欢读书。"
+                },
+                {
+                    "vi": "Tôi ghét nghe nhạc ồn ào.",
+                    "zh": "我讨厌吵闹的音乐。"
+                }
+            ]
+        },
+        {
+            "point": "「mê / yêu」表热爱",
+            "explain": "「mê」和「yêu」比「thích」更强烈，表示酷爱、热爱。",
+            "examples": [
+                {
+                    "vi": "Tôi mê bóng đá.",
+                    "zh": "我酷爱足球。"
+                },
+                {
+                    "vi": "Cô ấy yêu âm nhạc.",
+                    "zh": "她热爱音乐。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「讨厌」用越南语怎么说？",
+            "options": [
+                "ghét",
+                "yêu",
+                "mê"
+            ],
+            "answer": "ghét"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi rất ___ đọc sách.",
+            "answer": "thích"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「热爱」的越南语",
+            "answer": "yêu"
+        }
+    ]
+}

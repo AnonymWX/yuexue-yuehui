@@ -1,0 +1,191 @@
+{
+    "id": "course_vi_88",
+    "title": "第 3 课：乘坐交通工具",
+    "titleVi": "Bài 3: Đi các phương tiện giao thông",
+    "level": "A1",
+    "order": 3,
+    "scenario": "transport",
+    "goals": [
+        "掌握乘坐交通工具的动词",
+        "学会「lên / xuống xe」",
+        "掌握下车、换乘说法",
+        "能描述乘车过程"
+    ],
+    "words": [
+        {
+            "id": "vi_len_xe",
+            "name": "lên xe",
+            "trans": [
+                "上车"
+            ],
+            "tags": [
+                "transport",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_xuong_xe",
+            "name": "xuống xe",
+            "trans": [
+                "下车"
+            ],
+            "tags": [
+                "transport",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_lai_xe",
+            "name": "lái xe",
+            "trans": [
+                "开车",
+                "驾驶"
+            ],
+            "tags": [
+                "transport",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_cho",
+            "name": "chở",
+            "trans": [
+                "载",
+                "运载"
+            ],
+            "tags": [
+                "transport",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_dung",
+            "name": "đừng",
+            "trans": [
+                "停（车）"
+            ],
+            "tags": [
+                "transport",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_chuyen_xe",
+            "name": "chuyển xe",
+            "trans": [
+                "换乘"
+            ],
+            "tags": [
+                "transport",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tram",
+            "name": "trạm",
+            "trans": [
+                "站（公交站）"
+            ],
+            "tags": [
+                "transport",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_diem_dung",
+            "name": "điểm dừng",
+            "trans": [
+                "停靠点"
+            ],
+            "tags": [
+                "transport",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_523",
+        "sentence_vi_524",
+        "sentence_vi_525",
+        "sentence_vi_526",
+        "sentence_vi_527",
+        "sentence_vi_528"
+    ],
+    "grammar": [
+        {
+            "point": "「lên / xuống + 交通工具」表上下车",
+            "explain": "上车用「lên xe」，下车用「xuống xe」。坐公交也可说「lên xe buýt」（上公交）。",
+            "examples": [
+                {
+                    "vi": "Lên xe đi!",
+                    "zh": "上车吧！"
+                },
+                {
+                    "vi": "Xuống xe ở trạm tiếp theo.",
+                    "zh": "在下一站下车。"
+                }
+            ]
+        },
+        {
+            "point": "「đi + 交通工具」与「lái + 交通工具」",
+            "explain": "「đi xe」= 骑车/坐车（自己骑或作为乘客）；「lái xe」= 开车、驾驶（司机动作）。",
+            "examples": [
+                {
+                    "vi": "Tôi đi xe máy đến trường.",
+                    "zh": "我骑摩托去学校。"
+                },
+                {
+                    "vi": "Anh ấy lái xe buýt.",
+                    "zh": "他开公交车。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「上车」用越南语怎么说？",
+            "options": [
+                "lên xe",
+                "xuống xe",
+                "chuyển xe"
+            ],
+            "answer": "lên xe"
+        },
+        {
+            "type": "fill",
+            "question": "Xuống xe ở ___ tiếp theo.",
+            "answer": "trạm"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「开车」的越南语",
+            "answer": "lái xe"
+        }
+    ]
+}

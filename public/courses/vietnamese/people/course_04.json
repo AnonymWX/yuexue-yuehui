@@ -1,0 +1,192 @@
+{
+    "id": "course_vi_30",
+    "title": "第 4 课：年龄与代际",
+    "titleVi": "Bài 4: Tuổi tác và thế hệ",
+    "level": "A1",
+    "order": 4,
+    "scenario": "people",
+    "goals": [
+        "掌握年龄与代际的越南语说法",
+        "学会问年龄",
+        "能用「tuổi」表年龄",
+        "能区分各年龄段的称谓"
+    ],
+    "words": [
+        {
+            "id": "vi_tuoi",
+            "name": "tuổi",
+            "trans": [
+                "岁",
+                "年龄"
+            ],
+            "tags": [
+                "people",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tre",
+            "name": "trẻ",
+            "trans": [
+                "年轻"
+            ],
+            "tags": [
+                "people",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_gia",
+            "name": "già",
+            "trans": [
+                "老"
+            ],
+            "tags": [
+                "people",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tre_em",
+            "name": "trẻ em",
+            "trans": [
+                "儿童"
+            ],
+            "tags": [
+                "people",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nguoi_lon",
+            "name": "người lớn",
+            "trans": [
+                "成人",
+                "大人"
+            ],
+            "tags": [
+                "people",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thanh_nien",
+            "name": "thanh niên",
+            "trans": [
+                "青年"
+            ],
+            "tags": [
+                "people",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_trung_nien",
+            "name": "trung niên",
+            "trans": [
+                "中年"
+            ],
+            "tags": [
+                "people",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_em_be",
+            "name": "em bé",
+            "trans": [
+                "婴儿",
+                "宝宝"
+            ],
+            "tags": [
+                "people",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_175",
+        "sentence_vi_176",
+        "sentence_vi_177",
+        "sentence_vi_178",
+        "sentence_vi_179",
+        "sentence_vi_180"
+    ],
+    "grammar": [
+        {
+            "point": "问年龄「bao nhiêu tuổi?」",
+            "explain": "问年龄用「主语 + bao nhiêu tuổi?」，回答用「主语 + số + tuổi」。对小孩也可问「mấy tuổi?」。",
+            "examples": [
+                {
+                    "vi": "Anh bao nhiêu tuổi?",
+                    "zh": "你多大了？"
+                },
+                {
+                    "vi": "Tôi 25 tuổi.",
+                    "zh": "我 25 岁。"
+                }
+            ]
+        },
+        {
+            "point": "年龄段称谓",
+            "explain": "越南语用不同词区分年龄段：「em bé」婴儿、「trẻ em」儿童、「thanh niên」青年、「trung niên」中年、「người già」老人。",
+            "examples": [
+                {
+                    "vi": "Anh ấy còn trẻ.",
+                    "zh": "他还年轻。"
+                },
+                {
+                    "vi": "Bà ấy đã già.",
+                    "zh": "她已经老了。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「你多大了？」的正确说法是？",
+            "options": [
+                "Anh bao nhiêu tuổi?",
+                "Anh tuổi bao nhiêu?",
+                "Bao nhiêu anh tuổi?"
+            ],
+            "answer": "Anh bao nhiêu tuổi?"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi 25 ___.",
+            "answer": "tuổi"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「年轻」的越南语",
+            "answer": "trẻ"
+        }
+    ]
+}

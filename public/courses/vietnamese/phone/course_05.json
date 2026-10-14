@@ -1,0 +1,191 @@
+{
+    "id": "course_vi_95",
+    "title": "第 5 课：打错电话",
+    "titleVi": "Bài 5: Gọi nhầm số",
+    "level": "A2",
+    "order": 5,
+    "scenario": "phone",
+    "goals": [
+        "掌握打错电话的表达",
+        "学会礼貌道歉",
+        "掌握「nhầm số」说法",
+        "能处理打错电话场景"
+    ],
+    "words": [
+        {
+            "id": "vi_nham_so",
+            "name": "nhầm số",
+            "trans": [
+                "打错号码"
+            ],
+            "tags": [
+                "phone",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_nham",
+            "name": "nhầm",
+            "trans": [
+                "错误",
+                "搞错"
+            ],
+            "tags": [
+                "phone",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_kiem_tra",
+            "name": "kiểm tra",
+            "trans": [
+                "检查",
+                "核对"
+            ],
+            "tags": [
+                "phone",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_so_khac",
+            "name": "số khác",
+            "trans": [
+                "其他号码"
+            ],
+            "tags": [
+                "phone",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_dung_so",
+            "name": "đúng số",
+            "trans": [
+                "号码正确"
+            ],
+            "tags": [
+                "phone",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_lam_phien",
+            "name": "làm phiền",
+            "trans": [
+                "打扰"
+            ],
+            "tags": [
+                "phone",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_xin_loi_phone",
+            "name": "xin lỗi",
+            "trans": [
+                "对不起"
+            ],
+            "tags": [
+                "phone",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_khong_sao",
+            "name": "không sao",
+            "trans": [
+                "没关系"
+            ],
+            "tags": [
+                "phone",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_565",
+        "sentence_vi_566",
+        "sentence_vi_567",
+        "sentence_vi_568",
+        "sentence_vi_569",
+        "sentence_vi_570"
+    ],
+    "grammar": [
+        {
+            "point": "「Xin lỗi, tôi nhầm số」表道歉",
+            "explain": "打错电话时的标准道歉用「Xin lỗi, tôi nhầm số」（对不起，我打错了）。",
+            "examples": [
+                {
+                    "vi": "Xin lỗi, tôi nhầm số.",
+                    "zh": "对不起，我打错了。"
+                },
+                {
+                    "vi": "Xin lỗi, tôi gọi nhầm số.",
+                    "zh": "对不起，我拨错号码了。"
+                }
+            ]
+        },
+        {
+            "point": "「không sao」表没关系",
+            "explain": "对方道歉时用「Không sao」（没关系）回应。",
+            "examples": [
+                {
+                    "vi": "Không sao đâu.",
+                    "zh": "没关系。"
+                },
+                {
+                    "vi": "Không có gì.",
+                    "zh": "没什么。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「对不起，我打错了」的正确说法是？",
+            "options": [
+                "Xin lỗi, tôi nhầm số",
+                "Xin lỗi, tôi số nhầm",
+                "Nhầm số xin lỗi tôi"
+            ],
+            "answer": "Xin lỗi, tôi nhầm số"
+        },
+        {
+            "type": "fill",
+            "question": "Không ___ đâu.",
+            "answer": "sao"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「打扰」的越南语",
+            "answer": "làm phiền"
+        }
+    ]
+}

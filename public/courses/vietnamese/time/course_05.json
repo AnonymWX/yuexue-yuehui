@@ -1,0 +1,194 @@
+{
+    "id": "course_vi_47",
+    "title": "第 5 课：时间段表达",
+    "titleVi": "Bài 5: Diễn đạt khoảng thời gian",
+    "level": "A1",
+    "order": 5,
+    "scenario": "time",
+    "goals": [
+        "掌握「từ... đến...」结构",
+        "掌握「suốt / trong」表持续",
+        "掌握「mỗi / hàng」表每次",
+        "能表达时间跨度"
+    ],
+    "words": [
+        {
+            "id": "vi_tu",
+            "name": "từ",
+            "trans": [
+                "从"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_den",
+            "name": "đến",
+            "trans": [
+                "到",
+                "至"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_suot",
+            "name": "suốt",
+            "trans": [
+                "整个",
+                "一直"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_trong",
+            "name": "trong",
+            "trans": [
+                "在……内",
+                "期间"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_moi_each",
+            "name": "mỗi",
+            "trans": [
+                "每"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_hang",
+            "name": "hàng",
+            "trans": [
+                "每（周/日等）"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_lau",
+            "name": "lâu",
+            "trans": [
+                "久",
+                "长时间"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ngay",
+            "name": "ngày",
+            "trans": [
+                "天",
+                "日"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_277",
+        "sentence_vi_278",
+        "sentence_vi_279",
+        "sentence_vi_280",
+        "sentence_vi_281",
+        "sentence_vi_282"
+    ],
+    "grammar": [
+        {
+            "point": "「từ + 起点 + đến + 终点」",
+            "explain": "表示「从……到……」用「từ + 起点 + đến + 终点」，可用于时间或地点。",
+            "examples": [
+                {
+                    "vi": "Tôi làm việc từ 8 giờ đến 5 giờ.",
+                    "zh": "我从 8 点工作到 5 点。"
+                },
+                {
+                    "vi": "Từ thứ hai đến thứ sáu tôi đi học.",
+                    "zh": "周一到周五我上学。"
+                }
+            ]
+        },
+        {
+            "point": "「mỗi / hàng + 时间单位」表频率",
+            "explain": "「mỗi」和「hàng」都表示「每」，后接时间单位，如「mỗi ngày」（每天）、「hàng tuần」（每周）。",
+            "examples": [
+                {
+                    "vi": "Mỗi ngày tôi học tiếng Việt.",
+                    "zh": "我每天学越南语。"
+                },
+                {
+                    "vi": "Hàng tuần tôi đi chợ.",
+                    "zh": "我每周去市场。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「从 8 点到 5 点」的正确说法是？",
+            "options": [
+                "từ 8 giờ đến 5 giờ",
+                "8 giờ từ đến 5 giờ",
+                "đến 8 giờ từ 5 giờ"
+            ],
+            "answer": "từ 8 giờ đến 5 giờ"
+        },
+        {
+            "type": "fill",
+            "question": "___ ngày tôi học tiếng Việt.",
+            "answer": "Mỗi"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「每（周/日）」的越南语",
+            "answer": "hàng"
+        }
+    ]
+}

@@ -1,0 +1,191 @@
+{
+    "id": "course_vi_53",
+    "title": "第 5 课：问星期几",
+    "titleVi": "Bài 5: Hỏi thứ, ngày, tháng",
+    "level": "A1",
+    "order": 5,
+    "scenario": "calendar",
+    "goals": [
+        "掌握问星期、日期、月份、年份",
+        "掌握「thứ mấy / ngày mấy」句型",
+        "能进行时间约见对话",
+        "能描述时间安排"
+    ],
+    "words": [
+        {
+            "id": "vi_thu_may",
+            "name": "thứ mấy",
+            "trans": [
+                "星期几"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ngay_may",
+            "name": "ngày mấy",
+            "trans": [
+                "几号"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thang_may",
+            "name": "tháng mấy",
+            "trans": [
+                "几月"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nam_nao",
+            "name": "năm nào",
+            "trans": [
+                "哪一年"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_bao_gio",
+            "name": "bao giờ",
+            "trans": [
+                "什么时候",
+                "何时"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tuan",
+            "name": "tuần",
+            "trans": [
+                "周",
+                "星期"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_dau_tuan",
+            "name": "đầu tuần",
+            "trans": [
+                "周初"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_cuoi_tuan",
+            "name": "cuối tuần",
+            "trans": [
+                "周末"
+            ],
+            "tags": [
+                "calendar",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_313",
+        "sentence_vi_314",
+        "sentence_vi_315",
+        "sentence_vi_316",
+        "sentence_vi_317",
+        "sentence_vi_318"
+    ],
+    "grammar": [
+        {
+            "point": "问星期「Hôm nay là thứ mấy?」",
+            "explain": "问今天星期几用「Hôm nay là thứ mấy?」，回答用「Hôm nay là thứ + 数字」。",
+            "examples": [
+                {
+                    "vi": "Hôm nay là thứ mấy?",
+                    "zh": "今天星期几？"
+                },
+                {
+                    "vi": "Hôm nay là thứ hai.",
+                    "zh": "今天星期一。"
+                }
+            ]
+        },
+        {
+            "point": "「bao giờ」问何时",
+            "explain": "「bao giờ」意为「什么时候」，可放在句末或句首。比「khi nào」更口语。",
+            "examples": [
+                {
+                    "vi": "Bạn đến bao giờ?",
+                    "zh": "你什么时候到？"
+                },
+                {
+                    "vi": "Bao giờ bạn đi?",
+                    "zh": "你什么时候走？"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「今天星期几？」的正确说法是？",
+            "options": [
+                "Hôm nay là thứ mấy?",
+                "Thứ mấy hôm nay là?",
+                "Là hôm nay thứ mấy?"
+            ],
+            "answer": "Hôm nay là thứ mấy?"
+        },
+        {
+            "type": "fill",
+            "question": "Sinh nhật bạn là tháng ___?",
+            "answer": "mấy"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「周末」的越南语",
+            "answer": "cuối tuần"
+        }
+    ]
+}

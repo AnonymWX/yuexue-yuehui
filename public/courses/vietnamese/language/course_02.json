@@ -1,0 +1,191 @@
+{
+    "id": "course_vi_16",
+    "title": "第 3 课：语言名称",
+    "titleVi": "Bài 3: Tên các ngôn ngữ",
+    "level": "A1",
+    "order": 3,
+    "scenario": "language",
+    "goals": [
+        "掌握常见语言的越南语说法",
+        "掌握「tiếng + 国名」结构",
+        "能区分「người + 国名」与「tiếng + 国名」",
+        "能说出 8 种语言名称"
+    ],
+    "words": [
+        {
+            "id": "vi_tieng",
+            "name": "tiếng",
+            "trans": [
+                "语言",
+                "声音"
+            ],
+            "tags": [
+                "language",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tieng_viet",
+            "name": "tiếng Việt",
+            "trans": [
+                "越南语"
+            ],
+            "tags": [
+                "language",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tieng_trung",
+            "name": "tiếng Trung",
+            "trans": [
+                "汉语",
+                "中文"
+            ],
+            "tags": [
+                "language",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tieng_anh",
+            "name": "tiếng Anh",
+            "trans": [
+                "英语"
+            ],
+            "tags": [
+                "language",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tieng_nhat",
+            "name": "tiếng Nhật",
+            "trans": [
+                "日语"
+            ],
+            "tags": [
+                "language",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tieng_han",
+            "name": "tiếng Hàn",
+            "trans": [
+                "韩语"
+            ],
+            "tags": [
+                "language",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tieng_phap",
+            "name": "tiếng Pháp",
+            "trans": [
+                "法语"
+            ],
+            "tags": [
+                "language",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tieng_me",
+            "name": "tiếng Mỹ",
+            "trans": [
+                "美式英语"
+            ],
+            "tags": [
+                "language",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_091",
+        "sentence_vi_092",
+        "sentence_vi_093",
+        "sentence_vi_094",
+        "sentence_vi_095",
+        "sentence_vi_096"
+    ],
+    "grammar": [
+        {
+            "point": "「tiếng + 国名」表语言",
+            "explain": "表达某国语言用「tiếng + 国名」，如「tiếng Việt」（越南语）、「tiếng Anh」（英语）。注意「tiếng Anh」是固定说法，不写作「tiếng Anh Quốc」。",
+            "examples": [
+                {
+                    "vi": "Tôi học tiếng Việt.",
+                    "zh": "我学越南语。"
+                },
+                {
+                    "vi": "Anh ấy nói tiếng Anh.",
+                    "zh": "他说英语。"
+                }
+            ]
+        },
+        {
+            "point": "「người + 国名」与「tiếng + 国名」的区别",
+            "explain": "「người + 国名」指人，「tiếng + 国名」指语言。注意英语「tiếng Anh」、美国「nước Mỹ」的不对称用法。",
+            "examples": [
+                {
+                    "vi": "Tôi là người Việt Nam, tôi nói tiếng Việt.",
+                    "zh": "我是越南人，我说越南语。"
+                },
+                {
+                    "vi": "Anh ấy là người Anh, anh ấy nói tiếng Anh.",
+                    "zh": "他是英国人，他说英语。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「英语」用越南语怎么说？",
+            "options": [
+                "tiếng Anh",
+                "tiếng Mỹ",
+                "tiếng Pháp"
+            ],
+            "answer": "tiếng Anh"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi học ___ Việt.",
+            "answer": "tiếng"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「日语」的越南语",
+            "answer": "tiếng Nhật"
+        }
+    ]
+}

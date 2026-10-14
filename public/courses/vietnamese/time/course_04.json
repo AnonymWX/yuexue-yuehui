@@ -1,0 +1,195 @@
+{
+    "id": "course_vi_46",
+    "title": "第 4 课：上午、下午、晚上",
+    "titleVi": "Bài 4: Buổi sáng, buổi chiều, buổi tối",
+    "level": "A1",
+    "order": 4,
+    "scenario": "time",
+    "goals": [
+        "掌握各时段名称",
+        "学会「buổi + 时段」表达",
+        "能区分一天中的不同时段",
+        "能用时段描述活动"
+    ],
+    "words": [
+        {
+            "id": "vi_buoi",
+            "name": "buổi",
+            "trans": [
+                "时段",
+                "时候"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_sang",
+            "name": "sáng",
+            "trans": [
+                "早上",
+                "上午"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_trua",
+            "name": "trưa",
+            "trans": [
+                "中午"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_chieu",
+            "name": "chiều",
+            "trans": [
+                "下午",
+                "傍晚"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_toi_evening",
+            "name": "tối",
+            "trans": [
+                "晚上"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_dem",
+            "name": "đêm",
+            "trans": [
+                "夜",
+                "夜晚"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_sang_som",
+            "name": "sáng sớm",
+            "trans": [
+                "清早",
+                "一大早"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_chieu_muon",
+            "name": "chiều muộn",
+            "trans": [
+                "傍晚",
+                "下午晚些"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_271",
+        "sentence_vi_272",
+        "sentence_vi_273",
+        "sentence_vi_274",
+        "sentence_vi_275",
+        "sentence_vi_276"
+    ],
+    "grammar": [
+        {
+            "point": "「buổi + 时段」表时段",
+            "explain": "「buổi」意为「时段」，与时段词组合，如「buổi sáng」（早上）、「buổi chiều」（下午）、「buổi tối」（晚上）。",
+            "examples": [
+                {
+                    "vi": "Buổi sáng tôi học tiếng Việt.",
+                    "zh": "早上我学越南语。"
+                },
+                {
+                    "vi": "Buổi tối tôi xem tivi.",
+                    "zh": "晚上我看电视。"
+                }
+            ]
+        },
+        {
+            "point": "「vào + 时段」表在某个时段",
+            "explain": "「vào」意为「在……时」，后接时段词，如「vào buổi sáng」（在早上）。",
+            "examples": [
+                {
+                    "vi": "Vào buổi sáng, tôi đi làm.",
+                    "zh": "早上我去上班。"
+                },
+                {
+                    "vi": "Vào buổi tối, tôi nghỉ ngơi.",
+                    "zh": "晚上我休息。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「晚上」用越南语怎么说？",
+            "options": [
+                "tối",
+                "trưa",
+                "chiều"
+            ],
+            "answer": "tối"
+        },
+        {
+            "type": "fill",
+            "question": "Buổi ___ tôi học tiếng Việt.",
+            "answer": "sáng"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「中午」的越南语",
+            "answer": "trưa"
+        }
+    ]
+}

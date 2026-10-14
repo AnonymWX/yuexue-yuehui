@@ -1,0 +1,192 @@
+{
+    "id": "course_vi_24",
+    "title": "第 6 课：材料名称",
+    "titleVi": "Bài 6: Tên các chất liệu",
+    "level": "A1",
+    "order": 6,
+    "scenario": "objects",
+    "goals": [
+        "掌握常见材料名称",
+        "学会「làm bằng + 材料」结构",
+        "能描述物品的材质",
+        "能听懂材料相关提问"
+    ],
+    "words": [
+        {
+            "id": "vi_go",
+            "name": "gỗ",
+            "trans": [
+                "木头",
+                "木材"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_kim_loai",
+            "name": "kim loại",
+            "trans": [
+                "金属"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nhua",
+            "name": "nhựa",
+            "trans": [
+                "塑料"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thuy_tinh",
+            "name": "thủy tinh",
+            "trans": [
+                "玻璃"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_da_thuoc",
+            "name": "da",
+            "trans": [
+                "皮革",
+                "皮"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_vai",
+            "name": "vải",
+            "trans": [
+                "布",
+                "布料"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_cao_su",
+            "name": "cao su",
+            "trans": [
+                "橡胶"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_lam_bang",
+            "name": "làm bằng",
+            "trans": [
+                "用……制成"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_139",
+        "sentence_vi_140",
+        "sentence_vi_141",
+        "sentence_vi_142",
+        "sentence_vi_143",
+        "sentence_vi_144"
+    ],
+    "grammar": [
+        {
+            "point": "「làm bằng + 材料」表材质",
+            "explain": "表示物品由什么材料制成用「làm bằng + 材料」，如「làm bằng gỗ」（木制的）。",
+            "examples": [
+                {
+                    "vi": "Cái bàn này làm bằng gỗ.",
+                    "zh": "这张桌子是木制的。"
+                },
+                {
+                    "vi": "Cái ly này làm bằng thủy tinh.",
+                    "zh": "这个杯子是玻璃制的。"
+                }
+            ]
+        },
+        {
+            "point": "材料名词的常见搭配",
+            "explain": "越南语中材料名词可以直接作定语，也可以与「làm bằng」搭配。注意「da」有「皮/皮革」和「石头」两种意思，语境区分。",
+            "examples": [
+                {
+                    "vi": "Cái túi này làm bằng da.",
+                    "zh": "这个包是皮革制的。"
+                },
+                {
+                    "vi": "Cái áo này làm bằng vải.",
+                    "zh": "这件衣服是布制的。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「木制的」用越南语怎么说？",
+            "options": [
+                "làm bằng gỗ",
+                "làm bằng nhựa",
+                "làm bằng vải"
+            ],
+            "answer": "làm bằng gỗ"
+        },
+        {
+            "type": "fill",
+            "question": "Cái ly này làm ___ thủy tinh.",
+            "answer": "bằng"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「塑料」的越南语",
+            "answer": "nhựa"
+        }
+    ]
+}

@@ -1,0 +1,193 @@
+{
+    "id": "course_vi_67",
+    "title": "第 3 课：问地址",
+    "titleVi": "Bài 3: Hỏi địa chỉ",
+    "level": "A1",
+    "order": 3,
+    "scenario": "places",
+    "goals": [
+        "学会问对方地址",
+        "掌握「địa chỉ là gì」句型",
+        "掌握「ở đâu」问地址",
+        "能进行地址相关问答"
+    ],
+    "words": [
+        {
+            "id": "vi_dia_chi_places",
+            "name": "địa chỉ",
+            "trans": [
+                "地址"
+            ],
+            "tags": [
+                "places",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_o_dau_places",
+            "name": "ở đâu",
+            "trans": [
+                "在哪里"
+            ],
+            "tags": [
+                "places",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_ghi",
+            "name": "ghi",
+            "trans": [
+                "写",
+                "记"
+            ],
+            "tags": [
+                "places",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_dien",
+            "name": "điền",
+            "trans": [
+                "填",
+                "填写"
+            ],
+            "tags": [
+                "places",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_phieu",
+            "name": "phiếu",
+            "trans": [
+                "单子",
+                "表格"
+            ],
+            "tags": [
+                "places",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_thong_tin",
+            "name": "thông tin",
+            "trans": [
+                "信息"
+            ],
+            "tags": [
+                "places",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_lien_lac",
+            "name": "liên lạc",
+            "trans": [
+                "联系"
+            ],
+            "tags": [
+                "places",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_giay_to",
+            "name": "giấy tờ",
+            "trans": [
+                "证件",
+                "文件"
+            ],
+            "tags": [
+                "places",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_397",
+        "sentence_vi_398",
+        "sentence_vi_399",
+        "sentence_vi_400",
+        "sentence_vi_401",
+        "sentence_vi_402"
+    ],
+    "grammar": [
+        {
+            "point": "问地址「Địa chỉ của bạn là gì?」",
+            "explain": "正式问地址用「Địa chỉ của bạn là gì?」，口语常用「Bạn ở đâu?」（你住哪？）。",
+            "examples": [
+                {
+                    "vi": "Địa chỉ của bạn là gì?",
+                    "zh": "你的地址是什么？"
+                },
+                {
+                    "vi": "Bạn ở đâu?",
+                    "zh": "你住哪？"
+                }
+            ]
+        },
+        {
+            "point": "「ghi + 内容」表写、记录",
+            "explain": "「ghi」意为「写、记」，如「ghi địa chỉ」（写地址）。填写表格用「điền vào phiếu」。",
+            "examples": [
+                {
+                    "vi": "Tôi ghi địa chỉ vào phiếu.",
+                    "zh": "我把地址写在表格上。"
+                },
+                {
+                    "vi": "Xin điền thông tin vào đây.",
+                    "zh": "请把信息填在这里。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「你的地址是什么？」的正确说法是？",
+            "options": [
+                "Địa chỉ của bạn là gì?",
+                "Bạn địa chỉ là gì?",
+                "Là gì địa chỉ của bạn?"
+            ],
+            "answer": "Địa chỉ của bạn là gì?"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi ___ địa chỉ vào phiếu.",
+            "answer": "ghi"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「信息」的越南语",
+            "answer": "thông tin"
+        }
+    ]
+}

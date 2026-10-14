@@ -1,0 +1,42 @@
+{
+    "id": "greeting",
+    "title": "问候与姓名",
+    "titleVi": "Chào hỏi và Tên",
+    "courses": [
+        {
+            "id": "course_vi_01",
+            "file": "course_01.json",
+            "title": "第 1 课：基本问候语",
+            "titleVi": "Bài 1: Chào hỏi cơ bản",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_02",
+            "file": "course_02.json",
+            "title": "第 2 课：问姓名与自我介绍",
+            "titleVi": "Bài 2: Hỏi tên và tự giới thiệu",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_03",
+            "file": "course_03.json",
+            "title": "第 3 课：人称代词",
+            "titleVi": "Bài 3: Đại từ nhân xưng",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_04",
+            "file": "course_04.json",
+            "title": "第 4 课：肯定回应词",
+            "titleVi": "Bài 4: Từ xác nhận",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_05",
+            "file": "course_05.json",
+            "title": "第 5 课：问健康与近况",
+            "titleVi": "Bài 5: Hỏi thăm sức khỏe",
+            "level": "A1"
+        }
+    ]
+}

@@ -1,0 +1,190 @@
+{
+    "id": "course_vi_14",
+    "title": "第 1 课：国家名称",
+    "titleVi": "Bài 1: Tên các quốc gia",
+    "level": "A1",
+    "order": 1,
+    "scenario": "language",
+    "goals": [
+        "掌握常见国家名称的越南语说法",
+        "了解「nước」表示国家的用法",
+        "能用「nước + 国名」表达国家",
+        "能听懂并说出 8 个国家名"
+    ],
+    "words": [
+        {
+            "id": "vi_nuoc",
+            "name": "nước",
+            "trans": [
+                "国家",
+                "水"
+            ],
+            "tags": [
+                "language",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_viet_nam",
+            "name": "Việt Nam",
+            "trans": [
+                "越南"
+            ],
+            "tags": [
+                "language",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_trung_quoc",
+            "name": "Trung Quốc",
+            "trans": [
+                "中国"
+            ],
+            "tags": [
+                "language",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_my",
+            "name": "Mỹ",
+            "trans": [
+                "美国"
+            ],
+            "tags": [
+                "language",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_nhat_ban",
+            "name": "Nhật Bản",
+            "trans": [
+                "日本"
+            ],
+            "tags": [
+                "language",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_han_quoc",
+            "name": "Hàn Quốc",
+            "trans": [
+                "韩国"
+            ],
+            "tags": [
+                "language",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_anh_quoc",
+            "name": "Anh",
+            "trans": [
+                "英国"
+            ],
+            "tags": [
+                "language",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_phap",
+            "name": "Pháp",
+            "trans": [
+                "法国"
+            ],
+            "tags": [
+                "language",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_079",
+        "sentence_vi_080",
+        "sentence_vi_081",
+        "sentence_vi_082",
+        "sentence_vi_083",
+        "sentence_vi_084"
+    ],
+    "grammar": [
+        {
+            "point": "「nước」表示国家",
+            "explain": "「nước」本义是「水」，也可表示「国家」。说某国时，既可直接用国名（如「Việt Nam」），也可加「nước」表示强调。",
+            "examples": [
+                {
+                    "vi": "Tôi ở Việt Nam.",
+                    "zh": "我在越南。"
+                },
+                {
+                    "vi": "Đây là nước Trung Quốc.",
+                    "zh": "这是中国。"
+                }
+            ]
+        },
+        {
+            "point": "国家名称的单音节习惯",
+            "explain": "越南语部分国家名称用单音节词表示，如「Mỹ」（美国）、「Anh」（英国）、「Pháp」（法国）。正式场合常加「nước」以免歧义。",
+            "examples": [
+                {
+                    "vi": "Anh ấy là người Mỹ.",
+                    "zh": "他是美国人。"
+                },
+                {
+                    "vi": "Nước Pháp rất đẹp.",
+                    "zh": "法国很美。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「越南」用越南语怎么说？",
+            "options": [
+                "Việt Nam",
+                "Trung Quốc",
+                "Nhật Bản"
+            ],
+            "answer": "Việt Nam"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi ở ___ Nam.",
+            "answer": "Việt"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「日本」的越南语",
+            "answer": "Nhật Bản"
+        }
+    ]
+}

@@ -1,0 +1,193 @@
+{
+    "id": "course_vi_63",
+    "title": "第 4 课：问路对话",
+    "titleVi": "Bài 4: Hội thoại hỏi đường",
+    "level": "A2",
+    "order": 4,
+    "scenario": "directions",
+    "goals": [
+        "掌握问路场景用语",
+        "学会礼貌问路",
+        "能听懂指路回答",
+        "能完成一次问路对话"
+    ],
+    "words": [
+        {
+            "id": "vi_hoi_duong",
+            "name": "hỏi đường",
+            "trans": [
+                "问路"
+            ],
+            "tags": [
+                "directions",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_chi_duong",
+            "name": "chỉ đường",
+            "trans": [
+                "指路"
+            ],
+            "tags": [
+                "directions",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_nguoi_la",
+            "name": "người lạ",
+            "trans": [
+                "陌生人"
+            ],
+            "tags": [
+                "directions",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_xin_loi",
+            "name": "xin lỗi",
+            "trans": [
+                "对不起",
+                "劳驾"
+            ],
+            "tags": [
+                "directions",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_lam_on",
+            "name": "làm ơn",
+            "trans": [
+                "请",
+                "劳驾"
+            ],
+            "tags": [
+                "directions",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_giup_do",
+            "name": "giúp đỡ",
+            "trans": [
+                "帮助"
+            ],
+            "tags": [
+                "directions",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_chi_dan",
+            "name": "chỉ dẫn",
+            "trans": [
+                "指引",
+                "指导"
+            ],
+            "tags": [
+                "directions",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_lo_trinh",
+            "name": "lộ trình",
+            "trans": [
+                "路线",
+                "行程"
+            ],
+            "tags": [
+                "directions",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_373",
+        "sentence_vi_374",
+        "sentence_vi_375",
+        "sentence_vi_376",
+        "sentence_vi_377",
+        "sentence_vi_378"
+    ],
+    "grammar": [
+        {
+            "point": "礼貌问路「Xin lỗi, cho tôi hỏi...」",
+            "explain": "礼貌问路以「Xin lỗi」开头，后接「cho tôi hỏi」（请问），再接具体问题。",
+            "examples": [
+                {
+                    "vi": "Xin lỗi, cho tôi hỏi chợ ở đâu?",
+                    "zh": "对不起，请问市场在哪？"
+                },
+                {
+                    "vi": "Xin lỗi, làm ơn chỉ đường giúp tôi.",
+                    "zh": "对不起，劳驾帮我指路。"
+                }
+            ]
+        },
+        {
+            "point": "「chỉ + 名词 + cho + 人」表给某人指",
+            "explain": "「chỉ」意为「指」，结构为「chỉ + 名词 + cho + 人」，如「chỉ đường cho tôi」（给我指路）。",
+            "examples": [
+                {
+                    "vi": "Anh ấy chỉ đường cho tôi.",
+                    "zh": "他给我指路。"
+                },
+                {
+                    "vi": "Cô ấy chỉ vị trí cho tôi.",
+                    "zh": "她给我指位置。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「请问市场在哪？」的礼貌说法是？",
+            "options": [
+                "Xin lỗi, cho tôi hỏi chợ ở đâu?",
+                "Chợ ở đâu xin lỗi?",
+                "Cho hỏi xin lỗi chợ đâu?"
+            ],
+            "answer": "Xin lỗi, cho tôi hỏi chợ ở đâu?"
+        },
+        {
+            "type": "fill",
+            "question": "Xin lỗi, làm ___ chỉ đường giúp tôi.",
+            "answer": "ơn"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「问路」的越南语",
+            "answer": "hỏi đường"
+        }
+    ]
+}
