@@ -1,106 +1,118 @@
 import { pronunciationConfigAtom } from '@/store'
 import type { PronunciationType } from '@/typings'
-import { addHowlListener } from '@/utils'
-import { romajiToHiragana } from '@/utils/kana'
-import noop from '@/utils/noop'
-import type { Howl } from 'howler'
 import { useAtomValue } from 'jotai'
-import { useEffect, useMemo, useState } from 'react'
-import useSound from 'use-sound'
-import type { HookOptions } from 'use-sound/dist/types'
+import { useEffect, useMemo, useRef, useState } from 'react'
 
-const pronunciationApi = 'https://dict.youdao.com/dictvoice?audio='
-export function generateWordSoundSrc(word: string, pronunciation: Exclude<PronunciationType, false>): string {
-  switch (pronunciation) {
-    case 'uk':
-      return `${pronunciationApi}${word}&type=1`
-    case 'us':
-      return `${pronunciationApi}${word}&type=2`
-    case 'romaji':
-      return `${pronunciationApi}${romajiToHiragana(word)}&le=jap`
-    case 'zh':
-      return `${pronunciationApi}${word}&le=zh`
-    case 'ja':
-      return `${pronunciationApi}${word}&le=jap`
-    case 'de':
-      return `${pronunciationApi}${word}&le=de`
-    case 'hapin':
-    case 'kk':
-      return `${pronunciationApi}${word}&le=ru` // 有道不支持哈萨克语, 暂时用俄语发音兜底
-    case 'id':
-      return `${pronunciationApi}${word}&le=id`
-    case 'vi':
-      return `${pronunciationApi}${word}&le=vi`
-    default:
-      return ''
-  }
+/** PronunciationType → BCP47 语言代码 */
+const LANG_MAP: Record<string, string> = {
+  us: 'en-US',
+  uk: 'en-GB',
+  romaji: 'ja-JP',
+  ja: 'ja-JP',
+  zh: 'zh-CN',
+  de: 'de-DE',
+  vi: 'vi-VN',
+  id: 'id-ID',
+  hapin: 'kk-KZ',
+  kk: 'kk-KZ',
 }
 
+/** 该 pronunciation 类型对应的语言代码 */
+export function generateWordSoundLang(pronunciation: PronunciationType): string {
+  if (!pronunciation) return 'en-US'
+  return LANG_MAP[pronunciation] ?? 'en-US'
+}
+
+/**
+ * 用浏览器 speechSynthesis 播放单词
+ * 兼容原 usePronunciationSound 接口：返回 { play, stop, isPlaying }
+ */
 export default function usePronunciationSound(word: string, isLoop?: boolean, overrideType?: PronunciationType) {
   const pronunciationConfig = useAtomValue(pronunciationConfigAtom)
   const loop = useMemo(() => (typeof isLoop === 'boolean' ? isLoop : pronunciationConfig.isLoop), [isLoop, pronunciationConfig.isLoop])
   const [isPlaying, setIsPlaying] = useState(false)
+  const utterRef = useRef<SpeechSynthesisUtterance | null>(null)
 
-  const effectiveType = overrideType ?? pronunciationConfig.type
-  const [play, { stop, sound }] = useSound(generateWordSoundSrc(word, effectiveType), {
-    html5: true,
-    format: ['mp3'],
-    loop,
-    volume: pronunciationConfig.volume,
-    rate: pronunciationConfig.rate,
-  } as HookOptions)
-
+  // 卸载时停止
   useEffect(() => {
-    if (!sound) return
-    sound.loop(loop)
-    return noop
-  }, [loop, sound])
-
-  useEffect(() => {
-    if (!sound) return
-    const unListens: Array<() => void> = []
-
-    unListens.push(addHowlListener(sound, 'play', () => setIsPlaying(true)))
-    unListens.push(addHowlListener(sound, 'end', () => setIsPlaying(false)))
-    unListens.push(addHowlListener(sound, 'pause', () => setIsPlaying(false)))
-    unListens.push(addHowlListener(sound, 'playerror', () => setIsPlaying(false)))
-
     return () => {
-      setIsPlaying(false)
-      unListens.forEach((unListen) => unListen())
-      ;(sound as Howl).unload()
+      if (typeof window === 'undefined' || !('speechSynthesis' in window)) return
+      try {
+        window.speechSynthesis.cancel()
+      } catch {
+        /* ignore */
+      }
     }
-  }, [sound])
+  }, [])
+
+  const stop = () => {
+    if (typeof window === 'undefined' || !('speechSynthesis' in window)) return
+    try {
+      window.speechSynthesis.cancel()
+    } catch {
+      /* ignore */
+    }
+    setIsPlaying(false)
+  }
+
+  const play = () => {
+    if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
+      console.warn('[usePronunciation] speechSynthesis not supported')
+      return
+    }
+    if (!word) return
+
+    try {
+      window.speechSynthesis.cancel()
+    } catch {
+      /* ignore */
+    }
+
+    const effectiveType = overrideType ?? pronunciationConfig.type
+    const lang = generateWordSoundLang(effectiveType)
+
+    const utter = new SpeechSynthesisUtterance(word)
+    utter.lang = lang
+    utter.volume = pronunciationConfig.volume ?? 1
+    utter.rate = pronunciationConfig.rate ?? 1
+
+    // 优先选本地语音包
+    const voices = window.speechSynthesis.getVoices()
+    const langPrefix = lang.split('-')[0]
+    const localExact = voices.find((v) => v.lang === lang && v.localService)
+    const anyExact = voices.find((v) => v.lang === lang)
+    const localPrefix = voices.find((v) => v.lang.startsWith(langPrefix) && v.localService)
+    const anyPrefix = voices.find((v) => v.lang.startsWith(langPrefix))
+    const chosen = localExact ?? anyExact ?? localPrefix ?? anyPrefix
+    if (chosen) {
+      utter.voice = chosen
+      console.log(`[usePronunciation] "${word}" → ${chosen.name} (${chosen.lang}) | local: ${chosen.localService}`)
+    } else {
+      console.warn(`[usePronunciation] 找不到 ${lang} 的语音，使用系统默认`)
+    }
+
+    utter.onstart = () => setIsPlaying(true)
+    utter.onend = () => {
+      setIsPlaying(false)
+      if (loop) {
+        // 循环：重新播一次
+        setTimeout(() => play(), 300)
+      }
+    }
+    utter.onerror = (e) => {
+      console.warn('[usePronunciation] utter error:', e)
+      setIsPlaying(false)
+    }
+
+    utterRef.current = utter
+    window.speechSynthesis.speak(utter)
+  }
 
   return { play, stop, isPlaying }
 }
 
-export function usePrefetchPronunciationSound(word: string | undefined) {
-  const pronunciationConfig = useAtomValue(pronunciationConfigAtom)
-
-  useEffect(() => {
-    if (!word) return
-
-    const soundUrl = generateWordSoundSrc(word, pronunciationConfig.type)
-    if (soundUrl === '') return
-
-    const head = document.head
-    const isPrefetch = (Array.from(head.querySelectorAll('link[href]')) as HTMLLinkElement[]).some((el) => el.href === soundUrl)
-
-    if (!isPrefetch) {
-      const audio = new Audio()
-      audio.src = soundUrl
-      audio.preload = 'auto'
-
-      // gpt 说这这两行能尽可能规避下载插件被触发问题。 本地测试不加也可以，考虑到别的插件可能有问题，所以加上保险
-      audio.crossOrigin = 'anonymous'
-      audio.style.display = 'none'
-
-      head.appendChild(audio)
-
-      return () => {
-        head.removeChild(audio)
-      }
-    }
-  }, [pronunciationConfig.type, word])
+/** 预加载：speechSynthesis 无需预加载，保留空函数保证接口兼容 */
+export function usePrefetchPronunciationSound(_word: string | undefined) {
+  // speechSynthesis 不需要预加载
+  return
 }
