@@ -1,3 +1,4 @@
+import InputHint from '@/components/InputHint'
 import { getGroups, skipAllDrills, usePracticeProgress, type DrillMode, hasPracticeForLang } from '@/pages/Drill/useDrillProgress'
 import { getLanguageMeta } from '@/resources/languages'
 import { currentLanguageAtom } from '@/store/language'
@@ -135,145 +136,150 @@ export default function PracticePage() {
   }
 
   return (
-    <div className="container mx-auto max-w-4xl px-6 py-10">
-      {/* 头部：标题 + 总进度 */}
-      <div className="mb-8 flex flex-wrap items-end justify-between gap-4">
-        <div>
-          <h1 className="mb-1 text-3xl font-bold">{meta.label} · 基础练习</h1>
-          <p className="text-gray-500 dark:text-gray-400">{allPassed ? '全部通过，学习功能已解锁 🎉' : '练熟基础后，学习会轻松很多'}</p>
-        </div>
-        <div className="text-right">
-          <div className="text-sm text-gray-500 dark:text-gray-400">
-            已完成 <span className="text-2xl font-bold text-indigo-500">{passedGroups}</span> / {totalGroups} 组
-          </div>
-          <div className="mt-2 h-2 w-44 overflow-hidden rounded-full bg-gray-100 dark:bg-gray-800">
-            <div className="h-full rounded-full bg-indigo-500 transition-all" style={{ width: `${totalPct}%` }} />
-          </div>
-        </div>
-      </div>
-
-      {/* 全部通过庆祝条 */}
-      {allPassed && (
-        <div className="mb-6 flex items-center gap-4 rounded-3xl border-2 border-indigo-200 bg-indigo-50/60 p-5 shadow-primary dark:border-indigo-800 dark:bg-indigo-900/20">
-          <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-indigo-500 text-2xl text-white">🎉</div>
+    <>
+      <InputHint />
+      <div className="container mx-auto max-w-4xl px-6 py-10">
+        {/* 头部：标题 + 总进度 */}
+        <div className="mb-8 flex flex-wrap items-end justify-between gap-4">
           <div>
-            <div className="font-bold text-indigo-600 dark:text-indigo-300">恭喜！基础练习全部通过</div>
-            <div className="text-sm text-gray-500 dark:text-gray-400">课程、单词、复习等功能已全部解锁，开始你的学习之旅吧</div>
+            <h1 className="mb-1 text-3xl font-bold">{meta.label} · 基础练习</h1>
+            <p className="text-gray-500 dark:text-gray-400">{allPassed ? '全部通过，学习功能已解锁 🎉' : '练熟基础后，学习会轻松很多'}</p>
+          </div>
+          <div className="text-right">
+            <div className="text-sm text-gray-500 dark:text-gray-400">
+              已完成 <span className="text-2xl font-bold text-indigo-500">{passedGroups}</span> / {totalGroups} 组
+            </div>
+            <div className="mt-2 h-2 w-44 overflow-hidden rounded-full bg-gray-100 dark:bg-gray-800">
+              <div className="h-full rounded-full bg-indigo-500 transition-all" style={{ width: `${totalPct}%` }} />
+            </div>
           </div>
         </div>
-      )}
 
-      {/* 练习卡片 */}
-      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
-        {cards.map((card) => {
-          const { order } = getGroups(card.mode)
-          const modeRec = progress[card.mode]
-          const passed = modeRec ? order.filter((g) => modeRec.groups[g]?.passed).length : 0
-          const cardAllPassed = passed === order.length
-          const pct = order.length === 0 ? 0 : Math.round((passed / order.length) * 100)
-
-          return (
-            <Link
-              key={card.mode}
-              to={card.to}
-              className={
-                'group flex flex-col rounded-3xl border-2 p-6 transition-all hover:-translate-y-1 ' +
-                (cardAllPassed
-                  ? 'border-indigo-300 bg-indigo-50/50 shadow-primary hover:border-indigo-400 dark:border-indigo-700 dark:bg-indigo-900/10'
-                  : 'hover:shadow-primary-lg border-subtle bg-page shadow-primary hover:border-indigo-400 dark:hover:border-indigo-600')
-              }
-            >
-              <div className="mb-4 flex items-start justify-between">
-                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-indigo-50 text-3xl dark:bg-indigo-900/30">
-                  {card.icon}
-                </div>
-                {cardAllPassed && (
-                  <span className="rounded-full bg-indigo-100 px-3 py-1 text-xs font-medium text-indigo-600 dark:bg-indigo-900/40 dark:text-indigo-300">
-                    ✓ 全部通过
-                  </span>
-                )}
-              </div>
-
-              <div className="mb-1 text-lg font-semibold group-hover:text-indigo-500">{card.title}</div>
-              <div className="mb-3 text-xs text-gray-400 dark:text-gray-500">{card.subtitle}</div>
-              <p className="mb-5 text-sm leading-relaxed text-gray-500 dark:text-gray-400">{card.desc}</p>
-
-              <div className="mt-auto">
-                <div className="mb-1 flex justify-between text-xs text-gray-400 dark:text-gray-500">
-                  <span>
-                    {passed} / {order.length} 组
-                  </span>
-                  <span>{pct}%</span>
-                </div>
-                <div className="h-2 w-full overflow-hidden rounded-full bg-gray-100 dark:bg-gray-800">
-                  <div className="h-full rounded-full bg-indigo-500 transition-all" style={{ width: `${pct}%` }} />
-                </div>
-              </div>
-            </Link>
-          )
-        })}
-      </div>
-
-      {!allPassed && (
-        <div className="mt-16 text-center">
-          <button
-            type="button"
-            onClick={() => setShowSkipConfirm(true)}
-            className="text-xs text-gray-300 underline-offset-4 transition hover:text-gray-500 hover:underline dark:text-gray-600 dark:hover:text-gray-400"
-          >
-            已知晓，跳过练习
-          </button>
-        </div>
-      )}
-
-      {showWelcome && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 px-6">
-          <div className="shadow-primary-lg w-full max-w-md rounded-3xl bg-page p-8">
-            <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-indigo-100 text-3xl dark:bg-indigo-900/40">
-              👋
+        {/* 全部通过庆祝条 */}
+        {allPassed && (
+          <div className="mb-6 flex items-center gap-4 rounded-3xl border-2 border-indigo-200 bg-indigo-50/60 p-5 shadow-primary dark:border-indigo-800 dark:bg-indigo-900/20">
+            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-indigo-500 text-2xl text-white">🎉</div>
+            <div>
+              <div className="font-bold text-indigo-600 dark:text-indigo-300">恭喜！基础练习全部通过</div>
+              <div className="text-sm text-gray-500 dark:text-gray-400">课程、单词、复习等功能已全部解锁，开始你的学习之旅吧</div>
             </div>
-            <h2 className="mb-2 text-xl font-bold">欢迎，{location.state?.user || ''}！</h2>
-            <p className="mb-6 text-sm leading-relaxed text-gray-500 dark:text-gray-400">
-              学习之前，先完成下面的基础练习。练熟后，才能解锁课程、单词、复习等功能。
-            </p>
+          </div>
+        )}
+
+        {/* 练习卡片 */}
+        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+          {cards.map((card) => {
+            const { order } = getGroups(card.mode)
+            const modeRec = progress[card.mode]
+            const passed = modeRec ? order.filter((g) => modeRec.groups[g]?.passed).length : 0
+            const cardAllPassed = passed === order.length
+            const pct = order.length === 0 ? 0 : Math.round((passed / order.length) * 100)
+
+            return (
+              <Link
+                key={card.mode}
+                to={card.to}
+                className={
+                  'group flex flex-col rounded-3xl border-2 p-6 transition-all hover:-translate-y-1 ' +
+                  (cardAllPassed
+                    ? 'border-indigo-300 bg-indigo-50/50 shadow-primary hover:border-indigo-400 dark:border-indigo-700 dark:bg-indigo-900/10'
+                    : 'hover:shadow-primary-lg border-subtle bg-page shadow-primary hover:border-indigo-400 dark:hover:border-indigo-600')
+                }
+              >
+                <div className="mb-4 flex items-start justify-between">
+                  <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-indigo-50 text-3xl dark:bg-indigo-900/30">
+                    {card.icon}
+                  </div>
+                  {cardAllPassed && (
+                    <span className="rounded-full bg-indigo-100 px-3 py-1 text-xs font-medium text-indigo-600 dark:bg-indigo-900/40 dark:text-indigo-300">
+                      ✓ 全部通过
+                    </span>
+                  )}
+                </div>
+
+                <div className="mb-1 text-lg font-semibold group-hover:text-indigo-500">{card.title}</div>
+                <div className="mb-3 text-xs text-gray-400 dark:text-gray-500">{card.subtitle}</div>
+                <p className="mb-5 text-sm leading-relaxed text-gray-500 dark:text-gray-400">{card.desc}</p>
+
+                <div className="mt-auto">
+                  <div className="mb-1 flex justify-between text-xs text-gray-400 dark:text-gray-500">
+                    <span>
+                      {passed} / {order.length} 组
+                    </span>
+                    <span>{pct}%</span>
+                  </div>
+                  <div className="h-2 w-full overflow-hidden rounded-full bg-gray-100 dark:bg-gray-800">
+                    <div className="h-full rounded-full bg-indigo-500 transition-all" style={{ width: `${pct}%` }} />
+                  </div>
+                </div>
+              </Link>
+            )
+          })}
+        </div>
+
+        {!allPassed && (
+          <div className="mt-16 text-center">
             <button
               type="button"
-              onClick={() => setShowWelcome(false)}
-              className="w-full rounded-2xl bg-indigo-500 px-6 py-3 font-bold text-white shadow-primary transition hover:brightness-95 active:translate-y-[3px]"
+              onClick={() => setShowSkipConfirm(true)}
+              className="text-xs text-gray-300 underline-offset-4 transition hover:text-gray-500 hover:underline dark:text-gray-600 dark:hover:text-gray-400"
             >
-              开始练习
+              已知晓，跳过练习
             </button>
           </div>
-        </div>
-      )}
+        )}
 
-      {showSkipConfirm && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 px-6">
-          <div className="shadow-primary-lg w-full max-w-md rounded-3xl bg-page p-8">
-            <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-amber-100 text-3xl dark:bg-amber-900/40">⚠️</div>
-            <h2 className="mb-2 text-xl font-bold">确定跳过基础练习？</h2>
-            <p className="mb-6 text-sm leading-relaxed text-gray-500 dark:text-gray-400">
-              跳过之后，课程、单词、复习等功能会立即解锁。建议至少练一遍再跳过。
-            </p>
-            <div className="flex gap-3">
+        {showWelcome && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 px-6">
+            <div className="shadow-primary-lg w-full max-w-md rounded-3xl bg-page p-8">
+              <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-indigo-100 text-3xl dark:bg-indigo-900/40">
+                👋
+              </div>
+              <h2 className="mb-2 text-xl font-bold">欢迎，{location.state?.user || ''}！</h2>
+              <p className="mb-6 text-sm leading-relaxed text-gray-500 dark:text-gray-400">
+                学习之前，先完成下面的基础练习。练熟后，才能解锁课程、单词、复习等功能。
+              </p>
               <button
                 type="button"
-                onClick={() => setShowSkipConfirm(false)}
-                className="flex-1 rounded-2xl border-2 border-subtle px-4 py-3 text-sm font-bold text-gray-600 transition hover:bg-gray-50 dark:text-gray-300 dark:hover:bg-gray-800"
+                onClick={() => setShowWelcome(false)}
+                className="w-full rounded-2xl bg-indigo-500 px-6 py-3 font-bold text-white shadow-primary transition hover:brightness-95 active:translate-y-[3px]"
               >
-                再练一下
-              </button>
-              <button
-                type="button"
-                onClick={handleSkipConfirm}
-                className="flex-1 rounded-2xl bg-amber-500 px-4 py-3 text-sm font-bold text-white shadow-primary transition hover:bg-amber-600"
-              >
-                确定跳过
+                开始练习
               </button>
             </div>
           </div>
-        </div>
-      )}
-    </div>
+        )}
+
+        {showSkipConfirm && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 px-6">
+            <div className="shadow-primary-lg w-full max-w-md rounded-3xl bg-page p-8">
+              <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-amber-100 text-3xl dark:bg-amber-900/40">
+                ⚠️
+              </div>
+              <h2 className="mb-2 text-xl font-bold">确定跳过基础练习？</h2>
+              <p className="mb-6 text-sm leading-relaxed text-gray-500 dark:text-gray-400">
+                跳过之后，课程、单词、复习等功能会立即解锁。建议至少练一遍再跳过。
+              </p>
+              <div className="flex gap-3">
+                <button
+                  type="button"
+                  onClick={() => setShowSkipConfirm(false)}
+                  className="flex-1 rounded-2xl border-2 border-subtle px-4 py-3 text-sm font-bold text-gray-600 transition hover:bg-gray-50 dark:text-gray-300 dark:hover:bg-gray-800"
+                >
+                  再练一下
+                </button>
+                <button
+                  type="button"
+                  onClick={handleSkipConfirm}
+                  className="flex-1 rounded-2xl bg-amber-500 px-4 py-3 text-sm font-bold text-white shadow-primary transition hover:bg-amber-600"
+                >
+                  确定跳过
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+    </>
   )
 }
