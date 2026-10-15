@@ -1,0 +1,320 @@
+{
+    "id": "course_vi_107",
+    "title": "第 3 课：预约与就诊",
+    "titleVi": "Bài 3: Đặt hẹn và đi khám bệnh",
+    "order": 3,
+    "scenario": "health",
+    "goals": [
+        "能打电话或在网上预约看医生",
+        "能描述诊所 / 医院的登记流程（取号、挂号、等候）",
+        "能正确使用情态动词 cần / phải / nên 表达必要性",
+        "能用「để」表达目的（为了…）"
+    ],
+    "words": [
+        {
+            "id": "vi_a2_dat_hen",
+            "name": "đặt hẹn",
+            "trans": [
+                "预约"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "clinic"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_lich_hen",
+            "name": "lịch hẹn",
+            "trans": [
+                "预约（名词）",
+                "日程"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "clinic"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_phong_kham",
+            "name": "phòng khám",
+            "trans": [
+                "诊所"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "clinic"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_benh_vien",
+            "name": "bệnh viện",
+            "trans": [
+                "医院"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "clinic"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_y_ta",
+            "name": "y tá",
+            "trans": [
+                "护士"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "clinic"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_benh_nhan",
+            "name": "bệnh nhân",
+            "trans": [
+                "病人",
+                "患者"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "clinic"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_cho_doi",
+            "name": "chờ đợi",
+            "trans": [
+                "等待"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "clinic"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_so_thu_tu",
+            "name": "số thứ tự",
+            "trans": [
+                "排队号",
+                "序号"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "clinic"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_dang_ky",
+            "name": "đăng ký",
+            "trans": [
+                "登记",
+                "挂号"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "clinic"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ho_so",
+            "name": "hồ sơ",
+            "trans": [
+                "档案",
+                "病历"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "clinic"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_the_bao_hiem",
+            "name": "thẻ bảo hiểm",
+            "trans": [
+                "保险卡",
+                "医保卡"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "clinic"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_gio_lam_viec",
+            "name": "giờ làm việc",
+            "trans": [
+                "工作时间",
+                "营业时间"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "clinic"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_kham_suc_khoe",
+            "name": "khám sức khỏe",
+            "trans": [
+                "体检"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "clinic"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_tai_kham",
+            "name": "tái khám",
+            "trans": [
+                "复诊"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "clinic"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_a2_017",
+        "sentence_vi_a2_018",
+        "sentence_vi_a2_019",
+        "sentence_vi_a2_020",
+        "sentence_vi_a2_021",
+        "sentence_vi_a2_022",
+        "sentence_vi_a2_023",
+        "sentence_vi_a2_024"
+    ],
+    "grammar": [
+        {
+            "point": "情态动词 cần / phải / nên（需要 / 必须 / 应该）",
+            "explain": "三者在语气强度上有区别：phải（必须，最强，无选择余地）> cần（需要，客观需要）> nên（应该，建议）。否定时：không cần（不需要，没必要）≠ không phải（不是…／不用，视语境）≠ không nên（不应该，劝止）。口诀：phải 硬、nên 软、cần 中性。",
+            "examples": [
+                {
+                    "vi": "Bạn phải mang thẻ bảo hiểm khi đi khám.",
+                    "zh": "看病时必须带医保卡。"
+                },
+                {
+                    "vi": "Bạn cần đăng ký trước để lấy số thứ tự.",
+                    "zh": "你需要先登记才能拿到排队号。"
+                },
+                {
+                    "vi": "Anh nên đi khám sớm, đừng để lâu quá.",
+                    "zh": "你应该早点去看病，别拖太久。"
+                }
+            ]
+        },
+        {
+            "point": "「để」表目的（为了…）",
+            "explain": "「để + V」或「để + 主谓」= 为了做某事。可与「để mà」「nhằm」互换（后者书面）。注意与汉语对比：汉语「为了…」通常放在句首，越南语「để…」作为从句多放在主句之后。",
+            "examples": [
+                {
+                    "vi": "Tôi gọi điện trước để đặt lịch hẹn.",
+                    "zh": "我提前打电话是为了预约。"
+                },
+                {
+                    "vi": "Bạn nên đến sớm để không phải chờ lâu.",
+                    "zh": "你应该早点到，免得等太久。"
+                },
+                {
+                    "vi": "Bác sĩ cho thuốc để tôi uống ở nhà.",
+                    "zh": "医生给我开药是为了让我在家服用。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「phòng khám」的意思是？",
+            "options": [
+                "医院",
+                "诊所",
+                "药店",
+                "实验室"
+            ],
+            "answer": "诊所"
+        },
+        {
+            "type": "choose",
+            "question": "哪句的语气最强烈（表示「必须」）？",
+            "options": [
+                "Bạn nên đi khám.",
+                "Bạn cần đi khám.",
+                "Bạn phải đi khám.",
+                "Bạn có thể đi khám."
+            ],
+            "answer": "Bạn phải đi khám."
+        },
+        {
+            "type": "fill",
+            "question": "Tôi muốn ___ hẹn với bác sĩ vào sáng mai.（我想预约明天早上的医生）",
+            "answer": "đặt"
+        },
+        {
+            "type": "fill",
+            "question": "___ tiết kiệm thời gian, bạn nên gọi điện trước.（为了节省时间，你应该提前打电话）",
+            "answer": "Để"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「我想预约医生」的越南语",
+            "answer": "Tôi muốn đặt hẹn với bác sĩ"
+        }
+    ]
+}

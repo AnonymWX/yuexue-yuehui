@@ -1,0 +1,44 @@
+{
+    "id": "travel",
+    "stage": "a2",
+    "title": "旅行与交通",
+    "titleVi": "Du lịch và giao thông",
+    "courses": [
+        {
+            "id": "course_vi_121",
+            "file": "course_01.json",
+            "title": "第 1 课：交通方式",
+            "titleVi": "Bài 1: Các phương tiện giao thông"
+        },
+        {
+            "id": "course_vi_122",
+            "file": "course_02.json",
+            "title": "第 2 课：问路",
+            "titleVi": "Bài 2: Hỏi đường"
+        },
+        {
+            "id": "course_vi_123",
+            "file": "course_03.json",
+            "title": "第 3 课：酒店住宿",
+            "titleVi": "Bài 3: Ở khách sạn"
+        },
+        {
+            "id": "course_vi_124",
+            "file": "course_04.json",
+            "title": "第 4 课：机场与飞机",
+            "titleVi": "Bài 4: Sân bay và máy bay"
+        },
+        {
+            "id": "course_vi_125",
+            "file": "course_05.json",
+            "title": "第 5 课：租车与自驾",
+            "titleVi": "Bài 5: Thuê xe và tự lái"
+        },
+        {
+            "id": "course_vi_126",
+            "file": "course_06.json",
+            "title": "第 6 课：紧急求助与旅游安全",
+            "titleVi": "Bài 6: Yêu cầu trợ giúp khẩn cấp và an toàn du lịch"
+        }
+    ]
+}

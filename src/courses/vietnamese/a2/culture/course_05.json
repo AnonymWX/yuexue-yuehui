@@ -1,0 +1,314 @@
+{
+    "id": "course_vi_175",
+    "title": "第 5 课：信仰与宗教",
+    "titleVi": "Bài 5: Tín ngưỡng và tôn giáo",
+    "order": 5,
+    "scenario": "culture",
+    "goals": [
+        "能说出越南主要宗教信仰",
+        "能描述寺庙、教堂等宗教场所",
+        "能用「tin vào / thờ」表达信仰",
+        "能谈论宗教文化差异"
+    ],
+    "words": [
+        {
+            "id": "vi_a2_tin_nguong",
+            "name": "tín ngưỡng",
+            "trans": [
+                "信仰"
+            ],
+            "tags": [
+                "culture",
+                "A2",
+                "religion"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ton_giao",
+            "name": "tôn giáo",
+            "trans": [
+                "宗教"
+            ],
+            "tags": [
+                "culture",
+                "A2",
+                "religion"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_phat_giao",
+            "name": "Phật giáo",
+            "trans": [
+                "佛教"
+            ],
+            "tags": [
+                "culture",
+                "A2",
+                "religion"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_cong_giao",
+            "name": "Công giáo",
+            "trans": [
+                "天主教"
+            ],
+            "tags": [
+                "culture",
+                "A2",
+                "religion"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_chua",
+            "name": "chùa",
+            "trans": [
+                "寺庙（佛寺）"
+            ],
+            "tags": [
+                "culture",
+                "A2",
+                "religion"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_nha_tho",
+            "name": "nhà thờ",
+            "trans": [
+                "教堂"
+            ],
+            "tags": [
+                "culture",
+                "A2",
+                "religion"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_den",
+            "name": "đền",
+            "trans": [
+                "神庙"
+            ],
+            "tags": [
+                "culture",
+                "A2",
+                "religion"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_mieu",
+            "name": "miếu",
+            "trans": [
+                "祠堂",
+                "小神庙"
+            ],
+            "tags": [
+                "culture",
+                "A2",
+                "religion"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_linh_ung",
+            "name": "linh ứng",
+            "trans": [
+                "灵验"
+            ],
+            "tags": [
+                "culture",
+                "A2",
+                "religion"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_cau_nguyen",
+            "name": "cầu nguyện",
+            "trans": [
+                "祈祷"
+            ],
+            "tags": [
+                "culture",
+                "A2",
+                "religion"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_thanh_kinh",
+            "name": "thánh kinh",
+            "trans": [
+                "圣经"
+            ],
+            "tags": [
+                "culture",
+                "A2",
+                "religion"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_tuong_phat",
+            "name": "tượng Phật",
+            "trans": [
+                "佛像"
+            ],
+            "tags": [
+                "culture",
+                "A2",
+                "religion"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_di_chua",
+            "name": "đi chùa",
+            "trans": [
+                "去寺庙拜佛"
+            ],
+            "tags": [
+                "culture",
+                "A2",
+                "religion"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_than_linh",
+            "name": "thần linh",
+            "trans": [
+                "神灵"
+            ],
+            "tags": [
+                "culture",
+                "A2",
+                "religion"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_a2_345",
+        "sentence_vi_a2_346",
+        "sentence_vi_a2_347",
+        "sentence_vi_a2_348",
+        "sentence_vi_a2_349",
+        "sentence_vi_a2_350",
+        "sentence_vi_a2_351",
+        "sentence_vi_a2_352"
+    ],
+    "grammar": [
+        {
+            "point": "信仰表达：tin vào / thờ / theo + 宗教",
+            "explain": "「tin vào + 对象」= 相信…；「thờ + 对象」= 供奉…；「theo + 宗教」= 信仰…（宗教意义上）。注意：「theo」后面接宗教名，不接人：theo đạo Phật（信佛）、theo đạo Công giáo（信天主教）。「đạo」= 教，是宗教的通用名词。",
+            "examples": [
+                {
+                    "vi": "Phần lớn người Việt Nam theo đạo Phật hoặc không theo đạo nào.",
+                    "zh": "大多数越南人信佛教或不信仰任何宗教。"
+                },
+                {
+                    "vi": "Nhiều gia đình Việt Nam thờ tổ tiên và thần linh trong nhà.",
+                    "zh": "许多越南家庭在家中供奉祖先和神灵。"
+                },
+                {
+                    "vi": "Cô ấy tin vào nhân quả và luôn sống thiện lành.",
+                    "zh": "她相信因果，始终行善。"
+                }
+            ]
+        },
+        {
+            "point": "宗教场所访问：viếng / cúng / cầu",
+            "explain": "「viếng chùa」= 拜佛寺；「cúng」= 上供、祭拜；「cầu」= 求（cầu an 求平安、cầu tài 求财、cầu duyên 求姻缘）。在宗教场所要注意着装：không mặc áo ngắn（不穿短衣）、không nói to（不大声说话）。",
+            "examples": [
+                {
+                    "vi": "Vào ngày rằm, nhiều người đi chùa để cầu an cho gia đình.",
+                    "zh": "月圆之日，很多人去寺庙为家人求平安。"
+                },
+                {
+                    "vi": "Khách du lịch nên ăn mặc lịch sự khi viếng chùa.",
+                    "zh": "游客参拜寺庙时应着装得体。"
+                },
+                {
+                    "vi": "Mọi người cúng hoa quả và hương trước bàn thờ.",
+                    "zh": "人们在供桌前供奉水果和香。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「cầu nguyện」的意思是？",
+            "options": [
+                "布施",
+                "祈祷",
+                "诵经",
+                "苦修"
+            ],
+            "answer": "祈祷"
+        },
+        {
+            "type": "choose",
+            "question": "哪句正确表达「她信佛」？",
+            "options": [
+                "Cô ấy theo đạo Phật.",
+                "Cô ấy đạo theo Phật.",
+                "Cô ấy Phật theo đạo.",
+                "Đạo Phật cô ấy theo."
+            ],
+            "answer": "Cô ấy theo đạo Phật."
+        },
+        {
+            "type": "fill",
+            "question": "Phần lớn người Việt Nam ___ đạo Phật.（大多数越南人信佛教）",
+            "answer": "theo"
+        },
+        {
+            "type": "fill",
+            "question": "Vào ngày rằm, nhiều người đi chùa để ___ an cho gia đình.（月圆之日，很多人去寺庙为家人求平安）",
+            "answer": "cầu"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「我去寺庙拜佛」的越南语",
+            "answer": "Tôi đi chùa"
+        }
+    ]
+}

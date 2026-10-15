@@ -1,0 +1,317 @@
+{
+    "id": "course_vi_157",
+    "title": "第 7 课：副业与创业",
+    "titleVi": "Bài 7: Việc làm thêm và khởi nghiệp",
+    "order": 7,
+    "scenario": "work",
+    "goals": [
+        "能谈论副业与兼职",
+        "能简单描述创业想法",
+        "能用「kinh doanh / mở / thành lập」表达创业",
+        "能表达风险与收益"
+    ],
+    "words": [
+        {
+            "id": "vi_a2_viec_lam_them",
+            "name": "việc làm thêm",
+            "trans": [
+                "副业",
+                "兼职工作"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "business"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_lam_them",
+            "name": "làm thêm",
+            "trans": [
+                "做兼职"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "business"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_khoi_nghiep",
+            "name": "khởi nghiệp",
+            "trans": [
+                "创业"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "business"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_thanh_lap",
+            "name": "thành lập",
+            "trans": [
+                "成立",
+                "创办"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "business"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_cong_ty_rieng",
+            "name": "công ty riêng",
+            "trans": [
+                "自己的公司"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "business"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_kinh_doanh",
+            "name": "kinh doanh",
+            "trans": [
+                "经商",
+                "生意"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "business"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ban_hang_online",
+            "name": "bán hàng online",
+            "trans": [
+                "网上卖货"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "business"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_cua_hang",
+            "name": "cửa hàng",
+            "trans": [
+                "店铺"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "business"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_khach_hang",
+            "name": "khách hàng",
+            "trans": [
+                "客户"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "business"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_loi_nhuan",
+            "name": "lợi nhuận",
+            "trans": [
+                "利润"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "business"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_von",
+            "name": "vốn",
+            "trans": [
+                "资金",
+                "本钱"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "business"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_rui_ro",
+            "name": "rủi ro",
+            "trans": [
+                "风险"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "business"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_co_hoi",
+            "name": "cơ hội",
+            "trans": [
+                "机会"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "business"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_thanh_cong",
+            "name": "thành công",
+            "trans": [
+                "成功"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "business"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_a2_265",
+        "sentence_vi_a2_266",
+        "sentence_vi_a2_267",
+        "sentence_vi_a2_268",
+        "sentence_vi_a2_269",
+        "sentence_vi_a2_270",
+        "sentence_vi_a2_271",
+        "sentence_vi_a2_272"
+    ],
+    "grammar": [
+        {
+            "point": "创业表达：mở / thành lập / kinh doanh",
+            "explain": "「mở + 店/公司」= 开（实体/网上）；「thành lập + 公司」= 成立（正式）；「kinh doanh + 领域」= 经营（做…生意）。三者差异：mở 强调「开业」动作；thành lập 强调「创办」法律层面；kinh doanh 强调「经营」状态。搭配：「mở công ty」「thành lập doanh nghiệp」「kinh doanh online」。",
+            "examples": [
+                {
+                    "vi": "Anh ấy mở một cửa hàng cà phê nhỏ ở trung tâm thành phố.",
+                    "zh": "他在市中心开了一家小咖啡店。"
+                },
+                {
+                    "vi": "Hai người bạn đã thành lập công ty khởi nghiệp về công nghệ.",
+                    "zh": "两位朋友成立了一家科技创业公司。"
+                },
+                {
+                    "vi": "Cô ấy kinh doanh online và bán hàng trên Facebook, TikTok.",
+                    "zh": "她做线上生意，在 Facebook、TikTok 上卖货。"
+                }
+            ]
+        },
+        {
+            "point": "风险与收益：có...thì... / rủi ro / cơ hội",
+            "explain": "「Có A thì có B」= 有 A 就有 B（表相伴）；「có rủi ro」= 有风险；「có cơ hội」= 有机会。创业讨论中常用对比：「Mặc dù có rủi ro, nhưng cũng có nhiều cơ hội」（虽然有风险，但也有很多机会）。",
+            "examples": [
+                {
+                    "vi": "Khởi nghiệp có rủi ro, nhưng cũng có nhiều cơ hội phát triển.",
+                    "zh": "创业有风险，但也有很多发展机会。"
+                },
+                {
+                    "vi": "Kinh doanh online cần ít vốn hơn mở cửa hàng.",
+                    "zh": "线上生意比开实体店需要的资金少。"
+                },
+                {
+                    "vi": "Muốn thành công trong kinh doanh, bạn cần kiên trì và học hỏi.",
+                    "zh": "想在生意上成功，你需要坚持和不断学习。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「khởi nghiệp」的意思是？",
+            "options": [
+                "退休",
+                "创业",
+                "裁员",
+                "兼职"
+            ],
+            "answer": "创业"
+        },
+        {
+            "type": "choose",
+            "question": "哪句正确表达「他开了一家小咖啡店」？",
+            "options": [
+                "Anh ấy mở một cửa hàng cà phê nhỏ.",
+                "Anh ấy thành lập một quán cà phê nhỏ ở trung tâm.",
+                "Anh ấy kinh doanh cửa hàng mở cà phê.",
+                "Anh ấy cà phê mở cửa hàng nhỏ."
+            ],
+            "answer": "Anh ấy mở một cửa hàng cà phê nhỏ."
+        },
+        {
+            "type": "fill",
+            "question": "Hai người bạn đã ___ lập công ty khởi nghiệp về công nghệ.（两位朋友成立了一家科技创业公司）",
+            "answer": "thành"
+        },
+        {
+            "type": "fill",
+            "question": "Khởi nghiệp có ___ ro, nhưng cũng có nhiều cơ hội phát triển.（创业有风险，但也有很多发展机会）",
+            "answer": "rủi"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「我想开一家小店」的越南语",
+            "answer": "Tôi muốn mở một cửa hàng nhỏ"
+        }
+    ]
+}

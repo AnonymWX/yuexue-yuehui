@@ -1,0 +1,319 @@
+{
+    "id": "course_vi_164",
+    "title": "第 4 课：安慰与鼓励",
+    "titleVi": "Bài 4: An ủi và động viên",
+    "order": 4,
+    "scenario": "emotions",
+    "goals": [
+        "能安慰遇到困难的朋友",
+        "能用「đừng / hãy / cố lên」鼓励他人",
+        "能给出温暖的安慰话语",
+        "能表达同情与支持"
+    ],
+    "words": [
+        {
+            "id": "vi_a2_an_ui",
+            "name": "an ủi",
+            "trans": [
+                "安慰"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "comfort"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_dong_vien",
+            "name": "động viên",
+            "trans": [
+                "鼓励",
+                "勉励"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "comfort"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_co_len",
+            "name": "cố lên",
+            "trans": [
+                "加油",
+                "坚持"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "comfort"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_dung_buon",
+            "name": "đừng buồn",
+            "trans": [
+                "别伤心"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "comfort"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_hoi_phuc_tinh_than",
+            "name": "hồi phục tinh thần",
+            "trans": [
+                "恢复精神"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "comfort"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_chia_se",
+            "name": "chia sẻ",
+            "trans": [
+                "分享",
+                "分担"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "comfort"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ung_ho",
+            "name": "ủng hộ",
+            "trans": [
+                "支持"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "comfort"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ben_canh",
+            "name": "bên cạnh",
+            "trans": [
+                "在身边"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "comfort"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_lac_quan",
+            "name": "lạc quan",
+            "trans": [
+                "乐观"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "comfort"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_niem_tin",
+            "name": "niềm tin",
+            "trans": [
+                "信心",
+                "信念"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "comfort"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_vuot_qua",
+            "name": "vượt qua",
+            "trans": [
+                "跨越",
+                "克服"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "comfort"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_kho_khan",
+            "name": "khó khăn",
+            "trans": [
+                "困难"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "comfort"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_that_bai",
+            "name": "thất bại",
+            "trans": [
+                "失败"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "comfort"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_co_gang",
+            "name": "cố gắng",
+            "trans": [
+                "努力",
+                "加油"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "comfort"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_a2_297",
+        "sentence_vi_a2_298",
+        "sentence_vi_a2_299",
+        "sentence_vi_a2_300",
+        "sentence_vi_a2_301",
+        "sentence_vi_a2_302",
+        "sentence_vi_a2_303",
+        "sentence_vi_a2_304"
+    ],
+    "grammar": [
+        {
+            "point": "鼓励句式：đừng / hãy / cố lên",
+            "explain": "「đừng + V」= 别…（劝阻）；「hãy + V」= 请…吧（建议/命令，较强硬）；「cố lên!」= 加油（独立感叹句，最常用）。注意：「hãy」在口语中常省略，直接说动词更自然：「Cố gắng nhé!」（加油哦）。「nhé」放句末软化语气。",
+            "examples": [
+                {
+                    "vi": "Đừng buồn nữa, mọi chuyện rồi sẽ ổn thôi.",
+                    "zh": "别难过了，一切都会好起来的。"
+                },
+                {
+                    "vi": "Hãy tin vào bản thân mình, bạn làm được mà.",
+                    "zh": "请相信你自己，你能做到的。"
+                },
+                {
+                    "vi": "Cố lên nhé, tôi luôn ở bên cạnh bạn!",
+                    "zh": "加油哦，我一直都在你身边！"
+                }
+            ]
+        },
+        {
+            "point": "安慰表达：tôi hiểu / tôi ở bên / sẽ ổn thôi",
+            "explain": "温暖安慰句：「Tôi hiểu cảm giác của bạn」（我理解你的感受）；「Tôi ở bên cạnh bạn」（我在你身边）；「Mọi chuyện sẽ ổn thôi」（一切都会好的）。避免直接说「Đừng khóc」（别哭）等否定情绪的句子，会显得不体谅。",
+            "examples": [
+                {
+                    "vi": "Tôi hiểu cảm giác của bạn lúc này, thật sự rất khó khăn.",
+                    "zh": "我理解你现在的感受，确实很难。"
+                },
+                {
+                    "vi": "Bạn không cô đơn đâu, tôi luôn ở bên cạnh bạn.",
+                    "zh": "你并不孤单，我一直在你身边。"
+                },
+                {
+                    "vi": "Thất bại chỉ là tạm thời, mọi chuyện rồi sẽ ổn thôi.",
+                    "zh": "失败只是暂时的，一切都会好起来的。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「vượt qua」的意思是？",
+            "options": [
+                "遇到",
+                "跨越",
+                "跌落",
+                "重复"
+            ],
+            "answer": "跨越"
+        },
+        {
+            "type": "choose",
+            "question": "哪句是最温暖的安慰？",
+            "options": [
+                "Đừng khóc nữa.",
+                "Sao yếu đuối thế?",
+                "Tôi hiểu cảm giác của bạn, tôi ở bên cạnh bạn.",
+                "Chuyện nhỏ thôi mà."
+            ],
+            "answer": "Tôi hiểu cảm giác của bạn, tôi ở bên cạnh bạn."
+        },
+        {
+            "type": "fill",
+            "question": "___ buồn nữa, mọi chuyện rồi sẽ ổn thôi.（别难过了，一切都会好起来的）",
+            "answer": "Đừng"
+        },
+        {
+            "type": "fill",
+            "question": "Cố ___ nhé, tôi luôn ở bên cạnh bạn!（加油哦，我一直都在你身边！）",
+            "answer": "lên"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「加油！」的越南语",
+            "answer": "Cố lên"
+        }
+    ]
+}

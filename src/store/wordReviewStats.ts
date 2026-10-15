@@ -24,11 +24,7 @@ export function getWrongRate(stat: WordReviewStat): number {
 }
 
 // 更新统计（答对/答错）
-export function applyReview(
-  stat: WordReviewStat | undefined,
-  wordId: string,
-  correct: boolean
-): WordReviewStat {
+export function applyReview(stat: WordReviewStat | undefined, wordId: string, correct: boolean): WordReviewStat {
   const now = new Date()
   const base: WordReviewStat = stat ?? {
     wordId,
@@ -62,5 +58,46 @@ export function applyReview(
     level,
     lastReviewedAt: now.toISOString(),
     nextReviewAt: next.toISOString(),
+  }
+}
+// ================= 复习统计（新增） =================
+
+export interface ReviewStatsSummary {
+  totalReviewed: number
+  totalCorrect: number
+  accuracy: number
+  topWrong: Array<{ wordId: string; wrongCount: number; level: number }>
+  dueToday: number
+  totalWords: number
+}
+
+/** 从本地 stats 计算汇总（纯计算，无副作用） */
+export function computeLocalSummary(stats: Record<string, WordReviewStat>): ReviewStatsSummary {
+  const entries = Object.entries(stats ?? {})
+  let totalReviewed = 0
+  let totalCorrect = 0
+  const topWrong: ReviewStatsSummary['topWrong'] = []
+  let dueToday = 0
+  const now = Date.now()
+
+  for (const [wordId, s] of entries) {
+    const reviewed = (s.correctCount ?? 0) + (s.wrongCount ?? 0)
+    totalReviewed += reviewed
+    totalCorrect += s.correctCount ?? 0
+    if ((s.wrongCount ?? 0) > 0) {
+      topWrong.push({ wordId, wrongCount: s.wrongCount ?? 0, level: s.level ?? 0 })
+    }
+    if (s.nextReviewAt && new Date(s.nextReviewAt).getTime() <= now) dueToday++
+  }
+
+  topWrong.sort((a, b) => b.wrongCount - a.wrongCount)
+
+  return {
+    totalReviewed,
+    totalCorrect,
+    accuracy: totalReviewed === 0 ? 0 : totalCorrect / totalReviewed,
+    topWrong: topWrong.slice(0, 10),
+    dueToday,
+    totalWords: entries.length,
   }
 }

@@ -4,6 +4,7 @@ import { useDailyReview } from './useDailyReview'
 import { currentLanguageAtom } from '@/store/language'
 import { useAtomValue } from 'jotai'
 import { useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const CHOICE_COUNT = 5
 
@@ -17,6 +18,13 @@ export default function ReviewPage() {
   return (
     <div className="px-6 py-10">
       <div className="mx-auto w-full max-w-2xl">
+        {/* ⬇️ 新增：统计入口 */}
+        <div className="mb-6 flex items-center justify-end">
+          <Link to="/review/stats" className="text-sm text-indigo-600 hover:underline">
+            查看统计 →
+          </Link>
+        </div>
+
         {loading && <div className="text-center text-gray-400">加载中…</div>}
 
         {!loading && !hasEnough && (

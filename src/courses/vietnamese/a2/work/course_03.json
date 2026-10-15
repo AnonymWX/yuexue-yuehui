@@ -1,0 +1,320 @@
+{
+    "id": "course_vi_153",
+    "title": "第 3 课：职场沟通",
+    "titleVi": "Bài 3: Giao tiếp nơi công sở",
+    "order": 3,
+    "scenario": "work",
+    "goals": [
+        "能礼貌地向同事求助或协调工作",
+        "能用「nhờ / giúp / phiền」表达请求",
+        "能描述工作任务与进度",
+        "能处理上下级沟通场景"
+    ],
+    "words": [
+        {
+            "id": "vi_a2_dong_nghiep",
+            "name": "đồng nghiệp",
+            "trans": [
+                "同事"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "communication"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_cap_tren",
+            "name": "cấp trên",
+            "trans": [
+                "上级",
+                "领导"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "communication"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_cap_duoi",
+            "name": "cấp dưới",
+            "trans": [
+                "下属"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "communication"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_dong_doi",
+            "name": "đồng đội",
+            "trans": [
+                "队友",
+                "团队成员"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "communication"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_nho",
+            "name": "nhờ",
+            "trans": [
+                "拜托",
+                "请求"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "communication"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_giup",
+            "name": "giúp",
+            "trans": [
+                "帮助"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "communication"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ho_tro",
+            "name": "hỗ trợ",
+            "trans": [
+                "支持",
+                "协助"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "communication"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_phoi_hop",
+            "name": "phối hợp",
+            "trans": [
+                "协作",
+                "配合"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "communication"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_nhiem_vu",
+            "name": "nhiệm vụ",
+            "trans": [
+                "任务"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "communication"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_tien_do",
+            "name": "tiến độ",
+            "trans": [
+                "进度"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "communication"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_hoan_thanh",
+            "name": "hoàn thành",
+            "trans": [
+                "完成"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "communication"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_han_chot",
+            "name": "hạn chót",
+            "trans": [
+                "截止日期"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "communication"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_bao_cao",
+            "name": "báo cáo",
+            "trans": [
+                "汇报",
+                "报告"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "communication"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ghi_nhan",
+            "name": "ghi nhận",
+            "trans": [
+                "记录",
+                "认可"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "communication"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_a2_233",
+        "sentence_vi_a2_234",
+        "sentence_vi_a2_235",
+        "sentence_vi_a2_236",
+        "sentence_vi_a2_237",
+        "sentence_vi_a2_238",
+        "sentence_vi_a2_239",
+        "sentence_vi_a2_240"
+    ],
+    "grammar": [
+        {
+            "point": "礼貌请求：nhờ / làm ơn / phiền",
+            "explain": "「nhờ + 人 + V」= 拜托某人做…（口语、亲近）；「làm ơn + V」= 请做…（正式、礼貌）；「phiền + 人 + V」= 麻烦某人做…（客气，稍显正式）。「phiền」后常接「anh/chị/em」等称谓。三者礼貌度：phiền > làm ơn > nhờ。",
+            "examples": [
+                {
+                    "vi": "Tôi nhờ anh kiểm tra lại báo cáo giúp tôi.",
+                    "zh": "我拜托你帮我再检查一遍报告。"
+                },
+                {
+                    "vi": "Phiền chị gửi lại file cho tôi qua email.",
+                    "zh": "麻烦你把文件通过邮件再发给我。"
+                },
+                {
+                    "vi": "Làm ơn cho tôi biết khi nào cần nộp báo cáo.",
+                    "zh": "请告诉我报告什么时候需要交。"
+                }
+            ]
+        },
+        {
+            "point": "汇报进度：đã / đang / sẽ + V",
+            "explain": "汇报工作时用三态区分：「đã + V」= 已经完成…；「đang + V」= 正在做…；「sẽ + V」= 将会…。加上「xong」（完）表示完成状态：「đã làm xong」（做完了）。「sắp xong」= 快完成。「chưa」= 还没。",
+            "examples": [
+                {
+                    "vi": "Tôi đã hoàn thành báo cáo tháng này rồi.",
+                    "zh": "我已经完成了这个月的报告。"
+                },
+                {
+                    "vi": "Tôi đang phối hợp với phòng kỹ thuật để giải quyết vấn đề.",
+                    "zh": "我正在和技术部协作解决问题。"
+                },
+                {
+                    "vi": "Dự án sẽ hoàn thành trước hạn chót hai ngày.",
+                    "zh": "项目将在截止日期前两天完成。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「phối hợp」的意思是？",
+            "options": [
+                "冲突",
+                "协作",
+                "拒绝",
+                "竞争"
+            ],
+            "answer": "协作"
+        },
+        {
+            "type": "choose",
+            "question": "哪句最礼貌地请求同事帮忙？",
+            "options": [
+                "Làm cái này cho tôi.",
+                "Phiền anh gửi lại file cho tôi.",
+                "Gửi file đi.",
+                "File đâu rồi?"
+            ],
+            "answer": "Phiền anh gửi lại file cho tôi."
+        },
+        {
+            "type": "fill",
+            "question": "Tôi ___ hoàn thành báo cáo tháng này rồi.（我已经完成了这个月的报告）",
+            "answer": "đã"
+        },
+        {
+            "type": "fill",
+            "question": "___ chị gửi lại file cho tôi qua email.（麻烦你把文件通过邮件再发给我）",
+            "answer": "Phiền"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「我正在做这个任务」的越南语",
+            "answer": "Tôi đang làm nhiệm vụ này"
+        }
+    ]
+}

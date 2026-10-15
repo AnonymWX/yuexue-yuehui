@@ -1,0 +1,316 @@
+{
+    "id": "course_vi_145",
+    "title": "第 5 课：校园生活",
+    "titleVi": "Bài 5: Đời sống sinh viên",
+    "order": 5,
+    "scenario": "education",
+    "goals": [
+        "能谈论社团、宿舍、校园活动",
+        "能用「tham gia / tham dự」表达参加",
+        "能用「vừa...vừa」表达同时进行",
+        "能描述自己的校园生活"
+    ],
+    "words": [
+        {
+            "id": "vi_a2_ky_tuc_xa",
+            "name": "ký túc xá",
+            "trans": [
+                "宿舍"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "campus"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_cang_tin",
+            "name": "căng tin",
+            "trans": [
+                "食堂"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "campus"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_clb",
+            "name": "câu lạc bộ",
+            "trans": [
+                "社团",
+                "俱乐部"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "campus"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_hoat_dong",
+            "name": "hoạt động",
+            "trans": [
+                "活动"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "campus"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_tham_gia",
+            "name": "tham gia",
+            "trans": [
+                "参加"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "campus"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_to_chuc",
+            "name": "tổ chức",
+            "trans": [
+                "组织",
+                "举办"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "campus"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ban_be",
+            "name": "bạn bè",
+            "trans": [
+                "朋友"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "campus"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ban_cung_lop",
+            "name": "bạn cùng lớp",
+            "trans": [
+                "同班同学"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "campus"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ban_cung_phong",
+            "name": "bạn cùng phòng",
+            "trans": [
+                "室友"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "campus"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_hoat_dong_ngoai_khoa",
+            "name": "hoạt động ngoại khóa",
+            "trans": [
+                "课外活动"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "campus"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_tinh_nguyen",
+            "name": "tình nguyện",
+            "trans": [
+                "志愿"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "campus"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ky_nang",
+            "name": "kỹ năng",
+            "trans": [
+                "技能"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "campus"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_kinh_nghiem",
+            "name": "kinh nghiệm",
+            "trans": [
+                "经验"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "campus"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ky_niem",
+            "name": "kỷ niệm",
+            "trans": [
+                "回忆",
+                "纪念"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "campus"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_a2_209",
+        "sentence_vi_a2_210",
+        "sentence_vi_a2_211",
+        "sentence_vi_a2_212",
+        "sentence_vi_a2_213",
+        "sentence_vi_a2_214",
+        "sentence_vi_a2_215",
+        "sentence_vi_a2_216"
+    ],
+    "grammar": [
+        {
+            "point": "「vừa...vừa」表达同时进行",
+            "explain": "「vừa A vừa B」= 一边 A 一边 B（两个动作同时进行）。可以 3 项：vừa A vừa B vừa C。「vừa」与「vừa mới」（刚刚）不同，靠位置区分：两个 vừa 夹动词是「一边…一边…」；vừa mới + V 是「刚刚」。",
+            "examples": [
+                {
+                    "vi": "Tôi vừa học vừa làm thêm để có thêm thu nhập.",
+                    "zh": "我一边学习一边做兼职以增加收入。"
+                },
+                {
+                    "vi": "Sinh viên vừa tham gia câu lạc bộ vừa học các kỹ năng mềm.",
+                    "zh": "学生一边参加社团一边学软技能。"
+                },
+                {
+                    "vi": "Cô ấy vừa học tiếng Việt vừa học tiếng Anh, rất giỏi.",
+                    "zh": "她一边学越南语一边学英语，很厉害。"
+                }
+            ]
+        },
+        {
+            "point": "参加活动：tham gia / tham dự / có mặt",
+            "explain": "三者都表示「参加」，语感略不同：「tham gia」= 参与（投入，最常用）；「tham dự」= 出席（到场）；「có mặt」= 在场（口语，强调人在）。结构：tham gia + 活动/tổ chức。注意 tham gia 是动词，后直接跟宾语，不加 vào 也可（口语加 vào 更自然）。",
+            "examples": [
+                {
+                    "vi": "Tôi muốn tham gia một câu lạc bộ tiếng Anh ở trường.",
+                    "zh": "我想参加学校的一个英语社团。"
+                },
+                {
+                    "vi": "Rất nhiều sinh viên tham dự buổi hội thảo hôm qua.",
+                    "zh": "很多学生出席了昨天的研讨会。"
+                },
+                {
+                    "vi": "Ngày mai tôi sẽ có mặt ở buổi họp câu lạc bộ lúc bảy giờ.",
+                    "zh": "明天我七点会出席社团会议。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「bạn cùng phòng」的意思是？",
+            "options": [
+                "同班同学",
+                "室友",
+                "同桌",
+                "网友"
+            ],
+            "answer": "室友"
+        },
+        {
+            "type": "choose",
+            "question": "哪句正确表达「我一边学习一边打工」？",
+            "options": [
+                "Tôi vừa mới học vừa làm thêm.",
+                "Tôi vừa học vừa làm thêm.",
+                "Tôi học vừa làm thêm vừa.",
+                "Tôi vừa học làm thêm vừa."
+            ],
+            "answer": "Tôi vừa học vừa làm thêm."
+        },
+        {
+            "type": "fill",
+            "question": "Tôi muốn ___ gia một câu lạc bộ tiếng Anh ở trường.（我想参加学校的一个英语社团）",
+            "answer": "tham"
+        },
+        {
+            "type": "fill",
+            "question": "Sinh viên ___ tham gia câu lạc bộ vừa học các kỹ năng mềm.（学生一边参加社团一边学软技能）",
+            "answer": "vừa"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「我住在学生宿舍」的越南语",
+            "answer": "Tôi ở ký túc xá"
+        }
+    ]
+}

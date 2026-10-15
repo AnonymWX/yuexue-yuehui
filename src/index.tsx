@@ -18,6 +18,7 @@ import HomePage from './pages/Home'
 import LoginPage from './pages/Login'
 import { useAuthInit } from './pages/Login/useAuth'
 import MobilePage from './pages/Mobile'
+import StatsPage from './pages/Review/StatsPage'
 import { useWordReviewStatsInit } from './pages/Review/useDailyReview'
 import TypingPage from './pages/Typing'
 import { isDarkTheme, themeAtom } from '@/store/theme'
@@ -143,6 +144,14 @@ function Root() {
                     element={
                       <RequireAuth>
                         <ReviewPage />
+                      </RequireAuth>
+                    }
+                  />
+                  <Route
+                    path="/review/stats"
+                    element={
+                      <RequireAuth>
+                        <StatsPage />
                       </RequireAuth>
                     }
                   />

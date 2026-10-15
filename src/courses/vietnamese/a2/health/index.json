@@ -1,0 +1,44 @@
+{
+    "id": "health",
+    "stage": "a2",
+    "title": "健康与身体",
+    "titleVi": "Sức khoẻ và cơ thể",
+    "courses": [
+        {
+            "id": "course_vi_105",
+            "file": "course_01.json",
+            "title": "第 1 课：身体部位",
+            "titleVi": "Bài 1: Các bộ phận cơ thể"
+        },
+        {
+            "id": "course_vi_106",
+            "file": "course_02.json",
+            "title": "第 2 课：描述症状",
+            "titleVi": "Bài 2: Mô tả triệu chứng"
+        },
+        {
+            "id": "course_vi_107",
+            "file": "course_03.json",
+            "title": "第 3 课：看医生",
+            "titleVi": "Bài 3: Đi khám bác sĩ"
+        },
+        {
+            "id": "course_vi_108",
+            "file": "course_04.json",
+            "title": "第 4 课：药店与买药",
+            "titleVi": "Bài 4: Hiệu thuốc và mua thuốc"
+        },
+        {
+            "id": "course_vi_109",
+            "file": "course_05.json",
+            "title": "第 5 课：健康习惯",
+            "titleVi": "Bài 5: Thói quen sức khoẻ"
+        },
+        {
+            "id": "course_vi_110",
+            "file": "course_06.json",
+            "title": "第 6 课：看病对话与医嘱",
+            "titleVi": "Bài 6: Hội thoại khám bệnh và lời dặn của bác sĩ"
+        }
+    ]
+}

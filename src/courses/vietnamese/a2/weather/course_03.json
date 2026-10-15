@@ -1,0 +1,313 @@
+{
+    "id": "course_vi_113",
+    "title": "第 3 课：温度与体感",
+    "titleVi": "Bài 3: Nhiệt độ và cảm giác",
+    "order": 3,
+    "scenario": "weather",
+    "goals": [
+        "能准确读出摄氏度温度",
+        "能用 8 种以上形容词描述体感",
+        "能用程度副词 quá / lắm / rất / hơi 修饰",
+        "能表达自己对天气的喜恶"
+    ],
+    "words": [
+        {
+            "id": "vi_a2_nhiet_do",
+            "name": "nhiệt độ",
+            "trans": [
+                "温度"
+            ],
+            "tags": [
+                "weather",
+                "A2",
+                "temp"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_do_c",
+            "name": "độ C",
+            "trans": [
+                "摄氏度"
+            ],
+            "tags": [
+                "weather",
+                "A2",
+                "temp"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_nong",
+            "name": "nóng",
+            "trans": [
+                "热"
+            ],
+            "tags": [
+                "weather",
+                "A2",
+                "temp"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_lanh",
+            "name": "lạnh",
+            "trans": [
+                "冷"
+            ],
+            "tags": [
+                "weather",
+                "A2",
+                "temp"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_mat",
+            "name": "mát",
+            "trans": [
+                "凉爽"
+            ],
+            "tags": [
+                "weather",
+                "A2",
+                "temp"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_am",
+            "name": "ấm",
+            "trans": [
+                "温暖"
+            ],
+            "tags": [
+                "weather",
+                "A2",
+                "temp"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_oi_buc",
+            "name": "oi bức",
+            "trans": [
+                "闷热"
+            ],
+            "tags": [
+                "weather",
+                "A2",
+                "temp"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_gia_ret",
+            "name": "giá rét",
+            "trans": [
+                "严寒"
+            ],
+            "tags": [
+                "weather",
+                "A2",
+                "temp"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_se_lanh",
+            "name": "se lạnh",
+            "trans": [
+                "微凉"
+            ],
+            "tags": [
+                "weather",
+                "A2",
+                "temp"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_nong_buc",
+            "name": "nóng bức",
+            "trans": [
+                "炎热"
+            ],
+            "tags": [
+                "weather",
+                "A2",
+                "temp"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_dong_bang",
+            "name": "đóng băng",
+            "trans": [
+                "结冰"
+            ],
+            "tags": [
+                "weather",
+                "A2",
+                "temp"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_tan_chay",
+            "name": "tan chảy",
+            "trans": [
+                "融化"
+            ],
+            "tags": [
+                "weather",
+                "A2",
+                "temp"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_thoi_tiet_dep",
+            "name": "thời tiết đẹp",
+            "trans": [
+                "好天气"
+            ],
+            "tags": [
+                "weather",
+                "A2",
+                "temp"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_do_am",
+            "name": "độ ẩm",
+            "trans": [
+                "湿度"
+            ],
+            "tags": [
+                "weather",
+                "A2",
+                "temp"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_a2_065",
+        "sentence_vi_a2_066",
+        "sentence_vi_a2_067",
+        "sentence_vi_a2_068",
+        "sentence_vi_a2_069",
+        "sentence_vi_a2_070",
+        "sentence_vi_a2_071",
+        "sentence_vi_a2_072"
+    ],
+    "grammar": [
+        {
+            "point": "温度提问与表达：bao nhiêu / độ",
+            "explain": "问温度：「Nhiệt độ bao nhiêu độ?」（多少度？）；回答：「khoảng 30 độ C」或口语「30 độ」。注意：越南语说温度必须在数字后加「độ」，不能只说「30」。摄氏度说 độ C，华氏度说 độ F，但越南只用摄氏度。",
+            "examples": [
+                {
+                    "vi": "Nhiệt độ hôm nay bao nhiêu độ?",
+                    "zh": "今天温度多少度？"
+                },
+                {
+                    "vi": "Nhiệt độ khoảng 25 độ C, rất dễ chịu.",
+                    "zh": "温度大约 25 度，很舒服。"
+                },
+                {
+                    "vi": "Ở Hà Nội mùa đông có thể xuống dưới 10 độ C.",
+                    "zh": "河内冬天可能降到 10 度以下。"
+                }
+            ]
+        },
+        {
+            "point": "程度副词：quá / lắm / rất / hơi",
+            "explain": "quá = 太（超出预期，可放形容词后，也可前）；lắm = 很（口语，必须放形容词后）；rất = 很（书面，必须放形容词前，不能后）；hơi = 有点（放形容词前）。位置规律：rất / hơi 在前，quá / lắm 可在后，quá 也可在前。",
+            "examples": [
+                {
+                    "vi": "Hôm nay trời nóng quá!",
+                    "zh": "今天太热了！"
+                },
+                {
+                    "vi": "Trời lạnh lắm, bạn mặc áo ấm vào.",
+                    "zh": "天很冷，你穿件暖衣。"
+                },
+                {
+                    "vi": "Sáng nay hơi se lạnh, nhưng trưa sẽ ấm hơn.",
+                    "zh": "今天早上有点微凉，但中午会暖一些。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「oi bức」的意思是？",
+            "options": [
+                "凉爽",
+                "微凉",
+                "闷热",
+                "严寒"
+            ],
+            "answer": "闷热"
+        },
+        {
+            "type": "choose",
+            "question": "哪个副词必须放在形容词前面？",
+            "options": [
+                "quá",
+                "lắm",
+                "rất",
+                "hết"
+            ],
+            "answer": "rất"
+        },
+        {
+            "type": "fill",
+            "question": "Nhiệt độ hôm nay ___ nhiêu độ?（今天温度多少度？）",
+            "answer": "bao"
+        },
+        {
+            "type": "fill",
+            "question": "Hôm nay trời nóng ___!（今天太热了！）",
+            "answer": "quá"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「今天很冷」的越南语（用 lắm）",
+            "answer": "Hôm nay trời lạnh lắm"
+        }
+    ]
+}

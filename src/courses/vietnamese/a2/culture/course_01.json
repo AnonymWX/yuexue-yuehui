@@ -1,0 +1,316 @@
+{
+    "id": "course_vi_171",
+    "title": "第 1 课：节庆",
+    "titleVi": "Bài 1: Các ngày lễ, Tết",
+    "order": 1,
+    "scenario": "culture",
+    "goals": [
+        "能说出越南主要节日",
+        "能描述春节习俗",
+        "能用「vào / trong dịp」表达节庆时间",
+        "能介绍中越节庆差异"
+    ],
+    "words": [
+        {
+            "id": "vi_a2_le_tet",
+            "name": "lễ Tết",
+            "trans": [
+                "春节",
+                "节庆"
+            ],
+            "tags": [
+                "culture",
+                "A2",
+                "festival"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_tet_nguyen_dan",
+            "name": "Tết Nguyên Đán",
+            "trans": [
+                "春节（元旦节）"
+            ],
+            "tags": [
+                "culture",
+                "A2",
+                "festival"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_tet_trung_thu",
+            "name": "Tết Trung Thu",
+            "trans": [
+                "中秋节"
+            ],
+            "tags": [
+                "culture",
+                "A2",
+                "festival"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_quoc_khanh",
+            "name": "Quốc khánh",
+            "trans": [
+                "国庆节"
+            ],
+            "tags": [
+                "culture",
+                "A2",
+                "festival"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ngay_giai_phong",
+            "name": "Ngày Giải phóng",
+            "trans": [
+                "解放日"
+            ],
+            "tags": [
+                "culture",
+                "A2",
+                "festival"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ngay_nha_giao",
+            "name": "Ngày Nhà giáo",
+            "trans": [
+                "教师节"
+            ],
+            "tags": [
+                "culture",
+                "A2",
+                "festival"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ngay_phu_nu",
+            "name": "Ngày Phụ nữ",
+            "trans": [
+                "妇女节"
+            ],
+            "tags": [
+                "culture",
+                "A2",
+                "festival"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_le_hoi",
+            "name": "lễ hội",
+            "trans": [
+                "节庆",
+                "庙会"
+            ],
+            "tags": [
+                "culture",
+                "A2",
+                "festival"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_banh_chung",
+            "name": "bánh chưng",
+            "trans": [
+                "方形粽子"
+            ],
+            "tags": [
+                "culture",
+                "A2",
+                "festival"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_banh_tet",
+            "name": "bánh tét",
+            "trans": [
+                "圆形粽子（南方）"
+            ],
+            "tags": [
+                "culture",
+                "A2",
+                "festival"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_hoa_mai",
+            "name": "hoa mai",
+            "trans": [
+                "黄梅花"
+            ],
+            "tags": [
+                "culture",
+                "A2",
+                "festival"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_hoa_dao",
+            "name": "hoa đào",
+            "trans": [
+                "桃花"
+            ],
+            "tags": [
+                "culture",
+                "A2",
+                "festival"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_li_xi",
+            "name": "lì xì",
+            "trans": [
+                "红包"
+            ],
+            "tags": [
+                "culture",
+                "A2",
+                "festival"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_giao_thua",
+            "name": "giao thừa",
+            "trans": [
+                "除夕",
+                "跨年"
+            ],
+            "tags": [
+                "culture",
+                "A2",
+                "festival"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_a2_313",
+        "sentence_vi_a2_314",
+        "sentence_vi_a2_315",
+        "sentence_vi_a2_316",
+        "sentence_vi_a2_317",
+        "sentence_vi_a2_318",
+        "sentence_vi_a2_319",
+        "sentence_vi_a2_320"
+    ],
+    "grammar": [
+        {
+            "point": "节庆时间：vào / trong dịp / nhân dịp",
+            "explain": "「vào + 节日」= 在…节（具体日期）；「trong dịp + 节日」= 在…期间（一段时间）；「nhân dịp + 节日」= 值此…之际（正式书面）。前两者口语，第三者多用于致辞、贺卡。",
+            "examples": [
+                {
+                    "vi": "Vào Tết Nguyên Đán, cả nhà sum họp cùng nhau.",
+                    "zh": "春节时，全家人团聚在一起。"
+                },
+                {
+                    "vi": "Trong dịp Tết, người ta thường đi chúc Tết họ hàng.",
+                    "zh": "春节期间，人们常走亲访友拜年。"
+                },
+                {
+                    "vi": "Nhân dịp năm mới, tôi xin chúc gia đình anh nhiều sức khỏe.",
+                    "zh": "值此新年之际，我祝您全家身体健康。"
+                }
+            ]
+        },
+        {
+            "point": "节庆习俗描述：thường / hay / có tục",
+            "explain": "描述习俗三种表达：「thường + V」= 常常（一般性）；「hay + V」= 经常（口语）；「có tục + V」= 有…习俗（书面、说明风俗）。后接具体动作，如：có tục gói bánh chưng（有包粽子的习俗）。",
+            "examples": [
+                {
+                    "vi": "Người Việt thường gói bánh chưng vào dịp Tết.",
+                    "zh": "越南人春节时经常包方形粽子。"
+                },
+                {
+                    "vi": "Trẻ em rất thích được nhận lì xì vào ngày Tết.",
+                    "zh": "孩子们很喜欢在春节收到红包。"
+                },
+                {
+                    "vi": "Người Việt có tục xông đất vào ngày mùng một Tết.",
+                    "zh": "越南人有大年初一「冲地」的习俗。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「lì xì」的意思是？",
+            "options": [
+                "红包",
+                "糖果",
+                "年糕",
+                "春联"
+            ],
+            "answer": "红包"
+        },
+        {
+            "type": "choose",
+            "question": "哪句正确表达「春节时全家团聚」？",
+            "options": [
+                "Vào Tết Nguyên Đán, cả nhà sum họp.",
+                "Tết Nguyên Đán vào cả nhà sum họp.",
+                "Cả nhà vào Tết sum họp Nguyên Đán.",
+                "Sum họp cả nhà vào Tết Nguyên Đán."
+            ],
+            "answer": "Vào Tết Nguyên Đán, cả nhà sum họp."
+        },
+        {
+            "type": "fill",
+            "question": "___ Tết Nguyên Đán, cả nhà sum họp cùng nhau.（春节时，全家人团聚在一起）",
+            "answer": "Vào"
+        },
+        {
+            "type": "fill",
+            "question": "Người Việt thường gói bánh ___ vào dịp Tết.（越南人春节时经常包方形粽子）",
+            "answer": "chưng"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「春节快乐」的越南语",
+            "answer": "Chúc mừng năm mới"
+        }
+    ]
+}

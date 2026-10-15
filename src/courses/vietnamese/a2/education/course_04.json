@@ -1,0 +1,315 @@
+{
+    "id": "course_vi_144",
+    "title": "第 4 课：图书馆与自习",
+    "titleVi": "Bài 4: Thư viện và tự học",
+    "order": 4,
+    "scenario": "education",
+    "goals": [
+        "能完成图书馆借书 / 还书 / 续借",
+        "能描述自己的自习习惯",
+        "能用「nên / không nên」表达自习建议",
+        "能用「mà」连接定语从句"
+    ],
+    "words": [
+        {
+            "id": "vi_a2_thu_vien",
+            "name": "thư viện",
+            "trans": [
+                "图书馆"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "library"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_muon_sach",
+            "name": "mượn sách",
+            "trans": [
+                "借书"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "library"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_tra_sach",
+            "name": "trả sách",
+            "trans": [
+                "还书"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "library"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_gia_han",
+            "name": "gia hạn",
+            "trans": [
+                "续借",
+                "延期"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "library"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_the_thu_vien",
+            "name": "thẻ thư viện",
+            "trans": [
+                "借书证"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "library"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_quyen_sach",
+            "name": "quyển sách",
+            "trans": [
+                "一本书"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "library"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_tu_sach",
+            "name": "tủ sách",
+            "trans": [
+                "书架",
+                "书柜"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "library"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ke_sach",
+            "name": "kệ sách",
+            "trans": [
+                "书架（层架）"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "library"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_phong_doc",
+            "name": "phòng đọc",
+            "trans": [
+                "阅览室"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "library"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_tu_hoc",
+            "name": "tự học",
+            "trans": [
+                "自学"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "library"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_yen_tinh",
+            "name": "yên tĩnh",
+            "trans": [
+                "安静"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "library"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_on_ao",
+            "name": "ồn ào",
+            "trans": [
+                "吵闹"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "library"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_tai_lieu",
+            "name": "tài liệu",
+            "trans": [
+                "资料"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "library"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_tra_cuu",
+            "name": "tra cứu",
+            "trans": [
+                "查阅"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "library"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_a2_201",
+        "sentence_vi_a2_202",
+        "sentence_vi_a2_203",
+        "sentence_vi_a2_204",
+        "sentence_vi_a2_205",
+        "sentence_vi_a2_206",
+        "sentence_vi_a2_207",
+        "sentence_vi_a2_208"
+    ],
+    "grammar": [
+        {
+            "point": "定语从句：mà",
+            "explain": "「mà」= 关系代词「……的」，用于修饰前面的名词。结构：「名词 + mà + 小句」，如「quyển sách mà tôi mua hôm qua」（我昨天买的那本书）。「mà」在口语中常省略，但书面保留更清楚。注意：mà 不是「但是」（那是 nhưng），也不同于「mà thôi」（而已）。",
+            "examples": [
+                {
+                    "vi": "Quyển sách mà tôi mượn ở thư viện rất hay.",
+                    "zh": "我在图书馆借的那本书很好看。"
+                },
+                {
+                    "vi": "Đây là giảng viên mà tôi rất kính trọng.",
+                    "zh": "这是我非常尊敬的讲师。"
+                },
+                {
+                    "vi": "Tôi thích những bài học mà có nhiều ví dụ thực tế.",
+                    "zh": "我喜欢那些有很多实际例子的课程。"
+                }
+            ]
+        },
+        {
+            "point": "自习建议：nên / không nên / cần",
+            "explain": "「nên + V」= 应该（建议）；「không nên + V」= 不应该（劝止）；「cần + V」= 需要。建议型句子常与条件连用：Nếu muốn tập trung thì nên...（如果想专注就应该…）。自习场景高频。",
+            "examples": [
+                {
+                    "vi": "Bạn nên tự học ít nhất hai tiếng mỗi ngày.",
+                    "zh": "你应该每天至少自学两小时。"
+                },
+                {
+                    "vi": "Không nên học ở nơi ồn ào, sẽ rất khó tập trung.",
+                    "zh": "不该在吵闹的地方学习，很难专注。"
+                },
+                {
+                    "vi": "Nếu muốn đạt kết quả tốt, bạn cần có kế hoạch học tập rõ ràng.",
+                    "zh": "如果想取得好成绩，你需要有明确的学习计划。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「gia hạn」的意思是？",
+            "options": [
+                "借书",
+                "还书",
+                "续借",
+                "预约"
+            ],
+            "answer": "续借"
+        },
+        {
+            "type": "choose",
+            "question": "哪句正确使用「mà」？",
+            "options": [
+                "Quyển sách mà tôi mua hôm qua rất hay.",
+                "Quyển sách tôi mua mà hôm qua rất hay.",
+                "Quyển sách mà rất hay tôi mua hôm qua.",
+                "Mà quyển sách tôi mua hôm qua rất hay."
+            ],
+            "answer": "Quyển sách mà tôi mua hôm qua rất hay."
+        },
+        {
+            "type": "fill",
+            "question": "Bạn ___ tự học ít nhất hai tiếng mỗi ngày.（你应该每天至少自学两小时）",
+            "answer": "nên"
+        },
+        {
+            "type": "fill",
+            "question": "Đây là giảng viên ___ tôi rất kính trọng.（这是我非常尊敬的讲师）",
+            "answer": "mà"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「我在图书馆借了三本书」的越南语",
+            "answer": "Tôi mượn ba quyển sách ở thư viện"
+        }
+    ]
+}

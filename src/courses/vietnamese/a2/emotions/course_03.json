@@ -1,0 +1,322 @@
+{
+    "id": "course_vi_163",
+    "title": "第 3 课：表达感受",
+    "titleVi": "Bài 3: Bày tỏ cảm xúc",
+    "order": 3,
+    "scenario": "emotions",
+    "goals": [
+        "能深入表达自己的内心感受",
+        "能用「khiến / làm cho」表达「使某人…」",
+        "能表达喜欢 / 讨厌 / 在乎",
+        "能描述过去的情绪经历"
+    ],
+    "words": [
+        {
+            "id": "vi_a2_yeu_thich",
+            "name": "yêu thích",
+            "trans": [
+                "喜爱"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "express"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ghet",
+            "name": "ghét",
+            "trans": [
+                "讨厌",
+                "恨"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "express"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_quan_tam",
+            "name": "quan tâm",
+            "trans": [
+                "关心",
+                "在乎"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "express"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_thich_thu",
+            "name": "thích thú",
+            "trans": [
+                "感兴趣",
+                "喜欢"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "express"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_khien",
+            "name": "khiến",
+            "trans": [
+                "使",
+                "让"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "express"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_lam_cho",
+            "name": "làm cho",
+            "trans": [
+                "使得",
+                "让"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "express"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_cam_dong",
+            "name": "cảm động",
+            "trans": [
+                "感动"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "express"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_nho_nhung",
+            "name": "nhớ nhung",
+            "trans": [
+                "思念",
+                "想念"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "express"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_co_don",
+            "name": "cô đơn",
+            "trans": [
+                "孤单"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "express"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_an_tam",
+            "name": "an tâm",
+            "trans": [
+                "安心",
+                "放心"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "express"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_hy_vong",
+            "name": "hy vọng",
+            "trans": [
+                "希望",
+                "盼望"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "express"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_tin_tuong",
+            "name": "tin tưởng",
+            "trans": [
+                "信任"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "express"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_nghi_ngo",
+            "name": "nghi ngờ",
+            "trans": [
+                "怀疑"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "express"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_thong_cam",
+            "name": "thông cảm",
+            "trans": [
+                "同情",
+                "体谅"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "express"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_a2_289",
+        "sentence_vi_a2_290",
+        "sentence_vi_a2_291",
+        "sentence_vi_a2_292",
+        "sentence_vi_a2_293",
+        "sentence_vi_a2_294",
+        "sentence_vi_a2_295",
+        "sentence_vi_a2_296"
+    ],
+    "grammar": [
+        {
+            "point": "使动表达：khiến / làm cho + 人 + 情绪",
+            "explain": "「khiến + 人 + 情绪」= 使某人感到…（书面/中性）；「làm cho + 人 + 情绪」= 让某人感到…（口语更常用）。二者结构：主语（事/物）+ khiến/làm cho + 对象 + 情绪形容词。注意：khiến/làm cho 后必须接对象，不能省略。",
+            "examples": [
+                {
+                    "vi": "Tin này khiến tôi rất bất ngờ.",
+                    "zh": "这个消息让我非常意外。"
+                },
+                {
+                    "vi": "Câu chuyện của cô ấy làm cho tôi cảm động.",
+                    "zh": "她的故事让我感动。"
+                },
+                {
+                    "vi": "Thành công của con trai khiến bà ấy vô cùng tự hào.",
+                    "zh": "儿子的成功让她无比自豪。"
+                }
+            ]
+        },
+        {
+            "point": "喜欢/在乎：thích / yêu / ghét / quan tâm",
+            "explain": "「thích」= 喜欢（口语最常用）；「yêu」= 爱（强烈情感，多用于人或物）；「ghét」= 讨厌；「quan tâm」= 关心/在乎（有情感投入）。程度递增：thích thú（略感兴趣）< thích < rất thích < yêu。否定用 không: không thích / không quan tâm。",
+            "examples": [
+                {
+                    "vi": "Tôi rất thích đọc sách vào buổi tối.",
+                    "zh": "我很喜欢晚上读书。"
+                },
+                {
+                    "vi": "Anh ấy ghét phải chờ đợi người khác.",
+                    "zh": "他讨厌等人。"
+                },
+                {
+                    "vi": "Mẹ tôi luôn quan tâm đến sức khỏe của cả nhà.",
+                    "zh": "我妈妈总是关心全家人的健康。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「cảm động」的意思是？",
+            "options": [
+                "冷淡",
+                "感动",
+                "害怕",
+                "好奇"
+            ],
+            "answer": "感动"
+        },
+        {
+            "type": "choose",
+            "question": "哪句正确使用「khiến」？",
+            "options": [
+                "Tin này khiến tôi rất bất ngờ.",
+                "Tin này khiến rất bất ngờ tôi.",
+                "Khiến tin này tôi bất ngờ.",
+                "Tôi khiến tin này bất ngờ."
+            ],
+            "answer": "Tin này khiến tôi rất bất ngờ."
+        },
+        {
+            "type": "fill",
+            "question": "Câu chuyện của cô ấy làm ___ tôi cảm động.（她的故事让我感动）",
+            "answer": "cho"
+        },
+        {
+            "type": "fill",
+            "question": "Mẹ tôi luôn ___ tâm đến sức khỏe của cả nhà.（我妈妈总是关心全家人的健康）",
+            "answer": "quan"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「我很喜欢读书」的越南语",
+            "answer": "Tôi rất thích đọc sách"
+        }
+    ]
+}

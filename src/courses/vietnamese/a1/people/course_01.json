@@ -1,25 +1,24 @@
 {
     "id": "course_vi_27",
-    "title": "第 1 课：日常物品与量词",
-    "titleVi": "Bài 1: Đồ vật hàng ngày và lượng từ",
+    "title": "第 1 课：外貌描述",
+    "titleVi": "Bài 1: Miêu tả ngoại hình",
     "order": 1,
-    "scenario": "objects",
+    "scenario": "people",
     "goals": [
-        "掌握越南语常用量词",
-        "了解量词与名词的搭配规则",
-        "能用「Đây là + 量词 + 名词」介绍物品",
-        "掌握「cái / con / quyển / chiếc / bức」五个核心量词"
+        "能说出 8 个基本外貌形容词",
+        "能用「người + 形容词」描述人的外表",
+        "能用「rất / hơi / quá」调节程度",
+        "能对比两人的外貌差异"
     ],
     "words": [
         {
-            "id": "vi_do_vat",
-            "name": "đồ vật",
+            "id": "vi_cao",
+            "name": "cao",
             "trans": [
-                "物品",
-                "东西"
+                "高"
             ],
             "tags": [
-                "objects",
+                "people",
                 "A1"
             ],
             "source": [
@@ -27,13 +26,13 @@
             ]
         },
         {
-            "id": "vi_cai",
-            "name": "cái",
+            "id": "vi_thap",
+            "name": "thấp",
             "trans": [
-                "个（量词，用于无生命物体）"
+                "矮"
             ],
             "tags": [
-                "objects",
+                "people",
                 "A1"
             ],
             "source": [
@@ -41,13 +40,13 @@
             ]
         },
         {
-            "id": "vi_con",
-            "name": "con",
+            "id": "vi_gay",
+            "name": "gầy",
             "trans": [
-                "只（量词，用于动物）"
+                "瘦"
             ],
             "tags": [
-                "objects",
+                "people",
                 "A1"
             ],
             "source": [
@@ -55,13 +54,13 @@
             ]
         },
         {
-            "id": "vi_quyen",
-            "name": "quyển",
+            "id": "vi_beo",
+            "name": "béo",
             "trans": [
-                "本（量词，用于书本）"
+                "胖"
             ],
             "tags": [
-                "objects",
+                "people",
                 "A1"
             ],
             "source": [
@@ -69,13 +68,13 @@
             ]
         },
         {
-            "id": "vi_chiec",
-            "name": "chiếc",
+            "id": "vi_tre",
+            "name": "trẻ",
             "trans": [
-                "辆/艘/件（量词，用于车船衣物）"
+                "年轻"
             ],
             "tags": [
-                "objects",
+                "people",
                 "A1"
             ],
             "source": [
@@ -83,13 +82,14 @@
             ]
         },
         {
-            "id": "vi_buc",
-            "name": "bức",
+            "id": "vi_gia",
+            "name": "già",
             "trans": [
-                "幅（量词，用于画、照片、信）"
+                "老",
+                "年长"
             ],
             "tags": [
-                "objects",
+                "people",
                 "A1"
             ],
             "source": [
@@ -97,13 +97,14 @@
             ]
         },
         {
-            "id": "vi_ban_table",
-            "name": "bàn",
+            "id": "vi_dep",
+            "name": "đẹp",
             "trans": [
-                "桌子"
+                "漂亮",
+                "好看"
             ],
             "tags": [
-                "objects",
+                "people",
                 "A1"
             ],
             "source": [
@@ -111,13 +112,13 @@
             ]
         },
         {
-            "id": "vi_sach",
-            "name": "sách",
+            "id": "vi_de_thuong",
+            "name": "dễ thương",
             "trans": [
-                "书"
+                "可爱"
             ],
             "tags": [
-                "objects",
+                "people",
                 "A1"
             ],
             "source": [
@@ -126,39 +127,39 @@
         }
     ],
     "sentences": [
-        "sentence_vi_109",
-        "sentence_vi_110",
-        "sentence_vi_111",
-        "sentence_vi_112",
-        "sentence_vi_113",
-        "sentence_vi_114"
+        "sentence_vi_625",
+        "sentence_vi_626",
+        "sentence_vi_627",
+        "sentence_vi_628",
+        "sentence_vi_629",
+        "sentence_vi_630"
     ],
     "grammar": [
         {
-            "point": "量词「cái」的通用性",
-            "explain": "「cái」是越南语最通用的量词，用于大多数无生命物体，如「cái bàn」（桌子）、「cái ghế」（椅子）、「cái bút」（笔）。",
+            "point": "形容词语序：「người + 形容词」",
+            "explain": "越南语描述人的外貌用「người + 形容词」结构，người 在此作主语，等于「这个人/那人」。口语中 người 可省略，直接说「Anh ấy cao」。形容词直接跟主语，不加「là」。",
             "examples": [
                 {
-                    "vi": "Đây là cái bàn.",
-                    "zh": "这是桌子。"
+                    "vi": "Anh ấy cao và gầy.",
+                    "zh": "他又高又瘦。"
                 },
                 {
-                    "vi": "Đây là cái ghế.",
-                    "zh": "这是椅子。"
+                    "vi": "Cô ấy đẹp và trẻ.",
+                    "zh": "她又漂亮又年轻。"
                 }
             ]
         },
         {
-            "point": "量词与名词的搭配",
-            "explain": "不同类别名词用不同量词：书本用「quyển」，动物用「con」，车辆衣物用「chiếc」，画/照片/信用「bức」。",
+            "point": "程度副词：rất / hơi / quá",
+            "explain": "「rất + 形容词」= 很…（书面，放前）；「hơi + 形容词」= 有点…（放前）；「quá」= 太…（放后，感叹）。三者在 A1 高频，描述外貌时常用 hơi 缓解语气（hơi béo = 有点胖，礼貌）。",
             "examples": [
                 {
-                    "vi": "Đây là quyển sách.",
-                    "zh": "这是书。"
+                    "vi": "Em ấy hơi béo.",
+                    "zh": "他/她有点胖。"
                 },
                 {
-                    "vi": "Đây là con mèo.",
-                    "zh": "这是猫。"
+                    "vi": "Bạn tôi rất cao.",
+                    "zh": "我朋友很高。"
                 }
             ]
         }
@@ -167,23 +168,24 @@
     "exercises": [
         {
             "type": "choose",
-            "question": "「一本书」的量词应该用？",
+            "question": "「gầy」的意思是？",
             "options": [
-                "cái",
-                "quyển",
-                "con"
+                "高",
+                "瘦",
+                "胖",
+                "矮"
             ],
-            "answer": "quyển"
+            "answer": "瘦"
         },
         {
             "type": "fill",
-            "question": "Đây là ___ bàn.",
-            "answer": "cái"
+            "question": "Anh ấy ___ và gầy.（他又高又瘦）",
+            "answer": "cao"
         },
         {
             "type": "telex_input",
-            "question": "输入「书」的越南语",
-            "answer": "sách"
+            "question": "输入「她很漂亮」的越南语",
+            "answer": "Cô ấy rất đẹp"
         }
     ]
 }

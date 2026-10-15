@@ -1,0 +1,316 @@
+{
+    "id": "course_vi_108",
+    "title": "第 4 课：买药",
+    "titleVi": "Bài 4: Mua thuốc ở hiệu thuốc",
+    "order": 4,
+    "scenario": "health",
+    "goals": [
+        "能在药店向药剂师描述需求",
+        "能看懂药品说明书上的剂量与服用时间",
+        "能用比较级 hơn / nhất 比较药物效果",
+        "能用 đừng / chớ 提醒别人不要做危险的事"
+    ],
+    "words": [
+        {
+            "id": "vi_a2_hieu_thuoc",
+            "name": "hiệu thuốc",
+            "trans": [
+                "药店"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "pharmacy"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_don_thuoc",
+            "name": "đơn thuốc",
+            "trans": [
+                "处方",
+                "药单"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "pharmacy"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_vien_thuoc",
+            "name": "viên thuốc",
+            "trans": [
+                "药片",
+                "药丸"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "pharmacy"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_thuoc_giam_dau",
+            "name": "thuốc giảm đau",
+            "trans": [
+                "止痛药"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "pharmacy"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_thuoc_cam",
+            "name": "thuốc cảm",
+            "trans": [
+                "感冒药"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "pharmacy"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_thuoc_khang_sinh",
+            "name": "thuốc kháng sinh",
+            "trans": [
+                "抗生素"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "pharmacy"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_lieu_luong",
+            "name": "liều lượng",
+            "trans": [
+                "剂量"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "pharmacy"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_tac_dung_phu",
+            "name": "tác dụng phụ",
+            "trans": [
+                "副作用"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "pharmacy"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_uong_thuoc",
+            "name": "uống thuốc",
+            "trans": [
+                "服药",
+                "吃药"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "pharmacy"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_sau_an",
+            "name": "sau ăn",
+            "trans": [
+                "饭后"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "pharmacy"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_truoc_an",
+            "name": "trước ăn",
+            "trans": [
+                "饭前"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "pharmacy"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_het_han",
+            "name": "hết hạn",
+            "trans": [
+                "过期"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "pharmacy"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_duoc_si",
+            "name": "dược sĩ",
+            "trans": [
+                "药剂师"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "pharmacy"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ngay_may_lan",
+            "name": "ngày mấy lần",
+            "trans": [
+                "一天几次"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "pharmacy"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_a2_025",
+        "sentence_vi_a2_026",
+        "sentence_vi_a2_027",
+        "sentence_vi_a2_028",
+        "sentence_vi_a2_029",
+        "sentence_vi_a2_030",
+        "sentence_vi_a2_031",
+        "sentence_vi_a2_032"
+    ],
+    "grammar": [
+        {
+            "point": "比较级 hơn / 最高级 nhất",
+            "explain": "「A + 形容词 + hơn + B」= A 比 B 更…；「A + 形容词 + nhất」= A 最…。否定比较：「không ... bằng」= 不如。注意「hơn」兼有「多」（số lượng）和「更」（比较）两义，靠位置判断：đắt hơn = 更贵；hơn ba người = 三人以上。",
+            "examples": [
+                {
+                    "vi": "Thuốc này tốt hơn thuốc kia.",
+                    "zh": "这种药比那种药好。"
+                },
+                {
+                    "vi": "Đây là loại thuốc hiệu quả nhất trong hiệu thuốc.",
+                    "zh": "这是药店里最有效的药。"
+                },
+                {
+                    "vi": "Tôi không cao bằng anh trai tôi.",
+                    "zh": "我没有我哥哥高。"
+                }
+            ]
+        },
+        {
+            "point": "否定祈使句 đừng / chớ（别…）",
+            "explain": "「đừng + V」= 别做某事（口语最常用，语气适中）。「chớ + V」= 别（书面/南方口语，语气稍强）。强调请求：「xin đừng」「làm ơn đừng」。对比：không nên（不应该，劝说）< đừng（别，明确指令）。",
+            "examples": [
+                {
+                    "vi": "Đừng quên uống thuốc sau khi ăn.",
+                    "zh": "别忘了饭后吃药。"
+                },
+                {
+                    "vi": "Đừng tự ý mua kháng sinh uống, phải có đơn thuốc.",
+                    "zh": "别擅自买抗生素吃，得有处方。"
+                },
+                {
+                    "vi": "Chớ uống thuốc đã hết hạn, rất nguy hiểm.",
+                    "zh": "别吃过期的药，很危险。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「đơn thuốc」的意思是？",
+            "options": [
+                "药片",
+                "处方",
+                "药店",
+                "剂量"
+            ],
+            "answer": "处方"
+        },
+        {
+            "type": "choose",
+            "question": "哪句正确使用比较级？",
+            "options": [
+                "Thuốc này tốt thuốc kia hơn.",
+                "Thuốc này tốt hơn thuốc kia.",
+                "Thuốc này hơn tốt thuốc kia.",
+                "Thuốc này tốt nhất thuốc kia."
+            ],
+            "answer": "Thuốc này tốt hơn thuốc kia."
+        },
+        {
+            "type": "fill",
+            "question": "Đây là loại thuốc hiệu quả ___ trong hiệu thuốc.（这是药店里最有效的药）",
+            "answer": "nhất"
+        },
+        {
+            "type": "fill",
+            "question": "___ quên uống thuốc sau khi ăn.（别忘了饭后吃药）",
+            "answer": "Đừng"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「别忘了饭后吃药」的越南语",
+            "answer": "Đừng quên uống thuốc sau khi ăn"
+        }
+    ]
+}

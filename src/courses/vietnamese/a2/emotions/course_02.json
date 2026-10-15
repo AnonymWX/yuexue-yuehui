@@ -1,0 +1,321 @@
+{
+    "id": "course_vi_162",
+    "title": "第 2 课：性格描述",
+    "titleVi": "Bài 2: Mô tả tính cách",
+    "order": 2,
+    "scenario": "emotions",
+    "goals": [
+        "能说出 12 种以上性格形容词",
+        "能用「thì / nhưng」对比性格",
+        "能用「có vẻ / trông」描述印象",
+        "能对比自己与他人的性格"
+    ],
+    "words": [
+        {
+            "id": "vi_a2_tinh_cach",
+            "name": "tính cách",
+            "trans": [
+                "性格"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "personality"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_than_thien",
+            "name": "thân thiện",
+            "trans": [
+                "友好",
+                "亲切"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "personality"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_hoa_dong",
+            "name": "hòa đồng",
+            "trans": [
+                "合群",
+                "随和"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "personality"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_it_noi",
+            "name": "ít nói",
+            "trans": [
+                "话少",
+                "沉默"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "personality"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_hay_noi",
+            "name": "hay nói",
+            "trans": [
+                "话多",
+                "健谈"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "personality"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_hai_huoc",
+            "name": "hài hước",
+            "trans": [
+                "幽默"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "personality"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_nghiem_tuc",
+            "name": "nghiêm túc",
+            "trans": [
+                "严肃",
+                "认真"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "personality"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_cham_chi",
+            "name": "chăm chỉ",
+            "trans": [
+                "勤奋"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "personality"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_luoi_bieng",
+            "name": "lười biếng",
+            "trans": [
+                "懒惰"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "personality"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_kien_nhan",
+            "name": "kiên nhẫn",
+            "trans": [
+                "有耐心"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "personality"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_nong_tinh",
+            "name": "nóng tính",
+            "trans": [
+                "脾气急",
+                "暴躁"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "personality"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_than_trong",
+            "name": "thận trọng",
+            "trans": [
+                "谨慎",
+                "稳重"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "personality"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_trung_thuc",
+            "name": "trung thực",
+            "trans": [
+                "诚实"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "personality"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_rong_luong",
+            "name": "rộng lượng",
+            "trans": [
+                "慷慨",
+                "大方"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "personality"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_a2_281",
+        "sentence_vi_a2_282",
+        "sentence_vi_a2_283",
+        "sentence_vi_a2_284",
+        "sentence_vi_a2_285",
+        "sentence_vi_a2_286",
+        "sentence_vi_a2_287",
+        "sentence_vi_a2_288"
+    ],
+    "grammar": [
+        {
+            "point": "对比句型：...thì..., nhưng...",
+            "explain": "「A thì B, nhưng C」= A（虽然）是 B，但 C。「thì」在此作对比标记（非时态助词），强调前后对比。也可单用「nhưng」：「Anh ấy chăm chỉ nhưng ít nói.」（他勤奋但话少）。注意：thì 在此读重音，与时间助词 thì（时）不同。",
+            "examples": [
+                {
+                    "vi": "Anh trai tôi thì hướng ngoại, còn tôi thì ít nói hơn.",
+                    "zh": "我哥哥外向，而我比较话少。"
+                },
+                {
+                    "vi": "Cô ấy rất hài hước nhưng cũng rất nghiêm túc trong công việc.",
+                    "zh": "她很幽默，但在工作中也很严肃。"
+                },
+                {
+                    "vi": "Tính cách của hai chị em hoàn toàn khác nhau.",
+                    "zh": "两姐妹的性格完全不同。"
+                }
+            ]
+        },
+        {
+            "point": "描述印象：có vẻ / trông / hình như",
+            "explain": "「có vẻ」= 似乎、看上去（书面/中性）；「trông」= 看起来（口语，多指外观/神态）；「hình như」= 好像（不确定判断）。三者语气从强到弱：có vẻ ≈ trông > hình như。",
+            "examples": [
+                {
+                    "vi": "Anh ấy có vẻ là người rất thân thiện.",
+                    "zh": "他看上去是个很友好的人。"
+                },
+                {
+                    "vi": "Trông chị hơi mệt, chị có sao không?",
+                    "zh": "你看起来有点累，你还好吗？"
+                },
+                {
+                    "vi": "Hình như cô ấy là người khá kín đáo.",
+                    "zh": "她好像是个比较内向的人。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「kiên nhẫn」的意思是？",
+            "options": [
+                "脾气急",
+                "有耐心",
+                "懒惰",
+                "粗心"
+            ],
+            "answer": "有耐心"
+        },
+        {
+            "type": "choose",
+            "question": "哪句正确使用「thì」对比？",
+            "options": [
+                "Anh trai tôi hướng ngoại thì, còn tôi ít nói.",
+                "Anh trai tôi thì hướng ngoại, còn tôi thì ít nói.",
+                "Anh trai tôi thì thì hướng ngoại.",
+                "Thì anh trai tôi hướng ngoại."
+            ],
+            "answer": "Anh trai tôi thì hướng ngoại, còn tôi thì ít nói."
+        },
+        {
+            "type": "fill",
+            "question": "Anh ấy có ___ là người rất thân thiện.（他看上去是个很友好的人）",
+            "answer": "vẻ"
+        },
+        {
+            "type": "fill",
+            "question": "Cô ấy rất hài hước ___ cũng rất nghiêm túc trong công việc.（她很幽默，但在工作中也很严肃）",
+            "answer": "nhưng"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「他很友好」的越南语",
+            "answer": "Anh ấy rất thân thiện"
+        }
+    ]
+}

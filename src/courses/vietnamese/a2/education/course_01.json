@@ -1,0 +1,315 @@
+{
+    "id": "course_vi_141",
+    "title": "第 1 课：学校与课程",
+    "titleVi": "Bài 1: Trường học và khóa học",
+    "order": 1,
+    "scenario": "education",
+    "goals": [
+        "能说出 12 种以上学校、课程相关词汇",
+        "能用「học / học ở / học tại」表达就读情况",
+        "能用「bao lâu / mấy năm」询问学制",
+        "能介绍自己的学校与专业"
+    ],
+    "words": [
+        {
+            "id": "vi_a2_truong_hoc",
+            "name": "trường học",
+            "trans": [
+                "学校"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "school"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_dai_hoc",
+            "name": "đại học",
+            "trans": [
+                "大学"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "school"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_cao_dang",
+            "name": "cao đẳng",
+            "trans": [
+                "大专"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "school"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_trung_hoc",
+            "name": "trung học",
+            "trans": [
+                "中学"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "school"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_tieu_hoc",
+            "name": "tiểu học",
+            "trans": [
+                "小学"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "school"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_khoa_hoc",
+            "name": "khóa học",
+            "trans": [
+                "课程"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "school"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_mon_hoc",
+            "name": "môn học",
+            "trans": [
+                "科目"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "school"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_chuyen_nganh",
+            "name": "chuyên ngành",
+            "trans": [
+                "专业"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "school"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_giang_vien",
+            "name": "giảng viên",
+            "trans": [
+                "讲师",
+                "高校教师"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "school"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_giao_vien",
+            "name": "giáo viên",
+            "trans": [
+                "老师"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "school"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_sinh_vien",
+            "name": "sinh viên",
+            "trans": [
+                "大学生"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "school"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_hoc_sinh",
+            "name": "học sinh",
+            "trans": [
+                "学生（中小学）"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "school"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_hoc_bong",
+            "name": "học bổng",
+            "trans": [
+                "奖学金"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "school"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_bang_cap",
+            "name": "bằng cấp",
+            "trans": [
+                "学位",
+                "文凭"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "school"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_a2_177",
+        "sentence_vi_a2_178",
+        "sentence_vi_a2_179",
+        "sentence_vi_a2_180",
+        "sentence_vi_a2_181",
+        "sentence_vi_a2_182",
+        "sentence_vi_a2_183",
+        "sentence_vi_a2_184"
+    ],
+    "grammar": [
+        {
+            "point": "就读表达：học ở / học tại / học + 学校",
+            "explain": "三种表达：「học ở + 学校」（口语最常用）；「học tại + 学校」（书面、正式）；「học + 学校名」（简略）。「học」后接科目/专业用「học + 名词」：học tiếng Việt（学越南语）、học y（学医）。注意：「học sinh」指中小学生，「sinh viên」指大学生，不要混用。",
+            "examples": [
+                {
+                    "vi": "Tôi học ở trường Đại học Quốc gia Hà Nội.",
+                    "zh": "我在河内国家大学学习。"
+                },
+                {
+                    "vi": "Cô ấy học chuyên ngành tiếng Việt tại một trường ở Huế.",
+                    "zh": "她在顺化的一所学校读越南语专业。"
+                },
+                {
+                    "vi": "Anh trai tôi học y, còn tôi học luật.",
+                    "zh": "我哥哥学医，我学法律。"
+                }
+            ]
+        },
+        {
+            "point": "学制询问：mấy năm / bao lâu",
+            "explain": "「học mấy năm?」= 学几年（问学制，期待数字答案）；「học bao lâu?」= 学多久（问时长，可长可短）。回答：「học bốn năm」（读四年）、「học khoảng hai năm rưỡi」（约两年半）。「rưỡi」= 半（用于整数后）。",
+            "examples": [
+                {
+                    "vi": "Chương trình đại học ở Việt Nam học mấy năm?",
+                    "zh": "越南的大学课程要读几年？"
+                },
+                {
+                    "vi": "Khoa tiếng Việt học bốn năm, còn cao học hai năm.",
+                    "zh": "越南语系读四年，硕士两年。"
+                },
+                {
+                    "vi": "Tôi học tiếng Việt được khoảng một năm rưỡi rồi.",
+                    "zh": "我学越南语已经大约一年半了。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「giảng viên」的意思是？",
+            "options": [
+                "中小学老师",
+                "大学讲师",
+                "学生",
+                "校长"
+            ],
+            "answer": "大学讲师"
+        },
+        {
+            "type": "choose",
+            "question": "哪句正确表达「我在河内国家大学学习」？",
+            "options": [
+                "Tôi học ở trường Đại học Quốc gia Hà Nội.",
+                "Tôi ở học trường Đại học Quốc gia Hà Nội.",
+                "Tôi trường học ở Đại học Quốc gia Hà Nội.",
+                "Tôi học Quốc gia ở Đại học Hà Nội trường."
+            ],
+            "answer": "Tôi học ở trường Đại học Quốc gia Hà Nội."
+        },
+        {
+            "type": "fill",
+            "question": "Chương trình đại học ở Việt Nam học ___ năm?（越南的大学课程要读几年？）",
+            "answer": "mấy"
+        },
+        {
+            "type": "fill",
+            "question": "Cô ấy học chuyên ___ tiếng Việt ở Huế.（她在顺化读越南语专业）",
+            "answer": "ngành"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「我在大学学习越南语」的越南语",
+            "answer": "Tôi học tiếng Việt ở đại học"
+        }
+    ]
+}

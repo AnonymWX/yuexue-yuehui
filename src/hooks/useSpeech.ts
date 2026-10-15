@@ -1,4 +1,31 @@
+import { toast } from '@/lib/toast'
 import { useCallback, useEffect, useRef, useState } from 'react'
+
+const NOTICE_KEY = 'tts_notice_shown_v1'
+
+const LANG_LABEL: Record<string, string> = {
+  vi: '越南语',
+  en: '英语',
+  ja: '日语',
+  ko: '韩语',
+  zh: '中文',
+  de: '德语',
+  id: '印尼语',
+}
+
+function noticeMissingVoiceOnce(langPrefix: string) {
+  if (typeof window === 'undefined') return
+  try {
+    const shown = JSON.parse(localStorage.getItem(NOTICE_KEY) ?? '{}')
+    if (shown[langPrefix]) return
+    shown[langPrefix] = Date.now()
+    localStorage.setItem(NOTICE_KEY, JSON.stringify(shown))
+  } catch {
+    /* ignore */
+  }
+  const label = LANG_LABEL[langPrefix] ?? langPrefix
+  toast(`未检测到${label}语音包，发音可能不准确。可在系统设置里安装${label}语音后重启浏览器。`, 'info')
+}
 
 /**
  * 纯浏览器 speechSynthesis，优先选本地语音包
@@ -38,13 +65,11 @@ export default function useSpeech(text: string, option?: Partial<SpeechSynthesis
       const utter = new SpeechSynthesisUtterance(text)
       if (optionRef.current) Object.assign(utter, optionRef.current)
 
-      // ★ 关键：优先选 localService: true 的语音
       const lang = optionRef.current?.lang
       if (lang) {
         const voices = window.speechSynthesis.getVoices()
         const langPrefix = lang.split('-')[0]
 
-        // 优先级：本地完全匹配 > 本地前缀匹配 > 在线完全匹配 > 在线前缀匹配
         const localExact = voices.find((v) => v.lang === lang && v.localService)
         const localPrefix = voices.find((v) => v.lang.startsWith(langPrefix) && v.localService)
         const anyExact = voices.find((v) => v.lang === lang)
@@ -54,6 +79,8 @@ export default function useSpeech(text: string, option?: Partial<SpeechSynthesis
         if (chosen) {
           utter.voice = chosen
           console.log('[useSpeech] 使用语音:', chosen.name, '| local:', chosen.localService)
+        } else {
+          noticeMissingVoiceOnce(langPrefix)
         }
       }
 

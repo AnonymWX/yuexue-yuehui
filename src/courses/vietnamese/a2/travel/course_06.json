@@ -1,0 +1,315 @@
+{
+    "id": "course_vi_126",
+    "title": "第 6 课：紧急求助与旅游安全",
+    "titleVi": "Bài 6: Yêu cầu trợ giúp khẩn cấp và an toàn du lịch",
+    "order": 6,
+    "scenario": "travel",
+    "goals": [
+        "能记住越南的紧急电话号码并报警求助",
+        "能描述被盗 / 丢失 / 生病等紧急状况",
+        "能用「giúp tôi với!」等紧急句式求助",
+        "能向大使馆 / 警察 / 医院寻求帮助"
+    ],
+    "words": [
+        {
+            "id": "vi_a2_khan_cap",
+            "name": "khẩn cấp",
+            "trans": [
+                "紧急"
+            ],
+            "tags": [
+                "travel",
+                "A2",
+                "emergency"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_cuu",
+            "name": "cứu",
+            "trans": [
+                "救"
+            ],
+            "tags": [
+                "travel",
+                "A2",
+                "emergency"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_giup_do",
+            "name": "giúp đỡ",
+            "trans": [
+                "帮助",
+                "援助"
+            ],
+            "tags": [
+                "travel",
+                "A2",
+                "emergency"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_canh_sat",
+            "name": "cảnh sát",
+            "trans": [
+                "警察"
+            ],
+            "tags": [
+                "travel",
+                "A2",
+                "emergency"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_cuu_hoa",
+            "name": "cứu hỏa",
+            "trans": [
+                "消防"
+            ],
+            "tags": [
+                "travel",
+                "A2",
+                "emergency"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_cap_cuu",
+            "name": "cấp cứu",
+            "trans": [
+                "急救"
+            ],
+            "tags": [
+                "travel",
+                "A2",
+                "emergency"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_dai_su_quan",
+            "name": "đại sứ quán",
+            "trans": [
+                "大使馆"
+            ],
+            "tags": [
+                "travel",
+                "A2",
+                "emergency"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_lanh_su_quan",
+            "name": "lãnh sự quán",
+            "trans": [
+                "领事馆"
+            ],
+            "tags": [
+                "travel",
+                "A2",
+                "emergency"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_mat",
+            "name": "mất",
+            "trans": [
+                "丢失"
+            ],
+            "tags": [
+                "travel",
+                "A2",
+                "emergency"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_bi_trom",
+            "name": "bị trộm",
+            "trans": [
+                "被偷"
+            ],
+            "tags": [
+                "travel",
+                "A2",
+                "emergency"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_bi_cuop",
+            "name": "bị cướp",
+            "trans": [
+                "被抢"
+            ],
+            "tags": [
+                "travel",
+                "A2",
+                "emergency"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_giay_to",
+            "name": "giấy tờ",
+            "trans": [
+                "证件"
+            ],
+            "tags": [
+                "travel",
+                "A2",
+                "emergency"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_bao_cao",
+            "name": "báo cáo",
+            "trans": [
+                "报案",
+                "报告"
+            ],
+            "tags": [
+                "travel",
+                "A2",
+                "emergency"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_so_dien_thoai",
+            "name": "số điện thoại",
+            "trans": [
+                "电话号码"
+            ],
+            "tags": [
+                "travel",
+                "A2",
+                "emergency"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_a2_129",
+        "sentence_vi_a2_130",
+        "sentence_vi_a2_131",
+        "sentence_vi_a2_132",
+        "sentence_vi_a2_133",
+        "sentence_vi_a2_134",
+        "sentence_vi_a2_135",
+        "sentence_vi_a2_136"
+    ],
+    "grammar": [
+        {
+            "point": "紧急求助句式：giúp tôi với! / cứu tôi với!",
+            "explain": "「giúp tôi với!」= 帮帮我！（最常用）；「cứu tôi với!」= 救救我！（更紧急）；「làm ơn giúp tôi」= 请帮帮我（较礼貌）。「với」在句末加强恳求语气，不可省略。报警用 113（警察）、115（急救）、114（消防）。",
+            "examples": [
+                {
+                    "vi": "Giúp tôi với! Tôi bị mất hộ chiếu rồi!",
+                    "zh": "帮帮我！我的护照丢了！"
+                },
+                {
+                    "vi": "Cứu tôi với! Có người bị tai nạn ở đây!",
+                    "zh": "救命！这里有人出事故了！"
+                },
+                {
+                    "vi": "Làm ơn gọi cấp cứu 115 giúp tôi, tôi cảm thấy rất khó thở.",
+                    "zh": "请帮我打 115 叫救护车，我感觉呼吸困难。"
+                }
+            ]
+        },
+        {
+            "point": "描述被偷/被抢：bị + 动词",
+            "explain": "bị 表遭遇负面事件：bị trộm（被偷，常用 bị mất 更自然）/ bị cướp（被抢）/ bị lừa（被骗）。结构：「Chủ thể + bị + 名词 + V」= 主语被…（发生）了。报警时必须说明：时间、地点、丢失物品、特征。",
+            "examples": [
+                {
+                    "vi": "Tôi bị mất ví ở chợ Bến Thành, trong ví có hộ chiếu và tiền mặt.",
+                    "zh": "我在滨城市场丢了钱包，里面有护照和现金。"
+                },
+                {
+                    "vi": "Điện thoại của tôi bị cướp khi tôi đang đi bộ trên đường.",
+                    "zh": "我走在路上时手机被抢了。"
+                },
+                {
+                    "vi": "Cô ấy bị lừa mua tour giả với giá rất cao.",
+                    "zh": "她被骗以高价买了假旅游团。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "越南急救（救护车）电话是？",
+            "options": [
+                "113",
+                "114",
+                "115",
+                "119"
+            ],
+            "answer": "115"
+        },
+        {
+            "type": "choose",
+            "question": "哪句正确表达「我的钱包被偷了」？",
+            "options": [
+                "Tôi được mất ví.",
+                "Tôi bị mất ví.",
+                "Tôi mất ví bị.",
+                "Tôi ví mất bị."
+            ],
+            "answer": "Tôi bị mất ví."
+        },
+        {
+            "type": "fill",
+            "question": "Giúp tôi ___! Tôi bị mất hộ chiếu rồi!（帮帮我！我的护照丢了！）",
+            "answer": "với"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi cần đến ___ sứ quán để làm lại hộ chiếu.（我需要去大使馆补办护照）",
+            "answer": "đại"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「救命！我被抢了！」的越南语",
+            "answer": "Cứu tôi với, tôi bị cướp"
+        }
+    ]
+}

@@ -1,25 +1,24 @@
 {
     "id": "course_vi_86",
-    "title": "第 1 课：日常物品与量词",
-    "titleVi": "Bài 1: Đồ vật hàng ngày và lượng từ",
+    "title": "第 1 课：常见交通工具",
+    "titleVi": "Bài 1: Các phương tiện giao thông phổ biến",
     "order": 1,
-    "scenario": "objects",
+    "scenario": "transport",
     "goals": [
-        "掌握越南语常用量词",
-        "了解量词与名词的搭配规则",
-        "能用「Đây là + 量词 + 名词」介绍物品",
-        "掌握「cái / con / quyển / chiếc / bức」五个核心量词"
+        "能说出 8 种常见交通工具",
+        "能用「đi bằng + 工具」表达乘坐方式",
+        "能对比不同交通工具的快慢",
+        "能谈论日常出行"
     ],
     "words": [
         {
-            "id": "vi_do_vat",
-            "name": "đồ vật",
+            "id": "vi_xe_may",
+            "name": "xe máy",
             "trans": [
-                "物品",
-                "东西"
+                "摩托车"
             ],
             "tags": [
-                "objects",
+                "transport",
                 "A1"
             ],
             "source": [
@@ -27,13 +26,13 @@
             ]
         },
         {
-            "id": "vi_cai",
-            "name": "cái",
+            "id": "vi_xe_dap",
+            "name": "xe đạp",
             "trans": [
-                "个（量词，用于无生命物体）"
+                "自行车"
             ],
             "tags": [
-                "objects",
+                "transport",
                 "A1"
             ],
             "source": [
@@ -41,13 +40,13 @@
             ]
         },
         {
-            "id": "vi_con",
-            "name": "con",
+            "id": "vi_xe_buyt",
+            "name": "xe buýt",
             "trans": [
-                "只（量词，用于动物）"
+                "公交车"
             ],
             "tags": [
-                "objects",
+                "transport",
                 "A1"
             ],
             "source": [
@@ -55,13 +54,13 @@
             ]
         },
         {
-            "id": "vi_quyen",
-            "name": "quyển",
+            "id": "vi_o_to",
+            "name": "ô tô",
             "trans": [
-                "本（量词，用于书本）"
+                "汽车"
             ],
             "tags": [
-                "objects",
+                "transport",
                 "A1"
             ],
             "source": [
@@ -69,13 +68,13 @@
             ]
         },
         {
-            "id": "vi_chiec",
-            "name": "chiếc",
+            "id": "vi_taxi",
+            "name": "taxi",
             "trans": [
-                "辆/艘/件（量词，用于车船衣物）"
+                "出租车"
             ],
             "tags": [
-                "objects",
+                "transport",
                 "A1"
             ],
             "source": [
@@ -83,13 +82,13 @@
             ]
         },
         {
-            "id": "vi_buc",
-            "name": "bức",
+            "id": "vi_tau_hoa",
+            "name": "tàu hỏa",
             "trans": [
-                "幅（量词，用于画、照片、信）"
+                "火车"
             ],
             "tags": [
-                "objects",
+                "transport",
                 "A1"
             ],
             "source": [
@@ -97,13 +96,13 @@
             ]
         },
         {
-            "id": "vi_ban_table",
-            "name": "bàn",
+            "id": "vi_may_bay",
+            "name": "máy bay",
             "trans": [
-                "桌子"
+                "飞机"
             ],
             "tags": [
-                "objects",
+                "transport",
                 "A1"
             ],
             "source": [
@@ -111,13 +110,13 @@
             ]
         },
         {
-            "id": "vi_sach",
-            "name": "sách",
+            "id": "vi_xe_om",
+            "name": "xe ôm",
             "trans": [
-                "书"
+                "摩的"
             ],
             "tags": [
-                "objects",
+                "transport",
                 "A1"
             ],
             "source": [
@@ -126,39 +125,39 @@
         }
     ],
     "sentences": [
-        "sentence_vi_109",
-        "sentence_vi_110",
-        "sentence_vi_111",
-        "sentence_vi_112",
-        "sentence_vi_113",
-        "sentence_vi_114"
+        "sentence_vi_637",
+        "sentence_vi_638",
+        "sentence_vi_639",
+        "sentence_vi_640",
+        "sentence_vi_641",
+        "sentence_vi_642"
     ],
     "grammar": [
         {
-            "point": "量词「cái」的通用性",
-            "explain": "「cái」是越南语最通用的量词，用于大多数无生命物体，如「cái bàn」（桌子）、「cái ghế」（椅子）、「cái bút」（笔）。",
+            "point": "乘坐方式：đi bằng + 工具",
+            "explain": "「đi bằng + 交通工具」= 坐…去。bằng 强调方式。口语中可省略 bằng，直接说「đi xe đạp」。但「đi bộ」是特例（步行），不加 bằng。",
             "examples": [
                 {
-                    "vi": "Đây là cái bàn.",
-                    "zh": "这是桌子。"
+                    "vi": "Tôi đi học bằng xe đạp.",
+                    "zh": "我骑自行车上学。"
                 },
                 {
-                    "vi": "Đây là cái ghế.",
-                    "zh": "这是椅子。"
+                    "vi": "Chúng tôi đi Hà Nội bằng tàu hỏa.",
+                    "zh": "我们坐火车去河内。"
                 }
             ]
         },
         {
-            "point": "量词与名词的搭配",
-            "explain": "不同类别名词用不同量词：书本用「quyển」，动物用「con」，车辆衣物用「chiếc」，画/照片/信用「bức」。",
+            "point": "比较快慢：nhanh hơn / chậm hơn",
+            "explain": "「A + 形容词 + hơn + B」= A 比 B 更…。nhanh = 快，chậm = 慢。例：「Máy bay nhanh hơn tàu hỏa」（飞机比火车快）。否定比较用「không … bằng」（不如）。",
             "examples": [
                 {
-                    "vi": "Đây là quyển sách.",
-                    "zh": "这是书。"
+                    "vi": "Đi máy bay nhanh hơn đi tàu.",
+                    "zh": "坐飞机比坐火车快。"
                 },
                 {
-                    "vi": "Đây là con mèo.",
-                    "zh": "这是猫。"
+                    "vi": "Xe đạp chậm hơn xe máy.",
+                    "zh": "自行车比摩托车慢。"
                 }
             ]
         }
@@ -167,23 +166,24 @@
     "exercises": [
         {
             "type": "choose",
-            "question": "「一本书」的量词应该用？",
+            "question": "「xe buýt」的意思是？",
             "options": [
-                "cái",
-                "quyển",
-                "con"
+                "出租车",
+                "公交车",
+                "摩托车",
+                "自行车"
             ],
-            "answer": "quyển"
+            "answer": "公交车"
         },
         {
             "type": "fill",
-            "question": "Đây là ___ bàn.",
-            "answer": "cái"
+            "question": "Tôi đi học bằng ___ đạp.（我骑自行车上学）",
+            "answer": "xe"
         },
         {
             "type": "telex_input",
-            "question": "输入「书」的越南语",
-            "answer": "sách"
+            "question": "输入「飞机比火车快」的越南语",
+            "answer": "Máy bay nhanh hơn tàu hỏa"
         }
     ]
 }

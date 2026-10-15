@@ -1,6 +1,3 @@
-// src/lib/toast.ts
-// 极简 Toast 事件总线：不依赖 React，任何地方都能调
-
 export type ToastKind = 'success' | 'info' | 'warn' | 'error'
 export type ToastPayload = { id: number; kind: ToastKind; msg: string; duration: number }
 
@@ -9,13 +6,11 @@ type Listener = (t: ToastPayload) => void
 const listeners = new Set<Listener>()
 let seq = 0
 
-/** 订阅 toast 事件（ToastHost 用） */
 export function subscribeToast(fn: Listener): () => void {
   listeners.add(fn)
   return () => listeners.delete(fn)
 }
 
-/** 全局 toast API */
 export function toast(msg: string, kind: ToastKind = 'info', duration = 3000): void {
   const payload: ToastPayload = { id: ++seq, kind, msg, duration }
   listeners.forEach((fn) => fn(payload))

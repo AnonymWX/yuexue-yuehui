@@ -1,0 +1,319 @@
+{
+    "id": "course_vi_115",
+    "title": "第 5 课：应对极端天气",
+    "titleVi": "Bài 5: Ứng phó với thời tiết cực đoan",
+    "order": 5,
+    "scenario": "weather",
+    "goals": [
+        "能说出常见的自然灾害名称",
+        "能用 để / nên / phải 提出应对措施",
+        "能用被动句描述受灾情况",
+        "能在紧急情况下提出安全建议"
+    ],
+    "words": [
+        {
+            "id": "vi_a2_phong_tranh",
+            "name": "phòng tránh",
+            "trans": [
+                "预防",
+                "避免"
+            ],
+            "tags": [
+                "weather",
+                "A2",
+                "disaster"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ung_pho",
+            "name": "ứng phó",
+            "trans": [
+                "应对"
+            ],
+            "tags": [
+                "weather",
+                "A2",
+                "disaster"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_so_tan",
+            "name": "sơ tán",
+            "trans": [
+                "疏散"
+            ],
+            "tags": [
+                "weather",
+                "A2",
+                "disaster"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_tru_an",
+            "name": "trú ẩn",
+            "trans": [
+                "躲避",
+                "避难"
+            ],
+            "tags": [
+                "weather",
+                "A2",
+                "disaster"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_an_toan",
+            "name": "an toàn",
+            "trans": [
+                "安全"
+            ],
+            "tags": [
+                "weather",
+                "A2",
+                "disaster"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_nguy_hiem",
+            "name": "nguy hiểm",
+            "trans": [
+                "危险"
+            ],
+            "tags": [
+                "weather",
+                "A2",
+                "disaster"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_thien_tai",
+            "name": "thiên tai",
+            "trans": [
+                "天灾",
+                "自然灾害"
+            ],
+            "tags": [
+                "weather",
+                "A2",
+                "disaster"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_lu_lut",
+            "name": "lũ lụt",
+            "trans": [
+                "洪水"
+            ],
+            "tags": [
+                "weather",
+                "A2",
+                "disaster"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_han_han",
+            "name": "hạn hán",
+            "trans": [
+                "干旱"
+            ],
+            "tags": [
+                "weather",
+                "A2",
+                "disaster"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_sat_lo",
+            "name": "sạt lở",
+            "trans": [
+                "滑坡",
+                "塌方"
+            ],
+            "tags": [
+                "weather",
+                "A2",
+                "disaster"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_cuu_ho",
+            "name": "cứu hộ",
+            "trans": [
+                "救援"
+            ],
+            "tags": [
+                "weather",
+                "A2",
+                "disaster"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_cuu_tro",
+            "name": "cứu trợ",
+            "trans": [
+                "救灾",
+                "赈灾"
+            ],
+            "tags": [
+                "weather",
+                "A2",
+                "disaster"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_thiet_hai",
+            "name": "thiệt hại",
+            "trans": [
+                "损失"
+            ],
+            "tags": [
+                "weather",
+                "A2",
+                "disaster"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_khac_phuc",
+            "name": "khắc phục",
+            "trans": [
+                "克服",
+                "修复"
+            ],
+            "tags": [
+                "weather",
+                "A2",
+                "disaster"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_a2_081",
+        "sentence_vi_a2_082",
+        "sentence_vi_a2_083",
+        "sentence_vi_a2_084",
+        "sentence_vi_a2_085",
+        "sentence_vi_a2_086",
+        "sentence_vi_a2_087",
+        "sentence_vi_a2_088"
+    ],
+    "grammar": [
+        {
+            "point": "目的与建议：để / nên / phải（综合复习）",
+            "explain": "「để + V」= 为了（表目的）；「nên + V」= 应该（建议）；「phải + V」= 必须（强制）。三者常连用：先说明目的（để），再给建议（nên）或强调义务（phải）。注意：「để」引导的从句放主句后，而「nên / phải」直接修饰动词。",
+            "examples": [
+                {
+                    "vi": "Để đảm bảo an toàn, bạn nên ở trong nhà khi bão đến.",
+                    "zh": "为了确保安全，台风来临时你应该待在屋里。"
+                },
+                {
+                    "vi": "Khi có lũ, mọi người phải sơ tán đến nơi cao ráo.",
+                    "zh": "发生洪水时，所有人都必须疏散到高处。"
+                },
+                {
+                    "vi": "Chúng ta phải chuẩn bị đèn pin và nước uống để ứng phó với bão.",
+                    "zh": "我们必须准备手电筒和饮用水以应对台风。"
+                }
+            ]
+        },
+        {
+            "point": "被动句描述受灾：được / bị（复习）",
+            "explain": "受灾用 bị（负面）：bị thiệt hại / bị ngập / bị sạt lở。获得帮助用 được（正面）：được cứu hộ / được sơ tán / được cứu trợ。注意：sơ tán 既可用 được（被安排疏散）也可用 chủ động（居民自行疏散），根据主语意愿判断。",
+            "examples": [
+                {
+                    "vi": "Nhiều ngôi nhà bị ngập trong trận lũ vừa qua.",
+                    "zh": "不少房屋在上次洪水中被淹。"
+                },
+                {
+                    "vi": "Người dân vùng bão đã được sơ tán đến nơi an toàn.",
+                    "zh": "台风地区的居民已被疏散到安全地点。"
+                },
+                {
+                    "vi": "Khu vực miền núi bị sạt lở nghiêm trọng sau nhiều ngày mưa.",
+                    "zh": "山区在连雨多日后发生严重滑坡。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「sơ tán」的意思是？",
+            "options": [
+                "躲避",
+                "疏散",
+                "救援",
+                "修复"
+            ],
+            "answer": "疏散"
+        },
+        {
+            "type": "choose",
+            "question": "哪句正确表达「居民被疏散到安全地方」？",
+            "options": [
+                "Người dân bị sơ tán đến nơi an toàn.",
+                "Người dân được sơ tán đến nơi an toàn.",
+                "Người dân sơ tán được đến nơi an toàn.",
+                "Người dân đến nơi an toàn sơ tán."
+            ],
+            "answer": "Người dân được sơ tán đến nơi an toàn."
+        },
+        {
+            "type": "fill",
+            "question": "___ đảm bảo an toàn, bạn nên ở trong nhà khi bão đến.（为了确保安全，台风来临时你应该待在屋里）",
+            "answer": "Để"
+        },
+        {
+            "type": "fill",
+            "question": "Khi có lũ, mọi người ___ sơ tán đến nơi cao ráo.（发生洪水时，所有人都必须疏散到高处）",
+            "answer": "phải"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「许多房子被洪水淹没」的越南语",
+            "answer": "Nhiều ngôi nhà bị ngập trong trận lũ"
+        }
+    ]
+}

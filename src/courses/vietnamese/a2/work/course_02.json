@@ -1,0 +1,320 @@
+{
+    "id": "course_vi_152",
+    "title": "第 2 课：面试",
+    "titleVi": "Bài 2: Phỏng vấn xin việc",
+    "order": 2,
+    "scenario": "work",
+    "goals": [
+        "能完成面试自我介绍",
+        "能回答面试常见问题（优点 / 缺点 / 期望薪资）",
+        "能用「tôi có kinh nghiệm về...」介绍经验",
+        "能礼貌提问面试官"
+    ],
+    "words": [
+        {
+            "id": "vi_a2_phong_van",
+            "name": "phỏng vấn",
+            "trans": [
+                "面试"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "interview"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_nguoi_phong_van",
+            "name": "người phỏng vấn",
+            "trans": [
+                "面试官"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "interview"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_tu_gioi_thieu",
+            "name": "tự giới thiệu",
+            "trans": [
+                "自我介绍"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "interview"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_diem_manh",
+            "name": "điểm mạnh",
+            "trans": [
+                "优点",
+                "强项"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "interview"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_diem_yeu",
+            "name": "điểm yếu",
+            "trans": [
+                "缺点",
+                "弱项"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "interview"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ky_nang_mem",
+            "name": "kỹ năng mềm",
+            "trans": [
+                "软技能"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "interview"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ky_nang_cung",
+            "name": "kỹ năng cứng",
+            "trans": [
+                "硬技能"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "interview"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ngoai_ngu",
+            "name": "ngoại ngữ",
+            "trans": [
+                "外语"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "interview"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_trinh_do",
+            "name": "trình độ",
+            "trans": [
+                "水平",
+                "程度"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "interview"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_bang_cap",
+            "name": "bằng cấp",
+            "trans": [
+                "学位",
+                "文凭"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "interview"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_mong_muon",
+            "name": "mong muốn",
+            "trans": [
+                "期望",
+                "希望"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "interview"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_muc_luong_mong_muon",
+            "name": "mức lương mong muốn",
+            "trans": [
+                "期望薪资"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "interview"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_thu_viec",
+            "name": "thử việc",
+            "trans": [
+                "试用期",
+                "试岗"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "interview"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_trai_nghiem",
+            "name": "trải nghiệm",
+            "trans": [
+                "体验",
+                "经历"
+            ],
+            "tags": [
+                "work",
+                "A2",
+                "interview"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_a2_225",
+        "sentence_vi_a2_226",
+        "sentence_vi_a2_227",
+        "sentence_vi_a2_228",
+        "sentence_vi_a2_229",
+        "sentence_vi_a2_230",
+        "sentence_vi_a2_231",
+        "sentence_vi_a2_232"
+    ],
+    "grammar": [
+        {
+            "point": "自我介绍：Tôi là / Tôi có / Tôi tốt nghiệp",
+            "explain": "自我介绍三种结构：「Tôi là + 名字/职业」= 我是…；「Tôi có + 经验/技能」= 我有…；「Tôi tốt nghiệp + 学校/专业」= 我毕业于…。加「đã từng」（曾经）可描述过去经历：「Tôi đã từng làm việc ở...」（我曾在…工作过）。",
+            "examples": [
+                {
+                    "vi": "Tôi là Nguyễn Văn Nam, tốt nghiệp Đại học Ngoại thương.",
+                    "zh": "我是阮文南，毕业于对外贸易大学。"
+                },
+                {
+                    "vi": "Tôi có ba năm kinh nghiệm trong lĩnh vực xuất nhập khẩu.",
+                    "zh": "我在进出口领域有三年经验。"
+                },
+                {
+                    "vi": "Tôi đã từng làm việc ở một công ty Nhật Bản hai năm.",
+                    "zh": "我曾在日本公司工作过两年。"
+                }
+            ]
+        },
+        {
+            "point": "礼貌提问：cho tôi hỏi / tôi có thể hỏi",
+            "explain": "面试末尾提问环节常用：「Cho tôi hỏi về...」= 请问关于…；「Tôi có thể hỏi về... không?」= 我能问一下关于…吗？注意：面试中问问题显示你对公司的兴趣，但要避开过早问薪水和假期。",
+            "examples": [
+                {
+                    "vi": "Cho tôi hỏi về quy trình làm việc ở công ty mình.",
+                    "zh": "请问贵公司的工作流程是怎样的。"
+                },
+                {
+                    "vi": "Tôi có thể hỏi về cơ hội thăng tiến trong công ty không?",
+                    "zh": "我能问一下公司内部的晋升机会吗？"
+                },
+                {
+                    "vi": "Cho tôi hỏi khi nào tôi sẽ nhận được kết quả phỏng vấn?",
+                    "zh": "请问我什么时候能收到面试结果？"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「điểm yếu」的意思是？",
+            "options": [
+                "优点",
+                "缺点",
+                "经验",
+                "技能"
+            ],
+            "answer": "缺点"
+        },
+        {
+            "type": "choose",
+            "question": "哪句是得体的面试提问？",
+            "options": [
+                "Lương bao nhiêu?",
+                "Tôi có thể hỏi về cơ hội thăng tiến không?",
+                "Nghỉ phép mấy ngày?",
+                "Bao giờ trả lương?"
+            ],
+            "answer": "Tôi có thể hỏi về cơ hội thăng tiến không?"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi có ba năm kinh ___ trong lĩnh vực xuất nhập khẩu.（我在进出口领域有三年经验）",
+            "answer": "nghiệm"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi ___ từng làm việc ở một công ty Nhật Bản hai năm.（我曾在日本公司工作过两年）",
+            "answer": "đã"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「我想自我介绍一下」的越南语",
+            "answer": "Tôi muốn tự giới thiệu"
+        }
+    ]
+}

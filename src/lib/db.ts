@@ -131,29 +131,21 @@ export async function fetchWordReviewStats(userId: string): Promise<WordReviewSt
   }))
 }
 
-export async function upsertWordReviewStat(userId: string, stat: WordReviewStat): Promise<void> {
-  if (!supabase) return
-  const { error } = await supabase.from('word_review_stats').upsert(
-    {
-      user_id: userId,
-      word_id: stat.wordId,
-      correct_count: stat.correctCount,
-      wrong_count: stat.wrongCount,
-      streak: stat.streak,
-      level: stat.level,
-      last_reviewed_at: stat.lastReviewedAt,
-      next_review_at: stat.nextReviewAt,
-    },
-    { onConflict: 'user_id,word_id' },
-  )
-  if (error) notifyNetError(error, '同步复习进度失败')
-}
-
 export async function upsertWordReviewStats(userId: string, stats: WordReviewStat[]): Promise<void> {
   if (!supabase || stats.length === 0) return
+
   const rows = stats.map((s) => ({
-    /* 同前 */
+    user_id: userId,
+    word_id: s.wordId,
+    correct_count: s.correctCount,
+    wrong_count: s.wrongCount,
+    streak: s.streak,
+    level: s.level,
+    last_reviewed_at: s.lastReviewedAt,
+    next_review_at: s.nextReviewAt,
   }))
+
   const { error } = await supabase.from('word_review_stats').upsert(rows, { onConflict: 'user_id,word_id' })
+
   if (error) notifyNetError(error, '同步复习进度失败')
 }

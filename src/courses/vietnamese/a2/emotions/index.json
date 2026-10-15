@@ -1,0 +1,38 @@
+{
+    "id": "emotions",
+    "stage": "a2",
+    "title": "情感与性格",
+    "titleVi": "Cảm xúc và tính cách",
+    "courses": [
+        {
+            "id": "course_vi_161",
+            "file": "course_01.json",
+            "title": "第 1 课：基本情绪",
+            "titleVi": "Bài 1: Cảm xúc cơ bản"
+        },
+        {
+            "id": "course_vi_162",
+            "file": "course_02.json",
+            "title": "第 2 课：性格描述",
+            "titleVi": "Bài 2: Mô tả tính cách"
+        },
+        {
+            "id": "course_vi_163",
+            "file": "course_03.json",
+            "title": "第 3 课：表达感受",
+            "titleVi": "Bài 3: Bày tỏ cảm xúc"
+        },
+        {
+            "id": "course_vi_164",
+            "file": "course_04.json",
+            "title": "第 4 课：安慰与鼓励",
+            "titleVi": "Bài 4: An ủi và động viên"
+        },
+        {
+            "id": "course_vi_165",
+            "file": "course_05.json",
+            "title": "第 5 课：赞美与感谢",
+            "titleVi": "Bài 5: Khen ngợi và cảm ơn"
+        }
+    ]
+}

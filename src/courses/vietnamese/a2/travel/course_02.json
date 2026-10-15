@@ -1,0 +1,314 @@
+{
+    "id": "course_vi_122",
+    "title": "第 2 课：问路",
+    "titleVi": "Bài 2: Hỏi đường",
+    "order": 2,
+    "scenario": "travel",
+    "goals": [
+        "能用「ở đâu / đi thế nào」问路",
+        "能听懂左转、右转、直行等方向指示",
+        "能用处所词描述方位（trước / sau / bên cạnh）",
+        "能用「cách đây」表达距离"
+    ],
+    "words": [
+        {
+            "id": "vi_a2_hoi_duong",
+            "name": "hỏi đường",
+            "trans": [
+                "问路"
+            ],
+            "tags": [
+                "travel",
+                "A2",
+                "direction"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_chi_duong",
+            "name": "chỉ đường",
+            "trans": [
+                "指路"
+            ],
+            "tags": [
+                "travel",
+                "A2",
+                "direction"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_re_trai",
+            "name": "rẽ trái",
+            "trans": [
+                "左转"
+            ],
+            "tags": [
+                "travel",
+                "A2",
+                "direction"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_re_phai",
+            "name": "rẽ phải",
+            "trans": [
+                "右转"
+            ],
+            "tags": [
+                "travel",
+                "A2",
+                "direction"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_di_thang",
+            "name": "đi thẳng",
+            "trans": [
+                "直走"
+            ],
+            "tags": [
+                "travel",
+                "A2",
+                "direction"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_quay_lai",
+            "name": "quay lại",
+            "trans": [
+                "掉头",
+                "回头"
+            ],
+            "tags": [
+                "travel",
+                "A2",
+                "direction"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_nga_tu",
+            "name": "ngã tư",
+            "trans": [
+                "十字路口"
+            ],
+            "tags": [
+                "travel",
+                "A2",
+                "direction"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_nga_ba",
+            "name": "ngã ba",
+            "trans": [
+                "三岔路口"
+            ],
+            "tags": [
+                "travel",
+                "A2",
+                "direction"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_den_giao_thong",
+            "name": "đèn giao thông",
+            "trans": [
+                "红绿灯"
+            ],
+            "tags": [
+                "travel",
+                "A2",
+                "direction"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_vong_xuyen",
+            "name": "vòng xuyến",
+            "trans": [
+                "环岛"
+            ],
+            "tags": [
+                "travel",
+                "A2",
+                "direction"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ben_trai",
+            "name": "bên trái",
+            "trans": [
+                "左边"
+            ],
+            "tags": [
+                "travel",
+                "A2",
+                "direction"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ben_phai",
+            "name": "bên phải",
+            "trans": [
+                "右边"
+            ],
+            "tags": [
+                "travel",
+                "A2",
+                "direction"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_doi_dien",
+            "name": "đối diện",
+            "trans": [
+                "对面"
+            ],
+            "tags": [
+                "travel",
+                "A2",
+                "direction"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_cach_day",
+            "name": "cách đây",
+            "trans": [
+                "距离这里（…远）"
+            ],
+            "tags": [
+                "travel",
+                "A2",
+                "direction"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_a2_097",
+        "sentence_vi_a2_098",
+        "sentence_vi_a2_099",
+        "sentence_vi_a2_100",
+        "sentence_vi_a2_101",
+        "sentence_vi_a2_102",
+        "sentence_vi_a2_103",
+        "sentence_vi_a2_104"
+    ],
+    "grammar": [
+        {
+            "point": "问处所：ở đâu? / như thế nào?",
+            "explain": "「ở đâu?」= 在哪里（问位置，问点）；「đi như thế nào?」= 怎么走（问路线）；「đi đường nào?」= 走哪条路。回答用「ở + 处所」「đi theo đường + 路名 + rẽ trái/phải」。注意：đâu 在句末，thế nào 也在句末。",
+            "examples": [
+                {
+                    "vi": "Cho tôi hỏi, nhà ga ở đâu ạ?",
+                    "zh": "请问，火车站在哪里？"
+                },
+                {
+                    "vi": "Bạn có thể chỉ cho tôi đường đến chợ Bến Thành không?",
+                    "zh": "你能告诉我去滨城市场的路吗？"
+                },
+                {
+                    "vi": "Đi từ đây đến bưu điện như thế nào?",
+                    "zh": "从这里到邮局怎么走？"
+                }
+            ]
+        },
+        {
+            "point": "方位词：trước / sau / bên cạnh / đối diện / giữa",
+            "explain": "trước = 前、sau = 后、bên cạnh = 旁边、đối diện = 对面、giữa = 中间、gần = 近、xa = 远。结构：「处所 A + ở + 方位词 + 处所 B」，如「ngân hàng ở bên cạnh chợ」（银行在市场旁边）。注意：方位词与处所间不用「của」。",
+            "examples": [
+                {
+                    "vi": "Hiệu thuốc ở đối diện bệnh viện.",
+                    "zh": "药店在医院对面。"
+                },
+                {
+                    "vi": "Ngân hàng ở bên cạnh chợ Bến Thành, rất dễ tìm.",
+                    "zh": "银行在滨城市场旁边，很好找。"
+                },
+                {
+                    "vi": "Trường học nằm giữa công viên và bệnh viện.",
+                    "zh": "学校在公园和医院之间。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「rẽ phải」的意思是？",
+            "options": [
+                "左转",
+                "右转",
+                "直走",
+                "掉头"
+            ],
+            "answer": "右转"
+        },
+        {
+            "type": "choose",
+            "question": "哪句正确表达「银行在市场旁边」？",
+            "options": [
+                "Ngân hàng ở bên cạnh của chợ.",
+                "Ngân hàng bên cạnh ở chợ.",
+                "Ngân hàng ở bên cạnh chợ.",
+                "Ngân hàng bên cạnh chợ ở."
+            ],
+            "answer": "Ngân hàng ở bên cạnh chợ."
+        },
+        {
+            "type": "fill",
+            "question": "Cho tôi hỏi, nhà ga ở ___ ạ?（请问，火车站在哪里？）",
+            "answer": "đâu"
+        },
+        {
+            "type": "fill",
+            "question": "Đi ___ con đường này khoảng 500 mét, rồi rẽ phải.（沿这条路走约 500 米，然后右转）",
+            "answer": "thẳng"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「请直走然后左转」的越南语",
+            "answer": "Xin đi thẳng rồi rẽ trái"
+        }
+    ]
+}

@@ -1,0 +1,321 @@
+{
+    "id": "course_vi_165",
+    "title": "第 5 课：赞美与感谢",
+    "titleVi": "Bài 5: Khen ngợi và cảm ơn",
+    "order": 5,
+    "scenario": "emotions",
+    "goals": [
+        "能真诚地赞美他人的外貌、能力、品德",
+        "能用多样化的感谢表达",
+        "能得体地回应赞美",
+        "能表达深深的感激之情"
+    ],
+    "words": [
+        {
+            "id": "vi_a2_khen",
+            "name": "khen",
+            "trans": [
+                "称赞",
+                "表扬"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "praise"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_khen_ngoi",
+            "name": "khen ngợi",
+            "trans": [
+                "赞美",
+                "赞扬"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "praise"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_tuyet_voi",
+            "name": "tuyệt vời",
+            "trans": [
+                "太棒了",
+                "绝妙"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "praise"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_gioi",
+            "name": "giỏi",
+            "trans": [
+                "厉害",
+                "棒"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "praise"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_xinh_dep",
+            "name": "xinh đẹp",
+            "trans": [
+                "漂亮",
+                "美丽"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "praise"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_dang_yêu",
+            "name": "đáng yêu",
+            "trans": [
+                "可爱"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "praise"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_tot_bung",
+            "name": "tốt bụng",
+            "trans": [
+                "善良"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "praise"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_tai_nang",
+            "name": "tài năng",
+            "trans": [
+                "有才华"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "praise"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_thong_minh",
+            "name": "thông minh",
+            "trans": [
+                "聪明"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "praise"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_cam_on_chan_thanh",
+            "name": "cảm ơn chân thành",
+            "trans": [
+                "衷心感谢"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "praise"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_biet_on",
+            "name": "biết ơn",
+            "trans": [
+                "感恩",
+                "感激"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "praise"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_trieu_men",
+            "name": "triệu mến",
+            "trans": [
+                "喜爱",
+                "爱慕"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "praise"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_quy_men",
+            "name": "quý mến",
+            "trans": [
+                "敬爱",
+                "喜爱"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "praise"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_khiem_ton",
+            "name": "khiêm tốn",
+            "trans": [
+                "谦虚"
+            ],
+            "tags": [
+                "emotions",
+                "A2",
+                "praise"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_a2_305",
+        "sentence_vi_a2_306",
+        "sentence_vi_a2_307",
+        "sentence_vi_a2_308",
+        "sentence_vi_a2_309",
+        "sentence_vi_a2_310",
+        "sentence_vi_a2_311",
+        "sentence_vi_a2_312"
+    ],
+    "grammar": [
+        {
+            "point": "赞美句式：...quá / ...lắm / thật là...",
+            "explain": "赞美常用：「...quá!」= 太…了（形容词后）；「...lắm!」= 很…（口语）；「thật là...!」= 真是…！（形容词前）。三者语感：quá 最有感叹力，thật là 稍正式，lắm 最口语。注意不要滥用 quá，会显得夸张。",
+            "examples": [
+                {
+                    "vi": "Bạn hát hay quá!",
+                    "zh": "你唱得太好听了！"
+                },
+                {
+                    "vi": "Chị hôm nay xinh lắm!",
+                    "zh": "你今天很漂亮！"
+                },
+                {
+                    "vi": "Anh thật là tài năng và thông minh.",
+                    "zh": "你真是又有才华又聪明。"
+                }
+            ]
+        },
+        {
+            "point": "感谢表达：cảm ơn / biết ơn / cảm kích",
+            "explain": "程度递增：「cảm ơn」= 谢谢（日常）；「cảm ơn chân thành」= 衷心感谢（正式）；「biết ơn」= 感恩（深切的，多对恩人）；「cảm kích」= 感激（心受触动）。回应感谢：「Không có gì」（没什么）或「Có gì đâu」（哪的话）。",
+            "examples": [
+                {
+                    "vi": "Cảm ơn chị đã giúp đỡ tôi rất nhiều.",
+                    "zh": "非常感谢你帮了我很多。"
+                },
+                {
+                    "vi": "Tôi vô cùng biết ơn thầy cô đã dạy dỗ tôi nên người.",
+                    "zh": "我无比感恩老师们教导我成人。"
+                },
+                {
+                    "vi": "Có gì đâu, chuyện nhỏ mà, bạn đừng khách sáo.",
+                    "zh": "哪的话，小事而已，你别客气。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「khiêm tốn」的意思是？",
+            "options": [
+                "骄傲",
+                "谦虚",
+                "冷漠",
+                "热情"
+            ],
+            "answer": "谦虚"
+        },
+        {
+            "type": "choose",
+            "question": "哪句是最热情的赞美？",
+            "options": [
+                "Cũng được.",
+                "Bạn hát hay quá!",
+                "Tàm tạm.",
+                "Không tệ."
+            ],
+            "answer": "Bạn hát hay quá!"
+        },
+        {
+            "type": "fill",
+            "question": "Bạn hát hay ___!（你唱得太好听了！）",
+            "answer": "quá"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi vô cùng ___ ơn thầy cô đã dạy dỗ tôi.（我无比感恩老师们教导我）",
+            "answer": "biết"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「非常感谢你」的越南语",
+            "answer": "Cảm ơn bạn rất nhiều"
+        }
+    ]
+}

@@ -1,0 +1,313 @@
+{
+    "id": "course_vi_131",
+    "title": "第 1 课：银行",
+    "titleVi": "Bài 1: Ngân hàng",
+    "order": 1,
+    "scenario": "services",
+    "goals": [
+        "能完成开户 / 存取款 / 转账等基本银行业务",
+        "能看懂 ATM 上的基本操作",
+        "能用「cần / muốn / có thể」礼貌表达需求",
+        "能询问汇率和手续费"
+    ],
+    "words": [
+        {
+            "id": "vi_a2_ngan_hang",
+            "name": "ngân hàng",
+            "trans": [
+                "银行"
+            ],
+            "tags": [
+                "services",
+                "A2",
+                "bank"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_tai_khoan",
+            "name": "tài khoản",
+            "trans": [
+                "账户"
+            ],
+            "tags": [
+                "services",
+                "A2",
+                "bank"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_mo_tai_khoan",
+            "name": "mở tài khoản",
+            "trans": [
+                "开户"
+            ],
+            "tags": [
+                "services",
+                "A2",
+                "bank"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_gui_tien",
+            "name": "gửi tiền",
+            "trans": [
+                "存钱"
+            ],
+            "tags": [
+                "services",
+                "A2",
+                "bank"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_rut_tien",
+            "name": "rút tiền",
+            "trans": [
+                "取钱"
+            ],
+            "tags": [
+                "services",
+                "A2",
+                "bank"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_chuyen_tien",
+            "name": "chuyển tiền",
+            "trans": [
+                "转账"
+            ],
+            "tags": [
+                "services",
+                "A2",
+                "bank"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_the_ngan_hang",
+            "name": "thẻ ngân hàng",
+            "trans": [
+                "银行卡"
+            ],
+            "tags": [
+                "services",
+                "A2",
+                "bank"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_the_tin_dung",
+            "name": "thẻ tín dụng",
+            "trans": [
+                "信用卡"
+            ],
+            "tags": [
+                "services",
+                "A2",
+                "bank"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_the_ghi_no",
+            "name": "thẻ ghi nợ",
+            "trans": [
+                "借记卡"
+            ],
+            "tags": [
+                "services",
+                "A2",
+                "bank"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_atm",
+            "name": "ATM",
+            "trans": [
+                "自动取款机"
+            ],
+            "tags": [
+                "services",
+                "A2",
+                "bank"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ma_pin",
+            "name": "mã PIN",
+            "trans": [
+                "密码"
+            ],
+            "tags": [
+                "services",
+                "A2",
+                "bank"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_lai_suat",
+            "name": "lãi suất",
+            "trans": [
+                "利率"
+            ],
+            "tags": [
+                "services",
+                "A2",
+                "bank"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ty_gia",
+            "name": "tỷ giá",
+            "trans": [
+                "汇率"
+            ],
+            "tags": [
+                "services",
+                "A2",
+                "bank"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_phi_giao_dich",
+            "name": "phí giao dịch",
+            "trans": [
+                "手续费"
+            ],
+            "tags": [
+                "services",
+                "A2",
+                "bank"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_a2_137",
+        "sentence_vi_a2_138",
+        "sentence_vi_a2_139",
+        "sentence_vi_a2_140",
+        "sentence_vi_a2_141",
+        "sentence_vi_a2_142",
+        "sentence_vi_a2_143",
+        "sentence_vi_a2_144"
+    ],
+    "grammar": [
+        {
+            "point": "礼貌提出需求：muốn / cần / có thể",
+            "explain": "「Tôi muốn + V」= 我想做…（表达意愿）；「Tôi cần + V」= 我需要做…（客观必要）；「Tôi có thể + V + không?」= 我可以…吗？（请求许可）。三者语气从软到硬：có thể（最礼貌）< muốn（直接表达）< cần（强调必要）。",
+            "examples": [
+                {
+                    "vi": "Tôi muốn mở một tài khoản ngân hàng mới.",
+                    "zh": "我想开一个新的银行账户。"
+                },
+                {
+                    "vi": "Tôi cần rút tiền mặt, cây ATM ở đâu ạ?",
+                    "zh": "我需要取现金，ATM 在哪里？"
+                },
+                {
+                    "vi": "Tôi có thể chuyển tiền cho người khác bằng ứng dụng không?",
+                    "zh": "我可以用应用给别人转账吗？"
+                }
+            ]
+        },
+        {
+            "point": "询问费用/汇率：bao nhiêu / mất phí gì không",
+            "explain": "「…bao nhiêu tiền?」= …多少钱？「có mất phí không?」= 要收费吗？「phí giao dịch là bao nhiêu?」= 手续费是多少？注意：「mất phí」中的 mất 是「花费」义，不是「丢失」。回答可用「miễn phí」（免费）或「X nghìn đồng」（X 千盾）。",
+            "examples": [
+                {
+                    "vi": "Phí chuyển tiền là bao nhiêu ạ?",
+                    "zh": "转账手续费是多少？"
+                },
+                {
+                    "vi": "Mở tài khoản có mất phí gì không?",
+                    "zh": "开户要收费吗？"
+                },
+                {
+                    "vi": "Tỷ giá đổi đô la Mỹ hôm nay là bao nhiêu?",
+                    "zh": "今天美元汇率是多少？"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「rút tiền」的意思是？",
+            "options": [
+                "存钱",
+                "取钱",
+                "转账",
+                "开户"
+            ],
+            "answer": "取钱"
+        },
+        {
+            "type": "choose",
+            "question": "哪句最礼貌地请求许可？",
+            "options": [
+                "Tôi muốn đổi tiền.",
+                "Tôi cần đổi tiền.",
+                "Tôi có thể đổi tiền ở đây không?",
+                "Đổi tiền cho tôi."
+            ],
+            "answer": "Tôi có thể đổi tiền ở đây không?"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi muốn ___ một tài khoản ngân hàng mới.（我想开一个新的银行账户）",
+            "answer": "mở"
+        },
+        {
+            "type": "fill",
+            "question": "Phí giao dịch là ___ nhiêu ạ?（手续费是多少？）",
+            "answer": "bao"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「我想转账」的越南语",
+            "answer": "Tôi muốn chuyển tiền"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "id": "work",
+    "stage": "a2",
+    "title": "工作与职业",
+    "titleVi": "Công việc và nghề nghiệp",
+    "courses": [
+        {
+            "id": "course_vi_151",
+            "file": "course_01.json",
+            "title": "第 1 课：求职",
+            "titleVi": "Bài 1: Tìm việc làm"
+        },
+        {
+            "id": "course_vi_152",
+            "file": "course_02.json",
+            "title": "第 2 课：面试",
+            "titleVi": "Bài 2: Phỏng vấn xin việc"
+        },
+        {
+            "id": "course_vi_153",
+            "file": "course_03.json",
+            "title": "第 3 课：职场沟通",
+            "titleVi": "Bài 3: Giao tiếp nơi công sở"
+        },
+        {
+            "id": "course_vi_154",
+            "file": "course_04.json",
+            "title": "第 4 课：会议",
+            "titleVi": "Bài 4: Cuộc họp"
+        },
+        {
+            "id": "course_vi_155",
+            "file": "course_05.json",
+            "title": "第 5 课：邮件与电话",
+            "titleVi": "Bài 5: Email và điện thoại"
+        },
+        {
+            "id": "course_vi_156",
+            "file": "course_06.json",
+            "title": "第 6 课：辞职与跳槽",
+            "titleVi": "Bài 6: Nghỉ việc và chuyển việc"
+        },
+        {
+            "id": "course_vi_157",
+            "file": "course_07.json",
+            "title": "第 7 课：副业与创业",
+            "titleVi": "Bài 7: Việc làm thêm và khởi nghiệp"
+        }
+    ]
+}

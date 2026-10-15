@@ -1,25 +1,24 @@
 {
     "id": "course_vi_78",
-    "title": "第 1 课：日常物品与量词",
-    "titleVi": "Bài 1: Đồ vật hàng ngày và lượng từ",
+    "title": "第 1 课：商店类型",
+    "titleVi": "Bài 1: Các loại cửa hàng",
     "order": 1,
-    "scenario": "objects",
+    "scenario": "shopping",
     "goals": [
-        "掌握越南语常用量词",
-        "了解量词与名词的搭配规则",
-        "能用「Đây là + 量词 + 名词」介绍物品",
-        "掌握「cái / con / quyển / chiếc / bức」五个核心量词"
+        "能说出 8 种常见商店类型",
+        "能用「đi + 地点」表达去哪购物",
+        "能用「ở + 地点 + có...」描述商店里有卖什么",
+        "能问「… ở đâu?」（…在哪里？）"
     ],
     "words": [
         {
-            "id": "vi_do_vat",
-            "name": "đồ vật",
+            "id": "vi_cua_hang",
+            "name": "cửa hàng",
             "trans": [
-                "物品",
-                "东西"
+                "商店"
             ],
             "tags": [
-                "objects",
+                "shopping",
                 "A1"
             ],
             "source": [
@@ -27,13 +26,13 @@
             ]
         },
         {
-            "id": "vi_cai",
-            "name": "cái",
+            "id": "vi_sieu_thi",
+            "name": "siêu thị",
             "trans": [
-                "个（量词，用于无生命物体）"
+                "超市"
             ],
             "tags": [
-                "objects",
+                "shopping",
                 "A1"
             ],
             "source": [
@@ -41,13 +40,14 @@
             ]
         },
         {
-            "id": "vi_con",
-            "name": "con",
+            "id": "vi_cho",
+            "name": "chợ",
             "trans": [
-                "只（量词，用于动物）"
+                "市场",
+                "集市"
             ],
             "tags": [
-                "objects",
+                "shopping",
                 "A1"
             ],
             "source": [
@@ -55,13 +55,13 @@
             ]
         },
         {
-            "id": "vi_quyen",
-            "name": "quyển",
+            "id": "vi_cua_hang_tien_loi",
+            "name": "cửa hàng tiện lợi",
             "trans": [
-                "本（量词，用于书本）"
+                "便利店"
             ],
             "tags": [
-                "objects",
+                "shopping",
                 "A1"
             ],
             "source": [
@@ -69,13 +69,13 @@
             ]
         },
         {
-            "id": "vi_chiec",
-            "name": "chiếc",
+            "id": "vi_trung_tam_thuong_mai",
+            "name": "trung tâm thương mại",
             "trans": [
-                "辆/艘/件（量词，用于车船衣物）"
+                "购物中心"
             ],
             "tags": [
-                "objects",
+                "shopping",
                 "A1"
             ],
             "source": [
@@ -83,13 +83,13 @@
             ]
         },
         {
-            "id": "vi_buc",
-            "name": "bức",
+            "id": "vi_hieu_sach",
+            "name": "hiệu sách",
             "trans": [
-                "幅（量词，用于画、照片、信）"
+                "书店"
             ],
             "tags": [
-                "objects",
+                "shopping",
                 "A1"
             ],
             "source": [
@@ -97,13 +97,13 @@
             ]
         },
         {
-            "id": "vi_ban_table",
-            "name": "bàn",
+            "id": "vi_hieu_thuoc",
+            "name": "hiệu thuốc",
             "trans": [
-                "桌子"
+                "药店"
             ],
             "tags": [
-                "objects",
+                "shopping",
                 "A1"
             ],
             "source": [
@@ -111,13 +111,14 @@
             ]
         },
         {
-            "id": "vi_sach",
-            "name": "sách",
+            "id": "vi_tiem_banh",
+            "name": "tiệm bánh",
             "trans": [
-                "书"
+                "面包店",
+                "糕点店"
             ],
             "tags": [
-                "objects",
+                "shopping",
                 "A1"
             ],
             "source": [
@@ -126,39 +127,39 @@
         }
     ],
     "sentences": [
-        "sentence_vi_109",
-        "sentence_vi_110",
-        "sentence_vi_111",
-        "sentence_vi_112",
-        "sentence_vi_113",
-        "sentence_vi_114"
+        "sentence_vi_631",
+        "sentence_vi_632",
+        "sentence_vi_633",
+        "sentence_vi_634",
+        "sentence_vi_635",
+        "sentence_vi_636"
     ],
     "grammar": [
         {
-            "point": "量词「cái」的通用性",
-            "explain": "「cái」是越南语最通用的量词，用于大多数无生命物体，如「cái bàn」（桌子）、「cái ghế」（椅子）、「cái bút」（笔）。",
+            "point": "去哪购物：đi + 商店名",
+            "explain": "「đi + 商店名」= 去某商店。越南语中「đi」后可直接接地点，无需介词。如「đi chợ」= 去市场，「đi siêu thị」= 去超市。加「để + V」表目的：「đi siêu thị để mua đồ ăn」（去超市买食物）。",
             "examples": [
                 {
-                    "vi": "Đây là cái bàn.",
-                    "zh": "这是桌子。"
+                    "vi": "Tôi đi siêu thị mua đồ ăn.",
+                    "zh": "我去超市买食物。"
                 },
                 {
-                    "vi": "Đây là cái ghế.",
-                    "zh": "这是椅子。"
+                    "vi": "Cô ấy đi chợ mỗi sáng.",
+                    "zh": "她每天早上都去市场。"
                 }
             ]
         },
         {
-            "point": "量词与名词的搭配",
-            "explain": "不同类别名词用不同量词：书本用「quyển」，动物用「con」，车辆衣物用「chiếc」，画/照片/信用「bức」。",
+            "point": "问地点：… ở đâu?",
+            "explain": "「A ở đâu?」= A 在哪里？回答：「A ở + 地点」。例：「Siêu thị ở đâu?」→「Siêu thị ở gần nhà tôi」。要问「哪里有…」用「Ở đâu có A?」（倒装）。",
             "examples": [
                 {
-                    "vi": "Đây là quyển sách.",
-                    "zh": "这是书。"
+                    "vi": "Hiệu thuốc ở đâu?",
+                    "zh": "药店在哪里？"
                 },
                 {
-                    "vi": "Đây là con mèo.",
-                    "zh": "这是猫。"
+                    "vi": "Chợ ở gần nhà tôi.",
+                    "zh": "市场在我家附近。"
                 }
             ]
         }
@@ -167,23 +168,24 @@
     "exercises": [
         {
             "type": "choose",
-            "question": "「一本书」的量词应该用？",
+            "question": "「siêu thị」的意思是？",
             "options": [
-                "cái",
-                "quyển",
-                "con"
+                "市场",
+                "超市",
+                "书店",
+                "药店"
             ],
-            "answer": "quyển"
+            "answer": "超市"
         },
         {
             "type": "fill",
-            "question": "Đây là ___ bàn.",
-            "answer": "cái"
+            "question": "Tôi đi ___ mua đồ ăn.（我去超市买食物）",
+            "answer": "siêu thị"
         },
         {
             "type": "telex_input",
-            "question": "输入「书」的越南语",
-            "answer": "sách"
+            "question": "输入「药店在哪里？」的越南语",
+            "answer": "Hiệu thuốc ở đâu"
         }
     ]
 }

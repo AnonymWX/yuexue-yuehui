@@ -30,7 +30,16 @@
                 "title": "第二阶段",
                 "titleVi": "Bậc 2",
                 "cefr": "A2",
-                "themes": []
+                "themes": [
+                    "health",
+                    "weather",
+                    "travel",
+                    "services",
+                    "education",
+                    "work",
+                    "emotions",
+                    "culture"
+                ]
             }
         ]
     }

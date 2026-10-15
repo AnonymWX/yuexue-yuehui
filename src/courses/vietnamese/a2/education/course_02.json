@@ -1,0 +1,318 @@
+{
+    "id": "course_vi_142",
+    "title": "第 2 课：学习与作业",
+    "titleVi": "Bài 2: Học tập và bài tập",
+    "order": 2,
+    "scenario": "education",
+    "goals": [
+        "能说出常见的学习活动与作业类型",
+        "能用「đang / vừa mới / sắp」描述学习进度",
+        "能用「khó / dễ / chăm chỉ」评价学习",
+        "能向同学或老师求助"
+    ],
+    "words": [
+        {
+            "id": "vi_a2_bai_tap",
+            "name": "bài tập",
+            "trans": [
+                "作业",
+                "练习"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "study"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_bai_tap_ve_nha",
+            "name": "bài tập về nhà",
+            "trans": [
+                "家庭作业"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "study"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_on_bai",
+            "name": "ôn bài",
+            "trans": [
+                "复习"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "study"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_hoc_thuoc",
+            "name": "học thuộc",
+            "trans": [
+                "背诵",
+                "熟记"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "study"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ghi_chu",
+            "name": "ghi chú",
+            "trans": [
+                "做笔记",
+                "记笔记"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "study"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_doc_sach",
+            "name": "đọc sách",
+            "trans": [
+                "读书"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "study"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_nghe_bang",
+            "name": "nghe băng",
+            "trans": [
+                "听录音"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "study"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_luyen_tap",
+            "name": "luyện tập",
+            "trans": [
+                "练习"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "study"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_cham_chi",
+            "name": "chăm chỉ",
+            "trans": [
+                "勤奋",
+                "用功"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "study"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_luoi_bieng",
+            "name": "lười biếng",
+            "trans": [
+                "懒惰"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "study"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_kho",
+            "name": "khó",
+            "trans": [
+                "难"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "study"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_de",
+            "name": "dễ",
+            "trans": [
+                "容易"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "study"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_tap_trung",
+            "name": "tập trung",
+            "trans": [
+                "集中",
+                "专注"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "study"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_hoan_thanh",
+            "name": "hoàn thành",
+            "trans": [
+                "完成"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "study"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_a2_185",
+        "sentence_vi_a2_186",
+        "sentence_vi_a2_187",
+        "sentence_vi_a2_188",
+        "sentence_vi_a2_189",
+        "sentence_vi_a2_190",
+        "sentence_vi_a2_191",
+        "sentence_vi_a2_192"
+    ],
+    "grammar": [
+        {
+            "point": "时态组合：vừa mới / vẫn đang / sắp",
+            "explain": "「vừa mới + V」= 刚刚（动作刚完成不久）；「vẫn đang + V」= 仍在（动作未终止）；「sắp + V」= 即将（马上要）。三者都是 A2 高频时态。可对比：「Tôi vừa mới làm xong」（我刚做完）≠「Tôi đang làm」（我在做）≠「Tôi sắp làm」（我快做）。",
+            "examples": [
+                {
+                    "vi": "Tôi vừa mới nộp bài tập cho cô giáo.",
+                    "zh": "我刚把作业交给了老师。"
+                },
+                {
+                    "vi": "Tôi vẫn đang ôn bài, chưa xong nữa.",
+                    "zh": "我还在复习，还没做完。"
+                },
+                {
+                    "vi": "Sắp thi rồi, tôi phải học chăm chỉ hơn.",
+                    "zh": "快考试了，我必须更用功。"
+                }
+            ]
+        },
+        {
+            "point": "评价学习：khó / dễ / chăm chỉ / lười",
+            "explain": "「khó」= 难，「dễ」= 容易（形容词直接描述，无需 là）；「chăm chỉ」= 勤奋，「lười」或「lười biếng」= 懒惰（形容人的性格/状态）。修饰程度加「rất / hơi / quá」：rất khó（很难）、hơi khó（有点难）、quá khó（太难）。",
+            "examples": [
+                {
+                    "vi": "Bài học hôm nay hơi khó nhưng mà thú vị.",
+                    "zh": "今天的课有点难但很有意思。"
+                },
+                {
+                    "vi": "Anh ấy học rất chăm chỉ, luôn hoàn thành bài tập đúng hạn.",
+                    "zh": "他学习很用功，总是按时完成作业。"
+                },
+                {
+                    "vi": "Nếu lười biếng quá thì sẽ không đạt điểm cao được.",
+                    "zh": "如果太懒就无法取得高分。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「học thuộc」的意思是？",
+            "options": [
+                "抄写",
+                "背诵",
+                "听写",
+                "朗读"
+            ],
+            "answer": "背诵"
+        },
+        {
+            "type": "choose",
+            "question": "哪句表达「我刚做完作业」？",
+            "options": [
+                "Tôi đang làm bài tập.",
+                "Tôi vừa mới làm xong bài tập.",
+                "Tôi sắp làm bài tập.",
+                "Tôi chưa làm bài tập."
+            ],
+            "answer": "Tôi vừa mới làm xong bài tập."
+        },
+        {
+            "type": "fill",
+            "question": "Tôi ___ đang ôn bài, chưa xong nữa.（我还在复习，还没做完）",
+            "answer": "vẫn"
+        },
+        {
+            "type": "fill",
+            "question": "Anh ấy học rất ___ chỉ, luôn hoàn thành bài tập đúng hạn.（他学习很用功，总是按时完成作业）",
+            "answer": "chăm"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「今天的课有点难」的越南语",
+            "answer": "Bài học hôm nay hơi khó"
+        }
+    ]
+}

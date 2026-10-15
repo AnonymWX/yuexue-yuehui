@@ -1,0 +1,318 @@
+{
+    "id": "course_vi_106",
+    "title": "第 2 课：描述症状",
+    "titleVi": "Bài 2: Mô tả triệu chứng",
+    "order": 2,
+    "scenario": "health",
+    "goals": [
+        "能说出 12 种以上常见症状的越南语说法",
+        "能用「bị」准确描述自己或他人的症状",
+        "能用「vì...nên / ...nên」说明症状带来的影响",
+        "能在药店或诊所简单描述病情"
+    ],
+    "words": [
+        {
+            "id": "vi_a2_trieu_chung",
+            "name": "triệu chứng",
+            "trans": [
+                "症状"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "symptom"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_sot",
+            "name": "sốt",
+            "trans": [
+                "发烧"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "symptom"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ho",
+            "name": "ho",
+            "trans": [
+                "咳嗽"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "symptom"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_dau_hong",
+            "name": "đau họng",
+            "trans": [
+                "喉咙痛"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "symptom"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_so_mui",
+            "name": "sổ mũi",
+            "trans": [
+                "流鼻涕"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "symptom"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ngat_mui",
+            "name": "ngạt mũi",
+            "trans": [
+                "鼻塞"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "symptom"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_dau_bung",
+            "name": "đau bụng",
+            "trans": [
+                "肚子痛",
+                "腹痛"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "symptom"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_buon_non",
+            "name": "buồn nôn",
+            "trans": [
+                "恶心",
+                "想吐"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "symptom"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_non",
+            "name": "nôn",
+            "trans": [
+                "呕吐"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "symptom"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_tieu_chay",
+            "name": "tiêu chảy",
+            "trans": [
+                "腹泻"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "symptom"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_met_moi",
+            "name": "mệt mỏi",
+            "trans": [
+                "疲倦",
+                "疲劳"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "symptom"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_kho_tho",
+            "name": "khó thở",
+            "trans": [
+                "呼吸困难",
+                "喘不上气"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "symptom"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_di_ung",
+            "name": "dị ứng",
+            "trans": [
+                "过敏"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "symptom"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_dau_lung",
+            "name": "đau lưng",
+            "trans": [
+                "背痛",
+                "腰疼"
+            ],
+            "tags": [
+                "health",
+                "A2",
+                "symptom"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_a2_009",
+        "sentence_vi_a2_010",
+        "sentence_vi_a2_011",
+        "sentence_vi_a2_012",
+        "sentence_vi_a2_013",
+        "sentence_vi_a2_014",
+        "sentence_vi_a2_015",
+        "sentence_vi_a2_016"
+    ],
+    "grammar": [
+        {
+            "point": "「bị」表示遭遇负面状况（症状 / 疾病）",
+            "explain": "「bị」后接名词或动词，表示「遭遇不好的事」。健康场景下几乎所有症状都用「bị + 症状」表达，与汉语「得了/患上」相当。「được」是其正面对应词（bị 负面 / được 正面），例如：Tôi được khen（我被表扬）。注意：不要说「Tôi được sốt」，这是病句。",
+            "examples": [
+                {
+                    "vi": "Tôi bị sốt từ hôm qua.",
+                    "zh": "我从昨天开始就发烧。"
+                },
+                {
+                    "vi": "Anh ấy bị đau bụng cả buổi sáng.",
+                    "zh": "他肚子痛了一上午。"
+                },
+                {
+                    "vi": "Cô ấy bị dị ứng với hải sản.",
+                    "zh": "她对海鲜过敏。"
+                }
+            ]
+        },
+        {
+            "point": "「vì...nên / ...nên」表因果关系",
+            "explain": "「vì A nên B」= 因为 A 所以 B，是 A2 复合句的入门句型。口语中常省略「vì」，直接用前半句陈述事实 +「nên」引出结果。可与「vì thế」连用（= 因此）。注意：「nên」作情态动词时是「应该」，作连词时是「所以」，靠位置区分。",
+            "examples": [
+                {
+                    "vi": "Vì trời mưa nên tôi ở nhà.",
+                    "zh": "因为下雨所以我在家。"
+                },
+                {
+                    "vi": "Tôi bị sổ mũi nên không ngửi được gì cả.",
+                    "zh": "我流鼻涕，所以什么都闻不到。"
+                },
+                {
+                    "vi": "Ăn không hợp nên cô ấy bị tiêu chảy.",
+                    "zh": "吃了不对的东西，所以她腹泻了。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「sổ mũi」的意思是？",
+            "options": [
+                "鼻塞",
+                "流鼻涕",
+                "打喷嚏",
+                "咳嗽"
+            ],
+            "answer": "流鼻涕"
+        },
+        {
+            "type": "choose",
+            "question": "下面哪句是正确的？",
+            "options": [
+                "Tôi được sốt.",
+                "Tôi bị sốt.",
+                "Tôi sốt bị.",
+                "Tôi bị sốt được."
+            ],
+            "answer": "Tôi bị sốt."
+        },
+        {
+            "type": "fill",
+            "question": "Tôi bị đau bụng ___ buồn nôn.（我肚子痛而且恶心）",
+            "answer": "và"
+        },
+        {
+            "type": "fill",
+            "question": "Vì ăn không hợp ___ cô ấy bị tiêu chảy.（因为吃不对所以她腹泻了）",
+            "answer": "nên"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「我发烧了」的越南语",
+            "answer": "Tôi bị sốt"
+        }
+    ]
+}

@@ -1,0 +1,317 @@
+{
+    "id": "course_vi_135",
+    "title": "第 5 课：投诉与退换货",
+    "titleVi": "Bài 5: Khiếu nại và đổi trả hàng",
+    "order": 5,
+    "scenario": "services",
+    "goals": [
+        "能投诉商品或服务的质量问题",
+        "能提出退换货或退款要求",
+        "能用「tôi không hài lòng về...」表达不满",
+        "能礼貌而坚定地争取自己的权益"
+    ],
+    "words": [
+        {
+            "id": "vi_a2_khieu_nai",
+            "name": "khiếu nại",
+            "trans": [
+                "投诉"
+            ],
+            "tags": [
+                "services",
+                "A2",
+                "complaint"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_phan_nan",
+            "name": "phàn nàn",
+            "trans": [
+                "抱怨"
+            ],
+            "tags": [
+                "services",
+                "A2",
+                "complaint"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_doi_tra_hang",
+            "name": "đổi trả hàng",
+            "trans": [
+                "退换货"
+            ],
+            "tags": [
+                "services",
+                "A2",
+                "complaint"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_hoan_tien",
+            "name": "hoàn tiền",
+            "trans": [
+                "退款"
+            ],
+            "tags": [
+                "services",
+                "A2",
+                "complaint"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_hoa_don",
+            "name": "hóa đơn",
+            "trans": [
+                "发票",
+                "账单"
+            ],
+            "tags": [
+                "services",
+                "A2",
+                "complaint"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_bien_lai",
+            "name": "biên lai",
+            "trans": [
+                "收据"
+            ],
+            "tags": [
+                "services",
+                "A2",
+                "complaint"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_chat_luong",
+            "name": "chất lượng",
+            "trans": [
+                "质量"
+            ],
+            "tags": [
+                "services",
+                "A2",
+                "complaint"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_hai_long",
+            "name": "hài lòng",
+            "trans": [
+                "满意"
+            ],
+            "tags": [
+                "services",
+                "A2",
+                "complaint"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_khong_hai_long",
+            "name": "không hài lòng",
+            "trans": [
+                "不满意"
+            ],
+            "tags": [
+                "services",
+                "A2",
+                "complaint"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_loi",
+            "name": "lỗi",
+            "trans": [
+                "错误",
+                "缺陷"
+            ],
+            "tags": [
+                "services",
+                "A2",
+                "complaint"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_hu_hong",
+            "name": "hư hỏng",
+            "trans": [
+                "损坏"
+            ],
+            "tags": [
+                "services",
+                "A2",
+                "complaint"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_quan_ly",
+            "name": "quản lý",
+            "trans": [
+                "经理",
+                "管理者"
+            ],
+            "tags": [
+                "services",
+                "A2",
+                "complaint"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_giai_quyet",
+            "name": "giải quyết",
+            "trans": [
+                "解决",
+                "处理"
+            ],
+            "tags": [
+                "services",
+                "A2",
+                "complaint"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_bu_dap",
+            "name": "bù đắp",
+            "trans": [
+                "补偿"
+            ],
+            "tags": [
+                "services",
+                "A2",
+                "complaint"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_a2_169",
+        "sentence_vi_a2_170",
+        "sentence_vi_a2_171",
+        "sentence_vi_a2_172",
+        "sentence_vi_a2_173",
+        "sentence_vi_a2_174",
+        "sentence_vi_a2_175",
+        "sentence_vi_a2_176"
+    ],
+    "grammar": [
+        {
+            "point": "表达不满：không hài lòng về / có vấn đề về",
+            "explain": "「Tôi không hài lòng về + 名词」= 我对…不满意；「Có vấn đề về + 名词」= 在…方面有问题；「Tôi muốn phàn nàn về...」= 我想投诉…。注意：「về」在此表「关于」，不能省略。正式书面可加「xin」（Tôi xin phàn nàn về...）。",
+            "examples": [
+                {
+                    "vi": "Tôi không hài lòng về chất lượng của sản phẩm này.",
+                    "zh": "我对这个产品的质量不满意。"
+                },
+                {
+                    "vi": "Sản phẩm này có vấn đề về chất lượng, tôi muốn đổi.",
+                    "zh": "这个产品在质量上有问题，我想换。"
+                },
+                {
+                    "vi": "Tôi muốn phàn nàn về dịch vụ của nhà hàng này.",
+                    "zh": "我想投诉这家餐厅的服务。"
+                }
+            ]
+        },
+        {
+            "point": "要求退换：đổi / trả / hoàn tiền",
+            "explain": "「đổi」= 换（换同款或不同款）；「trả」= 退（把商品退回）；「hoàn tiền」= 退款。三者在购物投诉场景中高频。结构：「Tôi muốn + đổi/trả/hoàn tiền + 名词」。保留 hóa đơn（发票）和 biên lai（收据）是退换的前提。",
+            "examples": [
+                {
+                    "vi": "Sản phẩm bị lỗi, tôi muốn đổi cái khác.",
+                    "zh": "产品有缺陷，我想换一个。"
+                },
+                {
+                    "vi": "Tôi muốn trả hàng và yêu cầu hoàn tiền.",
+                    "zh": "我想退货并要求退款。"
+                },
+                {
+                    "vi": "Nếu không đổi được, tôi muốn hoàn lại tiền.",
+                    "zh": "如果不能换，我想退款。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「hoàn tiền」的意思是？",
+            "options": [
+                "换货",
+                "退货",
+                "退款",
+                "保修"
+            ],
+            "answer": "退款"
+        },
+        {
+            "type": "choose",
+            "question": "哪句正确表达「我对这个产品不满意」？",
+            "options": [
+                "Tôi không hài lòng sản phẩm này.",
+                "Tôi không hài lòng về sản phẩm này.",
+                "Tôi hài lòng không về sản phẩm này.",
+                "Tôi về không hài lòng sản phẩm."
+            ],
+            "answer": "Tôi không hài lòng về sản phẩm này."
+        },
+        {
+            "type": "fill",
+            "question": "Sản phẩm bị ___, tôi muốn đổi cái khác.（产品有缺陷，我想换一个）",
+            "answer": "lỗi"
+        },
+        {
+            "type": "fill",
+            "question": "Nếu không đổi được, tôi muốn hoàn lại ___.（如果不能换，我想退款）",
+            "answer": "tiền"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「我想退货并退款」的越南语",
+            "answer": "Tôi muốn trả hàng và hoàn tiền"
+        }
+    ]
+}
