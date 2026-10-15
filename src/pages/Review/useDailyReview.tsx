@@ -223,5 +223,23 @@ export function useDailyReview(lang: string) {
   const state: ReviewState = { done, total: words.length }
   const hasEnough = words.length >= DAILY_COUNT
 
-  return { state, words, loading, hasEnough, markDone, restart }
+  // ⬅️ 新增：只更新统计，不推进 done / 不写 results
+  // results 仍只记「最终答对」，保持 done 计数语义不变
+  const markWrong = useCallback(
+    (wordId?: string) => {
+      const target = wordId ? words.find((w) => w.id === wordId) : words[done]
+      if (!target) return
+
+      setStatsMap((m) => {
+        const prev = m[target.id]
+        const updated = applyReview(prev, target.id, false)
+        if (userId) {
+          upsertWordReviewStats(userId, [updated]).catch(() => {})
+        }
+        return { ...m, [target.id]: updated }
+      })
+    },
+    [words, done, setStatsMap, userId],
+  )
+  return { state, words, loading, hasEnough, markDone, markWrong, restart }
 }

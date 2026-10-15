@@ -10,7 +10,7 @@ const CHOICE_COUNT = 5
 export default function ReviewPage() {
   const navigate = useNavigate()
   const lang = useAtomValue(currentLanguageAtom)
-  const { state, words, loading, hasEnough, markDone, restart } = useDailyReview(lang)
+  const { state, words, loading, hasEnough, markDone, markWrong, restart } = useDailyReview(lang)
 
   const currentWord = state && state.done < state.total ? words[state.done] : null
 
@@ -68,9 +68,9 @@ export default function ReviewPage() {
             </div>
 
             {state.done < CHOICE_COUNT ? (
-              <ReviewChoiceCard key={currentWord.id} word={currentWord} pool={words} onDone={markDone} />
+              <ReviewChoiceCard key={currentWord.id} word={currentWord} pool={words} onDone={markDone} onWrong={markWrong} />
             ) : (
-              <ReviewTypeCard key={currentWord.id} word={currentWord} onDone={markDone} />
+              <ReviewTypeCard key={currentWord.id} word={currentWord} onDone={markDone} onWrong={markWrong} />
             )}
           </>
         )}

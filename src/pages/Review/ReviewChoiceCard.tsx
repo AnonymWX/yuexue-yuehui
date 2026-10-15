@@ -5,6 +5,7 @@ interface Props {
   word: ReviewWord
   pool: ReviewWord[]
   onDone: () => void
+  onWrong?: (wordId: string) => void
 }
 
 function shuffle<T>(arr: T[]): T[] {
@@ -16,7 +17,7 @@ function shuffle<T>(arr: T[]): T[] {
   return a
 }
 
-export default function ReviewChoiceCard({ word, pool, onDone }: Props) {
+export default function ReviewChoiceCard({ word, pool, onDone, onWrong }: Props) {
   const [pickedId, setPickedId] = useState<string | null>(null)
   const [wrongId, setWrongId] = useState<string | null>(null)
 
@@ -34,6 +35,7 @@ export default function ReviewChoiceCard({ word, pool, onDone }: Props) {
       setTimeout(onDone, 700)
     } else {
       setWrongId(opt.id)
+      onWrong?.(word.id) // ⬅️ 新增
       setTimeout(() => setWrongId(null), 800)
     }
   }

@@ -8,9 +8,10 @@ const VI_OPTION = { lang: 'vi-VN' }
 interface Props {
   word: ReviewWord
   onDone: () => void
+  onWrong?: (wordId: string) => void
 }
 
-export default function ReviewTypeCard({ word, onDone }: Props) {
+export default function ReviewTypeCard({ word, onDone, onWrong }: Props) {
   const [raw, setRaw] = useState('')
   const [status, setStatus] = useState<'idle' | 'correct' | 'wrong'>('idle')
   const { speak, cancel } = useSpeech(word.name, VI_OPTION)
@@ -40,6 +41,7 @@ export default function ReviewTypeCard({ word, onDone }: Props) {
       setStatus('correct')
     } else {
       setStatus('wrong')
+      onWrong?.(word.id) // ⬅️ 新增
       speak(true)
       setTimeout(() => {
         setRaw('')
