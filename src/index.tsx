@@ -2,6 +2,7 @@ import Layout from './components/AppLayout'
 import Loading from './components/Loading'
 import RequireAuth from './components/RequireAuth'
 import RequirePractice from './components/RequirePractice'
+import ToastHost from './components/ToastHost'
 import './index.css'
 import CourseIndex from './pages/Course'
 import CourseDetail from './pages/Course/CourseDetail'
@@ -83,6 +84,7 @@ function Root() {
     <React.StrictMode>
       {/* 完全恢复你原有的 basename 写法 */}
       <BrowserRouter basename={REACT_APP_DEPLOY_ENV === 'pages' ? '/qwerty-learner' : ''}>
+        <ToastHost />
         <Suspense fallback={<Loading />}>
           <Routes>
             {isMobile ? (

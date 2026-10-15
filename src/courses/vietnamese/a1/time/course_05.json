@@ -12,7 +12,7 @@
     ],
     "words": [
         {
-            "id": "vi_tu",
+            "id": "vi_tu_from",
             "name": "từ",
             "trans": [
                 "从"
@@ -26,7 +26,7 @@
             ]
         },
         {
-            "id": "vi_den",
+            "id": "vi_den_arrive",
             "name": "đến",
             "trans": [
                 "到",
@@ -99,7 +99,7 @@
             ]
         },
         {
-            "id": "vi_lau",
+            "id": "vi_lau_long",
             "name": "lâu",
             "trans": [
                 "久",

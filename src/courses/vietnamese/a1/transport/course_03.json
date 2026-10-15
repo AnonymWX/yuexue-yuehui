@@ -55,7 +55,7 @@
             ]
         },
         {
-            "id": "vi_cho",
+            "id": "vi_cho_transport",
             "name": "chở",
             "trans": [
                 "载",
@@ -70,7 +70,7 @@
             ]
         },
         {
-            "id": "vi_dung",
+            "id": "vi_dung_stop",
             "name": "đừng",
             "trans": [
                 "停（车）"

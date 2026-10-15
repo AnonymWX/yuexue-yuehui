@@ -1,24 +1,25 @@
 {
-    "id": "course_vi_06",
-    "title": "第 1 课：常见职业名称",
-    "titleVi": "Bài 1: Các nghề nghiệp phổ biến",
+    "id": "course_vi_49",
+    "title": "第 1 课：星期表达",
+    "titleVi": "Bài 1: Các ngày trong tuần",
     "order": 1,
-    "scenario": "career",
+    "scenario": "calendar",
     "goals": [
-        "掌握常见职业的越南语名称",
-        "能听懂并说出 8 种基础职业",
-        "了解越南语职业名词的构词特点",
-        "能用「là」介绍职业"
+        "掌握一周七天的越南语说法",
+        "掌握「thứ + 数字」规律",
+        "能用星期表达约会时间",
+        "能说出今天明天昨天是星期几"
     ],
     "words": [
         {
-            "id": "vi_bac_si",
-            "name": "bác sĩ",
+            "id": "vi_thu",
+            "name": "thứ",
             "trans": [
-                "医生"
+                "星期",
+                "次序"
             ],
             "tags": [
-                "career",
+                "calendar",
                 "A1"
             ],
             "source": [
@@ -26,14 +27,13 @@
             ]
         },
         {
-            "id": "vi_giao_vien",
-            "name": "giáo viên",
+            "id": "vi_thu_hai",
+            "name": "thứ hai",
             "trans": [
-                "教师",
-                "老师"
+                "星期一"
             ],
             "tags": [
-                "career",
+                "calendar",
                 "A1"
             ],
             "source": [
@@ -41,13 +41,13 @@
             ]
         },
         {
-            "id": "vi_ky_su",
-            "name": "kỹ sư",
+            "id": "vi_thu_ba",
+            "name": "thứ ba",
             "trans": [
-                "工程师"
+                "星期二"
             ],
             "tags": [
-                "career",
+                "calendar",
                 "A1"
             ],
             "source": [
@@ -55,13 +55,13 @@
             ]
         },
         {
-            "id": "vi_y_ta",
-            "name": "y tá",
+            "id": "vi_thu_tu",
+            "name": "thứ tư",
             "trans": [
-                "护士"
+                "星期三"
             ],
             "tags": [
-                "career",
+                "calendar",
                 "A1"
             ],
             "source": [
@@ -69,13 +69,13 @@
             ]
         },
         {
-            "id": "vi_luat_su",
-            "name": "luật sư",
+            "id": "vi_thu_nam_weekday",
+            "name": "thứ năm",
             "trans": [
-                "律师"
+                "星期四"
             ],
             "tags": [
-                "career",
+                "calendar",
                 "A1"
             ],
             "source": [
@@ -83,13 +83,13 @@
             ]
         },
         {
-            "id": "vi_ca_si",
-            "name": "ca sĩ",
+            "id": "vi_thu_sau_weekday",
+            "name": "thứ sáu",
             "trans": [
-                "歌手"
+                "星期五"
             ],
             "tags": [
-                "career",
+                "calendar",
                 "A1"
             ],
             "source": [
@@ -97,13 +97,13 @@
             ]
         },
         {
-            "id": "vi_cong_nhan",
-            "name": "công nhân",
+            "id": "vi_thu_bay",
+            "name": "thứ bảy",
             "trans": [
-                "工人"
+                "星期六"
             ],
             "tags": [
-                "career",
+                "calendar",
                 "A1"
             ],
             "source": [
@@ -111,13 +111,14 @@
             ]
         },
         {
-            "id": "vi_nong_dan",
-            "name": "nông dân",
+            "id": "vi_chu_nhat",
+            "name": "chủ nhật",
             "trans": [
-                "农民"
+                "星期日",
+                "星期天"
             ],
             "tags": [
-                "career",
+                "calendar",
                 "A1"
             ],
             "source": [
@@ -126,39 +127,39 @@
         }
     ],
     "sentences": [
-        "sentence_vi_031",
-        "sentence_vi_032",
-        "sentence_vi_033",
-        "sentence_vi_034",
-        "sentence_vi_035",
-        "sentence_vi_036"
+        "sentence_vi_289",
+        "sentence_vi_290",
+        "sentence_vi_291",
+        "sentence_vi_292",
+        "sentence_vi_293",
+        "sentence_vi_294"
     ],
     "grammar": [
         {
-            "point": "职业名词作表语",
-            "explain": "越南语中介绍职业用「主语 + là + 职业名词」，不需要冠词。",
+            "point": "星期表达「thứ + 序数」",
+            "explain": "越南语从「thứ hai」（第二）开始算一周的第一天，对应汉语的星期一。星期日用「chủ nhật」，不从 thứ 序列。",
             "examples": [
                 {
-                    "vi": "Tôi là bác sĩ.",
-                    "zh": "我是医生。"
+                    "vi": "Thứ hai là ngày đầu tuần.",
+                    "zh": "星期一是一周的第一天。"
                 },
                 {
-                    "vi": "Anh ấy là kỹ sư.",
-                    "zh": "他是工程师。"
+                    "vi": "Chủ nhật tôi nghỉ.",
+                    "zh": "星期日我休息。"
                 }
             ]
         },
         {
-            "point": "职业名词的性别区分",
-            "explain": "部分职业可通过前缀区分性别，如「nam bác sĩ」（男医生）、「nữ bác sĩ」（女医生），但日常多不区分。",
+            "point": "「vào thứ + 数字」表在某天",
+            "explain": "表示「在星期几」用「vào thứ + 数字」，或直接说「thứ + 数字」。",
             "examples": [
                 {
-                    "vi": "Cô ấy là nữ bác sĩ.",
-                    "zh": "她是女医生。"
+                    "vi": "Vào thứ hai tôi đi làm.",
+                    "zh": "星期一我去上班。"
                 },
                 {
-                    "vi": "Anh ấy là nam y tá.",
-                    "zh": "他是男护士。"
+                    "vi": "Thứ bảy tôi đi chơi.",
+                    "zh": "星期六我出去玩。"
                 }
             ]
         }
@@ -167,23 +168,23 @@
     "exercises": [
         {
             "type": "choose",
-            "question": "「医生」用越南语怎么说？",
+            "question": "「星期一」用越南语怎么说？",
             "options": [
-                "bác sĩ",
-                "giáo viên",
-                "kỹ sư"
+                "thứ hai",
+                "thứ ba",
+                "thứ tư"
             ],
-            "answer": "bác sĩ"
+            "answer": "thứ hai"
         },
         {
             "type": "fill",
-            "question": "Tôi là ___ (老师).",
-            "answer": "giáo viên"
+            "question": "___ nhật tôi nghỉ.",
+            "answer": "Chủ"
         },
         {
             "type": "telex_input",
-            "question": "输入「工程师」的越南语",
-            "answer": "kỹ sư"
+            "question": "输入「星期五」的越南语",
+            "answer": "thứ sáu"
         }
     ]
 }

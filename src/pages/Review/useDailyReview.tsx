@@ -1,5 +1,6 @@
 // src/pages/Review/useDailyReview.ts
 import { fetchWordReviewStats, upsertWordReviewStats } from '../../lib/db'
+import { notifyNetError } from '../../lib/netError'
 import { lessonProgressAtom, lessonProgressLoadedAtom } from '../../store/lessonProgress'
 import { wordReviewStatsAtom, applyReview, getWrongRate, type WordReviewStat } from '../../store/wordReviewStats'
 import { getAllCoursesDetail } from '../Course/hooks/useCourse'
@@ -209,7 +210,7 @@ export function useDailyReview(lang: string) {
     saveLocalDaily(lang, local)
 
     if (userId) {
-      upsertWordReviewStats(userId, [updated]).catch(() => {})
+      upsertWordReviewStats(userId, [updated]).catch(notifyNetError)
     }
 
     setDone((d) => d + 1)
@@ -234,7 +235,7 @@ export function useDailyReview(lang: string) {
         const prev = m[target.id]
         const updated = applyReview(prev, target.id, false)
         if (userId) {
-          upsertWordReviewStats(userId, [updated]).catch(() => {})
+          upsertWordReviewStats(userId, [updated]).catch(notifyNetError)
         }
         return { ...m, [target.id]: updated }
       })

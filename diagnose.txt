@@ -1,0 +1,267 @@
+
+========================================
+  course.id 不一致（9 处）
+========================================
+
+  src/courses/vietnamese/a1/calendar/course_01.json
+    主题声明 id : course_vi_49  (title: 第 1 课：星期表达)
+    文件实际 id : course_vi_06    (title: 第 1 课：常见职业名称)
+
+  src/courses/vietnamese/a1/career/course_01.json
+    主题声明 id : course_vi_06  (title: 第 1 课：常见职业名称)
+    文件实际 id : course_vi_49    (title: 第 1 课：星期表达)
+
+  src/courses/vietnamese/a1/language/course_02.json
+    主题声明 id : course_vi_15  (title: 第 2 课：问国籍)
+    文件实际 id : course_vi_16    (title: 第 3 课：语言名称)
+
+  src/courses/vietnamese/a1/objects/course_08.json
+    主题声明 id : course_vi_26  (title: 第 8 课：购物清单与物品分类)
+    文件实际 id : course_vi_27    (title: 第 1 课：外貌描述)
+
+  src/courses/vietnamese/a1/people/course_01.json
+    主题声明 id : course_vi_27  (title: 第 1 课：外貌描述)
+    文件实际 id : course_vi_19    (title: 第 1 课：日常物品与量词)
+
+  src/courses/vietnamese/a1/people/course_08.json
+    主题声明 id : course_vi_34  (title: 第 8 课：性格描述练习)
+    文件实际 id : course_vi_78    (title: 第 1 课：商店类型)
+
+  src/courses/vietnamese/a1/shopping/course_01.json
+    主题声明 id : course_vi_78  (title: 第 1 课：商店类型)
+    文件实际 id : course_vi_19    (title: 第 1 课：日常物品与量词)
+
+  src/courses/vietnamese/a1/shopping/course_05.json
+    主题声明 id : course_vi_82  (title: 第 5 课：电子产品购物)
+    文件实际 id : course_vi_86    (title: 第 1 课：常见交通工具)
+
+  src/courses/vietnamese/a1/transport/course_01.json
+    主题声明 id : course_vi_86  (title: 第 1 课：常见交通工具)
+    文件实际 id : course_vi_19    (title: 第 1 课：日常物品与量词)
+
+
+========================================
+  word.id 冲突 — 同名（20 组，可不动）
+========================================
+  vi_nuoc  →  "nước"  ×2
+      src/courses/vietnamese/a1/dining/course_04.json
+      src/courses/vietnamese/a1/language/course_01.json
+  vi_toi  →  "tôi"  ×2
+      src/courses/vietnamese/a1/greeting/course_02.json
+      src/courses/vietnamese/a1/greeting/course_03.json
+  vi_gan  →  "gần"  ×2
+      src/courses/vietnamese/a1/housing/course_07.json
+      src/courses/vietnamese/a1/time/course_03.json
+  vi_tieng  →  "tiếng"  ×2
+      src/courses/vietnamese/a1/language/course_02.json
+      src/courses/vietnamese/a1/language/course_03.json
+  vi_tieng_viet  →  "tiếng Việt"  ×2
+      src/courses/vietnamese/a1/language/course_02.json
+      src/courses/vietnamese/a1/language/course_03.json
+  vi_tieng_trung  →  "tiếng Trung"  ×2
+      src/courses/vietnamese/a1/language/course_02.json
+      src/courses/vietnamese/a1/language/course_03.json
+  vi_tieng_anh  →  "tiếng Anh"  ×2
+      src/courses/vietnamese/a1/language/course_02.json
+      src/courses/vietnamese/a1/language/course_03.json
+  vi_tieng_nhat  →  "tiếng Nhật"  ×2
+      src/courses/vietnamese/a1/language/course_02.json
+      src/courses/vietnamese/a1/language/course_03.json
+  vi_tieng_han  →  "tiếng Hàn"  ×2
+      src/courses/vietnamese/a1/language/course_02.json
+      src/courses/vietnamese/a1/language/course_03.json
+  vi_tieng_phap  →  "tiếng Pháp"  ×2
+      src/courses/vietnamese/a1/language/course_02.json
+      src/courses/vietnamese/a1/language/course_03.json
+  vi_tieng_me  →  "tiếng Mỹ"  ×2
+      src/courses/vietnamese/a1/language/course_02.json
+      src/courses/vietnamese/a1/language/course_03.json
+  vi_do_vat  →  "đồ vật"  ×4
+      src/courses/vietnamese/a1/objects/course_01.json
+      src/courses/vietnamese/a1/people/course_01.json
+      src/courses/vietnamese/a1/shopping/course_01.json
+      src/courses/vietnamese/a1/transport/course_01.json
+  vi_cai  →  "cái"  ×4
+      src/courses/vietnamese/a1/objects/course_01.json
+      src/courses/vietnamese/a1/people/course_01.json
+      src/courses/vietnamese/a1/shopping/course_01.json
+      src/courses/vietnamese/a1/transport/course_01.json
+  vi_con  →  "con"  ×4
+      src/courses/vietnamese/a1/objects/course_01.json
+      src/courses/vietnamese/a1/people/course_01.json
+      src/courses/vietnamese/a1/shopping/course_01.json
+      src/courses/vietnamese/a1/transport/course_01.json
+  vi_quyen  →  "quyển"  ×4
+      src/courses/vietnamese/a1/objects/course_01.json
+      src/courses/vietnamese/a1/people/course_01.json
+      src/courses/vietnamese/a1/shopping/course_01.json
+      src/courses/vietnamese/a1/transport/course_01.json
+  vi_chiec  →  "chiếc"  ×4
+      src/courses/vietnamese/a1/objects/course_01.json
+      src/courses/vietnamese/a1/people/course_01.json
+      src/courses/vietnamese/a1/shopping/course_01.json
+      src/courses/vietnamese/a1/transport/course_01.json
+  vi_buc  →  "bức"  ×4
+      src/courses/vietnamese/a1/objects/course_01.json
+      src/courses/vietnamese/a1/people/course_01.json
+      src/courses/vietnamese/a1/shopping/course_01.json
+      src/courses/vietnamese/a1/transport/course_01.json
+  vi_ban_table  →  "bàn"  ×4
+      src/courses/vietnamese/a1/objects/course_01.json
+      src/courses/vietnamese/a1/people/course_01.json
+      src/courses/vietnamese/a1/shopping/course_01.json
+      src/courses/vietnamese/a1/transport/course_01.json
+  vi_sach  →  "sách"  ×4
+      src/courses/vietnamese/a1/objects/course_01.json
+      src/courses/vietnamese/a1/people/course_01.json
+      src/courses/vietnamese/a1/shopping/course_01.json
+      src/courses/vietnamese/a1/transport/course_01.json
+  vi_ghe  →  "ghế"  ×2
+      src/courses/vietnamese/a1/objects/course_04.json
+      src/courses/vietnamese/a1/transport/course_02.json
+
+
+========================================
+  word.id 冲突 — 不同名（22 组，必须修）
+========================================
+
+  vi_tang:
+    "tặng"  [赠送/送]
+      src/courses/vietnamese/a1/birthday/course_06.json
+    "tầng"  [层/楼]
+      src/courses/vietnamese/a1/housing/course_03.json
+
+  vi_thu:
+    "thứ"  [星期/次序]
+      src/courses/vietnamese/a1/career/course_01.json
+    "thử"  [试/尝试]
+      src/courses/vietnamese/a1/shopping/course_02.json
+
+  vi_thuong:
+    "thưởng"  [奖金/奖励]
+      src/courses/vietnamese/a1/career/course_07.json
+    "thường"  [常常/通常]
+      src/courses/vietnamese/a1/hobbies/course_04.json
+
+  vi_pho:
+    "phở"  [河粉]
+      src/courses/vietnamese/a1/dining/course_03.json
+    "phố"  [街/街道]
+      src/courses/vietnamese/a1/directions/course_03.json
+
+  vi_da:
+    "đá"  [冰]
+      src/courses/vietnamese/a1/dining/course_04.json
+    "dạ"  [是的（南方/礼貌）]
+      src/courses/vietnamese/a1/greeting/course_04.json
+
+  vi_chua:
+    "chua"  [酸]
+      src/courses/vietnamese/a1/dining/course_05.json
+    "chùa"  [寺庙/佛寺]
+      src/courses/vietnamese/a1/places/course_01.json
+
+  vi_chan:
+    "chén"  [碗（小）]
+      src/courses/vietnamese/a1/dining/course_06.json
+    "chán"  [厌烦/无聊]
+      src/courses/vietnamese/a1/hobbies/course_03.json
+
+  vi_dai:
+    "đãi"  [请客/招待]
+      src/courses/vietnamese/a1/dining/course_07.json
+    "dài"  [长]
+      src/courses/vietnamese/a1/objects/course_03.json
+
+  vi_cho:
+    "chợ"  [市场]
+      src/courses/vietnamese/a1/directions/course_01.json
+    "chở"  [载/运载]
+      src/courses/vietnamese/a1/transport/course_03.json
+
+  vi_re:
+    "rẽ"  [拐/转（北方用）]
+      src/courses/vietnamese/a1/directions/course_02.json
+    "rẻ"  [便宜]
+      src/courses/vietnamese/a1/shopping/course_06.json
+
+  vi_quay:
+    "quay"  [转/转身]
+      src/courses/vietnamese/a1/directions/course_02.json
+    "quầy"  [柜台/摊位]
+      src/courses/vietnamese/a1/people/course_08.json
+
+  vi_co:
+    "có"  [有/是]
+      src/courses/vietnamese/a1/greeting/course_04.json
+    "cỡ"  [尺码/号]
+      src/courses/vietnamese/a1/shopping/course_03.json
+
+  vi_dung:
+    "đúng"  [对/正确]
+      src/courses/vietnamese/a1/greeting/course_04.json
+    "đừng"  [停（车）]
+      src/courses/vietnamese/a1/transport/course_03.json
+
+  vi_bo:
+    "bỏ"  [放弃/停止]
+      src/courses/vietnamese/a1/hobbies/course_07.json
+    "bố"  [爸爸/父亲]
+      src/courses/vietnamese/a1/housing/course_01.json
+
+  vi_vo:
+    "vợ"  [妻子]
+      src/courses/vietnamese/a1/housing/course_02.json
+    "vở"  [笔记本/作业本]
+      src/courses/vietnamese/a1/objects/course_05.json
+
+  vi_lau:
+    "lầu"  [楼（南方用）]
+      src/courses/vietnamese/a1/housing/course_03.json
+    "lâu"  [久/长时间]
+      src/courses/vietnamese/a1/time/course_05.json
+
+  vi_den:
+    "đèn"  [灯]
+      src/courses/vietnamese/a1/housing/course_05.json
+    "đến"  [到/至]
+      src/courses/vietnamese/a1/time/course_05.json
+
+  vi_xa:
+    "xa"  [远]
+      src/courses/vietnamese/a1/housing/course_07.json
+    "xã"  [社（行政单位）]
+      src/courses/vietnamese/a1/places/course_02.json
+
+  vi_day:
+    "dạy"  [教]
+      src/courses/vietnamese/a1/language/course_05.json
+    "đây"  [这/这里]
+      src/courses/vietnamese/a1/objects/course_02.json
+
+  vi_tu:
+    "tủ"  [柜子/橱]
+      src/courses/vietnamese/a1/objects/course_04.json
+    "từ"  [从]
+      src/courses/vietnamese/a1/time/course_05.json
+
+  vi_giay:
+    "giấy"  [纸]
+      src/courses/vietnamese/a1/objects/course_05.json
+    "giây"  [秒]
+      src/courses/vietnamese/a1/time/course_03.json
+
+  vi_sua:
+    "sữa"  [牛奶/奶]
+      src/courses/vietnamese/a1/shopping/course_04.json
+    "sửa"  [修/修理]
+      src/courses/vietnamese/a1/shopping/course_08.json
+
+
+========================================
+  汇总
+========================================
+  course.id 不一致 : 9
+  word.id 同名冲突 : 20 组
+  word.id 不同名冲突 : 22 组
+

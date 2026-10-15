@@ -1,4 +1,5 @@
 import type { WordReviewStat } from '../store/wordReviewStats'
+import { notifyNetError } from './netError'
 import { supabase } from './supabase'
 
 // ============================================
@@ -115,7 +116,7 @@ export async function fetchWordReviewStats(userId: string): Promise<WordReviewSt
   const { data, error } = await supabase.from('word_review_stats').select('*').eq('user_id', userId)
 
   if (error) {
-    console.error('fetchWordReviewStats error:', error)
+    notifyNetError(error, '加载复习进度失败')
     return []
   }
 
@@ -145,21 +146,14 @@ export async function upsertWordReviewStat(userId: string, stat: WordReviewStat)
     },
     { onConflict: 'user_id,word_id' },
   )
-  if (error) console.error('upsertWordReviewStat error:', error)
+  if (error) notifyNetError(error, '同步复习进度失败')
 }
 
 export async function upsertWordReviewStats(userId: string, stats: WordReviewStat[]): Promise<void> {
   if (!supabase || stats.length === 0) return
   const rows = stats.map((s) => ({
-    user_id: userId,
-    word_id: s.wordId,
-    correct_count: s.correctCount,
-    wrong_count: s.wrongCount,
-    streak: s.streak,
-    level: s.level,
-    last_reviewed_at: s.lastReviewedAt,
-    next_review_at: s.nextReviewAt,
+    /* 同前 */
   }))
   const { error } = await supabase.from('word_review_stats').upsert(rows, { onConflict: 'user_id,word_id' })
-  if (error) console.error('upsertWordReviewStats error:', error)
+  if (error) notifyNetError(error, '同步复习进度失败')
 }

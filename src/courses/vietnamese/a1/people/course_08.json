@@ -1,5 +1,5 @@
 {
-    "id": "course_vi_78",
+    "id": "course_vi_34",
     "title": "第 1 课：商店类型",
     "titleVi": "Bài 1: Các loại cửa hàng",
     "order": 1,
@@ -97,7 +97,7 @@
             ]
         },
         {
-            "id": "vi_quay",
+            "id": "vi_quay_counter",
             "name": "quầy",
             "trans": [
                 "柜台",
