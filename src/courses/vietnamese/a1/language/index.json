@@ -8,36 +8,31 @@
             "id": "course_vi_14",
             "file": "course_01.json",
             "title": "第 1 课：国家名称",
-            "titleVi": "Bài 1: Tên các quốc gia",
-            "level": "A1"
+            "titleVi": "Bài 1: Tên các quốc gia"
         },
         {
             "id": "course_vi_15",
             "file": "course_02.json",
             "title": "第 2 课：问国籍",
-            "titleVi": "Bài 2: Hỏi quốc tịch",
-            "level": "A1"
+            "titleVi": "Bài 2: Hỏi quốc tịch"
         },
         {
             "id": "course_vi_16",
             "file": "course_03.json",
             "title": "第 3 课：语言名称",
-            "titleVi": "Bài 3: Tên các ngôn ngữ",
-            "level": "A1"
+            "titleVi": "Bài 3: Tên các ngôn ngữ"
         },
         {
             "id": "course_vi_17",
             "file": "course_04.json",
             "title": "第 4 课：问语言能力",
-            "titleVi": "Bài 4: Hỏi khả năng ngôn ngữ",
-            "level": "A1"
+            "titleVi": "Bài 4: Hỏi khả năng ngôn ngữ"
         },
         {
             "id": "course_vi_18",
             "file": "course_05.json",
             "title": "第 5 课：国籍与语言综合表达",
-            "titleVi": "Bài 5: Diễn đạt tổng hợp về quốc tịch và ngôn ngữ",
-            "level": "A1"
+            "titleVi": "Bài 5: Diễn đạt tổng hợp về quốc tịch và ngôn ngữ"
         }
     ]
 }

@@ -8,36 +8,31 @@
             "id": "course_vi_86",
             "file": "course_01.json",
             "title": "第 1 课：常见交通工具",
-            "titleVi": "Bài 1: Các phương tiện giao thông phổ biến",
-            "level": "A1"
+            "titleVi": "Bài 1: Các phương tiện giao thông phổ biến"
         },
         {
             "id": "course_vi_87",
             "file": "course_02.json",
             "title": "第 2 课：坐车与买票",
-            "titleVi": "Bài 2: Đi xe và mua vé",
-            "level": "A1"
+            "titleVi": "Bài 2: Đi xe và mua vé"
         },
         {
             "id": "course_vi_88",
             "file": "course_03.json",
             "title": "第 3 课：乘坐交通工具",
-            "titleVi": "Bài 3: Đi các phương tiện giao thông",
-            "level": "A1"
+            "titleVi": "Bài 3: Đi các phương tiện giao thông"
         },
         {
             "id": "course_vi_89",
             "file": "course_04.json",
             "title": "第 4 课：问路与交通",
-            "titleVi": "Bài 4: Hỏi đường và giao thông",
-            "level": "A2"
+            "titleVi": "Bài 4: Hỏi đường và giao thông"
         },
         {
             "id": "course_vi_90",
             "file": "course_05.json",
             "title": "第 5 课：交通规则与安全",
-            "titleVi": "Bài 5: Luật giao thông và an toàn",
-            "level": "A2"
+            "titleVi": "Bài 5: Luật giao thông và an toàn"
         }
     ]
 }
