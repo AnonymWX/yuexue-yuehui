@@ -1,0 +1,320 @@
+{
+    "id": "course_vi_143",
+    "title": "第 3 课：考试与成绩",
+    "titleVi": "Bài 3: Kỳ thi và điểm số",
+    "order": 3,
+    "scenario": "education",
+    "goals": [
+        "能谈论考试类型与成绩",
+        "能用「được / bị」描述考试结果",
+        "能用「tuy...nhưng」表示让步",
+        "能表达努力与收获的因果关系"
+    ],
+    "words": [
+        {
+            "id": "vi_a2_ky_thi",
+            "name": "kỳ thi",
+            "trans": [
+                "考试（场次）"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "exam"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_thi",
+            "name": "thi",
+            "trans": [
+                "考试",
+                "考"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "exam"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_bai_thi",
+            "name": "bài thi",
+            "trans": [
+                "考试（试卷）"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "exam"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_diem",
+            "name": "điểm",
+            "trans": [
+                "分数",
+                "分"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "exam"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_diem_cao",
+            "name": "điểm cao",
+            "trans": [
+                "高分"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "exam"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_diem_thap",
+            "name": "điểm thấp",
+            "trans": [
+                "低分"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "exam"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_dat",
+            "name": "đạt",
+            "trans": [
+                "达到",
+                "取得"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "exam"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_rot",
+            "name": "rớt",
+            "trans": [
+                "落榜",
+                "不及格"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "exam"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_dau_thi",
+            "name": "đậu",
+            "trans": [
+                "考中",
+                "通过"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "exam"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_chuan_bi",
+            "name": "chuẩn bị",
+            "trans": [
+                "准备"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "exam"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_lo_lang",
+            "name": "lo lắng",
+            "trans": [
+                "担心",
+                "焦虑"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "exam"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_binh_tinh",
+            "name": "bình tĩnh",
+            "trans": [
+                "冷静",
+                "镇定"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "exam"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_on_thi",
+            "name": "ôn thi",
+            "trans": [
+                "备考"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "exam"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_a2_ket_qua",
+            "name": "kết quả",
+            "trans": [
+                "结果"
+            ],
+            "tags": [
+                "education",
+                "A2",
+                "exam"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_a2_193",
+        "sentence_vi_a2_194",
+        "sentence_vi_a2_195",
+        "sentence_vi_a2_196",
+        "sentence_vi_a2_197",
+        "sentence_vi_a2_198",
+        "sentence_vi_a2_199",
+        "sentence_vi_a2_200"
+    ],
+    "grammar": [
+        {
+            "point": "考试结果：thi đậu / thi rớt / đạt điểm",
+            "explain": "「thi đậu」= 考中、通过；「thi rớt」= 考落榜、不及格；「đạt điểm cao/thấp」= 取得高/低分。注意：「rớt」比「không đậu」口语化。「đậu」在南方更常说，北方口语则用「đỗ」（两词同义异形）。",
+            "examples": [
+                {
+                    "vi": "Anh ấy thi đậu đại học với điểm rất cao.",
+                    "zh": "他考上大学，分数很高。"
+                },
+                {
+                    "vi": "Cô ấy thi rớt lần đầu, nhưng năm sau đã đỗ.",
+                    "zh": "她第一次没考上，但第二年就通过了。"
+                },
+                {
+                    "vi": "Tôi đạt điểm cao nhất trong lớp môn tiếng Việt.",
+                    "zh": "我在班里越南语考了最高分。"
+                }
+            ]
+        },
+        {
+            "point": "努力与结果：nhờ...nên / vì...nên（复习强化）",
+            "explain": "「nhờ A nên B」= 多亏 A 才 B（正面原因）；「vì A nên B」= 因为 A 所以 B（中性原因）。A 是正面时优先用 nhờ，负面时用 vì。「tuy...nhưng」表让步。三者是 A2 写作高分句型。",
+            "examples": [
+                {
+                    "vi": "Nhờ chăm chỉ ôn thi nên tôi đã đạt điểm cao.",
+                    "zh": "多亏认真备考，我取得了高分。"
+                },
+                {
+                    "vi": "Vì lo lắng quá nên cô ấy làm bài không tốt.",
+                    "zh": "因为太紧张，所以她考试没发挥好。"
+                },
+                {
+                    "vi": "Tuy bài thi rất khó nhưng nhiều bạn vẫn đạt điểm cao.",
+                    "zh": "虽然考试很难，但很多同学还是得了高分。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「thi rớt」的意思是？",
+            "options": [
+                "考中",
+                "落榜",
+                "缺考",
+                "补考"
+            ],
+            "answer": "落榜"
+        },
+        {
+            "type": "choose",
+            "question": "哪句正确表达「多亏认真备考，我取得了高分」？",
+            "options": [
+                "Vì chăm chỉ ôn thi nên tôi đạt điểm cao.",
+                "Nhờ chăm chỉ ôn thi nên tôi đạt điểm cao.",
+                "Tuy chăm chỉ ôn thi nhưng tôi đạt điểm cao.",
+                "Nếu chăm chỉ ôn thi nên tôi đạt điểm cao."
+            ],
+            "answer": "Nhờ chăm chỉ ôn thi nên tôi đạt điểm cao."
+        },
+        {
+            "type": "fill",
+            "question": "Anh ấy thi ___ đại học với điểm rất cao.（他考上大学，分数很高）",
+            "answer": "đậu"
+        },
+        {
+            "type": "fill",
+            "question": "___ chăm chỉ ôn thi nên tôi đã đạt điểm cao.（多亏认真备考，我取得了高分）",
+            "answer": "Nhờ"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「我考上了大学」的越南语",
+            "answer": "Tôi thi đậu đại học"
+        }
+    ]
+}

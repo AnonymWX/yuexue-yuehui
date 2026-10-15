@@ -5,18 +5,17 @@
     "order": 1,
     "scenario": "birthday",
     "goals": [
-        "掌握出生年、出生地相关表达",
-        "学会说「我出生于……」",
-        "掌握籍贯与原籍",
-        "能介绍自己的出生背景"
+        "能说出年份、出生年的越南语说法",
+        "能用「sinh năm + 年份」表达出生年",
+        "能用「bao nhiêu / mấy」问年份和年龄",
+        "能说出自己的生日日期"
     ],
     "words": [
         {
-            "id": "vi_sinh",
-            "name": "sinh",
+            "id": "vi_nam",
+            "name": "năm",
             "trans": [
-                "出生",
-                "生"
+                "年"
             ],
             "tags": [
                 "birthday",
@@ -41,6 +40,78 @@
             ]
         },
         {
+            "id": "vi_sinh",
+            "name": "sinh",
+            "trans": [
+                "出生",
+                "生"
+            ],
+            "tags": [
+                "birthday",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_sinh_nhat",
+            "name": "sinh nhật",
+            "trans": [
+                "生日"
+            ],
+            "tags": [
+                "birthday",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_tuoi",
+            "name": "tuổi",
+            "trans": [
+                "年龄",
+                "岁"
+            ],
+            "tags": [
+                "birthday",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_may",
+            "name": "mấy",
+            "trans": [
+                "几（问小数字）"
+            ],
+            "tags": [
+                "birthday",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
+            "id": "vi_bao_nhieu",
+            "name": "bao nhiêu",
+            "trans": [
+                "多少"
+            ],
+            "tags": [
+                "birthday",
+                "A1"
+            ],
+            "source": [
+                "vietnamese_a1"
+            ]
+        },
+        {
             "id": "vi_ngay_sinh",
             "name": "ngày sinh",
             "trans": [
@@ -53,115 +124,42 @@
             "source": [
                 "vietnamese_a1"
             ]
-        },
-        {
-            "id": "vi_noi_sinh",
-            "name": "nơi sinh",
-            "trans": [
-                "出生地"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_que_quan",
-            "name": "quê quán",
-            "trans": [
-                "籍贯",
-                "老家"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_nguyen_quan",
-            "name": "nguyên quán",
-            "trans": [
-                "原籍"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_lich",
-            "name": "lịch",
-            "trans": [
-                "日历",
-                "历法"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_lich_am",
-            "name": "âm lịch",
-            "trans": [
-                "农历",
-                "阴历"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
         }
     ],
     "sentences": [
-        "sentence_vi_319",
-        "sentence_vi_320",
-        "sentence_vi_321",
-        "sentence_vi_322",
-        "sentence_vi_323",
-        "sentence_vi_324"
+        "sentence_vi_643",
+        "sentence_vi_644",
+        "sentence_vi_645",
+        "sentence_vi_646",
+        "sentence_vi_647",
+        "sentence_vi_648"
     ],
     "grammar": [
         {
-            "point": "「sinh năm + 数字」表出生年",
-            "explain": "表达「出生于某年」用「sinh năm + 数字」，如「sinh năm 2000」（2000 年出生）。",
+            "point": "问出生年份：sinh năm bao nhiêu?",
+            "explain": "「sinh năm bao nhiêu?」= 哪年出生？回答「Tôi sinh năm + 年份」。越南语年号直接连写，如「1995」读作「một nghìn chín trăm chín mươi lăm」，「năm 1995」= 1995 年。注意：「năm」既是「年」，也可表示「五」，靠上下文区分。",
             "examples": [
+                {
+                    "vi": "Bạn sinh năm bao nhiêu?",
+                    "zh": "你哪年出生？"
+                },
                 {
                     "vi": "Tôi sinh năm 2000.",
                     "zh": "我 2000 年出生。"
-                },
-                {
-                    "vi": "Anh ấy sinh năm 1995.",
-                    "zh": "他 1995 年出生。"
                 }
             ]
         },
         {
-            "point": "「quê quán ở + 地点」表籍贯",
-            "explain": "表示籍贯或老家用「quê quán ở + 地点」或「quê ở + 地点」。",
+            "point": "问年龄：bao nhiêu tuổi / mấy tuổi",
+            "explain": "「bao nhiêu tuổi?」= 多大？「mấy tuổi?」= 几岁（问儿童更自然）。回答「Tôi + 数字 + tuổi」。注意越南语数词读法：mười lăm（15）、hai mươi（20）、ba mươi mốt（31）。亲属间问年龄很常见，不冒犯。",
             "examples": [
                 {
-                    "vi": "Quê quán tôi ở Hà Nội.",
-                    "zh": "我籍贯在河内。"
+                    "vi": "Năm nay bạn bao nhiêu tuổi?",
+                    "zh": "今年你多大了？"
                 },
                 {
-                    "vi": "Quê tôi ở miền Nam.",
-                    "zh": "我老家在南方。"
+                    "vi": "Em tôi mười tuổi.",
+                    "zh": "我弟弟十岁。"
                 }
             ]
         }
@@ -170,23 +168,24 @@
     "exercises": [
         {
             "type": "choose",
-            "question": "「我 2000 年出生」的正确说法是？",
+            "question": "「năm sinh」的意思是？",
             "options": [
-                "Tôi sinh năm 2000",
-                "Tôi năm sinh 2000",
-                "Sinh tôi năm 2000"
+                "年龄",
+                "生日",
+                "出生年份",
+                "日期"
             ],
-            "answer": "Tôi sinh năm 2000"
+            "answer": "出生年份"
         },
         {
             "type": "fill",
-            "question": "___ quán tôi ở Hà Nội.",
-            "answer": "Quê"
+            "question": "Tôi ___ năm 1995.（我 1995 年出生）",
+            "answer": "sinh"
         },
         {
             "type": "telex_input",
-            "question": "输入「出生日期」的越南语",
-            "answer": "ngày sinh"
+            "question": "输入「你哪年出生？」的越南语",
+            "answer": "Bạn sinh năm bao nhiêu"
         }
     ]
 }
