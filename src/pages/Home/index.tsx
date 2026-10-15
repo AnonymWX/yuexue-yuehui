@@ -1,8 +1,9 @@
-import { useCourseStructure } from '@/pages/Course/hooks/useCourse'
-import { useAllLessonProgress } from '@/pages/Course/hooks/useLessonStatus'
+// src/pages/Home/index.tsx
+import { useAllThemes } from '@/pages/Course/hooks/useCourse'
 import { useDailyReview } from '@/pages/Review/useDailyReview'
 import { getLanguageMeta } from '@/resources/languages'
 import { currentLanguageAtom } from '@/store/language'
+import { lessonProgressAtom } from '@/store/lessonProgress'
 import { useAtomValue } from 'jotai'
 import { useMemo } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
@@ -11,14 +12,17 @@ export default function HomePage() {
   const navigate = useNavigate()
   const currentLang = useAtomValue(currentLanguageAtom)
   const meta = getLanguageMeta(currentLang)
-  const { themes } = useCourseStructure(currentLang)
-  const progressMap = useAllLessonProgress()
 
-  // 按主题顺序扁平化所有课程
+  // 1. 获取所有主题（包含 courses 数组和 stage 字段）
+  const allThemes = useAllThemes()
+
+  // 2. 获取全局进度 Map
+  const progressMap = useAtomValue(lessonProgressAtom)
+
+  // 3. 按主题顺序扁平化所有课程
   const viCourses = useMemo(() => {
-    return themes.flatMap((t) =>
+    return allThemes.flatMap((t) =>
       t.courses.map((c, idx) => {
-        const m = c.file.match(/course_(\d+)\.json/)
         return {
           id: c.id,
           title: c.title,
@@ -26,14 +30,14 @@ export default function HomePage() {
           level: c.level,
           theme: t.id,
           themeTitle: t.title,
-          no: m ? m[1] : '01',
+          stageId: t.stage, // ⬅️ 新增：获取所属阶段 (a1 / a2)
           themeSeq: idx + 1,
         }
       }),
     )
-  }, [themes])
+  }, [allThemes])
 
-  // 继续学习：优先取「有进度、未完成、updatedAt 最新」的那课
+  // 4. 继续学习：优先取「有进度、未完成、updatedAt 最新」的那课
   const continueCourse = useMemo(() => {
     let best: (typeof viCourses)[number] | null = null
     let bestTime = 0
@@ -46,6 +50,7 @@ export default function HomePage() {
       }
     }
     if (best) return best
+    // 如果都没学过，返回第一课
     for (const c of viCourses) {
       if (!progressMap[c.id]) return c
     }
@@ -75,7 +80,8 @@ export default function HomePage() {
         <h2 className="mb-4 text-xl font-semibold">继续学习</h2>
         {continueCourse ? (
           <Link
-            to={`/course/${currentLang}/${continueCourse.theme}/${continueCourse.no}`}
+            // ⬇️ 新路由：/course/:stage/:theme/:courseId
+            to={`/course/${continueCourse.stageId}/${continueCourse.theme}/${continueCourse.id}`}
             className="block rounded-3xl border-2 border-gray-200 bg-white p-6 transition hover:border-indigo-400 hover:shadow-md dark:border-gray-700 dark:bg-gray-900 dark:hover:border-indigo-600"
           >
             <div className="mb-2 flex items-center justify-between">

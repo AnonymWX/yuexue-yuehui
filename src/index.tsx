@@ -3,6 +3,11 @@ import Loading from './components/Loading'
 import RequireAuth from './components/RequireAuth'
 import RequirePractice from './components/RequirePractice'
 import './index.css'
+import CourseIndex from './pages/Course'
+import CourseDetail from './pages/Course/CourseDetail'
+import LanguageCourseList from './pages/Course/LanguageCourseList'
+import StageCourseList from './pages/Course/StageCourseList'
+// 默认导入
 import { useLessonProgressInit } from './pages/Course/player/useLessonProgress'
 import DrillPage from './pages/Drill'
 import { usePracticeProgressInit } from './pages/Drill/useDrillProgress'
@@ -26,15 +31,16 @@ import process from 'process'
 import React, { Suspense, lazy, useEffect, useState } from 'react'
 import 'react-app-polyfill/stable'
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+
+// 声明全局环境变量，防止 TS 报红（保留你原有的写法）
+declare const REACT_APP_DEPLOY_ENV: string | undefined
 
 const AnalysisPage = lazy(() => import('./pages/Analysis'))
-const CourseHomePage = lazy(() => import('./pages/Course'))
-const CourseListPage = lazy(() => import('./pages/Course/LanguageCourseList'))
-const CourseDetailPage = lazy(() => import('./pages/Course/CourseDetail'))
 const ReviewPage = lazy(() => import('./pages/Review'))
 const PracticePage = lazy(() => import('./pages/Practice'))
 
+// 完全保留你原有的 mixpanel 初始化逻辑
 if (process.env.NODE_ENV === 'production') {
   mixpanel.init('bdc492847e9340eeebd53cc35f321691')
 } else {
@@ -75,6 +81,7 @@ function Root() {
 
   return (
     <React.StrictMode>
+      {/* 完全恢复你原有的 basename 写法 */}
       <BrowserRouter basename={REACT_APP_DEPLOY_ENV === 'pages' ? '/qwerty-learner' : ''}>
         <Suspense fallback={<Loading />}>
           <Routes>
@@ -93,30 +100,42 @@ function Root() {
                       </RequireAuth>
                     }
                   />
+
+                  {/* ===== 🎯 仅替换这里的课程路由为阶段系统 ===== */}
                   <Route
                     path="/course"
                     element={
                       <RequireAuth>
-                        <CourseHomePage />
+                        <CourseIndex />
                       </RequireAuth>
                     }
                   />
                   <Route
-                    path="/course/:lang/:theme"
+                    path="/course/:stage"
                     element={
                       <RequireAuth>
-                        <CourseListPage />
+                        <StageCourseList />
                       </RequireAuth>
                     }
                   />
                   <Route
-                    path="/course/:lang/:theme/:no"
+                    path="/course/:stage/:theme"
                     element={
                       <RequireAuth>
-                        <CourseDetailPage />
+                        <LanguageCourseList />
                       </RequireAuth>
                     }
                   />
+                  <Route
+                    path="/course/:stage/:theme/:courseId"
+                    element={
+                      <RequireAuth>
+                        <CourseDetail />
+                      </RequireAuth>
+                    }
+                  />
+                  {/* ============================================ */}
+
                   <Route
                     path="/review"
                     element={
@@ -168,7 +187,6 @@ function Root() {
                 <Route path="/analysis" element={<AnalysisPage />} />
                 <Route path="/error-book" element={<ErrorBook />} />
                 <Route path="/friend-links" element={<FriendLinks />} />
-
                 <Route path="/*" element={<Navigate to="/" />} />
               </>
             )}

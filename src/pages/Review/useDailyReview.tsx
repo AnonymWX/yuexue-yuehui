@@ -1,7 +1,10 @@
+// src/pages/Review/useDailyReview.ts
 import { fetchWordReviewStats, upsertWordReviewStats } from '../../lib/db'
 import { lessonProgressAtom, lessonProgressLoadedAtom } from '../../store/lessonProgress'
 import { wordReviewStatsAtom, applyReview, getWrongRate, type WordReviewStat } from '../../store/wordReviewStats'
+import { getAllCoursesDetail } from '../Course/hooks/useCourse'
 import { userIdAtom } from '../Login/useAuth'
+// ⬅️ 新增：复用预加载数据
 import { useAtom, useAtomValue } from 'jotai'
 import { useCallback, useEffect, useState } from 'react'
 
@@ -27,14 +30,6 @@ interface DailyRecord {
 // ================= 常量 =================
 
 const DAILY_COUNT = 10
-
-/** 语言 code → 课程目录名 */
-const LANG_DIR: Record<string, string> = {
-  vi: 'vietnamese',
-  en: 'english',
-  ja: 'japanese',
-  ko: 'korean',
-}
 
 function todayStr(): string {
   return new Date().toISOString().slice(0, 10)
@@ -70,42 +65,24 @@ function getLearnedCourseIds(lang: string, lessonMap: LessonMap): string[] {
   return Object.keys(lessonMap).filter((id) => id.startsWith(prefix))
 }
 
-// ================= 加载课程词库 =================
+// ================= 加载课程词库 (重构为同步内存读取) =================
 
-async function loadWordsForCourses(lang: string, courseIds: string[]): Promise<ReviewWord[]> {
-  const dir = LANG_DIR[lang] ?? lang
+function buildWordPool(lang: string, courseIds: string[]): ReviewWord[] {
   const wanted = new Set(courseIds)
+  // ⬇️ 直接从 Vite 预加载的内存中获取所有课程，不再发 fetch 请求
+  const allCourses = getAllCoursesDetail(lang)
+  const learnedCourses = allCourses.filter((c) => wanted.has(c.id))
+
   const result: ReviewWord[] = []
   const seen = new Set<string>()
 
-  try {
-    const topRes = await fetch('/courses/index.json')
-    if (!topRes.ok) return []
-    const top = await topRes.json()
-    const topics: string[] = top[lang] ?? []
-
-    for (const topic of topics) {
-      const idxRes = await fetch(`/courses/${dir}/${topic}/index.json`)
-      if (!idxRes.ok) continue
-      const idx = await idxRes.json()
-      const courses: any[] = idx.courses ?? []
-
-      for (const c of courses) {
-        if (!c.id || !wanted.has(c.id)) continue
-        const cRes = await fetch(`/courses/${dir}/${topic}/${c.file}`)
-        if (!cRes.ok) continue
-        const courseJson = await cRes.json()
-        const words: any[] = courseJson.words ?? []
-        for (const w of words) {
-          if (!w.id || !w.name) continue
-          if (seen.has(w.id)) continue
-          seen.add(w.id)
-          result.push({ id: w.id, name: w.name, trans: w.trans ?? [] })
-        }
-      }
+  for (const c of learnedCourses) {
+    for (const w of c.words || []) {
+      if (!w.id || !w.name) continue
+      if (seen.has(w.id)) continue
+      seen.add(w.id)
+      result.push({ id: w.id, name: w.name, trans: w.trans ?? [] })
     }
-  } catch (e) {
-    console.error('loadWordsForCourses error:', e)
   }
   return result
 }
@@ -172,12 +149,13 @@ export function useDailyReview(lang: string) {
   const [loading, setLoading] = useState(true)
   const [done, setDone] = useState(0)
 
+  // ⬇️ 改为同步函数，因为 buildWordPool 是同步的
   const buildToday = useCallback(
-    async (forceNew: boolean) => {
+    (forceNew: boolean) => {
       setLoading(true)
 
       const courseIds = getLearnedCourseIds(lang, lessonMap)
-      const all = await loadWordsForCourses(lang, courseIds)
+      const all = buildWordPool(lang, courseIds) // ⬅️ 同步获取词池
 
       let todayWords: ReviewWord[]
       if (!forceNew) {
@@ -204,7 +182,6 @@ export function useDailyReview(lang: string) {
       setDone(0)
       setLoading(false)
     },
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     [lang, lessonMap, statsMap],
   )
 
@@ -212,8 +189,7 @@ export function useDailyReview(lang: string) {
   useEffect(() => {
     if (!lessonLoaded) return
     buildToday(false)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [lang, lessonLoaded])
+  }, [lang, lessonLoaded, buildToday])
 
   const markDone = useCallback(async () => {
     const current = words[done]

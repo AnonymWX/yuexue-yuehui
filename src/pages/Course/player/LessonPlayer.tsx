@@ -1,4 +1,5 @@
-import { useCourseStructure } from '../hooks/useCourse'
+import { useAllThemes } from '../hooks/useCourse'
+// ⬅️ 改这里：用 useAllThemes 替换 useCourseStructure
 import StepDictation from '../steps/StepDictation'
 import StepExplanation from '../steps/StepExplanation'
 import StepGoal from '../steps/StepGoal'
@@ -30,50 +31,53 @@ interface Props {
 export default function LessonPlayer({ course, sentences, lang, theme }: Props) {
   const navigate = useNavigate()
   const { progress, loaded, save, clear } = useLessonProgress(course.id)
-  const { themes } = useCourseStructure(lang)
 
+  // ⬇️ 改这里：获取所有主题（包含 stage 字段）
+  const allThemes = useAllThemes()
+
+  // ⬇️ 改这里：扁平化所有课程，用于精准查找“下一课”（支持跨主题、跨阶段）
+  const flatCourses = useMemo(() => {
+    return allThemes.flatMap((t) =>
+      t.courses.map((c) => ({
+        id: c.id,
+        title: c.title,
+        file: c.file,
+        stageId: t.stage,
+        themeId: t.id,
+        themeTitle: t.title,
+      })),
+    )
+  }, [allThemes])
+
+  // ⬇️ 改这里：计算下一课
   const nextCourse = useMemo(() => {
-    if (!themes || themes.length === 0) return null
-    const themeIdx = themes.findIndex((t) => t.id === theme)
-    if (themeIdx === -1) return null
-    const currentTheme = themes[themeIdx]
-
-    // 1) 同主题内还有下一课
-    const courseIdx = currentTheme.courses.findIndex((c) => c.id === course.id)
-    if (courseIdx === -1) return null
-    if (courseIdx < currentTheme.courses.length - 1) {
-      const next = currentTheme.courses[courseIdx + 1]
-      return { entry: next, themeId: currentTheme.id, themeTitle: currentTheme.title }
-    }
-
-    // 2) 找下一个非空主题的第一课
-    for (let i = themeIdx + 1; i < themes.length; i++) {
-      if (themes[i].courses.length > 0) {
-        const next = themes[i].courses[0]
-        return { entry: next, themeId: themes[i].id, themeTitle: themes[i].title }
+    const currentIndex = flatCourses.findIndex((c) => c.id === course.id)
+    if (currentIndex >= 0 && currentIndex + 1 < flatCourses.length) {
+      const next = flatCourses[currentIndex + 1]
+      return {
+        entry: next,
+        stageId: next.stageId,
+        themeId: next.themeId,
+        themeTitle: next.themeTitle,
       }
     }
-
-    // 3) 后面没主题了
     return null
-  }, [themes, theme, course.id])
+  }, [flatCourses, course.id])
 
+  // ⬇️ 改这里：生成下一课的三段式路由 URL
   const nextCourseUrl = useMemo(() => {
     if (!nextCourse) return null
-    const m = nextCourse.entry.file.match(/course_(\d+)\.json/)
-    if (!m) return null
-    return `/course/${lang}/${nextCourse.themeId}/${m[1]}`
-  }, [nextCourse, lang])
+    return `/course/${nextCourse.stageId}/${nextCourse.themeId}/${nextCourse.entry.id}`
+  }, [nextCourse])
 
-  // 当前课的标签：「主题名 · 第N课」
+  // ⬇️ 改这里：当前课的标签（主题名 · 第N课）
   const courseLabel = useMemo(() => {
-    if (!themes || themes.length === 0) return null
-    const currentTheme = themes.find((t) => t.id === theme)
+    const currentTheme = allThemes.find((t) => t.id === theme)
     if (!currentTheme) return null
     const idx = currentTheme.courses.findIndex((c) => c.id === course.id)
     if (idx === -1) return null
     return `${currentTheme.title} · 第${idx + 1}课`
-  }, [themes, theme, course.id])
+  }, [allThemes, theme, course.id])
 
   const [step, setStep] = useState(0)
   const [finished, setFinished] = useState(false)
@@ -112,11 +116,13 @@ export default function LessonPlayer({ course, sentences, lang, theme }: Props) 
     saveRef.current(nextStep, nextFinished)
   }, [])
 
+  // ⬇️ 改这里：退出时跳回带 stage 的主题列表页
   const handleExit = useCallback(() => {
-    // 兜底再写一次（走的时候确保不丢）
     saveRef.current(step, finished)
-    navigate(`/course/${lang}/${theme}`)
-  }, [step, finished, navigate, lang, theme])
+    const currentThemeMeta = allThemes.find((t) => t.id === theme)
+    const stageId = currentThemeMeta?.stage || 'a1' // 兜底 a1
+    navigate(`/course/${stageId}/${theme}`)
+  }, [step, finished, navigate, theme, allThemes])
 
   const goNext = useCallback(() => {
     const next = step + 1

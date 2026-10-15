@@ -1,80 +1,35 @@
-import { useCourseStructure } from './hooks/useCourse'
-import { getLessonStatus, useAllLessonProgress } from './hooks/useLessonStatus'
-import { getLanguageMeta } from '@/resources/languages'
-import { currentLanguageAtom } from '@/store/language'
-import { useAtomValue } from 'jotai'
-import { Link } from 'react-router-dom'
+// src/pages/Course/index.tsx
+import { useStages } from './hooks/useCourse'
+import { useNavigate } from 'react-router-dom'
 
-export default function CourseHomePage() {
-  const currentLang = useAtomValue(currentLanguageAtom)
-  const meta = getLanguageMeta(currentLang)
-  const { themes, loading, error } = useCourseStructure(currentLang)
-  const progressMap = useAllLessonProgress()
-
-  if (loading) return <div className="p-8 text-center text-gray-400">加载中...</div>
-  if (error) return <div className="p-8 text-center text-red-500">加载失败：{error}</div>
-
-  const totalCourses = themes.reduce((acc, t) => acc + t.courses.length, 0)
+export default function CourseIndex() {
+  const navigate = useNavigate()
+  const stages = useStages()
 
   return (
-    <div className="mx-auto max-w-3xl p-6">
-      <div className="mb-8">
-        <h1 className="mb-1 text-2xl font-bold">{meta.label}课程</h1>
-        <p className="text-sm text-gray-500">
-          {meta.icon} 当前学习语言 · {totalCourses} 课
-        </p>
+    <div className="mx-auto max-w-5xl p-6">
+      <h1 className="mb-2 text-3xl font-bold text-primary">选择学习阶段</h1>
+      <p className="mb-8 text-gray-500 dark:text-gray-400">Chọn bậc học · Choose your CEFR level</p>
+
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+        {stages.map((stage) => (
+          <div
+            key={stage.id}
+            onClick={() => navigate(`/course/${stage.id}`)}
+            className="group cursor-pointer rounded-xl border border-subtle bg-page p-6 shadow-primary/30 transition-all hover:-translate-y-1 hover:shadow-primary"
+          >
+            <div className="mb-3 flex items-center justify-between">
+              <span className="text-3xl font-extrabold text-primary">{stage.cefr}</span>
+              <span className="rounded-full bg-primary/10 px-3 py-1 text-sm text-primary">{stage.themes.length} 个主题</span>
+            </div>
+            <h2 className="mb-1 text-xl font-semibold transition-colors group-hover:text-primary">{stage.title}</h2>
+            <p className="text-sm text-gray-600 dark:text-gray-400">{stage.titleVi}</p>
+            <div className="mt-4 text-xs text-gray-400">点击进入 →</div>
+          </div>
+        ))}
       </div>
 
-      {themes.length === 0 ? (
-        <div className="rounded-3xl border-2 border-dashed border-subtle bg-white p-12 text-center dark:border-gray-700 dark:bg-gray-900">
-          <div className="mb-3 text-4xl">📚</div>
-          <div className="mb-2 text-lg font-medium text-gray-700 dark:text-gray-200">{meta.label}暂无课程</div>
-        </div>
-      ) : (
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-          {themes.map((theme) => {
-            const isEmpty = theme.courses.length === 0
-            const finishedCount = theme.courses.filter((c) => getLessonStatus(c.id, progressMap) === 'finished').length
-
-            const baseClass = 'flex flex-col items-start rounded-2xl border-2 bg-white p-5 text-left transition dark:bg-gray-900'
-
-            const inner = (
-              <>
-                <div className="mb-1 font-semibold text-gray-800 dark:text-gray-100">{theme.title}</div>
-                <div className="mb-3 text-sm text-gray-500">{theme.titleVi}</div>
-                {isEmpty ? (
-                  <span className="text-xs font-medium text-gray-400">敬请期待</span>
-                ) : (
-                  <span className="text-xs font-medium text-gray-500">
-                    {theme.courses.length} 课 · 已学 {finishedCount}
-                  </span>
-                )}
-              </>
-            )
-
-            if (isEmpty) {
-              return (
-                <div
-                  key={theme.id}
-                  className={`${baseClass} cursor-not-allowed border-dashed border-subtle opacity-70 dark:border-gray-700`}
-                >
-                  {inner}
-                </div>
-              )
-            }
-
-            return (
-              <Link
-                key={theme.id}
-                to={`/course/${currentLang}/${theme.id}`}
-                className={`${baseClass} border-subtle hover:border-indigo-400 hover:shadow-md dark:border-gray-700 dark:hover:border-indigo-600`}
-              >
-                {inner}
-              </Link>
-            )
-          })}
-        </div>
-      )}
+      {stages.length === 0 && <div className="py-20 text-center text-gray-400">暂无阶段数据，请检查 public/courses/index.json</div>}
     </div>
   )
 }

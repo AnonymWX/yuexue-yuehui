@@ -1,0 +1,64 @@
+{
+    "id": "objects",
+    "stage": "a1",
+    "title": "物品与材料",
+    "titleVi": "Đồ vật và Chất liệu",
+    "courses": [
+        {
+            "id": "course_vi_19",
+            "file": "course_01.json",
+            "title": "第 1 课：日常物品与量词",
+            "titleVi": "Bài 1: Đồ vật hàng ngày và lượng từ",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_20",
+            "file": "course_02.json",
+            "title": "第 2 课：这是什么？",
+            "titleVi": "Bài 2: Đây là cái gì?",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_21",
+            "file": "course_03.json",
+            "title": "第 3 课：物品特征描述",
+            "titleVi": "Bài 3: Miêu tả đặc điểm đồ vật",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_22",
+            "file": "course_04.json",
+            "title": "第 4 课：家具与家电",
+            "titleVi": "Bài 4: Đồ nội thất và đồ điện",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_23",
+            "file": "course_05.json",
+            "title": "第 5 课：文具与办公用品",
+            "titleVi": "Bài 5: Dụng cụ học tập và văn phòng phẩm",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_24",
+            "file": "course_06.json",
+            "title": "第 6 课：材料名称",
+            "titleVi": "Bài 6: Tên các chất liệu",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_25",
+            "file": "course_07.json",
+            "title": "第 7 课：物品所属与所属关系",
+            "titleVi": "Bài 7: Sở hữu đồ vật",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_26",
+            "file": "course_08.json",
+            "title": "第 8 课：购物清单与物品分类",
+            "titleVi": "Bài 8: Danh sách mua sắm và phân loại đồ vật",
+            "level": "A2"
+        }
+    ]
+}

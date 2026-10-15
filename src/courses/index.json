@@ -1,0 +1,37 @@
+{
+    "vi": {
+        "stages": [
+            {
+                "id": "a1",
+                "title": "第一阶段",
+                "titleVi": "Bậc 1",
+                "cefr": "A1",
+                "themes": [
+                    "greeting",
+                    "career",
+                    "language",
+                    "objects",
+                    "people",
+                    "housing",
+                    "time",
+                    "calendar",
+                    "birthday",
+                    "directions",
+                    "places",
+                    "dining",
+                    "shopping",
+                    "transport",
+                    "phone",
+                    "hobbies"
+                ]
+            },
+            {
+                "id": "a2",
+                "title": "第二阶段",
+                "titleVi": "Bậc 2",
+                "cefr": "A2",
+                "themes": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "id": "dining",
+    "stage": "a1",
+    "title": "去餐厅",
+    "titleVi": "Đi nhà hàng",
+    "courses": [
+        {
+            "id": "course_vi_70",
+            "file": "course_01.json",
+            "title": "第 1 课：餐厅类型与选择",
+            "titleVi": "Bài 1: Các loại nhà hàng và lựa chọn",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_71",
+            "file": "course_02.json",
+            "title": "第 2 课：预订与等位",
+            "titleVi": "Bài 2: Đặt bàn và chờ bàn",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_72",
+            "file": "course_03.json",
+            "title": "第 3 课：看菜单与点菜",
+            "titleVi": "Bài 3: Xem thực đơn và gọi món",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_73",
+            "file": "course_04.json",
+            "title": "第 4 课：饮品点单",
+            "titleVi": "Bài 4: Gọi đồ uống",
+            "level": "A1"
+        },
+        {
+            "id": "course_vi_74",
+            "file": "course_05.json",
+            "title": "第 5 课：特殊要求",
+            "titleVi": "Bài 5: Yêu cầu đặc biệt",
+            "level": "A2"
+        },
+        {
+            "id": "course_vi_75",
+            "file": "course_06.json",
+            "title": "第 6 课：用餐礼仪",
+            "titleVi": "Bài 6: Phép lịch sự khi ăn uống",
+            "level": "A2"
+        },
+        {
+            "id": "course_vi_76",
+            "file": "course_07.json",
+            "title": "第 7 课：买单",
+            "titleVi": "Bài 7: Thanh toán",
+            "level": "A2"
+        },
+        {
+            "id": "course_vi_77",
+            "file": "course_08.json",
+            "title": "第 8 课：投诉与退换",
+            "titleVi": "Bài 8: Khiếu nại và đổi trả",
+            "level": "A2"
+        }
+    ]
+}
