@@ -62,22 +62,22 @@
 git clone https://github.com/AnonymWX/yuexue-yuehui.git
 cd yuexue-yuehui
 
-2. 安装依赖
+### 2.  安装依赖
 bash
 
 1
-3. 配置环境变量 (可选，用于云端同步)
+### 3. 配置环境变量 (可选，用于云端同步)
 在项目根目录创建 .env 文件，填入你的 Supabase 凭证：
 env
 
 12
 (注：不配置环境变量也可正常运行，学习进度将保存在本地 localStorage)
-4. 启动开发服务器
+### 4. 启动开发服务器
 bash
 
 1
 打开浏览器访问 http://localhost:5173。
-5. 构建与部署
+### 5. 构建与部署
 bash
 
 1
@@ -93,8 +93,8 @@ text
 运行数据一致性检查：npm run check:courses
 运行内容错位扫描：node scripts/diagnose-content.mjs
 本地预览确认无误后提交 PR。
-🙏 致谢 (Acknowledgements)
+## 🙏 致谢 (Acknowledgements)
 本项目核心交互灵感来源于 qwerty-learner，感谢原作者为键盘学习者做出的卓越贡献。
 感谢所有为多语言输入状态机 (Telex/Romaji/Beolsik) 提供算法参考的开源社区。
-📄 许可证 (License)
+## 📄 许可证 (License)
 本项目基于 MIT License 开源。欢迎 Fork、Star 和 PR！
