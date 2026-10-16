@@ -1,4 +1,4 @@
-import Layout from './components/AppLayout'
+import Layout from './components/Layout'
 import Loading from './components/Loading'
 import RequireAuth from './components/RequireAuth'
 import RequirePractice from './components/RequirePractice'
