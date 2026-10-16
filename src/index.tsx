@@ -19,6 +19,7 @@ import { useAuthInit } from './pages/Login/useAuth'
 import StatsPage from './pages/Review/StatsPage'
 import { useWordReviewStatsInit } from './pages/Review/useDailyReview'
 import TypingPage from './pages/Typing'
+import { cleanExpiredCache } from '@/lib/cloudTTS'
 import { isDarkTheme, themeAtom } from '@/store/theme'
 import '@fontsource/be-vietnam-pro/400.css'
 import '@fontsource/be-vietnam-pro/700.css'
@@ -61,6 +62,12 @@ function Root() {
       html.classList.remove('dark')
     }
   }, [theme])
+  // ⭐ 启动时清理一次过期的 TTS 缓存（30 天前的）
+  useEffect(() => {
+    cleanExpiredCache().catch(() => {
+      // 静默失败，不影响使用
+    })
+  }, [])
 
   return (
     <React.StrictMode>
