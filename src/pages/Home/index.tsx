@@ -9,7 +9,6 @@ import { useAtomValue } from 'jotai'
 import { useMemo } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 
-// 多语言每日一句配置
 const DAILY_QUOTES = {
   vi: { text: 'Có công mài sắt, có ngày nên kim.', zh: '有铁杵磨成针的毅力，终会成功。' },
   ja: { text: '七転び八起き。', zh: '七跌八起，永不言弃。' },
@@ -22,13 +21,11 @@ export default function HomePage() {
   const currentLang = useAtomValue(currentLanguageAtom)
   const meta = getLanguageMeta(currentLang)
 
-  // 1. 获取所有主题 & 阶段列表
   const allThemes = useAllThemes()
-  const stages = useStages() // ⭐ 新增：获取阶段元数据 (A1/A2)
+  const stages = useStages()
   const progressMap = useAtomValue(lessonProgressAtom)
   const { streak } = useReviewHistory(currentLang)
 
-  // 2. 扁平化所有课程
   const viCourses = useMemo(() => {
     return allThemes.flatMap((t) =>
       t.courses.map((c, idx) => ({
@@ -44,7 +41,6 @@ export default function HomePage() {
     )
   }, [allThemes])
 
-  // 3. 继续学习逻辑
   const continueCourse = useMemo(() => {
     let best: (typeof viCourses)[number] | null = null
     let bestTime = 0
@@ -65,21 +61,17 @@ export default function HomePage() {
 
   const step = continueCourse ? progressMap[continueCourse.id]?.currentStep ?? 0 : 0
 
-  // 4. 每日复习逻辑
   const { state: reviewState, loading: reviewLoading, hasEnough } = useDailyReview(currentLang)
   const reviewDone = reviewState?.done ?? 0
   const reviewTotal = reviewState?.total ?? 10
   const reviewFinished = hasEnough && reviewDone >= reviewTotal
   const reviewPct = hasEnough ? Math.round((reviewDone / reviewTotal) * 100) : 0
 
-  // 5. 统计数据计算
   const finishedCoursesCount = useMemo(() => Object.values(progressMap).filter((p) => p.finished).length, [progressMap])
 
-  // 6. 每日一句
   const quote = DAILY_QUOTES[currentLang as keyof typeof DAILY_QUOTES] || DAILY_QUOTES.en
   const { speak, speaking } = useSpeech(quote.text)
 
-  // ⭐ 7. 智能问候语 (根据时间段 + 打卡天数)
   const greetingText = useMemo(() => {
     const hour = new Date().getHours()
     let base = '欢迎回来'
@@ -93,41 +85,31 @@ export default function HomePage() {
     return base
   }, [streak])
 
-  // ⭐ 8. 阶段解锁逻辑 (A1 学完才解锁 A2)
   const currentStageInfo = useMemo(() => {
     if (stages.length === 0) return null
-
-    // 计算每个阶段的进度
     const stageStats = stages.map((stage) => {
-      // 找到属于该阶段的所有课程
       const stageCourses = viCourses.filter((c) => c.stageId === stage.id)
       const total = stageCourses.length
       const finished = stageCourses.filter((c) => progressMap[c.id]?.finished).length
       return { ...stage, total, finished }
     })
-
-    // 按阶段顺序排序 (a1 -> a2 -> b1)
     const order = ['a1', 'a2', 'b1', 'c1']
     stageStats.sort((a, b) => order.indexOf(a.id) - order.indexOf(b.id))
 
-    // 寻找当前解锁的阶段
-    let unlockedStage = stageStats[0] // 默认解锁第一个
+    let unlockedStage = stageStats[0]
     for (let i = 0; i < stageStats.length; i++) {
       const s = stageStats[i]
       if (s.finished < s.total) {
-        unlockedStage = s // 当前阶段没学完，就显示它
+        unlockedStage = s
         break
       }
-      // 如果当前学完了，且还有下一个阶段，则解锁下一个
       if (i + 1 < stageStats.length) {
         unlockedStage = stageStats[i + 1]
       }
     }
-
     return unlockedStage
   }, [stages, viCourses, progressMap])
 
-  // 9. 快捷入口配置
   const quickActions = [
     { icon: '📚', title: '全部课程', desc: '浏览所有阶段与主题', link: '/course' },
     { icon: '📊', title: '学习统计', desc: '查看正确率与错词本', link: '/review/stats' },
@@ -135,36 +117,34 @@ export default function HomePage() {
       icon: currentLang === 'en' ? '🌍' : '📝',
       title: currentLang === 'en' ? '切换语言' : '专项练习',
       desc: currentLang === 'en' ? '设置你的学习目标' : '声调 / 假名 / 字母训练',
-      link: currentLang === 'en' ? '/' : '/practice', // ⬅️ 已修正：从 /drill 改为 /practice
+      link: currentLang === 'en' ? '/' : '/practice',
     },
   ]
 
   return (
-    <div className="mx-auto max-w-5xl p-6">
-      {/* ================= 1. 头部欢迎区 (动态问候) ================= */}
-      <div className="mb-8">
-        <h1 className="mb-2 text-3xl font-bold text-primary">{greetingText} 👋</h1>
-        <p className="text-gray-500 dark:text-gray-400">
+    <div className="mx-auto max-w-5xl p-4 md:p-6">
+      {/* 1. 头部欢迎区 */}
+      <div className="mb-6 md:mb-8">
+        <h1 className="mb-2 text-2xl font-bold text-primary md:text-3xl">{greetingText} 👋</h1>
+        <p className="text-sm text-gray-500 dark:text-gray-400 md:text-base">
           {meta.icon} 当前学习：{meta.label}
         </p>
       </div>
 
-      {/* ================= 2. 数据看板 (Stats Row) ================= */}
-      <section className="mb-10 grid grid-cols-3 gap-4">
+      {/* 2. 数据看板 (手机 1 列，桌面 3 列) */}
+      <section className="mb-8 grid grid-cols-1 gap-3 md:mb-10 md:grid-cols-3 md:gap-4">
         <div className="rounded-xl border border-subtle bg-page p-4 text-center shadow-primary/10 transition-all hover:shadow-primary/30">
-          <div className="text-2xl font-bold text-primary">{streak || 0}</div>
+          <div className="text-xl font-bold text-primary md:text-2xl">{streak || 0}</div>
           <div className="mt-1 text-xs text-gray-500 dark:text-gray-400">🔥 连续打卡 (天)</div>
         </div>
         <div className="rounded-xl border border-subtle bg-page p-4 text-center shadow-primary/10 transition-all hover:shadow-primary/30">
-          <div className="text-2xl font-bold text-primary">{finishedCoursesCount}</div>
+          <div className="text-xl font-bold text-primary md:text-2xl">{finishedCoursesCount}</div>
           <div className="mt-1 text-xs text-gray-500 dark:text-gray-400">📚 已完成课程</div>
         </div>
-
-        {/* ⭐ 阶段进度卡片 (动态解锁) */}
         <div className="rounded-xl border border-subtle bg-page p-4 text-center shadow-primary/10 transition-all hover:shadow-primary/30">
           {currentStageInfo ? (
             <>
-              <div className="text-2xl font-bold text-primary">
+              <div className="text-xl font-bold text-primary md:text-2xl">
                 {currentStageInfo.finished === currentStageInfo.total && currentStageInfo.id === stages[stages.length - 1]?.id
                   ? '🏆'
                   : currentStageInfo.cefr || currentStageInfo.id.toUpperCase()}
@@ -177,22 +157,22 @@ export default function HomePage() {
             </>
           ) : (
             <>
-              <div className="text-2xl font-bold text-primary">-</div>
+              <div className="text-xl font-bold text-primary md:text-2xl">-</div>
               <div className="mt-1 text-xs text-gray-500 dark:text-gray-400">暂无阶段数据</div>
             </>
           )}
         </div>
       </section>
 
-      {/* ================= 3. 继续学习区块 ================= */}
-      <section className="mb-10">
-        <h2 className="mb-4 text-xl font-semibold text-primary">继续学习</h2>
+      {/* 3. 继续学习区块 */}
+      <section className="mb-8 md:mb-10">
+        <h2 className="mb-3 text-lg font-semibold text-primary md:mb-4 md:text-xl">继续学习</h2>
         {continueCourse ? (
           <Link
             to={`/course/${continueCourse.stageId}/${continueCourse.theme}/${continueCourse.id}`}
-            className="group block rounded-xl border border-subtle bg-page p-6 shadow-primary/30 transition-all hover:-translate-y-1 hover:shadow-primary dark:border-gray-700 dark:bg-gray-900"
+            className="group block rounded-xl border border-subtle bg-page p-4 shadow-primary/30 transition-all hover:-translate-y-1 hover:shadow-primary dark:border-gray-700 dark:bg-gray-900 md:p-6"
           >
-            <div className="mb-3 flex items-center justify-between">
+            <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
               <div className="text-xs text-gray-500 dark:text-gray-400">
                 {meta.label} · {continueCourse.themeTitle} · {continueCourse.level ?? 'A1'}
               </div>
@@ -200,7 +180,7 @@ export default function HomePage() {
                 {continueCourse.themeTitle} · 第 {continueCourse.themeSeq} 课
               </span>
             </div>
-            <div className="mb-1 text-lg font-semibold transition-colors group-hover:text-primary">{continueCourse.title}</div>
+            <div className="mb-1 text-base font-semibold transition-colors group-hover:text-primary md:text-lg">{continueCourse.title}</div>
             {continueCourse.titleVi && <div className="mb-3 text-sm text-gray-500 dark:text-gray-400">{continueCourse.titleVi}</div>}
             <div className="mt-4 flex items-center justify-between text-sm">
               <span className="text-gray-500 dark:text-gray-400">第 {step + 1} / 8 步</span>
@@ -208,9 +188,9 @@ export default function HomePage() {
             </div>
           </Link>
         ) : (
-          <div className="rounded-xl border-2 border-dashed border-subtle bg-page p-8 text-center dark:border-gray-700 dark:bg-gray-900">
+          <div className="rounded-xl border-2 border-dashed border-subtle bg-page p-6 text-center dark:border-gray-700 dark:bg-gray-900 md:p-8">
             <div className="mb-3 text-4xl">🚀</div>
-            <div className="mb-2 text-lg font-semibold text-gray-700 dark:text-gray-200">
+            <div className="mb-2 text-base font-semibold text-gray-700 dark:text-gray-200 md:text-lg">
               {viCourses.length === 0 ? `准备开始学习 ${meta.label} 吗？` : '太棒了！已学完全部现有课程'}
             </div>
             <p className="mb-6 text-sm text-gray-500 dark:text-gray-400">
@@ -226,14 +206,14 @@ export default function HomePage() {
         )}
       </section>
 
-      {/* ================= 4. 今天的练习区块 ================= */}
-      <section className="mb-10">
-        <h2 className="mb-4 text-xl font-semibold text-primary">今天的练习</h2>
+      {/* 4. 今天的练习区块 */}
+      <section className="mb-8 md:mb-10">
+        <h2 className="mb-3 text-lg font-semibold text-primary md:mb-4 md:text-xl">今天的练习</h2>
         {currentLang === 'vi' ? (
           <button
             type="button"
             onClick={() => navigate('/review')}
-            className="group block w-full rounded-xl border border-subtle bg-page p-6 text-left shadow-primary/30 transition-all hover:-translate-y-1 hover:shadow-primary dark:border-gray-700 dark:bg-gray-900"
+            className="group block w-full rounded-xl border border-subtle bg-page p-4 text-left shadow-primary/30 transition-all hover:-translate-y-1 hover:shadow-primary dark:border-gray-700 dark:bg-gray-900 md:p-6"
           >
             <div className="mb-3 flex items-center justify-between">
               <div className="text-sm text-gray-500 dark:text-gray-400">今日复习 · 10 词</div>
@@ -243,7 +223,7 @@ export default function HomePage() {
                 </span>
               )}
             </div>
-            <div className="text-2xl font-bold text-primary">
+            <div className="text-xl font-bold text-primary md:text-2xl">
               {reviewLoading
                 ? '—'
                 : !hasEnough
@@ -261,26 +241,28 @@ export default function HomePage() {
             </div>
           </button>
         ) : (
-          <div className="rounded-xl border-2 border-dashed border-subtle bg-page p-8 text-center dark:border-gray-700 dark:bg-gray-900">
+          <div className="rounded-xl border-2 border-dashed border-subtle bg-page p-6 text-center dark:border-gray-700 dark:bg-gray-900 md:p-8">
             <div className="mb-2 text-3xl">🎯</div>
-            <div className="mb-1 text-base font-medium text-gray-700 dark:text-gray-200">该语言暂无每日复习功能</div>
-            <p className="text-sm text-gray-500 dark:text-gray-400">SM-2 记忆曲线复习目前仅支持越南语，快去「专项练习」巩固基础吧！</p>
+            <div className="mb-1 text-sm font-medium text-gray-700 dark:text-gray-200 md:text-base">该语言暂无每日复习功能</div>
+            <p className="text-xs text-gray-500 dark:text-gray-400 md:text-sm">
+              SM-2 记忆曲线复习目前仅支持越南语，快去「专项练习」巩固基础吧！
+            </p>
           </div>
         )}
       </section>
 
-      {/* ================= 5. 快捷入口网格 ================= */}
-      <section className="mb-10">
-        <h2 className="mb-4 text-xl font-semibold text-primary">快捷入口</h2>
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+      {/* 5. 快捷入口网格 */}
+      <section className="mb-8 md:mb-10">
+        <h2 className="mb-3 text-lg font-semibold text-primary md:mb-4 md:text-xl">快捷入口</h2>
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-3 md:gap-4">
           {quickActions.map((action, idx) => (
             <Link
               key={idx}
               to={action.link}
-              className="group flex flex-col rounded-xl border border-subtle bg-page p-5 shadow-primary/10 transition-all hover:-translate-y-1 hover:shadow-primary/30 dark:border-gray-700 dark:bg-gray-900"
+              className="group flex flex-col rounded-xl border border-subtle bg-page p-4 shadow-primary/10 transition-all hover:-translate-y-1 hover:shadow-primary/30 dark:border-gray-700 dark:bg-gray-900 md:p-5"
             >
-              <div className="mb-3 text-2xl">{action.icon}</div>
-              <div className="text-base font-semibold text-gray-800 transition-colors group-hover:text-primary dark:text-gray-200">
+              <div className="mb-2 text-2xl md:mb-3">{action.icon}</div>
+              <div className="text-sm font-semibold text-gray-800 transition-colors group-hover:text-primary dark:text-gray-200 md:text-base">
                 {action.title}
               </div>
               <div className="mt-1 text-xs text-gray-500 dark:text-gray-400">{action.desc}</div>
@@ -289,15 +271,14 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ================= 6. 每日一句 ================= */}
+      {/* 6. 每日一句 */}
       <section>
-        <h2 className="mb-4 text-xl font-semibold text-primary">每日一句</h2>
-        <div className="relative rounded-xl border border-subtle bg-page p-6 shadow-primary/10 dark:border-gray-700 dark:bg-gray-900">
+        <h2 className="mb-3 text-lg font-semibold text-primary md:mb-4 md:text-xl">每日一句</h2>
+        <div className="relative rounded-xl border border-subtle bg-page p-4 shadow-primary/10 dark:border-gray-700 dark:bg-gray-900 md:p-6">
           <div className="absolute bottom-4 left-0 top-4 w-1 rounded-r-full bg-primary/30" />
-
           <div className="pl-4">
-            <p className="mb-2 text-lg font-medium italic text-gray-800 dark:text-gray-200">"{quote.text}"</p>
-            <p className="mb-4 text-sm text-gray-500 dark:text-gray-400">{quote.zh}</p>
+            <p className="mb-2 text-base font-medium italic text-gray-800 dark:text-gray-200 md:text-lg">"{quote.text}"</p>
+            <p className="mb-4 text-xs text-gray-500 dark:text-gray-400 md:text-sm">{quote.zh}</p>
             <button
               onClick={() => speak()}
               className="flex items-center gap-2 text-xs font-medium text-primary transition-colors hover:text-primary/80"

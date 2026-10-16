@@ -1,5 +1,4 @@
 // src/pages/Course/steps/LangFillInput.tsx
-// 通用状态机输入组件：越南语 Telex / 日语 Romaji / 韩语 2-beolsik
 import { createBeolsikEngine } from '@/engines/beolsik/state-machine'
 import { createRomajiEngine } from '@/engines/romaji/state-machine'
 import { createTelexEngine } from '@/engines/telex'
@@ -17,8 +16,6 @@ function createEngine(lang: string, target: string): Engine {
   if (lang === 'ko') return createBeolsikEngine()
   return createTelexEngine(target) as unknown as Engine
 }
-
-/* ==================== 对外工具 ==================== */
 
 export function renderLangInput(lang: string, target: string, raw: string): string {
   if (raw.length === 0) return ''
@@ -49,8 +46,6 @@ export function isLangMatch(lang: string, target: string, raw: string): boolean 
   const display = renderLangInput(lang, targetStripped, rawStripped).trim()
   return display.toLowerCase().normalize('NFC') === targetStripped.toLowerCase().normalize('NFC')
 }
-
-/* ==================== 组件 ==================== */
 
 interface Props {
   target: string
@@ -99,6 +94,36 @@ function analyzeKeys(lang: string, target: string, raw: string): KeyInfo[] {
 
 export default function LangFillInput({ target, value, onChange, onEnter, disabled, placeholder, autoFocus }: Props) {
   const lang = useAtomValue(currentLanguageAtom)
+  const isMobile = useMemo(() => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent), [])
+
+  // ========== 手机端：直接使用原生输入框 ==========
+  if (isMobile) {
+    return (
+      <div className="w-full">
+        <input
+          type="text"
+          value={value}
+          disabled={disabled}
+          placeholder={placeholder}
+          onChange={(e) => onChange(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter') {
+              e.preventDefault()
+              onEnter?.()
+            }
+          }}
+          autoComplete="off"
+          autoCorrect="off"
+          autoCapitalize="off"
+          spellCheck={false}
+          autoFocus={autoFocus}
+          className="w-full rounded-2xl border border-gray-200 bg-white px-4 py-3 text-lg outline-none transition focus:border-indigo-500 disabled:opacity-60 dark:border-gray-700 dark:bg-gray-800"
+        />
+      </div>
+    )
+  }
+
+  // ========== 桌面端：保留原有状态机逻辑 ==========
   const inputRef = useRef<HTMLInputElement>(null)
   const bufferRef = useRef(value)
 
