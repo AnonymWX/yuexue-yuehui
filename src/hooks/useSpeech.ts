@@ -1,3 +1,4 @@
+import { isMobileDevice, speakWithCloudTTS, stopCloudTTS } from '@/lib/cloudTTS'
 import { toast } from '@/lib/toast'
 import { useCallback, useEffect, useRef, useState } from 'react'
 
@@ -28,7 +29,7 @@ function noticeMissingVoiceOnce(langPrefix: string) {
 }
 
 /**
- * 纯浏览器 speechSynthesis，优先选本地语音包
+ * 语音 hook：移动端优先用云端 TTS，桌面端用浏览器 speechSynthesis
  */
 export default function useSpeech(text: string, option?: Partial<SpeechSynthesisUtterance>) {
   const [speaking, setSpeaking] = useState(false)
@@ -37,7 +38,13 @@ export default function useSpeech(text: string, option?: Partial<SpeechSynthesis
   optionRef.current = option
 
   const cancel = useCallback(() => {
-    if (typeof window === 'undefined' || !('speechSynthesis' in window)) return
+    // 停云端
+    stopCloudTTS()
+    // 停本地
+    if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
+      setSpeaking(false)
+      return
+    }
     try {
       window.speechSynthesis.cancel()
     } catch {
@@ -48,13 +55,36 @@ export default function useSpeech(text: string, option?: Partial<SpeechSynthesis
   }, [])
 
   const speak = useCallback(
-    (abort = false) => {
+    async (abort = false) => {
+      if (!text) return
+      if (abort) cancel()
+
+      const langRaw = optionRef.current?.lang ?? 'en-US'
+      const langPrefix = langRaw.split('-')[0]
+
+      // ========== 移动端：优先云端 TTS ==========
+      if (isMobileDevice()) {
+        try {
+          await speakWithCloudTTS(text, langPrefix, {
+            onStart: () => setSpeaking(true),
+            onEnd: () => setSpeaking(false),
+            onError: (err) => {
+              console.warn('[useSpeech] cloud TTS error:', err)
+              setSpeaking(false)
+            },
+          })
+          return
+        } catch (err) {
+          console.warn('[useSpeech] 云端 TTS 失败，降级到浏览器 TTS', err)
+          // 继续往下走，用本地 speechSynthesis
+        }
+      }
+
+      // ========== 桌面端 / 云端失败降级：speechSynthesis ==========
       if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
         console.warn('[useSpeech] speechSynthesis not supported')
         return
       }
-      if (!text) return
-      if (abort) cancel()
 
       try {
         window.speechSynthesis.cancel()
@@ -68,8 +98,6 @@ export default function useSpeech(text: string, option?: Partial<SpeechSynthesis
       const lang = optionRef.current?.lang
       if (lang) {
         const voices = window.speechSynthesis.getVoices()
-        const langPrefix = lang.split('-')[0]
-
         const localExact = voices.find((v) => v.lang === lang && v.localService)
         const localPrefix = voices.find((v) => v.lang.startsWith(langPrefix) && v.localService)
         const anyExact = voices.find((v) => v.lang === lang)
@@ -99,6 +127,8 @@ export default function useSpeech(text: string, option?: Partial<SpeechSynthesis
 
   useEffect(() => {
     return () => {
+      // 卸载时清理
+      stopCloudTTS()
       if (typeof window === 'undefined' || !('speechSynthesis' in window)) return
       try {
         window.speechSynthesis.cancel()
