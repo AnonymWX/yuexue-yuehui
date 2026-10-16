@@ -1,18 +1,38 @@
 import useSpeech from '@/hooks/useSpeech'
+import { ttsLangOf } from '@/lib/ttsLang'
+import { currentLanguageAtom } from '@/store/language'
 import type { Sentence } from '@/typings/sentence'
+import { useAtomValue } from 'jotai'
 import { useEffect, useMemo, useState } from 'react'
 
-const VI_OPTION = { lang: 'vi-VN' }
+const HINT_TEXT: Record<string, string> = {
+  vi: '听句子，选出正确的越南语文本。',
+  ja: '听句子，选出正确的日语文本。',
+  ko: '听句子，选出正确的韩语文本。',
+  en: '听句子，选出正确的英文文本。',
+}
 
 interface Props {
   sentences: Sentence[]
   onNext: () => void
 }
 
-function ListeningCard({ sentence, sentences, onDone }: { sentence: Sentence; sentences: Sentence[]; onDone: () => void }) {
+function ListeningCard({
+  sentence,
+  sentences,
+  onDone,
+  lang,
+}: {
+  sentence: Sentence
+  sentences: Sentence[]
+  onDone: () => void
+  lang: string
+}) {
   const [picked, setPicked] = useState<string | null>(null)
   const [showHint, setShowHint] = useState(false)
-  const { speak, cancel } = useSpeech(sentence.text, VI_OPTION)
+
+  const opts = useMemo(() => ({ lang: ttsLangOf(lang) }), [lang])
+  const { speak, cancel } = useSpeech(sentence.text, opts)
 
   const options = useMemo<string[]>(() => {
     const pool = sentences.filter((s) => s.id !== sentence.id)
@@ -82,6 +102,7 @@ function ListeningCard({ sentence, sentences, onDone }: { sentence: Sentence; se
 }
 
 export default function StepListening({ sentences, onNext }: Props) {
+  const lang = useAtomValue(currentLanguageAtom)
   const [index, setIndex] = useState(0)
 
   useEffect(() => {
@@ -99,12 +120,13 @@ export default function StepListening({ sentences, onNext }: Props) {
         </span>
       </div>
       <h2 className="mb-2 text-2xl font-bold">听力选择</h2>
-      <p className="mb-8 text-sm text-gray-500">听句子，选出正确的越南语文本。</p>
+      <p className="mb-8 text-sm text-gray-500">{HINT_TEXT[lang] ?? HINT_TEXT.en}</p>
 
       <ListeningCard
         key={index}
         sentence={sentences[index]}
         sentences={sentences}
+        lang={lang}
         onDone={() => {
           if (index + 1 >= sentences.length) onNext()
           else setIndex((i) => i + 1)

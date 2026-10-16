@@ -1,16 +1,25 @@
-import TelexFillInput, { isTelexMatch } from './TelexFillInput'
+import LangFillInput, { isLangMatch } from './LangFillInput'
 import useSpeech from '@/hooks/useSpeech'
+import { ttsLangOf } from '@/lib/ttsLang'
+import { currentLanguageAtom } from '@/store/language'
 import type { CourseWord } from '@/typings/course'
-import { useEffect, useState } from 'react'
+import { useAtomValue } from 'jotai'
+import { useEffect, useMemo, useState } from 'react'
 
-const VI_OPTION = { lang: 'vi-VN' }
+const HINT_TEXT: Record<string, { method: string }> = {
+  vi: { method: '用 Telex 输入越南语单词。' },
+  ja: { method: '用罗马字输入日语假名。' },
+  ko: { method: '用 2-beolsik 输入韩字。' },
+  en: { method: '输入英文单词。' },
+}
 
-function WordCard({ word, onDone }: { word: CourseWord; onDone: () => void }) {
+function WordCard({ word, lang, onDone }: { word: CourseWord; lang: string; onDone: () => void }) {
   const [raw, setRaw] = useState('')
   const [status, setStatus] = useState<'idle' | 'correct' | 'wrong'>('idle')
-  const { speak, cancel } = useSpeech(word.name, VI_OPTION)
 
-  // 挂载后自动播一次；卸载时取消
+  const opts = useMemo(() => ({ lang: ttsLangOf(lang) }), [lang])
+  const { speak, cancel } = useSpeech(word.name, opts)
+
   useEffect(() => {
     speak(true)
     return () => cancel()
@@ -26,12 +35,12 @@ function WordCard({ word, onDone }: { word: CourseWord; onDone: () => void }) {
   const handleChange = (v: string) => {
     setRaw(v)
     if (status === 'correct') return
-    if (isTelexMatch(word.name, v)) setStatus('correct')
+    if (isLangMatch(lang, word.name, v)) setStatus('correct')
   }
 
   const handleCheck = () => {
     if (status === 'correct' || !raw.trim()) return
-    if (isTelexMatch(word.name, raw)) {
+    if (isLangMatch(lang, word.name, raw)) {
       setStatus('correct')
     } else {
       setStatus('wrong')
@@ -69,7 +78,7 @@ function WordCard({ word, onDone }: { word: CourseWord; onDone: () => void }) {
         </div>
       </div>
 
-      <TelexFillInput
+      <LangFillInput
         target={word.name}
         value={raw}
         onChange={handleChange}
@@ -90,6 +99,7 @@ interface Props {
 }
 
 export default function StepWords({ words, onNext }: Props) {
+  const lang = useAtomValue(currentLanguageAtom)
   const [index, setIndex] = useState(0)
 
   useEffect(() => {
@@ -97,6 +107,8 @@ export default function StepWords({ words, onNext }: Props) {
   }, [words.length, onNext])
 
   if (words.length === 0) return null
+
+  const hint = HINT_TEXT[lang] ?? HINT_TEXT.en
 
   return (
     <div className="mx-auto w-full max-w-2xl">
@@ -107,11 +119,12 @@ export default function StepWords({ words, onNext }: Props) {
         </span>
       </div>
       <h2 className="mb-2 text-2xl font-bold">新单词</h2>
-      <p className="mb-8 text-sm text-gray-500">看中文意思，用 Telex 输入越南语单词。</p>
+      <p className="mb-8 text-sm text-gray-500">看中文意思，{hint.method}</p>
 
       <WordCard
         key={index}
         word={words[index]}
+        lang={lang}
         onDone={() => {
           if (index + 1 >= words.length) onNext()
           else setIndex((i) => i + 1)

@@ -1,22 +1,21 @@
 {
     "id": "course_vi_15",
-    "title": "第 3 课：语言名称",
-    "titleVi": "Bài 3: Tên các ngôn ngữ",
-    "order": 3,
+    "title": "第 2 课：问国籍",
+    "titleVi": "Bài 2: Hỏi quốc tịch",
+    "order": 2,
     "scenario": "language",
     "goals": [
-        "掌握常见语言的越南语说法",
-        "掌握「tiếng + 国名」结构",
-        "能区分「người + 国名」与「tiếng + 国名」",
-        "能说出 8 种语言名称"
+        "学会问对方的国籍",
+        "掌握「quốc tịch」的用法",
+        "能用「người + 国名」回答国籍",
+        "能区分「người nước ngoài」与具体国籍"
     ],
     "words": [
         {
-            "id": "vi_tieng",
-            "name": "tiếng",
+            "id": "vi_quoc_tich",
+            "name": "quốc tịch",
             "trans": [
-                "语言",
-                "声音"
+                "国籍"
             ],
             "tags": [
                 "language",
@@ -27,10 +26,10 @@
             ]
         },
         {
-            "id": "vi_tieng_viet",
-            "name": "tiếng Việt",
+            "id": "vi_nguoi",
+            "name": "người",
             "trans": [
-                "越南语"
+                "人"
             ],
             "tags": [
                 "language",
@@ -41,11 +40,10 @@
             ]
         },
         {
-            "id": "vi_tieng_trung",
-            "name": "tiếng Trung",
+            "id": "vi_la",
+            "name": "là",
             "trans": [
-                "汉语",
-                "中文"
+                "是"
             ],
             "tags": [
                 "language",
@@ -56,10 +54,10 @@
             ]
         },
         {
-            "id": "vi_tieng_anh",
-            "name": "tiếng Anh",
+            "id": "vi_gi",
+            "name": "gì",
             "trans": [
-                "英语"
+                "什么"
             ],
             "tags": [
                 "language",
@@ -70,10 +68,11 @@
             ]
         },
         {
-            "id": "vi_tieng_nhat",
-            "name": "tiếng Nhật",
+            "id": "vi_ban_friend",
+            "name": "bạn",
             "trans": [
-                "日语"
+                "你",
+                "朋友"
             ],
             "tags": [
                 "language",
@@ -84,10 +83,10 @@
             ]
         },
         {
-            "id": "vi_tieng_han",
-            "name": "tiếng Hàn",
+            "id": "vi_nguoi_nuoc_ngoai",
+            "name": "người nước ngoài",
             "trans": [
-                "韩语"
+                "外国人"
             ],
             "tags": [
                 "language",
@@ -98,10 +97,11 @@
             ]
         },
         {
-            "id": "vi_tieng_phap",
-            "name": "tiếng Pháp",
+            "id": "vi_que",
+            "name": "quê",
             "trans": [
-                "法语"
+                "家乡",
+                "故乡"
             ],
             "tags": [
                 "language",
@@ -112,10 +112,11 @@
             ]
         },
         {
-            "id": "vi_tieng_me",
-            "name": "tiếng Mỹ",
+            "id": "vi_nuoc",
+            "name": "nước",
             "trans": [
-                "美式英语"
+                "国家",
+                "水"
             ],
             "tags": [
                 "language",
@@ -127,39 +128,39 @@
         }
     ],
     "sentences": [
-        "sentence_vi_091",
-        "sentence_vi_092",
-        "sentence_vi_093",
-        "sentence_vi_094",
-        "sentence_vi_095",
-        "sentence_vi_096"
+        "sentence_vi_085",
+        "sentence_vi_086",
+        "sentence_vi_087",
+        "sentence_vi_088",
+        "sentence_vi_089",
+        "sentence_vi_090"
     ],
     "grammar": [
         {
-            "point": "「tiếng + 国名」表语言",
-            "explain": "表达某国语言用「tiếng + 国名」，如「tiếng Việt」（越南语）、「tiếng Anh」（英语）。注意「tiếng Anh」是固定说法，不写作「tiếng Anh Quốc」。",
+            "point": "问国籍：「Quốc tịch của bạn là gì?」",
+            "explain": "问国籍标准句式是「Quốc tịch của + 人称 + là gì?」。「của」表所属，「gì」表疑问。口语中更常说「Bạn là người nước nào?」。",
             "examples": [
                 {
-                    "vi": "Tôi học tiếng Việt.",
-                    "zh": "我学越南语。"
+                    "vi": "Quốc tịch của bạn là gì?",
+                    "zh": "你的国籍是什么？"
                 },
                 {
-                    "vi": "Anh ấy nói tiếng Anh.",
-                    "zh": "他说英语。"
+                    "vi": "Bạn là người nước nào?",
+                    "zh": "你是哪国人？"
                 }
             ]
         },
         {
-            "point": "「người + 国名」与「tiếng + 国名」的区别",
-            "explain": "「người + 国名」指人，「tiếng + 国名」指语言。注意英语「tiếng Anh」、美国「nước Mỹ」的不对称用法。",
+            "point": "回答国籍：「Tôi là người + 国名」",
+            "explain": "回答国籍用「người + 国名」，如「người Việt Nam」（越南人）、「người Trung Quốc」（中国人）。泛指外国人用「người nước ngoài」。",
             "examples": [
                 {
-                    "vi": "Tôi là người Việt Nam, tôi nói tiếng Việt.",
-                    "zh": "我是越南人，我说越南语。"
+                    "vi": "Tôi là người Việt Nam.",
+                    "zh": "我是越南人。"
                 },
                 {
-                    "vi": "Anh ấy là người Anh, anh ấy nói tiếng Anh.",
-                    "zh": "他是英国人，他说英语。"
+                    "vi": "Anh ấy là người nước ngoài.",
+                    "zh": "他是外国人。"
                 }
             ]
         }
@@ -168,23 +169,23 @@
     "exercises": [
         {
             "type": "choose",
-            "question": "「英语」用越南语怎么说？",
+            "question": "「你的国籍是什么？」用越南语怎么说？",
             "options": [
-                "tiếng Anh",
-                "tiếng Mỹ",
-                "tiếng Pháp"
+                "Quốc tịch của bạn là gì?",
+                "Tên của bạn là gì?",
+                "Bạn ở đâu?"
             ],
-            "answer": "tiếng Anh"
+            "answer": "Quốc tịch của bạn là gì?"
         },
         {
             "type": "fill",
-            "question": "Tôi học ___ Việt.",
-            "answer": "tiếng"
+            "question": "Tôi là ___ Việt Nam.",
+            "answer": "người"
         },
         {
             "type": "telex_input",
-            "question": "输入「日语」的越南语",
-            "answer": "tiếng Nhật"
+            "question": "输入「国籍」的越南语",
+            "answer": "quốc tịch"
         }
     ]
 }

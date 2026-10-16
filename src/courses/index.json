@@ -42,5 +42,31 @@
                 ]
             }
         ]
+    },
+    "ja": {
+        "stages": [
+            {
+                "id": "a1",
+                "title": "第一阶段",
+                "titleVi": "第一段階",
+                "cefr": "A1",
+                "themes": [
+                    "greeting"
+                ]
+            }
+        ]
+    },
+    "ko": {
+        "stages": [
+            {
+                "id": "a1",
+                "title": "第一阶段",
+                "titleVi": "제1단계",
+                "cefr": "A1",
+                "themes": [
+                    "greeting"
+                ]
+            }
+        ]
     }
 }

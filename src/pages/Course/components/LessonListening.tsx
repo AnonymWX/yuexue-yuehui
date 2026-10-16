@@ -1,13 +1,16 @@
 import useSpeech from '@/hooks/useSpeech'
+import { ttsLangOf } from '@/lib/ttsLang'
+import { currentLanguageAtom } from '@/store/language'
 import type { Sentence } from '@/typings/sentence'
+import { useAtomValue } from 'jotai'
 import { useEffect, useMemo, useState } from 'react'
 
 interface Props {
   sentences: Sentence[]
 }
 
-function PlayButton({ text }: { text: string }) {
-  const opts = useMemo(() => ({ lang: 'vi-VN', rate: 0.9 }), [])
+function PlayButton({ text, lang }: { text: string; lang: string }) {
+  const opts = useMemo(() => ({ lang: ttsLangOf(lang), rate: 0.9 }), [lang])
   const { speak } = useSpeech(text, opts)
   return (
     <button type="button" onClick={() => speak(true)} className="rounded bg-blue-500 px-4 py-2 text-white hover:bg-blue-600">
@@ -17,6 +20,7 @@ function PlayButton({ text }: { text: string }) {
 }
 
 export default function LessonListening({ sentences }: Props) {
+  const lang = useAtomValue(currentLanguageAtom)
   const [index, setIndex] = useState(0)
   const [selected, setSelected] = useState<string | null>(null)
   const [options, setOptions] = useState<Sentence[]>([])
@@ -46,7 +50,7 @@ export default function LessonListening({ sentences }: Props) {
       <h2 className="mb-3 text-xl font-semibold">⑥ 听力选择</h2>
       <div className="rounded-lg border p-4">
         <div className="mb-3 flex items-center gap-3">
-          <PlayButton text={current.text} />
+          <PlayButton text={current.text} lang={lang} />
           <div className="text-sm text-gray-500">
             第 {index + 1} / {sentences.length} 句
           </div>

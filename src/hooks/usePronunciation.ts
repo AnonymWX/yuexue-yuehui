@@ -9,6 +9,7 @@ const LANG_MAP: Record<string, string> = {
   uk: 'en-GB',
   romaji: 'ja-JP',
   ja: 'ja-JP',
+  ko: 'ko-KR',
   zh: 'zh-CN',
   de: 'de-DE',
   vi: 'vi-VN',

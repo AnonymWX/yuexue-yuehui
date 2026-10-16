@@ -1,6 +1,6 @@
 import { atom } from 'jotai'
 
-export type DrillMode = 'tone' | 'char'
+export type DrillMode = 'tone' | 'char' | 'kana' | 'hangul'
 
 export interface GroupRecord {
   passed: boolean

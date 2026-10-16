@@ -1,3 +1,5 @@
+import { HANGUL_GROUP_ORDER, HANGUL_CHAR_MAP } from '@/engines/beolsik/characters'
+import { KANA_GROUP_ORDER, KANA_CHAR_MAP } from '@/engines/romaji/characters'
 import { CHAR_GROUPS } from '@/engines/telex/characters'
 import { fetchPracticeProgress, upsertPracticeProgress } from '@/lib/db'
 import { userIdAtom } from '@/pages/Login/useAuth'
@@ -46,11 +48,20 @@ export const TONE_GROUP_ORDER = ['a', 'e', 'i', 'o', 'u', 'y']
 
 export const CHAR_GROUP_ORDER = ['a', 'e', 'i', 'o', 'u', 'y', 'd']
 
-export function getGroups(mode: DrillMode): { order: string[]; charMap: Record<string, string[]> } {
+export function getGroups(lang: string, mode: DrillMode): { order: string[]; charMap: Record<string, string[]> } {
   if (mode === 'tone') {
     return { order: [...TONE_GROUP_ORDER], charMap: TONE_GROUPS }
   }
-  return { order: [...CHAR_GROUP_ORDER], charMap: CHAR_GROUPS }
+  if (mode === 'char') {
+    return { order: [...CHAR_GROUP_ORDER], charMap: CHAR_GROUPS }
+  }
+  if (mode === 'kana') {
+    return { order: [...KANA_GROUP_ORDER], charMap: KANA_CHAR_MAP }
+  }
+  if (mode === 'hangul') {
+    return { order: [...HANGUL_GROUP_ORDER], charMap: HANGUL_CHAR_MAP }
+  }
+  return { order: [], charMap: {} }
 }
 
 // ============================================
@@ -109,8 +120,8 @@ export function hasPracticeForLang(lang: string): boolean {
  */
 export const PRACTICE_MODES_BY_LANG: Record<string, DrillMode[]> = {
   vi: ['tone', 'char'],
-  // ja: ['kana'],
-  // ko: ['hangul'],
+  ja: ['kana'],
+  ko: ['hangul'],
 }
 
 /** 该语言的练习门槛是否已通过 */
@@ -122,7 +133,7 @@ export function isUnlockedForLang(lang: string): boolean {
   return modes.every((m) => {
     const rec = p[m]
     if (!rec) return false
-    const { order } = getGroups(m)
+    const { order } = getGroups(lang, m)
     return order.every((g) => rec.groups[g]?.passed)
   })
 }
@@ -142,7 +153,7 @@ export function isGroupPassed(lang: string, mode: DrillMode, group: string): boo
 }
 
 export function isGroupUnlocked(lang: string, mode: DrillMode, group: string): boolean {
-  const { order } = getGroups(mode)
+  const { order } = getGroups(lang, mode)
   const idx = order.indexOf(group)
   if (idx <= 0) return true
   const p = readProgress(lang)
@@ -154,7 +165,7 @@ export function isGroupUnlocked(lang: string, mode: DrillMode, group: string): b
 
 export function isModePassed(lang: string, mode: DrillMode): boolean {
   const p = readProgress(lang)
-  const { order } = getGroups(mode)
+  const { order } = getGroups(lang, mode)
   const rec = p[mode]
   if (!rec) return false
   return order.every((g) => rec.groups[g]?.passed)
@@ -171,7 +182,7 @@ export function markCharCorrect(lang: string, mode: DrillMode, group: string, ch
   const cur = grp.charProgress[char] ?? 0
   grp.charProgress[char] = cur + 1
 
-  const { charMap } = getGroups(mode)
+  const { charMap } = getGroups(lang, mode)
   const groupChars = charMap[group] ?? []
   const allDone = groupChars.length > 0 && groupChars.every((c) => (grp.charProgress[c] ?? 0) >= TARGET_PER_CHAR)
   grp.passed = grp.passed || allDone
@@ -195,7 +206,7 @@ export function skipAllDrills(lang: string): void {
   const p = emptyPracticeProgress()
   const modes = PRACTICE_MODES_BY_LANG[lang] ?? []
   for (const mode of modes) {
-    const { order } = getGroups(mode)
+    const { order } = getGroups(lang, mode)
     p[mode] = { groups: {} }
     for (const group of order) {
       p[mode].groups[group] = { passed: true, charProgress: {} }

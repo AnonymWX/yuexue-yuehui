@@ -1,0 +1,191 @@
+{
+    "id": "course_vi_103",
+    "title": "第 7 课：谈论过去的爱好",
+    "titleVi": "Bài 7: Nói về sở thích trước đây",
+    "level": "A2",
+    "order": 7,
+    "scenario": "hobbies",
+    "goals": [
+        "掌握过去时「đã / từng」用法",
+        "学会说「以前喜欢……」",
+        "掌握「bây giờ / trước đây」对比",
+        "能谈论爱好的变化"
+    ],
+    "words": [
+        {
+            "id": "vi_da_past",
+            "name": "đã",
+            "trans": [
+                "已经（过去）"
+            ],
+            "tags": [
+                "hobbies",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_tung",
+            "name": "từng",
+            "trans": [
+                "曾经"
+            ],
+            "tags": [
+                "hobbies",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_truoc_day",
+            "name": "trước đây",
+            "trans": [
+                "以前"
+            ],
+            "tags": [
+                "hobbies",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_bay_gio_hobby",
+            "name": "bây giờ",
+            "trans": [
+                "现在"
+            ],
+            "tags": [
+                "hobbies",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_khi_con_nho",
+            "name": "khi còn nhỏ",
+            "trans": [
+                "小时候"
+            ],
+            "tags": [
+                "hobbies",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_thay_doi",
+            "name": "thay đổi",
+            "trans": [
+                "改变"
+            ],
+            "tags": [
+                "hobbies",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_van_con",
+            "name": "vẫn còn",
+            "trans": [
+                "仍然",
+                "还在"
+            ],
+            "tags": [
+                "hobbies",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        },
+        {
+            "id": "vi_bo_quit",
+            "name": "bỏ",
+            "trans": [
+                "放弃",
+                "停止"
+            ],
+            "tags": [
+                "hobbies",
+                "A2"
+            ],
+            "source": [
+                "vietnamese_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_vi_613",
+        "sentence_vi_614",
+        "sentence_vi_615",
+        "sentence_vi_616",
+        "sentence_vi_617",
+        "sentence_vi_618"
+    ],
+    "grammar": [
+        {
+            "point": "「đã + 动词」表过去",
+            "explain": "「đã」放在动词前表示过去发生的动作，如「đã thích」（以前喜欢过）。",
+            "examples": [
+                {
+                    "vi": "Tôi đã thích đọc sách.",
+                    "zh": "我以前喜欢读书。"
+                },
+                {
+                    "vi": "Anh ấy đã chơi bóng đá.",
+                    "zh": "他以前踢过足球。"
+                }
+            ]
+        },
+        {
+            "point": "「từng + 动词」表曾经",
+            "explain": "「từng」表示曾经做过某事，强调经历，如「từng đi du lịch」（曾经去旅游过）。",
+            "examples": [
+                {
+                    "vi": "Tôi từng đi du lịch Nhật Bản.",
+                    "zh": "我曾去日本旅游。"
+                },
+                {
+                    "vi": "Cô ấy từng học đàn guitar.",
+                    "zh": "她曾学过吉他。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「曾经」用越南语怎么说？",
+            "options": [
+                "từng",
+                "đã",
+                "vẫn"
+            ],
+            "answer": "từng"
+        },
+        {
+            "type": "fill",
+            "question": "Tôi ___ thích đọc sách.",
+            "answer": "đã"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「改变」的越南语",
+            "answer": "thay đổi"
+        }
+    ]
+}

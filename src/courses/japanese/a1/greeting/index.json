@@ -1,0 +1,14 @@
+{
+    "id": "greeting",
+    "stage": "a1",
+    "title": "问候与寒暄",
+    "titleVi": "あいさつ",
+    "courses": [
+        {
+            "id": "course_ja_001",
+            "file": "course_01.json",
+            "title": "第 1 课：初次见面",
+            "titleVi": "第1課：はじめまして"
+        }
+    ]
+}

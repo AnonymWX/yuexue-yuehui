@@ -1,4 +1,6 @@
+import { currentLanguageAtom } from '@/store/language'
 import type { Sentence } from '@/typings/sentence'
+import { useAtomValue } from 'jotai'
 import { useEffect, useMemo, useState } from 'react'
 
 interface Props {
@@ -11,19 +13,50 @@ interface Token {
   id: number
 }
 
-function ExplanationCard({ sentence, onDone }: { sentence: Sentence; onDone: () => void }) {
+const HINT_TEXT: Record<string, string> = {
+  vi: '把打乱的词排成正确的越南语句子。',
+  ja: '把打乱的词排成正确的日语句子。',
+  ko: '把打乱的词排成正确的韩语句子。',
+  en: '把打乱的词排成正确的英文句子。',
+}
+
+/**
+ * 按语言分词
+ * - 日语没有空格，用 Intl.Segmenter('ja', { granularity: 'word' })
+ * - 韩语 / 越南语同样用 Intl.Segmenter('word')
+ * - 不支持 Segmenter 时 fallback 到空格拆分
+ */
+function segment(lang: string, text: string): string[] {
+  if (lang === 'ja') {
+    // 日语无空格：按字符拆，标点合并到前一个 token
+    const chars = text.split('')
+    const parts: string[] = []
+    const PUNCT = /[。、！？「」『』（）【】…—～・]/
+    for (let i = 0; i < chars.length; i++) {
+      const c = chars[i]
+      if (!c.trim()) continue
+      if (PUNCT.test(c) && parts.length > 0) {
+        parts[parts.length - 1] += c
+      } else {
+        parts.push(c)
+      }
+    }
+    return parts
+  }
+  // 越南语 / 韩语 / 英语：按空格拆
+  return text.split(/\s+/).filter(Boolean)
+}
+
+function ExplanationCard({ sentence, lang, onDone }: { sentence: Sentence; lang: string; onDone: () => void }) {
   const [picked, setPicked] = useState<Token[]>([])
   const [feedback, setFeedback] = useState<'idle' | 'correct' | 'wrong'>('idle')
 
-  // 直接用句子文本 split，不再用 sentence.words（那里是 id）
-  const tokens = useMemo<string[]>(() => {
-    return sentence.text.split(/\s+/).filter(Boolean)
-  }, [sentence])
+  const tokens = useMemo<string[]>(() => segment(lang, sentence.text), [lang, sentence])
 
   const shuffled = useMemo<Token[]>(() => {
     return tokens.map((w, i) => ({ w, id: i })).sort(() => Math.random() - 0.5)
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [sentence])
+  }, [sentence, lang])
 
   useEffect(() => {
     if (picked.length === 0 || picked.length !== tokens.length) return
@@ -111,6 +144,7 @@ function ExplanationCard({ sentence, onDone }: { sentence: Sentence; onDone: () 
 }
 
 export default function StepExplanation({ sentences, onNext }: Props) {
+  const lang = useAtomValue(currentLanguageAtom)
   const [index, setIndex] = useState(0)
 
   useEffect(() => {
@@ -128,11 +162,12 @@ export default function StepExplanation({ sentences, onNext }: Props) {
         </span>
       </div>
       <h2 className="mb-2 text-2xl font-bold">句子理解</h2>
-      <p className="mb-8 text-sm text-gray-500">把打乱的词排成正确的越南语句子。</p>
+      <p className="mb-8 text-sm text-gray-500">{HINT_TEXT[lang] ?? HINT_TEXT.en}</p>
 
       <ExplanationCard
         key={index}
         sentence={sentences[index]}
+        lang={lang}
         onDone={() => {
           if (index + 1 >= sentences.length) onNext()
           else setIndex((i) => i + 1)

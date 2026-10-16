@@ -34,6 +34,26 @@ const CARDS_BY_LANG: Record<string, ModeCard[]> = {
       desc: '含 ă â ê ô ơ ư đ 等所有越南语变音，练到条件反射',
     },
   ],
+  ja: [
+    {
+      mode: 'kana',
+      to: '/drill/kana',
+      icon: '🈁',
+      title: '假名 → 罗马字训练',
+      subtitle: '15 组 · 117 个假名',
+      desc: '涵盖平假名、片假名、浊音、半浊音，用罗马字输入',
+    },
+  ],
+  ko: [
+    {
+      mode: 'hangul',
+      to: '/drill/hangul',
+      icon: '🇰🇷',
+      title: '韩字 → 2-beolsik 训练',
+      subtitle: '5 组 · 47 个韩字',
+      desc: '辅音在左、元音在右，紧音用 Shift，练到盲打',
+    },
+  ],
 }
 
 export default function PracticePage() {
@@ -119,9 +139,9 @@ export default function PracticePage() {
   }
 
   /* ===== 态 3：需要练习且内容已开发（越南语） ===== */
-  const totalGroups = cards.reduce((sum, c) => sum + getGroups(c.mode).order.length, 0)
+  const totalGroups = cards.reduce((sum, c) => sum + getGroups(currentLang, c.mode).order.length, 0)
   const passedGroups = cards.reduce((sum, c) => {
-    const { order } = getGroups(c.mode)
+    const { order } = getGroups(currentLang, c.mode)
     const rec = progress[c.mode]
     if (!rec) return sum
     return sum + order.filter((g) => rec.groups[g]?.passed).length
@@ -169,7 +189,7 @@ export default function PracticePage() {
         {/* 练习卡片 */}
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
           {cards.map((card) => {
-            const { order } = getGroups(card.mode)
+            const { order } = getGroups(currentLang, card.mode)
             const modeRec = progress[card.mode]
             const passed = modeRec ? order.filter((g) => modeRec.groups[g]?.passed).length : 0
             const cardAllPassed = passed === order.length

@@ -9,7 +9,7 @@ export default function CourseIndex() {
   return (
     <div className="mx-auto max-w-5xl p-6">
       <h1 className="mb-2 text-3xl font-bold text-primary">选择学习阶段</h1>
-      <p className="mb-8 text-gray-500 dark:text-gray-400">Chọn bậc học · Choose your CEFR level</p>
+      <p className="mb-8 text-gray-500 dark:text-gray-400">选择学习阶段 · Choose your CEFR level</p>
 
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
         {stages.map((stage) => (

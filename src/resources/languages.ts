@@ -27,6 +27,7 @@ export const LANGUAGE_REGISTRY: LanguageMeta[] = [
   { code: 'vi', label: '越南语', icon: '🇻🇳', short: 'VI', courseDir: 'vietnamese' },
   { code: 'en', label: '英语', icon: '🇬🇧', short: 'EN', courseDir: 'english' },
   { code: 'ja', label: '日语', icon: '🇯🇵', short: 'JA', courseDir: 'japanese' },
+  { code: 'ko', label: '韩语', icon: '🇰🇷', short: 'KO', courseDir: 'korean' },
 ]
 
 export const DEFAULT_LANGUAGE = 'vi'

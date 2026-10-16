@@ -1,0 +1,84 @@
+[
+    {
+        "id": "sentence_ko_001",
+        "text": "안녕하세요?",
+        "translation": "你好？",
+        "words": [
+            "ko_a1_annyeonghaseyo"
+        ],
+        "course": "course_ko_001",
+        "tags": [
+            "greeting",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_ko_002",
+        "text": "저는 학생입니다.",
+        "translation": "我是学生。",
+        "words": [
+            "ko_a1_jeo",
+            "ko_a1_haksaeng"
+        ],
+        "course": "course_ko_001",
+        "tags": [
+            "greeting",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_ko_003",
+        "text": "저는 학생이 아닙니다.",
+        "translation": "我不是学生。",
+        "words": [
+            "ko_a1_jeo",
+            "ko_a1_haksaeng"
+        ],
+        "course": "course_ko_001",
+        "tags": [
+            "greeting",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_ko_004",
+        "text": "선생님은 한국 사람입니까?",
+        "translation": "老师是韩国人吗？",
+        "words": [
+            "ko_a1_seonsaengnim",
+            "ko_a1_hanguk"
+        ],
+        "course": "course_ko_001",
+        "tags": [
+            "greeting",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_ko_005",
+        "text": "저도 학생입니다.",
+        "translation": "我也是学生。",
+        "words": [
+            "ko_a1_jeo",
+            "ko_a1_haksaeng"
+        ],
+        "course": "course_ko_001",
+        "tags": [
+            "greeting",
+            "A1"
+        ]
+    },
+    {
+        "id": "sentence_ko_006",
+        "text": "안녕히 가세요.",
+        "translation": "再见（对离开的人说）。",
+        "words": [
+            "ko_a1_annyeonghi_gaseyo"
+        ],
+        "course": "course_ko_001",
+        "tags": [
+            "greeting",
+            "A1"
+        ]
+    }
+]

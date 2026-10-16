@@ -1,0 +1,188 @@
+{
+    "id": "course_ko_001",
+    "title": "第 1 课：你好",
+    "titleVi": "제1과: 안녕하세요",
+    "order": 1,
+    "scenario": "greeting",
+    "goals": [
+        "掌握主题助词「은/는」",
+        "掌握判断句「N은/는 N입니다」",
+        "掌握否定「N은/는 N이/가 아닙니다」",
+        "能用「도」表达「也」"
+    ],
+    "words": [
+        {
+            "id": "ko_a1_jeo",
+            "name": "저",
+            "trans": [
+                "我（谦称）"
+            ],
+            "tags": [
+                "greeting",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_ireum",
+            "name": "이름",
+            "trans": [
+                "名字"
+            ],
+            "tags": [
+                "greeting",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_haksaeng",
+            "name": "학생",
+            "trans": [
+                "学生"
+            ],
+            "tags": [
+                "greeting",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_seonsaengnim",
+            "name": "선생님",
+            "trans": [
+                "老师"
+            ],
+            "tags": [
+                "greeting",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_hanguk",
+            "name": "한국",
+            "trans": [
+                "韩国"
+            ],
+            "tags": [
+                "greeting",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_junguk",
+            "name": "중국",
+            "trans": [
+                "中国"
+            ],
+            "tags": [
+                "greeting",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_annyeonghaseyo",
+            "name": "안녕하세요",
+            "trans": [
+                "你好"
+            ],
+            "tags": [
+                "greeting",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_annyeonghi_gaseyo",
+            "name": "안녕히 가세요",
+            "trans": [
+                "再见（对离开的人）"
+            ],
+            "tags": [
+                "greeting",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_ko_001",
+        "sentence_ko_002",
+        "sentence_ko_003",
+        "sentence_ko_004",
+        "sentence_ko_005",
+        "sentence_ko_006"
+    ],
+    "grammar": [
+        {
+            "point": "主题助词「은/는」+ 判断句「입니다」",
+            "explain": "「은/는」标记句子的主题：有收音用「은」，无收音用「는」。「입니다」是「是」的敬语肯定形式，接在名词后。疑问句把「입니다」改为「입니까?」，语序不变。",
+            "examples": [
+                {
+                    "vi": "저는 학생입니다.",
+                    "zh": "我是学生。"
+                },
+                {
+                    "vi": "선생님은 한국 사람입니까?",
+                    "zh": "老师是韩国人吗？"
+                }
+            ]
+        },
+        {
+            "point": "否定「이/가 아닙니다」与「도」",
+            "explain": "否定用「N이/가 아닙니다」（有收音用「이」，无收音用「가」）。「도」代替「은/는」，表「也」。",
+            "examples": [
+                {
+                    "vi": "저는 학생이 아닙니다.",
+                    "zh": "我不是学生。"
+                },
+                {
+                    "vi": "저도 학생입니다.",
+                    "zh": "我也是学生。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「저___ 학생입니다.」填入正确的助词：",
+            "options": [
+                "는",
+                "은",
+                "가"
+            ],
+            "answer": "는"
+        },
+        {
+            "type": "fill",
+            "question": "한국 사람___?（填入「是吗」的敬语形式）",
+            "answer": "입니까"
+        },
+        {
+            "type": "telex_input",
+            "question": "输入「你好」的韩语罗马字",
+            "answer": "annyeonghaseyo"
+        }
+    ]
+}

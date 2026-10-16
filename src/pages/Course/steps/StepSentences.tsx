@@ -1,14 +1,24 @@
-import TelexFillInput, { isSentenceMatch } from './TelexFillInput'
+import LangFillInput, { isLangMatch } from './LangFillInput'
 import useSpeech from '@/hooks/useSpeech'
+import { ttsLangOf } from '@/lib/ttsLang'
+import { currentLanguageAtom } from '@/store/language'
 import type { Sentence } from '@/typings/sentence'
-import { useEffect, useState } from 'react'
+import { useAtomValue } from 'jotai'
+import { useEffect, useMemo, useState } from 'react'
 
-const VI_OPTION = { lang: 'vi-VN' }
+const HINT_TEXT: Record<string, { method: string }> = {
+  vi: { method: '看中文，用 Telex 输入越南语句子（标点前加空格）。' },
+  ja: { method: '看中文，用罗马字输入日语句子。' },
+  ko: { method: '看中文，用 2-beolsik 输入韩语句子。' },
+  en: { method: '看中文，输入英文句子。' },
+}
 
-function SentenceCard({ sentence, onDone }: { sentence: Sentence; onDone: () => void }) {
+function SentenceCard({ sentence, lang, onDone }: { sentence: Sentence; lang: string; onDone: () => void }) {
   const [raw, setRaw] = useState('')
   const [status, setStatus] = useState<'idle' | 'correct' | 'wrong'>('idle')
-  const { speak, cancel } = useSpeech(sentence.text, VI_OPTION)
+
+  const opts = useMemo(() => ({ lang: ttsLangOf(lang) }), [lang])
+  const { speak, cancel } = useSpeech(sentence.text, opts)
 
   useEffect(() => {
     speak(true)
@@ -25,12 +35,12 @@ function SentenceCard({ sentence, onDone }: { sentence: Sentence; onDone: () => 
   const handleChange = (v: string) => {
     setRaw(v)
     if (status === 'correct') return
-    if (isSentenceMatch(sentence.text, v)) setStatus('correct')
+    if (isLangMatch(lang, sentence.text, v)) setStatus('correct')
   }
 
   const handleCheck = () => {
     if (status === 'correct' || !raw.trim()) return
-    if (isSentenceMatch(sentence.text, raw)) {
+    if (isLangMatch(lang, sentence.text, raw)) {
       setStatus('correct')
     } else {
       setStatus('wrong')
@@ -68,7 +78,7 @@ function SentenceCard({ sentence, onDone }: { sentence: Sentence; onDone: () => 
         </div>
       </div>
 
-      <TelexFillInput
+      <LangFillInput
         target={sentence.text}
         value={raw}
         onChange={handleChange}
@@ -89,6 +99,7 @@ interface Props {
 }
 
 export default function StepSentences({ sentences, onNext }: Props) {
+  const lang = useAtomValue(currentLanguageAtom)
   const [index, setIndex] = useState(0)
 
   useEffect(() => {
@@ -96,6 +107,8 @@ export default function StepSentences({ sentences, onNext }: Props) {
   }, [sentences.length, onNext])
 
   if (sentences.length === 0) return null
+
+  const hint = HINT_TEXT[lang] ?? HINT_TEXT.en
 
   return (
     <div className="mx-auto w-full max-w-2xl">
@@ -106,11 +119,12 @@ export default function StepSentences({ sentences, onNext }: Props) {
         </span>
       </div>
       <h2 className="mb-2 text-2xl font-bold">重点句子</h2>
-      <p className="mb-8 text-sm text-gray-500">看中文，用 Telex 输入越南语句子（标点前加空格）。</p>
+      <p className="mb-8 text-sm text-gray-500">{hint.method}</p>
 
       <SentenceCard
         key={index}
         sentence={sentences[index]}
+        lang={lang}
         onDone={() => {
           if (index + 1 >= sentences.length) onNext()
           else setIndex((i) => i + 1)

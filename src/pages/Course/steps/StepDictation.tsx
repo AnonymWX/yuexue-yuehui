@@ -1,20 +1,30 @@
-import TelexFillInput, { isSentenceMatch } from './TelexFillInput'
+import LangFillInput, { isLangMatch } from './LangFillInput'
 import useSpeech from '@/hooks/useSpeech'
+import { ttsLangOf } from '@/lib/ttsLang'
+import { currentLanguageAtom } from '@/store/language'
 import type { Sentence } from '@/typings/sentence'
-import { useEffect, useState } from 'react'
+import { useAtomValue } from 'jotai'
+import { useEffect, useMemo, useState } from 'react'
 
-const VI_OPTION = { lang: 'vi-VN' }
+const HINT_TEXT: Record<string, { subtitle: string }> = {
+  vi: { subtitle: '听句子，用 Telex 输入完整内容（标点前加空格）。' },
+  ja: { subtitle: '听句子，用罗马字输入完整内容。' },
+  ko: { subtitle: '听句子，用 2-beolsik 输入完整内容。' },
+  en: { subtitle: '听句子，输入完整内容。' },
+}
 
 interface Props {
   sentences: Sentence[]
   onNext: () => void
 }
 
-function DictationCard({ sentence, onDone }: { sentence: Sentence; onDone: () => void }) {
+function DictationCard({ sentence, lang, onDone }: { sentence: Sentence; lang: string; onDone: () => void }) {
   const [raw, setRaw] = useState('')
   const [status, setStatus] = useState<'idle' | 'correct' | 'wrong'>('idle')
   const [showHint, setShowHint] = useState(false)
-  const { speak, cancel } = useSpeech(sentence.text, VI_OPTION)
+
+  const opts = useMemo(() => ({ lang: ttsLangOf(lang) }), [lang])
+  const { speak, cancel } = useSpeech(sentence.text, opts)
 
   useEffect(() => {
     speak(true)
@@ -31,12 +41,12 @@ function DictationCard({ sentence, onDone }: { sentence: Sentence; onDone: () =>
   const handleChange = (v: string) => {
     setRaw(v)
     if (status === 'correct') return
-    if (isSentenceMatch(sentence.text, v)) setStatus('correct')
+    if (isLangMatch(lang, sentence.text, v)) setStatus('correct')
   }
 
   const handleCheck = () => {
     if (status === 'correct' || !raw.trim()) return
-    if (isSentenceMatch(sentence.text, raw)) {
+    if (isLangMatch(lang, sentence.text, raw)) {
       setStatus('correct')
     } else {
       setStatus('wrong')
@@ -74,7 +84,7 @@ function DictationCard({ sentence, onDone }: { sentence: Sentence; onDone: () =>
       </div>
 
       <div className="mt-4">
-        <TelexFillInput
+        <LangFillInput
           target={sentence.text}
           value={raw}
           onChange={handleChange}
@@ -100,6 +110,7 @@ function DictationCard({ sentence, onDone }: { sentence: Sentence; onDone: () =>
 }
 
 export default function StepDictation({ sentences, onNext }: Props) {
+  const lang = useAtomValue(currentLanguageAtom)
   const [index, setIndex] = useState(0)
 
   useEffect(() => {
@@ -107,6 +118,8 @@ export default function StepDictation({ sentences, onNext }: Props) {
   }, [sentences.length, onNext])
 
   if (sentences.length === 0) return null
+
+  const hint = HINT_TEXT[lang] ?? HINT_TEXT.en
 
   return (
     <div className="mx-auto w-full max-w-2xl">
@@ -117,11 +130,12 @@ export default function StepDictation({ sentences, onNext }: Props) {
         </span>
       </div>
       <h2 className="mb-2 text-2xl font-bold">听写句子</h2>
-      <p className="mb-8 text-sm text-gray-500">听句子，用 Telex 输入完整内容（标点前加空格）。</p>
+      <p className="mb-8 text-sm text-gray-500">{hint.subtitle}</p>
 
       <DictationCard
         key={index}
         sentence={sentences[index]}
+        lang={lang}
         onDone={() => {
           if (index + 1 >= sentences.length) onNext()
           else setIndex((i) => i + 1)

@@ -1,5 +1,7 @@
 import TelexFillInput, { isSentenceMatch } from './TelexFillInput'
+import { currentLanguageAtom } from '@/store/language'
 import type { CourseExercise } from '@/typings/course'
+import { useAtomValue } from 'jotai'
 import { useEffect, useState } from 'react'
 
 interface Props {
@@ -10,6 +12,7 @@ interface Props {
 type QState = 'idle' | 'correct' | 'wrong'
 
 export default function StepQuiz({ exercises, onNext }: Props) {
+  const lang = useAtomValue(currentLanguageAtom)
   const [answers, setAnswers] = useState<Record<number, string>>({})
   const [states, setStates] = useState<Record<number, QState>>({})
   const [hints, setHints] = useState<Record<number, boolean>>({})
@@ -31,8 +34,15 @@ export default function StepQuiz({ exercises, onNext }: Props) {
     const raw = answers[i] ?? ''
     if (!raw.trim()) return
     let ok = false
-    if (ex.type === 'choose') ok = raw.trim() === ex.answer.trim()
-    else ok = isSentenceMatch(ex.answer, raw)
+    if (ex.type === 'choose') {
+      ok = raw.trim() === ex.answer.trim()
+    } else if (ex.type === 'telex_input') {
+      ok = isSentenceMatch(ex.answer, raw)
+    } else {
+      // fill：越南语走 Telex 判定；其他语言普通文本比对
+      if (lang === 'vi') ok = isSentenceMatch(ex.answer, raw)
+      else ok = raw.trim().toLowerCase() === ex.answer.trim().toLowerCase()
+    }
     setStates((s) => ({ ...s, [i]: ok ? 'correct' : 'wrong' }))
   }
 
@@ -108,14 +118,39 @@ export default function StepQuiz({ exercises, onNext }: Props) {
               ) : (
                 <div className="flex gap-2">
                   <div className="flex-1">
-                    <TelexFillInput
-                      target={ex.answer}
-                      value={raw}
-                      onChange={(v) => setAnswer(i, v)}
-                      onEnter={() => checkOne(i)}
-                      disabled={state === 'correct' || submitted}
-                      autoFocus={i === 0}
-                    />
+                    {lang === 'vi' ? (
+                      <TelexFillInput
+                        target={ex.answer}
+                        value={raw}
+                        onChange={(v) => setAnswer(i, v)}
+                        onEnter={() => checkOne(i)}
+                        disabled={state === 'correct' || submitted}
+                        autoFocus={i === 0}
+                      />
+                    ) : (
+                      <input
+                        type="text"
+                        value={raw}
+                        onChange={(e) => setAnswer(i, e.target.value)}
+                        onKeyDown={(e) => {
+                          if (e.key === 'Enter') checkOne(i)
+                        }}
+                        disabled={state === 'correct' || submitted}
+                        autoFocus={i === 0}
+                        autoComplete="off"
+                        autoCorrect="off"
+                        autoCapitalize="off"
+                        spellCheck={false}
+                        className={
+                          'w-full rounded-2xl border bg-white px-4 py-3 text-lg outline-none transition disabled:opacity-60 dark:bg-gray-800 ' +
+                          (state === 'correct'
+                            ? 'border-green-400 focus:border-green-500 dark:border-green-800'
+                            : state === 'wrong'
+                            ? 'border-red-400 focus:border-red-500 dark:border-red-800'
+                            : 'border-gray-200 focus:border-indigo-500 dark:border-gray-700')
+                        }
+                      />
+                    )}
                   </div>
                   <button
                     type="button"
