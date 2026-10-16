@@ -62,10 +62,11 @@
 git clone https://github.com/AnonymWX/yuexue-yuehui.git
 cd yuexue-yuehui
 
-### 2.  安装依赖
-bash
+### 2. 安装依赖
+```bash
+npm install
 
-1
+
 ### 3. 配置环境变量 (可选，用于云端同步)
 在项目根目录创建 .env 文件，填入你的 Supabase 凭证：
 env
@@ -75,7 +76,7 @@ env
 ### 4. 启动开发服务器
 bash
 
-1
+
 打开浏览器访问 http://localhost:5173。
 ### 5. 构建与部署
 bash
