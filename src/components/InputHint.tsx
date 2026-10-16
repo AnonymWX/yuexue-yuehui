@@ -66,19 +66,18 @@ const PROFILES: Record<string, InputProfile> = {
     toneRules: [
       { key: 'a i u e o', example: 'a → あ', desc: '基本元音' },
       { key: 'ka sa ta na', example: 'ka → か', desc: 'か行等' },
-      { key: 'n', example: 'n → ん', desc: '拨音（孤立）' },
-      { key: '-', example: 'a- → あー', desc: '长音' },
+      { key: 'shi / chi / tsu', example: 'shi → し', desc: '特殊读音' },
+      { key: 'n / nn', example: 'n → ん', desc: '拨音' },
       { key: 'l / x', example: 'la → ぁ', desc: '小写假名' },
-      { key: 'Enter', example: '→ 汉字候选', desc: '转换候选' },
     ],
     letterRules: [
-      { keys: 'shi / chi / tsu', result: 'し / ち / つ' },
       { keys: 'sha / cha / ja', result: 'しゃ / ちゃ / じゃ' },
       { keys: 'kka / tta', result: 'っか / った（促音）' },
+      { keys: 'si=shi / ti=chi', result: '两种写法等价' },
     ],
     example: {
       input: 'watashi wa gakusei desu',
-      output: '私は学生です',
+      output: 'わたしはがくせいです',
     },
   },
 
@@ -100,8 +99,8 @@ const PROFILES: Record<string, InputProfile> = {
       { keys: '감사 = rkatk', result: '감사' },
     ],
     example: {
-      input: 'rkatk rkatk',
-      output: '감사 감사',
+      input: 'rkatk',
+      output: '감사',
     },
   },
 }
