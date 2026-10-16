@@ -1,4 +1,4 @@
-import { isMobileDevice, speakWithCloudTTS, stopCloudTTS } from '@/lib/cloudTTS'
+import { speakWithCloudTTS, stopCloudTTS } from '@/lib/cloudTTS'
 import { toast } from '@/lib/toast'
 import { useCallback, useEffect, useRef, useState } from 'react'
 
@@ -29,7 +29,7 @@ function noticeMissingVoiceOnce(langPrefix: string) {
 }
 
 /**
- * 语音 hook：移动端优先用云端 TTS，桌面端用浏览器 speechSynthesis
+ * 语音 hook：所有端优先云端 TTS，失败降级到浏览器 speechSynthesis
  */
 export default function useSpeech(text: string, option?: Partial<SpeechSynthesisUtterance>) {
   const [speaking, setSpeaking] = useState(false)
@@ -38,9 +38,7 @@ export default function useSpeech(text: string, option?: Partial<SpeechSynthesis
   optionRef.current = option
 
   const cancel = useCallback(() => {
-    // 停云端
     stopCloudTTS()
-    // 停本地
     if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
       setSpeaking(false)
       return
@@ -62,25 +60,23 @@ export default function useSpeech(text: string, option?: Partial<SpeechSynthesis
       const langRaw = optionRef.current?.lang ?? 'en-US'
       const langPrefix = langRaw.split('-')[0]
 
-      // ========== 移动端：优先云端 TTS ==========
-      if (isMobileDevice()) {
-        try {
-          await speakWithCloudTTS(text, langPrefix, {
-            onStart: () => setSpeaking(true),
-            onEnd: () => setSpeaking(false),
-            onError: (err) => {
-              console.warn('[useSpeech] cloud TTS error:', err)
-              setSpeaking(false)
-            },
-          })
-          return
-        } catch (err) {
-          console.warn('[useSpeech] 云端 TTS 失败，降级到浏览器 TTS', err)
-          // 继续往下走，用本地 speechSynthesis
-        }
+      // ========== 所有端：优先云端 TTS ==========
+      try {
+        await speakWithCloudTTS(text, langPrefix, {
+          onStart: () => setSpeaking(true),
+          onEnd: () => setSpeaking(false),
+          onError: (err) => {
+            console.warn('[useSpeech] cloud TTS error:', err)
+            setSpeaking(false)
+          },
+        })
+        return
+      } catch (err) {
+        console.warn('[useSpeech] 云端 TTS 失败，降级到浏览器 TTS', err)
+        // 继续往下走，用本地 speechSynthesis
       }
 
-      // ========== 桌面端 / 云端失败降级：speechSynthesis ==========
+      // ========== 云端失败降级：speechSynthesis ==========
       if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
         console.warn('[useSpeech] speechSynthesis not supported')
         return
@@ -106,7 +102,6 @@ export default function useSpeech(text: string, option?: Partial<SpeechSynthesis
         const chosen = localExact ?? localPrefix ?? anyExact ?? anyPrefix
         if (chosen) {
           utter.voice = chosen
-          console.log('[useSpeech] 使用语音:', chosen.name, '| local:', chosen.localService)
         } else {
           noticeMissingVoiceOnce(langPrefix)
         }
@@ -127,7 +122,6 @@ export default function useSpeech(text: string, option?: Partial<SpeechSynthesis
 
   useEffect(() => {
     return () => {
-      // 卸载时清理
       stopCloudTTS()
       if (typeof window === 'undefined' || !('speechSynthesis' in window)) return
       try {
