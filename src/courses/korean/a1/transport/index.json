@@ -1,0 +1,20 @@
+{
+    "id": "transport",
+    "stage": "a1",
+    "title": "交通与出行",
+    "titleVi": "교통과 이동",
+    "courses": [
+        {
+            "id": "course_ko_012",
+            "file": "course_01.json",
+            "title": "第 1 课：학교에 어떻게 갑니까?",
+            "titleVi": "제1과: 학교에 어떻게 갑니까?"
+        },
+        {
+            "id": "course_ko_035",
+            "file": "course_02.json",
+            "title": "第 2 课：교통카드로 탑니다",
+            "titleVi": "제2과: 교통카드로 탑니다"
+        }
+    ]
+}

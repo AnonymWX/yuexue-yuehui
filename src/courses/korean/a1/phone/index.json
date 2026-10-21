@@ -1,0 +1,20 @@
+{
+    "id": "hobbies",
+    "stage": "a1",
+    "title": "爱好与兴趣",
+    "titleVi": "취미와 관심사",
+    "courses": [
+        {
+            "id": "course_ko_009",
+            "file": "course_01.json",
+            "title": "第 1 课：취미가 무엇입니까?",
+            "titleVi": "제1과: 취미가 무엇입니까?"
+        },
+        {
+            "id": "course_ko_036",
+            "file": "course_02.json",
+            "title": "第 2 课：지금 통화 중입니다",
+            "titleVi": "제2과: 지금 통화 중입니다"
+        }
+    ]
+}

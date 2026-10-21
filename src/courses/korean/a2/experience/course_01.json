@@ -1,0 +1,274 @@
+{
+    "id": "course_ko_113",
+    "title": "第 1 课：한국에 가 본 적이 있습니까?（去过韩国吗？）",
+    "titleVi": "제1과: 한국에 가 본 적이 있습니까?",
+    "order": 1,
+    "scenario": "experience",
+    "goals": [
+        "掌握「-아/어 본 적이 있다/없다」（经历过/没经历过）",
+        "掌握「-았/었던」（曾经…的）",
+        "能询问和描述经历",
+        "能谈论过去印象"
+    ],
+    "words": [
+        {
+            "id": "ko_a2_gyeongheom",
+            "name": "경험",
+            "trans": [
+                "经验",
+                "经历"
+            ],
+            "tags": [
+                "experience",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_silsu",
+            "name": "실수",
+            "trans": [
+                "失误"
+            ],
+            "tags": [
+                "experience",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_cheoeum",
+            "name": "처음",
+            "trans": [
+                "第一次"
+            ],
+            "tags": [
+                "experience",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_jeok",
+            "name": "적",
+            "trans": [
+                "次",
+                "曾经"
+            ],
+            "tags": [
+                "experience",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_gieok",
+            "name": "기억",
+            "trans": [
+                "记忆"
+            ],
+            "tags": [
+                "experience",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_ijda",
+            "name": "잊다",
+            "trans": [
+                "忘记"
+            ],
+            "tags": [
+                "experience",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_mandeulda",
+            "name": "만들다",
+            "trans": [
+                "做",
+                "制作"
+            ],
+            "tags": [
+                "experience",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_gochida",
+            "name": "고치다",
+            "trans": [
+                "修理",
+                "改正"
+            ],
+            "tags": [
+                "experience",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_gyeongheomhada",
+            "name": "경험하다",
+            "trans": [
+                "经历"
+            ],
+            "tags": [
+                "experience",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_bulpyeonhada",
+            "name": "불편하다",
+            "trans": [
+                "不方便"
+            ],
+            "tags": [
+                "experience",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_jaemiitda",
+            "name": "재미있다",
+            "trans": [
+                "有趣"
+            ],
+            "tags": [
+                "experience",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_ikda",
+            "name": "익다",
+            "trans": [
+                "熟",
+                "习惯"
+            ],
+            "tags": [
+                "experience",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_ko_297",
+        "sentence_ko_298",
+        "sentence_ko_299",
+        "sentence_ko_300",
+        "sentence_ko_301",
+        "sentence_ko_302",
+        "sentence_ko_303",
+        "sentence_ko_304"
+    ],
+    "grammar": [
+        {
+            "point": "「-아/어 본 적이 있다/없다」（经历过 / 没经历过）",
+            "explain": "词干 + 아/어 본 적이 있다，表「曾经做过」。例：가다 → 가 본 적이 있습니다（去过）；먹다 → 먹어 본 적이 있습니다（吃过）；해 보다 → 해 본 적이 있습니다（做过）。否定：-아/어 본 적이 없습니다。中文「…过」对应。注意 본 是 보다 的过去式。",
+            "examples": [
+                {
+                    "vi": "한국에 가 본 적이 있습니까?",
+                    "zh": "去过韩国吗？"
+                },
+                {
+                    "vi": "김치를 먹어 본 적이 없습니다.",
+                    "zh": "没吃过泡菜。"
+                }
+            ]
+        },
+        {
+            "point": "「-았/었던」（曾经…的）",
+            "explain": "动词/形容词词干 + 았/었던，表「曾经…过的」，修饰名词。例：갔던 곳（曾经去过的地方）；먹었던 음식（曾经吃过的食物）；좋았던 기억（曾经美好的记忆）。中文「曾经…的」对应。与 -(으)ㄴ 的区别：-(으)ㄴ 只是过去，-았/었던 强调「曾经（现在已不是）」。",
+            "examples": [
+                {
+                    "vi": "한국에서 갔던 곳을 기억합니다.",
+                    "zh": "记得在韩国去过的地方。"
+                },
+                {
+                    "vi": "처음 먹었던 음식이 맛있었습니다.",
+                    "zh": "第一次吃的食物很好吃。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「去过韩国」的韩语是？",
+            "options": [
+                "한국에 가 본 적이 있습니다",
+                "한국에 가고 있습니다",
+                "한국에 갈 겁니다",
+                "한국에 가야 합니다"
+            ],
+            "answer": "한국에 가 본 적이 있습니다"
+        },
+        {
+            "type": "choose",
+            "question": "「没吃过泡菜」的韩语是？",
+            "options": [
+                "김치를 먹어 본 적이 없습니다",
+                "김치를 먹고 싶습니다",
+                "김치를 먹었습니다",
+                "김치를 먹을 겁니다"
+            ],
+            "answer": "김치를 먹어 본 적이 없습니다"
+        },
+        {
+            "type": "choose",
+            "question": "「曾经去过的地方」的韩语是？",
+            "options": [
+                "갔던 곳",
+                "가는 곳",
+                "갈 곳",
+                "간 곳"
+            ],
+            "answer": "갔던 곳"
+        },
+        {
+            "type": "fill",
+            "question": "「第一次」的韩语是？",
+            "answer": "처음"
+        },
+        {
+            "type": "fill",
+            "question": "「忘记」的韩语是？",
+            "answer": "잊다"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "id": "culture",
+    "stage": "a2",
+    "title": "韩国文化与传统",
+    "titleVi": "한국 문화와 전통",
+    "courses": [
+        {
+            "id": "course_ko_111",
+            "file": "course_01.json",
+            "title": "第 1 课：한국의 명절에 대해 알아봅시다",
+            "titleVi": "제1과: 한국의 명절에 대해 알아봅시다"
+        }
+    ]
+}

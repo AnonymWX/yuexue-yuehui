@@ -1,0 +1,14 @@
+{
+    "id": "review",
+    "stage": "a2",
+    "title": "综合复习",
+    "titleVi": "종합 복습",
+    "courses": [
+        {
+            "id": "course_ko_116",
+            "file": "course_01.json",
+            "title": "第 1 课：드디어 A2를 끝냈습니다",
+            "titleVi": "제1과: 드디어 A2를 끝냈습니다"
+        }
+    ]
+}

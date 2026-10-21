@@ -1,0 +1,14 @@
+{
+    "id": "food_order",
+    "stage": "a2",
+    "title": "点餐与饮食进阶",
+    "titleVi": "주문과 식사 심화",
+    "courses": [
+        {
+            "id": "course_ko_104",
+            "file": "course_01.json",
+            "title": "第 1 课：불고기 하나 주세요",
+            "titleVi": "제1과: 불고기 하나 주세요"
+        }
+    ]
+}

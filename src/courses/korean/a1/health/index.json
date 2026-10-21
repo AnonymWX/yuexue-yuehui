@@ -1,0 +1,20 @@
+{
+    "id": "health",
+    "stage": "a1",
+    "title": "健康与身体",
+    "titleVi": "건강과 몸",
+    "courses": [
+        {
+            "id": "course_ko_014",
+            "file": "course_01.json",
+            "title": "第 1 课：몸이 아픕니까?",
+            "titleVi": "제1과: 몸이 아픕니까?"
+        },
+        {
+            "id": "course_ko_037",
+            "file": "course_02.json",
+            "title": "第 2 课：술을 마시지 마세요",
+            "titleVi": "제2과: 술을 마시지 마세요"
+        }
+    ]
+}

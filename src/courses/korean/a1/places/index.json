@@ -1,0 +1,26 @@
+{
+    "id": "places",
+    "stage": "a1",
+    "title": "场所与位置",
+    "titleVi": "장소와 위치",
+    "courses": [
+        {
+            "id": "course_ko_004",
+            "file": "course_01.json",
+            "title": "第 1 课：여기는 어디입니까?",
+            "titleVi": "제1과: 여기는 어디입니까?"
+        },
+        {
+            "id": "course_ko_025",
+            "file": "course_02.json",
+            "title": "第 2 课：은행에 갑니다",
+            "titleVi": "제2과: 은행에 갑니다"
+        },
+        {
+            "id": "course_ko_026",
+            "file": "course_03.json",
+            "title": "第 3 课：집에서 학교까지 멉니까?",
+            "titleVi": "제3과: 집에서 학교까지 멉니까?"
+        }
+    ]
+}

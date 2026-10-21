@@ -1,0 +1,219 @@
+{
+    "id": "course_ko_028",
+    "title": "第 2 课：빨간색으로 주세요（请给我红色的）",
+    "titleVi": "제2과: 빨간색으로 주세요",
+    "order": 2,
+    "scenario": "shopping",
+    "goals": [
+        "掌握颜色词「빨간색 / 파란색 / 검은색 / 흰색」",
+        "掌握「-으로 주세요」（请给我…的）",
+        "掌握「입어 보다」（试穿）与尺码表达",
+        "能挑选商品并说明偏好"
+    ],
+    "words": [
+        {
+            "id": "ko_a1_saekkkal",
+            "name": "색깔",
+            "trans": [
+                "颜色"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_ppalgan",
+            "name": "빨간색",
+            "trans": [
+                "红色"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_paran",
+            "name": "파란색",
+            "trans": [
+                "蓝色"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_geomeun",
+            "name": "검은색",
+            "trans": [
+                "黑色"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_huin",
+            "name": "흰색",
+            "trans": [
+                "白色"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_saijeu",
+            "name": "사이즈",
+            "trans": [
+                "尺码"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_keun",
+            "name": "큰",
+            "trans": [
+                "大的"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_jageun",
+            "name": "작은",
+            "trans": [
+                "小的"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_ko_441",
+        "sentence_ko_442",
+        "sentence_ko_443",
+        "sentence_ko_444",
+        "sentence_ko_445",
+        "sentence_ko_446",
+        "sentence_ko_447",
+        "sentence_ko_448"
+    ],
+    "grammar": [
+        {
+            "point": "颜色 +「-으로 주세요」（请给我…的）",
+            "explain": "색깔 = 颜色，具体颜色：빨간색（红）、파란색（蓝）、검은색（黑）、흰색（白）。请求用「N + (으)로 주세요」：빨간색으로 주세요（请给我红色的）。有收音用 -으로，无收音用 -로：빨간색으로（有收音 ㄱ）、파란색으로（有收音 ㄴ）。中文「请给我红色的」对应。注意这里 -으로 表「选择/手段」，与第 2 课 places 的「方向」、第 3 课 places 的「交通手段」同形不同用。",
+            "examples": [
+                {
+                    "vi": "빨간색으로 주세요.",
+                    "zh": "请给我红色的。"
+                },
+                {
+                    "vi": "검은색으로 주세요.",
+                    "zh": "请给我黑色的。"
+                }
+            ]
+        },
+        {
+            "point": "「입어 보다」（试穿）+ 尺码「큰/작은 사이즈」",
+            "explain": "입어 보다 = 试穿（입다 穿 + 어 보다 尝试）。问「可以试穿吗」用「입어 봐도 됩니까?」。尺码：큰 사이즈（大码）、작은 사이즈（小码），问「有大码吗」用「큰 사이즈가 있습니까?」。中文「试穿 / 大码」对应。注意 입다 词干 입 有收音，입어 是 ㅂ 不规则变成 입어（不是 입버）。",
+            "examples": [
+                {
+                    "vi": "입어 봐도 됩니까?",
+                    "zh": "可以试穿吗？"
+                },
+                {
+                    "vi": "큰 사이즈가 있습니까?",
+                    "zh": "有大码吗？"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「请给我红色的」的韩语是？",
+            "options": [
+                "빨간색으로 주세요",
+                "빨간색에 주세요",
+                "빨간색을 주세요",
+                "빨간색이 주세요"
+            ],
+            "answer": "빨간색으로 주세요"
+        },
+        {
+            "type": "choose",
+            "question": "「可以试穿吗？」的韩语是？",
+            "options": [
+                "입어 봐도 됩니까?",
+                "입어야 합니까?",
+                "입고 싶습니까?",
+                "입었습니까?"
+            ],
+            "answer": "입어 봐도 됩니까?"
+        },
+        {
+            "type": "choose",
+            "question": "「黑色」的韩语是？",
+            "options": [
+                "검은색",
+                "흰색",
+                "빨간색",
+                "파란색"
+            ],
+            "answer": "검은색"
+        },
+        {
+            "type": "choose",
+            "question": "「小码」的韩语是？",
+            "options": [
+                "작은 사이즈",
+                "큰 사이즈",
+                "작은 색깔",
+                "큰 색깔"
+            ],
+            "answer": "작은 사이즈"
+        },
+        {
+            "type": "fill",
+            "question": "「有大码吗？」→ 큰 사이즈가 ___.（填入「有」的正式体）",
+            "answer": "있습니까"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "id": "plans2",
+    "stage": "a2",
+    "title": "未来与梦想",
+    "titleVi": "미래와 꿈",
+    "courses": [
+        {
+            "id": "course_ko_112",
+            "file": "course_01.json",
+            "title": "第 1 课：장래에 무엇을 하고 싶습니까?",
+            "titleVi": "제1과: 장래에 무엇을 하고 싶습니까?"
+        }
+    ]
+}

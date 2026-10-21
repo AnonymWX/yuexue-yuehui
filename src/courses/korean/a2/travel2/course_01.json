@@ -1,0 +1,270 @@
+{
+    "id": "course_ko_108",
+    "title": "第 1 课：호텔을 예약하고 싶습니다（想预订酒店）",
+    "titleVi": "제1과: 호텔을 예약하고 싶습니다",
+    "order": 1,
+    "scenario": "travel2",
+    "goals": [
+        "掌握「-는 것」（动名词化）",
+        "掌握「-(으)니까」（因为…所以）",
+        "能预订酒店、确认日程",
+        "能描述机场/旅行流程"
+    ],
+    "words": [
+        {
+            "id": "ko_a2_yeyakhada",
+            "name": "예약하다",
+            "trans": [
+                "预订"
+            ],
+            "tags": [
+                "travel2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_hotel",
+            "name": "호텔",
+            "trans": [
+                "酒店"
+            ],
+            "tags": [
+                "travel2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_bihaenggi",
+            "name": "비행기",
+            "trans": [
+                "飞机"
+            ],
+            "tags": [
+                "travel2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_yeogwon",
+            "name": "여권",
+            "trans": [
+                "护照"
+            ],
+            "tags": [
+                "travel2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_jim",
+            "name": "짐",
+            "trans": [
+                "行李"
+            ],
+            "tags": [
+                "travel2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_gonghang",
+            "name": "공항",
+            "trans": [
+                "机场"
+            ],
+            "tags": [
+                "travel2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_gwangwangji",
+            "name": "관광지",
+            "trans": [
+                "景点"
+            ],
+            "tags": [
+                "travel2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_annae",
+            "name": "안내",
+            "trans": [
+                "指南",
+                "引导"
+            ],
+            "tags": [
+                "travel2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_chulbalhada",
+            "name": "출발하다",
+            "trans": [
+                "出发"
+            ],
+            "tags": [
+                "travel2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_dochakhada",
+            "name": "도착하다",
+            "trans": [
+                "到达"
+            ],
+            "tags": [
+                "travel2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_sukso",
+            "name": "숙소",
+            "trans": [
+                "住宿"
+            ],
+            "tags": [
+                "travel2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_iljeong",
+            "name": "일정",
+            "trans": [
+                "日程"
+            ],
+            "tags": [
+                "travel2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_ko_257",
+        "sentence_ko_258",
+        "sentence_ko_259",
+        "sentence_ko_260",
+        "sentence_ko_261",
+        "sentence_ko_262",
+        "sentence_ko_263",
+        "sentence_ko_264"
+    ],
+    "grammar": [
+        {
+            "point": "「-는 것」（动名词化）",
+            "explain": "动词词干 + 는 것，把动词变成名词短语。例：여행하다 → 여행하는 것（旅行这件事）；먹다 → 먹는 것（吃的东西/吃这件事）。常与 좋아하다 / 싫어하다 搭配：여행하는 것을 좋아합니다（喜欢旅行）。中文「…这件事 / …的东西」对应 -는 것。注意：形容词用 -(으)ㄴ 것，本课先掌握动词。",
+            "examples": [
+                {
+                    "vi": "여행하는 것을 좋아합니다.",
+                    "zh": "喜欢旅行。"
+                },
+                {
+                    "vi": "사진 찍는 것을 좋아합니다.",
+                    "zh": "喜欢拍照。"
+                }
+            ]
+        },
+        {
+            "point": "「-(으)니까」（因为…所以）",
+            "explain": "词干有收音用 -으니까，无收音用 -니까。表原因，比 -아/어서 更口语、更强调。例：비가 오니까（因为下雨）；바쁘니까（因为忙）。注意：-(으)니까 后可以接命令/劝诱，-아/어서 不行。中文「因为…所以…」对应。",
+            "examples": [
+                {
+                    "vi": "비가 오니까 우산을 가져가세요.",
+                    "zh": "因为下雨，请带伞。"
+                },
+                {
+                    "vi": "일정이 있으니까 확인해 주세요.",
+                    "zh": "因为有日程，请确认。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「喜欢旅行（这件事）」的韩语是？",
+            "options": [
+                "여행하는 것을 좋아합니다",
+                "여행하고 싶습니다",
+                "여행했습니다",
+                "여행할 겁니다"
+            ],
+            "answer": "여행하는 것을 좋아합니다"
+        },
+        {
+            "type": "choose",
+            "question": "「因为下雨」的韩语是？",
+            "options": [
+                "비가 오니까",
+                "비가 오지만",
+                "비가 오고",
+                "비가 오면"
+            ],
+            "answer": "비가 오니까"
+        },
+        {
+            "type": "choose",
+            "question": "「预订」的韩语是？",
+            "options": [
+                "예약하다",
+                "출발하다",
+                "도착하다",
+                "확인하다"
+            ],
+            "answer": "예약하다"
+        },
+        {
+            "type": "fill",
+            "question": "「护照」的韩语是？",
+            "answer": "여권"
+        },
+        {
+            "type": "fill",
+            "question": "「机场」的韩语是？",
+            "answer": "공항"
+        }
+    ]
+}

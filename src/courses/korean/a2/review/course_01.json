@@ -1,0 +1,272 @@
+{
+    "id": "course_ko_116",
+    "title": "第 1 课：드디어 A2를 끝냈습니다（终于学完 A2 了）",
+    "titleVi": "제1과: 드디어 A2를 끝냈습니다",
+    "order": 1,
+    "scenario": "review",
+    "goals": [
+        "掌握「-더라도」（即使…也）",
+        "掌握「-(으)ㄹ수록」（越…越）",
+        "能总结学习心得",
+        "能表达坚持与进步"
+    ],
+    "words": [
+        {
+            "id": "ko_a2_bokseup",
+            "name": "복습",
+            "trans": [
+                "复习"
+            ],
+            "tags": [
+                "review",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_jeongni",
+            "name": "정리",
+            "trans": [
+                "整理"
+            ],
+            "tags": [
+                "review",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_yoyak",
+            "name": "요약",
+            "trans": [
+                "摘要",
+                "总结"
+            ],
+            "tags": [
+                "review",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_jungyohada",
+            "name": "중요하다",
+            "trans": [
+                "重要"
+            ],
+            "tags": [
+                "review",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_eoryeopda",
+            "name": "어렵다",
+            "trans": [
+                "难"
+            ],
+            "tags": [
+                "review",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_swipda",
+            "name": "쉽다",
+            "trans": [
+                "容易"
+            ],
+            "tags": [
+                "review",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_gyesok",
+            "name": "계속",
+            "trans": [
+                "继续",
+                "一直"
+            ],
+            "tags": [
+                "review",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_maeil",
+            "name": "매일",
+            "trans": [
+                "每天"
+            ],
+            "tags": [
+                "review",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_deudieo",
+            "name": "드디어",
+            "trans": [
+                "终于"
+            ],
+            "tags": [
+                "review",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_iksukhada",
+            "name": "익숙하다",
+            "trans": [
+                "熟悉",
+                "习惯"
+            ],
+            "tags": [
+                "review",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_neungryeok",
+            "name": "능력",
+            "trans": [
+                "能力"
+            ],
+            "tags": [
+                "review",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_ttokttokhada",
+            "name": "똑똑하다",
+            "trans": [
+                "聪明"
+            ],
+            "tags": [
+                "review",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_ko_321",
+        "sentence_ko_322",
+        "sentence_ko_323",
+        "sentence_ko_324",
+        "sentence_ko_325",
+        "sentence_ko_326",
+        "sentence_ko_327",
+        "sentence_ko_328"
+    ],
+    "grammar": [
+        {
+            "point": "「-더라도」（即使…也）",
+            "explain": "词干 + 더라도，表「即使…也」。例：어려워도 / 어렵더라도（即使难）；바쁘더라도（即使忙）。比 -아/어도 更书面、更强调让步。中文「即使…也」对应。注意 -더라도 前不能接时态。",
+            "examples": [
+                {
+                    "vi": "어렵더라도 계속 공부하겠습니다.",
+                    "zh": "即使难也会继续学习。"
+                },
+                {
+                    "vi": "바쁘더라도 복습해야 합니다.",
+                    "zh": "即使忙也必须复习。"
+                }
+            ]
+        },
+        {
+            "point": "「-(으)ㄹ수록」（越…越）",
+            "explain": "词干有收音用 -을수록，无收音用 -ㄹ수록。表「越…越…」。例：공부할수록（越学越）；어려울수록（越难越）；많을수록（越多越）。中文「越…越…」对应。常与 -아/어지다 搭配表变化：공부할수록 재미있어집니다（越学越有趣）。",
+            "examples": [
+                {
+                    "vi": "공부할수록 재미있어집니다.",
+                    "zh": "越学越有趣。"
+                },
+                {
+                    "vi": "어려울수록 포기하지 마세요.",
+                    "zh": "越难越不要放弃。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「即使难也继续」的韩语是？",
+            "options": [
+                "어렵더라도 계속합니다",
+                "어려우면 계속합니다",
+                "어려워서 계속합니다",
+                "어렵지만 계속합니다"
+            ],
+            "answer": "어렵더라도 계속합니다"
+        },
+        {
+            "type": "choose",
+            "question": "「越学越有趣」的韩语是？",
+            "options": [
+                "공부할수록 재미있어집니다",
+                "공부하고 있습니다",
+                "공부할 겁니다",
+                "공부했습니다"
+            ],
+            "answer": "공부할수록 재미있어집니다"
+        },
+        {
+            "type": "choose",
+            "question": "「复习」的韩语是？",
+            "options": [
+                "복습",
+                "정리",
+                "요약",
+                "능력"
+            ],
+            "answer": "복습"
+        },
+        {
+            "type": "fill",
+            "question": "「每天」的韩语是？",
+            "answer": "매일"
+        },
+        {
+            "type": "fill",
+            "question": "「终于」的韩语是？",
+            "answer": "드디어"
+        }
+    ]
+}

@@ -1,0 +1,269 @@
+{
+    "id": "course_ko_112",
+    "title": "第 1 课：장래에 무엇을 하고 싶습니까?（将来想做什么？）",
+    "titleVi": "제1과: 장래에 무엇을 하고 싶습니까?",
+    "order": 1,
+    "scenario": "plans2",
+    "goals": [
+        "掌握「-(으)려고 하다」（打算…）",
+        "掌握「-(으)ㄹ 생각이다」（计划…）",
+        "能谈论未来目标与梦想",
+        "能表达决心"
+    ],
+    "words": [
+        {
+            "id": "ko_a2_kkum",
+            "name": "꿈",
+            "trans": [
+                "梦想"
+            ],
+            "tags": [
+                "plans2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_mokpyo",
+            "name": "목표",
+            "trans": [
+                "目标"
+            ],
+            "tags": [
+                "plans2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_mirae",
+            "name": "미래",
+            "trans": [
+                "未来"
+            ],
+            "tags": [
+                "plans2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_jangnae",
+            "name": "장래",
+            "trans": [
+                "将来"
+            ],
+            "tags": [
+                "plans2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_yuhak",
+            "name": "유학",
+            "trans": [
+                "留学"
+            ],
+            "tags": [
+                "plans2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_changeop",
+            "name": "창업",
+            "trans": [
+                "创业"
+            ],
+            "tags": [
+                "plans2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_noryeok",
+            "name": "노력",
+            "trans": [
+                "努力"
+            ],
+            "tags": [
+                "plans2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_pogihada",
+            "name": "포기하다",
+            "trans": [
+                "放弃"
+            ],
+            "tags": [
+                "plans2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_seonggong",
+            "name": "성공",
+            "trans": [
+                "成功"
+            ],
+            "tags": [
+                "plans2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_silpae",
+            "name": "실패",
+            "trans": [
+                "失败"
+            ],
+            "tags": [
+                "plans2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_dojeon",
+            "name": "도전",
+            "trans": [
+                "挑战"
+            ],
+            "tags": [
+                "plans2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_gyeolsim",
+            "name": "결심",
+            "trans": [
+                "决心"
+            ],
+            "tags": [
+                "plans2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_ko_289",
+        "sentence_ko_290",
+        "sentence_ko_291",
+        "sentence_ko_292",
+        "sentence_ko_293",
+        "sentence_ko_294",
+        "sentence_ko_295",
+        "sentence_ko_296"
+    ],
+    "grammar": [
+        {
+            "point": "「-(으)려고 하다」（打算…）",
+            "explain": "词干有收音用 -으려고 하다，无收音用 -려고 하다。表「打算做…」。例：유학을 가려고 합니다（打算去留学）；창업하려고 합니다（打算创业）；배우려고 합니다（打算学）。中文「打算…」对应。注意 -(으)려고 前不能接时态。",
+            "examples": [
+                {
+                    "vi": "유학을 가려고 합니다.",
+                    "zh": "打算去留学。"
+                },
+                {
+                    "vi": "한국어를 배우려고 합니다.",
+                    "zh": "打算学韩语。"
+                }
+            ]
+        },
+        {
+            "point": "「-(으)ㄹ 생각이다」（计划…）",
+            "explain": "词干有收音用 -을 생각이다，无收音用 -ㄹ 생각이다。表「计划做…」，比 -(으)려고 하다 更明确。例：창업할 생각입니다（计划创业）；여행할 생각입니다（计划旅行）。中文「计划…」对应。注意 생각 是「想法」，이다 是「是」。",
+            "examples": [
+                {
+                    "vi": "창업할 생각입니다.",
+                    "zh": "计划创业。"
+                },
+                {
+                    "vi": "내년에 유학할 생각입니다.",
+                    "zh": "计划明年留学。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「打算去留学」的韩语是？",
+            "options": [
+                "유학을 가려고 합니다",
+                "유학을 가고 싶습니다",
+                "유학을 갈 겁니다",
+                "유학을 갔습니다"
+            ],
+            "answer": "유학을 가려고 합니다"
+        },
+        {
+            "type": "choose",
+            "question": "「计划创业」的韩语是？",
+            "options": [
+                "창업할 생각입니다",
+                "창업하고 있습니다",
+                "창업했습니다",
+                "창업해야 합니다"
+            ],
+            "answer": "창업할 생각입니다"
+        },
+        {
+            "type": "choose",
+            "question": "「目标」的韩语是？",
+            "options": [
+                "목표",
+                "꿈",
+                "미래",
+                "결심"
+            ],
+            "answer": "목표"
+        },
+        {
+            "type": "fill",
+            "question": "「努力」的韩语是？",
+            "answer": "노력"
+        },
+        {
+            "type": "fill",
+            "question": "「挑战」的韩语是？",
+            "answer": "도전"
+        }
+    ]
+}

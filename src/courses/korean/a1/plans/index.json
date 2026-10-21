@@ -1,0 +1,20 @@
+{
+    "id": "plans",
+    "stage": "a1",
+    "title": "计划与周末",
+    "titleVi": "계획과 주말",
+    "courses": [
+        {
+            "id": "course_ko_016",
+            "file": "course_01.json",
+            "title": "第 1 课：주말에 무엇을 할 겁니까?",
+            "titleVi": "제1과: 주말에 무엇을 할 겁니까?"
+        },
+        {
+            "id": "course_ko_039",
+            "file": "course_02.json",
+            "title": "第 2 课：방학에 한국에 가기로 했습니다",
+            "titleVi": "제2과: 방학에 한국에 가기로 했습니다"
+        }
+    ]
+}

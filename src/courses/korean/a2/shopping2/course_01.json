@@ -1,0 +1,273 @@
+{
+    "id": "course_ko_105",
+    "title": "第 1 课：이 옷은 예쁘지만 너무 비쌉니다（这件衣服漂亮但太贵）",
+    "titleVi": "제1과: 이 옷은 예쁘지만 너무 비쌉니다",
+    "order": 1,
+    "scenario": "shopping2",
+    "goals": [
+        "掌握转折连接「-지만」（虽然…但是）",
+        "掌握义务「-아/어야 하다」（必须…）",
+        "能表达试穿、换货、退款",
+        "能讨价还价"
+    ],
+    "words": [
+        {
+            "id": "ko_a2_gyohwanhada",
+            "name": "교환하다",
+            "trans": [
+                "换（货）"
+            ],
+            "tags": [
+                "shopping2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_hwanbulhada",
+            "name": "환불하다",
+            "trans": [
+                "退款"
+            ],
+            "tags": [
+                "shopping2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_saijeu",
+            "name": "사이즈",
+            "trans": [
+                "尺码"
+            ],
+            "tags": [
+                "shopping2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_saekkkal",
+            "name": "색깔",
+            "trans": [
+                "颜色"
+            ],
+            "tags": [
+                "shopping2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_ibeoboda",
+            "name": "입어 보다",
+            "trans": [
+                "试穿"
+            ],
+            "tags": [
+                "shopping2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_neomu",
+            "name": "너무",
+            "trans": [
+                "太"
+            ],
+            "tags": [
+                "shopping2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_jogeum",
+            "name": "조금",
+            "trans": [
+                "一点",
+                "稍微"
+            ],
+            "tags": [
+                "shopping2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_dareun",
+            "name": "다른",
+            "trans": [
+                "别的",
+                "其他"
+            ],
+            "tags": [
+                "shopping2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_bakkuda",
+            "name": "바꾸다",
+            "trans": [
+                "换",
+                "改变"
+            ],
+            "tags": [
+                "shopping2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_yeongsujeung",
+            "name": "영수증",
+            "trans": [
+                "收据"
+            ],
+            "tags": [
+                "shopping2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_harin",
+            "name": "할인",
+            "trans": [
+                "打折",
+                "折扣"
+            ],
+            "tags": [
+                "shopping2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_jeongmal",
+            "name": "정말",
+            "trans": [
+                "真的"
+            ],
+            "tags": [
+                "shopping2",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_ko_233",
+        "sentence_ko_234",
+        "sentence_ko_235",
+        "sentence_ko_236",
+        "sentence_ko_237",
+        "sentence_ko_238",
+        "sentence_ko_239",
+        "sentence_ko_240"
+    ],
+    "grammar": [
+        {
+            "point": "「-지만」（虽然…但是）",
+            "explain": "形容词/动词词干 + 지만，表转折。例：비싸다 → 비싸지만（虽贵但）；예쁘다 → 예쁘지만（虽漂亮但）；좋다 → 좋지만（虽好但）。中文「虽然…但是」韩语只用一个 지만，不需要单独的「虽然」。注意 지만 前不能接时态。",
+            "examples": [
+                {
+                    "vi": "이 옷은 예쁘지만 너무 비쌉니다.",
+                    "zh": "这件衣服漂亮但太贵了。"
+                },
+                {
+                    "vi": "작지만 좋습니다.",
+                    "zh": "虽然小但很好。"
+                }
+            ]
+        },
+        {
+            "point": "「-아/어야 하다」（必须…）",
+            "explain": "词干 ㅏ/ㅗ 用 -아야 하다，其他用 -어야 하다，하다 用 -해야 하다。表义务「必须」。例：가다 → 가야 합니다（必须去）；먹다 → 먹어야 합니다（必须吃）；환불하다 → 환불해야 합니다（必须退款）。否定「不必」用 -(으)ㄹ 필요 없다。",
+            "examples": [
+                {
+                    "vi": "영수증이 있어야 합니다.",
+                    "zh": "必须有收据。"
+                },
+                {
+                    "vi": "지금 가야 합니다.",
+                    "zh": "现在必须去。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「虽然贵但好」的韩语是？",
+            "options": [
+                "비싸지만 좋습니다",
+                "비싸고 좋습니다",
+                "비싸서 좋습니다",
+                "비싸면 좋습니다"
+            ],
+            "answer": "비싸지만 좋습니다"
+        },
+        {
+            "type": "choose",
+            "question": "「必须去」的韩语是？",
+            "options": [
+                "가야 합니다",
+                "가고 싶습니다",
+                "갈 수 있습니다",
+                "가면 됩니다"
+            ],
+            "answer": "가야 합니다"
+        },
+        {
+            "type": "choose",
+            "question": "「试穿」的韩语是？",
+            "options": [
+                "입어 보다",
+                "입고 있다",
+                "입었습니다",
+                "입을 겁니다"
+            ],
+            "answer": "입어 보다"
+        },
+        {
+            "type": "fill",
+            "question": "「必须退款」→ 환불__ 합니다.（填入正确连接）",
+            "answer": "해야"
+        },
+        {
+            "type": "fill",
+            "question": "「别的颜色」→ ___ 색깔",
+            "answer": "다른"
+        }
+    ]
+}

@@ -1,0 +1,200 @@
+{
+    "id": "course_ko_013",
+    "title": "第 1 课：전화를 걸어 보세요（请打电话试试）",
+    "titleVi": "제1과: 전화를 걸어 보세요",
+    "order": 1,
+    "scenario": "phone",
+    "goals": [
+        "掌握「전화를 걸다 / 받다」",
+        "掌握「-(으)ㄹ 수 있다/없다」（能/不能）",
+        "能用「-아/어 보세요」提出建议",
+        "能询问和留下电话号码"
+    ],
+    "words": [
+        {
+            "id": "ko_a1_jeonhwa",
+            "name": "전화",
+            "trans": [
+                "电话"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_jeonhwabeonho",
+            "name": "전화번호",
+            "trans": [
+                "电话号码"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_geolda",
+            "name": "걸다",
+            "trans": [
+                "打（电话）"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_batda",
+            "name": "받다",
+            "trans": [
+                "接",
+                "收到"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_gidarida",
+            "name": "기다리다",
+            "trans": [
+                "等"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_najunge",
+            "name": "나중에",
+            "trans": [
+                "以后"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_mesiji",
+            "name": "메시지",
+            "trans": [
+                "消息",
+                "短信"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_itda",
+            "name": "있다",
+            "trans": [
+                "有",
+                "在"
+            ],
+            "tags": [
+                "phone",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_ko_095",
+        "sentence_ko_096",
+        "sentence_ko_097",
+        "sentence_ko_098",
+        "sentence_ko_099",
+        "sentence_ko_100",
+        "sentence_ko_101",
+        "sentence_ko_102"
+    ],
+    "grammar": [
+        {
+            "point": "「-(으)ㄹ 수 있다 / 없다」（能 / 不能）",
+            "explain": "动词词干有收音用 -을 수 있다，无收音用 -ㄹ 수 있다。例：가다 → 갈 수 있다（能去）；먹다 → 먹을 수 있다（能吃）。否定：-(으)ㄹ 수 없다（不能）。中文「能/会」一个词，韩语用「수 있다」结构。",
+            "examples": [
+                {
+                    "vi": "전화를 받을 수 있습니다.",
+                    "zh": "能接电话。"
+                },
+                {
+                    "vi": "지금은 갈 수 없습니다.",
+                    "zh": "现在不能去。"
+                }
+            ]
+        },
+        {
+            "point": "「전화를 걸다 / 받다」+「-아/어 보세요」",
+            "explain": "전화를 걸다 = 打电话（걸다 词干 ㄹ 脱落 → 겁니다）；전화를 받다 = 接电话。建议别人做某事用「-아/어 보세요」：전화를 걸어 보세요（请打个电话试试）。보다 原意「看」，-아/어 보다 表「尝试」。",
+            "examples": [
+                {
+                    "vi": "전화를 걸어 보세요.",
+                    "zh": "请打个电话试试。"
+                },
+                {
+                    "vi": "나중에 전화를 받을 수 있습니다.",
+                    "zh": "以后能接电话。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「전화를 걸다」的意思是？",
+            "options": [
+                "打电话",
+                "接电话",
+                "挂电话",
+                "等电话"
+            ],
+            "answer": "打电话"
+        },
+        {
+            "type": "choose",
+            "question": "「갈 수 있습니다」的意思是？",
+            "options": [
+                "能去",
+                "不能去",
+                "去了",
+                "想去"
+            ],
+            "answer": "能去"
+        },
+        {
+            "type": "fill",
+            "question": "「电话号码」的韩语是？",
+            "answer": "전화번호"
+        }
+    ]
+}

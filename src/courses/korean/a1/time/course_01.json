@@ -1,0 +1,197 @@
+{
+    "id": "course_ko_005",
+    "title": "第 1 课：지금 몇 시입니까?（现在几点？）",
+    "titleVi": "제1과: 지금 몇 시입니까?",
+    "order": 1,
+    "scenario": "time",
+    "goals": [
+        "掌握疑问词「몇」与「몇 시」",
+        "掌握固有数词 1~10 与「시 / 분」",
+        "掌握时间助词「에」",
+        "能说出上午/下午并约定时间"
+    ],
+    "words": [
+        {
+            "id": "ko_a1_jigeum",
+            "name": "지금",
+            "trans": [
+                "现在"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_myeot",
+            "name": "몇",
+            "trans": [
+                "几"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_si",
+            "name": "시",
+            "trans": [
+                "点（钟点）"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_bun",
+            "name": "분",
+            "trans": [
+                "分（分钟）"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_ojeon",
+            "name": "오전",
+            "trans": [
+                "上午"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_ohu",
+            "name": "오후",
+            "trans": [
+                "下午"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_yaksok",
+            "name": "약속",
+            "trans": [
+                "约定",
+                "约会"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_sigan",
+            "name": "시간",
+            "trans": [
+                "时间"
+            ],
+            "tags": [
+                "time",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_ko_031",
+        "sentence_ko_032",
+        "sentence_ko_033",
+        "sentence_ko_034",
+        "sentence_ko_035",
+        "sentence_ko_036",
+        "sentence_ko_037",
+        "sentence_ko_038"
+    ],
+    "grammar": [
+        {
+            "point": "固有数词 +「시 / 분」",
+            "explain": "钟点用固有数词：하나→한、둘→두、셋→세、넷→네、다섯、여섯、일곱、여덟、아홉、열。接「시」时前四个变形：한 시、두 시、세 시、네 시。分钟用「분」，也是固有数词（십오 분 = 15 分）。注意：汉字数词用于价格/电话号码，钟点用固有数词，别混。",
+            "examples": [
+                {
+                    "vi": "지금 두 시입니다.",
+                    "zh": "现在两点。"
+                },
+                {
+                    "vi": "오전 열 시 삼십 분입니다.",
+                    "zh": "上午十点三十分。"
+                }
+            ]
+        },
+        {
+            "point": "时间助词「에」与「몇 시입니까?」",
+            "explain": "에 接在时间名词后表示「在…（时间）」，如 두 시에（两点）。问时间用「지금 몇 시입니까?」，몇 = 「几」。注意：에 与第 4 课位置 에 同形，但一个标时间、一个标位置，靠名词性质区分。",
+            "examples": [
+                {
+                    "vi": "오후 세 시에 약속이 있습니다.",
+                    "zh": "下午三点有约。"
+                },
+                {
+                    "vi": "지금 몇 시입니까?",
+                    "zh": "现在几点？"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「现在几点？」的韩语是？",
+            "options": [
+                "지금 몇 시입니까?",
+                "지금 무엇입니까?",
+                "여기는 어디입니까?"
+            ],
+            "answer": "지금 몇 시입니까?"
+        },
+        {
+            "type": "choose",
+            "question": "「두 시」的意思是？",
+            "options": [
+                "两点",
+                "三点",
+                "十二点",
+                "两分"
+            ],
+            "answer": "两点"
+        },
+        {
+            "type": "fill",
+            "question": "「三点」的韩语是？",
+            "answer": "세 시"
+        }
+    ]
+}

@@ -1,0 +1,197 @@
+{
+    "id": "course_ko_009",
+    "title": "第 1 课：취미가 무엇입니까?（爱好是什么？）",
+    "titleVi": "제1과: 취미가 무엇입니까?",
+    "order": 1,
+    "scenario": "hobbies",
+    "goals": [
+        "掌握「N을/를 좋아하다 / 싫어하다」",
+        "掌握「취미가 무엇입니까?」的问法",
+        "能说出常见爱好名称",
+        "能用「보다 / 듣다」表达看电影、听音乐"
+    ],
+    "words": [
+        {
+            "id": "ko_a1_chwimi",
+            "name": "취미",
+            "trans": [
+                "爱好"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_yeonghwa",
+            "name": "영화",
+            "trans": [
+                "电影"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_eumak",
+            "name": "음악",
+            "trans": [
+                "音乐"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_undong",
+            "name": "운동",
+            "trans": [
+                "运动"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_joahada",
+            "name": "좋아하다",
+            "trans": [
+                "喜欢"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_sireohada",
+            "name": "싫어하다",
+            "trans": [
+                "讨厌"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_boda",
+            "name": "보다",
+            "trans": [
+                "看"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_deutda",
+            "name": "듣다",
+            "trans": [
+                "听"
+            ],
+            "tags": [
+                "hobbies",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_ko_063",
+        "sentence_ko_064",
+        "sentence_ko_065",
+        "sentence_ko_066",
+        "sentence_ko_067",
+        "sentence_ko_068",
+        "sentence_ko_069",
+        "sentence_ko_070"
+    ],
+    "grammar": [
+        {
+            "point": "「N을/를 좋아하다 / 싫어하다」",
+            "explain": "좋아하다 = 喜欢，싫어하다 = 讨厌，都是 하다 动词，正式体 -ㅂ니다 形式为 좋아합니다 / 싫어합니다。宾语用 을/를：영화를 좋아합니다（喜欢电影）、운동을 싫어합니다（讨厌运动）。中文「喜欢」后面直接接名词，韩语要加助词。",
+            "examples": [
+                {
+                    "vi": "저는 영화를 좋아합니다.",
+                    "zh": "我喜欢电影。"
+                },
+                {
+                    "vi": "운동을 싫어합니까?",
+                    "zh": "讨厌运动吗？"
+                }
+            ]
+        },
+        {
+            "point": "「취미가 무엇입니까?」",
+            "explain": "취미 = 爱好。问爱好用「취미가 무엇입니까?」，回答「제 취미는 N입니다」或「N을/를 좋아합니다」。注意这里用 이/가 标主语（新信息），回答时用 은/는 标主题。제 = 저 + 의 的缩略，表「我的」。",
+            "examples": [
+                {
+                    "vi": "취미가 무엇입니까?",
+                    "zh": "你的爱好是什么？"
+                },
+                {
+                    "vi": "제 취미는 음악입니다.",
+                    "zh": "我的爱好是音乐。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「좋아하다」的意思是？",
+            "options": [
+                "喜欢",
+                "讨厌",
+                "看",
+                "听"
+            ],
+            "answer": "喜欢"
+        },
+        {
+            "type": "choose",
+            "question": "「영화__ 좋아합니다.」填入正确的助词：",
+            "options": [
+                "를",
+                "을",
+                "가",
+                "는"
+            ],
+            "answer": "를"
+        },
+        {
+            "type": "fill",
+            "question": "「音乐」的韩语是？",
+            "answer": "음악"
+        }
+    ]
+}

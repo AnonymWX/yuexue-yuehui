@@ -1,0 +1,214 @@
+{
+    "id": "course_ko_020",
+    "title": "第 2 课：이 음식은 매워요（这个菜很辣）",
+    "titleVi": "제2과: 이 음식은 매워요",
+    "order": 2,
+    "scenario": "food",
+    "goals": [
+        "掌握五味：맵다 / 달다 / 짜다 / 시다 / 쓰다",
+        "掌握「-아/어요」非正式敬语（对比 -ㅂ니다）",
+        "能点餐与评价味道",
+        "能说出常见饮料与餐厅用语"
+    ],
+    "words": [
+        {
+            "id": "ko_a1_maepda",
+            "name": "맵다",
+            "trans": [
+                "辣"
+            ],
+            "tags": [
+                "food",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_dalda",
+            "name": "달다",
+            "trans": [
+                "甜"
+            ],
+            "tags": [
+                "food",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_jjada",
+            "name": "짜다",
+            "trans": [
+                "咸"
+            ],
+            "tags": [
+                "food",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_sida",
+            "name": "시다",
+            "trans": [
+                "酸"
+            ],
+            "tags": [
+                "food",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_sseuda",
+            "name": "쓰다",
+            "trans": [
+                "苦"
+            ],
+            "tags": [
+                "food",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_eumryo",
+            "name": "음료",
+            "trans": [
+                "饮料"
+            ],
+            "tags": [
+                "food",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_sikdang",
+            "name": "식당",
+            "trans": [
+                "餐厅",
+                "食堂"
+            ],
+            "tags": [
+                "food",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_menyu",
+            "name": "메뉴",
+            "trans": [
+                "菜单"
+            ],
+            "tags": [
+                "food",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_ko_151",
+        "sentence_ko_152",
+        "sentence_ko_153",
+        "sentence_ko_154",
+        "sentence_ko_155",
+        "sentence_ko_156",
+        "sentence_ko_157",
+        "sentence_ko_158"
+    ],
+    "grammar": [
+        {
+            "point": "五味「맵다 / 달다 / 짜다 / 시다 / 쓰다」",
+            "explain": "五味形容词：맵다（辣）、달다（甜）、짜다（咸）、시다（酸）、쓰다（苦）。都有收音或无收音差异，正式体：맵습니다 / 답니다 / 짭니다 / 십니다 / 씁니다。注意 맵다、짜다 是 ㅂ 不规则，맵 → 매우 + ㅂ니다 = 맵습니다；짜 → 짜 + ㅂ니다 = 짭니다。中文「辣/甜/咸/酸/苦」一一对应。",
+            "examples": [
+                {
+                    "vi": "이 음식은 맵습니다.",
+                    "zh": "这个菜很辣。"
+                },
+                {
+                    "vi": "김치는 조금 짭니다.",
+                    "zh": "泡菜有点咸。"
+                }
+            ]
+        },
+        {
+            "point": "「-아/어요」非正式敬语",
+            "explain": "-아/어요 是日常口语最常用的敬语，比 -ㅂ니다 随意，比 반말 礼貌。词干 ㅏ/ㅗ 用 -아요，其他用 -어요，하다 用 -해요。例：먹다 → 먹어요；가다 → 가요；맵다 → 매워요（ㅂ 不规则）；좋다 → 좋아요。中文没有对应，但日常对话几乎都用 -아/어요，正式场合才用 -ㅂ니다。",
+            "examples": [
+                {
+                    "vi": "이 음식은 매워요.",
+                    "zh": "这个菜很辣。"
+                },
+                {
+                    "vi": "물 좀 주세요.",
+                    "zh": "请给我点水。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「辣」的韩语是？",
+            "options": [
+                "맵다",
+                "달다",
+                "짜다",
+                "시다"
+            ],
+            "answer": "맵다"
+        },
+        {
+            "type": "choose",
+            "question": "「这个菜很辣」口语说法？",
+            "options": [
+                "이 음식은 매워요",
+                "이 음식은 맵습니다요",
+                "이 음식은 매운요",
+                "이 음식은 맵어요"
+            ],
+            "answer": "이 음식은 매워요"
+        },
+        {
+            "type": "choose",
+            "question": "「咸」的韩语是？",
+            "options": [
+                "짜다",
+                "달다",
+                "쓰다",
+                "시다"
+            ],
+            "answer": "짜다"
+        },
+        {
+            "type": "fill",
+            "question": "「甜」的韩语是？",
+            "answer": "달다"
+        },
+        {
+            "type": "fill",
+            "question": "「菜单」的韩语是？",
+            "answer": "메뉴"
+        }
+    ]
+}

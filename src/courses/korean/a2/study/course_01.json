@@ -1,0 +1,272 @@
+{
+    "id": "course_ko_106",
+    "title": "第 1 课：시험이 있기 때문에 공부해야 합니다（因为要考试必须学习）",
+    "titleVi": "제1과: 시험이 있기 때문에 공부해야 합니다",
+    "order": 1,
+    "scenario": "study",
+    "goals": [
+        "掌握「-기 때문에」（因为…所以）",
+        "掌握「-기로 하다」（决定做…）",
+        "能谈论课程、考试、作业",
+        "能表达决定与计划"
+    ],
+    "words": [
+        {
+            "id": "ko_a2_sueop",
+            "name": "수업",
+            "trans": [
+                "课",
+                "课程"
+            ],
+            "tags": [
+                "study",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_siheom",
+            "name": "시험",
+            "trans": [
+                "考试"
+            ],
+            "tags": [
+                "study",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_sukje",
+            "name": "숙제",
+            "trans": [
+                "作业"
+            ],
+            "tags": [
+                "study",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_doseogwan",
+            "name": "도서관",
+            "trans": [
+                "图书馆"
+            ],
+            "tags": [
+                "study",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_jeongong",
+            "name": "전공",
+            "trans": [
+                "专业"
+            ],
+            "tags": [
+                "study",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_seongjeok",
+            "name": "성적",
+            "trans": [
+                "成绩"
+            ],
+            "tags": [
+                "study",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_joreophada",
+            "name": "졸업하다",
+            "trans": [
+                "毕业"
+            ],
+            "tags": [
+                "study",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_iphakhada",
+            "name": "입학하다",
+            "trans": [
+                "入学"
+            ],
+            "tags": [
+                "study",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_junbihada",
+            "name": "준비하다",
+            "trans": [
+                "准备"
+            ],
+            "tags": [
+                "study",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_jilmun",
+            "name": "질문",
+            "trans": [
+                "问题",
+                "提问"
+            ],
+            "tags": [
+                "study",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_daedap",
+            "name": "대답",
+            "trans": [
+                "回答"
+            ],
+            "tags": [
+                "study",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_baeuda",
+            "name": "배우다",
+            "trans": [
+                "学",
+                "学习"
+            ],
+            "tags": [
+                "study",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_ko_241",
+        "sentence_ko_242",
+        "sentence_ko_243",
+        "sentence_ko_244",
+        "sentence_ko_245",
+        "sentence_ko_246",
+        "sentence_ko_247",
+        "sentence_ko_248"
+    ],
+    "grammar": [
+        {
+            "point": "「-기 때문에」（因为…所以）",
+            "explain": "动词/形容词词干 + 기 때문에，表原因，比 -아/어서 更正式、更强调因果。例：바쁘기 때문에（因为忙）、시험이 있기 때문에（因为有考试）。注意：-기 때문에 后可接时态和命令/劝诱，而 -아/어서 不行。中文「因为…所以…」对应这个结构。",
+            "examples": [
+                {
+                    "vi": "시험이 있기 때문에 공부해야 합니다.",
+                    "zh": "因为要考试必须学习。"
+                },
+                {
+                    "vi": "바쁘기 때문에 갈 수 없습니다.",
+                    "zh": "因为忙不能去。"
+                }
+            ]
+        },
+        {
+            "point": "「-기로 하다」（决定做…）",
+            "explain": "动词词干 + 기로 하다，表「决定做某事」。例：공부하기로 했습니다（决定学习）；가기로 했습니다（决定去）；한국어를 배우기로 했습니다（决定学韩语）。中文「决定…」对应这个结构。注意是「决定」不是「打算」，打算用 -(으)ㄹ 겁니다。",
+            "examples": [
+                {
+                    "vi": "도서관에서 공부하기로 했습니다.",
+                    "zh": "决定在图书馆学习。"
+                },
+                {
+                    "vi": "내일 시험을 준비하기로 했습니다.",
+                    "zh": "决定准备明天的考试。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「因为忙」的韩语是？",
+            "options": [
+                "바쁘기 때문에",
+                "바쁘지만",
+                "바쁘고",
+                "바쁘면"
+            ],
+            "answer": "바쁘기 때문에"
+        },
+        {
+            "type": "choose",
+            "question": "「决定学习」的韩语是？",
+            "options": [
+                "공부하기로 했습니다",
+                "공부하고 싶습니다",
+                "공부해야 합니다",
+                "공부할 겁니다"
+            ],
+            "answer": "공부하기로 했습니다"
+        },
+        {
+            "type": "choose",
+            "question": "「考试」的韩语是？",
+            "options": [
+                "시험",
+                "숙제",
+                "수업",
+                "성적"
+            ],
+            "answer": "시험"
+        },
+        {
+            "type": "fill",
+            "question": "「因为下雨不能去」→ 비가 오기 ___ 갈 수 없습니다.（填入「因为」）",
+            "answer": "때문에"
+        },
+        {
+            "type": "fill",
+            "question": "「作业」的韩语是？",
+            "answer": "숙제"
+        }
+    ]
+}

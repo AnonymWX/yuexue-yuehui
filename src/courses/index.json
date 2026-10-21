@@ -64,7 +64,46 @@
                 "titleVi": "제1단계",
                 "cefr": "A1",
                 "themes": [
-                    "greeting"
+                    "greeting",
+                    "objects",
+                    "actions",
+                    "places",
+                    "time",
+                    "shopping",
+                    "food",
+                    "weather",
+                    "hobbies",
+                    "family",
+                    "daily",
+                    "transport",
+                    "phone",
+                    "health",
+                    "travel",
+                    "plans"
+                ]
+            },
+            {
+                "id": "a2",
+                "title": "第二阶段",
+                "titleVi": "제2단계",
+                "cefr": "A2",
+                "themes": [
+                    "daily_life",
+                    "feelings",
+                    "weather2",
+                    "food_order",
+                    "shopping2",
+                    "study",
+                    "work",
+                    "travel2",
+                    "health2",
+                    "phone2",
+                    "culture",
+                    "plans2",
+                    "experience",
+                    "hobbies2",
+                    "transport2",
+                    "review"
                 ]
             }
         ]

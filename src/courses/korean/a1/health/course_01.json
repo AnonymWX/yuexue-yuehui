@@ -1,0 +1,198 @@
+{
+    "id": "course_ko_014",
+    "title": "第 1 课：몸이 아픕니까?（身体不舒服吗？）",
+    "titleVi": "제1과: 몸이 아픕니까?",
+    "order": 1,
+    "scenario": "health",
+    "goals": [
+        "掌握身体部位名称",
+        "掌握「아프다」（疼/病）",
+        "掌握「-아/어서」（因为）",
+        "掌握「-(으)면」（如果）"
+    ],
+    "words": [
+        {
+            "id": "ko_a1_geongang",
+            "name": "건강",
+            "trans": [
+                "健康"
+            ],
+            "tags": [
+                "health",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_apeuda",
+            "name": "아프다",
+            "trans": [
+                "疼",
+                "生病"
+            ],
+            "tags": [
+                "health",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_meori",
+            "name": "머리",
+            "trans": [
+                "头"
+            ],
+            "tags": [
+                "health",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_bae",
+            "name": "배",
+            "trans": [
+                "肚子"
+            ],
+            "tags": [
+                "health",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_gamgi",
+            "name": "감기",
+            "trans": [
+                "感冒"
+            ],
+            "tags": [
+                "health",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_yak",
+            "name": "약",
+            "trans": [
+                "药"
+            ],
+            "tags": [
+                "health",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_byeongwon",
+            "name": "병원",
+            "trans": [
+                "医院"
+            ],
+            "tags": [
+                "health",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_swida",
+            "name": "쉬다",
+            "trans": [
+                "休息"
+            ],
+            "tags": [
+                "health",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_ko_103",
+        "sentence_ko_104",
+        "sentence_ko_105",
+        "sentence_ko_106",
+        "sentence_ko_107",
+        "sentence_ko_108",
+        "sentence_ko_109",
+        "sentence_ko_110"
+    ],
+    "grammar": [
+        {
+            "point": "「-아/어서」（因为）",
+            "explain": "词干最后元音 ㅏ/ㅗ 用 -아서，其他用 -어서，하다 用 -해서。表原因：아파서（因为疼）、바빠서（因为忙）。注意 -아/어서 前不能接时态。中文「因为…所以…」韩语常只用前半句。",
+            "examples": [
+                {
+                    "vi": "머리가 아파서 약을 먹습니다.",
+                    "zh": "因为头疼所以吃药。"
+                },
+                {
+                    "vi": "감기에 걸려서 병원에 갑니다.",
+                    "zh": "因为感冒所以去医院。"
+                }
+            ]
+        },
+        {
+            "point": "「-(으)면」（如果 / 的话）",
+            "explain": "词干有收音用 -으면，无收音用 -면：아프면（如果疼）、바쁘면（如果忙）。表条件或假设。例：아프면 쉬세요（不舒服就休息）。注意 -면 前不能接时态。",
+            "examples": [
+                {
+                    "vi": "아프면 병원에 가세요.",
+                    "zh": "不舒服的话去医院。"
+                },
+                {
+                    "vi": "피곤하면 쉬세요.",
+                    "zh": "累的话休息一下。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「아프다」的意思是？",
+            "options": [
+                "疼/生病",
+                "健康",
+                "累",
+                "高兴"
+            ],
+            "answer": "疼/生病"
+        },
+        {
+            "type": "choose",
+            "question": "「머리가 아파__ 약을 먹습니다.」填入正确的连接：",
+            "options": [
+                "서",
+                "면",
+                "고",
+                "지만"
+            ],
+            "answer": "서"
+        },
+        {
+            "type": "fill",
+            "question": "「医院」的韩语是？",
+            "answer": "병원"
+        }
+    ]
+}

@@ -1,0 +1,198 @@
+{
+    "id": "course_ko_002",
+    "title": "第 1 课：이것은 무엇입니까?（这是什么？）",
+    "titleVi": "제1과: 이것은 무엇입니까?",
+    "order": 1,
+    "scenario": "objects",
+    "goals": [
+        "掌握指示代词「이것 / 그것 / 저것」",
+        "掌握疑问代词「무엇」与「무엇입니까?」",
+        "能用「N은/는 N입니다」描述物品",
+        "能用「N이/가 아닙니다」作否定回答"
+    ],
+    "words": [
+        {
+            "id": "ko_a1_igeot",
+            "name": "이것",
+            "trans": [
+                "这个"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_geugeot",
+            "name": "그것",
+            "trans": [
+                "那个"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_jeogeot",
+            "name": "저것",
+            "trans": [
+                "那个（远指）"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_mueot",
+            "name": "무엇",
+            "trans": [
+                "什么"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_chaek",
+            "name": "책",
+            "trans": [
+                "书"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_gabang",
+            "name": "가방",
+            "trans": [
+                "包",
+                "书包"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_sigye",
+            "name": "시계",
+            "trans": [
+                "钟",
+                "表"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_jigap",
+            "name": "지갑",
+            "trans": [
+                "钱包"
+            ],
+            "tags": [
+                "objects",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_ko_007",
+        "sentence_ko_008",
+        "sentence_ko_009",
+        "sentence_ko_010",
+        "sentence_ko_011",
+        "sentence_ko_012",
+        "sentence_ko_013",
+        "sentence_ko_014"
+    ],
+    "grammar": [
+        {
+            "point": "指示代词「이것 / 그것 / 저것」",
+            "explain": "韩语按距离分三级：이것 = 离说话人近（这）；그것 = 离听话人近或双方稍远（那）；저것 = 双方都远（那个）。后接主题助词 은/는 时分别是 이것은 / 그것은 / 저것은（都无收音 → 는）。中文只有「这/那」两级，注意 그것 与 저것 的远近差别。",
+            "examples": [
+                {
+                    "vi": "이것은 책입니다.",
+                    "zh": "这是书。"
+                },
+                {
+                    "vi": "그것은 가방입니다.",
+                    "zh": "那是包。"
+                }
+            ]
+        },
+        {
+            "point": "疑问句「무엇입니까?」与否定「이/가 아닙니다」",
+            "explain": "무엇 = 「什么」。问「这是什么」用「이것은 무엇입니까?」，回答用「N은/는 N입니다」。否定用「N이/가 아닙니다」（有收音用 이，无收音用 가）：책 → 책이 아닙니다；가방 → 가방이 아닙니다；지갑 → 지갑이 아닙니다。",
+            "examples": [
+                {
+                    "vi": "이것은 무엇입니까?",
+                    "zh": "这是什么？"
+                },
+                {
+                    "vi": "아니요, 그것은 지갑이 아닙니다.",
+                    "zh": "不，那不是钱包。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "离说话人很近的东西，用哪个词？",
+            "options": [
+                "이것",
+                "그것",
+                "저것"
+            ],
+            "answer": "이것"
+        },
+        {
+            "type": "choose",
+            "question": "「그것__ 책입니다.」填入正确的助词：",
+            "options": [
+                "은",
+                "는",
+                "이",
+                "가"
+            ],
+            "answer": "은"
+        },
+        {
+            "type": "fill",
+            "question": "저것은 ___입니다.（填入「表」的韩语）",
+            "answer": "시계"
+        }
+    ]
+}

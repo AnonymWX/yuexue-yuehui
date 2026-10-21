@@ -1,0 +1,26 @@
+{
+    "id": "objects",
+    "stage": "a1",
+    "title": "物品与指示代词",
+    "titleVi": "물건과 지시대명사",
+    "courses": [
+        {
+            "id": "course_ko_002",
+            "file": "course_01.json",
+            "title": "第 1 课：이것은 무엇입니까?",
+            "titleVi": "제1과: 이것은 무엇입니까?"
+        },
+        {
+            "id": "course_ko_018",
+            "file": "course_02.json",
+            "title": "第 2 课：책상 위에 있습니다",
+            "titleVi": "제2과: 책상 위에 있습니다"
+        },
+        {
+            "id": "course_ko_023",
+            "file": "course_03.json",
+            "title": "第 3 课：몇 개입니까?",
+            "titleVi": "제3과: 몇 개입니까?"
+        }
+    ]
+}

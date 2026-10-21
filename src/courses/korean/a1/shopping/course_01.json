@@ -1,0 +1,197 @@
+{
+    "id": "course_ko_006",
+    "title": "第 1 课：얼마입니까?（多少钱？）",
+    "titleVi": "제1과: 얼마입니까?",
+    "order": 1,
+    "scenario": "shopping",
+    "goals": [
+        "掌握疑问词「얼마」与货币单位「원」",
+        "掌握形容词「비싸다 / 싸다」",
+        "掌握动词「사다 / 팔다」与宾语助词",
+        "掌握场所助词「에서」（在…做）"
+    ],
+    "words": [
+        {
+            "id": "ko_a1_eolma",
+            "name": "얼마",
+            "trans": [
+                "多少（钱）"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_won",
+            "name": "원",
+            "trans": [
+                "韩元"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_bissada",
+            "name": "비싸다",
+            "trans": [
+                "贵"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_ssada",
+            "name": "싸다",
+            "trans": [
+                "便宜"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_sada",
+            "name": "사다",
+            "trans": [
+                "买"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_palda",
+            "name": "팔다",
+            "trans": [
+                "卖"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_sijang",
+            "name": "시장",
+            "trans": [
+                "市场"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_syupeo",
+            "name": "슈퍼마켓",
+            "trans": [
+                "超市"
+            ],
+            "tags": [
+                "shopping",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_ko_039",
+        "sentence_ko_040",
+        "sentence_ko_041",
+        "sentence_ko_042",
+        "sentence_ko_043",
+        "sentence_ko_044",
+        "sentence_ko_045",
+        "sentence_ko_046"
+    ],
+    "grammar": [
+        {
+            "point": "「얼마입니까?」+ 货币「원」",
+            "explain": "问价格用「N은/는 얼마입니까?」，回答「N원입니다」。원 是韩元，数字用汉字数词（일/이/삼…），如 만 원（一万韩元）、오천 원（五千韩元）。中文问「多少钱」不分正式/非正式，韩语这里用正式体。",
+            "examples": [
+                {
+                    "vi": "이 책은 얼마입니까?",
+                    "zh": "这本书多少钱？"
+                },
+                {
+                    "vi": "만 원입니다.",
+                    "zh": "一万韩元。"
+                }
+            ]
+        },
+        {
+            "point": "「비싸다 / 싸다」+「에서」",
+            "explain": "비싸다 = 贵，싸다 = 便宜，正式体分别是 비쌉니다 / 쌉니다（ㅆ 有收音 → -습니다）。에서 表示动作发生的场所：「시장에서 사다」= 在市场买。注意 에 是存在位置，에서 是动作场所。",
+            "examples": [
+                {
+                    "vi": "너무 비쌉니다.",
+                    "zh": "太贵了。"
+                },
+                {
+                    "vi": "시장에서 책을 삽니다.",
+                    "zh": "在市场买书。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「얼마입니까?」的意思是？",
+            "options": [
+                "多少钱？",
+                "是什么？",
+                "在哪里？",
+                "是谁？"
+            ],
+            "answer": "多少钱？"
+        },
+        {
+            "type": "choose",
+            "question": "「비싸다」的反义词是？",
+            "options": [
+                "싸다",
+                "좋다",
+                "나쁘다",
+                "덥다"
+            ],
+            "answer": "싸다"
+        },
+        {
+            "type": "fill",
+            "question": "「在市场买书」→ 시장에서 책을 ___.（填入「买」的正式体）",
+            "answer": "삽니다"
+        }
+    ]
+}

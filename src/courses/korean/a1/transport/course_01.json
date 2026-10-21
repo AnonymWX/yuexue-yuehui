@@ -1,0 +1,198 @@
+{
+    "id": "course_ko_012",
+    "title": "第 1 课：학교에 어떻게 갑니까?（怎么去学校？）",
+    "titleVi": "제1과: 학교에 어떻게 갑니까?",
+    "order": 1,
+    "scenario": "transport",
+    "goals": [
+        "掌握交通工具名称",
+        "掌握「N을/를 타다」（乘坐）与「에서 내리다」（在…下车）",
+        "掌握「어떻게」（怎么）问方式",
+        "能用「얼마나 걸립니까?」问用时"
+    ],
+    "words": [
+        {
+            "id": "ko_a1_beoseu",
+            "name": "버스",
+            "trans": [
+                "公交车"
+            ],
+            "tags": [
+                "transport",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_jihacheol",
+            "name": "지하철",
+            "trans": [
+                "地铁"
+            ],
+            "tags": [
+                "transport",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_taeksi",
+            "name": "택시",
+            "trans": [
+                "出租车"
+            ],
+            "tags": [
+                "transport",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_tada",
+            "name": "타다",
+            "trans": [
+                "乘坐"
+            ],
+            "tags": [
+                "transport",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_naerida",
+            "name": "내리다",
+            "trans": [
+                "下车"
+            ],
+            "tags": [
+                "transport",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_eotteoke",
+            "name": "어떻게",
+            "trans": [
+                "怎么"
+            ],
+            "tags": [
+                "transport",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_eolmana",
+            "name": "얼마나",
+            "trans": [
+                "多久",
+                "多少"
+            ],
+            "tags": [
+                "transport",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_geollida",
+            "name": "걸리다",
+            "trans": [
+                "花费（时间）"
+            ],
+            "tags": [
+                "transport",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_ko_087",
+        "sentence_ko_088",
+        "sentence_ko_089",
+        "sentence_ko_090",
+        "sentence_ko_091",
+        "sentence_ko_092",
+        "sentence_ko_093",
+        "sentence_ko_094"
+    ],
+    "grammar": [
+        {
+            "point": "「N을/를 타다」+「에서 내리다」",
+            "explain": "交通工具作宾语：버스를 타다（坐公交）、지하철을 타다（坐地铁）、택시를 타다（打车）。내리다 = 下车，前面接「场所 + 에서」：학교에서 내립니다（在学校下车）。注意 에 是位置，에서 是动作发生场所。",
+            "examples": [
+                {
+                    "vi": "버스를 탑니다.",
+                    "zh": "坐公交车。"
+                },
+                {
+                    "vi": "학교 앞에서 내립니다.",
+                    "zh": "在学校前下车。"
+                }
+            ]
+        },
+        {
+            "point": "「어떻게 갑니까?」+「얼마나 걸립니까?」",
+            "explain": "어떻게 = 怎么（问方式），가다 = 去。问「怎么去」用「어떻게 갑니까?」。얼마나 걸리다 = 花多久，问用时「얼마나 걸립니까?」。回答用时间 + 걸립니다，如 삼십 분 걸립니다（花三十分钟）。",
+            "examples": [
+                {
+                    "vi": "학교에 어떻게 갑니까?",
+                    "zh": "怎么去学校？"
+                },
+                {
+                    "vi": "삼십 분 걸립니다.",
+                    "zh": "花三十分钟。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「지하철」的意思是？",
+            "options": [
+                "地铁",
+                "公交车",
+                "出租车",
+                "火车"
+            ],
+            "answer": "地铁"
+        },
+        {
+            "type": "choose",
+            "question": "「버스__ 탑니다.」填入正确的助词：",
+            "options": [
+                "를",
+                "을",
+                "가",
+                "는"
+            ],
+            "answer": "를"
+        },
+        {
+            "type": "fill",
+            "question": "「花多久？」→ 얼마나 ___.（填入「花费」的正式体）",
+            "answer": "걸립니까"
+        }
+    ]
+}

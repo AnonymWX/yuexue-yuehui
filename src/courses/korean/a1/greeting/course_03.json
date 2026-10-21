@@ -1,0 +1,220 @@
+{
+    "id": "course_ko_022",
+    "title": "第 3 课：나이가 어떻게 되십니까?（您多大年纪？）",
+    "titleVi": "제3과: 나이가 어떻게 되십니까?",
+    "order": 3,
+    "scenario": "greeting",
+    "goals": [
+        "掌握敬语问年龄「나이가 어떻게 되십니까?」与平辈「몇 살입니까?」",
+        "掌握敬语词尾「-시-」",
+        "能说出年龄、生日、住址",
+        "能完成完整自我介绍（姓名 + 年龄 + 职业 + 住址）"
+    ],
+    "words": [
+        {
+            "id": "ko_a1_nai",
+            "name": "나이",
+            "trans": [
+                "年龄"
+            ],
+            "tags": [
+                "greeting",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_saengil",
+            "name": "생일",
+            "trans": [
+                "生日"
+            ],
+            "tags": [
+                "greeting",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_juso",
+            "name": "주소",
+            "trans": [
+                "住址",
+                "地址"
+            ],
+            "tags": [
+                "greeting",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_sal",
+            "name": "살",
+            "trans": [
+                "岁"
+            ],
+            "tags": [
+                "greeting",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_myeot",
+            "name": "몇",
+            "trans": [
+                "几"
+            ],
+            "tags": [
+                "greeting",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_sinbun",
+            "name": "신분",
+            "trans": [
+                "身份"
+            ],
+            "tags": [
+                "greeting",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_yeollin",
+            "name": "열",
+            "trans": [
+                "十"
+            ],
+            "tags": [
+                "greeting",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_seumul",
+            "name": "스물",
+            "trans": [
+                "二十"
+            ],
+            "tags": [
+                "greeting",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_ko_167",
+        "sentence_ko_168",
+        "sentence_ko_169",
+        "sentence_ko_170",
+        "sentence_ko_171",
+        "sentence_ko_172",
+        "sentence_ko_173",
+        "sentence_ko_174"
+    ],
+    "grammar": [
+        {
+            "point": "敬语问年龄 vs 平辈问年龄",
+            "explain": "对长辈/初次见面：「나이가 어떻게 되십니까?」（您多大年纪？）——用 되십니다 敬语。对平辈/晚辈：「나이가 몇 살입니까?」或「몇 살이에요?」。回答都用固有数词 + 살：열 살（10 岁）、스물 살（20 岁）、서른 살（30 岁）。中文「您多大」不分敬语，韩语必须按对象选句型，对长辈用「몇 살」会被认为失礼。",
+            "examples": [
+                {
+                    "vi": "나이가 어떻게 되십니까?",
+                    "zh": "您多大年纪？"
+                },
+                {
+                    "vi": "저는 스물 살입니다.",
+                    "zh": "我二十岁。"
+                }
+            ]
+        },
+        {
+            "point": "敬语词尾「-시-」",
+            "explain": "-시- 插在动词/形容词词干和词尾之间，表对主语的尊敬。例：가다 → 가십니다（您去）；되다 → 되십니다（您成为/是）；있다 → 있으십니다（您在）。本课「어떻게 되십니까?」就是 되다 + 시 + ㅂ니까。注意：只有主语需要尊敬时才加 -시-，说自己不用。中文没有对应语法，靠「您」体现。",
+            "examples": [
+                {
+                    "vi": "나이가 어떻게 되십니까?",
+                    "zh": "您多大年纪？"
+                },
+                {
+                    "vi": "선생님은 어디에 사십니까?",
+                    "zh": "老师您住在哪里？"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "对长辈问年龄，用哪句？",
+            "options": [
+                "나이가 어떻게 되십니까?",
+                "나이가 몇 살입니까?",
+                "몇 살이에요?",
+                "나이가 있습니까?"
+            ],
+            "answer": "나이가 어떻게 되십니까?"
+        },
+        {
+            "type": "choose",
+            "question": "「我二十岁」的韩语是？",
+            "options": [
+                "저는 스물 살입니다",
+                "저는 이십 살입니다",
+                "저는 스물입니다",
+                "저는 이십입니다"
+            ],
+            "answer": "저는 스물 살입니다"
+        },
+        {
+            "type": "choose",
+            "question": "「生日」的韩语是？",
+            "options": [
+                "생일",
+                "나이",
+                "주소",
+                "신분"
+            ],
+            "answer": "생일"
+        },
+        {
+            "type": "choose",
+            "question": "敬语「您去」的韩语是？",
+            "options": [
+                "가십니다",
+                "갑니다",
+                "가십니까",
+                "가요"
+            ],
+            "answer": "가십니다"
+        },
+        {
+            "type": "fill",
+            "question": "「住址」的韩语是？",
+            "answer": "주소"
+        }
+    ]
+}

@@ -1,0 +1,200 @@
+{
+    "id": "course_ko_010",
+    "title": "第 1 课：가족이 몇 명입니까?（家里几口人？）",
+    "titleVi": "제1과: 가족이 몇 명입니까?",
+    "order": 1,
+    "scenario": "family",
+    "goals": [
+        "掌握量词「명 / 살」与固有数词",
+        "掌握助词「의」（的）",
+        "能说出常见家人称呼",
+        "能介绍家庭成员"
+    ],
+    "words": [
+        {
+            "id": "ko_a1_gajok",
+            "name": "가족",
+            "trans": [
+                "家人",
+                "家庭"
+            ],
+            "tags": [
+                "family",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_bumonim",
+            "name": "부모님",
+            "trans": [
+                "父母"
+            ],
+            "tags": [
+                "family",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_abeoji",
+            "name": "아버지",
+            "trans": [
+                "父亲"
+            ],
+            "tags": [
+                "family",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_eomeoni",
+            "name": "어머니",
+            "trans": [
+                "母亲"
+            ],
+            "tags": [
+                "family",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_dongsaeng",
+            "name": "동생",
+            "trans": [
+                "弟弟",
+                "妹妹"
+            ],
+            "tags": [
+                "family",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_halmeoni",
+            "name": "할머니",
+            "trans": [
+                "奶奶",
+                "外婆"
+            ],
+            "tags": [
+                "family",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_myeong",
+            "name": "명",
+            "trans": [
+                "名（人量词）"
+            ],
+            "tags": [
+                "family",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_sal",
+            "name": "살",
+            "trans": [
+                "岁"
+            ],
+            "tags": [
+                "family",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_ko_071",
+        "sentence_ko_072",
+        "sentence_ko_073",
+        "sentence_ko_074",
+        "sentence_ko_075",
+        "sentence_ko_076",
+        "sentence_ko_077",
+        "sentence_ko_078"
+    ],
+    "grammar": [
+        {
+            "point": "量词「명 / 살」+ 固有数词",
+            "explain": "人数用「固有数词 + 명」：한 명、두 명、세 명、네 명（1~4 变形）。年龄用「固有数词 + 살」：열 살（10 岁）、스무 살（20 岁）。固有数词：하나→한、둘→두、셋→세、넷→네、다섯、여섯、일곱、여덟、아홉、열。注意：价格/电话号码用汉字数词，人数/年龄用固有数词。",
+            "examples": [
+                {
+                    "vi": "우리 가족은 네 명입니다.",
+                    "zh": "我家四口人。"
+                },
+                {
+                    "vi": "동생은 열 살입니다.",
+                    "zh": "弟弟十岁。"
+                }
+            ]
+        },
+        {
+            "point": "助词「의」（的）",
+            "explain": "의 表所属关系，相当于中文「的」：아버지의 이름（父亲的名字）。口语中 의 常读作 에：아버지에 이름。저 + 의 缩略为 제（我的）。注意与 은/는/이/가 的分工：의 只表所属，不作主语/主题。",
+            "examples": [
+                {
+                    "vi": "아버지의 이름은 무엇입니까?",
+                    "zh": "父亲的名字是什么？"
+                },
+                {
+                    "vi": "제 어머니는 선생님입니다.",
+                    "zh": "我母亲是老师。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「네 명」的意思是？",
+            "options": [
+                "四个人",
+                "四岁",
+                "四个人名",
+                "四次"
+            ],
+            "answer": "四个人"
+        },
+        {
+            "type": "choose",
+            "question": "「동생」的意思是？",
+            "options": [
+                "弟弟/妹妹",
+                "哥哥",
+                "父亲",
+                "母亲"
+            ],
+            "answer": "弟弟/妹妹"
+        },
+        {
+            "type": "fill",
+            "question": "「父亲」的韩语是？",
+            "answer": "아버지"
+        }
+    ]
+}

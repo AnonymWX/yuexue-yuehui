@@ -1,0 +1,200 @@
+{
+    "id": "course_ko_008",
+    "title": "第 1 课：날씨가 좋습니다（天气好）",
+    "titleVi": "제1과: 날씨가 좋습니다",
+    "order": 1,
+    "scenario": "weather",
+    "goals": [
+        "掌握形容词主语助词「이/가」",
+        "掌握「좋다 / 나쁘다 / 덥다 / 춥다」",
+        "掌握「비가 오다 / 눈이 오다」固定搭配",
+        "能描述天气"
+    ],
+    "words": [
+        {
+            "id": "ko_a1_nalssi",
+            "name": "날씨",
+            "trans": [
+                "天气"
+            ],
+            "tags": [
+                "weather",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_jota",
+            "name": "좋다",
+            "trans": [
+                "好"
+            ],
+            "tags": [
+                "weather",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_nappeuda",
+            "name": "나쁘다",
+            "trans": [
+                "坏",
+                "不好"
+            ],
+            "tags": [
+                "weather",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_deopda",
+            "name": "덥다",
+            "trans": [
+                "热"
+            ],
+            "tags": [
+                "weather",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_chupda",
+            "name": "춥다",
+            "trans": [
+                "冷"
+            ],
+            "tags": [
+                "weather",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_bi",
+            "name": "비",
+            "trans": [
+                "雨"
+            ],
+            "tags": [
+                "weather",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_nun",
+            "name": "눈",
+            "trans": [
+                "雪",
+                "眼睛"
+            ],
+            "tags": [
+                "weather",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_oda",
+            "name": "오다",
+            "trans": [
+                "来",
+                "下（雨/雪）"
+            ],
+            "tags": [
+                "weather",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_ko_055",
+        "sentence_ko_056",
+        "sentence_ko_057",
+        "sentence_ko_058",
+        "sentence_ko_059",
+        "sentence_ko_060",
+        "sentence_ko_061",
+        "sentence_ko_062"
+    ],
+    "grammar": [
+        {
+            "point": "形容词主语助词「이/가」",
+            "explain": "形容词作谓语时，主语用 이/가（有收音用 이，无收音用 가）：날씨가 좋습니다（天气好）、날씨가 나쁩니다。注意与 은/는 的区别：은/는 表主题/对比，이/가 表新信息主语。初学者记「天气类形容词句用 가」即可。덥다 → 덥습니다（ㅂ 不规则，词干 덥 + 습니다），춥다 → 춥습니다。",
+            "examples": [
+                {
+                    "vi": "날씨가 좋습니다.",
+                    "zh": "天气好。"
+                },
+                {
+                    "vi": "지금은 덥습니다.",
+                    "zh": "现在热。"
+                }
+            ]
+        },
+        {
+            "point": "「비가 오다 / 눈이 오다」",
+            "explain": "韩语「下雨/下雪」用「비/눈 + 가 + 오다（来）」，不说「비가 내리다」以外的东西。正式体：비가 옵니다 / 눈이 옵니다。오다 词干 오 无收音 → -ㅂ니다。问句：비가 옵니까?（下雨吗？）",
+            "examples": [
+                {
+                    "vi": "비가 옵니다.",
+                    "zh": "下雨。"
+                },
+                {
+                    "vi": "눈이 옵니까?",
+                    "zh": "下雪吗？"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「춥다」的意思是？",
+            "options": [
+                "冷",
+                "热",
+                "好",
+                "坏"
+            ],
+            "answer": "冷"
+        },
+        {
+            "type": "choose",
+            "question": "「비가 ___.」填入正确的动词：",
+            "options": [
+                "옵니다",
+                "먹습니다",
+                "삽니다",
+                "팝니다"
+            ],
+            "answer": "옵니다"
+        },
+        {
+            "type": "fill",
+            "question": "「天气好」→ 날씨가 ___.（填入「好」的正式体）",
+            "answer": "좋습니다"
+        }
+    ]
+}

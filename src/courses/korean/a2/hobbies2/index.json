@@ -1,0 +1,14 @@
+{
+    "id": "hobbies2",
+    "stage": "a2",
+    "title": "兴趣与休闲",
+    "titleVi": "취미와 여가",
+    "courses": [
+        {
+            "id": "course_ko_114",
+            "file": "course_01.json",
+            "title": "第 1 课：주말에는 등산을 곤 합니다",
+            "titleVi": "제1과: 주말에는 등산을 곤 합니다"
+        }
+    ]
+}

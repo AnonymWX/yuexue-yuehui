@@ -1,0 +1,270 @@
+{
+    "id": "course_ko_102",
+    "title": "第 1 课：기분이 좋아 보입니다（心情看起来不错）",
+    "titleVi": "제1과: 기분이 좋아 보입니다",
+    "order": 1,
+    "scenario": "feelings",
+    "goals": [
+        "掌握「-고 싶다」（想…）",
+        "掌握「-아/어하다」（第三人称情感）",
+        "能用「-아/어 보이다」表达「看起来…」",
+        "能描述自己和他人的心情"
+    ],
+    "words": [
+        {
+            "id": "ko_a2_gibun",
+            "name": "기분",
+            "trans": [
+                "心情"
+            ],
+            "tags": [
+                "feelings",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_gippeuda",
+            "name": "기쁘다",
+            "trans": [
+                "高兴"
+            ],
+            "tags": [
+                "feelings",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_seulpeuda",
+            "name": "슬프다",
+            "trans": [
+                "悲伤"
+            ],
+            "tags": [
+                "feelings",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_hwanada",
+            "name": "화나다",
+            "trans": [
+                "生气"
+            ],
+            "tags": [
+                "feelings",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_geokjeonghada",
+            "name": "걱정하다",
+            "trans": [
+                "担心"
+            ],
+            "tags": [
+                "feelings",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_museopda",
+            "name": "무섭다",
+            "trans": [
+                "害怕"
+            ],
+            "tags": [
+                "feelings",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_bureopda",
+            "name": "부럽다",
+            "trans": [
+                "羡慕"
+            ],
+            "tags": [
+                "feelings",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_oeropda",
+            "name": "외롭다",
+            "trans": [
+                "孤独"
+            ],
+            "tags": [
+                "feelings",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_jollida",
+            "name": "졸리다",
+            "trans": [
+                "困"
+            ],
+            "tags": [
+                "feelings",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_baegopeuda",
+            "name": "배고프다",
+            "trans": [
+                "饿"
+            ],
+            "tags": [
+                "feelings",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_seuteureseu",
+            "name": "스트레스",
+            "trans": [
+                "压力"
+            ],
+            "tags": [
+                "feelings",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_pyeonanhada",
+            "name": "편안하다",
+            "trans": [
+                "舒服",
+                "安心"
+            ],
+            "tags": [
+                "feelings",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_ko_209",
+        "sentence_ko_210",
+        "sentence_ko_211",
+        "sentence_ko_212",
+        "sentence_ko_213",
+        "sentence_ko_214",
+        "sentence_ko_215",
+        "sentence_ko_216"
+    ],
+    "grammar": [
+        {
+            "point": "「-고 싶다」（想…）",
+            "explain": "动词词干 + 고 싶다，表第一人称「想」。例：가고 싶다（想去）、먹고 싶다（想吃）、자고 싶다（想睡）。正式体：-고 싶습니다。注意：第二/三人称「想」用 -고 싶어하다（见下一点）。中文「想」一个词，韩语按人称分两种。",
+            "examples": [
+                {
+                    "vi": "지금 자고 싶습니다.",
+                    "zh": "现在想睡。"
+                },
+                {
+                    "vi": "한국에 가고 싶습니다.",
+                    "zh": "想去韩国。"
+                }
+            ]
+        },
+        {
+            "point": "「-아/어하다」+「-아/어 보이다」",
+            "explain": "-아/어하다：形容词 + 아/어하다 转成动词，专用于第三人称情感：기쁘다 → 기뻐하다（他高兴）；슬프다 → 슬퍼하다（他悲伤）。-아/어 보이다：表「看起来…」：좋아 보이다（看起来好）、피곤해 보이다（看起来累）。中文「他高兴」和「看起来高兴」是两个结构，韩语分别用这两个。",
+            "examples": [
+                {
+                    "vi": "동생이 기뻐합니다.",
+                    "zh": "弟弟很高兴。"
+                },
+                {
+                    "vi": "기분이 좋아 보입니다.",
+                    "zh": "心情看起来不错。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「想去」的韩语是？",
+            "options": [
+                "가고 싶습니다",
+                "가아 싶습니다",
+                "가서 싶습니다",
+                "가면 싶습니다"
+            ],
+            "answer": "가고 싶습니다"
+        },
+        {
+            "type": "choose",
+            "question": "「看起来累」的韩语是？",
+            "options": [
+                "피곤해 보입니다",
+                "피곤하고 있습니다",
+                "피곤했습니다",
+                "피곤합니다"
+            ],
+            "answer": "피곤해 보입니다"
+        },
+        {
+            "type": "choose",
+            "question": "第三人称「他高兴」用？",
+            "options": [
+                "기뻐합니다",
+                "기쁩니다",
+                "기쁘고 싶습니다",
+                "기뻐 보입니다"
+            ],
+            "answer": "기뻐합니다"
+        },
+        {
+            "type": "fill",
+            "question": "「想吃」→ 먹고 ___.（填入「想」的正式体）",
+            "answer": "싶습니다"
+        },
+        {
+            "type": "fill",
+            "question": "「心情看起来好」→ 기분이 좋아 ___.（填入「看起来」的正式体）",
+            "answer": "보입니다"
+        }
+    ]
+}

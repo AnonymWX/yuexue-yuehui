@@ -1,0 +1,20 @@
+{
+    "id": "time",
+    "stage": "a1",
+    "title": "时间与约定",
+    "titleVi": "시간과 약속",
+    "courses": [
+        {
+            "id": "course_ko_005",
+            "file": "course_01.json",
+            "title": "第 1 课：지금 몇 시입니까?",
+            "titleVi": "제1과: 지금 몇 시입니까?"
+        },
+        {
+            "id": "course_ko_027",
+            "file": "course_02.json",
+            "title": "第 2 课：월요일부터 금요일까지 바쁩니다",
+            "titleVi": "제2과: 월요일부터 금요일까지 바쁩니다"
+        }
+    ]
+}

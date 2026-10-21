@@ -1,0 +1,269 @@
+{
+    "id": "course_ko_111",
+    "title": "第 1 课：한국의 명절에 대해 알아봅시다（了解一下韩国的节日）",
+    "titleVi": "제1과: 한국의 명절에 대해 알아봅시다",
+    "order": 1,
+    "scenario": "culture",
+    "goals": [
+        "掌握「-에 대해」（关于…）",
+        "掌握「-(으)ㅂ시다」（一起…吧）",
+        "能介绍韩国主要节日",
+        "能表达文化习俗"
+    ],
+    "words": [
+        {
+            "id": "ko_a2_munhwa",
+            "name": "문화",
+            "trans": [
+                "文化"
+            ],
+            "tags": [
+                "culture",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_jeontong",
+            "name": "전통",
+            "trans": [
+                "传统"
+            ],
+            "tags": [
+                "culture",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_hanbok",
+            "name": "한복",
+            "trans": [
+                "韩服"
+            ],
+            "tags": [
+                "culture",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_seollal",
+            "name": "설날",
+            "trans": [
+                "春节"
+            ],
+            "tags": [
+                "culture",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_chuseok",
+            "name": "추석",
+            "trans": [
+                "中秋"
+            ],
+            "tags": [
+                "culture",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_myeongjeol",
+            "name": "명절",
+            "trans": [
+                "节日"
+            ],
+            "tags": [
+                "culture",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_sebae",
+            "name": "세배",
+            "trans": [
+                "拜年"
+            ],
+            "tags": [
+                "culture",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_tteok",
+            "name": "떡",
+            "trans": [
+                "年糕"
+            ],
+            "tags": [
+                "culture",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_songpyeon",
+            "name": "송편",
+            "trans": [
+                "松饼"
+            ],
+            "tags": [
+                "culture",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_gung",
+            "name": "궁",
+            "trans": [
+                "宫"
+            ],
+            "tags": [
+                "culture",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_gwangwanggaek",
+            "name": "관광객",
+            "trans": [
+                "游客"
+            ],
+            "tags": [
+                "culture",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_yejeol",
+            "name": "예절",
+            "trans": [
+                "礼仪"
+            ],
+            "tags": [
+                "culture",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_ko_281",
+        "sentence_ko_282",
+        "sentence_ko_283",
+        "sentence_ko_284",
+        "sentence_ko_285",
+        "sentence_ko_286",
+        "sentence_ko_287",
+        "sentence_ko_288"
+    ],
+    "grammar": [
+        {
+            "point": "「-에 대해」（关于…）",
+            "explain": "名词 + 에 대해(서)，表「关于…」。例：한국 문화에 대해（关于韩国文化）；명절에 대해（关于节日）；전통에 대해（关于传统）。后面常接 알아보다（了解）、이야기하다（谈论）。中文「关于…」对应。注意 에 대해 是固定搭配，不能拆。",
+            "examples": [
+                {
+                    "vi": "한국의 명절에 대해 알아봅시다.",
+                    "zh": "了解一下韩国的节日吧。"
+                },
+                {
+                    "vi": "한국 문화에 대해 이야기합니다.",
+                    "zh": "谈论韩国文化。"
+                }
+            ]
+        },
+        {
+            "point": "「-(으)ㅂ시다」（一起…吧）",
+            "explain": "动词词干有收音用 -읍시다，无收音用 -ㅂ시다。表提议「一起做…吧」。例：알아보다 → 알아봅시다（一起了解吧）；먹다 → 먹읍시다（一起吃吧）；가다 → 갑시다（一起走吧）。中文「…吧」对应。注意：对长辈不能用 -(으)ㅂ시다，要用 -(으)십시오。",
+            "examples": [
+                {
+                    "vi": "같이 알아봅시다.",
+                    "zh": "一起了解一下吧。"
+                },
+                {
+                    "vi": "한복을 입어 봅시다.",
+                    "zh": "试试穿韩服吧。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「关于韩国文化」的韩语是？",
+            "options": [
+                "한국 문화에 대해",
+                "한국 문화에 있고",
+                "한국 문화지만",
+                "한국 문화하면"
+            ],
+            "answer": "한국 문화에 대해"
+        },
+        {
+            "type": "choose",
+            "question": "「一起了解吧」的韩语是？",
+            "options": [
+                "같이 알아봅시다",
+                "같이 알았습니다",
+                "같이 알 겁니다",
+                "같이 알아야 합니다"
+            ],
+            "answer": "같이 알아봅시다"
+        },
+        {
+            "type": "choose",
+            "question": "「拜年」的韩语是？",
+            "options": [
+                "세배",
+                "송편",
+                "한복",
+                "예절"
+            ],
+            "answer": "세배"
+        },
+        {
+            "type": "fill",
+            "question": "「中秋」的韩语是？",
+            "answer": "추석"
+        },
+        {
+            "type": "fill",
+            "question": "「韩服」的韩语是？",
+            "answer": "한복"
+        }
+    ]
+}

@@ -1,0 +1,198 @@
+{
+    "id": "course_ko_007",
+    "title": "第 1 课：맛있습니다（好吃）",
+    "titleVi": "제1과: 맛있습니다",
+    "order": 1,
+    "scenario": "food",
+    "goals": [
+        "掌握「맛있다 / 맛없다」",
+        "掌握动词「먹다 / 마시다」与宾语助词",
+        "能说出常见食物名称",
+        "能用「무엇을 ~ㅂ니까?」询问吃什么/喝什么"
+    ],
+    "words": [
+        {
+            "id": "ko_a1_eumsik",
+            "name": "음식",
+            "trans": [
+                "食物",
+                "菜"
+            ],
+            "tags": [
+                "food",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_bap",
+            "name": "밥",
+            "trans": [
+                "饭"
+            ],
+            "tags": [
+                "food",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_gimchi",
+            "name": "김치",
+            "trans": [
+                "泡菜"
+            ],
+            "tags": [
+                "food",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_mul",
+            "name": "물",
+            "trans": [
+                "水"
+            ],
+            "tags": [
+                "food",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_masitda",
+            "name": "맛있다",
+            "trans": [
+                "好吃"
+            ],
+            "tags": [
+                "food",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_maseopda",
+            "name": "맛없다",
+            "trans": [
+                "不好吃"
+            ],
+            "tags": [
+                "food",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_meokda",
+            "name": "먹다",
+            "trans": [
+                "吃"
+            ],
+            "tags": [
+                "food",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        },
+        {
+            "id": "ko_a1_masida",
+            "name": "마시다",
+            "trans": [
+                "喝"
+            ],
+            "tags": [
+                "food",
+                "A1"
+            ],
+            "source": [
+                "korean_a1"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_ko_047",
+        "sentence_ko_048",
+        "sentence_ko_049",
+        "sentence_ko_050",
+        "sentence_ko_051",
+        "sentence_ko_052",
+        "sentence_ko_053",
+        "sentence_ko_054"
+    ],
+    "grammar": [
+        {
+            "point": "「맛있다 / 맛없다」",
+            "explain": "맛 = 味道，있다/없다 = 有/没有，合起来就是「好吃 / 不好吃」。正式体：맛있습니다 / 맛없습니다。主语用 이/가：음식이 맛있습니다（菜好吃）。注意맛없다 是「不好吃」，不是「没味道」。",
+            "examples": [
+                {
+                    "vi": "한국 음식이 맛있습니다.",
+                    "zh": "韩国菜好吃。"
+                },
+                {
+                    "vi": "이 음식은 맛없습니다.",
+                    "zh": "这个菜不好吃。"
+                }
+            ]
+        },
+        {
+            "point": "「을/를 먹다 / 마시다」",
+            "explain": "먹다 = 吃（固体），마시다 = 喝（液体）。宾语用 을/를：밥을 먹습니다（吃饭）、물을 마십니다（喝水）。正式体：먹습니다 / 마십니다（词干有收音 → -습니다）。中文「吃饭/喝水」动词不同，韩语也分 먹다/마시다，别混用。",
+            "examples": [
+                {
+                    "vi": "밥을 먹습니다.",
+                    "zh": "吃饭。"
+                },
+                {
+                    "vi": "물을 마십니까?",
+                    "zh": "喝水吗？"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「맛있다」的意思是？",
+            "options": [
+                "好吃",
+                "不好吃",
+                "贵",
+                "便宜"
+            ],
+            "answer": "好吃"
+        },
+        {
+            "type": "choose",
+            "question": "「물을 ___.」填入正确的动词：",
+            "options": [
+                "마십니다",
+                "먹습니다",
+                "삽니다",
+                "팝니다"
+            ],
+            "answer": "마십니다"
+        },
+        {
+            "type": "fill",
+            "question": "「吃饭」→ 밥을 ___.（填入「吃」的正式体）",
+            "answer": "먹습니다"
+        }
+    ]
+}

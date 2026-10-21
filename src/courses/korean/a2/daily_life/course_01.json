@@ -1,0 +1,272 @@
+{
+    "id": "course_ko_101",
+    "title": "第 1 课：어제 무엇을 했습니까?（昨天做了什么？）",
+    "titleVi": "제1과: 어제 무엇을 했습니까?",
+    "order": 1,
+    "scenario": "daily_life",
+    "goals": [
+        "掌握过去时「-았/었-」的规则与不规则",
+        "掌握进行时「-고 있다」",
+        "能用过去时叙述昨天做的事",
+        "能区分「-고 있다」与「-았/었-」"
+    ],
+    "words": [
+        {
+            "id": "ko_a2_eoje",
+            "name": "어제",
+            "trans": [
+                "昨天"
+            ],
+            "tags": [
+                "daily_life",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_oneul",
+            "name": "오늘",
+            "trans": [
+                "今天"
+            ],
+            "tags": [
+                "daily_life",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_ajik",
+            "name": "아직",
+            "trans": [
+                "还",
+                "尚未"
+            ],
+            "tags": [
+                "daily_life",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_beolsseo",
+            "name": "벌써",
+            "trans": [
+                "已经"
+            ],
+            "tags": [
+                "daily_life",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_pigonhada",
+            "name": "피곤하다",
+            "trans": [
+                "累",
+                "疲倦"
+            ],
+            "tags": [
+                "daily_life",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_bappeuda",
+            "name": "바쁘다",
+            "trans": [
+                "忙"
+            ],
+            "tags": [
+                "daily_life",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_cheongsohada",
+            "name": "청소하다",
+            "trans": [
+                "打扫"
+            ],
+            "tags": [
+                "daily_life",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_ppallaehada",
+            "name": "빨래하다",
+            "trans": [
+                "洗衣服"
+            ],
+            "tags": [
+                "daily_life",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_yorihada",
+            "name": "요리하다",
+            "trans": [
+                "做饭",
+                "烹饪"
+            ],
+            "tags": [
+                "daily_life",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_seolgeojihada",
+            "name": "설거지하다",
+            "trans": [
+                "洗碗"
+            ],
+            "tags": [
+                "daily_life",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_unjeonhada",
+            "name": "운전하다",
+            "trans": [
+                "开车"
+            ],
+            "tags": [
+                "daily_life",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        },
+        {
+            "id": "ko_a2_chulgeunhada",
+            "name": "출근하다",
+            "trans": [
+                "上班"
+            ],
+            "tags": [
+                "daily_life",
+                "A2"
+            ],
+            "source": [
+                "korean_a2"
+            ]
+        }
+    ],
+    "sentences": [
+        "sentence_ko_201",
+        "sentence_ko_202",
+        "sentence_ko_203",
+        "sentence_ko_204",
+        "sentence_ko_205",
+        "sentence_ko_206",
+        "sentence_ko_207",
+        "sentence_ko_208"
+    ],
+    "grammar": [
+        {
+            "point": "过去时「-았/었-」",
+            "explain": "词干最后元音 ㅏ/ㅗ 用 -았-，其他用 -었-，하다 用 -했-。例：가다 → 갔습니다（去了）；먹다 → 먹었습니다（吃了）；공부하다 → 공부했습니다（学了）。不规则：바쁘다 → 바빴습니다（ㅡ 脱落）；피곤하다 → 피곤했습니다。中文「了」对应韩语过去时，但韩语只在对过去事实陈述时用，不说「昨天去」（不自然）而说「昨天去了」。",
+            "examples": [
+                {
+                    "vi": "어제 청소했습니다.",
+                    "zh": "昨天打扫了。"
+                },
+                {
+                    "vi": "오늘 아침에 빨래했어요.",
+                    "zh": "今天早上洗了衣服。"
+                }
+            ]
+        },
+        {
+            "point": "进行时「-고 있다」",
+            "explain": "动词词干 + 고 있다，表「正在做」。例：청소하고 있습니다（正在打扫）、운전하고 있습니다（正在开车）。与过去时对比：청소했습니다（打扫了，完成）vs 청소하고 있습니다（正在打扫，进行）。中文「正在/在」对应这个结构。注意 있다 是动词，正式体 있습니다。",
+            "examples": [
+                {
+                    "vi": "지금 요리하고 있습니다.",
+                    "zh": "现在正在做饭。"
+                },
+                {
+                    "vi": "아직 설거지하고 있습니다.",
+                    "zh": "还在洗碗。"
+                }
+            ]
+        }
+    ],
+    "telex": [],
+    "exercises": [
+        {
+            "type": "choose",
+            "question": "「가다」的过去时正式体是？",
+            "options": [
+                "갔습니다",
+                "가았습니다",
+                "가습니다",
+                "갑니다"
+            ],
+            "answer": "갔습니다"
+        },
+        {
+            "type": "choose",
+            "question": "「正在打扫」的韩语是？",
+            "options": [
+                "청소하고 있습니다",
+                "청소했습니다",
+                "청소합니다",
+                "청소할 겁니다"
+            ],
+            "answer": "청소하고 있습니다"
+        },
+        {
+            "type": "choose",
+            "question": "「바쁘다」的过去时是？",
+            "options": [
+                "바빴습니다",
+                "바쁘았습니다",
+                "바쁩니다",
+                "바쁘습니다"
+            ],
+            "answer": "바빴습니다"
+        },
+        {
+            "type": "fill",
+            "question": "「昨天做了饭」→ 어제 요리___.（填入过去时正式体）",
+            "answer": "했습니다"
+        },
+        {
+            "type": "fill",
+            "question": "「正在开车」→ 운전하고 ___.（填入「在」的正式体）",
+            "answer": "있습니다"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "id": "travel2",
+    "stage": "a2",
+    "title": "旅行进阶",
+    "titleVi": "여행 심화",
+    "courses": [
+        {
+            "id": "course_ko_108",
+            "file": "course_01.json",
+            "title": "第 1 课：호텔을 예약하고 싶습니다",
+            "titleVi": "제1과: 호텔을 예약하고 싶습니다"
+        }
+    ]
+}
