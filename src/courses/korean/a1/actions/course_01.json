@@ -1,200 +1,126 @@
 {
-    "id": "course_ko_003",
-    "title": "第 1 课：한국어를 공부합니다（学习韩语）",
-    "titleVi": "제1과: 한국어를 공부합니다",
-    "order": 1,
-    "scenario": "actions",
-    "goals": [
-        "掌握宾语助词「을/를」",
-        "掌握动词正式体「-ㅂ니다/습니다」",
-        "能用「무엇을 ~ㅂ니까?」提问",
-        "能说出常见语言名称与学习动作"
-    ],
-    "words": [
+  "id": "course_ko_003",
+  "title": "第 1 课：한국어를 공부합니다（学习韩语）",
+  "titleVi": "제1과: 한국어를 공부합니다",
+  "order": 1,
+  "scenario": "actions",
+  "goals": ["掌握宾语助词「을/를」", "掌握动词正式体「-ㅂ니다/습니다」", "能用「무엇을 ~ㅂ니까?」提问", "能说出常见语言名称与学习动作"],
+  "words": [
+    {
+      "id": "ko_a1_hangugeo",
+      "name": "한국어",
+      "trans": ["韩国语", "韩语"],
+      "tags": ["actions", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_yeongeo",
+      "name": "영어",
+      "trans": ["英语"],
+      "tags": ["actions", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_ilboneo",
+      "name": "일본어",
+      "trans": ["日语"],
+      "tags": ["actions", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_junggugeo",
+      "name": "중국어",
+      "trans": ["中文", "汉语"],
+      "tags": ["actions", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_gongbuhada",
+      "name": "공부하다",
+      "trans": ["学习"],
+      "tags": ["actions", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_ilkda",
+      "name": "읽다",
+      "trans": ["读"],
+      "tags": ["actions", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_sseuda",
+      "name": "쓰다",
+      "trans": ["写"],
+      "tags": ["actions", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_malhada",
+      "name": "말하다",
+      "trans": ["说", "讲"],
+      "tags": ["actions", "A1"],
+      "source": ["korean_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_ko_a1_015",
+    "sentence_ko_a1_016",
+    "sentence_ko_a1_017",
+    "sentence_ko_a1_018",
+    "sentence_ko_a1_019",
+    "sentence_ko_a1_020",
+    "sentence_ko_a1_021",
+    "sentence_ko_a1_022"
+  ],
+  "grammar": [
+    {
+      "point": "宾语助词「을/를」",
+      "explain": "을/를 标记动词的宾语：名词最后一个音节有收音用 을，无收音用 를。한국어 → 한국어를（无收音）；책 → 책을（有收音 ㅅ）。中文没有格助词，靠语序区分主宾；韩语靠助词，语序可调整。",
+      "examples": [
         {
-            "id": "ko_a1_hangugeo",
-            "name": "한국어",
-            "trans": [
-                "韩国语",
-                "韩语"
-            ],
-            "tags": [
-                "actions",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
+          "vi": "저는 한국어를 공부합니다.",
+          "zh": "我学习韩国语。"
         },
         {
-            "id": "ko_a1_yeongeo",
-            "name": "영어",
-            "trans": [
-                "英语"
-            ],
-            "tags": [
-                "actions",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_ilboneo",
-            "name": "일본어",
-            "trans": [
-                "日语"
-            ],
-            "tags": [
-                "actions",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_junggugeo",
-            "name": "중국어",
-            "trans": [
-                "中文",
-                "汉语"
-            ],
-            "tags": [
-                "actions",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_gongbuhada",
-            "name": "공부하다",
-            "trans": [
-                "学习"
-            ],
-            "tags": [
-                "actions",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_ilkda",
-            "name": "읽다",
-            "trans": [
-                "读"
-            ],
-            "tags": [
-                "actions",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_sseuda",
-            "name": "쓰다",
-            "trans": [
-                "写"
-            ],
-            "tags": [
-                "actions",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_malhada",
-            "name": "말하다",
-            "trans": [
-                "说",
-                "讲"
-            ],
-            "tags": [
-                "actions",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
+          "vi": "책을 읽습니다.",
+          "zh": "读书。"
         }
-    ],
-    "sentences": [
-        "sentence_ko_a1_015",
-        "sentence_ko_a1_016",
-        "sentence_ko_a1_017",
-        "sentence_ko_a1_018",
-        "sentence_ko_a1_019",
-        "sentence_ko_a1_020",
-        "sentence_ko_a1_021",
-        "sentence_ko_a1_022"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "动词正式体「-ㅂ니다/습니다」",
+      "explain": "动词/形容词词干最后音节有收音用 -습니다，无收音用 -ㅂ니다。공부하다 → 공부하 + ㅂ니다 = 공부합니다；읽다 → 읽 + 습니다 = 읽습니다；말하다 → 말합니다。疑问句把 -ㅂ니다 改成 -ㅂ니까?，语序不变。",
+      "examples": [
         {
-            "point": "宾语助词「을/를」",
-            "explain": "을/를 标记动词的宾语：名词最后一个音节有收音用 을，无收音用 를。한국어 → 한국어를（无收音）；책 → 책을（有收音 ㅅ）。中文没有格助词，靠语序区分主宾；韩语靠助词，语序可调整。",
-            "examples": [
-                {
-                    "vi": "저는 한국어를 공부합니다.",
-                    "zh": "我学习韩国语。"
-                },
-                {
-                    "vi": "책을 읽습니다.",
-                    "zh": "读书。"
-                }
-            ]
+          "vi": "영어를 공부합니까?",
+          "zh": "你学习英语吗？"
         },
         {
-            "point": "动词正式体「-ㅂ니다/습니다」",
-            "explain": "动词/形容词词干最后音节有收音用 -습니다，无收音用 -ㅂ니다。공부하다 → 공부하 + ㅂ니다 = 공부합니다；읽다 → 읽 + 습니다 = 읽습니다；말하다 → 말합니다。疑问句把 -ㅂ니다 改成 -ㅂ니까?，语序不变。",
-            "examples": [
-                {
-                    "vi": "영어를 공부합니까?",
-                    "zh": "你学习英语吗？"
-                },
-                {
-                    "vi": "네, 영어를 공부합니다.",
-                    "zh": "是的，我学习英语。"
-                }
-            ]
+          "vi": "네, 영어를 공부합니다.",
+          "zh": "是的，我学习英语。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「한국어__ 공부합니다.」填入正确的助词：",
-            "options": [
-                "를",
-                "을",
-                "가",
-                "는"
-            ],
-            "answer": "를"
-        },
-        {
-            "type": "choose",
-            "question": "「읽다」的正式体是？",
-            "options": [
-                "읽습니다",
-                "읽ㅂ니다",
-                "읽니다",
-                "읽습니까"
-            ],
-            "answer": "읽습니다"
-        },
-        {
-            "type": "fill",
-            "question": "「공부하다」的正式体是？",
-            "answer": "공부합니다"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「한국어__ 공부합니다.」填入正确的助词：",
+      "options": ["를", "을", "가", "는"],
+      "answer": "를"
+    },
+    {
+      "type": "choose",
+      "question": "「읽다」的正式体是？",
+      "options": ["읽습니다", "읽ㅂ니다", "읽니다", "읽습니까"],
+      "answer": "읽습니다"
+    },
+    {
+      "type": "fill",
+      "question": "「공부하다」的正式体是？",
+      "answer": "공부합니다"
+    }
+  ]
 }

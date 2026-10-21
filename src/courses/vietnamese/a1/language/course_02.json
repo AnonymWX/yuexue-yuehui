@@ -1,191 +1,123 @@
 {
-    "id": "course_vi_15",
-    "title": "第 2 课：问国籍",
-    "titleVi": "Bài 2: Hỏi quốc tịch",
-    "order": 2,
-    "scenario": "language",
-    "goals": [
-        "学会问对方的国籍",
-        "掌握「quốc tịch」的用法",
-        "能用「người + 国名」回答国籍",
-        "能区分「người nước ngoài」与具体国籍"
-    ],
-    "words": [
+  "id": "course_vi_15",
+  "title": "第 2 课：问国籍",
+  "titleVi": "Bài 2: Hỏi quốc tịch",
+  "order": 2,
+  "scenario": "language",
+  "goals": ["学会问对方的国籍", "掌握「quốc tịch」的用法", "能用「người + 国名」回答国籍", "能区分「người nước ngoài」与具体国籍"],
+  "words": [
+    {
+      "id": "vi_quoc_tich",
+      "name": "quốc tịch",
+      "trans": ["国籍"],
+      "tags": ["language", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_nguoi",
+      "name": "người",
+      "trans": ["人"],
+      "tags": ["language", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_la",
+      "name": "là",
+      "trans": ["是"],
+      "tags": ["language", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_gi",
+      "name": "gì",
+      "trans": ["什么"],
+      "tags": ["language", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_ban_friend",
+      "name": "bạn",
+      "trans": ["你", "朋友"],
+      "tags": ["language", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_nguoi_nuoc_ngoai",
+      "name": "người nước ngoài",
+      "trans": ["外国人"],
+      "tags": ["language", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_que",
+      "name": "quê",
+      "trans": ["家乡", "故乡"],
+      "tags": ["language", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_nuoc",
+      "name": "nước",
+      "trans": ["国家", "水"],
+      "tags": ["language", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_127",
+    "sentence_vi_a1_128",
+    "sentence_vi_a1_129",
+    "sentence_vi_a1_130",
+    "sentence_vi_a1_131",
+    "sentence_vi_a1_132"
+  ],
+  "grammar": [
+    {
+      "point": "问国籍：「Quốc tịch của bạn là gì?」",
+      "explain": "问国籍标准句式是「Quốc tịch của + 人称 + là gì?」。「của」表所属，「gì」表疑问。口语中更常说「Bạn là người nước nào?」。",
+      "examples": [
         {
-            "id": "vi_quoc_tich",
-            "name": "quốc tịch",
-            "trans": [
-                "国籍"
-            ],
-            "tags": [
-                "language",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Quốc tịch của bạn là gì?",
+          "zh": "你的国籍是什么？"
         },
         {
-            "id": "vi_nguoi",
-            "name": "người",
-            "trans": [
-                "人"
-            ],
-            "tags": [
-                "language",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_la",
-            "name": "là",
-            "trans": [
-                "是"
-            ],
-            "tags": [
-                "language",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_gi",
-            "name": "gì",
-            "trans": [
-                "什么"
-            ],
-            "tags": [
-                "language",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_ban_friend",
-            "name": "bạn",
-            "trans": [
-                "你",
-                "朋友"
-            ],
-            "tags": [
-                "language",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_nguoi_nuoc_ngoai",
-            "name": "người nước ngoài",
-            "trans": [
-                "外国人"
-            ],
-            "tags": [
-                "language",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_que",
-            "name": "quê",
-            "trans": [
-                "家乡",
-                "故乡"
-            ],
-            "tags": [
-                "language",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_nuoc",
-            "name": "nước",
-            "trans": [
-                "国家",
-                "水"
-            ],
-            "tags": [
-                "language",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Bạn là người nước nào?",
+          "zh": "你是哪国人？"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_127",
-        "sentence_vi_a1_128",
-        "sentence_vi_a1_129",
-        "sentence_vi_a1_130",
-        "sentence_vi_a1_131",
-        "sentence_vi_a1_132"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "回答国籍：「Tôi là người + 国名」",
+      "explain": "回答国籍用「người + 国名」，如「người Việt Nam」（越南人）、「người Trung Quốc」（中国人）。泛指外国人用「người nước ngoài」。",
+      "examples": [
         {
-            "point": "问国籍：「Quốc tịch của bạn là gì?」",
-            "explain": "问国籍标准句式是「Quốc tịch của + 人称 + là gì?」。「của」表所属，「gì」表疑问。口语中更常说「Bạn là người nước nào?」。",
-            "examples": [
-                {
-                    "vi": "Quốc tịch của bạn là gì?",
-                    "zh": "你的国籍是什么？"
-                },
-                {
-                    "vi": "Bạn là người nước nào?",
-                    "zh": "你是哪国人？"
-                }
-            ]
+          "vi": "Tôi là người Việt Nam.",
+          "zh": "我是越南人。"
         },
         {
-            "point": "回答国籍：「Tôi là người + 国名」",
-            "explain": "回答国籍用「người + 国名」，如「người Việt Nam」（越南人）、「người Trung Quốc」（中国人）。泛指外国人用「người nước ngoài」。",
-            "examples": [
-                {
-                    "vi": "Tôi là người Việt Nam.",
-                    "zh": "我是越南人。"
-                },
-                {
-                    "vi": "Anh ấy là người nước ngoài.",
-                    "zh": "他是外国人。"
-                }
-            ]
+          "vi": "Anh ấy là người nước ngoài.",
+          "zh": "他是外国人。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「你的国籍是什么？」用越南语怎么说？",
-            "options": [
-                "Quốc tịch của bạn là gì?",
-                "Tên của bạn là gì?",
-                "Bạn ở đâu?"
-            ],
-            "answer": "Quốc tịch của bạn là gì?"
-        },
-        {
-            "type": "fill",
-            "question": "Tôi là ___ Việt Nam.",
-            "answer": "người"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「国籍」的越南语",
-            "answer": "quốc tịch"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「你的国籍是什么？」用越南语怎么说？",
+      "options": ["Quốc tịch của bạn là gì?", "Tên của bạn là gì?", "Bạn ở đâu?"],
+      "answer": "Quốc tịch của bạn là gì?"
+    },
+    {
+      "type": "fill",
+      "question": "Tôi là ___ Việt Nam.",
+      "answer": "người"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「国籍」的越南语",
+      "answer": "quốc tịch"
+    }
+  ]
 }

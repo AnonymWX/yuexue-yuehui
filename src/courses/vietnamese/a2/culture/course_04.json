@@ -1,317 +1,191 @@
 {
-    "id": "course_vi_174",
-    "title": "第 4 课：婚丧礼仪",
-    "titleVi": "Bài 4: Lễ cưới và tang lễ",
-    "order": 4,
-    "scenario": "culture",
-    "goals": [
-        "能了解越南传统婚礼流程",
-        "能说出婚礼相关词汇与祝福语",
-        "能得体地参加婚礼与葬礼",
-        "能用「chúc mừng / chia buồn」表达祝贺与哀悼"
-    ],
-    "words": [
+  "id": "course_vi_174",
+  "title": "第 4 课：婚丧礼仪",
+  "titleVi": "Bài 4: Lễ cưới và tang lễ",
+  "order": 4,
+  "scenario": "culture",
+  "goals": [
+    "能了解越南传统婚礼流程",
+    "能说出婚礼相关词汇与祝福语",
+    "能得体地参加婚礼与葬礼",
+    "能用「chúc mừng / chia buồn」表达祝贺与哀悼"
+  ],
+  "words": [
+    {
+      "id": "vi_a2_dam_cuoi",
+      "name": "đám cưới",
+      "trans": ["婚礼"],
+      "tags": ["culture", "A2", "wedding"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_le_cuoi",
+      "name": "lễ cưới",
+      "trans": ["结婚典礼"],
+      "tags": ["culture", "A2", "wedding"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_co_dau",
+      "name": "cô dâu",
+      "trans": ["新娘"],
+      "tags": ["culture", "A2", "wedding"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_chu_re",
+      "name": "chú rể",
+      "trans": ["新郎"],
+      "tags": ["culture", "A2", "wedding"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_an_hoi",
+      "name": "ăn hỏi",
+      "trans": ["订婚", "提亲"],
+      "tags": ["culture", "A2", "wedding"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_dam_cuoi_hoi",
+      "name": "đám hỏi",
+      "trans": ["订婚仪式"],
+      "tags": ["culture", "A2", "wedding"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_le_thanh_hon",
+      "name": "lễ thành hôn",
+      "trans": ["成婚礼"],
+      "tags": ["culture", "A2", "wedding"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_mung",
+      "name": "mừng",
+      "trans": ["祝贺"],
+      "tags": ["culture", "A2", "wedding"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_tang_le",
+      "name": "tang lễ",
+      "trans": ["葬礼"],
+      "tags": ["culture", "A2", "wedding"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_dam_tang",
+      "name": "đám tang",
+      "trans": ["丧事"],
+      "tags": ["culture", "A2", "wedding"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_vieng",
+      "name": "viếng",
+      "trans": ["吊唁", "拜谒"],
+      "tags": ["culture", "A2", "wedding"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_chia_buon",
+      "name": "chia buồn",
+      "trans": ["哀悼", "慰问"],
+      "tags": ["culture", "A2", "wedding"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_qua_cuoi",
+      "name": "quà cưới",
+      "trans": ["结婚礼物", "贺礼"],
+      "tags": ["culture", "A2", "wedding"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_phong_bi_mung",
+      "name": "phong bì mừng",
+      "trans": ["红包贺礼"],
+      "tags": ["culture", "A2", "wedding"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a2_249",
+    "sentence_vi_a2_250",
+    "sentence_vi_a2_251",
+    "sentence_vi_a2_252",
+    "sentence_vi_a2_253",
+    "sentence_vi_a2_254",
+    "sentence_vi_a2_255",
+    "sentence_vi_a2_256"
+  ],
+  "grammar": [
+    {
+      "point": "祝贺与哀悼：chúc mừng / chia buồn / xin chia buồn",
+      "explain": "「Chúc mừng + 人/事」= 祝贺（婚礼、生日、升职）；「Chia buồn + với + 人」= 对…表示哀悼；「Xin chia buồn cùng gia đình」= 谨向家属表示哀悼（正式）。注意：婚丧场合用语绝不可混淆。",
+      "examples": [
         {
-            "id": "vi_a2_dam_cuoi",
-            "name": "đám cưới",
-            "trans": [
-                "婚礼"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "wedding"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Chúc mừng hạnh phúc của cô dâu chú rể!",
+          "zh": "祝新郎新娘幸福！"
         },
         {
-            "id": "vi_a2_le_cuoi",
-            "name": "lễ cưới",
-            "trans": [
-                "结婚典礼"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "wedding"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Tôi xin chia buồn cùng gia đình anh.",
+          "zh": "谨向您家人表示哀悼。"
         },
         {
-            "id": "vi_a2_co_dau",
-            "name": "cô dâu",
-            "trans": [
-                "新娘"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "wedding"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_chu_re",
-            "name": "chú rể",
-            "trans": [
-                "新郎"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "wedding"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_an_hoi",
-            "name": "ăn hỏi",
-            "trans": [
-                "订婚",
-                "提亲"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "wedding"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_dam_cuoi_hoi",
-            "name": "đám hỏi",
-            "trans": [
-                "订婚仪式"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "wedding"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_le_thanh_hon",
-            "name": "lễ thành hôn",
-            "trans": [
-                "成婚礼"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "wedding"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_mung",
-            "name": "mừng",
-            "trans": [
-                "祝贺"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "wedding"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_tang_le",
-            "name": "tang lễ",
-            "trans": [
-                "葬礼"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "wedding"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_dam_tang",
-            "name": "đám tang",
-            "trans": [
-                "丧事"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "wedding"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_vieng",
-            "name": "viếng",
-            "trans": [
-                "吊唁",
-                "拜谒"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "wedding"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_chia_buon",
-            "name": "chia buồn",
-            "trans": [
-                "哀悼",
-                "慰问"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "wedding"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_qua_cuoi",
-            "name": "quà cưới",
-            "trans": [
-                "结婚礼物",
-                "贺礼"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "wedding"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_phong_bi_mung",
-            "name": "phong bì mừng",
-            "trans": [
-                "红包贺礼"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "wedding"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Chúc mừng năm mới, chúc anh và gia đình vạn sự như ý.",
+          "zh": "新年快乐，祝您和家人万事如意。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a2_249",
-        "sentence_vi_a2_250",
-        "sentence_vi_a2_251",
-        "sentence_vi_a2_252",
-        "sentence_vi_a2_253",
-        "sentence_vi_a2_254",
-        "sentence_vi_a2_255",
-        "sentence_vi_a2_256"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "参加场合：dự / tham dự / đến",
+      "explain": "参加活动三词：「dự」= 出席（正式，婚礼、会议）；「tham dự」= 参加（正式，同 dự）；「đến」= 来、到场（口语）。婚礼常用「đi đám cưới」（去参加婚礼），葬礼说「đi viếng」（去吊唁）。",
+      "examples": [
         {
-            "point": "祝贺与哀悼：chúc mừng / chia buồn / xin chia buồn",
-            "explain": "「Chúc mừng + 人/事」= 祝贺（婚礼、生日、升职）；「Chia buồn + với + 人」= 对…表示哀悼；「Xin chia buồn cùng gia đình」= 谨向家属表示哀悼（正式）。注意：婚丧场合用语绝不可混淆。",
-            "examples": [
-                {
-                    "vi": "Chúc mừng hạnh phúc của cô dâu chú rể!",
-                    "zh": "祝新郎新娘幸福！"
-                },
-                {
-                    "vi": "Tôi xin chia buồn cùng gia đình anh.",
-                    "zh": "谨向您家人表示哀悼。"
-                },
-                {
-                    "vi": "Chúc mừng năm mới, chúc anh và gia đình vạn sự như ý.",
-                    "zh": "新年快乐，祝您和家人万事如意。"
-                }
-            ]
+          "vi": "Tôi được mời dự đám cưới của bạn thân vào Chủ nhật.",
+          "zh": "我受邀参加好朋友周日的婚礼。"
         },
         {
-            "point": "参加场合：dự / tham dự / đến",
-            "explain": "参加活动三词：「dự」= 出席（正式，婚礼、会议）；「tham dự」= 参加（正式，同 dự）；「đến」= 来、到场（口语）。婚礼常用「đi đám cưới」（去参加婚礼），葬礼说「đi viếng」（去吊唁）。",
-            "examples": [
-                {
-                    "vi": "Tôi được mời dự đám cưới của bạn thân vào Chủ nhật.",
-                    "zh": "我受邀参加好朋友周日的婚礼。"
-                },
-                {
-                    "vi": "Anh có đến dự đám cưới của chị Lan không?",
-                    "zh": "你去参加兰姐的婚礼吗？"
-                },
-                {
-                    "vi": "Cả gia đình đi viếng ông nội của bạn tôi.",
-                    "zh": "全家人去吊唁我朋友的祖父。"
-                }
-            ]
+          "vi": "Anh có đến dự đám cưới của chị Lan không?",
+          "zh": "你去参加兰姐的婚礼吗？"
+        },
+        {
+          "vi": "Cả gia đình đi viếng ông nội của bạn tôi.",
+          "zh": "全家人去吊唁我朋友的祖父。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「chú rể」的意思是？",
-            "options": [
-                "新娘",
-                "新郎",
-                "主婚人",
-                "媒人"
-            ],
-            "answer": "新郎"
-        },
-        {
-            "type": "choose",
-            "question": "葬礼上最得体的表达是？",
-            "options": [
-                "Chúc mừng!",
-                "Tôi xin chia buồn cùng gia đình.",
-                "Chúc hạnh phúc!",
-                "Vạn sự như ý!"
-            ],
-            "answer": "Tôi xin chia buồn cùng gia đình."
-        },
-        {
-            "type": "fill",
-            "question": "Chúc ___ hạnh phúc của cô dâu chú rể!（祝新郎新娘幸福！）",
-            "answer": "mừng"
-        },
-        {
-            "type": "fill",
-            "question": "Tôi được mời ___ đám cưới của bạn thân vào Chủ nhật.（我受邀参加好朋友周日的婚礼）",
-            "answer": "dự"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「祝你幸福」的越南语",
-            "answer": "Chúc bạn hạnh phúc"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「chú rể」的意思是？",
+      "options": ["新娘", "新郎", "主婚人", "媒人"],
+      "answer": "新郎"
+    },
+    {
+      "type": "choose",
+      "question": "葬礼上最得体的表达是？",
+      "options": ["Chúc mừng!", "Tôi xin chia buồn cùng gia đình.", "Chúc hạnh phúc!", "Vạn sự như ý!"],
+      "answer": "Tôi xin chia buồn cùng gia đình."
+    },
+    {
+      "type": "fill",
+      "question": "Chúc ___ hạnh phúc của cô dâu chú rể!（祝新郎新娘幸福！）",
+      "answer": "mừng"
+    },
+    {
+      "type": "fill",
+      "question": "Tôi được mời ___ đám cưới của bạn thân vào Chủ nhật.（我受邀参加好朋友周日的婚礼）",
+      "answer": "dự"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「祝你幸福」的越南语",
+      "answer": "Chúc bạn hạnh phúc"
+    }
+  ]
 }

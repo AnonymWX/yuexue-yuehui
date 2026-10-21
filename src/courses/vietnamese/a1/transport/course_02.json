@@ -1,188 +1,123 @@
 {
-    "id": "course_vi_87",
-    "title": "第 2 课：坐车与买票",
-    "titleVi": "Bài 2: Đi xe và mua vé",
-    "order": 2,
-    "scenario": "transport",
-    "goals": [
-        "掌握买票相关词汇",
-        "学会问票价",
-        "掌握单程票与往返票",
-        "能完成买票对话"
-    ],
-    "words": [
+  "id": "course_vi_87",
+  "title": "第 2 课：坐车与买票",
+  "titleVi": "Bài 2: Đi xe và mua vé",
+  "order": 2,
+  "scenario": "transport",
+  "goals": ["掌握买票相关词汇", "学会问票价", "掌握单程票与往返票", "能完成买票对话"],
+  "words": [
+    {
+      "id": "vi_ve_ticket",
+      "name": "vé",
+      "trans": ["票"],
+      "tags": ["transport", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_mua_ve",
+      "name": "mua vé",
+      "trans": ["买票"],
+      "tags": ["transport", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_gia_ve",
+      "name": "giá vé",
+      "trans": ["票价"],
+      "tags": ["transport", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_ve_mot_chieu",
+      "name": "vé một chiều",
+      "trans": ["单程票"],
+      "tags": ["transport", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_ve_khu_hoi",
+      "name": "vé khứ hồi",
+      "trans": ["往返票"],
+      "tags": ["transport", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_ghe",
+      "name": "ghế",
+      "trans": ["座位"],
+      "tags": ["transport", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_so_ghe",
+      "name": "số ghế",
+      "trans": ["座位号"],
+      "tags": ["transport", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_quay_ve",
+      "name": "quầy vé",
+      "trans": ["售票处"],
+      "tags": ["transport", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_193",
+    "sentence_vi_a1_194",
+    "sentence_vi_a1_195",
+    "sentence_vi_a1_196",
+    "sentence_vi_a1_197",
+    "sentence_vi_a1_198"
+  ],
+  "grammar": [
+    {
+      "point": "「mua vé + đi + 地点」表买去哪里的票",
+      "explain": "买票用「mua vé + đi + 地点」，如「mua vé đi Hà Nội」（买去河内的票）。",
+      "examples": [
         {
-            "id": "vi_ve_ticket",
-            "name": "vé",
-            "trans": [
-                "票"
-            ],
-            "tags": [
-                "transport",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Tôi muốn mua vé đi Hà Nội.",
+          "zh": "我想买去河内的票。"
         },
         {
-            "id": "vi_mua_ve",
-            "name": "mua vé",
-            "trans": [
-                "买票"
-            ],
-            "tags": [
-                "transport",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_gia_ve",
-            "name": "giá vé",
-            "trans": [
-                "票价"
-            ],
-            "tags": [
-                "transport",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_ve_mot_chieu",
-            "name": "vé một chiều",
-            "trans": [
-                "单程票"
-            ],
-            "tags": [
-                "transport",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_ve_khu_hoi",
-            "name": "vé khứ hồi",
-            "trans": [
-                "往返票"
-            ],
-            "tags": [
-                "transport",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_ghe",
-            "name": "ghế",
-            "trans": [
-                "座位"
-            ],
-            "tags": [
-                "transport",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_so_ghe",
-            "name": "số ghế",
-            "trans": [
-                "座位号"
-            ],
-            "tags": [
-                "transport",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_quay_ve",
-            "name": "quầy vé",
-            "trans": [
-                "售票处"
-            ],
-            "tags": [
-                "transport",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Mua hai vé đi Huế.",
+          "zh": "买两张去顺化的票。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_193",
-        "sentence_vi_a1_194",
-        "sentence_vi_a1_195",
-        "sentence_vi_a1_196",
-        "sentence_vi_a1_197",
-        "sentence_vi_a1_198"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "问票价「Giá vé bao nhiêu?」",
+      "explain": "问票价用「Giá vé bao nhiêu?」，回答用具体金额加「đồng」。",
+      "examples": [
         {
-            "point": "「mua vé + đi + 地点」表买去哪里的票",
-            "explain": "买票用「mua vé + đi + 地点」，如「mua vé đi Hà Nội」（买去河内的票）。",
-            "examples": [
-                {
-                    "vi": "Tôi muốn mua vé đi Hà Nội.",
-                    "zh": "我想买去河内的票。"
-                },
-                {
-                    "vi": "Mua hai vé đi Huế.",
-                    "zh": "买两张去顺化的票。"
-                }
-            ]
+          "vi": "Giá vé bao nhiêu?",
+          "zh": "票价多少？"
         },
         {
-            "point": "问票价「Giá vé bao nhiêu?」",
-            "explain": "问票价用「Giá vé bao nhiêu?」，回答用具体金额加「đồng」。",
-            "examples": [
-                {
-                    "vi": "Giá vé bao nhiêu?",
-                    "zh": "票价多少？"
-                },
-                {
-                    "vi": "Vé một chiều là 200 nghìn.",
-                    "zh": "单程票 20 万。"
-                }
-            ]
+          "vi": "Vé một chiều là 200 nghìn.",
+          "zh": "单程票 20 万。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「往返票」用越南语怎么说？",
-            "options": [
-                "vé khứ hồi",
-                "vé một chiều",
-                "vé xe"
-            ],
-            "answer": "vé khứ hồi"
-        },
-        {
-            "type": "fill",
-            "question": "Tôi muốn mua ___ đi Hà Nội.",
-            "answer": "vé"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「票价」的越南语",
-            "answer": "giá vé"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「往返票」用越南语怎么说？",
+      "options": ["vé khứ hồi", "vé một chiều", "vé xe"],
+      "answer": "vé khứ hồi"
+    },
+    {
+      "type": "fill",
+      "question": "Tôi muốn mua ___ đi Hà Nội.",
+      "answer": "vé"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「票价」的越南语",
+      "answer": "giá vé"
+    }
+  ]
 }

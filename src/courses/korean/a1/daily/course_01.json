@@ -1,201 +1,126 @@
 {
-    "id": "course_ko_011",
-    "title": "第 1 课：아침에 무엇을 합니까?（早上做什么？）",
-    "titleVi": "제1과: 아침에 무엇을 합니까?",
-    "order": 1,
-    "scenario": "daily",
-    "goals": [
-        "掌握一天时段：아침 / 점심 / 저녁",
-        "掌握「-(으)ㄴ 후에」（之后）",
-        "掌握「-기 전에」（之前）",
-        "能描述日常动作顺序"
-    ],
-    "words": [
+  "id": "course_ko_011",
+  "title": "第 1 课：아침에 무엇을 합니까?（早上做什么？）",
+  "titleVi": "제1과: 아침에 무엇을 합니까?",
+  "order": 1,
+  "scenario": "daily",
+  "goals": ["掌握一天时段：아침 / 점심 / 저녁", "掌握「-(으)ㄴ 후에」（之后）", "掌握「-기 전에」（之前）", "能描述日常动作顺序"],
+  "words": [
+    {
+      "id": "ko_a1_achim",
+      "name": "아침",
+      "trans": ["早上", "早饭"],
+      "tags": ["daily", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_jeomsim",
+      "name": "점심",
+      "trans": ["中午", "午饭"],
+      "tags": ["daily", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_jeonyeok",
+      "name": "저녁",
+      "trans": ["晚上", "晚饭"],
+      "tags": ["daily", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_ireonada",
+      "name": "일어나다",
+      "trans": ["起床"],
+      "tags": ["daily", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_jada",
+      "name": "자다",
+      "trans": ["睡", "睡觉"],
+      "tags": ["daily", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_ssitda",
+      "name": "씻다",
+      "trans": ["洗"],
+      "tags": ["daily", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_hu",
+      "name": "후",
+      "trans": ["之后"],
+      "tags": ["daily", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_jeon",
+      "name": "전",
+      "trans": ["之前"],
+      "tags": ["daily", "A1"],
+      "source": ["korean_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_ko_a1_079",
+    "sentence_ko_a1_080",
+    "sentence_ko_a1_081",
+    "sentence_ko_a1_082",
+    "sentence_ko_a1_083",
+    "sentence_ko_a1_084",
+    "sentence_ko_a1_085",
+    "sentence_ko_a1_086"
+  ],
+  "grammar": [
+    {
+      "point": "「-(으)ㄴ 후에」（…之后）",
+      "explain": "动词词干有收音用 -은 후에，无收音用 -ㄴ 후에。例：먹다 → 먹은 후에（吃之后）；씻다 → 씻은 후에（洗之后）；자다 → 잔 후에（睡之后）。후 = 之后，에 = 时间点。中文「…之后」直接用「之后」，韩语要配合动词变形。",
+      "examples": [
         {
-            "id": "ko_a1_achim",
-            "name": "아침",
-            "trans": [
-                "早上",
-                "早饭"
-            ],
-            "tags": [
-                "daily",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
+          "vi": "아침을 먹은 후에 학교에 갑니다.",
+          "zh": "吃完早饭后去学校。"
         },
         {
-            "id": "ko_a1_jeomsim",
-            "name": "점심",
-            "trans": [
-                "中午",
-                "午饭"
-            ],
-            "tags": [
-                "daily",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_jeonyeok",
-            "name": "저녁",
-            "trans": [
-                "晚上",
-                "晚饭"
-            ],
-            "tags": [
-                "daily",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_ireonada",
-            "name": "일어나다",
-            "trans": [
-                "起床"
-            ],
-            "tags": [
-                "daily",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_jada",
-            "name": "자다",
-            "trans": [
-                "睡",
-                "睡觉"
-            ],
-            "tags": [
-                "daily",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_ssitda",
-            "name": "씻다",
-            "trans": [
-                "洗"
-            ],
-            "tags": [
-                "daily",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_hu",
-            "name": "후",
-            "trans": [
-                "之后"
-            ],
-            "tags": [
-                "daily",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_jeon",
-            "name": "전",
-            "trans": [
-                "之前"
-            ],
-            "tags": [
-                "daily",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
+          "vi": "씻은 후에 잡니다.",
+          "zh": "洗完澡睡觉。"
         }
-    ],
-    "sentences": [
-        "sentence_ko_a1_079",
-        "sentence_ko_a1_080",
-        "sentence_ko_a1_081",
-        "sentence_ko_a1_082",
-        "sentence_ko_a1_083",
-        "sentence_ko_a1_084",
-        "sentence_ko_a1_085",
-        "sentence_ko_a1_086"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「-기 전에」（…之前）",
+      "explain": "动词词干 + 기 전에，形式统一（不区分有无收音）：먹기 전에（吃之前）、자기 전에（睡之前）、일어나기 전에（起床之前）。전 = 之前。注意：-기 전에 前不能接时态。中文「…之前」也用这个结构。",
+      "examples": [
         {
-            "point": "「-(으)ㄴ 후에」（…之后）",
-            "explain": "动词词干有收音用 -은 후에，无收音用 -ㄴ 후에。例：먹다 → 먹은 후에（吃之后）；씻다 → 씻은 후에（洗之后）；자다 → 잔 후에（睡之后）。후 = 之后，에 = 时间点。中文「…之后」直接用「之后」，韩语要配合动词变形。",
-            "examples": [
-                {
-                    "vi": "아침을 먹은 후에 학교에 갑니다.",
-                    "zh": "吃完早饭后去学校。"
-                },
-                {
-                    "vi": "씻은 후에 잡니다.",
-                    "zh": "洗完澡睡觉。"
-                }
-            ]
+          "vi": "자기 전에 이를 닦습니다.",
+          "zh": "睡前刷牙。"
         },
         {
-            "point": "「-기 전에」（…之前）",
-            "explain": "动词词干 + 기 전에，形式统一（不区分有无收音）：먹기 전에（吃之前）、자기 전에（睡之前）、일어나기 전에（起床之前）。전 = 之前。注意：-기 전에 前不能接时态。中文「…之前」也用这个结构。",
-            "examples": [
-                {
-                    "vi": "자기 전에 이를 닦습니다.",
-                    "zh": "睡前刷牙。"
-                },
-                {
-                    "vi": "일어나기 전에 알람이 울립니다.",
-                    "zh": "起床之前闹钟响。"
-                }
-            ]
+          "vi": "일어나기 전에 알람이 울립니다.",
+          "zh": "起床之前闹钟响。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「아침」的意思是？",
-            "options": [
-                "早上",
-                "中午",
-                "晚上",
-                "夜里"
-            ],
-            "answer": "早上"
-        },
-        {
-            "type": "choose",
-            "question": "「먹__ 후에」填入正确形式：",
-            "options": [
-                "은",
-                "ㄴ",
-                "는",
-                "을"
-            ],
-            "answer": "은"
-        },
-        {
-            "type": "fill",
-            "question": "「睡之前」→ 자기 ___.（填入「之前」）",
-            "answer": "전에"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「아침」的意思是？",
+      "options": ["早上", "中午", "晚上", "夜里"],
+      "answer": "早上"
+    },
+    {
+      "type": "choose",
+      "question": "「먹__ 후에」填入正确形式：",
+      "options": ["은", "ㄴ", "는", "을"],
+      "answer": "은"
+    },
+    {
+      "type": "fill",
+      "question": "「睡之前」→ 자기 ___.（填入「之前」）",
+      "answer": "전에"
+    }
+  ]
 }

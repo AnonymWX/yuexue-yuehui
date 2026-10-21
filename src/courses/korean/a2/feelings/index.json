@@ -1,14 +1,14 @@
 {
-    "id": "feelings",
-    "stage": "a2",
-    "title": "情感与心情",
-    "titleVi": "감정과 기분",
-    "courses": [
-        {
-            "id": "course_ko_102",
-            "file": "course_01.json",
-            "title": "第 1 课：기분이 좋아 보입니다",
-            "titleVi": "제1과: 기분이 좋아 보입니다"
-        }
-    ]
+  "id": "feelings",
+  "stage": "a2",
+  "title": "情感与心情",
+  "titleVi": "감정과 기분",
+  "courses": [
+    {
+      "id": "course_ko_102",
+      "file": "course_01.json",
+      "title": "第 1 课：기분이 좋아 보입니다",
+      "titleVi": "제1과: 기분이 좋아 보입니다"
+    }
+  ]
 }

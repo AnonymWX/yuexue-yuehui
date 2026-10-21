@@ -1,222 +1,138 @@
 {
-    "id": "course_ko_035",
-    "title": "第 2 课：교통카드로 탑니다（用交通卡乘坐）",
-    "titleVi": "제2과: 교통카드로 탑니다",
-    "order": 2,
-    "scenario": "transport",
-    "goals": [
-        "掌握交通卡与票价「교통카드 / 요금」",
-        "掌握换乘「갈아타다」",
-        "掌握「-(으)로」（乘坐手段）",
-        "能完成买票、乘车、换乘对话"
-    ],
-    "words": [
+  "id": "course_ko_035",
+  "title": "第 2 课：교통카드로 탑니다（用交通卡乘坐）",
+  "titleVi": "제2과: 교통카드로 탑니다",
+  "order": 2,
+  "scenario": "transport",
+  "goals": ["掌握交通卡与票价「교통카드 / 요금」", "掌握换乘「갈아타다」", "掌握「-(으)로」（乘坐手段）", "能完成买票、乘车、换乘对话"],
+  "words": [
+    {
+      "id": "ko_a1_gyotongkadeu",
+      "name": "교통카드",
+      "trans": ["交通卡"],
+      "tags": ["transport", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_yogeum",
+      "name": "요금",
+      "trans": ["票价", "费用"],
+      "tags": ["transport", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_hyeongeum",
+      "name": "현금",
+      "trans": ["现金"],
+      "tags": ["transport", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_galatada",
+      "name": "갈아타다",
+      "trans": ["换乘"],
+      "tags": ["transport", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_chungjeonhada",
+      "name": "충전하다",
+      "trans": ["充值", "充电"],
+      "tags": ["transport", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_gyohwan",
+      "name": "교환",
+      "trans": ["交换", "换乘（站）"],
+      "tags": ["transport", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_hoeseon",
+      "name": "호선",
+      "trans": ["号线"],
+      "tags": ["transport", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_jongchak",
+      "name": "종착역",
+      "trans": ["终点站"],
+      "tags": ["transport", "A1"],
+      "source": ["korean_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_ko_a1_215",
+    "sentence_ko_a1_216",
+    "sentence_ko_a1_217",
+    "sentence_ko_a1_218",
+    "sentence_ko_a1_219",
+    "sentence_ko_a1_220",
+    "sentence_ko_a1_221",
+    "sentence_ko_a1_222"
+  ],
+  "grammar": [
+    {
+      "point": "「-(으)로」（乘坐 / 使用手段）",
+      "explain": "名词有收音用 -으로，无收音（或 ㄹ 收音）用 -로，表手段「用… / 乘…」。例：교통카드로（用交通卡）；버스로（坐公交）；지하철로（坐地铁）；현금으로（用现金）。本课 -으로 表「手段」，与第 2 课 places 的「方向」、第 3 课 places 的「交通方式」同形。中文「用… / 坐…」对应。注意 카드 无收音 → 카드로（不是 카드으로）。",
+      "examples": [
         {
-            "id": "ko_a1_gyotongkadeu",
-            "name": "교통카드",
-            "trans": [
-                "交通卡"
-            ],
-            "tags": [
-                "transport",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
+          "vi": "교통카드로 탑니다.",
+          "zh": "用交通卡乘坐。"
         },
         {
-            "id": "ko_a1_yogeum",
-            "name": "요금",
-            "trans": [
-                "票价",
-                "费用"
-            ],
-            "tags": [
-                "transport",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_hyeongeum",
-            "name": "현금",
-            "trans": [
-                "现金"
-            ],
-            "tags": [
-                "transport",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_galatada",
-            "name": "갈아타다",
-            "trans": [
-                "换乘"
-            ],
-            "tags": [
-                "transport",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_chungjeonhada",
-            "name": "충전하다",
-            "trans": [
-                "充值",
-                "充电"
-            ],
-            "tags": [
-                "transport",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_gyohwan",
-            "name": "교환",
-            "trans": [
-                "交换",
-                "换乘（站）"
-            ],
-            "tags": [
-                "transport",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_hoeseon",
-            "name": "호선",
-            "trans": [
-                "号线"
-            ],
-            "tags": [
-                "transport",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_jongchak",
-            "name": "종착역",
-            "trans": [
-                "终点站"
-            ],
-            "tags": [
-                "transport",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
+          "vi": "현금으로 삽니다.",
+          "zh": "用现金买。"
         }
-    ],
-    "sentences": [
-        "sentence_ko_a1_215",
-        "sentence_ko_a1_216",
-        "sentence_ko_a1_217",
-        "sentence_ko_a1_218",
-        "sentence_ko_a1_219",
-        "sentence_ko_a1_220",
-        "sentence_ko_a1_221",
-        "sentence_ko_a1_222"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "换乘「갈아타다」+ 票价「요금」",
+      "explain": "갈아타다 = 换乘（换交通工具），例：3호선에서 2호선으로 갈아탑니다（从3号线换乘2号线）。票价「요금이 얼마입니까?」（票价多少？）。充值「충전하다」：교통카드를 충전합니다（给交通卡充值）。中文「换乘 / 票价 / 充值」对应。注意 갈아타다 是由 갈다（换）+ 타다（乘）组合的复合动词。",
+      "examples": [
         {
-            "point": "「-(으)로」（乘坐 / 使用手段）",
-            "explain": "名词有收音用 -으로，无收音（或 ㄹ 收音）用 -로，表手段「用… / 乘…」。例：교통카드로（用交通卡）；버스로（坐公交）；지하철로（坐地铁）；현금으로（用现金）。本课 -으로 表「手段」，与第 2 课 places 的「方向」、第 3 课 places 的「交通方式」同形。中文「用… / 坐…」对应。注意 카드 无收音 → 카드로（不是 카드으로）。",
-            "examples": [
-                {
-                    "vi": "교통카드로 탑니다.",
-                    "zh": "用交通卡乘坐。"
-                },
-                {
-                    "vi": "현금으로 삽니다.",
-                    "zh": "用现金买。"
-                }
-            ]
+          "vi": "2호선으로 갈아탑니다.",
+          "zh": "换乘2号线。"
         },
         {
-            "point": "换乘「갈아타다」+ 票价「요금」",
-            "explain": "갈아타다 = 换乘（换交通工具），例：3호선에서 2호선으로 갈아탑니다（从3号线换乘2号线）。票价「요금이 얼마입니까?」（票价多少？）。充值「충전하다」：교통카드를 충전합니다（给交通卡充值）。中文「换乘 / 票价 / 充值」对应。注意 갈아타다 是由 갈다（换）+ 타다（乘）组合的复合动词。",
-            "examples": [
-                {
-                    "vi": "2호선으로 갈아탑니다.",
-                    "zh": "换乘2号线。"
-                },
-                {
-                    "vi": "요금이 얼마입니까?",
-                    "zh": "票价多少？"
-                }
-            ]
+          "vi": "요금이 얼마입니까?",
+          "zh": "票价多少？"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「用交通卡乘坐」的韩语是？",
-            "options": [
-                "교통카드로 탑니다",
-                "교통카드에 탑니다",
-                "교통카드를 탑니다",
-                "교통카드가 탑니다"
-            ],
-            "answer": "교통카드로 탑니다"
-        },
-        {
-            "type": "choose",
-            "question": "「换乘2号线」的韩语是？",
-            "options": [
-                "2호선으로 갈아탑니다",
-                "2호선에 갈아탑니다",
-                "2호선을 갈아탑니다",
-                "2호선이 갈아탑니다"
-            ],
-            "answer": "2호선으로 갈아탑니다"
-        },
-        {
-            "type": "choose",
-            "question": "「票价」的韩语是？",
-            "options": [
-                "요금",
-                "현금",
-                "호선",
-                "종착역"
-            ],
-            "answer": "요금"
-        },
-        {
-            "type": "choose",
-            "question": "「充值」的韩语是？",
-            "options": [
-                "충전하다",
-                "갈아타다",
-                "교환하다",
-                "타다"
-            ],
-            "answer": "충전하다"
-        },
-        {
-            "type": "fill",
-            "question": "「请给交通卡充值」→ 교통카드를 ___.（填入「充值」的敬语请求）",
-            "answer": "충전해 주세요"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「用交通卡乘坐」的韩语是？",
+      "options": ["교통카드로 탑니다", "교통카드에 탑니다", "교통카드를 탑니다", "교통카드가 탑니다"],
+      "answer": "교통카드로 탑니다"
+    },
+    {
+      "type": "choose",
+      "question": "「换乘2号线」的韩语是？",
+      "options": ["2호선으로 갈아탑니다", "2호선에 갈아탑니다", "2호선을 갈아탑니다", "2호선이 갈아탑니다"],
+      "answer": "2호선으로 갈아탑니다"
+    },
+    {
+      "type": "choose",
+      "question": "「票价」的韩语是？",
+      "options": ["요금", "현금", "호선", "종착역"],
+      "answer": "요금"
+    },
+    {
+      "type": "choose",
+      "question": "「充值」的韩语是？",
+      "options": ["충전하다", "갈아타다", "교환하다", "타다"],
+      "answer": "충전하다"
+    },
+    {
+      "type": "fill",
+      "question": "「请给交通卡充值」→ 교통카드를 ___.（填入「充值」的敬语请求）",
+      "answer": "충전해 주세요"
+    }
+  ]
 }

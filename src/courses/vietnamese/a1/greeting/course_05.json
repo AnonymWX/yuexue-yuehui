@@ -1,195 +1,123 @@
 {
-    "id": "course_vi_05",
-    "title": "第 5 课：问健康与近况",
-    "titleVi": "Bài 5: Hỏi thăm sức khỏe",
-    "order": 5,
-    "scenario": "greeting",
-    "goals": [
-        "学会问候对方健康",
-        "掌握「khỏe」相关表达",
-        "学会回应健康问候",
-        "能进行简短的寒暄对话"
-    ],
-    "words": [
+  "id": "course_vi_05",
+  "title": "第 5 课：问健康与近况",
+  "titleVi": "Bài 5: Hỏi thăm sức khỏe",
+  "order": 5,
+  "scenario": "greeting",
+  "goals": ["学会问候对方健康", "掌握「khỏe」相关表达", "学会回应健康问候", "能进行简短的寒暄对话"],
+  "words": [
+    {
+      "id": "vi_khoe",
+      "name": "khỏe",
+      "trans": ["健康", "好"],
+      "tags": ["health", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_khoe_khong",
+      "name": "khỏe không",
+      "trans": ["好吗", "身体好吗"],
+      "tags": ["health", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_binh_thuong",
+      "name": "bình thường",
+      "trans": ["一般", "平常"],
+      "tags": ["health", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_met",
+      "name": "mệt",
+      "trans": ["累", "疲劳"],
+      "tags": ["health", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_vui",
+      "name": "vui",
+      "trans": ["高兴", "开心"],
+      "tags": ["health", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_buon",
+      "name": "buồn",
+      "trans": ["难过", "伤心"],
+      "tags": ["health", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_the_nao",
+      "name": "thế nào",
+      "trans": ["怎么样"],
+      "tags": ["health", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_dao_nay",
+      "name": "dạo này",
+      "trans": ["最近", "近来"],
+      "tags": ["health", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_403",
+    "sentence_vi_a1_404",
+    "sentence_vi_a1_405",
+    "sentence_vi_a1_406",
+    "sentence_vi_a1_407",
+    "sentence_vi_a1_408"
+  ],
+  "grammar": [
+    {
+      "point": "问健康「Khỏe không?」",
+      "explain": "最常用的健康问候是「Khỏe không?」（好吗？），完整形式为「Bạn có khỏe không?」。回答常用「khỏe」、「bình thường」、「mệt」。",
+      "examples": [
         {
-            "id": "vi_khoe",
-            "name": "khỏe",
-            "trans": [
-                "健康",
-                "好"
-            ],
-            "tags": [
-                "health",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Dạo này bạn có khỏe không?",
+          "zh": "最近你好吗？"
         },
         {
-            "id": "vi_khoe_khong",
-            "name": "khỏe không",
-            "trans": [
-                "好吗",
-                "身体好吗"
-            ],
-            "tags": [
-                "health",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_binh_thuong",
-            "name": "bình thường",
-            "trans": [
-                "一般",
-                "平常"
-            ],
-            "tags": [
-                "health",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_met",
-            "name": "mệt",
-            "trans": [
-                "累",
-                "疲劳"
-            ],
-            "tags": [
-                "health",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_vui",
-            "name": "vui",
-            "trans": [
-                "高兴",
-                "开心"
-            ],
-            "tags": [
-                "health",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_buon",
-            "name": "buồn",
-            "trans": [
-                "难过",
-                "伤心"
-            ],
-            "tags": [
-                "health",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_the_nao",
-            "name": "thế nào",
-            "trans": [
-                "怎么样"
-            ],
-            "tags": [
-                "health",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_dao_nay",
-            "name": "dạo này",
-            "trans": [
-                "最近",
-                "近来"
-            ],
-            "tags": [
-                "health",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Mình khỏe, cảm ơn bạn.",
+          "zh": "我很好，谢谢你。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_403",
-        "sentence_vi_a1_404",
-        "sentence_vi_a1_405",
-        "sentence_vi_a1_406",
-        "sentence_vi_a1_407",
-        "sentence_vi_a1_408"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「Dạo này」+「thế nào?」",
+      "explain": "「Dạo này」意为「最近」，「thế nào?」意为「怎么样？」，两者结合用于询问近况。",
+      "examples": [
         {
-            "point": "问健康「Khỏe không?」",
-            "explain": "最常用的健康问候是「Khỏe không?」（好吗？），完整形式为「Bạn có khỏe không?」。回答常用「khỏe」、「bình thường」、「mệt」。",
-            "examples": [
-                {
-                    "vi": "Dạo này bạn có khỏe không?",
-                    "zh": "最近你好吗？"
-                },
-                {
-                    "vi": "Mình khỏe, cảm ơn bạn.",
-                    "zh": "我很好，谢谢你。"
-                }
-            ]
+          "vi": "Dạo này công việc thế nào?",
+          "zh": "最近工作怎么样？"
         },
         {
-            "point": "「Dạo này」+「thế nào?」",
-            "explain": "「Dạo này」意为「最近」，「thế nào?」意为「怎么样？」，两者结合用于询问近况。",
-            "examples": [
-                {
-                    "vi": "Dạo này công việc thế nào?",
-                    "zh": "最近工作怎么样？"
-                },
-                {
-                    "vi": "Dạo này bạn thế nào?",
-                    "zh": "最近你怎么样？"
-                }
-            ]
+          "vi": "Dạo này bạn thế nào?",
+          "zh": "最近你怎么样？"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「最近你好吗？」的正确说法是？",
-            "options": [
-                "Dạo này bạn có khỏe không?",
-                "Bạn dạo này khỏe có không?",
-                "Khỏe không dạo này bạn?"
-            ],
-            "answer": "Dạo này bạn có khỏe không?"
-        },
-        {
-            "type": "fill",
-            "question": "Mình ___, cảm ơn bạn.",
-            "answer": "khỏe"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「最近工作怎么样？」的越南语",
-            "answer": "dạo này công việc thế nào"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「最近你好吗？」的正确说法是？",
+      "options": ["Dạo này bạn có khỏe không?", "Bạn dạo này khỏe có không?", "Khỏe không dạo này bạn?"],
+      "answer": "Dạo này bạn có khỏe không?"
+    },
+    {
+      "type": "fill",
+      "question": "Mình ___, cảm ơn bạn.",
+      "answer": "khỏe"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「最近工作怎么样？」的越南语",
+      "answer": "dạo này công việc thế nào"
+    }
+  ]
 }

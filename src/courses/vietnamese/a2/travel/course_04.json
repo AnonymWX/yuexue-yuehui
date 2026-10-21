@@ -1,317 +1,196 @@
 {
-    "id": "course_vi_124",
-    "title": "第 4 课：机场与飞机",
-    "titleVi": "Bài 4: Sân bay và máy bay",
-    "order": 4,
-    "scenario": "travel",
-    "goals": [
-        "能完成值机 / 安检 / 登机全套流程对话",
-        "能听懂航班广播的关键信息",
-        "能应对航班延误 / 行李丢失等问题",
-        "能用「trước khi / sau khi」描述先后顺序"
-    ],
-    "words": [
+  "id": "course_vi_124",
+  "title": "第 4 课：机场与飞机",
+  "titleVi": "Bài 4: Sân bay và máy bay",
+  "order": 4,
+  "scenario": "travel",
+  "goals": [
+    "能完成值机 / 安检 / 登机全套流程对话",
+    "能听懂航班广播的关键信息",
+    "能应对航班延误 / 行李丢失等问题",
+    "能用「trước khi / sau khi」描述先后顺序"
+  ],
+  "words": [
+    {
+      "id": "vi_a2_san_bay",
+      "name": "sân bay",
+      "trans": ["机场"],
+      "tags": ["travel", "A2", "flight"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_chuyen_bay",
+      "name": "chuyến bay",
+      "trans": ["航班"],
+      "tags": ["travel", "A2", "flight"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_lam_thu_tuc",
+      "name": "làm thủ tục",
+      "trans": ["办手续", "值机"],
+      "tags": ["travel", "A2", "flight"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_check_in",
+      "name": "check-in",
+      "trans": ["值机（check-in）"],
+      "tags": ["travel", "A2", "flight"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_hanh_ly",
+      "name": "hành lý",
+      "trans": ["行李"],
+      "tags": ["travel", "A2", "flight"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_hanh_ly_xach_tay",
+      "name": "hành lý xách tay",
+      "trans": ["随身行李"],
+      "tags": ["travel", "A2", "flight"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_cua_ra_bo",
+      "name": "cửa ra máy bay",
+      "trans": ["登机口"],
+      "tags": ["travel", "A2", "flight"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_len_may_bay",
+      "name": "lên máy bay",
+      "trans": ["登机"],
+      "tags": ["travel", "A2", "flight"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_an_ninh",
+      "name": "an ninh",
+      "trans": ["安检", "安保"],
+      "tags": ["travel", "A2", "flight"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_ho_chieu",
+      "name": "hộ chiếu",
+      "trans": ["护照"],
+      "tags": ["travel", "A2", "flight"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_hoan_chuyen",
+      "name": "hoãn chuyến",
+      "trans": ["航班延误/取消"],
+      "tags": ["travel", "A2", "flight"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_that_lac",
+      "name": "thất lạc",
+      "trans": ["丢失"],
+      "tags": ["travel", "A2", "flight"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_khoi_hanh",
+      "name": "khởi hành",
+      "trans": ["出发", "起飞"],
+      "tags": ["travel", "A2", "flight"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_ha_canh",
+      "name": "hạ cánh",
+      "trans": ["降落", "着陆"],
+      "tags": ["travel", "A2", "flight"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a2_209",
+    "sentence_vi_a2_210",
+    "sentence_vi_a2_211",
+    "sentence_vi_a2_212",
+    "sentence_vi_a2_213",
+    "sentence_vi_a2_214",
+    "sentence_vi_a2_215",
+    "sentence_vi_a2_216"
+  ],
+  "grammar": [
+    {
+      "point": "先后顺序：trước khi / sau khi",
+      "explain": "「trước khi + V」= 在…之前；「sau khi + V」= 在…之后。注意：这两个词组后面跟动词原形，不跟完整小句；如果要接完整句用「trước khi mà / sau khi mà」（少用）。例：trước khi lên máy bay = 登机前；sau khi hạ cánh = 降落后。",
+      "examples": [
         {
-            "id": "vi_a2_san_bay",
-            "name": "sân bay",
-            "trans": [
-                "机场"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "flight"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Trước khi lên máy bay, bạn phải qua cửa an ninh.",
+          "zh": "登机前，你必须过安检。"
         },
         {
-            "id": "vi_a2_chuyen_bay",
-            "name": "chuyến bay",
-            "trans": [
-                "航班"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "flight"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Sau khi hạ cánh, hành khách sẽ lấy hành lý ở băng chuyền số 5.",
+          "zh": "降落后，乘客将在 5 号转盘取行李。"
         },
         {
-            "id": "vi_a2_lam_thu_tuc",
-            "name": "làm thủ tục",
-            "trans": [
-                "办手续",
-                "值机"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "flight"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_check_in",
-            "name": "check-in",
-            "trans": [
-                "值机（check-in）"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "flight"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_hanh_ly",
-            "name": "hành lý",
-            "trans": [
-                "行李"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "flight"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_hanh_ly_xach_tay",
-            "name": "hành lý xách tay",
-            "trans": [
-                "随身行李"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "flight"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_cua_ra_bo",
-            "name": "cửa ra máy bay",
-            "trans": [
-                "登机口"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "flight"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_len_may_bay",
-            "name": "lên máy bay",
-            "trans": [
-                "登机"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "flight"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_an_ninh",
-            "name": "an ninh",
-            "trans": [
-                "安检",
-                "安保"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "flight"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_ho_chieu",
-            "name": "hộ chiếu",
-            "trans": [
-                "护照"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "flight"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_hoan_chuyen",
-            "name": "hoãn chuyến",
-            "trans": [
-                "航班延误/取消"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "flight"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_that_lac",
-            "name": "thất lạc",
-            "trans": [
-                "丢失"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "flight"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_khoi_hanh",
-            "name": "khởi hành",
-            "trans": [
-                "出发",
-                "起飞"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "flight"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_ha_canh",
-            "name": "hạ cánh",
-            "trans": [
-                "降落",
-                "着陆"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "flight"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Trước khi đi du lịch, tôi thường kiểm tra hộ chiếu và visa.",
+          "zh": "旅游前我通常检查护照和签证。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a2_209",
-        "sentence_vi_a2_210",
-        "sentence_vi_a2_211",
-        "sentence_vi_a2_212",
-        "sentence_vi_a2_213",
-        "sentence_vi_a2_214",
-        "sentence_vi_a2_215",
-        "sentence_vi_a2_216"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "应对延误/问题：bị / xin lỗi vì / có thể...không",
+      "explain": "航班延误：「Chuyến bay bị hoãn」（航班被延误）；行李丢失：「Hành lý của tôi bị thất lạc」（我的行李丢失了）。交涉时常用：「Xin lỗi, chuyến bay của tôi bị hoãn, tôi có thể...？」（抱歉，我的航班延误了，我可以…？）。注意：正式场合「quý khách」= 尊敬的乘客。",
+      "examples": [
         {
-            "point": "先后顺序：trước khi / sau khi",
-            "explain": "「trước khi + V」= 在…之前；「sau khi + V」= 在…之后。注意：这两个词组后面跟动词原形，不跟完整小句；如果要接完整句用「trước khi mà / sau khi mà」（少用）。例：trước khi lên máy bay = 登机前；sau khi hạ cánh = 降落后。",
-            "examples": [
-                {
-                    "vi": "Trước khi lên máy bay, bạn phải qua cửa an ninh.",
-                    "zh": "登机前，你必须过安检。"
-                },
-                {
-                    "vi": "Sau khi hạ cánh, hành khách sẽ lấy hành lý ở băng chuyền số 5.",
-                    "zh": "降落后，乘客将在 5 号转盘取行李。"
-                },
-                {
-                    "vi": "Trước khi đi du lịch, tôi thường kiểm tra hộ chiếu và visa.",
-                    "zh": "旅游前我通常检查护照和签证。"
-                }
-            ]
+          "vi": "Xin lỗi, chuyến bay của tôi bị hoãn hai tiếng, tôi có thể đổi chuyến khác không?",
+          "zh": "抱歉，我的航班延误两小时，我可以换航班吗？"
         },
         {
-            "point": "应对延误/问题：bị / xin lỗi vì / có thể...không",
-            "explain": "航班延误：「Chuyến bay bị hoãn」（航班被延误）；行李丢失：「Hành lý của tôi bị thất lạc」（我的行李丢失了）。交涉时常用：「Xin lỗi, chuyến bay của tôi bị hoãn, tôi có thể...？」（抱歉，我的航班延误了，我可以…？）。注意：正式场合「quý khách」= 尊敬的乘客。",
-            "examples": [
-                {
-                    "vi": "Xin lỗi, chuyến bay của tôi bị hoãn hai tiếng, tôi có thể đổi chuyến khác không?",
-                    "zh": "抱歉，我的航班延误两小时，我可以换航班吗？"
-                },
-                {
-                    "vi": "Hành lý của tôi bị thất lạc, tôi phải liên hệ với ai?",
-                    "zh": "我的行李丢了，我该联系谁？"
-                },
-                {
-                    "vi": "Quý khách lưu ý, chuyến bay VN123 sẽ khởi hành sau ba mươi phút nữa.",
-                    "zh": "各位乘客请注意，VN123 航班将在三十分钟后起飞。"
-                }
-            ]
+          "vi": "Hành lý của tôi bị thất lạc, tôi phải liên hệ với ai?",
+          "zh": "我的行李丢了，我该联系谁？"
+        },
+        {
+          "vi": "Quý khách lưu ý, chuyến bay VN123 sẽ khởi hành sau ba mươi phút nữa.",
+          "zh": "各位乘客请注意，VN123 航班将在三十分钟后起飞。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「cửa ra máy bay」的意思是？",
-            "options": [
-                "安检",
-                "登机口",
-                "行李转盘",
-                "值机柜台"
-            ],
-            "answer": "登机口"
-        },
-        {
-            "type": "choose",
-            "question": "哪句正确表达「登机前你必须过安检」？",
-            "options": [
-                "Sau khi lên máy bay, bạn phải qua an ninh.",
-                "Trước khi lên máy bay, bạn phải qua an ninh.",
-                "Lên máy bay trước, bạn phải qua an ninh.",
-                "Bạn qua an ninh trước khi lên máy bay phải."
-            ],
-            "answer": "Trước khi lên máy bay, bạn phải qua an ninh."
-        },
-        {
-            "type": "fill",
-            "question": "Sau ___ hạ cánh, hành khách sẽ lấy hành lý.（降落后，乘客将取行李）",
-            "answer": "khi"
-        },
-        {
-            "type": "fill",
-            "question": "Chuyến bay của tôi bị ___ hai tiếng vì thời tiết xấu.（我的航班因天气不好延误两小时）",
-            "answer": "hoãn"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「我的行李丢失了」的越南语",
-            "answer": "Hành lý của tôi bị thất lạc"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「cửa ra máy bay」的意思是？",
+      "options": ["安检", "登机口", "行李转盘", "值机柜台"],
+      "answer": "登机口"
+    },
+    {
+      "type": "choose",
+      "question": "哪句正确表达「登机前你必须过安检」？",
+      "options": [
+        "Sau khi lên máy bay, bạn phải qua an ninh.",
+        "Trước khi lên máy bay, bạn phải qua an ninh.",
+        "Lên máy bay trước, bạn phải qua an ninh.",
+        "Bạn qua an ninh trước khi lên máy bay phải."
+      ],
+      "answer": "Trước khi lên máy bay, bạn phải qua an ninh."
+    },
+    {
+      "type": "fill",
+      "question": "Sau ___ hạ cánh, hành khách sẽ lấy hành lý.（降落后，乘客将取行李）",
+      "answer": "khi"
+    },
+    {
+      "type": "fill",
+      "question": "Chuyến bay của tôi bị ___ hai tiếng vì thời tiết xấu.（我的航班因天气不好延误两小时）",
+      "answer": "hoãn"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「我的行李丢失了」的越南语",
+      "answer": "Hành lý của tôi bị thất lạc"
+    }
+  ]
 }

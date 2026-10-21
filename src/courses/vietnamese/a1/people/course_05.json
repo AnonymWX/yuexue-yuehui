@@ -1,192 +1,123 @@
 {
-    "id": "course_vi_31",
-    "title": "第 5 课：正面性格形容词",
-    "titleVi": "Bài 5: Tính từ chỉ tính cách tích cực",
-    "order": 5,
-    "scenario": "people",
-    "goals": [
-        "掌握正面性格形容词",
-        "能用形容词描述他人性格",
-        "学会「tính cách + 形容词」表达",
-        "能赞美他人性格"
-    ],
-    "words": [
+  "id": "course_vi_31",
+  "title": "第 5 课：正面性格形容词",
+  "titleVi": "Bài 5: Tính từ chỉ tính cách tích cực",
+  "order": 5,
+  "scenario": "people",
+  "goals": ["掌握正面性格形容词", "能用形容词描述他人性格", "学会「tính cách + 形容词」表达", "能赞美他人性格"],
+  "words": [
+    {
+      "id": "vi_cham_chi",
+      "name": "chăm chỉ",
+      "trans": ["勤奋", "用功"],
+      "tags": ["people", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_thong_minh",
+      "name": "thông minh",
+      "trans": ["聪明"],
+      "tags": ["people", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_tot_bung",
+      "name": "tốt bụng",
+      "trans": ["善良", "好心"],
+      "tags": ["people", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_vui_ve",
+      "name": "vui vẻ",
+      "trans": ["开朗", "愉快"],
+      "tags": ["people", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_dung_cam",
+      "name": "dũng cảm",
+      "trans": ["勇敢"],
+      "tags": ["people", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_hien_lanh",
+      "name": "hiền lành",
+      "trans": ["温和", "善良"],
+      "tags": ["people", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_trung_thuc",
+      "name": "trung thực",
+      "trans": ["诚实"],
+      "tags": ["people", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_hai_huoc",
+      "name": "hài hước",
+      "trans": ["幽默"],
+      "tags": ["people", "A2"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_433",
+    "sentence_vi_a1_434",
+    "sentence_vi_a1_435",
+    "sentence_vi_a1_436",
+    "sentence_vi_a1_437",
+    "sentence_vi_a1_438"
+  ],
+  "grammar": [
+    {
+      "point": "「tính cách + 形容词」描述性格",
+      "explain": "描述性格用「tính cách + 形容词」，也可直接说「主语 + 形容词」表示性格。",
+      "examples": [
         {
-            "id": "vi_cham_chi",
-            "name": "chăm chỉ",
-            "trans": [
-                "勤奋",
-                "用功"
-            ],
-            "tags": [
-                "people",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Tính cách của anh ấy rất tốt.",
+          "zh": "他的性格很好。"
         },
         {
-            "id": "vi_thong_minh",
-            "name": "thông minh",
-            "trans": [
-                "聪明"
-            ],
-            "tags": [
-                "people",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_tot_bung",
-            "name": "tốt bụng",
-            "trans": [
-                "善良",
-                "好心"
-            ],
-            "tags": [
-                "people",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_vui_ve",
-            "name": "vui vẻ",
-            "trans": [
-                "开朗",
-                "愉快"
-            ],
-            "tags": [
-                "people",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_dung_cam",
-            "name": "dũng cảm",
-            "trans": [
-                "勇敢"
-            ],
-            "tags": [
-                "people",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_hien_lanh",
-            "name": "hiền lành",
-            "trans": [
-                "温和",
-                "善良"
-            ],
-            "tags": [
-                "people",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_trung_thuc",
-            "name": "trung thực",
-            "trans": [
-                "诚实"
-            ],
-            "tags": [
-                "people",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_hai_huoc",
-            "name": "hài hước",
-            "trans": [
-                "幽默"
-            ],
-            "tags": [
-                "people",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Cô ấy chăm chỉ.",
+          "zh": "她勤奋。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_433",
-        "sentence_vi_a1_434",
-        "sentence_vi_a1_435",
-        "sentence_vi_a1_436",
-        "sentence_vi_a1_437",
-        "sentence_vi_a1_438"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「rất / lắm / quá」程度副词",
+      "explain": "「rất」放在形容词前，表示「很」；「lắm」和「quá」放在形容词后，也表示「很/太」。",
+      "examples": [
         {
-            "point": "「tính cách + 形容词」描述性格",
-            "explain": "描述性格用「tính cách + 形容词」，也可直接说「主语 + 形容词」表示性格。",
-            "examples": [
-                {
-                    "vi": "Tính cách của anh ấy rất tốt.",
-                    "zh": "他的性格很好。"
-                },
-                {
-                    "vi": "Cô ấy chăm chỉ.",
-                    "zh": "她勤奋。"
-                }
-            ]
+          "vi": "Anh ấy rất thông minh.",
+          "zh": "他很聪明。"
         },
         {
-            "point": "「rất / lắm / quá」程度副词",
-            "explain": "「rất」放在形容词前，表示「很」；「lắm」和「quá」放在形容词后，也表示「很/太」。",
-            "examples": [
-                {
-                    "vi": "Anh ấy rất thông minh.",
-                    "zh": "他很聪明。"
-                },
-                {
-                    "vi": "Cô ấy tốt bụng lắm.",
-                    "zh": "她很善良。"
-                }
-            ]
+          "vi": "Cô ấy tốt bụng lắm.",
+          "zh": "她很善良。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「她很善良」的正确说法是？",
-            "options": [
-                "Cô ấy rất tốt bụng",
-                "Cô ấy tốt bụng rất",
-                "Rất cô ấy tốt bụng"
-            ],
-            "answer": "Cô ấy rất tốt bụng"
-        },
-        {
-            "type": "fill",
-            "question": "Anh ấy rất ___ minh.",
-            "answer": "thông"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「勤奋」的越南语",
-            "answer": "chăm chỉ"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「她很善良」的正确说法是？",
+      "options": ["Cô ấy rất tốt bụng", "Cô ấy tốt bụng rất", "Rất cô ấy tốt bụng"],
+      "answer": "Cô ấy rất tốt bụng"
+    },
+    {
+      "type": "fill",
+      "question": "Anh ấy rất ___ minh.",
+      "answer": "thông"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「勤奋」的越南语",
+      "answer": "chăm chỉ"
+    }
+  ]
 }

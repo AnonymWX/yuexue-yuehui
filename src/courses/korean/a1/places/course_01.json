@@ -1,199 +1,131 @@
 {
-    "id": "course_ko_004",
-    "title": "第 1 课：여기는 어디입니까?（这里是哪里？）",
-    "titleVi": "제1과: 여기는 어디입니까?",
-    "order": 1,
-    "scenario": "places",
-    "goals": [
-        "掌握场所指示代词「여기 / 거기 / 저기」",
-        "掌握疑问代词「어디」",
-        "掌握位置助词「에」与「있습니다 / 없습니다」",
-        "能说出常见场所名称并询问位置"
-    ],
-    "words": [
+  "id": "course_ko_004",
+  "title": "第 1 课：여기는 어디입니까?（这里是哪里？）",
+  "titleVi": "제1과: 여기는 어디입니까?",
+  "order": 1,
+  "scenario": "places",
+  "goals": [
+    "掌握场所指示代词「여기 / 거기 / 저기」",
+    "掌握疑问代词「어디」",
+    "掌握位置助词「에」与「있습니다 / 없습니다」",
+    "能说出常见场所名称并询问位置"
+  ],
+  "words": [
+    {
+      "id": "ko_a1_yeogi",
+      "name": "여기",
+      "trans": ["这里"],
+      "tags": ["places", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_geogi",
+      "name": "거기",
+      "trans": ["那里"],
+      "tags": ["places", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_jeogi",
+      "name": "저기",
+      "trans": ["那里（远指）"],
+      "tags": ["places", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_eodi",
+      "name": "어디",
+      "trans": ["哪里"],
+      "tags": ["places", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_hakgyo",
+      "name": "학교",
+      "trans": ["学校"],
+      "tags": ["places", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_jip",
+      "name": "집",
+      "trans": ["家", "房子"],
+      "tags": ["places", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_hoesa",
+      "name": "회사",
+      "trans": ["公司"],
+      "tags": ["places", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_hwajangsil",
+      "name": "화장실",
+      "trans": ["洗手间", "卫生间"],
+      "tags": ["places", "A1"],
+      "source": ["korean_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_ko_a1_023",
+    "sentence_ko_a1_024",
+    "sentence_ko_a1_025",
+    "sentence_ko_a1_026",
+    "sentence_ko_a1_027",
+    "sentence_ko_a1_028",
+    "sentence_ko_a1_029",
+    "sentence_ko_a1_030"
+  ],
+  "grammar": [
+    {
+      "point": "场所指示代词「여기 / 거기 / 저기」+「어디」",
+      "explain": "与第 2 课的物质指示代词对应：여기 = 这里（离说话人近）；거기 = 那里（离听话人近）；저기 = 那里（双方都远）。疑问词是 어디（哪里）。后接 은/는 时：여기는 / 거기는 / 저기는（都无收音）。中文只有「这里/那里」两级，注意 거기 与 저기 的远近差别。",
+      "examples": [
         {
-            "id": "ko_a1_yeogi",
-            "name": "여기",
-            "trans": [
-                "这里"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
+          "vi": "여기는 학교입니다.",
+          "zh": "这里是学校。"
         },
         {
-            "id": "ko_a1_geogi",
-            "name": "거기",
-            "trans": [
-                "那里"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_jeogi",
-            "name": "저기",
-            "trans": [
-                "那里（远指）"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_eodi",
-            "name": "어디",
-            "trans": [
-                "哪里"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_hakgyo",
-            "name": "학교",
-            "trans": [
-                "学校"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_jip",
-            "name": "집",
-            "trans": [
-                "家",
-                "房子"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_hoesa",
-            "name": "회사",
-            "trans": [
-                "公司"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_hwajangsil",
-            "name": "화장실",
-            "trans": [
-                "洗手间",
-                "卫生间"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
+          "vi": "거기는 어디입니까?",
+          "zh": "那里是哪里？"
         }
-    ],
-    "sentences": [
-        "sentence_ko_a1_023",
-        "sentence_ko_a1_024",
-        "sentence_ko_a1_025",
-        "sentence_ko_a1_026",
-        "sentence_ko_a1_027",
-        "sentence_ko_a1_028",
-        "sentence_ko_a1_029",
-        "sentence_ko_a1_030"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "位置助词「에」+「있습니다 / 없습니다」",
+      "explain": "에 表示存在的位置（在/于）。存在用 있습니다，不存在用 없습니다。句型：N은/는 + 场所 + 에 + 있습니다/없습니다。例：저는 학교에 있습니다（我在学校）。화장실은 저기에 있습니다（洗手间在那边）。注意 에 与 은/는 的分工：은/는 标主题，에 标位置。",
+      "examples": [
         {
-            "point": "场所指示代词「여기 / 거기 / 저기」+「어디」",
-            "explain": "与第 2 课的物质指示代词对应：여기 = 这里（离说话人近）；거기 = 那里（离听话人近）；저기 = 那里（双方都远）。疑问词是 어디（哪里）。后接 은/는 时：여기는 / 거기는 / 저기는（都无收音）。中文只有「这里/那里」两级，注意 거기 与 저기 的远近差别。",
-            "examples": [
-                {
-                    "vi": "여기는 학교입니다.",
-                    "zh": "这里是学校。"
-                },
-                {
-                    "vi": "거기는 어디입니까?",
-                    "zh": "那里是哪里？"
-                }
-            ]
+          "vi": "화장실은 저기에 있습니다.",
+          "zh": "洗手间在那边。"
         },
         {
-            "point": "位置助词「에」+「있습니다 / 없습니다」",
-            "explain": "에 表示存在的位置（在/于）。存在用 있습니다，不存在用 없습니다。句型：N은/는 + 场所 + 에 + 있습니다/없습니다。例：저는 학교에 있습니다（我在学校）。화장실은 저기에 있습니다（洗手间在那边）。注意 에 与 은/는 的分工：은/는 标主题，에 标位置。",
-            "examples": [
-                {
-                    "vi": "화장실은 저기에 있습니다.",
-                    "zh": "洗手间在那边。"
-                },
-                {
-                    "vi": "아니요, 집에 없습니다.",
-                    "zh": "不，不在家。"
-                }
-            ]
+          "vi": "아니요, 집에 없습니다.",
+          "zh": "不，不在家。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "离说话人很近的地方，用哪个词？",
-            "options": [
-                "여기",
-                "거기",
-                "저기",
-                "어디"
-            ],
-            "answer": "여기"
-        },
-        {
-            "type": "choose",
-            "question": "「저는 학교__ 있습니다.」填入正确的助词：",
-            "options": [
-                "에",
-                "은",
-                "를",
-                "가"
-            ],
-            "answer": "에"
-        },
-        {
-            "type": "fill",
-            "question": "「洗手间」的韩语是？",
-            "answer": "화장실"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "离说话人很近的地方，用哪个词？",
+      "options": ["여기", "거기", "저기", "어디"],
+      "answer": "여기"
+    },
+    {
+      "type": "choose",
+      "question": "「저는 학교__ 있습니다.」填入正确的助词：",
+      "options": ["에", "은", "를", "가"],
+      "answer": "에"
+    },
+    {
+      "type": "fill",
+      "question": "「洗手间」的韩语是？",
+      "answer": "화장실"
+    }
+  ]
 }

@@ -1,192 +1,123 @@
 {
-    "id": "course_vi_58",
-    "title": "第 5 课：问生日",
-    "titleVi": "Bài 5: Hỏi sinh nhật",
-    "order": 5,
-    "scenario": "birthday",
-    "goals": [
-        "学会问对方生日",
-        "掌握「sinh nhật là ngày nào」句型",
-        "能表达祝贺",
-        "能描述生日计划"
-    ],
-    "words": [
+  "id": "course_vi_58",
+  "title": "第 5 课：问生日",
+  "titleVi": "Bài 5: Hỏi sinh nhật",
+  "order": 5,
+  "scenario": "birthday",
+  "goals": ["学会问对方生日", "掌握「sinh nhật là ngày nào」句型", "能表达祝贺", "能描述生日计划"],
+  "words": [
+    {
+      "id": "vi_ngay_sinh_nhat",
+      "name": "ngày sinh nhật",
+      "trans": ["生日那天"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_chuc_mung",
+      "name": "chúc mừng",
+      "trans": ["祝贺", "恭喜"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_loi_chuc",
+      "name": "lời chúc",
+      "trans": ["祝词", "祝福"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_mong_uoc",
+      "name": "mong ước",
+      "trans": ["愿望", "期望"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_uoc",
+      "name": "ước",
+      "trans": ["许愿", "希望"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_thoi_nen",
+      "name": "thổi nến",
+      "trans": ["吹蜡烛"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_cat_banh",
+      "name": "cắt bánh",
+      "trans": ["切蛋糕"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_ky_niem",
+      "name": "kỷ niệm",
+      "trans": ["纪念"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_457",
+    "sentence_vi_a1_458",
+    "sentence_vi_a1_459",
+    "sentence_vi_a1_460",
+    "sentence_vi_a1_461",
+    "sentence_vi_a1_462"
+  ],
+  "grammar": [
+    {
+      "point": "问生日「Sinh nhật của bạn là ngày nào?」",
+      "explain": "问生日用「Sinh nhật của bạn là ngày nào?」，回答用「là ngày + 数字 + tháng + 数字」。",
+      "examples": [
         {
-            "id": "vi_ngay_sinh_nhat",
-            "name": "ngày sinh nhật",
-            "trans": [
-                "生日那天"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Sinh nhật của bạn là ngày nào?",
+          "zh": "你的生日是哪天？"
         },
         {
-            "id": "vi_chuc_mung",
-            "name": "chúc mừng",
-            "trans": [
-                "祝贺",
-                "恭喜"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_loi_chuc",
-            "name": "lời chúc",
-            "trans": [
-                "祝词",
-                "祝福"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_mong_uoc",
-            "name": "mong ước",
-            "trans": [
-                "愿望",
-                "期望"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_uoc",
-            "name": "ước",
-            "trans": [
-                "许愿",
-                "希望"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_thoi_nen",
-            "name": "thổi nến",
-            "trans": [
-                "吹蜡烛"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_cat_banh",
-            "name": "cắt bánh",
-            "trans": [
-                "切蛋糕"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_ky_niem",
-            "name": "kỷ niệm",
-            "trans": [
-                "纪念"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Sinh nhật của tôi là ngày 20 tháng 10.",
+          "zh": "我的生日是 10 月 20 日。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_457",
-        "sentence_vi_a1_458",
-        "sentence_vi_a1_459",
-        "sentence_vi_a1_460",
-        "sentence_vi_a1_461",
-        "sentence_vi_a1_462"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "祝贺语「Chúc mừng sinh nhật!」",
+      "explain": "最常用的生日祝贺是「Chúc mừng sinh nhật!」（生日快乐！）。更完整可说「Chúc mừng sinh nhật, chúc bạn hạnh phúc」。",
+      "examples": [
         {
-            "point": "问生日「Sinh nhật của bạn là ngày nào?」",
-            "explain": "问生日用「Sinh nhật của bạn là ngày nào?」，回答用「là ngày + 数字 + tháng + 数字」。",
-            "examples": [
-                {
-                    "vi": "Sinh nhật của bạn là ngày nào?",
-                    "zh": "你的生日是哪天？"
-                },
-                {
-                    "vi": "Sinh nhật của tôi là ngày 20 tháng 10.",
-                    "zh": "我的生日是 10 月 20 日。"
-                }
-            ]
+          "vi": "Chúc mừng sinh nhật!",
+          "zh": "生日快乐！"
         },
         {
-            "point": "祝贺语「Chúc mừng sinh nhật!」",
-            "explain": "最常用的生日祝贺是「Chúc mừng sinh nhật!」（生日快乐！）。更完整可说「Chúc mừng sinh nhật, chúc bạn hạnh phúc」。",
-            "examples": [
-                {
-                    "vi": "Chúc mừng sinh nhật!",
-                    "zh": "生日快乐！"
-                },
-                {
-                    "vi": "Chúc mừng sinh nhật, chúc bạn khỏe mạnh.",
-                    "zh": "生日快乐，祝你健康。"
-                }
-            ]
+          "vi": "Chúc mừng sinh nhật, chúc bạn khỏe mạnh.",
+          "zh": "生日快乐，祝你健康。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「生日快乐」用越南语怎么说？",
-            "options": [
-                "Chúc mừng sinh nhật",
-                "Mừng sinh nhật chúc",
-                "Sinh nhật chúc mừng"
-            ],
-            "answer": "Chúc mừng sinh nhật"
-        },
-        {
-            "type": "fill",
-            "question": "Tôi ước một ___ ước.",
-            "answer": "mong"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「吹蜡烛」的越南语",
-            "answer": "thổi nến"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「生日快乐」用越南语怎么说？",
+      "options": ["Chúc mừng sinh nhật", "Mừng sinh nhật chúc", "Sinh nhật chúc mừng"],
+      "answer": "Chúc mừng sinh nhật"
+    },
+    {
+      "type": "fill",
+      "question": "Tôi ước một ___ ước.",
+      "answer": "mong"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「吹蜡烛」的越南语",
+      "answer": "thổi nến"
+    }
+  ]
 }

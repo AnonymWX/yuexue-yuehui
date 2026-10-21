@@ -1,20 +1,20 @@
 {
-    "id": "family",
-    "stage": "a1",
-    "title": "家庭与家人",
-    "titleVi": "가족과 가족 구성원",
-    "courses": [
-        {
-            "id": "course_ko_010",
-            "file": "course_01.json",
-            "title": "第 1 课：가족이 몇 명입니까?",
-            "titleVi": "제1과: 가족이 몇 명입니까?"
-        },
-        {
-            "id": "course_ko_033",
-            "file": "course_02.json",
-            "title": "第 2 课：우리 가족을 소개합니다",
-            "titleVi": "제2과: 우리 가족을 소개합니다"
-        }
-    ]
+  "id": "family",
+  "stage": "a1",
+  "title": "家庭与家人",
+  "titleVi": "가족과 가족 구성원",
+  "courses": [
+    {
+      "id": "course_ko_010",
+      "file": "course_01.json",
+      "title": "第 1 课：가족이 몇 명입니까?",
+      "titleVi": "제1과: 가족이 몇 명입니까?"
+    },
+    {
+      "id": "course_ko_033",
+      "file": "course_02.json",
+      "title": "第 2 课：우리 가족을 소개합니다",
+      "titleVi": "제2과: 우리 가족을 소개합니다"
+    }
+  ]
 }

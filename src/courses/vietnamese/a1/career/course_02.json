@@ -1,191 +1,123 @@
 {
-    "id": "course_vi_07",
-    "title": "第 2 课：问职业与回答",
-    "titleVi": "Bài 2: Hỏi và trả lời về nghề nghiệp",
-    "order": 2,
-    "scenario": "career",
-    "goals": [
-        "学会问对方职业",
-        "掌握「làm nghề gì」句型",
-        "掌握职场基础称谓",
-        "能进行职业相关的简单对话"
-    ],
-    "words": [
+  "id": "course_vi_07",
+  "title": "第 2 课：问职业与回答",
+  "titleVi": "Bài 2: Hỏi và trả lời về nghề nghiệp",
+  "order": 2,
+  "scenario": "career",
+  "goals": ["学会问对方职业", "掌握「làm nghề gì」句型", "掌握职场基础称谓", "能进行职业相关的简单对话"],
+  "words": [
+    {
+      "id": "vi_nghe_nghiep",
+      "name": "nghề nghiệp",
+      "trans": ["职业"],
+      "tags": ["career", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_lam_nghe",
+      "name": "làm nghề",
+      "trans": ["从事", "做职业"],
+      "tags": ["career", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_lam_viec",
+      "name": "làm việc",
+      "trans": ["工作"],
+      "tags": ["career", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_cong_ty",
+      "name": "công ty",
+      "trans": ["公司"],
+      "tags": ["career", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_nhan_vien",
+      "name": "nhân viên",
+      "trans": ["职员", "员工"],
+      "tags": ["career", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_giam_doc",
+      "name": "giám đốc",
+      "trans": ["经理", "董事"],
+      "tags": ["career", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_thu_ky",
+      "name": "thư ký",
+      "trans": ["秘书"],
+      "tags": ["career", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_ke_toan",
+      "name": "kế toán",
+      "trans": ["会计"],
+      "tags": ["career", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_121",
+    "sentence_vi_a1_122",
+    "sentence_vi_a1_123",
+    "sentence_vi_a1_124",
+    "sentence_vi_a1_125",
+    "sentence_vi_a1_126"
+  ],
+  "grammar": [
+    {
+      "point": "问职业「Làm nghề gì?」",
+      "explain": "「Làm nghề gì?」是最常用的问职业句型，意为「做什么工作？」。也可用「Làm gì?」（更口语）。",
+      "examples": [
         {
-            "id": "vi_nghe_nghiep",
-            "name": "nghề nghiệp",
-            "trans": [
-                "职业"
-            ],
-            "tags": [
-                "career",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Anh làm nghề gì?",
+          "zh": "你做什么工作？"
         },
         {
-            "id": "vi_lam_nghe",
-            "name": "làm nghề",
-            "trans": [
-                "从事",
-                "做职业"
-            ],
-            "tags": [
-                "career",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_lam_viec",
-            "name": "làm việc",
-            "trans": [
-                "工作"
-            ],
-            "tags": [
-                "career",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_cong_ty",
-            "name": "công ty",
-            "trans": [
-                "公司"
-            ],
-            "tags": [
-                "career",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_nhan_vien",
-            "name": "nhân viên",
-            "trans": [
-                "职员",
-                "员工"
-            ],
-            "tags": [
-                "career",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_giam_doc",
-            "name": "giám đốc",
-            "trans": [
-                "经理",
-                "董事"
-            ],
-            "tags": [
-                "career",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_thu_ky",
-            "name": "thư ký",
-            "trans": [
-                "秘书"
-            ],
-            "tags": [
-                "career",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_ke_toan",
-            "name": "kế toán",
-            "trans": [
-                "会计"
-            ],
-            "tags": [
-                "career",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Chị làm nghề gì?",
+          "zh": "你做什么工作？（女性）"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_121",
-        "sentence_vi_a1_122",
-        "sentence_vi_a1_123",
-        "sentence_vi_a1_124",
-        "sentence_vi_a1_125",
-        "sentence_vi_a1_126"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "回答职业「Tôi làm + 职业」",
+      "explain": "回答时用「Tôi làm + 职业名词」，或直接用「Tôi là + 职业名词」，后者更简洁。",
+      "examples": [
         {
-            "point": "问职业「Làm nghề gì?」",
-            "explain": "「Làm nghề gì?」是最常用的问职业句型，意为「做什么工作？」。也可用「Làm gì?」（更口语）。",
-            "examples": [
-                {
-                    "vi": "Anh làm nghề gì?",
-                    "zh": "你做什么工作？"
-                },
-                {
-                    "vi": "Chị làm nghề gì?",
-                    "zh": "你做什么工作？（女性）"
-                }
-            ]
+          "vi": "Tôi làm giáo viên.",
+          "zh": "我当老师。"
         },
         {
-            "point": "回答职业「Tôi làm + 职业」",
-            "explain": "回答时用「Tôi làm + 职业名词」，或直接用「Tôi là + 职业名词」，后者更简洁。",
-            "examples": [
-                {
-                    "vi": "Tôi làm giáo viên.",
-                    "zh": "我当老师。"
-                },
-                {
-                    "vi": "Tôi là nhân viên công ty.",
-                    "zh": "我是公司职员。"
-                }
-            ]
+          "vi": "Tôi là nhân viên công ty.",
+          "zh": "我是公司职员。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「你做什么工作？」的正确说法是？",
-            "options": [
-                "Anh làm nghề gì?",
-                "Anh nghề làm gì?",
-                "Làm gì anh nghề?"
-            ],
-            "answer": "Anh làm nghề gì?"
-        },
-        {
-            "type": "fill",
-            "question": "Tôi ___ kế toán.",
-            "answer": "làm"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「公司」的越南语",
-            "answer": "công ty"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「你做什么工作？」的正确说法是？",
+      "options": ["Anh làm nghề gì?", "Anh nghề làm gì?", "Làm gì anh nghề?"],
+      "answer": "Anh làm nghề gì?"
+    },
+    {
+      "type": "fill",
+      "question": "Tôi ___ kế toán.",
+      "answer": "làm"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「公司」的越南语",
+      "answer": "công ty"
+    }
+  ]
 }

@@ -1,198 +1,126 @@
 {
-    "id": "course_ko_016",
-    "title": "第 1 课：주말에 무엇을 할 겁니까?（周末打算做什么？）",
-    "titleVi": "제1과: 주말에 무엇을 할 겁니까?",
-    "order": 1,
-    "scenario": "plans",
-    "goals": [
-        "掌握「-(으)ㄹ 겁니까?」（打算）",
-        "掌握时间 + 에 + 动词的句型",
-        "能说出周末活动",
-        "能询问和表达计划"
-    ],
-    "words": [
+  "id": "course_ko_016",
+  "title": "第 1 课：주말에 무엇을 할 겁니까?（周末打算做什么？）",
+  "titleVi": "제1과: 주말에 무엇을 할 겁니까?",
+  "order": 1,
+  "scenario": "plans",
+  "goals": ["掌握「-(으)ㄹ 겁니까?」（打算）", "掌握时间 + 에 + 动词的句型", "能说出周末活动", "能询问和表达计划"],
+  "words": [
+    {
+      "id": "ko_a1_jumal",
+      "name": "주말",
+      "trans": ["周末"],
+      "tags": ["plans", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_gyehoek",
+      "name": "계획",
+      "trans": ["计划"],
+      "tags": ["plans", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_naeil",
+      "name": "내일",
+      "trans": ["明天"],
+      "tags": ["plans", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_mannada",
+      "name": "만나다",
+      "trans": ["见"],
+      "tags": ["plans", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_gongwon",
+      "name": "공원",
+      "trans": ["公园"],
+      "tags": ["plans", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_geukjang",
+      "name": "극장",
+      "trans": ["剧场", "电影院"],
+      "tags": ["plans", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_hada",
+      "name": "하다",
+      "trans": ["做"],
+      "tags": ["plans", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_gada",
+      "name": "가다",
+      "trans": ["去"],
+      "tags": ["plans", "A1"],
+      "source": ["korean_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_ko_a1_119",
+    "sentence_ko_a1_120",
+    "sentence_ko_a1_121",
+    "sentence_ko_a1_122",
+    "sentence_ko_a1_123",
+    "sentence_ko_a1_124",
+    "sentence_ko_a1_125",
+    "sentence_ko_a1_126"
+  ],
+  "grammar": [
+    {
+      "point": "「-(으)ㄹ 겁니까?」（打算…吗？）",
+      "explain": "词干有收音用 -을 겁니까?，无收音用 -ㄹ 겁니까?：하다 → 할 겁니까?（打算做吗）；먹다 → 먹을 겁니까?（打算吃吗）。表将来计划或打算。肯定回答用「-(으)ㄹ 겁니다」。中文「打算/要」用这个词尾。",
+      "examples": [
         {
-            "id": "ko_a1_jumal",
-            "name": "주말",
-            "trans": [
-                "周末"
-            ],
-            "tags": [
-                "plans",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
+          "vi": "주말에 무엇을 할 겁니까?",
+          "zh": "周末打算做什么？"
         },
         {
-            "id": "ko_a1_gyehoek",
-            "name": "계획",
-            "trans": [
-                "计划"
-            ],
-            "tags": [
-                "plans",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_naeil",
-            "name": "내일",
-            "trans": [
-                "明天"
-            ],
-            "tags": [
-                "plans",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_mannada",
-            "name": "만나다",
-            "trans": [
-                "见"
-            ],
-            "tags": [
-                "plans",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_gongwon",
-            "name": "공원",
-            "trans": [
-                "公园"
-            ],
-            "tags": [
-                "plans",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_geukjang",
-            "name": "극장",
-            "trans": [
-                "剧场",
-                "电影院"
-            ],
-            "tags": [
-                "plans",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_hada",
-            "name": "하다",
-            "trans": [
-                "做"
-            ],
-            "tags": [
-                "plans",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_gada",
-            "name": "가다",
-            "trans": [
-                "去"
-            ],
-            "tags": [
-                "plans",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
+          "vi": "영화를 볼 겁니다.",
+          "zh": "打算看电影。"
         }
-    ],
-    "sentences": [
-        "sentence_ko_a1_119",
-        "sentence_ko_a1_120",
-        "sentence_ko_a1_121",
-        "sentence_ko_a1_122",
-        "sentence_ko_a1_123",
-        "sentence_ko_a1_124",
-        "sentence_ko_a1_125",
-        "sentence_ko_a1_126"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "时间 +「에」+ 动词",
+      "explain": "时间名词后加 에 表「在…（时间）」：주말에（周末）、내일（明天，明天不加 에）、아침에（早上）。句序：时间 + 地点 + 宾语 + 动词。例：주말에 공원에서 친구를 만납니다（周末在公园见朋友）。",
+      "examples": [
         {
-            "point": "「-(으)ㄹ 겁니까?」（打算…吗？）",
-            "explain": "词干有收音用 -을 겁니까?，无收音用 -ㄹ 겁니까?：하다 → 할 겁니까?（打算做吗）；먹다 → 먹을 겁니까?（打算吃吗）。表将来计划或打算。肯定回答用「-(으)ㄹ 겁니다」。中文「打算/要」用这个词尾。",
-            "examples": [
-                {
-                    "vi": "주말에 무엇을 할 겁니까?",
-                    "zh": "周末打算做什么？"
-                },
-                {
-                    "vi": "영화를 볼 겁니다.",
-                    "zh": "打算看电影。"
-                }
-            ]
+          "vi": "주말에 공원에 갑니다.",
+          "zh": "周末去公园。"
         },
         {
-            "point": "时间 +「에」+ 动词",
-            "explain": "时间名词后加 에 表「在…（时间）」：주말에（周末）、내일（明天，明天不加 에）、아침에（早上）。句序：时间 + 地点 + 宾语 + 动词。例：주말에 공원에서 친구를 만납니다（周末在公园见朋友）。",
-            "examples": [
-                {
-                    "vi": "주말에 공원에 갑니다.",
-                    "zh": "周末去公园。"
-                },
-                {
-                    "vi": "내일 친구를 만납니다.",
-                    "zh": "明天见朋友。"
-                }
-            ]
+          "vi": "내일 친구를 만납니다.",
+          "zh": "明天见朋友。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「주말」的意思是？",
-            "options": [
-                "周末",
-                "明天",
-                "今天",
-                "昨天"
-            ],
-            "answer": "周末"
-        },
-        {
-            "type": "choose",
-            "question": "「할 겁니까?」的意思是？",
-            "options": [
-                "打算做吗？",
-                "做了吗？",
-                "在做吗？",
-                "能做完吗？"
-            ],
-            "answer": "打算做吗？"
-        },
-        {
-            "type": "fill",
-            "question": "「看电影」→ 영화를 ___.（填入「看」的将来打算形）",
-            "answer": "볼 겁니다"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「주말」的意思是？",
+      "options": ["周末", "明天", "今天", "昨天"],
+      "answer": "周末"
+    },
+    {
+      "type": "choose",
+      "question": "「할 겁니까?」的意思是？",
+      "options": ["打算做吗？", "做了吗？", "在做吗？", "能做完吗？"],
+      "answer": "打算做吗？"
+    },
+    {
+      "type": "fill",
+      "question": "「看电影」→ 영화를 ___.（填入「看」的将来打算形）",
+      "answer": "볼 겁니다"
+    }
+  ]
 }

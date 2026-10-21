@@ -1,190 +1,123 @@
 {
-    "id": "course_vi_10",
-    "title": "第 5 课：求职与简历",
-    "titleVi": "Bài 5: Tìm việc và hồ sơ",
-    "order": 5,
-    "scenario": "career",
-    "goals": [
-        "掌握求职相关词汇",
-        "学会阅读招聘信息",
-        "了解简历基本结构",
-        "能表达求职意愿"
-    ],
-    "words": [
+  "id": "course_vi_10",
+  "title": "第 5 课：求职与简历",
+  "titleVi": "Bài 5: Tìm việc và hồ sơ",
+  "order": 5,
+  "scenario": "career",
+  "goals": ["掌握求职相关词汇", "学会阅读招聘信息", "了解简历基本结构", "能表达求职意愿"],
+  "words": [
+    {
+      "id": "vi_tim_viec",
+      "name": "tìm việc",
+      "trans": ["找工作"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_tuyen_dung",
+      "name": "tuyển dụng",
+      "trans": ["招聘"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_ho_so",
+      "name": "hồ sơ",
+      "trans": ["档案", "简历"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_kinh_nghiem",
+      "name": "kinh nghiệm",
+      "trans": ["经验"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_bang_cap",
+      "name": "bằng cấp",
+      "trans": ["文凭", "学历"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_ky_nang",
+      "name": "kỹ năng",
+      "trans": ["技能"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_ngoai_ngu",
+      "name": "ngoại ngữ",
+      "trans": ["外语"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_ung_tuyen",
+      "name": "ứng tuyển",
+      "trans": ["应聘"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_409",
+    "sentence_vi_a1_410",
+    "sentence_vi_a1_411",
+    "sentence_vi_a1_412",
+    "sentence_vi_a1_413",
+    "sentence_vi_a1_414"
+  ],
+  "grammar": [
+    {
+      "point": "「Tôi muốn + 动词」表意愿",
+      "explain": "表达求职意愿用「Tôi muốn + 动词」，如「Tôi muốn ứng tuyển」（我想应聘）。",
+      "examples": [
         {
-            "id": "vi_tim_viec",
-            "name": "tìm việc",
-            "trans": [
-                "找工作"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Tôi muốn tìm việc.",
+          "zh": "我想找工作。"
         },
         {
-            "id": "vi_tuyen_dung",
-            "name": "tuyển dụng",
-            "trans": [
-                "招聘"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_ho_so",
-            "name": "hồ sơ",
-            "trans": [
-                "档案",
-                "简历"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_kinh_nghiem",
-            "name": "kinh nghiệm",
-            "trans": [
-                "经验"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_bang_cap",
-            "name": "bằng cấp",
-            "trans": [
-                "文凭",
-                "学历"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_ky_nang",
-            "name": "kỹ năng",
-            "trans": [
-                "技能"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_ngoai_ngu",
-            "name": "ngoại ngữ",
-            "trans": [
-                "外语"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_ung_tuyen",
-            "name": "ứng tuyển",
-            "trans": [
-                "应聘"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Tôi muốn ứng tuyển vị trí này.",
+          "zh": "我想应聘这个职位。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_409",
-        "sentence_vi_a1_410",
-        "sentence_vi_a1_411",
-        "sentence_vi_a1_412",
-        "sentence_vi_a1_413",
-        "sentence_vi_a1_414"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「có + 名词」表拥有",
+      "explain": "介绍自己的经验、技能时用「Tôi có + 名词」，如「Tôi có kinh nghiệm」（我有经验）。",
+      "examples": [
         {
-            "point": "「Tôi muốn + 动词」表意愿",
-            "explain": "表达求职意愿用「Tôi muốn + 动词」，如「Tôi muốn ứng tuyển」（我想应聘）。",
-            "examples": [
-                {
-                    "vi": "Tôi muốn tìm việc.",
-                    "zh": "我想找工作。"
-                },
-                {
-                    "vi": "Tôi muốn ứng tuyển vị trí này.",
-                    "zh": "我想应聘这个职位。"
-                }
-            ]
+          "vi": "Tôi có kinh nghiệm 3 năm.",
+          "zh": "我有 3 年经验。"
         },
         {
-            "point": "「có + 名词」表拥有",
-            "explain": "介绍自己的经验、技能时用「Tôi có + 名词」，如「Tôi có kinh nghiệm」（我有经验）。",
-            "examples": [
-                {
-                    "vi": "Tôi có kinh nghiệm 3 năm.",
-                    "zh": "我有 3 年经验。"
-                },
-                {
-                    "vi": "Tôi có kỹ năng giao tiếp.",
-                    "zh": "我有沟通技能。"
-                }
-            ]
+          "vi": "Tôi có kỹ năng giao tiếp.",
+          "zh": "我有沟通技能。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「我想找工作」用越南语怎么说？",
-            "options": [
-                "Tôi muốn tìm việc",
-                "Tôi tìm muốn việc",
-                "Muốn tôi việc tìm"
-            ],
-            "answer": "Tôi muốn tìm việc"
-        },
-        {
-            "type": "fill",
-            "question": "Tôi có ___ 3 năm.",
-            "answer": "kinh nghiệm"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「招聘」的越南语",
-            "answer": "tuyển dụng"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「我想找工作」用越南语怎么说？",
+      "options": ["Tôi muốn tìm việc", "Tôi tìm muốn việc", "Muốn tôi việc tìm"],
+      "answer": "Tôi muốn tìm việc"
+    },
+    {
+      "type": "fill",
+      "question": "Tôi có ___ 3 năm.",
+      "answer": "kinh nghiệm"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「招聘」的越南语",
+      "answer": "tuyển dụng"
+    }
+  ]
 }

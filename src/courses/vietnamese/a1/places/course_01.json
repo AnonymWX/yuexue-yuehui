@@ -1,189 +1,123 @@
 {
-    "id": "course_vi_65",
-    "title": "第 1 课：常见地点名称",
-    "titleVi": "Bài 1: Tên các địa điểm phổ biến",
-    "order": 1,
-    "scenario": "places",
-    "goals": [
-        "掌握常见公共场所名称",
-        "学会说「去……地方」",
-        "掌握「đi đến」结构",
-        "能描述常去的场所"
-    ],
-    "words": [
+  "id": "course_vi_65",
+  "title": "第 1 课：常见地点名称",
+  "titleVi": "Bài 1: Tên các địa điểm phổ biến",
+  "order": 1,
+  "scenario": "places",
+  "goals": ["掌握常见公共场所名称", "学会说「去……地方」", "掌握「đi đến」结构", "能描述常去的场所"],
+  "words": [
+    {
+      "id": "vi_cong_vien",
+      "name": "công viên",
+      "trans": ["公园"],
+      "tags": ["places", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_sieu_thi",
+      "name": "siêu thị",
+      "trans": ["超市"],
+      "tags": ["places", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_nha_tho",
+      "name": "nhà thờ",
+      "trans": ["教堂"],
+      "tags": ["places", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_chua_pagoda",
+      "name": "chùa",
+      "trans": ["寺庙", "佛寺"],
+      "tags": ["places", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_bao_tang",
+      "name": "bảo tàng",
+      "trans": ["博物馆"],
+      "tags": ["places", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_thu_vien",
+      "name": "thư viện",
+      "trans": ["图书馆"],
+      "tags": ["places", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_san_bay",
+      "name": "sân bay",
+      "trans": ["机场"],
+      "tags": ["places", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_nha_ga",
+      "name": "nhà ga",
+      "trans": ["火车站"],
+      "tags": ["places", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_073",
+    "sentence_vi_a1_074",
+    "sentence_vi_a1_075",
+    "sentence_vi_a1_076",
+    "sentence_vi_a1_077",
+    "sentence_vi_a1_078"
+  ],
+  "grammar": [
+    {
+      "point": "「đi đến + 地点」表去某地",
+      "explain": "表示「去某地」用「đi đến + 地点」，口语常用「đi + 地点」。",
+      "examples": [
         {
-            "id": "vi_cong_vien",
-            "name": "công viên",
-            "trans": [
-                "公园"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Tôi đi đến công viên.",
+          "zh": "我去公园。"
         },
         {
-            "id": "vi_sieu_thi",
-            "name": "siêu thị",
-            "trans": [
-                "超市"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_nha_tho",
-            "name": "nhà thờ",
-            "trans": [
-                "教堂"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_chua_pagoda",
-            "name": "chùa",
-            "trans": [
-                "寺庙",
-                "佛寺"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_bao_tang",
-            "name": "bảo tàng",
-            "trans": [
-                "博物馆"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_thu_vien",
-            "name": "thư viện",
-            "trans": [
-                "图书馆"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_san_bay",
-            "name": "sân bay",
-            "trans": [
-                "机场"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_nha_ga",
-            "name": "nhà ga",
-            "trans": [
-                "火车站"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Tôi đi siêu thị.",
+          "zh": "我去超市。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_073",
-        "sentence_vi_a1_074",
-        "sentence_vi_a1_075",
-        "sentence_vi_a1_076",
-        "sentence_vi_a1_077",
-        "sentence_vi_a1_078"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「ở + 地点」表在某处",
+      "explain": "「ở」表示存在或所在，后接地点名词，如「ở thư viện」（在图书馆）。",
+      "examples": [
         {
-            "point": "「đi đến + 地点」表去某地",
-            "explain": "表示「去某地」用「đi đến + 地点」，口语常用「đi + 地点」。",
-            "examples": [
-                {
-                    "vi": "Tôi đi đến công viên.",
-                    "zh": "我去公园。"
-                },
-                {
-                    "vi": "Tôi đi siêu thị.",
-                    "zh": "我去超市。"
-                }
-            ]
+          "vi": "Tôi ở thư viện.",
+          "zh": "我在图书馆。"
         },
         {
-            "point": "「ở + 地点」表在某处",
-            "explain": "「ở」表示存在或所在，后接地点名词，如「ở thư viện」（在图书馆）。",
-            "examples": [
-                {
-                    "vi": "Tôi ở thư viện.",
-                    "zh": "我在图书馆。"
-                },
-                {
-                    "vi": "Anh ấy ở sân bay.",
-                    "zh": "他在机场。"
-                }
-            ]
+          "vi": "Anh ấy ở sân bay.",
+          "zh": "他在机场。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「公园」用越南语怎么说？",
-            "options": [
-                "công viên",
-                "siêu thị",
-                "thư viện"
-            ],
-            "answer": "công viên"
-        },
-        {
-            "type": "fill",
-            "question": "Tôi đi đến ___ viên.",
-            "answer": "công"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「机场」的越南语",
-            "answer": "sân bay"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「公园」用越南语怎么说？",
+      "options": ["công viên", "siêu thị", "thư viện"],
+      "answer": "công viên"
+    },
+    {
+      "type": "fill",
+      "question": "Tôi đi đến ___ viên.",
+      "answer": "công"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「机场」的越南语",
+      "answer": "sân bay"
+    }
+  ]
 }

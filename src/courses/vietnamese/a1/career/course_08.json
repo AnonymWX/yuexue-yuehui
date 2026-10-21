@@ -1,190 +1,123 @@
 {
-    "id": "course_vi_13",
-    "title": "第 8 课：职业规划",
-    "titleVi": "Bài 8: Kế hoạch nghề nghiệp",
-    "order": 8,
-    "scenario": "career",
-    "goals": [
-        "掌握职业规划相关词汇",
-        "能表达未来职业目标",
-        "学会说「我想成为……」",
-        "能描述职业发展路径"
-    ],
-    "words": [
+  "id": "course_vi_13",
+  "title": "第 8 课：职业规划",
+  "titleVi": "Bài 8: Kế hoạch nghề nghiệp",
+  "order": 8,
+  "scenario": "career",
+  "goals": ["掌握职业规划相关词汇", "能表达未来职业目标", "学会说「我想成为……」", "能描述职业发展路径"],
+  "words": [
+    {
+      "id": "vi_tuong_lai",
+      "name": "tương lai",
+      "trans": ["未来"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_mo_uoc",
+      "name": "mơ ước",
+      "trans": ["梦想", "愿望"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_thang_tien",
+      "name": "thăng tiến",
+      "trans": ["晋升"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_phat_trien",
+      "name": "phát triển",
+      "trans": ["发展"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_hoc_hoi",
+      "name": "học hỏi",
+      "trans": ["学习", "请教"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_co_hoi",
+      "name": "cơ hội",
+      "trans": ["机会"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_thach_thuc",
+      "name": "thách thức",
+      "trans": ["挑战"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_thanh_cong",
+      "name": "thành công",
+      "trans": ["成功"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_601",
+    "sentence_vi_a1_602",
+    "sentence_vi_a1_603",
+    "sentence_vi_a1_604",
+    "sentence_vi_a1_605",
+    "sentence_vi_a1_606"
+  ],
+  "grammar": [
+    {
+      "point": "「Tôi muốn trở thành + 职业」",
+      "explain": "表达未来想成为某种职业用「Tôi muốn trở thành + 职业名词」。",
+      "examples": [
         {
-            "id": "vi_tuong_lai",
-            "name": "tương lai",
-            "trans": [
-                "未来"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Tôi muốn trở thành bác sĩ.",
+          "zh": "我想成为医生。"
         },
         {
-            "id": "vi_mo_uoc",
-            "name": "mơ ước",
-            "trans": [
-                "梦想",
-                "愿望"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_thang_tien",
-            "name": "thăng tiến",
-            "trans": [
-                "晋升"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_phat_trien",
-            "name": "phát triển",
-            "trans": [
-                "发展"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_hoc_hoi",
-            "name": "học hỏi",
-            "trans": [
-                "学习",
-                "请教"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_co_hoi",
-            "name": "cơ hội",
-            "trans": [
-                "机会"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_thach_thuc",
-            "name": "thách thức",
-            "trans": [
-                "挑战"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_thanh_cong",
-            "name": "thành công",
-            "trans": [
-                "成功"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Tôi muốn trở thành giám đốc.",
+          "zh": "我想成为经理。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_601",
-        "sentence_vi_a1_602",
-        "sentence_vi_a1_603",
-        "sentence_vi_a1_604",
-        "sentence_vi_a1_605",
-        "sentence_vi_a1_606"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「trong tương lai」表未来",
+      "explain": "「Trong tương lai」意为「在未来」，常用于谈论职业规划。",
+      "examples": [
         {
-            "point": "「Tôi muốn trở thành + 职业」",
-            "explain": "表达未来想成为某种职业用「Tôi muốn trở thành + 职业名词」。",
-            "examples": [
-                {
-                    "vi": "Tôi muốn trở thành bác sĩ.",
-                    "zh": "我想成为医生。"
-                },
-                {
-                    "vi": "Tôi muốn trở thành giám đốc.",
-                    "zh": "我想成为经理。"
-                }
-            ]
+          "vi": "Trong tương lai, tôi muốn phát triển kỹ năng.",
+          "zh": "未来我想发展技能。"
         },
         {
-            "point": "「trong tương lai」表未来",
-            "explain": "「Trong tương lai」意为「在未来」，常用于谈论职业规划。",
-            "examples": [
-                {
-                    "vi": "Trong tương lai, tôi muốn phát triển kỹ năng.",
-                    "zh": "未来我想发展技能。"
-                },
-                {
-                    "vi": "Trong tương lai, tôi muốn thăng tiến.",
-                    "zh": "未来我想晋升。"
-                }
-            ]
+          "vi": "Trong tương lai, tôi muốn thăng tiến.",
+          "zh": "未来我想晋升。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「我想成为医生」用越南语怎么说？",
-            "options": [
-                "Tôi muốn trở thành bác sĩ",
-                "Tôi thành bác sĩ muốn trở",
-                "Muốn tôi bác sĩ trở thành"
-            ],
-            "answer": "Tôi muốn trở thành bác sĩ"
-        },
-        {
-            "type": "fill",
-            "question": "Trong ___, tôi muốn thăng tiến.",
-            "answer": "tương lai"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「机会」的越南语",
-            "answer": "cơ hội"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「我想成为医生」用越南语怎么说？",
+      "options": ["Tôi muốn trở thành bác sĩ", "Tôi thành bác sĩ muốn trở", "Muốn tôi bác sĩ trở thành"],
+      "answer": "Tôi muốn trở thành bác sĩ"
+    },
+    {
+      "type": "fill",
+      "question": "Trong ___, tôi muốn thăng tiến.",
+      "answer": "tương lai"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「机会」的越南语",
+      "answer": "cơ hội"
+    }
+  ]
 }

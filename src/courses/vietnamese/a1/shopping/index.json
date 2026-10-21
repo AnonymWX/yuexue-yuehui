@@ -1,56 +1,56 @@
 {
-    "id": "shopping",
-    "stage": "a1",
-    "title": "购物",
-    "titleVi": "Mua sắm",
-    "courses": [
-        {
-            "id": "course_vi_78",
-            "file": "course_01.json",
-            "title": "第 1 课：商店类型",
-            "titleVi": "Bài 1: Các loại cửa hàng"
-        },
-        {
-            "id": "course_vi_79",
-            "file": "course_02.json",
-            "title": "第 2 课：服装购物",
-            "titleVi": "Bài 2: Mua quần áo"
-        },
-        {
-            "id": "course_vi_80",
-            "file": "course_03.json",
-            "title": "第 3 课：鞋帽购物",
-            "titleVi": "Bài 3: Mua giày dép và mũ nón"
-        },
-        {
-            "id": "course_vi_81",
-            "file": "course_04.json",
-            "title": "第 4 课：食品购物",
-            "titleVi": "Bài 4: Mua thực phẩm"
-        },
-        {
-            "id": "course_vi_82",
-            "file": "course_05.json",
-            "title": "第 5 课：超市内部设施与场所",
-            "titleVi": "Bài 5: Cơ sở vật chất trong siêu thị"
-        },
-        {
-            "id": "course_vi_83",
-            "file": "course_06.json",
-            "title": "第 6 课：讨价还价",
-            "titleVi": "Bài 6: Mặc cả"
-        },
-        {
-            "id": "course_vi_84",
-            "file": "course_07.json",
-            "title": "第 7 课：支付方式",
-            "titleVi": "Bài 7: Phương thức thanh toán"
-        },
-        {
-            "id": "course_vi_85",
-            "file": "course_08.json",
-            "title": "第 8 课：退换货",
-            "titleVi": "Bài 8: Đổi trả hàng"
-        }
-    ]
+  "id": "shopping",
+  "stage": "a1",
+  "title": "购物",
+  "titleVi": "Mua sắm",
+  "courses": [
+    {
+      "id": "course_vi_78",
+      "file": "course_01.json",
+      "title": "第 1 课：商店类型",
+      "titleVi": "Bài 1: Các loại cửa hàng"
+    },
+    {
+      "id": "course_vi_79",
+      "file": "course_02.json",
+      "title": "第 2 课：服装购物",
+      "titleVi": "Bài 2: Mua quần áo"
+    },
+    {
+      "id": "course_vi_80",
+      "file": "course_03.json",
+      "title": "第 3 课：鞋帽购物",
+      "titleVi": "Bài 3: Mua giày dép và mũ nón"
+    },
+    {
+      "id": "course_vi_81",
+      "file": "course_04.json",
+      "title": "第 4 课：食品购物",
+      "titleVi": "Bài 4: Mua thực phẩm"
+    },
+    {
+      "id": "course_vi_82",
+      "file": "course_05.json",
+      "title": "第 5 课：超市内部设施与场所",
+      "titleVi": "Bài 5: Cơ sở vật chất trong siêu thị"
+    },
+    {
+      "id": "course_vi_83",
+      "file": "course_06.json",
+      "title": "第 6 课：讨价还价",
+      "titleVi": "Bài 6: Mặc cả"
+    },
+    {
+      "id": "course_vi_84",
+      "file": "course_07.json",
+      "title": "第 7 课：支付方式",
+      "titleVi": "Bài 7: Phương thức thanh toán"
+    },
+    {
+      "id": "course_vi_85",
+      "file": "course_08.json",
+      "title": "第 8 课：退换货",
+      "titleVi": "Bài 8: Đổi trả hàng"
+    }
+  ]
 }

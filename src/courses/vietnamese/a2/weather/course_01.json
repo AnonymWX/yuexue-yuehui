@@ -1,318 +1,191 @@
 {
-    "id": "course_vi_111",
-    "title": "第 1 课：基本天气",
-    "titleVi": "Bài 1: Thời tiết cơ bản",
-    "order": 1,
-    "scenario": "weather",
-    "goals": [
-        "能说出 12 种以上基本天气现象",
-        "能用「đang / sắp / sẽ」描述天气的变化趋势",
-        "能用「thế nào?」询问天气",
-        "能描述当下的天气状况"
-    ],
-    "words": [
+  "id": "course_vi_111",
+  "title": "第 1 课：基本天气",
+  "titleVi": "Bài 1: Thời tiết cơ bản",
+  "order": 1,
+  "scenario": "weather",
+  "goals": [
+    "能说出 12 种以上基本天气现象",
+    "能用「đang / sắp / sẽ」描述天气的变化趋势",
+    "能用「thế nào?」询问天气",
+    "能描述当下的天气状况"
+  ],
+  "words": [
+    {
+      "id": "vi_a2_thoi_tiet",
+      "name": "thời tiết",
+      "trans": ["天气"],
+      "tags": ["weather", "A2", "basic"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_nang",
+      "name": "nắng",
+      "trans": ["晴", "阳光"],
+      "tags": ["weather", "A2", "basic"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_mua",
+      "name": "mưa",
+      "trans": ["雨", "下雨"],
+      "tags": ["weather", "A2", "basic"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_gio",
+      "name": "gió",
+      "trans": ["风"],
+      "tags": ["weather", "A2", "basic"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_may",
+      "name": "mây",
+      "trans": ["云"],
+      "tags": ["weather", "A2", "basic"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_bao",
+      "name": "bão",
+      "trans": ["台风", "暴风雨"],
+      "tags": ["weather", "A2", "basic"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_sam",
+      "name": "sấm",
+      "trans": ["雷"],
+      "tags": ["weather", "A2", "basic"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_chop",
+      "name": "chớp",
+      "trans": ["闪电"],
+      "tags": ["weather", "A2", "basic"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_tuyet",
+      "name": "tuyết",
+      "trans": ["雪"],
+      "tags": ["weather", "A2", "basic"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_suong_mu",
+      "name": "sương mù",
+      "trans": ["雾"],
+      "tags": ["weather", "A2", "basic"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_am_u",
+      "name": "âm u",
+      "trans": ["阴天", "阴沉的"],
+      "tags": ["weather", "A2", "basic"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_am_uot",
+      "name": "ẩm ướt",
+      "trans": ["潮湿"],
+      "tags": ["weather", "A2", "basic"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_kho_rao",
+      "name": "khô ráo",
+      "trans": ["干燥"],
+      "tags": ["weather", "A2", "basic"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_ngoai_troi",
+      "name": "ngoài trời",
+      "trans": ["户外", "外面"],
+      "tags": ["weather", "A2", "basic"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a2_009",
+    "sentence_vi_a2_010",
+    "sentence_vi_a2_011",
+    "sentence_vi_a2_012",
+    "sentence_vi_a2_013",
+    "sentence_vi_a2_014",
+    "sentence_vi_a2_015",
+    "sentence_vi_a2_016"
+  ],
+  "grammar": [
+    {
+      "point": "时态进阶：đang / sắp / sẽ",
+      "explain": "đang = 正在（进行，动作此刻发生）；sắp = 即将（马上要，一两分钟内）；sẽ = 将要（将来，时间可远可近）。口诀：đang 现在 → sắp 马上 → sẽ 将来。三者位置都在动词前，可叠用：sắp sửa（快要）、đang chuẩn bị（正在准备）。",
+      "examples": [
         {
-            "id": "vi_a2_thoi_tiet",
-            "name": "thời tiết",
-            "trans": [
-                "天气"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "basic"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Trời đang mưa to, bạn nhớ mang áo mưa nhé.",
+          "zh": "现在正下大雨，你记得带雨衣。"
         },
         {
-            "id": "vi_a2_nang",
-            "name": "nắng",
-            "trans": [
-                "晴",
-                "阳光"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "basic"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Trời sắp mưa rồi, mây đen kéo đến rất nhanh.",
+          "zh": "快下雨了，乌云来得很快。"
         },
         {
-            "id": "vi_a2_mua",
-            "name": "mưa",
-            "trans": [
-                "雨",
-                "下雨"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "basic"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_gio",
-            "name": "gió",
-            "trans": [
-                "风"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "basic"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_may",
-            "name": "mây",
-            "trans": [
-                "云"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "basic"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_bao",
-            "name": "bão",
-            "trans": [
-                "台风",
-                "暴风雨"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "basic"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_sam",
-            "name": "sấm",
-            "trans": [
-                "雷"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "basic"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_chop",
-            "name": "chớp",
-            "trans": [
-                "闪电"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "basic"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_tuyet",
-            "name": "tuyết",
-            "trans": [
-                "雪"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "basic"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_suong_mu",
-            "name": "sương mù",
-            "trans": [
-                "雾"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "basic"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_am_u",
-            "name": "âm u",
-            "trans": [
-                "阴天",
-                "阴沉的"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "basic"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_am_uot",
-            "name": "ẩm ướt",
-            "trans": [
-                "潮湿"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "basic"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_kho_rao",
-            "name": "khô ráo",
-            "trans": [
-                "干燥"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "basic"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_ngoai_troi",
-            "name": "ngoài trời",
-            "trans": [
-                "户外",
-                "外面"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "basic"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Ngày mai trời sẽ nắng, nhiệt độ khoảng 30 độ.",
+          "zh": "明天会晴，温度大约 30 度。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a2_009",
-        "sentence_vi_a2_010",
-        "sentence_vi_a2_011",
-        "sentence_vi_a2_012",
-        "sentence_vi_a2_013",
-        "sentence_vi_a2_014",
-        "sentence_vi_a2_015",
-        "sentence_vi_a2_016"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "询问天气：thế nào?",
+      "explain": "「Thời tiết hôm nay thế nào?」= 今天天气怎样？thế nào 是万能疑问短语，可问天气、感受、状态。「như thế nào」稍书面。回答用形容词直接描述即可，无需加「là」。",
+      "examples": [
         {
-            "point": "时态进阶：đang / sắp / sẽ",
-            "explain": "đang = 正在（进行，动作此刻发生）；sắp = 即将（马上要，一两分钟内）；sẽ = 将要（将来，时间可远可近）。口诀：đang 现在 → sắp 马上 → sẽ 将来。三者位置都在动词前，可叠用：sắp sửa（快要）、đang chuẩn bị（正在准备）。",
-            "examples": [
-                {
-                    "vi": "Trời đang mưa to, bạn nhớ mang áo mưa nhé.",
-                    "zh": "现在正下大雨，你记得带雨衣。"
-                },
-                {
-                    "vi": "Trời sắp mưa rồi, mây đen kéo đến rất nhanh.",
-                    "zh": "快下雨了，乌云来得很快。"
-                },
-                {
-                    "vi": "Ngày mai trời sẽ nắng, nhiệt độ khoảng 30 độ.",
-                    "zh": "明天会晴，温度大约 30 度。"
-                }
-            ]
+          "vi": "Thời tiết ở Hà Nội hôm nay thế nào?",
+          "zh": "今天河内的天气怎样？"
         },
         {
-            "point": "询问天气：thế nào?",
-            "explain": "「Thời tiết hôm nay thế nào?」= 今天天气怎样？thế nào 是万能疑问短语，可问天气、感受、状态。「như thế nào」稍书面。回答用形容词直接描述即可，无需加「là」。",
-            "examples": [
-                {
-                    "vi": "Thời tiết ở Hà Nội hôm nay thế nào?",
-                    "zh": "今天河内的天气怎样？"
-                },
-                {
-                    "vi": "Ngoài trời có gió to không?",
-                    "zh": "外面风大吗？"
-                },
-                {
-                    "vi": "Trời hôm nay đẹp lắm, không nóng cũng không lạnh.",
-                    "zh": "今天天气很好，不热也不冷。"
-                }
-            ]
+          "vi": "Ngoài trời có gió to không?",
+          "zh": "外面风大吗？"
+        },
+        {
+          "vi": "Trời hôm nay đẹp lắm, không nóng cũng không lạnh.",
+          "zh": "今天天气很好，不热也不冷。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「sương mù」的意思是？",
-            "options": [
-                "雨",
-                "雪",
-                "雾",
-                "云"
-            ],
-            "answer": "雾"
-        },
-        {
-            "type": "choose",
-            "question": "哪句表示「马上要下雨了」？",
-            "options": [
-                "Trời đang mưa.",
-                "Trời sắp mưa.",
-                "Trời sẽ mưa.",
-                "Trời đã mưa."
-            ],
-            "answer": "Trời sắp mưa."
-        },
-        {
-            "type": "fill",
-            "question": "Trời ___ mưa to, bạn nhớ mang áo mưa nhé.（现在正下大雨）",
-            "answer": "đang"
-        },
-        {
-            "type": "fill",
-            "question": "Thời tiết hôm nay ___ nào?（今天天气怎样？）",
-            "answer": "thế"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「今天天气很好」的越南语",
-            "answer": "Thời tiết hôm nay đẹp"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「sương mù」的意思是？",
+      "options": ["雨", "雪", "雾", "云"],
+      "answer": "雾"
+    },
+    {
+      "type": "choose",
+      "question": "哪句表示「马上要下雨了」？",
+      "options": ["Trời đang mưa.", "Trời sắp mưa.", "Trời sẽ mưa.", "Trời đã mưa."],
+      "answer": "Trời sắp mưa."
+    },
+    {
+      "type": "fill",
+      "question": "Trời ___ mưa to, bạn nhớ mang áo mưa nhé.（现在正下大雨）",
+      "answer": "đang"
+    },
+    {
+      "type": "fill",
+      "question": "Thời tiết hôm nay ___ nào?（今天天气怎样？）",
+      "answer": "thế"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「今天天气很好」的越南语",
+      "answer": "Thời tiết hôm nay đẹp"
+    }
+  ]
 }

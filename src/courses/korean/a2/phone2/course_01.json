@@ -1,271 +1,165 @@
 {
-    "id": "course_ko_110",
-    "title": "第 1 课：전화를 걸어 놓았습니다（已经打好电话了）",
-    "titleVi": "제1과: 전화를 걸어 놓았습니다",
-    "order": 1,
-    "scenario": "phone2",
-    "goals": [
-        "掌握「-아/어 놓다」（做好/放着）",
-        "掌握「-는 동안」（在…期间）",
-        "能处理未接来电与留言",
-        "能说明电话占线、关机等情况"
-    ],
-    "words": [
+  "id": "course_ko_110",
+  "title": "第 1 课：전화를 걸어 놓았습니다（已经打好电话了）",
+  "titleVi": "제1과: 전화를 걸어 놓았습니다",
+  "order": 1,
+  "scenario": "phone2",
+  "goals": ["掌握「-아/어 놓다」（做好/放着）", "掌握「-는 동안」（在…期间）", "能处理未接来电与留言", "能说明电话占线、关机等情况"],
+  "words": [
+    {
+      "id": "ko_a2_yeollakhada",
+      "name": "연락하다",
+      "trans": ["联系"],
+      "tags": ["phone2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_yeollakcheo",
+      "name": "연락처",
+      "trans": ["联系方式"],
+      "tags": ["phone2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_munja",
+      "name": "문자",
+      "trans": ["短信"],
+      "tags": ["phone2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_bujaejung",
+      "name": "부재중",
+      "trans": ["未接（电话）"],
+      "tags": ["phone2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_tonghwa",
+      "name": "통화",
+      "trans": ["通话"],
+      "tags": ["phone2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_sinho",
+      "name": "신호",
+      "trans": ["信号"],
+      "tags": ["phone2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_yogeum",
+      "name": "요금",
+      "trans": ["费用"],
+      "tags": ["phone2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_chungjeon",
+      "name": "충전",
+      "trans": ["充电"],
+      "tags": ["phone2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_kkeunda",
+      "name": "끊다",
+      "trans": ["挂断", "断开"],
+      "tags": ["phone2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_jeonhwahada",
+      "name": "전화하다",
+      "trans": ["打电话"],
+      "tags": ["phone2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_allim",
+      "name": "알림",
+      "trans": ["通知", "提醒"],
+      "tags": ["phone2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_kkada",
+      "name": "끄다",
+      "trans": ["关（机/灯）"],
+      "tags": ["phone2", "A2"],
+      "source": ["korean_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_ko_a2_073",
+    "sentence_ko_a2_074",
+    "sentence_ko_a2_075",
+    "sentence_ko_a2_076",
+    "sentence_ko_a2_077",
+    "sentence_ko_a2_078",
+    "sentence_ko_a2_079",
+    "sentence_ko_a2_080"
+  ],
+  "grammar": [
+    {
+      "point": "「-아/어 놓다」（做好 / 放着）",
+      "explain": "词干 ㅏ/ㅗ 用 -아 놓다，其他用 -어 놓다，하다 用 -해 놓다。表「做好某事后放着」或「保持某状态」。例：전화를 걸어 놓았습니다（已经打了电话放着）；숙제를 해 놓았습니다（作业做好了）。中文「做好了」对应这个结构。注意 놓았습니다 是过去时。",
+      "examples": [
         {
-            "id": "ko_a2_yeollakhada",
-            "name": "연락하다",
-            "trans": [
-                "联系"
-            ],
-            "tags": [
-                "phone2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
+          "vi": "전화를 걸어 놓았습니다.",
+          "zh": "已经打好电话了。"
         },
         {
-            "id": "ko_a2_yeollakcheo",
-            "name": "연락처",
-            "trans": [
-                "联系方式"
-            ],
-            "tags": [
-                "phone2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_munja",
-            "name": "문자",
-            "trans": [
-                "短信"
-            ],
-            "tags": [
-                "phone2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_bujaejung",
-            "name": "부재중",
-            "trans": [
-                "未接（电话）"
-            ],
-            "tags": [
-                "phone2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_tonghwa",
-            "name": "통화",
-            "trans": [
-                "通话"
-            ],
-            "tags": [
-                "phone2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_sinho",
-            "name": "신호",
-            "trans": [
-                "信号"
-            ],
-            "tags": [
-                "phone2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_yogeum",
-            "name": "요금",
-            "trans": [
-                "费用"
-            ],
-            "tags": [
-                "phone2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_chungjeon",
-            "name": "충전",
-            "trans": [
-                "充电"
-            ],
-            "tags": [
-                "phone2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_kkeunda",
-            "name": "끊다",
-            "trans": [
-                "挂断",
-                "断开"
-            ],
-            "tags": [
-                "phone2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_jeonhwahada",
-            "name": "전화하다",
-            "trans": [
-                "打电话"
-            ],
-            "tags": [
-                "phone2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_allim",
-            "name": "알림",
-            "trans": [
-                "通知",
-                "提醒"
-            ],
-            "tags": [
-                "phone2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_kkada",
-            "name": "끄다",
-            "trans": [
-                "关（机/灯）"
-            ],
-            "tags": [
-                "phone2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
+          "vi": "문자를 보내 놓았습니다.",
+          "zh": "已经发好短信了。"
         }
-    ],
-    "sentences": [
-        "sentence_ko_a2_073",
-        "sentence_ko_a2_074",
-        "sentence_ko_a2_075",
-        "sentence_ko_a2_076",
-        "sentence_ko_a2_077",
-        "sentence_ko_a2_078",
-        "sentence_ko_a2_079",
-        "sentence_ko_a2_080"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「-는 동안」（在…期间）",
+      "explain": "动词词干 + 는 동안，表「在…期间」。例：기다리는 동안（在等的时候）；통화하는 동안（在通话期间）；자는 동안（在睡觉期间）。中文「…的时候 / 期间」对应。注意 동안 前接动词用 -는，接名词直接加 동안（방학 동안 放假期间）。",
+      "examples": [
         {
-            "point": "「-아/어 놓다」（做好 / 放着）",
-            "explain": "词干 ㅏ/ㅗ 用 -아 놓다，其他用 -어 놓다，하다 用 -해 놓다。表「做好某事后放着」或「保持某状态」。例：전화를 걸어 놓았습니다（已经打了电话放着）；숙제를 해 놓았습니다（作业做好了）。中文「做好了」对应这个结构。注意 놓았습니다 是过去时。",
-            "examples": [
-                {
-                    "vi": "전화를 걸어 놓았습니다.",
-                    "zh": "已经打好电话了。"
-                },
-                {
-                    "vi": "문자를 보내 놓았습니다.",
-                    "zh": "已经发好短信了。"
-                }
-            ]
+          "vi": "기다리는 동안 문자를 보냈습니다.",
+          "zh": "等的时候发了短信。"
         },
         {
-            "point": "「-는 동안」（在…期间）",
-            "explain": "动词词干 + 는 동안，表「在…期间」。例：기다리는 동안（在等的时候）；통화하는 동안（在通话期间）；자는 동안（在睡觉期间）。中文「…的时候 / 期间」对应。注意 동안 前接动词用 -는，接名词直接加 동안（방학 동안 放假期间）。",
-            "examples": [
-                {
-                    "vi": "기다리는 동안 문자를 보냈습니다.",
-                    "zh": "等的时候发了短信。"
-                },
-                {
-                    "vi": "통화하는 동안 조용히 해 주세요.",
-                    "zh": "通话期间请安静。"
-                }
-            ]
+          "vi": "통화하는 동안 조용히 해 주세요.",
+          "zh": "通话期间请安静。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「已经打好电话了」的韩语是？",
-            "options": [
-                "전화를 걸어 놓았습니다",
-                "전화를 걸고 있습니다",
-                "전화를 걸 겁니다",
-                "전화를 걸어야 합니다"
-            ],
-            "answer": "전화를 걸어 놓았습니다"
-        },
-        {
-            "type": "choose",
-            "question": "「在等的时候」的韩语是？",
-            "options": [
-                "기다리는 동안",
-                "기다리고 싶어서",
-                "기다렸지만",
-                "기다리면"
-            ],
-            "answer": "기다리는 동안"
-        },
-        {
-            "type": "choose",
-            "question": "「未接电话」的韩语是？",
-            "options": [
-                "부재중 전화",
-                "전화번호",
-                "통화 중",
-                "문자 알림"
-            ],
-            "answer": "부재중 전화"
-        },
-        {
-            "type": "fill",
-            "question": "「联系方式」的韩语是？",
-            "answer": "연락처"
-        },
-        {
-            "type": "fill",
-            "question": "「充电」的韩语是？",
-            "answer": "충전"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「已经打好电话了」的韩语是？",
+      "options": ["전화를 걸어 놓았습니다", "전화를 걸고 있습니다", "전화를 걸 겁니다", "전화를 걸어야 합니다"],
+      "answer": "전화를 걸어 놓았습니다"
+    },
+    {
+      "type": "choose",
+      "question": "「在等的时候」的韩语是？",
+      "options": ["기다리는 동안", "기다리고 싶어서", "기다렸지만", "기다리면"],
+      "answer": "기다리는 동안"
+    },
+    {
+      "type": "choose",
+      "question": "「未接电话」的韩语是？",
+      "options": ["부재중 전화", "전화번호", "통화 중", "문자 알림"],
+      "answer": "부재중 전화"
+    },
+    {
+      "type": "fill",
+      "question": "「联系方式」的韩语是？",
+      "answer": "연락처"
+    },
+    {
+      "type": "fill",
+      "question": "「充电」的韩语是？",
+      "answer": "충전"
+    }
+  ]
 }

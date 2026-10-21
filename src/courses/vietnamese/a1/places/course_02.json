@@ -1,189 +1,123 @@
 {
-    "id": "course_vi_66",
-    "title": "第 2 课：说地址",
-    "titleVi": "Bài 2: Nói địa chỉ",
-    "order": 2,
-    "scenario": "places",
-    "goals": [
-        "掌握越南地址的结构",
-        "学会说门牌号、街名",
-        "掌握「số + 数字 + đường」结构",
-        "能完整报出自己的地址"
-    ],
-    "words": [
+  "id": "course_vi_66",
+  "title": "第 2 课：说地址",
+  "titleVi": "Bài 2: Nói địa chỉ",
+  "order": 2,
+  "scenario": "places",
+  "goals": ["掌握越南地址的结构", "学会说门牌号、街名", "掌握「số + 数字 + đường」结构", "能完整报出自己的地址"],
+  "words": [
+    {
+      "id": "vi_so_nha",
+      "name": "số nhà",
+      "trans": ["门牌号"],
+      "tags": ["places", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_phuong",
+      "name": "phường",
+      "trans": ["坊（行政单位）"],
+      "tags": ["places", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_quan_district",
+      "name": "quận",
+      "trans": ["郡（行政单位）"],
+      "tags": ["places", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_huyen",
+      "name": "huyện",
+      "trans": ["县（行政单位）"],
+      "tags": ["places", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_tinh",
+      "name": "tỉnh",
+      "trans": ["省"],
+      "tags": ["places", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_thanh_pho_place",
+      "name": "thành phố",
+      "trans": ["城市"],
+      "tags": ["places", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_ap",
+      "name": "ấp",
+      "trans": ["村", "屯"],
+      "tags": ["places", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_xa_commune",
+      "name": "xã",
+      "trans": ["社（行政单位）"],
+      "tags": ["places", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_175",
+    "sentence_vi_a1_176",
+    "sentence_vi_a1_177",
+    "sentence_vi_a1_178",
+    "sentence_vi_a1_179",
+    "sentence_vi_a1_180"
+  ],
+  "grammar": [
+    {
+      "point": "越南地址结构「số + đường + phường + quận + thành phố」",
+      "explain": "越南地址从具体到宏观排列：门牌号 → 街名 → 坊 → 郡 → 城市。如「số 10 đường Nguyễn Huệ, phường 1, quận 1, thành phố Hồ Chí Minh」。",
+      "examples": [
         {
-            "id": "vi_so_nha",
-            "name": "số nhà",
-            "trans": [
-                "门牌号"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Số 10 đường Nguyễn Huệ.",
+          "zh": "阮惠街 10 号。"
         },
         {
-            "id": "vi_phuong",
-            "name": "phường",
-            "trans": [
-                "坊（行政单位）"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_quan_district",
-            "name": "quận",
-            "trans": [
-                "郡（行政单位）"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_huyen",
-            "name": "huyện",
-            "trans": [
-                "县（行政单位）"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_tinh",
-            "name": "tỉnh",
-            "trans": [
-                "省"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_thanh_pho_place",
-            "name": "thành phố",
-            "trans": [
-                "城市"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_ap",
-            "name": "ấp",
-            "trans": [
-                "村",
-                "屯"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_xa_commune",
-            "name": "xã",
-            "trans": [
-                "社（行政单位）"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Số 5 đường Lê Lợi, quận 1.",
+          "zh": "黎利街 5 号，1 郡。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_175",
-        "sentence_vi_a1_176",
-        "sentence_vi_a1_177",
-        "sentence_vi_a1_178",
-        "sentence_vi_a1_179",
-        "sentence_vi_a1_180"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「số + 数字」表门牌号",
+      "explain": "报门牌号用「số + 数字」，如「số 20」（20 号）。",
+      "examples": [
         {
-            "point": "越南地址结构「số + đường + phường + quận + thành phố」",
-            "explain": "越南地址从具体到宏观排列：门牌号 → 街名 → 坊 → 郡 → 城市。如「số 10 đường Nguyễn Huệ, phường 1, quận 1, thành phố Hồ Chí Minh」。",
-            "examples": [
-                {
-                    "vi": "Số 10 đường Nguyễn Huệ.",
-                    "zh": "阮惠街 10 号。"
-                },
-                {
-                    "vi": "Số 5 đường Lê Lợi, quận 1.",
-                    "zh": "黎利街 5 号，1 郡。"
-                }
-            ]
+          "vi": "Nhà tôi ở số 20.",
+          "zh": "我家在 20 号。"
         },
         {
-            "point": "「số + 数字」表门牌号",
-            "explain": "报门牌号用「số + 数字」，如「số 20」（20 号）。",
-            "examples": [
-                {
-                    "vi": "Nhà tôi ở số 20.",
-                    "zh": "我家在 20 号。"
-                },
-                {
-                    "vi": "Số nhà tôi là 15.",
-                    "zh": "我家门牌号是 15。"
-                }
-            ]
+          "vi": "Số nhà tôi là 15.",
+          "zh": "我家门牌号是 15。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「门牌号」用越南语怎么说？",
-            "options": [
-                "số nhà",
-                "số điện thoại",
-                "số lượng"
-            ],
-            "answer": "số nhà"
-        },
-        {
-            "type": "fill",
-            "question": "Nhà tôi ở ___ 20.",
-            "answer": "số"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「郡（行政单位）」的越南语",
-            "answer": "quận"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「门牌号」用越南语怎么说？",
+      "options": ["số nhà", "số điện thoại", "số lượng"],
+      "answer": "số nhà"
+    },
+    {
+      "type": "fill",
+      "question": "Nhà tôi ở ___ 20.",
+      "answer": "số"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「郡（行政单位）」的越南语",
+      "answer": "quận"
+    }
+  ]
 }

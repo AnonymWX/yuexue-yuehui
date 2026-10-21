@@ -1,192 +1,123 @@
 {
-    "id": "course_vi_04",
-    "title": "第 4 课：肯定回应词",
-    "titleVi": "Bài 4: Từ xác nhận",
-    "order": 4,
-    "scenario": "greeting",
-    "goals": [
-        "掌握越南语肯定与否定回应词",
-        "区分「vâng」与「dạ」的用法",
-        "学会礼貌回应他人",
-        "能进行简单的确认对话"
-    ],
-    "words": [
+  "id": "course_vi_04",
+  "title": "第 4 课：肯定回应词",
+  "titleVi": "Bài 4: Từ xác nhận",
+  "order": 4,
+  "scenario": "greeting",
+  "goals": ["掌握越南语肯定与否定回应词", "区分「vâng」与「dạ」的用法", "学会礼貌回应他人", "能进行简单的确认对话"],
+  "words": [
+    {
+      "id": "vi_vang",
+      "name": "vâng",
+      "trans": ["是的（正式）"],
+      "tags": ["response", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_da_yes",
+      "name": "dạ",
+      "trans": ["是的（南方/礼貌）"],
+      "tags": ["response", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_u",
+      "name": "ừ",
+      "trans": ["嗯（随意）"],
+      "tags": ["response", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_khong",
+      "name": "không",
+      "trans": ["不", "没有"],
+      "tags": ["response", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_co",
+      "name": "có",
+      "trans": ["有", "是"],
+      "tags": ["response", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_dung",
+      "name": "đúng",
+      "trans": ["对", "正确"],
+      "tags": ["response", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_sai",
+      "name": "sai",
+      "trans": ["错", "错误"],
+      "tags": ["response", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_cam_on",
+      "name": "cảm ơn",
+      "trans": ["谢谢"],
+      "tags": ["response", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_307",
+    "sentence_vi_a1_308",
+    "sentence_vi_a1_309",
+    "sentence_vi_a1_310",
+    "sentence_vi_a1_311",
+    "sentence_vi_a1_312"
+  ],
+  "grammar": [
+    {
+      "point": "「Vâng」与「Dạ」的区别",
+      "explain": "两者都表示「是」，但「vâng」偏北方、「dạ」偏南方，且「dạ」更显礼貌、谦逊，常用于对长辈或正式场合。",
+      "examples": [
         {
-            "id": "vi_vang",
-            "name": "vâng",
-            "trans": [
-                "是的（正式）"
-            ],
-            "tags": [
-                "response",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Vâng, tôi hiểu rồi.",
+          "zh": "是的，我明白了。"
         },
         {
-            "id": "vi_da_yes",
-            "name": "dạ",
-            "trans": [
-                "是的（南方/礼貌）"
-            ],
-            "tags": [
-                "response",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_u",
-            "name": "ừ",
-            "trans": [
-                "嗯（随意）"
-            ],
-            "tags": [
-                "response",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_khong",
-            "name": "không",
-            "trans": [
-                "不",
-                "没有"
-            ],
-            "tags": [
-                "response",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_co",
-            "name": "có",
-            "trans": [
-                "有",
-                "是"
-            ],
-            "tags": [
-                "response",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_dung",
-            "name": "đúng",
-            "trans": [
-                "对",
-                "正确"
-            ],
-            "tags": [
-                "response",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_sai",
-            "name": "sai",
-            "trans": [
-                "错",
-                "错误"
-            ],
-            "tags": [
-                "response",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_cam_on",
-            "name": "cảm ơn",
-            "trans": [
-                "谢谢"
-            ],
-            "tags": [
-                "response",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Dạ, em cảm ơn anh.",
+          "zh": "是的，谢谢哥哥。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_307",
-        "sentence_vi_a1_308",
-        "sentence_vi_a1_309",
-        "sentence_vi_a1_310",
-        "sentence_vi_a1_311",
-        "sentence_vi_a1_312"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "肯定与否定「Có / Không」",
+      "explain": "越南语中「có」表示肯定，「không」表示否定，常用于回答一般疑问句。",
+      "examples": [
         {
-            "point": "「Vâng」与「Dạ」的区别",
-            "explain": "两者都表示「是」，但「vâng」偏北方、「dạ」偏南方，且「dạ」更显礼貌、谦逊，常用于对长辈或正式场合。",
-            "examples": [
-                {
-                    "vi": "Vâng, tôi hiểu rồi.",
-                    "zh": "是的，我明白了。"
-                },
-                {
-                    "vi": "Dạ, em cảm ơn anh.",
-                    "zh": "是的，谢谢哥哥。"
-                }
-            ]
+          "vi": "Bạn có khỏe không? — Có, tôi khỏe.",
+          "zh": "你好吗？——是的，我很好。"
         },
         {
-            "point": "肯定与否定「Có / Không」",
-            "explain": "越南语中「có」表示肯定，「không」表示否定，常用于回答一般疑问句。",
-            "examples": [
-                {
-                    "vi": "Bạn có khỏe không? — Có, tôi khỏe.",
-                    "zh": "你好吗？——是的，我很好。"
-                },
-                {
-                    "vi": "Anh có biết tiếng Việt không? — Không, tôi không biết.",
-                    "zh": "你会越南语吗？——不，我不会。"
-                }
-            ]
+          "vi": "Anh có biết tiếng Việt không? — Không, tôi không biết.",
+          "zh": "你会越南语吗？——不，我不会。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "在南方，礼貌地表示「是」通常用？",
-            "options": [
-                "vâng",
-                "dạ",
-                "ừ"
-            ],
-            "answer": "dạ"
-        },
-        {
-            "type": "fill",
-            "question": "Bạn có khỏe không? — ___, tôi khỏe.",
-            "answer": "Có"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「谢谢」的越南语",
-            "answer": "cảm ơn"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "在南方，礼貌地表示「是」通常用？",
+      "options": ["vâng", "dạ", "ừ"],
+      "answer": "dạ"
+    },
+    {
+      "type": "fill",
+      "question": "Bạn có khỏe không? — ___, tôi khỏe.",
+      "answer": "Có"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「谢谢」的越南语",
+      "answer": "cảm ơn"
+    }
+  ]
 }

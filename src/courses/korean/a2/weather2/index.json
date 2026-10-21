@@ -1,14 +1,14 @@
 {
-    "id": "weather2",
-    "stage": "a2",
-    "title": "天气与季节进阶",
-    "titleVi": "날씨와 계절 심화",
-    "courses": [
-        {
-            "id": "course_ko_103",
-            "file": "course_01.json",
-            "title": "第 1 课：내일 비가 올 것 같습니다",
-            "titleVi": "제1과: 내일 비가 올 것 같습니다"
-        }
-    ]
+  "id": "weather2",
+  "stage": "a2",
+  "title": "天气与季节进阶",
+  "titleVi": "날씨와 계절 심화",
+  "courses": [
+    {
+      "id": "course_ko_103",
+      "file": "course_01.json",
+      "title": "第 1 课：내일 비가 올 것 같습니다",
+      "titleVi": "제1과: 내일 비가 올 것 같습니다"
+    }
+  ]
 }

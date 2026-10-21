@@ -1,14 +1,14 @@
 {
-    "id": "transport2",
-    "stage": "a2",
-    "title": "交通与方向",
-    "titleVi": "교통과 방향",
-    "courses": [
-        {
-            "id": "course_ko_115",
-            "file": "course_01.json",
-            "title": "第 1 课：길을 건너면 은행이 있습니다",
-            "titleVi": "제1과: 길을 건너면 은행이 있습니다"
-        }
-    ]
+  "id": "transport2",
+  "stage": "a2",
+  "title": "交通与方向",
+  "titleVi": "교통과 방향",
+  "courses": [
+    {
+      "id": "course_ko_115",
+      "file": "course_01.json",
+      "title": "第 1 课：길을 건너면 은행이 있습니다",
+      "titleVi": "제1과: 길을 건너면 은행이 있습니다"
+    }
+  ]
 }

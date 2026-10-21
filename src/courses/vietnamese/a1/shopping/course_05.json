@@ -1,198 +1,128 @@
 {
-    "id": "course_vi_82",
-    "title": "第 5 课：超市内部设施与场所",
-    "titleVi": "Bài 5: Cơ sở vật chất trong siêu thị",
-    "order": 5,
-    "scenario": "shopping",
-    "goals": [
-        "能说出超市内 8 种设施/场所名称",
-        "能用「ở + 地点」表达位置",
-        "能用「... ở đâu?」问设施位置",
-        "能说出购物流程中的工具（购物车、购物篮）"
-    ],
-    "words": [
+  "id": "course_vi_82",
+  "title": "第 5 课：超市内部设施与场所",
+  "titleVi": "Bài 5: Cơ sở vật chất trong siêu thị",
+  "order": 5,
+  "scenario": "shopping",
+  "goals": [
+    "能说出超市内 8 种设施/场所名称",
+    "能用「ở + 地点」表达位置",
+    "能用「... ở đâu?」问设施位置",
+    "能说出购物流程中的工具（购物车、购物篮）"
+  ],
+  "words": [
+    {
+      "id": "vi_quay_tinh_tien",
+      "name": "quầy tính tiền",
+      "trans": ["收银台"],
+      "tags": ["shopping", "A1", "place"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_ke_hang",
+      "name": "kệ hàng",
+      "trans": ["货架"],
+      "tags": ["shopping", "A1", "place"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_loi_vao",
+      "name": "lối vào",
+      "trans": ["入口"],
+      "tags": ["shopping", "A1", "place"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_loi_ra",
+      "name": "lối ra",
+      "trans": ["出口"],
+      "tags": ["shopping", "A1", "place"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_thang_may",
+      "name": "thang máy",
+      "trans": ["电梯"],
+      "tags": ["shopping", "A1", "place"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_bai_do_xe",
+      "name": "bãi đỗ xe",
+      "trans": ["停车场"],
+      "tags": ["shopping", "A1", "place"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_xe_day",
+      "name": "xe đẩy",
+      "trans": ["购物车", "推车"],
+      "tags": ["shopping", "A1", "tool"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_gio_hang",
+      "name": "giỏ hàng",
+      "trans": ["购物篮"],
+      "tags": ["shopping", "A1", "tool"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_713",
+    "sentence_vi_a1_714",
+    "sentence_vi_a1_715",
+    "sentence_vi_a1_716",
+    "sentence_vi_a1_717",
+    "sentence_vi_a1_718"
+  ],
+  "grammar": [
+    {
+      "point": "地点介词 ở + 地点",
+      "explain": "「ở」表示「在（某处）」，与中文「在」基本对应。位置：主语 + 动词 + ở + 地点，或「地点 + ở + 方位」。",
+      "examples": [
         {
-            "id": "vi_quay_tinh_tien",
-            "name": "quầy tính tiền",
-            "trans": [
-                "收银台"
-            ],
-            "tags": [
-                "shopping",
-                "A1",
-                "place"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Quầy tính tiền ở lối ra.",
+          "zh": "收银台在出口处。"
         },
         {
-            "id": "vi_ke_hang",
-            "name": "kệ hàng",
-            "trans": [
-                "货架"
-            ],
-            "tags": [
-                "shopping",
-                "A1",
-                "place"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_loi_vao",
-            "name": "lối vào",
-            "trans": [
-                "入口"
-            ],
-            "tags": [
-                "shopping",
-                "A1",
-                "place"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_loi_ra",
-            "name": "lối ra",
-            "trans": [
-                "出口"
-            ],
-            "tags": [
-                "shopping",
-                "A1",
-                "place"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_thang_may",
-            "name": "thang máy",
-            "trans": [
-                "电梯"
-            ],
-            "tags": [
-                "shopping",
-                "A1",
-                "place"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_bai_do_xe",
-            "name": "bãi đỗ xe",
-            "trans": [
-                "停车场"
-            ],
-            "tags": [
-                "shopping",
-                "A1",
-                "place"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_xe_day",
-            "name": "xe đẩy",
-            "trans": [
-                "购物车",
-                "推车"
-            ],
-            "tags": [
-                "shopping",
-                "A1",
-                "tool"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_gio_hang",
-            "name": "giỏ hàng",
-            "trans": [
-                "购物篮"
-            ],
-            "tags": [
-                "shopping",
-                "A1",
-                "tool"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Bãi đỗ xe ở tầng hầm.",
+          "zh": "停车场在地下楼层。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_713",
-        "sentence_vi_a1_714",
-        "sentence_vi_a1_715",
-        "sentence_vi_a1_716",
-        "sentence_vi_a1_717",
-        "sentence_vi_a1_718"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "问位置：... ở đâu?",
+      "explain": "「ở đâu」= 在哪里，疑问时放句末。礼貌形式在句首加「Cho tôi hỏi,」（请问……）或结尾加「ạ」。",
+      "examples": [
         {
-            "point": "地点介词 ở + 地点",
-            "explain": "「ở」表示「在（某处）」，与中文「在」基本对应。位置：主语 + 动词 + ở + 地点，或「地点 + ở + 方位」。",
-            "examples": [
-                {
-                    "vi": "Quầy tính tiền ở lối ra.",
-                    "zh": "收银台在出口处。"
-                },
-                {
-                    "vi": "Bãi đỗ xe ở tầng hầm.",
-                    "zh": "停车场在地下楼层。"
-                }
-            ]
+          "vi": "Kệ sữa ở đâu?",
+          "zh": "牛奶货架在哪？"
         },
         {
-            "point": "问位置：... ở đâu?",
-            "explain": "「ở đâu」= 在哪里，疑问时放句末。礼貌形式在句首加「Cho tôi hỏi,」（请问……）或结尾加「ạ」。",
-            "examples": [
-                {
-                    "vi": "Kệ sữa ở đâu?",
-                    "zh": "牛奶货架在哪？"
-                },
-                {
-                    "vi": "Cho tôi hỏi, thang máy ở đâu ạ?",
-                    "zh": "请问，电梯在哪？"
-                }
-            ]
+          "vi": "Cho tôi hỏi, thang máy ở đâu ạ?",
+          "zh": "请问，电梯在哪？"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「收银台」的越南语是？",
-            "options": [
-                "quầy tính tiền",
-                "kệ hàng",
-                "lối vào",
-                "thang máy"
-            ],
-            "answer": "quầy tính tiền"
-        },
-        {
-            "type": "fill",
-            "question": "「购物篮」的越南语是 ___。",
-            "answer": "giỏ hàng"
-        },
-        {
-            "type": "telex_input",
-            "question": "用 Telex 输入「kệ hàng」（货架）",
-            "answer": "kệ hàng"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「收银台」的越南语是？",
+      "options": ["quầy tính tiền", "kệ hàng", "lối vào", "thang máy"],
+      "answer": "quầy tính tiền"
+    },
+    {
+      "type": "fill",
+      "question": "「购物篮」的越南语是 ___。",
+      "answer": "giỏ hàng"
+    },
+    {
+      "type": "telex_input",
+      "question": "用 Telex 输入「kệ hàng」（货架）",
+      "answer": "kệ hàng"
+    }
+  ]
 }

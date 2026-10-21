@@ -1,26 +1,26 @@
 {
-    "id": "actions",
-    "stage": "a1",
-    "title": "动作与学习",
-    "titleVi": "동작과 학습",
-    "courses": [
-        {
-            "id": "course_ko_003",
-            "file": "course_01.json",
-            "title": "第 1 课：한국어를 공부합니다",
-            "titleVi": "제1과: 한국어를 공부합니다"
-        },
-        {
-            "id": "course_ko_019",
-            "file": "course_02.json",
-            "title": "第 2 课：한국어를 잘 못합니다",
-            "titleVi": "제2과: 한국어를 잘 못합니다"
-        },
-        {
-            "id": "course_ko_024",
-            "file": "course_03.json",
-            "title": "第 3 课：한국에 가서 친구를 만났습니다",
-            "titleVi": "제3과: 한국에 가서 친구를 만났습니다"
-        }
-    ]
+  "id": "actions",
+  "stage": "a1",
+  "title": "动作与学习",
+  "titleVi": "동작과 학습",
+  "courses": [
+    {
+      "id": "course_ko_003",
+      "file": "course_01.json",
+      "title": "第 1 课：한국어를 공부합니다",
+      "titleVi": "제1과: 한국어를 공부합니다"
+    },
+    {
+      "id": "course_ko_019",
+      "file": "course_02.json",
+      "title": "第 2 课：한국어를 잘 못합니다",
+      "titleVi": "제2과: 한국어를 잘 못합니다"
+    },
+    {
+      "id": "course_ko_024",
+      "file": "course_03.json",
+      "title": "第 3 课：한국에 가서 친구를 만났습니다",
+      "titleVi": "제3과: 한국에 가서 친구를 만났습니다"
+    }
+  ]
 }

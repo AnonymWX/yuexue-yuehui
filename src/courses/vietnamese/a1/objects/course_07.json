@@ -1,189 +1,123 @@
 {
-    "id": "course_vi_25",
-    "title": "第 7 课：物品所属与所属关系",
-    "titleVi": "Bài 7: Sở hữu đồ vật",
-    "order": 7,
-    "scenario": "objects",
-    "goals": [
-        "掌握「của」表所属的用法",
-        "学会说「这是谁的……」",
-        "能表达物品的归属",
-        "能进行所属问答"
-    ],
-    "words": [
+  "id": "course_vi_25",
+  "title": "第 7 课：物品所属与所属关系",
+  "titleVi": "Bài 7: Sở hữu đồ vật",
+  "order": 7,
+  "scenario": "objects",
+  "goals": ["掌握「của」表所属的用法", "学会说「这是谁的……」", "能表达物品的归属", "能进行所属问答"],
+  "words": [
+    {
+      "id": "vi_cua",
+      "name": "của",
+      "trans": ["的（表所属）"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_so_huu",
+      "name": "sở hữu",
+      "trans": ["拥有", "所有"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_thuoc_ve",
+      "name": "thuộc về",
+      "trans": ["属于"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_ai",
+      "name": "ai",
+      "trans": ["谁"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_cua_toi",
+      "name": "của tôi",
+      "trans": ["我的"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_cua_ban",
+      "name": "của bạn",
+      "trans": ["你的"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_cua_anh_ay",
+      "name": "của anh ấy",
+      "trans": ["他的"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_cua_chi_ay",
+      "name": "của chị ấy",
+      "trans": ["她的"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_565",
+    "sentence_vi_a1_566",
+    "sentence_vi_a1_567",
+    "sentence_vi_a1_568",
+    "sentence_vi_a1_569",
+    "sentence_vi_a1_570"
+  ],
+  "grammar": [
+    {
+      "point": "「名词 + của + 人称」表所属",
+      "explain": "表示「某人的某物」用「名词 + của + 人称」，如「cái bàn của tôi」（我的桌子）。",
+      "examples": [
         {
-            "id": "vi_cua",
-            "name": "của",
-            "trans": [
-                "的（表所属）"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Cái bàn này của tôi.",
+          "zh": "这张桌子是我的。"
         },
         {
-            "id": "vi_so_huu",
-            "name": "sở hữu",
-            "trans": [
-                "拥有",
-                "所有"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_thuoc_ve",
-            "name": "thuộc về",
-            "trans": [
-                "属于"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_ai",
-            "name": "ai",
-            "trans": [
-                "谁"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_cua_toi",
-            "name": "của tôi",
-            "trans": [
-                "我的"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_cua_ban",
-            "name": "của bạn",
-            "trans": [
-                "你的"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_cua_anh_ay",
-            "name": "của anh ấy",
-            "trans": [
-                "他的"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_cua_chi_ay",
-            "name": "của chị ấy",
-            "trans": [
-                "她的"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Quyển sách này của bạn.",
+          "zh": "这本书是你的。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_565",
-        "sentence_vi_a1_566",
-        "sentence_vi_a1_567",
-        "sentence_vi_a1_568",
-        "sentence_vi_a1_569",
-        "sentence_vi_a1_570"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "问所属「của ai?」",
+      "explain": "问「这是谁的」用「Đây là ... của ai?」，回答用「của + 人称」。",
+      "examples": [
         {
-            "point": "「名词 + của + 人称」表所属",
-            "explain": "表示「某人的某物」用「名词 + của + 人称」，如「cái bàn của tôi」（我的桌子）。",
-            "examples": [
-                {
-                    "vi": "Cái bàn này của tôi.",
-                    "zh": "这张桌子是我的。"
-                },
-                {
-                    "vi": "Quyển sách này của bạn.",
-                    "zh": "这本书是你的。"
-                }
-            ]
+          "vi": "Đây là đồ của ai?",
+          "zh": "这是谁的东西？"
         },
         {
-            "point": "问所属「của ai?」",
-            "explain": "问「这是谁的」用「Đây là ... của ai?」，回答用「của + 人称」。",
-            "examples": [
-                {
-                    "vi": "Đây là đồ của ai?",
-                    "zh": "这是谁的东西？"
-                },
-                {
-                    "vi": "Đây là đồ của tôi.",
-                    "zh": "这是我的东西。"
-                }
-            ]
+          "vi": "Đây là đồ của tôi.",
+          "zh": "这是我的东西。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「我的桌子」用越南语怎么说？",
-            "options": [
-                "cái bàn của tôi",
-                "của tôi cái bàn",
-                "cái của tôi bàn"
-            ],
-            "answer": "cái bàn của tôi"
-        },
-        {
-            "type": "fill",
-            "question": "Đây là đồ của ___?",
-            "answer": "ai"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「属于」的越南语",
-            "answer": "thuộc về"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「我的桌子」用越南语怎么说？",
+      "options": ["cái bàn của tôi", "của tôi cái bàn", "cái của tôi bàn"],
+      "answer": "cái bàn của tôi"
+    },
+    {
+      "type": "fill",
+      "question": "Đây là đồ của ___?",
+      "answer": "ai"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「属于」的越南语",
+      "answer": "thuộc về"
+    }
+  ]
 }

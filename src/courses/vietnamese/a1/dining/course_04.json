@@ -1,190 +1,123 @@
 {
-    "id": "course_vi_73",
-    "title": "第 4 课：饮品点单",
-    "titleVi": "Bài 4: Gọi đồ uống",
-    "order": 4,
-    "scenario": "dining",
-    "goals": [
-        "掌握常见饮品名称",
-        "学会点饮品",
-        "掌握冷热与冰量表达",
-        "能点咖啡、茶、啤酒等"
-    ],
-    "words": [
+  "id": "course_vi_73",
+  "title": "第 4 课：饮品点单",
+  "titleVi": "Bài 4: Gọi đồ uống",
+  "order": 4,
+  "scenario": "dining",
+  "goals": ["掌握常见饮品名称", "学会点饮品", "掌握冷热与冰量表达", "能点咖啡、茶、啤酒等"],
+  "words": [
+    {
+      "id": "vi_do_uong",
+      "name": "đồ uống",
+      "trans": ["饮品", "饮料"],
+      "tags": ["dining", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_nuoc",
+      "name": "nước",
+      "trans": ["水"],
+      "tags": ["dining", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_ca_phe",
+      "name": "cà phê",
+      "trans": ["咖啡"],
+      "tags": ["dining", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_tra",
+      "name": "trà",
+      "trans": ["茶"],
+      "tags": ["dining", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_bia",
+      "name": "bia",
+      "trans": ["啤酒"],
+      "tags": ["dining", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_nuoc_ngot",
+      "name": "nước ngọt",
+      "trans": ["汽水", "甜饮料"],
+      "tags": ["dining", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_nuoc_ep",
+      "name": "nước ép",
+      "trans": ["果汁"],
+      "tags": ["dining", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_da",
+      "name": "đá",
+      "trans": ["冰"],
+      "tags": ["dining", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_379",
+    "sentence_vi_a1_380",
+    "sentence_vi_a1_381",
+    "sentence_vi_a1_382",
+    "sentence_vi_a1_383",
+    "sentence_vi_a1_384"
+  ],
+  "grammar": [
+    {
+      "point": "「nước + 品类」表饮品",
+      "explain": "「nước」本义是水，也可指饮品，组合成「nước ngọt」（甜饮料→汽水）、「nước ép」（榨汁→果汁）。",
+      "examples": [
         {
-            "id": "vi_do_uong",
-            "name": "đồ uống",
-            "trans": [
-                "饮品",
-                "饮料"
-            ],
-            "tags": [
-                "dining",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Cho tôi một ly nước cam.",
+          "zh": "给我一杯橙汁。"
         },
         {
-            "id": "vi_nuoc",
-            "name": "nước",
-            "trans": [
-                "水"
-            ],
-            "tags": [
-                "dining",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_ca_phe",
-            "name": "cà phê",
-            "trans": [
-                "咖啡"
-            ],
-            "tags": [
-                "dining",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_tra",
-            "name": "trà",
-            "trans": [
-                "茶"
-            ],
-            "tags": [
-                "dining",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_bia",
-            "name": "bia",
-            "trans": [
-                "啤酒"
-            ],
-            "tags": [
-                "dining",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_nuoc_ngot",
-            "name": "nước ngọt",
-            "trans": [
-                "汽水",
-                "甜饮料"
-            ],
-            "tags": [
-                "dining",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_nuoc_ep",
-            "name": "nước ép",
-            "trans": [
-                "果汁"
-            ],
-            "tags": [
-                "dining",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_da",
-            "name": "đá",
-            "trans": [
-                "冰"
-            ],
-            "tags": [
-                "dining",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Tôi muốn uống nước ngọt.",
+          "zh": "我想喝汽水。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_379",
-        "sentence_vi_a1_380",
-        "sentence_vi_a1_381",
-        "sentence_vi_a1_382",
-        "sentence_vi_a1_383",
-        "sentence_vi_a1_384"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「cà phê + sữa/đá」表咖啡种类",
+      "explain": "越南咖啡常用「cà phê sữa」（奶咖啡）、「cà phê đá」（冰咖啡）、「cà phê sữa đá」（冰奶咖啡）。",
+      "examples": [
         {
-            "point": "「nước + 品类」表饮品",
-            "explain": "「nước」本义是水，也可指饮品，组合成「nước ngọt」（甜饮料→汽水）、「nước ép」（榨汁→果汁）。",
-            "examples": [
-                {
-                    "vi": "Cho tôi một ly nước cam.",
-                    "zh": "给我一杯橙汁。"
-                },
-                {
-                    "vi": "Tôi muốn uống nước ngọt.",
-                    "zh": "我想喝汽水。"
-                }
-            ]
+          "vi": "Cho tôi cà phê sữa đá.",
+          "zh": "给我冰奶咖啡。"
         },
         {
-            "point": "「cà phê + sữa/đá」表咖啡种类",
-            "explain": "越南咖啡常用「cà phê sữa」（奶咖啡）、「cà phê đá」（冰咖啡）、「cà phê sữa đá」（冰奶咖啡）。",
-            "examples": [
-                {
-                    "vi": "Cho tôi cà phê sữa đá.",
-                    "zh": "给我冰奶咖啡。"
-                },
-                {
-                    "vi": "Tôi uống cà phê đá.",
-                    "zh": "我喝冰咖啡。"
-                }
-            ]
+          "vi": "Tôi uống cà phê đá.",
+          "zh": "我喝冰咖啡。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「咖啡」用越南语怎么说？",
-            "options": [
-                "cà phê",
-                "trà",
-                "bia"
-            ],
-            "answer": "cà phê"
-        },
-        {
-            "type": "fill",
-            "question": "Cho tôi một ly nước ___.",
-            "answer": "cam"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「冰」的越南语",
-            "answer": "đá"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「咖啡」用越南语怎么说？",
+      "options": ["cà phê", "trà", "bia"],
+      "answer": "cà phê"
+    },
+    {
+      "type": "fill",
+      "question": "Cho tôi một ly nước ___.",
+      "answer": "cam"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「冰」的越南语",
+      "answer": "đá"
+    }
+  ]
 }

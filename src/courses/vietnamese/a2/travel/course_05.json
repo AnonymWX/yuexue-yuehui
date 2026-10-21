@@ -1,314 +1,191 @@
 {
-    "id": "course_vi_125",
-    "title": "第 5 课：租车与自驾",
-    "titleVi": "Bài 5: Thuê xe và tự lái",
-    "order": 5,
-    "scenario": "travel",
-    "goals": [
-        "能完成租车手续",
-        "能说出常见的租车条件与保险条款",
-        "能用「nên / phải / được phép」表达交通规则",
-        "能描述驾驶中遇到的问题"
-    ],
-    "words": [
+  "id": "course_vi_125",
+  "title": "第 5 课：租车与自驾",
+  "titleVi": "Bài 5: Thuê xe và tự lái",
+  "order": 5,
+  "scenario": "travel",
+  "goals": ["能完成租车手续", "能说出常见的租车条件与保险条款", "能用「nên / phải / được phép」表达交通规则", "能描述驾驶中遇到的问题"],
+  "words": [
+    {
+      "id": "vi_a2_thue_xe",
+      "name": "thuê xe",
+      "trans": ["租车"],
+      "tags": ["travel", "A2", "car"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_bang_lai",
+      "name": "bằng lái",
+      "trans": ["驾照"],
+      "tags": ["travel", "A2", "car"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_bang_lai_quoc_te",
+      "name": "bằng lái quốc tế",
+      "trans": ["国际驾照"],
+      "tags": ["travel", "A2", "car"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_xang",
+      "name": "xăng",
+      "trans": ["汽油"],
+      "tags": ["travel", "A2", "car"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_cho_xang",
+      "name": "chỗ đổ xăng",
+      "trans": ["加油站"],
+      "tags": ["travel", "A2", "car"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_bai_do_xe",
+      "name": "bãi đỗ xe",
+      "trans": ["停车场"],
+      "tags": ["travel", "A2", "car"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_bien_so",
+      "name": "biển số",
+      "trans": ["车牌"],
+      "tags": ["travel", "A2", "car"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_toc_do",
+      "name": "tốc độ",
+      "trans": ["速度"],
+      "tags": ["travel", "A2", "car"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_gioi_han_toc_do",
+      "name": "giới hạn tốc độ",
+      "trans": ["限速"],
+      "tags": ["travel", "A2", "car"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_phat",
+      "name": "phạt",
+      "trans": ["罚款", "处罚"],
+      "tags": ["travel", "A2", "car"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_bao_hiem",
+      "name": "bảo hiểm",
+      "trans": ["保险"],
+      "tags": ["travel", "A2", "car"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_tai_nan",
+      "name": "tai nạn",
+      "trans": ["事故"],
+      "tags": ["travel", "A2", "car"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_giao_thong",
+      "name": "giao thông",
+      "trans": ["交通"],
+      "tags": ["travel", "A2", "car"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_luat_giao_thong",
+      "name": "luật giao thông",
+      "trans": ["交通法规"],
+      "tags": ["travel", "A2", "car"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a2_273",
+    "sentence_vi_a2_274",
+    "sentence_vi_a2_275",
+    "sentence_vi_a2_276",
+    "sentence_vi_a2_277",
+    "sentence_vi_a2_278",
+    "sentence_vi_a2_279",
+    "sentence_vi_a2_280"
+  ],
+  "grammar": [
+    {
+      "point": "允许/禁止：được phép / không được phép / bị phạt",
+      "explain": "「được phép + V」= 被允许做…（正面被动，正式）；「không được phép + V」= 不允许做…；「bị phạt vì + V」= 因…被罚款。注意：口语中「được phép」常简化为「được」，但正式文本仍保留完整形式。",
+      "examples": [
         {
-            "id": "vi_a2_thue_xe",
-            "name": "thuê xe",
-            "trans": [
-                "租车"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "car"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Ở Việt Nam, người nước ngoài được phép lái xe nếu có bằng lái quốc tế.",
+          "zh": "在越南，外国人如有国际驾照就可以开车。"
         },
         {
-            "id": "vi_a2_bang_lai",
-            "name": "bằng lái",
-            "trans": [
-                "驾照"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "car"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Bạn không được phép uống rượu bia khi lái xe.",
+          "zh": "开车时不许喝酒。"
         },
         {
-            "id": "vi_a2_bang_lai_quoc_te",
-            "name": "bằng lái quốc tế",
-            "trans": [
-                "国际驾照"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "car"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_xang",
-            "name": "xăng",
-            "trans": [
-                "汽油"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "car"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_cho_xang",
-            "name": "chỗ đổ xăng",
-            "trans": [
-                "加油站"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "car"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_bai_do_xe",
-            "name": "bãi đỗ xe",
-            "trans": [
-                "停车场"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "car"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_bien_so",
-            "name": "biển số",
-            "trans": [
-                "车牌"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "car"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_toc_do",
-            "name": "tốc độ",
-            "trans": [
-                "速度"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "car"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_gioi_han_toc_do",
-            "name": "giới hạn tốc độ",
-            "trans": [
-                "限速"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "car"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_phat",
-            "name": "phạt",
-            "trans": [
-                "罚款",
-                "处罚"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "car"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_bao_hiem",
-            "name": "bảo hiểm",
-            "trans": [
-                "保险"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "car"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_tai_nan",
-            "name": "tai nạn",
-            "trans": [
-                "事故"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "car"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_giao_thong",
-            "name": "giao thông",
-            "trans": [
-                "交通"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "car"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_luat_giao_thong",
-            "name": "luật giao thông",
-            "trans": [
-                "交通法规"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "car"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Anh ấy bị phạt vì chạy quá tốc độ.",
+          "zh": "他因超速被罚款。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a2_273",
-        "sentence_vi_a2_274",
-        "sentence_vi_a2_275",
-        "sentence_vi_a2_276",
-        "sentence_vi_a2_277",
-        "sentence_vi_a2_278",
-        "sentence_vi_a2_279",
-        "sentence_vi_a2_280"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "交通规则常用：nên / phải / cần",
+      "explain": "规劝用 nên（应该）：Bạn nên đội mũ bảo hiểm（你应该戴头盔）；强制用 phải（必须）：Phải giảm tốc độ ở khu dân cư；客观需要 cần（需要）：Cần đổ xăng trước khi đi xa。三者可叠加：phải nhớ / cần nhớ。",
+      "examples": [
         {
-            "point": "允许/禁止：được phép / không được phép / bị phạt",
-            "explain": "「được phép + V」= 被允许做…（正面被动，正式）；「không được phép + V」= 不允许做…；「bị phạt vì + V」= 因…被罚款。注意：口语中「được phép」常简化为「được」，但正式文本仍保留完整形式。",
-            "examples": [
-                {
-                    "vi": "Ở Việt Nam, người nước ngoài được phép lái xe nếu có bằng lái quốc tế.",
-                    "zh": "在越南，外国人如有国际驾照就可以开车。"
-                },
-                {
-                    "vi": "Bạn không được phép uống rượu bia khi lái xe.",
-                    "zh": "开车时不许喝酒。"
-                },
-                {
-                    "vi": "Anh ấy bị phạt vì chạy quá tốc độ.",
-                    "zh": "他因超速被罚款。"
-                }
-            ]
+          "vi": "Bạn phải đội mũ bảo hiểm khi đi xe máy.",
+          "zh": "骑摩托车时必须戴头盔。"
         },
         {
-            "point": "交通规则常用：nên / phải / cần",
-            "explain": "规劝用 nên（应该）：Bạn nên đội mũ bảo hiểm（你应该戴头盔）；强制用 phải（必须）：Phải giảm tốc độ ở khu dân cư；客观需要 cần（需要）：Cần đổ xăng trước khi đi xa。三者可叠加：phải nhớ / cần nhớ。",
-            "examples": [
-                {
-                    "vi": "Bạn phải đội mũ bảo hiểm khi đi xe máy.",
-                    "zh": "骑摩托车时必须戴头盔。"
-                },
-                {
-                    "vi": "Ở gần trường học, bạn nên giảm tốc độ xuống dưới 30 km/h.",
-                    "zh": "在学校附近，你应该把速度降到 30 公里/小时以下。"
-                },
-                {
-                    "vi": "Trước khi đi đường dài, bạn cần kiểm tra xăng và lốp xe.",
-                    "zh": "跑长途之前，你需要检查汽油和轮胎。"
-                }
-            ]
+          "vi": "Ở gần trường học, bạn nên giảm tốc độ xuống dưới 30 km/h.",
+          "zh": "在学校附近，你应该把速度降到 30 公里/小时以下。"
+        },
+        {
+          "vi": "Trước khi đi đường dài, bạn cần kiểm tra xăng và lốp xe.",
+          "zh": "跑长途之前，你需要检查汽油和轮胎。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「giới hạn tốc độ」的意思是？",
-            "options": [
-                "加速",
-                "限速",
-                "刹车",
-                "油耗"
-            ],
-            "answer": "限速"
-        },
-        {
-            "type": "choose",
-            "question": "哪句正确表达「不允许开车时喝酒」？",
-            "options": [
-                "Bạn nên uống rượu khi lái xe.",
-                "Bạn không được phép uống rượu khi lái xe.",
-                "Bạn được phép uống rượu khi lái xe.",
-                "Bạn cần uống rượu khi lái xe."
-            ],
-            "answer": "Bạn không được phép uống rượu khi lái xe."
-        },
-        {
-            "type": "fill",
-            "question": "Anh ấy bị ___ vì chạy quá tốc độ.（他因超速被罚款）",
-            "answer": "phạt"
-        },
-        {
-            "type": "fill",
-            "question": "Bạn phải đội mũ ___ hiểm khi đi xe máy.（骑摩托车时必须戴头盔）",
-            "answer": "bảo"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「我想租一辆车」的越南语",
-            "answer": "Tôi muốn thuê một chiếc xe"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「giới hạn tốc độ」的意思是？",
+      "options": ["加速", "限速", "刹车", "油耗"],
+      "answer": "限速"
+    },
+    {
+      "type": "choose",
+      "question": "哪句正确表达「不允许开车时喝酒」？",
+      "options": [
+        "Bạn nên uống rượu khi lái xe.",
+        "Bạn không được phép uống rượu khi lái xe.",
+        "Bạn được phép uống rượu khi lái xe.",
+        "Bạn cần uống rượu khi lái xe."
+      ],
+      "answer": "Bạn không được phép uống rượu khi lái xe."
+    },
+    {
+      "type": "fill",
+      "question": "Anh ấy bị ___ vì chạy quá tốc độ.（他因超速被罚款）",
+      "answer": "phạt"
+    },
+    {
+      "type": "fill",
+      "question": "Bạn phải đội mũ ___ hiểm khi đi xe máy.（骑摩托车时必须戴头盔）",
+      "answer": "bảo"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「我想租一辆车」的越南语",
+      "answer": "Tôi muốn thuê một chiếc xe"
+    }
+  ]
 }

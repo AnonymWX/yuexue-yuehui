@@ -1,192 +1,123 @@
 {
-    "id": "course_vi_69",
-    "title": "第 5 课：描述自己住的地方",
-    "titleVi": "Bài 5: Miêu tả nơi mình sống",
-    "order": 5,
-    "scenario": "places",
-    "goals": [
-        "掌握描述居住环境词汇",
-        "能描述居住地的特点",
-        "学会比较居住地",
-        "能完整介绍自己住的地方"
-    ],
-    "words": [
+  "id": "course_vi_69",
+  "title": "第 5 课：描述自己住的地方",
+  "titleVi": "Bài 5: Miêu tả nơi mình sống",
+  "order": 5,
+  "scenario": "places",
+  "goals": ["掌握描述居住环境词汇", "能描述居住地的特点", "学会比较居住地", "能完整介绍自己住的地方"],
+  "words": [
+    {
+      "id": "vi_noi_o",
+      "name": "nơi ở",
+      "trans": ["住所", "住处"],
+      "tags": ["places", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_khu_pho",
+      "name": "khu phố",
+      "trans": ["街区"],
+      "tags": ["places", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_trung_tam",
+      "name": "trung tâm",
+      "trans": ["中心", "市中心"],
+      "tags": ["places", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_ngoai_o",
+      "name": "ngoại ô",
+      "trans": ["郊区"],
+      "tags": ["places", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_noi_that",
+      "name": "nội thành",
+      "trans": ["市区", "内城"],
+      "tags": ["places", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_dan_cu",
+      "name": "dân cư",
+      "trans": ["居民", "人口"],
+      "tags": ["places", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_co_so_ha_tang",
+      "name": "cơ sở hạ tầng",
+      "trans": ["基础设施"],
+      "tags": ["places", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_phat_trien_places",
+      "name": "phát triển",
+      "trans": ["发展"],
+      "tags": ["places", "A2"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_469",
+    "sentence_vi_a1_470",
+    "sentence_vi_a1_471",
+    "sentence_vi_a1_472",
+    "sentence_vi_a1_473",
+    "sentence_vi_a1_474"
+  ],
+  "grammar": [
+    {
+      "point": "「Nơi tôi sống + 特征」表居住地特点",
+      "explain": "描述居住地用「Nơi tôi sống + 形容词/动词短语」，如「Nơi tôi sống rất yên tĩnh」。",
+      "examples": [
         {
-            "id": "vi_noi_o",
-            "name": "nơi ở",
-            "trans": [
-                "住所",
-                "住处"
-            ],
-            "tags": [
-                "places",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Nơi tôi sống rất yên tĩnh.",
+          "zh": "我住的地方很安静。"
         },
         {
-            "id": "vi_khu_pho",
-            "name": "khu phố",
-            "trans": [
-                "街区"
-            ],
-            "tags": [
-                "places",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_trung_tam",
-            "name": "trung tâm",
-            "trans": [
-                "中心",
-                "市中心"
-            ],
-            "tags": [
-                "places",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_ngoai_o",
-            "name": "ngoại ô",
-            "trans": [
-                "郊区"
-            ],
-            "tags": [
-                "places",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_noi_that",
-            "name": "nội thành",
-            "trans": [
-                "市区",
-                "内城"
-            ],
-            "tags": [
-                "places",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_dan_cu",
-            "name": "dân cư",
-            "trans": [
-                "居民",
-                "人口"
-            ],
-            "tags": [
-                "places",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_co_so_ha_tang",
-            "name": "cơ sở hạ tầng",
-            "trans": [
-                "基础设施"
-            ],
-            "tags": [
-                "places",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_phat_trien_places",
-            "name": "phát triển",
-            "trans": [
-                "发展"
-            ],
-            "tags": [
-                "places",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Nơi tôi sống ở trung tâm.",
+          "zh": "我住的地方在市中心。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_469",
-        "sentence_vi_a1_470",
-        "sentence_vi_a1_471",
-        "sentence_vi_a1_472",
-        "sentence_vi_a1_473",
-        "sentence_vi_a1_474"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「ở + 内城/郊区」表位置",
+      "explain": "用「ở nội thành」（在市区）或「ở ngoại ô」（在郊区）说明居住位置。",
+      "examples": [
         {
-            "point": "「Nơi tôi sống + 特征」表居住地特点",
-            "explain": "描述居住地用「Nơi tôi sống + 形容词/动词短语」，如「Nơi tôi sống rất yên tĩnh」。",
-            "examples": [
-                {
-                    "vi": "Nơi tôi sống rất yên tĩnh.",
-                    "zh": "我住的地方很安静。"
-                },
-                {
-                    "vi": "Nơi tôi sống ở trung tâm.",
-                    "zh": "我住的地方在市中心。"
-                }
-            ]
+          "vi": "Tôi sống ở nội thành.",
+          "zh": "我住在市区。"
         },
         {
-            "point": "「ở + 内城/郊区」表位置",
-            "explain": "用「ở nội thành」（在市区）或「ở ngoại ô」（在郊区）说明居住位置。",
-            "examples": [
-                {
-                    "vi": "Tôi sống ở nội thành.",
-                    "zh": "我住在市区。"
-                },
-                {
-                    "vi": "Anh ấy sống ở ngoại ô.",
-                    "zh": "他住在郊区。"
-                }
-            ]
+          "vi": "Anh ấy sống ở ngoại ô.",
+          "zh": "他住在郊区。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「我住的地方很安静」的正确说法是？",
-            "options": [
-                "Nơi tôi sống rất yên tĩnh",
-                "Tôi sống nơi rất yên tĩnh",
-                "Rất yên tĩnh nơi tôi sống"
-            ],
-            "answer": "Nơi tôi sống rất yên tĩnh"
-        },
-        {
-            "type": "fill",
-            "question": "Tôi sống ở nội ___.",
-            "answer": "thành"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「郊区」的越南语",
-            "answer": "ngoại ô"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「我住的地方很安静」的正确说法是？",
+      "options": ["Nơi tôi sống rất yên tĩnh", "Tôi sống nơi rất yên tĩnh", "Rất yên tĩnh nơi tôi sống"],
+      "answer": "Nơi tôi sống rất yên tĩnh"
+    },
+    {
+      "type": "fill",
+      "question": "Tôi sống ở nội ___.",
+      "answer": "thành"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「郊区」的越南语",
+      "answer": "ngoại ô"
+    }
+  ]
 }

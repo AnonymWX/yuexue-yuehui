@@ -1,190 +1,123 @@
 {
-    "id": "course_vi_02",
-    "title": "第 2 课：问姓名与自我介绍",
-    "titleVi": "Bài 2: Hỏi tên và tự giới thiệu",
-    "order": 2,
-    "scenario": "greeting",
-    "goals": [
-        "学会问对方姓名",
-        "学会自我介绍",
-        "掌握「tên」相关表达",
-        "了解越南语姓名的结构"
-    ],
-    "words": [
+  "id": "course_vi_02",
+  "title": "第 2 课：问姓名与自我介绍",
+  "titleVi": "Bài 2: Hỏi tên và tự giới thiệu",
+  "order": 2,
+  "scenario": "greeting",
+  "goals": ["学会问对方姓名", "学会自我介绍", "掌握「tên」相关表达", "了解越南语姓名的结构"],
+  "words": [
+    {
+      "id": "vi_ten",
+      "name": "tên",
+      "trans": ["名字"],
+      "tags": ["greeting", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_ho",
+      "name": "họ",
+      "trans": ["姓"],
+      "tags": ["greeting", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_la",
+      "name": "là",
+      "trans": ["是"],
+      "tags": ["greeting", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_toi",
+      "name": "tôi",
+      "trans": ["我（正式）"],
+      "tags": ["greeting", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_ban_friend",
+      "name": "bạn",
+      "trans": ["你", "朋友"],
+      "tags": ["greeting", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_gi",
+      "name": "gì",
+      "trans": ["什么"],
+      "tags": ["greeting", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_rat_vui",
+      "name": "rất vui",
+      "trans": ["很高兴"],
+      "tags": ["greeting", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_lam_quen",
+      "name": "làm quen",
+      "trans": ["结识", "认识"],
+      "tags": ["greeting", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_115",
+    "sentence_vi_a1_116",
+    "sentence_vi_a1_117",
+    "sentence_vi_a1_118",
+    "sentence_vi_a1_119",
+    "sentence_vi_a1_120"
+  ],
+  "grammar": [
+    {
+      "point": "问姓名「Tên + 主语 + là gì?」",
+      "explain": "越南语问姓名常用「Tên bạn là gì?」（你叫什么名字？）。正式场合也可用「Anh tên là gì?」。",
+      "examples": [
         {
-            "id": "vi_ten",
-            "name": "tên",
-            "trans": [
-                "名字"
-            ],
-            "tags": [
-                "greeting",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Tên bạn là gì?",
+          "zh": "你叫什么名字？"
         },
         {
-            "id": "vi_ho",
-            "name": "họ",
-            "trans": [
-                "姓"
-            ],
-            "tags": [
-                "greeting",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_la",
-            "name": "là",
-            "trans": [
-                "是"
-            ],
-            "tags": [
-                "greeting",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_toi",
-            "name": "tôi",
-            "trans": [
-                "我（正式）"
-            ],
-            "tags": [
-                "greeting",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_ban_friend",
-            "name": "bạn",
-            "trans": [
-                "你",
-                "朋友"
-            ],
-            "tags": [
-                "greeting",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_gi",
-            "name": "gì",
-            "trans": [
-                "什么"
-            ],
-            "tags": [
-                "greeting",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_rat_vui",
-            "name": "rất vui",
-            "trans": [
-                "很高兴"
-            ],
-            "tags": [
-                "greeting",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_lam_quen",
-            "name": "làm quen",
-            "trans": [
-                "结识",
-                "认识"
-            ],
-            "tags": [
-                "greeting",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Tên tôi là Nam.",
+          "zh": "我叫南。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_115",
-        "sentence_vi_a1_116",
-        "sentence_vi_a1_117",
-        "sentence_vi_a1_118",
-        "sentence_vi_a1_119",
-        "sentence_vi_a1_120"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「là」的用法",
+      "explain": "「là」相当于汉语的「是」，用于连接主语和表语。",
+      "examples": [
         {
-            "point": "问姓名「Tên + 主语 + là gì?」",
-            "explain": "越南语问姓名常用「Tên bạn là gì?」（你叫什么名字？）。正式场合也可用「Anh tên là gì?」。",
-            "examples": [
-                {
-                    "vi": "Tên bạn là gì?",
-                    "zh": "你叫什么名字？"
-                },
-                {
-                    "vi": "Tên tôi là Nam.",
-                    "zh": "我叫南。"
-                }
-            ]
+          "vi": "Tôi là sinh viên.",
+          "zh": "我是学生。"
         },
         {
-            "point": "「là」的用法",
-            "explain": "「là」相当于汉语的「是」，用于连接主语和表语。",
-            "examples": [
-                {
-                    "vi": "Tôi là sinh viên.",
-                    "zh": "我是学生。"
-                },
-                {
-                    "vi": "Đây là bạn tôi.",
-                    "zh": "这是我的朋友。"
-                }
-            ]
+          "vi": "Đây là bạn tôi.",
+          "zh": "这是我的朋友。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「你叫什么名字？」的正确说法是？",
-            "options": [
-                "Tên bạn là gì?",
-                "Bạn tên gì là?",
-                "Là gì tên bạn?"
-            ],
-            "answer": "Tên bạn là gì?"
-        },
-        {
-            "type": "fill",
-            "question": "Tôi ___ Nam.",
-            "answer": "là"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「很高兴认识你」的越南语",
-            "answer": "rất vui được làm quen"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「你叫什么名字？」的正确说法是？",
+      "options": ["Tên bạn là gì?", "Bạn tên gì là?", "Là gì tên bạn?"],
+      "answer": "Tên bạn là gì?"
+    },
+    {
+      "type": "fill",
+      "question": "Tôi ___ Nam.",
+      "answer": "là"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「很高兴认识你」的越南语",
+      "answer": "rất vui được làm quen"
+    }
+  ]
 }

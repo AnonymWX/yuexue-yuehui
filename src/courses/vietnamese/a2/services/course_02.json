@@ -1,314 +1,186 @@
 {
-    "id": "course_vi_132",
-    "title": "第 2 课：邮局与快递",
-    "titleVi": "Bài 2: Bưu điện và chuyển phát",
-    "order": 2,
-    "scenario": "services",
-    "goals": [
-        "能寄信 / 寄包裹 / 寄快递",
-        "能填写寄件地址与收件地址",
-        "能询问运费与到货时间",
-        "能用「đến / tới / về」表达送达地点"
-    ],
-    "words": [
+  "id": "course_vi_132",
+  "title": "第 2 课：邮局与快递",
+  "titleVi": "Bài 2: Bưu điện và chuyển phát",
+  "order": 2,
+  "scenario": "services",
+  "goals": ["能寄信 / 寄包裹 / 寄快递", "能填写寄件地址与收件地址", "能询问运费与到货时间", "能用「đến / tới / về」表达送达地点"],
+  "words": [
+    {
+      "id": "vi_a2_buu_dien",
+      "name": "bưu điện",
+      "trans": ["邮局"],
+      "tags": ["services", "A2", "post"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_buu_thiep",
+      "name": "bưu thiếp",
+      "trans": ["明信片"],
+      "tags": ["services", "A2", "post"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_thu",
+      "name": "thư",
+      "trans": ["信"],
+      "tags": ["services", "A2", "post"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_phong_bi",
+      "name": "phong bì",
+      "trans": ["信封"],
+      "tags": ["services", "A2", "post"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_tem",
+      "name": "tem",
+      "trans": ["邮票"],
+      "tags": ["services", "A2", "post"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_goi_hang",
+      "name": "gói hàng",
+      "trans": ["包裹"],
+      "tags": ["services", "A2", "post"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_gui_hang",
+      "name": "gửi hàng",
+      "trans": ["寄包裹", "寄货"],
+      "tags": ["services", "A2", "post"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_nguoi_gui",
+      "name": "người gửi",
+      "trans": ["寄件人"],
+      "tags": ["services", "A2", "post"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_nguoi_nhan",
+      "name": "người nhận",
+      "trans": ["收件人"],
+      "tags": ["services", "A2", "post"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_dia_chi",
+      "name": "địa chỉ",
+      "trans": ["地址"],
+      "tags": ["services", "A2", "post"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_ma_buu_chinh",
+      "name": "mã bưu chính",
+      "trans": ["邮政编码"],
+      "tags": ["services", "A2", "post"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_chuyen_phat_nhanh",
+      "name": "chuyển phát nhanh",
+      "trans": ["快递"],
+      "tags": ["services", "A2", "post"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_can_nang",
+      "name": "cân nặng",
+      "trans": ["重量"],
+      "tags": ["services", "A2", "post"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_bao_hiem_hang",
+      "name": "bảo hiểm hàng hóa",
+      "trans": ["货物保险"],
+      "tags": ["services", "A2", "post"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a2_089",
+    "sentence_vi_a2_090",
+    "sentence_vi_a2_091",
+    "sentence_vi_a2_092",
+    "sentence_vi_a2_093",
+    "sentence_vi_a2_094",
+    "sentence_vi_a2_095",
+    "sentence_vi_a2_096"
+  ],
+  "grammar": [
+    {
+      "point": "寄送地点：gửi đến / gửi tới / gửi về",
+      "explain": "三者都表示「寄往」，区别在语感：đến（最中性，通用）；tới（口语，与 đến 基本可换）；về（偏向「寄回」，有返回意味）。结构：「gửi + 物 + đến/tới/về + 地点/人」。例：gửi thư đến Hà Nội（寄信到河内）；gửi quà về quê（寄礼物回老家）。",
+      "examples": [
         {
-            "id": "vi_a2_buu_dien",
-            "name": "bưu điện",
-            "trans": [
-                "邮局"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "post"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Tôi muốn gửi gói hàng này đến thành phố Hồ Chí Minh.",
+          "zh": "我想把这个包裹寄到胡志明市。"
         },
         {
-            "id": "vi_a2_buu_thiep",
-            "name": "bưu thiếp",
-            "trans": [
-                "明信片"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "post"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Cô ấy gửi quà về quê cho bố mẹ.",
+          "zh": "她寄礼物回老家给父母。"
         },
         {
-            "id": "vi_a2_thu",
-            "name": "thư",
-            "trans": [
-                "信"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "post"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_phong_bi",
-            "name": "phong bì",
-            "trans": [
-                "信封"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "post"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_tem",
-            "name": "tem",
-            "trans": [
-                "邮票"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "post"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_goi_hang",
-            "name": "gói hàng",
-            "trans": [
-                "包裹"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "post"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_gui_hang",
-            "name": "gửi hàng",
-            "trans": [
-                "寄包裹",
-                "寄货"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "post"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_nguoi_gui",
-            "name": "người gửi",
-            "trans": [
-                "寄件人"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "post"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_nguoi_nhan",
-            "name": "người nhận",
-            "trans": [
-                "收件人"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "post"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_dia_chi",
-            "name": "địa chỉ",
-            "trans": [
-                "地址"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "post"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_ma_buu_chinh",
-            "name": "mã bưu chính",
-            "trans": [
-                "邮政编码"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "post"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_chuyen_phat_nhanh",
-            "name": "chuyển phát nhanh",
-            "trans": [
-                "快递"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "post"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_can_nang",
-            "name": "cân nặng",
-            "trans": [
-                "重量"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "post"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_bao_hiem_hang",
-            "name": "bảo hiểm hàng hóa",
-            "trans": [
-                "货物保险"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "post"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Tôi cần gửi bưu thiếp tới bạn tôi ở Đà Nẵng.",
+          "zh": "我需要寄一张明信片给我在岘港的朋友。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a2_089",
-        "sentence_vi_a2_090",
-        "sentence_vi_a2_091",
-        "sentence_vi_a2_092",
-        "sentence_vi_a2_093",
-        "sentence_vi_a2_094",
-        "sentence_vi_a2_095",
-        "sentence_vi_a2_096"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "询问时间与费用：mất bao lâu / bao nhiêu tiền",
+      "explain": "「mất bao lâu」= 要多久（时间）；「bao nhiêu tiền」= 多少钱（费用）。在邮局场景高频。「khoảng」= 大约，「ít nhất」= 至少，「tối đa」= 最多。可与「chuyển phát nhanh」（快递）对比「gửi thường」（平邮）的速度与费用。",
+      "examples": [
         {
-            "point": "寄送地点：gửi đến / gửi tới / gửi về",
-            "explain": "三者都表示「寄往」，区别在语感：đến（最中性，通用）；tới（口语，与 đến 基本可换）；về（偏向「寄回」，有返回意味）。结构：「gửi + 物 + đến/tới/về + 地点/人」。例：gửi thư đến Hà Nội（寄信到河内）；gửi quà về quê（寄礼物回老家）。",
-            "examples": [
-                {
-                    "vi": "Tôi muốn gửi gói hàng này đến thành phố Hồ Chí Minh.",
-                    "zh": "我想把这个包裹寄到胡志明市。"
-                },
-                {
-                    "vi": "Cô ấy gửi quà về quê cho bố mẹ.",
-                    "zh": "她寄礼物回老家给父母。"
-                },
-                {
-                    "vi": "Tôi cần gửi bưu thiếp tới bạn tôi ở Đà Nẵng.",
-                    "zh": "我需要寄一张明信片给我在岘港的朋友。"
-                }
-            ]
+          "vi": "Gửi chuyển phát nhanh đến Hà Nội mất bao lâu?",
+          "zh": "寄快递到河内要多久？"
         },
         {
-            "point": "询问时间与费用：mất bao lâu / bao nhiêu tiền",
-            "explain": "「mất bao lâu」= 要多久（时间）；「bao nhiêu tiền」= 多少钱（费用）。在邮局场景高频。「khoảng」= 大约，「ít nhất」= 至少，「tối đa」= 最多。可与「chuyển phát nhanh」（快递）对比「gửi thường」（平邮）的速度与费用。",
-            "examples": [
-                {
-                    "vi": "Gửi chuyển phát nhanh đến Hà Nội mất bao lâu?",
-                    "zh": "寄快递到河内要多久？"
-                },
-                {
-                    "vi": "Gửi thường rẻ hơn nhưng mất khoảng một tuần.",
-                    "zh": "平邮便宜些，但要大约一周。"
-                },
-                {
-                    "vi": "Phí gửi gói hàng này là bao nhiêu tiền?",
-                    "zh": "寄这个包裹要多少钱？"
-                }
-            ]
+          "vi": "Gửi thường rẻ hơn nhưng mất khoảng một tuần.",
+          "zh": "平邮便宜些，但要大约一周。"
+        },
+        {
+          "vi": "Phí gửi gói hàng này là bao nhiêu tiền?",
+          "zh": "寄这个包裹要多少钱？"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「người nhận」的意思是？",
-            "options": [
-                "寄件人",
-                "收件人",
-                "邮递员",
-                "快递员"
-            ],
-            "answer": "收件人"
-        },
-        {
-            "type": "choose",
-            "question": "哪句表示「寄回老家」？",
-            "options": [
-                "Gửi đến quê.",
-                "Gửi tới quê.",
-                "Gửi về quê.",
-                "Gửi quê."
-            ],
-            "answer": "Gửi về quê."
-        },
-        {
-            "type": "fill",
-            "question": "Tôi muốn gửi gói hàng này ___ thành phố Hồ Chí Minh.（我想把这个包裹寄到胡志明市）",
-            "answer": "đến"
-        },
-        {
-            "type": "fill",
-            "question": "Gửi chuyển phát nhanh mất ___ lâu?（寄快递要多久？）",
-            "answer": "bao"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「我要寄这个包裹」的越南语",
-            "answer": "Tôi muốn gửi gói hàng này"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「người nhận」的意思是？",
+      "options": ["寄件人", "收件人", "邮递员", "快递员"],
+      "answer": "收件人"
+    },
+    {
+      "type": "choose",
+      "question": "哪句表示「寄回老家」？",
+      "options": ["Gửi đến quê.", "Gửi tới quê.", "Gửi về quê.", "Gửi quê."],
+      "answer": "Gửi về quê."
+    },
+    {
+      "type": "fill",
+      "question": "Tôi muốn gửi gói hàng này ___ thành phố Hồ Chí Minh.（我想把这个包裹寄到胡志明市）",
+      "answer": "đến"
+    },
+    {
+      "type": "fill",
+      "question": "Gửi chuyển phát nhanh mất ___ lâu?（寄快递要多久？）",
+      "answer": "bao"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「我要寄这个包裹」的越南语",
+      "answer": "Tôi muốn gửi gói hàng này"
+    }
+  ]
 }

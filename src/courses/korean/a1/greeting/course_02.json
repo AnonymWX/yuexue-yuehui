@@ -1,214 +1,142 @@
 {
-    "id": "course_ko_017",
-    "title": "第 2 课：처음 뵙겠습니다（初次见面）",
-    "titleVi": "제2과: 처음 뵙겠습니다",
-    "order": 2,
-    "scenario": "greeting",
-    "goals": [
-        "掌握敬语姓名「성함」与尊称「-씨」",
-        "掌握「처음 뵙겠습니다 / 반갑습니다」",
-        "掌握「안녕히 가세요 / 안녕히 계세요」的区别",
-        "能礼貌道歉与道谢"
-    ],
-    "words": [
+  "id": "course_ko_017",
+  "title": "第 2 课：처음 뵙겠습니다（初次见面）",
+  "titleVi": "제2과: 처음 뵙겠습니다",
+  "order": 2,
+  "scenario": "greeting",
+  "goals": [
+    "掌握敬语姓名「성함」与尊称「-씨」",
+    "掌握「처음 뵙겠습니다 / 반갑습니다」",
+    "掌握「안녕히 가세요 / 안녕히 계세요」的区别",
+    "能礼貌道歉与道谢"
+  ],
+  "words": [
+    {
+      "id": "ko_a1_seongham",
+      "name": "성함",
+      "trans": ["姓名（敬语）"],
+      "tags": ["greeting", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_ssi",
+      "name": "씨",
+      "trans": ["氏（尊称）"],
+      "tags": ["greeting", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_cheoeum",
+      "name": "처음",
+      "trans": ["第一次"],
+      "tags": ["greeting", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_boepda",
+      "name": "뵙다",
+      "trans": ["拜见（敬语）"],
+      "tags": ["greeting", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_bangapda",
+      "name": "반갑다",
+      "trans": ["高兴（见到）"],
+      "tags": ["greeting", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_gamsahada",
+      "name": "감사하다",
+      "trans": ["感谢"],
+      "tags": ["greeting", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_mianhada",
+      "name": "미안하다",
+      "trans": ["对不起"],
+      "tags": ["greeting", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_sillyehada",
+      "name": "실례하다",
+      "trans": ["失礼", "打扰"],
+      "tags": ["greeting", "A1"],
+      "source": ["korean_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_ko_a1_127",
+    "sentence_ko_a1_128",
+    "sentence_ko_a1_129",
+    "sentence_ko_a1_130",
+    "sentence_ko_a1_131",
+    "sentence_ko_a1_132",
+    "sentence_ko_a1_133",
+    "sentence_ko_a1_134"
+  ],
+  "grammar": [
+    {
+      "point": "敬语姓名「성함」与尊称「-씨」",
+      "explain": "对长辈/初次见面问姓名用「성함이 어떻게 되십니까?」（敬语），不用「이름이 무엇입니까?」（平辈/晚辈）。回答「제 이름은 ...입니다」即可，不必对自用敬语。尊称「-씨」接姓名后：김민수 씨（金民秀先生/小姐），对长辈不能用 -씨，要用 직함（职位）或 선생님。中文「您贵姓」对应「성함이 어떻게 되십니까?」。",
+      "examples": [
         {
-            "id": "ko_a1_seongham",
-            "name": "성함",
-            "trans": [
-                "姓名（敬语）"
-            ],
-            "tags": [
-                "greeting",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
+          "vi": "성함이 어떻게 되십니까?",
+          "zh": "您贵姓？"
         },
         {
-            "id": "ko_a1_ssi",
-            "name": "씨",
-            "trans": [
-                "氏（尊称）"
-            ],
-            "tags": [
-                "greeting",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_cheoeum",
-            "name": "처음",
-            "trans": [
-                "第一次"
-            ],
-            "tags": [
-                "greeting",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_boepda",
-            "name": "뵙다",
-            "trans": [
-                "拜见（敬语）"
-            ],
-            "tags": [
-                "greeting",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_bangapda",
-            "name": "반갑다",
-            "trans": [
-                "高兴（见到）"
-            ],
-            "tags": [
-                "greeting",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_gamsahada",
-            "name": "감사하다",
-            "trans": [
-                "感谢"
-            ],
-            "tags": [
-                "greeting",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_mianhada",
-            "name": "미안하다",
-            "trans": [
-                "对不起"
-            ],
-            "tags": [
-                "greeting",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_sillyehada",
-            "name": "실례하다",
-            "trans": [
-                "失礼",
-                "打扰"
-            ],
-            "tags": [
-                "greeting",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
+          "vi": "김민수 씨, 반갑습니다.",
+          "zh": "金民秀先生，很高兴见到您。"
         }
-    ],
-    "sentences": [
-        "sentence_ko_a1_127",
-        "sentence_ko_a1_128",
-        "sentence_ko_a1_129",
-        "sentence_ko_a1_130",
-        "sentence_ko_a1_131",
-        "sentence_ko_a1_132",
-        "sentence_ko_a1_133",
-        "sentence_ko_a1_134"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「안녕히 가세요 / 안녕히 계세요」+ 道谢道歉",
+      "explain": "告别分两种：对**离开的人**说「안녕히 가세요」（走好）；对**留下的人**说「안녕히 계세요」（请留步）。中文「再见」一个词，韩语按谁走谁留分两种，常错。道谢「감사합니다」比「고맙습니다」正式；道歉「죄송합니다」比「미안합니다」正式。打扰前说「실례합니다」（失礼了）。",
+      "examples": [
         {
-            "point": "敬语姓名「성함」与尊称「-씨」",
-            "explain": "对长辈/初次见面问姓名用「성함이 어떻게 되십니까?」（敬语），不用「이름이 무엇입니까?」（平辈/晚辈）。回答「제 이름은 ...입니다」即可，不必对自用敬语。尊称「-씨」接姓名后：김민수 씨（金民秀先生/小姐），对长辈不能用 -씨，要用 직함（职位）或 선생님。中文「您贵姓」对应「성함이 어떻게 되십니까?」。",
-            "examples": [
-                {
-                    "vi": "성함이 어떻게 되십니까?",
-                    "zh": "您贵姓？"
-                },
-                {
-                    "vi": "김민수 씨, 반갑습니다.",
-                    "zh": "金民秀先生，很高兴见到您。"
-                }
-            ]
+          "vi": "안녕히 가세요.",
+          "zh": "走好（对离开的人）。"
         },
         {
-            "point": "「안녕히 가세요 / 안녕히 계세요」+ 道谢道歉",
-            "explain": "告别分两种：对**离开的人**说「안녕히 가세요」（走好）；对**留下的人**说「안녕히 계세요」（请留步）。中文「再见」一个词，韩语按谁走谁留分两种，常错。道谢「감사합니다」比「고맙습니다」正式；道歉「죄송합니다」比「미안합니다」正式。打扰前说「실례합니다」（失礼了）。",
-            "examples": [
-                {
-                    "vi": "안녕히 가세요.",
-                    "zh": "走好（对离开的人）。"
-                },
-                {
-                    "vi": "안녕히 계세요.",
-                    "zh": "请留步（对留下的人）。"
-                }
-            ]
+          "vi": "안녕히 계세요.",
+          "zh": "请留步（对留下的人）。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "对长辈问姓名，用哪句？",
-            "options": [
-                "성함이 어떻게 되십니까?",
-                "이름이 무엇입니까?",
-                "이름이 있습니까?",
-                "성함이 있습니까?"
-            ],
-            "answer": "성함이 어떻게 되십니까?"
-        },
-        {
-            "type": "choose",
-            "question": "客人要走时说？",
-            "options": [
-                "안녕히 가세요",
-                "안녕히 계세요",
-                "처음 뵙겠습니다",
-                "반갑습니다"
-            ],
-            "answer": "안녕히 가세요"
-        },
-        {
-            "type": "choose",
-            "question": "「初次见面」的韩语是？",
-            "options": [
-                "처음 뵙겠습니다",
-                "안녕히 계세요",
-                "감사합니다",
-                "미안합니다"
-            ],
-            "answer": "처음 뵙겠습니다"
-        },
-        {
-            "type": "fill",
-            "question": "正式道歉 → ___.（填入「对不起」的正式体）",
-            "answer": "죄송합니다"
-        },
-        {
-            "type": "fill",
-            "question": "「打扰了（失礼了）」→ ___.（填入敬语正式体）",
-            "answer": "실례합니다"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "对长辈问姓名，用哪句？",
+      "options": ["성함이 어떻게 되십니까?", "이름이 무엇입니까?", "이름이 있습니까?", "성함이 있습니까?"],
+      "answer": "성함이 어떻게 되십니까?"
+    },
+    {
+      "type": "choose",
+      "question": "客人要走时说？",
+      "options": ["안녕히 가세요", "안녕히 계세요", "처음 뵙겠습니다", "반갑습니다"],
+      "answer": "안녕히 가세요"
+    },
+    {
+      "type": "choose",
+      "question": "「初次见面」的韩语是？",
+      "options": ["처음 뵙겠습니다", "안녕히 계세요", "감사합니다", "미안합니다"],
+      "answer": "처음 뵙겠습니다"
+    },
+    {
+      "type": "fill",
+      "question": "正式道歉 → ___.（填入「对不起」的正式体）",
+      "answer": "죄송합니다"
+    },
+    {
+      "type": "fill",
+      "question": "「打扰了（失礼了）」→ ___.（填入敬语正式体）",
+      "answer": "실례합니다"
+    }
+  ]
 }

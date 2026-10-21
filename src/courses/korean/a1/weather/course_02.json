@@ -1,219 +1,143 @@
 {
-    "id": "course_ko_031",
-    "title": "第 2 课：계절과 날씨가 변합니다（季节和天气在变）",
-    "titleVi": "제2과: 계절과 날씨가 변합니다",
-    "order": 2,
-    "scenario": "weather",
-    "goals": [
-        "掌握四季名称「봄 / 여름 / 가을 / 겨울」",
-        "掌握「-아/어지다」（变得…）",
-        "掌握天气形容词「따뜻하다 / 시원하다 / 흐리다 / 맑다」",
-        "能描述季节变化与天气"
-    ],
-    "words": [
+  "id": "course_ko_031",
+  "title": "第 2 课：계절과 날씨가 변합니다（季节和天气在变）",
+  "titleVi": "제2과: 계절과 날씨가 변합니다",
+  "order": 2,
+  "scenario": "weather",
+  "goals": [
+    "掌握四季名称「봄 / 여름 / 가을 / 겨울」",
+    "掌握「-아/어지다」（变得…）",
+    "掌握天气形容词「따뜻하다 / 시원하다 / 흐리다 / 맑다」",
+    "能描述季节变化与天气"
+  ],
+  "words": [
+    {
+      "id": "ko_a1_gyejeol",
+      "name": "계절",
+      "trans": ["季节"],
+      "tags": ["weather", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_bom",
+      "name": "봄",
+      "trans": ["春天"],
+      "tags": ["weather", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_yeoreum",
+      "name": "여름",
+      "trans": ["夏天"],
+      "tags": ["weather", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_gaeul",
+      "name": "가을",
+      "trans": ["秋天"],
+      "tags": ["weather", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_gyeoul",
+      "name": "겨울",
+      "trans": ["冬天"],
+      "tags": ["weather", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_ttatteuthada",
+      "name": "따뜻하다",
+      "trans": ["温暖"],
+      "tags": ["weather", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_siwonhada",
+      "name": "시원하다",
+      "trans": ["凉爽"],
+      "tags": ["weather", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_malkda",
+      "name": "맑다",
+      "trans": ["晴朗"],
+      "tags": ["weather", "A1"],
+      "source": ["korean_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_ko_a1_191",
+    "sentence_ko_a1_192",
+    "sentence_ko_a1_193",
+    "sentence_ko_a1_194",
+    "sentence_ko_a1_195",
+    "sentence_ko_a1_196",
+    "sentence_ko_a1_197",
+    "sentence_ko_a1_198"
+  ],
+  "grammar": [
+    {
+      "point": "「-아/어지다」（变得…）",
+      "explain": "形容词词干 ㅏ/ㅗ 用 -아지다，其他用 -어지다，하다 用 -해지다。表状态变化「变得…」。例：따뜻하다 → 따뜻해집니다（变暖）；덥다 → 더워집니다（变热，ㅂ 不规则）；춥다 → 추워집니다（变冷）；좋다 → 좋아집니다（变好）。中文「变…了」对应。注意：-아/어지다 只能接形容词，不能接动词（动词变化用 -게 되다）。",
+      "examples": [
         {
-            "id": "ko_a1_gyejeol",
-            "name": "계절",
-            "trans": [
-                "季节"
-            ],
-            "tags": [
-                "weather",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
+          "vi": "날씨가 따뜻해집니다.",
+          "zh": "天气变暖了。"
         },
         {
-            "id": "ko_a1_bom",
-            "name": "봄",
-            "trans": [
-                "春天"
-            ],
-            "tags": [
-                "weather",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_yeoreum",
-            "name": "여름",
-            "trans": [
-                "夏天"
-            ],
-            "tags": [
-                "weather",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_gaeul",
-            "name": "가을",
-            "trans": [
-                "秋天"
-            ],
-            "tags": [
-                "weather",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_gyeoul",
-            "name": "겨울",
-            "trans": [
-                "冬天"
-            ],
-            "tags": [
-                "weather",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_ttatteuthada",
-            "name": "따뜻하다",
-            "trans": [
-                "温暖"
-            ],
-            "tags": [
-                "weather",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_siwonhada",
-            "name": "시원하다",
-            "trans": [
-                "凉爽"
-            ],
-            "tags": [
-                "weather",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_malkda",
-            "name": "맑다",
-            "trans": [
-                "晴朗"
-            ],
-            "tags": [
-                "weather",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
+          "vi": "여름에는 더워집니다.",
+          "zh": "夏天变热。"
         }
-    ],
-    "sentences": [
-        "sentence_ko_a1_191",
-        "sentence_ko_a1_192",
-        "sentence_ko_a1_193",
-        "sentence_ko_a1_194",
-        "sentence_ko_a1_195",
-        "sentence_ko_a1_196",
-        "sentence_ko_a1_197",
-        "sentence_ko_a1_198"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "四季 +「-에는」（在…季节）",
+      "explain": "四季：봄（春）、여름（夏）、가을（秋）、겨울（冬）。季节 + 에는 表「在…季节」：봄에는（在春天）、여름에는（在夏天）。注意 에는 比 에 更强调对比（「至于春天的话」）。例：봄에는 꽃이 핍니다（春天开花）；겨울에는 눈이 옵니다（冬天下雪）。中文「在春天」对应。季节后不加 에 也可以，但加了更自然。",
+      "examples": [
         {
-            "point": "「-아/어지다」（变得…）",
-            "explain": "形容词词干 ㅏ/ㅗ 用 -아지다，其他用 -어지다，하다 用 -해지다。表状态变化「变得…」。例：따뜻하다 → 따뜻해집니다（变暖）；덥다 → 더워집니다（变热，ㅂ 不规则）；춥다 → 추워집니다（变冷）；좋다 → 좋아집니다（变好）。中文「变…了」对应。注意：-아/어지다 只能接形容词，不能接动词（动词变化用 -게 되다）。",
-            "examples": [
-                {
-                    "vi": "날씨가 따뜻해집니다.",
-                    "zh": "天气变暖了。"
-                },
-                {
-                    "vi": "여름에는 더워집니다.",
-                    "zh": "夏天变热。"
-                }
-            ]
+          "vi": "봄에는 따뜻합니다.",
+          "zh": "春天温暖。"
         },
         {
-            "point": "四季 +「-에는」（在…季节）",
-            "explain": "四季：봄（春）、여름（夏）、가을（秋）、겨울（冬）。季节 + 에는 表「在…季节」：봄에는（在春天）、여름에는（在夏天）。注意 에는 比 에 更强调对比（「至于春天的话」）。例：봄에는 꽃이 핍니다（春天开花）；겨울에는 눈이 옵니다（冬天下雪）。中文「在春天」对应。季节后不加 에 也可以，但加了更自然。",
-            "examples": [
-                {
-                    "vi": "봄에는 따뜻합니다.",
-                    "zh": "春天温暖。"
-                },
-                {
-                    "vi": "겨울에는 춥습니다.",
-                    "zh": "冬天冷。"
-                }
-            ]
+          "vi": "겨울에는 춥습니다.",
+          "zh": "冬天冷。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「变暖」的韩语是？",
-            "options": [
-                "따뜻해집니다",
-                "따뜻합니다",
-                "따뜻했습니다",
-                "따뜻할 겁니다"
-            ],
-            "answer": "따뜻해집니다"
-        },
-        {
-            "type": "choose",
-            "question": "「在春天」的韩语是？",
-            "options": [
-                "봄에는",
-                "봄에서",
-                "봄부터",
-                "봄까지"
-            ],
-            "answer": "봄에는"
-        },
-        {
-            "type": "choose",
-            "question": "「秋天」的韩语是？",
-            "options": [
-                "가을",
-                "겨울",
-                "여름",
-                "봄"
-            ],
-            "answer": "가을"
-        },
-        {
-            "type": "choose",
-            "question": "「晴朗」的韩语是？",
-            "options": [
-                "맑다",
-                "흐리다",
-                "춥다",
-                "덥다"
-            ],
-            "answer": "맑다"
-        },
-        {
-            "type": "fill",
-            "question": "「变冷」→ 추__집니다.（填入正确变形）",
-            "answer": "워"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「变暖」的韩语是？",
+      "options": ["따뜻해집니다", "따뜻합니다", "따뜻했습니다", "따뜻할 겁니다"],
+      "answer": "따뜻해집니다"
+    },
+    {
+      "type": "choose",
+      "question": "「在春天」的韩语是？",
+      "options": ["봄에는", "봄에서", "봄부터", "봄까지"],
+      "answer": "봄에는"
+    },
+    {
+      "type": "choose",
+      "question": "「秋天」的韩语是？",
+      "options": ["가을", "겨울", "여름", "봄"],
+      "answer": "가을"
+    },
+    {
+      "type": "choose",
+      "question": "「晴朗」的韩语是？",
+      "options": ["맑다", "흐리다", "춥다", "덥다"],
+      "answer": "맑다"
+    },
+    {
+      "type": "fill",
+      "question": "「变冷」→ 추__집니다.（填入正确变形）",
+      "answer": "워"
+    }
+  ]
 }

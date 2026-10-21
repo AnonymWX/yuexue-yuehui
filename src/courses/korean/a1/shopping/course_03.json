@@ -1,223 +1,143 @@
 {
-    "id": "course_ko_029",
-    "title": "第 3 课：교환하고 싶습니다（想换货）",
-    "titleVi": "제3과: 교환하고 싶습니다",
-    "order": 3,
-    "scenario": "shopping",
-    "goals": [
-        "掌握换货「교환하다」与退款「환불하다」",
-        "掌握付款方式「현금 / 카드」",
-        "掌握「-고 싶습니다」（想…）的购物用法",
-        "能处理退换与结账"
-    ],
-    "words": [
+  "id": "course_ko_029",
+  "title": "第 3 课：교환하고 싶습니다（想换货）",
+  "titleVi": "제3과: 교환하고 싶습니다",
+  "order": 3,
+  "scenario": "shopping",
+  "goals": [
+    "掌握换货「교환하다」与退款「환불하다」",
+    "掌握付款方式「현금 / 카드」",
+    "掌握「-고 싶습니다」（想…）的购物用法",
+    "能处理退换与结账"
+  ],
+  "words": [
+    {
+      "id": "ko_a1_gyohwan",
+      "name": "교환",
+      "trans": ["换货"],
+      "tags": ["shopping", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_hwanbul",
+      "name": "환불",
+      "trans": ["退款"],
+      "tags": ["shopping", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_yeongsujeung",
+      "name": "영수증",
+      "trans": ["收据"],
+      "tags": ["shopping", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_hyeongeum",
+      "name": "현금",
+      "trans": ["现金"],
+      "tags": ["shopping", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_kadeu",
+      "name": "카드",
+      "trans": ["卡", "银行卡"],
+      "tags": ["shopping", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_gyesan",
+      "name": "계산",
+      "trans": ["结账", "计算"],
+      "tags": ["shopping", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_pojang",
+      "name": "포장",
+      "trans": ["包装", "打包"],
+      "tags": ["shopping", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_hwanjeon",
+      "name": "환전",
+      "trans": ["换钱", "兑换"],
+      "tags": ["shopping", "A1"],
+      "source": ["korean_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_ko_a1_287",
+    "sentence_ko_a1_288",
+    "sentence_ko_a1_289",
+    "sentence_ko_a1_290",
+    "sentence_ko_a1_291",
+    "sentence_ko_a1_292",
+    "sentence_ko_a1_293",
+    "sentence_ko_a1_294"
+  ],
+  "grammar": [
+    {
+      "point": "「교환하다 / 환불하다」+「-고 싶습니다」",
+      "explain": "교환하다 = 换货，환불하다 = 退款，两个都是 하다 动词。表达意愿「想换货」用「교환하고 싶습니다」（-고 싶다 接动词词干）。问「可以换货吗」用「교환할 수 있습니까?」。中文「想换/想退」对应。注意：换货通常要「영수증」（收据），退款分「현금 환불 / 카드 환불」。",
+      "examples": [
         {
-            "id": "ko_a1_gyohwan",
-            "name": "교환",
-            "trans": [
-                "换货"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
+          "vi": "교환하고 싶습니다.",
+          "zh": "想换货。"
         },
         {
-            "id": "ko_a1_hwanbul",
-            "name": "환불",
-            "trans": [
-                "退款"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_yeongsujeung",
-            "name": "영수증",
-            "trans": [
-                "收据"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_hyeongeum",
-            "name": "현금",
-            "trans": [
-                "现金"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_kadeu",
-            "name": "카드",
-            "trans": [
-                "卡",
-                "银行卡"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_gyesan",
-            "name": "계산",
-            "trans": [
-                "结账",
-                "计算"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_pojang",
-            "name": "포장",
-            "trans": [
-                "包装",
-                "打包"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_hwanjeon",
-            "name": "환전",
-            "trans": [
-                "换钱",
-                "兑换"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
+          "vi": "환불할 수 있습니까?",
+          "zh": "可以退款吗？"
         }
-    ],
-    "sentences": [
-        "sentence_ko_a1_287",
-        "sentence_ko_a1_288",
-        "sentence_ko_a1_289",
-        "sentence_ko_a1_290",
-        "sentence_ko_a1_291",
-        "sentence_ko_a1_292",
-        "sentence_ko_a1_293",
-        "sentence_ko_a1_294"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "付款方式「현금 / 카드」+「-으로 계산하다」",
+      "explain": "付款方式：현금（现金）、카드（卡）。结账用「-으로 계산하다」：현금으로 계산합니다（付现金）；카드로 계산합니다（刷卡）。카드 无收音 → 카드로（不是 카드으로）。中文「刷卡/付现金」对应。注意 포장（打包）常用于餐饮，「포장해 주세요」= 请打包。",
+      "examples": [
         {
-            "point": "「교환하다 / 환불하다」+「-고 싶습니다」",
-            "explain": "교환하다 = 换货，환불하다 = 退款，两个都是 하다 动词。表达意愿「想换货」用「교환하고 싶습니다」（-고 싶다 接动词词干）。问「可以换货吗」用「교환할 수 있습니까?」。中文「想换/想退」对应。注意：换货通常要「영수증」（收据），退款分「현금 환불 / 카드 환불」。",
-            "examples": [
-                {
-                    "vi": "교환하고 싶습니다.",
-                    "zh": "想换货。"
-                },
-                {
-                    "vi": "환불할 수 있습니까?",
-                    "zh": "可以退款吗？"
-                }
-            ]
+          "vi": "카드로 계산합니다.",
+          "zh": "刷卡结账。"
         },
         {
-            "point": "付款方式「현금 / 카드」+「-으로 계산하다」",
-            "explain": "付款方式：현금（现金）、카드（卡）。结账用「-으로 계산하다」：현금으로 계산합니다（付现金）；카드로 계산합니다（刷卡）。카드 无收音 → 카드로（不是 카드으로）。中文「刷卡/付现金」对应。注意 포장（打包）常用于餐饮，「포장해 주세요」= 请打包。",
-            "examples": [
-                {
-                    "vi": "카드로 계산합니다.",
-                    "zh": "刷卡结账。"
-                },
-                {
-                    "vi": "현금으로 계산해 주세요.",
-                    "zh": "请收现金。"
-                }
-            ]
+          "vi": "현금으로 계산해 주세요.",
+          "zh": "请收现金。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「想换货」的韩语是？",
-            "options": [
-                "교환하고 싶습니다",
-                "교환했습니다",
-                "교환할 겁니다",
-                "교환해야 합니다"
-            ],
-            "answer": "교환하고 싶습니다"
-        },
-        {
-            "type": "choose",
-            "question": "「刷卡结账」的韩语是？",
-            "options": [
-                "카드로 계산합니다",
-                "카드에 계산합니다",
-                "카드를 계산합니다",
-                "카드가 계산합니다"
-            ],
-            "answer": "카드로 계산합니다"
-        },
-        {
-            "type": "choose",
-            "question": "「收据」的韩语是？",
-            "options": [
-                "영수증",
-                "현금",
-                "카드",
-                "포장"
-            ],
-            "answer": "영수증"
-        },
-        {
-            "type": "choose",
-            "question": "「退款」的韩语是？",
-            "options": [
-                "환불",
-                "교환",
-                "계산",
-                "환전"
-            ],
-            "answer": "환불"
-        },
-        {
-            "type": "fill",
-            "question": "「请打包」→ 포장해 ___.（填入敬语请求）",
-            "answer": "주세요"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「想换货」的韩语是？",
+      "options": ["교환하고 싶습니다", "교환했습니다", "교환할 겁니다", "교환해야 합니다"],
+      "answer": "교환하고 싶습니다"
+    },
+    {
+      "type": "choose",
+      "question": "「刷卡结账」的韩语是？",
+      "options": ["카드로 계산합니다", "카드에 계산합니다", "카드를 계산합니다", "카드가 계산합니다"],
+      "answer": "카드로 계산합니다"
+    },
+    {
+      "type": "choose",
+      "question": "「收据」的韩语是？",
+      "options": ["영수증", "현금", "카드", "포장"],
+      "answer": "영수증"
+    },
+    {
+      "type": "choose",
+      "question": "「退款」的韩语是？",
+      "options": ["환불", "교환", "계산", "환전"],
+      "answer": "환불"
+    },
+    {
+      "type": "fill",
+      "question": "「请打包」→ 포장해 ___.（填入敬语请求）",
+      "answer": "주세요"
+    }
+  ]
 }

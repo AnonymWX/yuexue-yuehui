@@ -1,56 +1,56 @@
 {
-    "id": "career",
-    "stage": "a1",
-    "title": "职业",
-    "titleVi": "Nghề nghiệp",
-    "courses": [
-        {
-            "id": "course_vi_06",
-            "file": "course_01.json",
-            "title": "第 1 课：常见职业名称",
-            "titleVi": "Bài 1: Các nghề nghiệp phổ biến"
-        },
-        {
-            "id": "course_vi_07",
-            "file": "course_02.json",
-            "title": "第 2 课：问职业与回答",
-            "titleVi": "Bài 2: Hỏi và trả lời về nghề nghiệp"
-        },
-        {
-            "id": "course_vi_08",
-            "file": "course_03.json",
-            "title": "第 3 课：工作场所",
-            "titleVi": "Bài 3: Nơi làm việc"
-        },
-        {
-            "id": "course_vi_09",
-            "file": "course_04.json",
-            "title": "第 4 课：职业描述与职责",
-            "titleVi": "Bài 4: Mô tả công việc và trách nhiệm"
-        },
-        {
-            "id": "course_vi_10",
-            "file": "course_05.json",
-            "title": "第 5 课：求职与简历",
-            "titleVi": "Bài 5: Tìm việc và hồ sơ"
-        },
-        {
-            "id": "course_vi_11",
-            "file": "course_06.json",
-            "title": "第 6 课：面试",
-            "titleVi": "Bài 6: Phỏng vấn"
-        },
-        {
-            "id": "course_vi_12",
-            "file": "course_07.json",
-            "title": "第 7 课：工资与福利",
-            "titleVi": "Bài 7: Lương và phúc lợi"
-        },
-        {
-            "id": "course_vi_13",
-            "file": "course_08.json",
-            "title": "第 8 课：职业规划",
-            "titleVi": "Bài 8: Kế hoạch nghề nghiệp"
-        }
-    ]
+  "id": "career",
+  "stage": "a1",
+  "title": "职业",
+  "titleVi": "Nghề nghiệp",
+  "courses": [
+    {
+      "id": "course_vi_06",
+      "file": "course_01.json",
+      "title": "第 1 课：常见职业名称",
+      "titleVi": "Bài 1: Các nghề nghiệp phổ biến"
+    },
+    {
+      "id": "course_vi_07",
+      "file": "course_02.json",
+      "title": "第 2 课：问职业与回答",
+      "titleVi": "Bài 2: Hỏi và trả lời về nghề nghiệp"
+    },
+    {
+      "id": "course_vi_08",
+      "file": "course_03.json",
+      "title": "第 3 课：工作场所",
+      "titleVi": "Bài 3: Nơi làm việc"
+    },
+    {
+      "id": "course_vi_09",
+      "file": "course_04.json",
+      "title": "第 4 课：职业描述与职责",
+      "titleVi": "Bài 4: Mô tả công việc và trách nhiệm"
+    },
+    {
+      "id": "course_vi_10",
+      "file": "course_05.json",
+      "title": "第 5 课：求职与简历",
+      "titleVi": "Bài 5: Tìm việc và hồ sơ"
+    },
+    {
+      "id": "course_vi_11",
+      "file": "course_06.json",
+      "title": "第 6 课：面试",
+      "titleVi": "Bài 6: Phỏng vấn"
+    },
+    {
+      "id": "course_vi_12",
+      "file": "course_07.json",
+      "title": "第 7 课：工资与福利",
+      "titleVi": "Bài 7: Lương và phúc lợi"
+    },
+    {
+      "id": "course_vi_13",
+      "file": "course_08.json",
+      "title": "第 8 课：职业规划",
+      "titleVi": "Bài 8: Kế hoạch nghề nghiệp"
+    }
+  ]
 }

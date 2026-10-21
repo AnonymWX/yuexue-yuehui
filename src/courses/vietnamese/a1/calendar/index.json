@@ -1,38 +1,38 @@
 {
-    "id": "calendar",
-    "stage": "a1",
-    "title": "星期、日期、月份",
-    "titleVi": "Thứ, Ngày, Tháng",
-    "courses": [
-        {
-            "id": "course_vi_49",
-            "file": "course_01.json",
-            "title": "第 1 课：星期表达",
-            "titleVi": "Bài 1: Các ngày trong tuần"
-        },
-        {
-            "id": "course_vi_50",
-            "file": "course_02.json",
-            "title": "第 2 课：日期表达",
-            "titleVi": "Bài 2: Diễn đạt ngày"
-        },
-        {
-            "id": "course_vi_51",
-            "file": "course_03.json",
-            "title": "第 3 课：月份表达",
-            "titleVi": "Bài 3: Các tháng trong năm"
-        },
-        {
-            "id": "course_vi_52",
-            "file": "course_04.json",
-            "title": "第 4 课：年月日综合表达",
-            "titleVi": "Bài 4: Diễn đạt tổng hợp ngày tháng năm"
-        },
-        {
-            "id": "course_vi_53",
-            "file": "course_05.json",
-            "title": "第 5 课：问星期几",
-            "titleVi": "Bài 5: Hỏi thứ, ngày, tháng"
-        }
-    ]
+  "id": "calendar",
+  "stage": "a1",
+  "title": "星期、日期、月份",
+  "titleVi": "Thứ, Ngày, Tháng",
+  "courses": [
+    {
+      "id": "course_vi_49",
+      "file": "course_01.json",
+      "title": "第 1 课：星期表达",
+      "titleVi": "Bài 1: Các ngày trong tuần"
+    },
+    {
+      "id": "course_vi_50",
+      "file": "course_02.json",
+      "title": "第 2 课：日期表达",
+      "titleVi": "Bài 2: Diễn đạt ngày"
+    },
+    {
+      "id": "course_vi_51",
+      "file": "course_03.json",
+      "title": "第 3 课：月份表达",
+      "titleVi": "Bài 3: Các tháng trong năm"
+    },
+    {
+      "id": "course_vi_52",
+      "file": "course_04.json",
+      "title": "第 4 课：年月日综合表达",
+      "titleVi": "Bài 4: Diễn đạt tổng hợp ngày tháng năm"
+    },
+    {
+      "id": "course_vi_53",
+      "file": "course_05.json",
+      "title": "第 5 课：问星期几",
+      "titleVi": "Bài 5: Hỏi thứ, ngày, tháng"
+    }
+  ]
 }

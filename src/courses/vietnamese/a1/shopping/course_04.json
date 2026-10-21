@@ -1,191 +1,123 @@
 {
-    "id": "course_vi_81",
-    "title": "第 4 课：食品购物",
-    "titleVi": "Bài 4: Mua thực phẩm",
-    "order": 4,
-    "scenario": "shopping",
-    "goals": [
-        "掌握常见食材名称",
-        "学会在市场买食材",
-        "掌握量词与数量表达",
-        "能进行食品采购对话"
-    ],
-    "words": [
+  "id": "course_vi_81",
+  "title": "第 4 课：食品购物",
+  "titleVi": "Bài 4: Mua thực phẩm",
+  "order": 4,
+  "scenario": "shopping",
+  "goals": ["掌握常见食材名称", "学会在市场买食材", "掌握量词与数量表达", "能进行食品采购对话"],
+  "words": [
+    {
+      "id": "vi_ca",
+      "name": "cá",
+      "trans": ["鱼"],
+      "tags": ["shopping", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_trai_cay",
+      "name": "trái cây",
+      "trans": ["水果"],
+      "tags": ["shopping", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_trung",
+      "name": "trứng",
+      "trans": ["蛋", "鸡蛋"],
+      "tags": ["shopping", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_sua",
+      "name": "sữa",
+      "trans": ["牛奶", "奶"],
+      "tags": ["shopping", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_gao",
+      "name": "gạo",
+      "trans": ["大米", "米"],
+      "tags": ["shopping", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_duong_sugar",
+      "name": "đường",
+      "trans": ["糖"],
+      "tags": ["shopping", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_muoi",
+      "name": "muối",
+      "trans": ["盐"],
+      "tags": ["shopping", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_dau_an",
+      "name": "dầu ăn",
+      "trans": ["食用油"],
+      "tags": ["shopping", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_385",
+    "sentence_vi_a1_386",
+    "sentence_vi_a1_387",
+    "sentence_vi_a1_388",
+    "sentence_vi_a1_389",
+    "sentence_vi_a1_390"
+  ],
+  "grammar": [
+    {
+      "point": "「một + 量词 + 食材」表数量",
+      "explain": "买食材用「một + 量词 + 食材」，如「một ký thịt」（一公斤肉）、「một con cá」（一条鱼）、「một chục trứng」（十个蛋）。",
+      "examples": [
         {
-            "id": "vi_ca",
-            "name": "cá",
-            "trans": [
-                "鱼"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Cho tôi một ký thịt.",
+          "zh": "给我一公斤肉。"
         },
         {
-            "id": "vi_trai_cay",
-            "name": "trái cây",
-            "trans": [
-                "水果"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_trung",
-            "name": "trứng",
-            "trans": [
-                "蛋",
-                "鸡蛋"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_sua",
-            "name": "sữa",
-            "trans": [
-                "牛奶",
-                "奶"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_gao",
-            "name": "gạo",
-            "trans": [
-                "大米",
-                "米"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_duong_sugar",
-            "name": "đường",
-            "trans": [
-                "糖"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_muoi",
-            "name": "muối",
-            "trans": [
-                "盐"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_dau_an",
-            "name": "dầu ăn",
-            "trans": [
-                "食用油"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Mua một chục trứng.",
+          "zh": "买十个蛋。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_385",
-        "sentence_vi_a1_386",
-        "sentence_vi_a1_387",
-        "sentence_vi_a1_388",
-        "sentence_vi_a1_389",
-        "sentence_vi_a1_390"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「một ký / một lạng」表重量",
+      "explain": "「ký」千克（公斤），「lạng」百克（一两）。市场买卖常用这两个量词。",
+      "examples": [
         {
-            "point": "「một + 量词 + 食材」表数量",
-            "explain": "买食材用「một + 量词 + 食材」，如「một ký thịt」（一公斤肉）、「một con cá」（一条鱼）、「một chục trứng」（十个蛋）。",
-            "examples": [
-                {
-                    "vi": "Cho tôi một ký thịt.",
-                    "zh": "给我一公斤肉。"
-                },
-                {
-                    "vi": "Mua một chục trứng.",
-                    "zh": "买十个蛋。"
-                }
-            ]
+          "vi": "Một ký gạo bao nhiêu tiền?",
+          "zh": "一公斤米多少钱？"
         },
         {
-            "point": "「một ký / một lạng」表重量",
-            "explain": "「ký」千克（公斤），「lạng」百克（一两）。市场买卖常用这两个量词。",
-            "examples": [
-                {
-                    "vi": "Một ký gạo bao nhiêu tiền?",
-                    "zh": "一公斤米多少钱？"
-                },
-                {
-                    "vi": "Cho tôi hai lạng thịt.",
-                    "zh": "给我两百克肉。"
-                }
-            ]
+          "vi": "Cho tôi hai lạng thịt.",
+          "zh": "给我两百克肉。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「水果」用越南语怎么说？",
-            "options": [
-                "trái cây",
-                "trứng",
-                "gạo"
-            ],
-            "answer": "trái cây"
-        },
-        {
-            "type": "fill",
-            "question": "Cho tôi một ___ thịt.",
-            "answer": "ký"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「盐」的越南语",
-            "answer": "muối"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「水果」用越南语怎么说？",
+      "options": ["trái cây", "trứng", "gạo"],
+      "answer": "trái cây"
+    },
+    {
+      "type": "fill",
+      "question": "Cho tôi một ___ thịt.",
+      "answer": "ký"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「盐」的越南语",
+      "answer": "muối"
+    }
+  ]
 }

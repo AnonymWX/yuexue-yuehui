@@ -1,191 +1,123 @@
 {
-    "id": "course_vi_09",
-    "title": "第 4 课：职业描述与职责",
-    "titleVi": "Bài 4: Mô tả công việc và trách nhiệm",
-    "order": 4,
-    "scenario": "career",
-    "goals": [
-        "掌握常见工作职责动词",
-        "能用简单句描述工作内容",
-        "学会说「我的工作是……」",
-        "能描述不同职业的职责"
-    ],
-    "words": [
+  "id": "course_vi_09",
+  "title": "第 4 课：职业描述与职责",
+  "titleVi": "Bài 4: Mô tả công việc và trách nhiệm",
+  "order": 4,
+  "scenario": "career",
+  "goals": ["掌握常见工作职责动词", "能用简单句描述工作内容", "学会说「我的工作是……」", "能描述不同职业的职责"],
+  "words": [
+    {
+      "id": "vi_phuc_vu",
+      "name": "phục vụ",
+      "trans": ["服务"],
+      "tags": ["career", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_quan_ly",
+      "name": "quản lý",
+      "trans": ["管理"],
+      "tags": ["career", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_san_xuat",
+      "name": "sản xuất",
+      "trans": ["生产"],
+      "tags": ["career", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_kinh_doanh",
+      "name": "kinh doanh",
+      "trans": ["经营", "生意"],
+      "tags": ["career", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_day_hoc",
+      "name": "dạy học",
+      "trans": ["教学", "教书"],
+      "tags": ["career", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_chua_benh",
+      "name": "chữa bệnh",
+      "trans": ["治病", "治疗"],
+      "tags": ["career", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_thiet_ke",
+      "name": "thiết kế",
+      "trans": ["设计"],
+      "tags": ["career", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_lap_trinh",
+      "name": "lập trình",
+      "trans": ["编程"],
+      "tags": ["career", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_313",
+    "sentence_vi_a1_314",
+    "sentence_vi_a1_315",
+    "sentence_vi_a1_316",
+    "sentence_vi_a1_317",
+    "sentence_vi_a1_318"
+  ],
+  "grammar": [
+    {
+      "point": "「Công việc của tôi là + 动词」",
+      "explain": "表示「我的工作是……」用「Công việc của tôi là + 动词短语」。",
+      "examples": [
         {
-            "id": "vi_phuc_vu",
-            "name": "phục vụ",
-            "trans": [
-                "服务"
-            ],
-            "tags": [
-                "career",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Công việc của tôi là dạy học.",
+          "zh": "我的工作是教书。"
         },
         {
-            "id": "vi_quan_ly",
-            "name": "quản lý",
-            "trans": [
-                "管理"
-            ],
-            "tags": [
-                "career",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_san_xuat",
-            "name": "sản xuất",
-            "trans": [
-                "生产"
-            ],
-            "tags": [
-                "career",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_kinh_doanh",
-            "name": "kinh doanh",
-            "trans": [
-                "经营",
-                "生意"
-            ],
-            "tags": [
-                "career",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_day_hoc",
-            "name": "dạy học",
-            "trans": [
-                "教学",
-                "教书"
-            ],
-            "tags": [
-                "career",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_chua_benh",
-            "name": "chữa bệnh",
-            "trans": [
-                "治病",
-                "治疗"
-            ],
-            "tags": [
-                "career",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_thiet_ke",
-            "name": "thiết kế",
-            "trans": [
-                "设计"
-            ],
-            "tags": [
-                "career",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_lap_trinh",
-            "name": "lập trình",
-            "trans": [
-                "编程"
-            ],
-            "tags": [
-                "career",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Công việc của tôi là thiết kế.",
+          "zh": "我的工作是设计。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_313",
-        "sentence_vi_a1_314",
-        "sentence_vi_a1_315",
-        "sentence_vi_a1_316",
-        "sentence_vi_a1_317",
-        "sentence_vi_a1_318"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「Tôi + 动词 + 宾语」",
+      "explain": "描述具体工作内容时，可直接用「主语 + 动词 + 宾语」结构。",
+      "examples": [
         {
-            "point": "「Công việc của tôi là + 动词」",
-            "explain": "表示「我的工作是……」用「Công việc của tôi là + 动词短语」。",
-            "examples": [
-                {
-                    "vi": "Công việc của tôi là dạy học.",
-                    "zh": "我的工作是教书。"
-                },
-                {
-                    "vi": "Công việc của tôi là thiết kế.",
-                    "zh": "我的工作是设计。"
-                }
-            ]
+          "vi": "Tôi dạy tiếng Anh.",
+          "zh": "我教英语。"
         },
         {
-            "point": "「Tôi + 动词 + 宾语」",
-            "explain": "描述具体工作内容时，可直接用「主语 + 动词 + 宾语」结构。",
-            "examples": [
-                {
-                    "vi": "Tôi dạy tiếng Anh.",
-                    "zh": "我教英语。"
-                },
-                {
-                    "vi": "Tôi lập trình phần mềm.",
-                    "zh": "我编写软件。"
-                }
-            ]
+          "vi": "Tôi lập trình phần mềm.",
+          "zh": "我编写软件。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「我的工作是教书」用越南语怎么说？",
-            "options": [
-                "Công việc của tôi là dạy học",
-                "Của tôi công việc là dạy học",
-                "Tôi là công việc dạy học"
-            ],
-            "answer": "Công việc của tôi là dạy học"
-        },
-        {
-            "type": "fill",
-            "question": "Bác sĩ ___ bệnh.",
-            "answer": "chữa"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「编程」的越南语",
-            "answer": "lập trình"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「我的工作是教书」用越南语怎么说？",
+      "options": ["Công việc của tôi là dạy học", "Của tôi công việc là dạy học", "Tôi là công việc dạy học"],
+      "answer": "Công việc của tôi là dạy học"
+    },
+    {
+      "type": "fill",
+      "question": "Bác sĩ ___ bệnh.",
+      "answer": "chữa"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「编程」的越南语",
+      "answer": "lập trình"
+    }
+  ]
 }

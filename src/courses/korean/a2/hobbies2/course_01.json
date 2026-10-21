@@ -1,269 +1,165 @@
 {
-    "id": "course_ko_114",
-    "title": "第 1 课：주말에는 등산을 곤 합니다（周末常去登山）",
-    "titleVi": "제1과: 주말에는 등산을 곤 합니다",
-    "order": 1,
-    "scenario": "hobbies2",
-    "goals": [
-        "掌握「-곤 하다」（经常做）",
-        "掌握「-(으)ㄹ 때」（…的时候）",
-        "能说出多种休闲活动",
-        "能表达频率（자주/가끔/거의）"
-    ],
-    "words": [
+  "id": "course_ko_114",
+  "title": "第 1 课：주말에는 등산을 곤 합니다（周末常去登山）",
+  "titleVi": "제1과: 주말에는 등산을 곤 합니다",
+  "order": 1,
+  "scenario": "hobbies2",
+  "goals": ["掌握「-곤 하다」（经常做）", "掌握「-(으)ㄹ 때」（…的时候）", "能说出多种休闲活动", "能表达频率（자주/가끔/거의）"],
+  "words": [
+    {
+      "id": "ko_a2_dokseo",
+      "name": "독서",
+      "trans": ["读书"],
+      "tags": ["hobbies2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_deungsan",
+      "name": "등산",
+      "trans": ["登山"],
+      "tags": ["hobbies2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_naksi",
+      "name": "낚시",
+      "trans": ["钓鱼"],
+      "tags": ["hobbies2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_geurim",
+      "name": "그림",
+      "trans": ["画"],
+      "tags": ["hobbies2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_geurida",
+      "name": "그리다",
+      "trans": ["画"],
+      "tags": ["hobbies2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_chum",
+      "name": "춤",
+      "trans": ["舞"],
+      "tags": ["hobbies2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_chuda",
+      "name": "추다",
+      "trans": ["跳（舞）"],
+      "tags": ["hobbies2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_norae",
+      "name": "노래",
+      "trans": ["歌"],
+      "tags": ["hobbies2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_bureuda",
+      "name": "부르다",
+      "trans": ["唱"],
+      "tags": ["hobbies2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_akgi",
+      "name": "악기",
+      "trans": ["乐器"],
+      "tags": ["hobbies2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_jaju",
+      "name": "자주",
+      "trans": ["经常"],
+      "tags": ["hobbies2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_gakkeum",
+      "name": "가끔",
+      "trans": ["偶尔"],
+      "tags": ["hobbies2", "A2"],
+      "source": ["korean_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_ko_a2_105",
+    "sentence_ko_a2_106",
+    "sentence_ko_a2_107",
+    "sentence_ko_a2_108",
+    "sentence_ko_a2_109",
+    "sentence_ko_a2_110",
+    "sentence_ko_a2_111",
+    "sentence_ko_a2_112"
+  ],
+  "grammar": [
+    {
+      "point": "「-곤 하다」（经常做）",
+      "explain": "动词词干 + 곤 하다，表「经常/有时会做」。例：등산을 곤 합니다（常去登山）；노래를 부르곤 합니다（常唱歌）。常与 자주（经常）、가끔（偶尔）搭配。中文「常常/有时会」对应。注意是 -곤 不是 -고，别混。",
+      "examples": [
         {
-            "id": "ko_a2_dokseo",
-            "name": "독서",
-            "trans": [
-                "读书"
-            ],
-            "tags": [
-                "hobbies2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
+          "vi": "주말에는 등산을 곤 합니다.",
+          "zh": "周末常去登山。"
         },
         {
-            "id": "ko_a2_deungsan",
-            "name": "등산",
-            "trans": [
-                "登山"
-            ],
-            "tags": [
-                "hobbies2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_naksi",
-            "name": "낚시",
-            "trans": [
-                "钓鱼"
-            ],
-            "tags": [
-                "hobbies2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_geurim",
-            "name": "그림",
-            "trans": [
-                "画"
-            ],
-            "tags": [
-                "hobbies2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_geurida",
-            "name": "그리다",
-            "trans": [
-                "画"
-            ],
-            "tags": [
-                "hobbies2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_chum",
-            "name": "춤",
-            "trans": [
-                "舞"
-            ],
-            "tags": [
-                "hobbies2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_chuda",
-            "name": "추다",
-            "trans": [
-                "跳（舞）"
-            ],
-            "tags": [
-                "hobbies2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_norae",
-            "name": "노래",
-            "trans": [
-                "歌"
-            ],
-            "tags": [
-                "hobbies2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_bureuda",
-            "name": "부르다",
-            "trans": [
-                "唱"
-            ],
-            "tags": [
-                "hobbies2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_akgi",
-            "name": "악기",
-            "trans": [
-                "乐器"
-            ],
-            "tags": [
-                "hobbies2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_jaju",
-            "name": "자주",
-            "trans": [
-                "经常"
-            ],
-            "tags": [
-                "hobbies2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_gakkeum",
-            "name": "가끔",
-            "trans": [
-                "偶尔"
-            ],
-            "tags": [
-                "hobbies2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
+          "vi": "가끔 낚시를 하곤 합니다.",
+          "zh": "偶尔钓鱼。"
         }
-    ],
-    "sentences": [
-        "sentence_ko_a2_105",
-        "sentence_ko_a2_106",
-        "sentence_ko_a2_107",
-        "sentence_ko_a2_108",
-        "sentence_ko_a2_109",
-        "sentence_ko_a2_110",
-        "sentence_ko_a2_111",
-        "sentence_ko_a2_112"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「-(으)ㄹ 때」（…的时候）",
+      "explain": "词干有收音用 -을 때，无收音用 -ㄹ 때。表「做…的时候」。例：시간이 있을 때（有时间的时候）；주말일 때（周末的时候）；심심할 때（无聊的时候）。中文「…的时候」对应。注意 때 前动词用 -ㄹ，形容词用 -(으)ㄴ。",
+      "examples": [
         {
-            "point": "「-곤 하다」（经常做）",
-            "explain": "动词词干 + 곤 하다，表「经常/有时会做」。例：등산을 곤 합니다（常去登山）；노래를 부르곤 합니다（常唱歌）。常与 자주（经常）、가끔（偶尔）搭配。中文「常常/有时会」对应。注意是 -곤 不是 -고，别混。",
-            "examples": [
-                {
-                    "vi": "주말에는 등산을 곤 합니다.",
-                    "zh": "周末常去登山。"
-                },
-                {
-                    "vi": "가끔 낚시를 하곤 합니다.",
-                    "zh": "偶尔钓鱼。"
-                }
-            ]
+          "vi": "시간이 있을 때 그림을 그립니다.",
+          "zh": "有时间的时候画画。"
         },
         {
-            "point": "「-(으)ㄹ 때」（…的时候）",
-            "explain": "词干有收音用 -을 때，无收音用 -ㄹ 때。表「做…的时候」。例：시간이 있을 때（有时间的时候）；주말일 때（周末的时候）；심심할 때（无聊的时候）。中文「…的时候」对应。注意 때 前动词用 -ㄹ，形容词用 -(으)ㄴ。",
-            "examples": [
-                {
-                    "vi": "시간이 있을 때 그림을 그립니다.",
-                    "zh": "有时间的时候画画。"
-                },
-                {
-                    "vi": "주말일 때 등산을 합니다.",
-                    "zh": "周末的时候去登山。"
-                }
-            ]
+          "vi": "주말일 때 등산을 합니다.",
+          "zh": "周末的时候去登山。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「常去登山」的韩语是？",
-            "options": [
-                "등산을 곤 합니다",
-                "등산을 하고 있습니다",
-                "등산을 갈 겁니다",
-                "등산을 해야 합니다"
-            ],
-            "answer": "등산을 곤 합니다"
-        },
-        {
-            "type": "choose",
-            "question": "「有时间的时候」的韩语是？",
-            "options": [
-                "시간이 있을 때",
-                "시간이 있으면",
-                "시간이 있지만",
-                "시간이 있어서"
-            ],
-            "answer": "시간이 있을 때"
-        },
-        {
-            "type": "choose",
-            "question": "「乐器」的韩语是？",
-            "options": [
-                "악기",
-                "노래",
-                "춤",
-                "그림"
-            ],
-            "answer": "악기"
-        },
-        {
-            "type": "fill",
-            "question": "「偶尔」的韩语是？",
-            "answer": "가끔"
-        },
-        {
-            "type": "fill",
-            "question": "「唱歌」→ 노래를 ___.（填入「唱」的正式体）",
-            "answer": "부릅니다"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「常去登山」的韩语是？",
+      "options": ["등산을 곤 합니다", "등산을 하고 있습니다", "등산을 갈 겁니다", "등산을 해야 합니다"],
+      "answer": "등산을 곤 합니다"
+    },
+    {
+      "type": "choose",
+      "question": "「有时间的时候」的韩语是？",
+      "options": ["시간이 있을 때", "시간이 있으면", "시간이 있지만", "시간이 있어서"],
+      "answer": "시간이 있을 때"
+    },
+    {
+      "type": "choose",
+      "question": "「乐器」的韩语是？",
+      "options": ["악기", "노래", "춤", "그림"],
+      "answer": "악기"
+    },
+    {
+      "type": "fill",
+      "question": "「偶尔」的韩语是？",
+      "answer": "가끔"
+    },
+    {
+      "type": "fill",
+      "question": "「唱歌」→ 노래를 ___.（填入「唱」的正式体）",
+      "answer": "부릅니다"
+    }
+  ]
 }

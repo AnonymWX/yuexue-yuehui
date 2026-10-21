@@ -1,111 +1,100 @@
 {
-    "vi": {
-        "stages": [
-            {
-                "id": "a1",
-                "title": "第一阶段",
-                "titleVi": "Bậc 1",
-                "cefr": "A1",
-                "themes": [
-                    "greeting",
-                    "career",
-                    "language",
-                    "objects",
-                    "people",
-                    "housing",
-                    "time",
-                    "calendar",
-                    "birthday",
-                    "directions",
-                    "places",
-                    "dining",
-                    "shopping",
-                    "transport",
-                    "phone",
-                    "hobbies"
-                ]
-            },
-            {
-                "id": "a2",
-                "title": "第二阶段",
-                "titleVi": "Bậc 2",
-                "cefr": "A2",
-                "themes": [
-                    "health",
-                    "weather",
-                    "travel",
-                    "services",
-                    "education",
-                    "work",
-                    "emotions",
-                    "culture"
-                ]
-            }
+  "vi": {
+    "stages": [
+      {
+        "id": "a1",
+        "title": "第一阶段",
+        "titleVi": "Bậc 1",
+        "cefr": "A1",
+        "themes": [
+          "greeting",
+          "career",
+          "language",
+          "objects",
+          "people",
+          "housing",
+          "time",
+          "calendar",
+          "birthday",
+          "directions",
+          "places",
+          "dining",
+          "shopping",
+          "transport",
+          "phone",
+          "hobbies"
         ]
-    },
-    "ja": {
-        "stages": [
-            {
-                "id": "a1",
-                "title": "第一阶段",
-                "titleVi": "第一段階",
-                "cefr": "A1",
-                "themes": [
-                    "greeting"
-                ]
-            }
+      },
+      {
+        "id": "a2",
+        "title": "第二阶段",
+        "titleVi": "Bậc 2",
+        "cefr": "A2",
+        "themes": ["health", "weather", "travel", "services", "education", "work", "emotions", "culture"]
+      }
+    ]
+  },
+  "ja": {
+    "stages": [
+      {
+        "id": "a1",
+        "title": "第一阶段",
+        "titleVi": "第一段階",
+        "cefr": "A1",
+        "themes": ["greeting"]
+      }
+    ]
+  },
+  "ko": {
+    "stages": [
+      {
+        "id": "a1",
+        "title": "第一阶段",
+        "titleVi": "제1단계",
+        "cefr": "A1",
+        "themes": [
+          "greeting",
+          "objects",
+          "actions",
+          "places",
+          "time",
+          "shopping",
+          "food",
+          "weather",
+          "hobbies",
+          "family",
+          "daily",
+          "transport",
+          "phone",
+          "health",
+          "travel",
+          "plans"
         ]
-    },
-    "ko": {
-        "stages": [
-            {
-                "id": "a1",
-                "title": "第一阶段",
-                "titleVi": "제1단계",
-                "cefr": "A1",
-                "themes": [
-                    "greeting",
-                    "objects",
-                    "actions",
-                    "places",
-                    "time",
-                    "shopping",
-                    "food",
-                    "weather",
-                    "hobbies",
-                    "family",
-                    "daily",
-                    "transport",
-                    "phone",
-                    "health",
-                    "travel",
-                    "plans"
-                ]
-            },
-            {
-                "id": "a2",
-                "title": "第二阶段",
-                "titleVi": "제2단계",
-                "cefr": "A2",
-                "themes": [
-                    "daily_life",
-                    "feelings",
-                    "weather2",
-                    "food_order",
-                    "shopping2",
-                    "study",
-                    "work",
-                    "travel2",
-                    "health2",
-                    "phone2",
-                    "culture",
-                    "plans2",
-                    "experience",
-                    "hobbies2",
-                    "transport2",
-                    "review"
-                ]
-            }
+      },
+      {
+        "id": "a2",
+        "title": "第二阶段",
+        "titleVi": "제2단계",
+        "cefr": "A2",
+        "themes": [
+          "daily_life",
+          "feelings",
+          "weather2",
+          "food_order",
+          "shopping2",
+          "study",
+          "work",
+          "travel2",
+          "health2",
+          "phone2",
+          "culture",
+          "plans2",
+          "experience",
+          "hobbies2",
+          "transport2",
+          "review"
         ]
-    }
+      }
+    ]
+  }
 }

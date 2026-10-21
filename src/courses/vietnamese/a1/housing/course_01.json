@@ -1,191 +1,123 @@
 {
-    "id": "course_vi_35",
-    "title": "第 1 课：家庭成员称谓",
-    "titleVi": "Bài 1: Cách gọi thành viên gia đình",
-    "order": 1,
-    "scenario": "housing",
-    "goals": [
-        "掌握家庭核心成员的越南语称谓",
-        "学会介绍家庭成员",
-        "能区分兄弟姐妹的称法",
-        "能用「của」表达所属关系"
-    ],
-    "words": [
+  "id": "course_vi_35",
+  "title": "第 1 课：家庭成员称谓",
+  "titleVi": "Bài 1: Cách gọi thành viên gia đình",
+  "order": 1,
+  "scenario": "housing",
+  "goals": ["掌握家庭核心成员的越南语称谓", "学会介绍家庭成员", "能区分兄弟姐妹的称法", "能用「của」表达所属关系"],
+  "words": [
+    {
+      "id": "vi_gia_dinh",
+      "name": "gia đình",
+      "trans": ["家庭"],
+      "tags": ["housing", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_bo_dad",
+      "name": "bố",
+      "trans": ["爸爸", "父亲"],
+      "tags": ["housing", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_me",
+      "name": "mẹ",
+      "trans": ["妈妈", "母亲"],
+      "tags": ["housing", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_anh_trai",
+      "name": "anh trai",
+      "trans": ["哥哥"],
+      "tags": ["housing", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_chi_gai",
+      "name": "chị gái",
+      "trans": ["姐姐"],
+      "tags": ["housing", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_em_trai",
+      "name": "em trai",
+      "trans": ["弟弟"],
+      "tags": ["housing", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_em_gai",
+      "name": "em gái",
+      "trans": ["妹妹"],
+      "tags": ["housing", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_con_cai",
+      "name": "con cái",
+      "trans": ["子女", "孩子"],
+      "tags": ["housing", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_043",
+    "sentence_vi_a1_044",
+    "sentence_vi_a1_045",
+    "sentence_vi_a1_046",
+    "sentence_vi_a1_047",
+    "sentence_vi_a1_048"
+  ],
+  "grammar": [
+    {
+      "point": "「gia đình + 人称」表某人的家庭",
+      "explain": "表达「某人的家庭」用「gia đình + 人称」，如「gia đình tôi」（我的家庭）。",
+      "examples": [
         {
-            "id": "vi_gia_dinh",
-            "name": "gia đình",
-            "trans": [
-                "家庭"
-            ],
-            "tags": [
-                "housing",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Gia đình tôi có bốn người.",
+          "zh": "我家有四口人。"
         },
         {
-            "id": "vi_bo_dad",
-            "name": "bố",
-            "trans": [
-                "爸爸",
-                "父亲"
-            ],
-            "tags": [
-                "housing",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_me",
-            "name": "mẹ",
-            "trans": [
-                "妈妈",
-                "母亲"
-            ],
-            "tags": [
-                "housing",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_anh_trai",
-            "name": "anh trai",
-            "trans": [
-                "哥哥"
-            ],
-            "tags": [
-                "housing",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_chi_gai",
-            "name": "chị gái",
-            "trans": [
-                "姐姐"
-            ],
-            "tags": [
-                "housing",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_em_trai",
-            "name": "em trai",
-            "trans": [
-                "弟弟"
-            ],
-            "tags": [
-                "housing",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_em_gai",
-            "name": "em gái",
-            "trans": [
-                "妹妹"
-            ],
-            "tags": [
-                "housing",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_con_cai",
-            "name": "con cái",
-            "trans": [
-                "子女",
-                "孩子"
-            ],
-            "tags": [
-                "housing",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Gia đình bạn thế nào?",
+          "zh": "你家怎么样？"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_043",
-        "sentence_vi_a1_044",
-        "sentence_vi_a1_045",
-        "sentence_vi_a1_046",
-        "sentence_vi_a1_047",
-        "sentence_vi_a1_048"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "兄弟姐妹的区分",
+      "explain": "越南语区分兄弟姐妹的性别和长幼：「anh trai」哥哥、「chị gái」姐姐、「em trai」弟弟、「em gái」妹妹。注意「anh/chị/em」前面已有基础，但加入「trai/gái」后特指亲属关系。",
+      "examples": [
         {
-            "point": "「gia đình + 人称」表某人的家庭",
-            "explain": "表达「某人的家庭」用「gia đình + 人称」，如「gia đình tôi」（我的家庭）。",
-            "examples": [
-                {
-                    "vi": "Gia đình tôi có bốn người.",
-                    "zh": "我家有四口人。"
-                },
-                {
-                    "vi": "Gia đình bạn thế nào?",
-                    "zh": "你家怎么样？"
-                }
-            ]
+          "vi": "Anh trai tôi là bác sĩ.",
+          "zh": "我哥哥是医生。"
         },
         {
-            "point": "兄弟姐妹的区分",
-            "explain": "越南语区分兄弟姐妹的性别和长幼：「anh trai」哥哥、「chị gái」姐姐、「em trai」弟弟、「em gái」妹妹。注意「anh/chị/em」前面已有基础，但加入「trai/gái」后特指亲属关系。",
-            "examples": [
-                {
-                    "vi": "Anh trai tôi là bác sĩ.",
-                    "zh": "我哥哥是医生。"
-                },
-                {
-                    "vi": "Em gái tôi học tiếng Anh.",
-                    "zh": "我妹妹学英语。"
-                }
-            ]
+          "vi": "Em gái tôi học tiếng Anh.",
+          "zh": "我妹妹学英语。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「哥哥」用越南语怎么说？",
-            "options": [
-                "anh trai",
-                "em trai",
-                "chị gái"
-            ],
-            "answer": "anh trai"
-        },
-        {
-            "type": "fill",
-            "question": "___ đình tôi có bốn người.",
-            "answer": "Gia"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「妈妈」的越南语",
-            "answer": "mẹ"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「哥哥」用越南语怎么说？",
+      "options": ["anh trai", "em trai", "chị gái"],
+      "answer": "anh trai"
+    },
+    {
+      "type": "fill",
+      "question": "___ đình tôi có bốn người.",
+      "answer": "Gia"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「妈妈」的越南语",
+      "answer": "mẹ"
+    }
+  ]
 }

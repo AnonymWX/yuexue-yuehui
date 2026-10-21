@@ -1,190 +1,123 @@
 {
-    "id": "course_vi_80",
-    "title": "第 3 课：鞋帽购物",
-    "titleVi": "Bài 3: Mua giày dép và mũ nón",
-    "order": 3,
-    "scenario": "shopping",
-    "goals": [
-        "掌握鞋帽配饰类词汇",
-        "学会买鞋试穿",
-        "掌握「đi / đội / đeo」表穿戴",
-        "能进行鞋帽购物对话"
-    ],
-    "words": [
+  "id": "course_vi_80",
+  "title": "第 3 课：鞋帽购物",
+  "titleVi": "Bài 3: Mua giày dép và mũ nón",
+  "order": 3,
+  "scenario": "shopping",
+  "goals": ["掌握鞋帽配饰类词汇", "学会买鞋试穿", "掌握「đi / đội / đeo」表穿戴", "能进行鞋帽购物对话"],
+  "words": [
+    {
+      "id": "vi_tat",
+      "name": "tất",
+      "trans": ["袜子"],
+      "tags": ["shopping", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_ung",
+      "name": "ủng",
+      "trans": ["靴子"],
+      "tags": ["shopping", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_khan_quang",
+      "name": "khăn quàng",
+      "trans": ["围巾"],
+      "tags": ["shopping", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_gang_tay",
+      "name": "găng tay",
+      "trans": ["手套"],
+      "tags": ["shopping", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_day_lung",
+      "name": "dây lưng",
+      "trans": ["腰带"],
+      "tags": ["shopping", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_kinh",
+      "name": "kính",
+      "trans": ["眼镜", "玻璃"],
+      "tags": ["shopping", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_co_size",
+      "name": "cỡ",
+      "trans": ["尺码", "号"],
+      "tags": ["shopping", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_di_thu",
+      "name": "đi thử",
+      "trans": ["试穿（鞋）"],
+      "tags": ["shopping", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_283",
+    "sentence_vi_a1_284",
+    "sentence_vi_a1_285",
+    "sentence_vi_a1_286",
+    "sentence_vi_a1_287",
+    "sentence_vi_a1_288"
+  ],
+  "grammar": [
+    {
+      "point": "「đi / đội / đeo」表穿戴",
+      "explain": "不同物品用不同动词：鞋用「đi」（đi giày 穿鞋）、帽用「đội」（đội mũ 戴帽）、眼镜/手表/围巾用「đeo」（đeo kính 戴眼镜）。",
+      "examples": [
         {
-            "id": "vi_tat",
-            "name": "tất",
-            "trans": [
-                "袜子"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Tôi đi giày mới.",
+          "zh": "我穿新鞋。"
         },
         {
-            "id": "vi_ung",
-            "name": "ủng",
-            "trans": [
-                "靴子"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_khan_quang",
-            "name": "khăn quàng",
-            "trans": [
-                "围巾"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_gang_tay",
-            "name": "găng tay",
-            "trans": [
-                "手套"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_day_lung",
-            "name": "dây lưng",
-            "trans": [
-                "腰带"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_kinh",
-            "name": "kính",
-            "trans": [
-                "眼镜",
-                "玻璃"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_co_size",
-            "name": "cỡ",
-            "trans": [
-                "尺码",
-                "号"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_di_thu",
-            "name": "đi thử",
-            "trans": [
-                "试穿（鞋）"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Anh ấy đội mũ.",
+          "zh": "他戴帽子。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_283",
-        "sentence_vi_a1_284",
-        "sentence_vi_a1_285",
-        "sentence_vi_a1_286",
-        "sentence_vi_a1_287",
-        "sentence_vi_a1_288"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "问鞋码「Cỡ bao nhiêu?」",
+      "explain": "问鞋码用「Cỡ bao nhiêu?」，回答用「cỡ + 数字」。",
+      "examples": [
         {
-            "point": "「đi / đội / đeo」表穿戴",
-            "explain": "不同物品用不同动词：鞋用「đi」（đi giày 穿鞋）、帽用「đội」（đội mũ 戴帽）、眼镜/手表/围巾用「đeo」（đeo kính 戴眼镜）。",
-            "examples": [
-                {
-                    "vi": "Tôi đi giày mới.",
-                    "zh": "我穿新鞋。"
-                },
-                {
-                    "vi": "Anh ấy đội mũ.",
-                    "zh": "他戴帽子。"
-                }
-            ]
+          "vi": "Anh đi cỡ bao nhiêu?",
+          "zh": "您穿几码？"
         },
         {
-            "point": "问鞋码「Cỡ bao nhiêu?」",
-            "explain": "问鞋码用「Cỡ bao nhiêu?」，回答用「cỡ + 数字」。",
-            "examples": [
-                {
-                    "vi": "Anh đi cỡ bao nhiêu?",
-                    "zh": "您穿几码？"
-                },
-                {
-                    "vi": "Tôi đi cỡ 40.",
-                    "zh": "我穿 40 码。"
-                }
-            ]
+          "vi": "Tôi đi cỡ 40.",
+          "zh": "我穿 40 码。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「袜子」用越南语怎么说？",
-            "options": [
-                "tất",
-                "ủng",
-                "kính"
-            ],
-            "answer": "tất"
-        },
-        {
-            "type": "fill",
-            "question": "Tôi đi cỡ ___.",
-            "answer": "40"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「围巾」的越南语",
-            "answer": "khăn quàng"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「袜子」用越南语怎么说？",
+      "options": ["tất", "ủng", "kính"],
+      "answer": "tất"
+    },
+    {
+      "type": "fill",
+      "question": "Tôi đi cỡ ___.",
+      "answer": "40"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「围巾」的越南语",
+      "answer": "khăn quàng"
+    }
+  ]
 }

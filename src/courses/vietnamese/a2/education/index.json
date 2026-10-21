@@ -1,38 +1,38 @@
 {
-    "id": "education",
-    "stage": "a2",
-    "title": "学习与考试",
-    "titleVi": "Học tập và thi cử",
-    "courses": [
-        {
-            "id": "course_vi_141",
-            "file": "course_01.json",
-            "title": "第 1 课：学校与课程",
-            "titleVi": "Bài 1: Trường học và khóa học"
-        },
-        {
-            "id": "course_vi_142",
-            "file": "course_02.json",
-            "title": "第 2 课：学习与作业",
-            "titleVi": "Bài 2: Học tập và bài tập"
-        },
-        {
-            "id": "course_vi_143",
-            "file": "course_03.json",
-            "title": "第 3 课：考试与成绩",
-            "titleVi": "Bài 3: Kỳ thi và điểm số"
-        },
-        {
-            "id": "course_vi_144",
-            "file": "course_04.json",
-            "title": "第 4 课：图书馆与自习",
-            "titleVi": "Bài 4: Thư viện và tự học"
-        },
-        {
-            "id": "course_vi_145",
-            "file": "course_05.json",
-            "title": "第 5 课：校园生活",
-            "titleVi": "Bài 5: Đời sống sinh viên"
-        }
-    ]
+  "id": "education",
+  "stage": "a2",
+  "title": "学习与考试",
+  "titleVi": "Học tập và thi cử",
+  "courses": [
+    {
+      "id": "course_vi_141",
+      "file": "course_01.json",
+      "title": "第 1 课：学校与课程",
+      "titleVi": "Bài 1: Trường học và khóa học"
+    },
+    {
+      "id": "course_vi_142",
+      "file": "course_02.json",
+      "title": "第 2 课：学习与作业",
+      "titleVi": "Bài 2: Học tập và bài tập"
+    },
+    {
+      "id": "course_vi_143",
+      "file": "course_03.json",
+      "title": "第 3 课：考试与成绩",
+      "titleVi": "Bài 3: Kỳ thi và điểm số"
+    },
+    {
+      "id": "course_vi_144",
+      "file": "course_04.json",
+      "title": "第 4 课：图书馆与自习",
+      "titleVi": "Bài 4: Thư viện và tự học"
+    },
+    {
+      "id": "course_vi_145",
+      "file": "course_05.json",
+      "title": "第 5 课：校园生活",
+      "titleVi": "Bài 5: Đời sống sinh viên"
+    }
+  ]
 }

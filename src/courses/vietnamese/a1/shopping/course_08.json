@@ -1,196 +1,123 @@
 {
-    "id": "course_vi_85",
-    "title": "第 8 课：退换货",
-    "titleVi": "Bài 8: Đổi trả hàng",
-    "order": 8,
-    "scenario": "shopping",
-    "goals": [
-        "掌握退换货相关表达",
-        "学会说「我想退货」",
-        "掌握收据与政策说法",
-        "能处理退换纠纷"
-    ],
-    "words": [
+  "id": "course_vi_85",
+  "title": "第 8 课：退换货",
+  "titleVi": "Bài 8: Đổi trả hàng",
+  "order": 8,
+  "scenario": "shopping",
+  "goals": ["掌握退换货相关表达", "学会说「我想退货」", "掌握收据与政策说法", "能处理退换纠纷"],
+  "words": [
+    {
+      "id": "vi_doi_shopping",
+      "name": "đổi",
+      "trans": ["换", "更换"],
+      "tags": ["shopping", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_tra_lai",
+      "name": "trả lại",
+      "trans": ["退还", "退回"],
+      "tags": ["shopping", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_hoan_tien",
+      "name": "hoàn tiền",
+      "trans": ["退款", "退钱"],
+      "tags": ["shopping", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_hong",
+      "name": "hỏng",
+      "trans": ["坏", "损坏"],
+      "tags": ["shopping", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_sua_repair",
+      "name": "sửa",
+      "trans": ["修", "修理"],
+      "tags": ["shopping", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_bien_lai",
+      "name": "biên lai",
+      "trans": ["收据", "小票"],
+      "tags": ["shopping", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_chinh_sach",
+      "name": "chính sách",
+      "trans": ["政策", "规定"],
+      "tags": ["shopping", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_loi_shopping",
+      "name": "lỗi",
+      "trans": ["错误", "缺陷"],
+      "tags": ["shopping", "A2"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_619",
+    "sentence_vi_a1_620",
+    "sentence_vi_a1_621",
+    "sentence_vi_a1_622",
+    "sentence_vi_a1_623",
+    "sentence_vi_a1_624"
+  ],
+  "grammar": [
+    {
+      "point": "退货「Tôi muốn trả lại + 商品」",
+      "explain": "表示「我想退货」用「Tôi muốn trả lại + 商品」，或「Tôi muốn đổi + 商品」（想换货）。",
+      "examples": [
         {
-            "id": "vi_doi_shopping",
-            "name": "đổi",
-            "trans": [
-                "换",
-                "更换"
-            ],
-            "tags": [
-                "shopping",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Tôi muốn trả lại cái áo này.",
+          "zh": "我想退这件衣服。"
         },
         {
-            "id": "vi_tra_lai",
-            "name": "trả lại",
-            "trans": [
-                "退还",
-                "退回"
-            ],
-            "tags": [
-                "shopping",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_hoan_tien",
-            "name": "hoàn tiền",
-            "trans": [
-                "退款",
-                "退钱"
-            ],
-            "tags": [
-                "shopping",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_hong",
-            "name": "hỏng",
-            "trans": [
-                "坏",
-                "损坏"
-            ],
-            "tags": [
-                "shopping",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_sua_repair",
-            "name": "sửa",
-            "trans": [
-                "修",
-                "修理"
-            ],
-            "tags": [
-                "shopping",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_bien_lai",
-            "name": "biên lai",
-            "trans": [
-                "收据",
-                "小票"
-            ],
-            "tags": [
-                "shopping",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_chinh_sach",
-            "name": "chính sách",
-            "trans": [
-                "政策",
-                "规定"
-            ],
-            "tags": [
-                "shopping",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_loi_shopping",
-            "name": "lỗi",
-            "trans": [
-                "错误",
-                "缺陷"
-            ],
-            "tags": [
-                "shopping",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Tôi muốn đổi cái khác.",
+          "zh": "我想换另一个。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_619",
-        "sentence_vi_a1_620",
-        "sentence_vi_a1_621",
-        "sentence_vi_a1_622",
-        "sentence_vi_a1_623",
-        "sentence_vi_a1_624"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「bị + 动词」表不如意",
+      "explain": "「bị」表示遭遇不如意的事情，如「bị hỏng」（坏了）、「bị lỗi」（有缺陷）。",
+      "examples": [
         {
-            "point": "退货「Tôi muốn trả lại + 商品」",
-            "explain": "表示「我想退货」用「Tôi muốn trả lại + 商品」，或「Tôi muốn đổi + 商品」（想换货）。",
-            "examples": [
-                {
-                    "vi": "Tôi muốn trả lại cái áo này.",
-                    "zh": "我想退这件衣服。"
-                },
-                {
-                    "vi": "Tôi muốn đổi cái khác.",
-                    "zh": "我想换另一个。"
-                }
-            ]
+          "vi": "Cái này bị hỏng.",
+          "zh": "这个坏了。"
         },
         {
-            "point": "「bị + 动词」表不如意",
-            "explain": "「bị」表示遭遇不如意的事情，如「bị hỏng」（坏了）、「bị lỗi」（有缺陷）。",
-            "examples": [
-                {
-                    "vi": "Cái này bị hỏng.",
-                    "zh": "这个坏了。"
-                },
-                {
-                    "vi": "Điện thoại bị lỗi.",
-                    "zh": "手机有缺陷。"
-                }
-            ]
+          "vi": "Điện thoại bị lỗi.",
+          "zh": "手机有缺陷。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「退款」用越南语怎么说？",
-            "options": [
-                "hoàn tiền",
-                "trả lại",
-                "đổi"
-            ],
-            "answer": "hoàn tiền"
-        },
-        {
-            "type": "fill",
-            "question": "Tôi muốn trả ___ cái áo này.",
-            "answer": "lại"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「收据」的越南语",
-            "answer": "biên lai"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「退款」用越南语怎么说？",
+      "options": ["hoàn tiền", "trả lại", "đổi"],
+      "answer": "hoàn tiền"
+    },
+    {
+      "type": "fill",
+      "question": "Tôi muốn trả ___ cái áo này.",
+      "answer": "lại"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「收据」的越南语",
+      "answer": "biên lai"
+    }
+  ]
 }

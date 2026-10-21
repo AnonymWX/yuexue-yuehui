@@ -1,26 +1,26 @@
 {
-    "id": "greeting",
-    "stage": "a1",
-    "title": "问候与寒暄",
-    "titleVi": "인사",
-    "courses": [
-        {
-            "id": "course_ko_001",
-            "file": "course_01.json",
-            "title": "第 1 课：你好",
-            "titleVi": "제1과: 안녕하세요"
-        },
-        {
-            "id": "course_ko_017",
-            "file": "course_02.json",
-            "title": "第 2 课：처음 뵙겠습니다",
-            "titleVi": "제2과: 처음 뵙겠습니다"
-        },
-        {
-            "id": "course_ko_022",
-            "file": "course_03.json",
-            "title": "第 3 课：나이가 어떻게 되십니까?",
-            "titleVi": "제3과: 나이가 어떻게 되십니까?"
-        }
-    ]
+  "id": "greeting",
+  "stage": "a1",
+  "title": "问候与寒暄",
+  "titleVi": "인사",
+  "courses": [
+    {
+      "id": "course_ko_001",
+      "file": "course_01.json",
+      "title": "第 1 课：你好",
+      "titleVi": "제1과: 안녕하세요"
+    },
+    {
+      "id": "course_ko_017",
+      "file": "course_02.json",
+      "title": "第 2 课：처음 뵙겠습니다",
+      "titleVi": "제2과: 처음 뵙겠습니다"
+    },
+    {
+      "id": "course_ko_022",
+      "file": "course_03.json",
+      "title": "第 3 课：나이가 어떻게 되십니까?",
+      "titleVi": "제3과: 나이가 어떻게 되십니까?"
+    }
+  ]
 }

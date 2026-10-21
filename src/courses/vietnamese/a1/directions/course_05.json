@@ -1,188 +1,123 @@
 {
-    "id": "course_vi_64",
-    "title": "第 5 课：描述位置关系",
-    "titleVi": "Bài 5: Miêu tả vị trí",
-    "order": 5,
-    "scenario": "directions",
-    "goals": [
-        "掌握位置关系方位词",
-        "学会描述两物相对位置",
-        "掌握「ở + 方位 + của」结构",
-        "能描述复杂位置关系"
-    ],
-    "words": [
+  "id": "course_vi_64",
+  "title": "第 5 课：描述位置关系",
+  "titleVi": "Bài 5: Miêu tả vị trí",
+  "order": 5,
+  "scenario": "directions",
+  "goals": ["掌握位置关系方位词", "学会描述两物相对位置", "掌握「ở + 方位 + của」结构", "能描述复杂位置关系"],
+  "words": [
+    {
+      "id": "vi_doi_dien",
+      "name": "đối diện",
+      "trans": ["对面"],
+      "tags": ["directions", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_ben_canh",
+      "name": "bên cạnh",
+      "trans": ["旁边"],
+      "tags": ["directions", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_ngoai",
+      "name": "ngoài",
+      "trans": ["外面"],
+      "tags": ["directions", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_tren",
+      "name": "trên",
+      "trans": ["上面"],
+      "tags": ["directions", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_duoi",
+      "name": "dưới",
+      "trans": ["下面"],
+      "tags": ["directions", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_giua",
+      "name": "giữa",
+      "trans": ["中间"],
+      "tags": ["directions", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_phia_truoc",
+      "name": "phía trước",
+      "trans": ["前面"],
+      "tags": ["directions", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_phia_sau",
+      "name": "phía sau",
+      "trans": ["后面"],
+      "tags": ["directions", "A2"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_463",
+    "sentence_vi_a1_464",
+    "sentence_vi_a1_465",
+    "sentence_vi_a1_466",
+    "sentence_vi_a1_467",
+    "sentence_vi_a1_468"
+  ],
+  "grammar": [
+    {
+      "point": "「đối diện + 地点」表对面",
+      "explain": "「đối diện」意为「对面」，后接地点名词，如「đối diện chợ」（市场对面）。",
+      "examples": [
         {
-            "id": "vi_doi_dien",
-            "name": "đối diện",
-            "trans": [
-                "对面"
-            ],
-            "tags": [
-                "directions",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Nhà tôi đối diện chợ.",
+          "zh": "我家在市场对面。"
         },
         {
-            "id": "vi_ben_canh",
-            "name": "bên cạnh",
-            "trans": [
-                "旁边"
-            ],
-            "tags": [
-                "directions",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_ngoai",
-            "name": "ngoài",
-            "trans": [
-                "外面"
-            ],
-            "tags": [
-                "directions",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_tren",
-            "name": "trên",
-            "trans": [
-                "上面"
-            ],
-            "tags": [
-                "directions",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_duoi",
-            "name": "dưới",
-            "trans": [
-                "下面"
-            ],
-            "tags": [
-                "directions",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_giua",
-            "name": "giữa",
-            "trans": [
-                "中间"
-            ],
-            "tags": [
-                "directions",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_phia_truoc",
-            "name": "phía trước",
-            "trans": [
-                "前面"
-            ],
-            "tags": [
-                "directions",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_phia_sau",
-            "name": "phía sau",
-            "trans": [
-                "后面"
-            ],
-            "tags": [
-                "directions",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Ngân hàng đối diện bệnh viện.",
+          "zh": "银行在医院对面。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_463",
-        "sentence_vi_a1_464",
-        "sentence_vi_a1_465",
-        "sentence_vi_a1_466",
-        "sentence_vi_a1_467",
-        "sentence_vi_a1_468"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「ở + 方位 + của + 地点」表在某物的某方位",
+      "explain": "表示「在某物的某方位」用「ở + 方位 + của + 地点」。",
+      "examples": [
         {
-            "point": "「đối diện + 地点」表对面",
-            "explain": "「đối diện」意为「对面」，后接地点名词，如「đối diện chợ」（市场对面）。",
-            "examples": [
-                {
-                    "vi": "Nhà tôi đối diện chợ.",
-                    "zh": "我家在市场对面。"
-                },
-                {
-                    "vi": "Ngân hàng đối diện bệnh viện.",
-                    "zh": "银行在医院对面。"
-                }
-            ]
+          "vi": "Nhà tôi ở bên cạnh chợ.",
+          "zh": "我家在市场旁边。"
         },
         {
-            "point": "「ở + 方位 + của + 地点」表在某物的某方位",
-            "explain": "表示「在某物的某方位」用「ở + 方位 + của + 地点」。",
-            "examples": [
-                {
-                    "vi": "Nhà tôi ở bên cạnh chợ.",
-                    "zh": "我家在市场旁边。"
-                },
-                {
-                    "vi": "Cửa hàng ở phía trước bệnh viện.",
-                    "zh": "商店在医院前面。"
-                }
-            ]
+          "vi": "Cửa hàng ở phía trước bệnh viện.",
+          "zh": "商店在医院前面。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「我家在市场对面」的正确说法是？",
-            "options": [
-                "Nhà tôi đối diện chợ",
-                "Nhà tôi chợ đối diện",
-                "Đối diện nhà tôi chợ"
-            ],
-            "answer": "Nhà tôi đối diện chợ"
-        },
-        {
-            "type": "fill",
-            "question": "Nhà tôi ở bên ___ chợ.",
-            "answer": "cạnh"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「后面」的越南语",
-            "answer": "phía sau"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「我家在市场对面」的正确说法是？",
+      "options": ["Nhà tôi đối diện chợ", "Nhà tôi chợ đối diện", "Đối diện nhà tôi chợ"],
+      "answer": "Nhà tôi đối diện chợ"
+    },
+    {
+      "type": "fill",
+      "question": "Nhà tôi ở bên ___ chợ.",
+      "answer": "cạnh"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「后面」的越南语",
+      "answer": "phía sau"
+    }
+  ]
 }

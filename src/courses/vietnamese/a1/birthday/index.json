@@ -1,44 +1,44 @@
 {
-    "id": "birthday",
-    "stage": "a1",
-    "title": "年份、年龄、生日",
-    "titleVi": "Năm, Tuổi, Sinh nhật",
-    "courses": [
-        {
-            "id": "course_vi_54",
-            "file": "course_01.json",
-            "title": "第 1 课：年份与出生年",
-            "titleVi": "Bài 1: Năm và năm sinh"
-        },
-        {
-            "id": "course_vi_55",
-            "file": "course_02.json",
-            "title": "第 2 课：问年龄",
-            "titleVi": "Bài 2: Hỏi tuổi"
-        },
-        {
-            "id": "course_vi_56",
-            "file": "course_03.json",
-            "title": "第 3 课：数字 1-100",
-            "titleVi": "Bài 3: Số đếm từ 1 đến 100"
-        },
-        {
-            "id": "course_vi_57",
-            "file": "course_04.json",
-            "title": "第 4 课：生日表达",
-            "titleVi": "Bài 4: Diễn đạt về sinh nhật"
-        },
-        {
-            "id": "course_vi_58",
-            "file": "course_05.json",
-            "title": "第 5 课：问生日",
-            "titleVi": "Bài 5: Hỏi sinh nhật"
-        },
-        {
-            "id": "course_vi_59",
-            "file": "course_06.json",
-            "title": "第 6 课：生日习俗",
-            "titleVi": "Bài 6: Phong tục sinh nhật"
-        }
-    ]
+  "id": "birthday",
+  "stage": "a1",
+  "title": "年份、年龄、生日",
+  "titleVi": "Năm, Tuổi, Sinh nhật",
+  "courses": [
+    {
+      "id": "course_vi_54",
+      "file": "course_01.json",
+      "title": "第 1 课：年份与出生年",
+      "titleVi": "Bài 1: Năm và năm sinh"
+    },
+    {
+      "id": "course_vi_55",
+      "file": "course_02.json",
+      "title": "第 2 课：问年龄",
+      "titleVi": "Bài 2: Hỏi tuổi"
+    },
+    {
+      "id": "course_vi_56",
+      "file": "course_03.json",
+      "title": "第 3 课：数字 1-100",
+      "titleVi": "Bài 3: Số đếm từ 1 đến 100"
+    },
+    {
+      "id": "course_vi_57",
+      "file": "course_04.json",
+      "title": "第 4 课：生日表达",
+      "titleVi": "Bài 4: Diễn đạt về sinh nhật"
+    },
+    {
+      "id": "course_vi_58",
+      "file": "course_05.json",
+      "title": "第 5 课：问生日",
+      "titleVi": "Bài 5: Hỏi sinh nhật"
+    },
+    {
+      "id": "course_vi_59",
+      "file": "course_06.json",
+      "title": "第 6 课：生日习俗",
+      "titleVi": "Bài 6: Phong tục sinh nhật"
+    }
+  ]
 }

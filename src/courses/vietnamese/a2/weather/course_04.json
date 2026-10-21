@@ -1,317 +1,196 @@
 {
-    "id": "course_vi_114",
-    "title": "第 4 课：天气预报",
-    "titleVi": "Bài 4: Dự báo thời tiết",
-    "order": 4,
-    "scenario": "weather",
-    "goals": [
-        "能听懂天气预报的关键信息",
-        "能用 nếu...thì 描述假设天气",
-        "能用被动句 được dự báo / dự kiến 转述预报",
-        "能根据预报给出行动建议"
-    ],
-    "words": [
+  "id": "course_vi_114",
+  "title": "第 4 课：天气预报",
+  "titleVi": "Bài 4: Dự báo thời tiết",
+  "order": 4,
+  "scenario": "weather",
+  "goals": [
+    "能听懂天气预报的关键信息",
+    "能用 nếu...thì 描述假设天气",
+    "能用被动句 được dự báo / dự kiến 转述预报",
+    "能根据预报给出行动建议"
+  ],
+  "words": [
+    {
+      "id": "vi_a2_du_bao_thoi_tiet",
+      "name": "dự báo thời tiết",
+      "trans": ["天气预报"],
+      "tags": ["weather", "A2", "forecast"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_ban_tin",
+      "name": "bản tin",
+      "trans": ["新闻播报", "简报"],
+      "tags": ["weather", "A2", "forecast"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_du_bao",
+      "name": "dự báo",
+      "trans": ["预报"],
+      "tags": ["weather", "A2", "forecast"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_kha_nang",
+      "name": "khả năng",
+      "trans": ["可能性", "能力"],
+      "tags": ["weather", "A2", "forecast"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_xac_suat",
+      "name": "xác suất",
+      "trans": ["概率"],
+      "tags": ["weather", "A2", "forecast"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_con_bao",
+      "name": "cơn bão",
+      "trans": ["台风（一阵）"],
+      "tags": ["weather", "A2", "forecast"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_huong",
+      "name": "hướng",
+      "trans": ["方向"],
+      "tags": ["weather", "A2", "forecast"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_toc_do",
+      "name": "tốc độ",
+      "trans": ["速度"],
+      "tags": ["weather", "A2", "forecast"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_cap_do",
+      "name": "cấp độ",
+      "trans": ["级别"],
+      "tags": ["weather", "A2", "forecast"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_canh_bao",
+      "name": "cảnh báo",
+      "trans": ["警告", "预警"],
+      "tags": ["weather", "A2", "forecast"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_cap_nhat",
+      "name": "cập nhật",
+      "trans": ["更新"],
+      "tags": ["weather", "A2", "forecast"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_khu_vuc",
+      "name": "khu vực",
+      "trans": ["区域"],
+      "tags": ["weather", "A2", "forecast"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_ven_bien",
+      "name": "ven biển",
+      "trans": ["沿海"],
+      "tags": ["weather", "A2", "forecast"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_du_kien",
+      "name": "dự kiến",
+      "trans": ["预计", "预估"],
+      "tags": ["weather", "A2", "forecast"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a2_201",
+    "sentence_vi_a2_202",
+    "sentence_vi_a2_203",
+    "sentence_vi_a2_204",
+    "sentence_vi_a2_205",
+    "sentence_vi_a2_206",
+    "sentence_vi_a2_207",
+    "sentence_vi_a2_208"
+  ],
+  "grammar": [
+    {
+      "point": "条件句 nếu...thì（复习强化）",
+      "explain": "「nếu A thì B」= 如果 A，就 B。天气预报中常用来表达假设场景。可叠用「nếu không thì」= 否则。口语省略 thì 也常见，但保留更严谨。",
+      "examples": [
         {
-            "id": "vi_a2_du_bao_thoi_tiet",
-            "name": "dự báo thời tiết",
-            "trans": [
-                "天气预报"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "forecast"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Nếu ngày mai trời mưa thì chúng ta sẽ hoãn chuyến đi.",
+          "zh": "如果明天下雨，我们就推迟出行。"
         },
         {
-            "id": "vi_a2_ban_tin",
-            "name": "bản tin",
-            "trans": [
-                "新闻播报",
-                "简报"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "forecast"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Nếu nhiệt độ xuống dưới 10 độ thì bạn phải mặc áo rất ấm.",
+          "zh": "如果温度降到 10 度以下，你就必须穿很暖的衣服。"
         },
         {
-            "id": "vi_a2_du_bao",
-            "name": "dự báo",
-            "trans": [
-                "预报"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "forecast"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_kha_nang",
-            "name": "khả năng",
-            "trans": [
-                "可能性",
-                "能力"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "forecast"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_xac_suat",
-            "name": "xác suất",
-            "trans": [
-                "概率"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "forecast"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_con_bao",
-            "name": "cơn bão",
-            "trans": [
-                "台风（一阵）"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "forecast"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_huong",
-            "name": "hướng",
-            "trans": [
-                "方向"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "forecast"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_toc_do",
-            "name": "tốc độ",
-            "trans": [
-                "速度"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "forecast"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_cap_do",
-            "name": "cấp độ",
-            "trans": [
-                "级别"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "forecast"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_canh_bao",
-            "name": "cảnh báo",
-            "trans": [
-                "警告",
-                "预警"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "forecast"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_cap_nhat",
-            "name": "cập nhật",
-            "trans": [
-                "更新"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "forecast"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_khu_vuc",
-            "name": "khu vực",
-            "trans": [
-                "区域"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "forecast"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_ven_bien",
-            "name": "ven biển",
-            "trans": [
-                "沿海"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "forecast"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_du_kien",
-            "name": "dự kiến",
-            "trans": [
-                "预计",
-                "预估"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "forecast"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Phải theo dõi dự báo thường xuyên, nếu không thì rất dễ gặp nguy hiểm.",
+          "zh": "要经常关注预报，否则很容易遇到危险。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a2_201",
-        "sentence_vi_a2_202",
-        "sentence_vi_a2_203",
-        "sentence_vi_a2_204",
-        "sentence_vi_a2_205",
-        "sentence_vi_a2_206",
-        "sentence_vi_a2_207",
-        "sentence_vi_a2_208"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "被动/预期：được dự báo / dự kiến",
+      "explain": "「được dự báo」= 被预报（预报说…）；「dự kiến」= 预计（无被动含义，直接接动词）。二者都用于转述官方/权威信息。新闻类正式文本常用。",
+      "examples": [
         {
-            "point": "条件句 nếu...thì（复习强化）",
-            "explain": "「nếu A thì B」= 如果 A，就 B。天气预报中常用来表达假设场景。可叠用「nếu không thì」= 否则。口语省略 thì 也常见，但保留更严谨。",
-            "examples": [
-                {
-                    "vi": "Nếu ngày mai trời mưa thì chúng ta sẽ hoãn chuyến đi.",
-                    "zh": "如果明天下雨，我们就推迟出行。"
-                },
-                {
-                    "vi": "Nếu nhiệt độ xuống dưới 10 độ thì bạn phải mặc áo rất ấm.",
-                    "zh": "如果温度降到 10 度以下，你就必须穿很暖的衣服。"
-                },
-                {
-                    "vi": "Phải theo dõi dự báo thường xuyên, nếu không thì rất dễ gặp nguy hiểm.",
-                    "zh": "要经常关注预报，否则很容易遇到危险。"
-                }
-            ]
+          "vi": "Theo dự báo, ngày mai trời được dự báo sẽ có mưa to.",
+          "zh": "据预报，明天被预报会有大雨。"
         },
         {
-            "point": "被动/预期：được dự báo / dự kiến",
-            "explain": "「được dự báo」= 被预报（预报说…）；「dự kiến」= 预计（无被动含义，直接接动词）。二者都用于转述官方/权威信息。新闻类正式文本常用。",
-            "examples": [
-                {
-                    "vi": "Theo dự báo, ngày mai trời được dự báo sẽ có mưa to.",
-                    "zh": "据预报，明天被预报会有大雨。"
-                },
-                {
-                    "vi": "Cơn bão dự kiến sẽ đổ bộ vào đất liền vào tối nay.",
-                    "zh": "台风预计今晚登陆。"
-                },
-                {
-                    "vi": "Nhiệt độ được dự báo sẽ giảm mạnh trong hai ngày tới.",
-                    "zh": "预计未来两天温度会大幅下降。"
-                }
-            ]
+          "vi": "Cơn bão dự kiến sẽ đổ bộ vào đất liền vào tối nay.",
+          "zh": "台风预计今晚登陆。"
+        },
+        {
+          "vi": "Nhiệt độ được dự báo sẽ giảm mạnh trong hai ngày tới.",
+          "zh": "预计未来两天温度会大幅下降。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「xác suất」的意思是？",
-            "options": [
-                "方向",
-                "级别",
-                "概率",
-                "速度"
-            ],
-            "answer": "概率"
-        },
-        {
-            "type": "choose",
-            "question": "哪句表示「台风预计今晚登陆」？",
-            "options": [
-                "Cơn bão đã đổ bộ tối nay.",
-                "Cơn bão dự kiến sẽ đổ bộ vào tối nay.",
-                "Cơn bão đang đổ bộ tối qua.",
-                "Cơn bão không đổ bộ tối nay."
-            ],
-            "answer": "Cơn bão dự kiến sẽ đổ bộ vào tối nay."
-        },
-        {
-            "type": "fill",
-            "question": "___ ngày mai trời mưa thì chúng ta sẽ hoãn chuyến đi.（如果明天下雨，我们就推迟出行）",
-            "answer": "Nếu"
-        },
-        {
-            "type": "fill",
-            "question": "Cơn bão dự kiến sẽ đổ bộ vào đất ___ vào tối nay.（台风预计今晚登陆）",
-            "answer": "liền"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「明天预计会下大雨」的越南语",
-            "answer": "Ngày mai dự kiến sẽ có mưa to"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「xác suất」的意思是？",
+      "options": ["方向", "级别", "概率", "速度"],
+      "answer": "概率"
+    },
+    {
+      "type": "choose",
+      "question": "哪句表示「台风预计今晚登陆」？",
+      "options": [
+        "Cơn bão đã đổ bộ tối nay.",
+        "Cơn bão dự kiến sẽ đổ bộ vào tối nay.",
+        "Cơn bão đang đổ bộ tối qua.",
+        "Cơn bão không đổ bộ tối nay."
+      ],
+      "answer": "Cơn bão dự kiến sẽ đổ bộ vào tối nay."
+    },
+    {
+      "type": "fill",
+      "question": "___ ngày mai trời mưa thì chúng ta sẽ hoãn chuyến đi.（如果明天下雨，我们就推迟出行）",
+      "answer": "Nếu"
+    },
+    {
+      "type": "fill",
+      "question": "Cơn bão dự kiến sẽ đổ bộ vào đất ___ vào tối nay.（台风预计今晚登陆）",
+      "answer": "liền"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「明天预计会下大雨」的越南语",
+      "answer": "Ngày mai dự kiến sẽ có mưa to"
+    }
+  ]
 }

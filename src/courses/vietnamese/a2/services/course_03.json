@@ -1,316 +1,186 @@
 {
-    "id": "course_vi_133",
-    "title": "第 3 课：理发与美容",
-    "titleVi": "Bài 3: Cắt tóc và làm đẹp",
-    "order": 3,
-    "scenario": "services",
-    "goals": [
-        "能描述想要的发型与长度",
-        "能与理发师沟通需求",
-        "能听懂美容 / 美甲的服务项目",
-        "能用「vừa / hơi / quá」描述程度是否满意"
-    ],
-    "words": [
+  "id": "course_vi_133",
+  "title": "第 3 课：理发与美容",
+  "titleVi": "Bài 3: Cắt tóc và làm đẹp",
+  "order": 3,
+  "scenario": "services",
+  "goals": ["能描述想要的发型与长度", "能与理发师沟通需求", "能听懂美容 / 美甲的服务项目", "能用「vừa / hơi / quá」描述程度是否满意"],
+  "words": [
+    {
+      "id": "vi_a2_hieu_cat_toc",
+      "name": "hiệu cắt tóc",
+      "trans": ["理发店"],
+      "tags": ["services", "A2", "salon"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_tho_cat_toc",
+      "name": "thợ cắt tóc",
+      "trans": ["理发师"],
+      "tags": ["services", "A2", "salon"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_cat_toc",
+      "name": "cắt tóc",
+      "trans": ["剪头发"],
+      "tags": ["services", "A2", "salon"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_goi_dau",
+      "name": "gội đầu",
+      "trans": ["洗头"],
+      "tags": ["services", "A2", "salon"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_say_toc",
+      "name": "sấy tóc",
+      "trans": ["吹干头发"],
+      "tags": ["services", "A2", "salon"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_nhuom_toc",
+      "name": "nhuộm tóc",
+      "trans": ["染发"],
+      "tags": ["services", "A2", "salon"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_uon_toc",
+      "name": "uốn tóc",
+      "trans": ["烫发"],
+      "tags": ["services", "A2", "salon"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_duoi_toc",
+      "name": "duỗi tóc",
+      "trans": ["拉直头发"],
+      "tags": ["services", "A2", "salon"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_tia_toc",
+      "name": "tỉa tóc",
+      "trans": ["修发", "修边"],
+      "tags": ["services", "A2", "salon"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_ngan",
+      "name": "ngắn",
+      "trans": ["短"],
+      "tags": ["services", "A2", "salon"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_dai",
+      "name": "dài",
+      "trans": ["长"],
+      "tags": ["services", "A2", "salon"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_vua",
+      "name": "vừa",
+      "trans": ["刚好", "合适"],
+      "tags": ["services", "A2", "salon"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_dep",
+      "name": "đẹp",
+      "trans": ["漂亮", "美"],
+      "tags": ["services", "A2", "salon"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_lam_mong_tay",
+      "name": "làm móng tay",
+      "trans": ["做美甲"],
+      "tags": ["services", "A2", "salon"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a2_153",
+    "sentence_vi_a2_154",
+    "sentence_vi_a2_155",
+    "sentence_vi_a2_156",
+    "sentence_vi_a2_157",
+    "sentence_vi_a2_158",
+    "sentence_vi_a2_159",
+    "sentence_vi_a2_160"
+  ],
+  "grammar": [
+    {
+      "point": "程度副词：vừa / hơi / quá",
+      "explain": "「vừa」= 刚好、合适（程度恰好）；「hơi」= 稍微（轻度过量）；「quá」= 太（明显过量）。三者位置：都放形容词前（hơi 只能在前，quá 可在前也可在后）。理发场景高频：「cắt hơi ngắn quá」= 剪得有点太短了。",
+      "examples": [
         {
-            "id": "vi_a2_hieu_cat_toc",
-            "name": "hiệu cắt tóc",
-            "trans": [
-                "理发店"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "salon"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Độ dài này vừa đẹp, không cần cắt thêm.",
+          "zh": "这个长度刚好，不用再剪了。"
         },
         {
-            "id": "vi_a2_tho_cat_toc",
-            "name": "thợ cắt tóc",
-            "trans": [
-                "理发师"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "salon"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Anh cắt hơi ngắn, làm ơn để dài hơn một chút.",
+          "zh": "你剪得有点短，请留长一点。"
         },
         {
-            "id": "vi_a2_cat_toc",
-            "name": "cắt tóc",
-            "trans": [
-                "剪头发"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "salon"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_goi_dau",
-            "name": "gội đầu",
-            "trans": [
-                "洗头"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "salon"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_say_toc",
-            "name": "sấy tóc",
-            "trans": [
-                "吹干头发"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "salon"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_nhuom_toc",
-            "name": "nhuộm tóc",
-            "trans": [
-                "染发"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "salon"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_uon_toc",
-            "name": "uốn tóc",
-            "trans": [
-                "烫发"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "salon"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_duoi_toc",
-            "name": "duỗi tóc",
-            "trans": [
-                "拉直头发"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "salon"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_tia_toc",
-            "name": "tỉa tóc",
-            "trans": [
-                "修发",
-                "修边"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "salon"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_ngan",
-            "name": "ngắn",
-            "trans": [
-                "短"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "salon"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_dai",
-            "name": "dài",
-            "trans": [
-                "长"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "salon"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_vua",
-            "name": "vừa",
-            "trans": [
-                "刚好",
-                "合适"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "salon"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_dep",
-            "name": "đẹp",
-            "trans": [
-                "漂亮",
-                "美"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "salon"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_lam_mong_tay",
-            "name": "làm móng tay",
-            "trans": [
-                "做美甲"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "salon"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Tóc tôi dài quá rồi, cần cắt bớt khoảng năm phân.",
+          "zh": "我头发太长了，需要剪掉大约五厘米。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a2_153",
-        "sentence_vi_a2_154",
-        "sentence_vi_a2_155",
-        "sentence_vi_a2_156",
-        "sentence_vi_a2_157",
-        "sentence_vi_a2_158",
-        "sentence_vi_a2_159",
-        "sentence_vi_a2_160"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "礼貌指令：làm ơn / xin / giúp tôi",
+      "explain": "「Làm ơn + V」= 请…（书面/较正式）；「Xin + V」= 请…（更正式）；「V + giúp tôi」= 帮我做…（口语自然）。在理发店建议用软语，如「Làm ơn cắt ngắn hơn một chút」比「Cắt ngắn hơn」更礼貌。",
+      "examples": [
         {
-            "point": "程度副词：vừa / hơi / quá",
-            "explain": "「vừa」= 刚好、合适（程度恰好）；「hơi」= 稍微（轻度过量）；「quá」= 太（明显过量）。三者位置：都放形容词前（hơi 只能在前，quá 可在前也可在后）。理发场景高频：「cắt hơi ngắn quá」= 剪得有点太短了。",
-            "examples": [
-                {
-                    "vi": "Độ dài này vừa đẹp, không cần cắt thêm.",
-                    "zh": "这个长度刚好，不用再剪了。"
-                },
-                {
-                    "vi": "Anh cắt hơi ngắn, làm ơn để dài hơn một chút.",
-                    "zh": "你剪得有点短，请留长一点。"
-                },
-                {
-                    "vi": "Tóc tôi dài quá rồi, cần cắt bớt khoảng năm phân.",
-                    "zh": "我头发太长了，需要剪掉大约五厘米。"
-                }
-            ]
+          "vi": "Làm ơn cắt tóc cho tôi ngắn hơn khoảng ba phân.",
+          "zh": "请帮我把头发剪短大约三厘米。"
         },
         {
-            "point": "礼貌指令：làm ơn / xin / giúp tôi",
-            "explain": "「Làm ơn + V」= 请…（书面/较正式）；「Xin + V」= 请…（更正式）；「V + giúp tôi」= 帮我做…（口语自然）。在理发店建议用软语，如「Làm ơn cắt ngắn hơn một chút」比「Cắt ngắn hơn」更礼貌。",
-            "examples": [
-                {
-                    "vi": "Làm ơn cắt tóc cho tôi ngắn hơn khoảng ba phân.",
-                    "zh": "请帮我把头发剪短大约三厘米。"
-                },
-                {
-                    "vi": "Xin gội đầu và sấy tóc giúp tôi.",
-                    "zh": "请帮我洗头和吹干。"
-                },
-                {
-                    "vi": "Giúp tôi tỉa phần tóc mái một chút.",
-                    "zh": "帮我修一下刘海。"
-                }
-            ]
+          "vi": "Xin gội đầu và sấy tóc giúp tôi.",
+          "zh": "请帮我洗头和吹干。"
+        },
+        {
+          "vi": "Giúp tôi tỉa phần tóc mái một chút.",
+          "zh": "帮我修一下刘海。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「nhuộm tóc」的意思是？",
-            "options": [
-                "剪发",
-                "烫发",
-                "染发",
-                "洗头"
-            ],
-            "answer": "染发"
-        },
-        {
-            "type": "choose",
-            "question": "哪句正确表达「你剪得有点短」？",
-            "options": [
-                "Anh cắt vừa ngắn.",
-                "Anh cắt hơi ngắn.",
-                "Anh cắt quá ngắn.",
-                "Anh cắt ngắn nhất."
-            ],
-            "answer": "Anh cắt hơi ngắn."
-        },
-        {
-            "type": "fill",
-            "question": "Làm ơn cắt tóc cho tôi ___ hơn khoảng ba phân.（请帮我把头发剪短大约三厘米）",
-            "answer": "ngắn"
-        },
-        {
-            "type": "fill",
-            "question": "Tóc tôi dài ___ rồi, cần cắt bớt.（我头发太长了，需要剪掉一些）",
-            "answer": "quá"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「我想剪头发」的越南语",
-            "answer": "Tôi muốn cắt tóc"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「nhuộm tóc」的意思是？",
+      "options": ["剪发", "烫发", "染发", "洗头"],
+      "answer": "染发"
+    },
+    {
+      "type": "choose",
+      "question": "哪句正确表达「你剪得有点短」？",
+      "options": ["Anh cắt vừa ngắn.", "Anh cắt hơi ngắn.", "Anh cắt quá ngắn.", "Anh cắt ngắn nhất."],
+      "answer": "Anh cắt hơi ngắn."
+    },
+    {
+      "type": "fill",
+      "question": "Làm ơn cắt tóc cho tôi ___ hơn khoảng ba phân.（请帮我把头发剪短大约三厘米）",
+      "answer": "ngắn"
+    },
+    {
+      "type": "fill",
+      "question": "Tóc tôi dài ___ rồi, cần cắt bớt.（我头发太长了，需要剪掉一些）",
+      "answer": "quá"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「我想剪头发」的越南语",
+      "answer": "Tôi muốn cắt tóc"
+    }
+  ]
 }

@@ -1,191 +1,123 @@
 {
-    "id": "course_vi_11",
-    "title": "第 6 课：面试",
-    "titleVi": "Bài 6: Phỏng vấn",
-    "order": 6,
-    "scenario": "career",
-    "goals": [
-        "掌握面试场景常用词汇",
-        "学会自我介绍",
-        "能回答优缺点问题",
-        "能表达职业目标"
-    ],
-    "words": [
+  "id": "course_vi_11",
+  "title": "第 6 课：面试",
+  "titleVi": "Bài 6: Phỏng vấn",
+  "order": 6,
+  "scenario": "career",
+  "goals": ["掌握面试场景常用词汇", "学会自我介绍", "能回答优缺点问题", "能表达职业目标"],
+  "words": [
+    {
+      "id": "vi_phong_van",
+      "name": "phỏng vấn",
+      "trans": ["面试"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_cau_hoi",
+      "name": "câu hỏi",
+      "trans": ["问题"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_tra_loi",
+      "name": "trả lời",
+      "trans": ["回答"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_tu_gioi_thieu",
+      "name": "tự giới thiệu",
+      "trans": ["自我介绍"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_diem_manh",
+      "name": "điểm mạnh",
+      "trans": ["优点", "强项"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_diem_yeu",
+      "name": "điểm yếu",
+      "trans": ["缺点", "弱项"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_muc_tieu",
+      "name": "mục tiêu",
+      "trans": ["目标"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_ung_vien",
+      "name": "ứng viên",
+      "trans": ["应聘者", "候选人"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_499",
+    "sentence_vi_a1_500",
+    "sentence_vi_a1_501",
+    "sentence_vi_a1_502",
+    "sentence_vi_a1_503",
+    "sentence_vi_a1_504"
+  ],
+  "grammar": [
+    {
+      "point": "自我介绍「Tôi tên là...」",
+      "explain": "面试自我介绍通常以「Tôi tên là...」开头，然后介绍学历、经验和技能。",
+      "examples": [
         {
-            "id": "vi_phong_van",
-            "name": "phỏng vấn",
-            "trans": [
-                "面试"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Tôi tên là Nam, tôi 25 tuổi.",
+          "zh": "我叫南，25 岁。"
         },
         {
-            "id": "vi_cau_hoi",
-            "name": "câu hỏi",
-            "trans": [
-                "问题"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_tra_loi",
-            "name": "trả lời",
-            "trans": [
-                "回答"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_tu_gioi_thieu",
-            "name": "tự giới thiệu",
-            "trans": [
-                "自我介绍"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_diem_manh",
-            "name": "điểm mạnh",
-            "trans": [
-                "优点",
-                "强项"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_diem_yeu",
-            "name": "điểm yếu",
-            "trans": [
-                "缺点",
-                "弱项"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_muc_tieu",
-            "name": "mục tiêu",
-            "trans": [
-                "目标"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_ung_vien",
-            "name": "ứng viên",
-            "trans": [
-                "应聘者",
-                "候选人"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Tôi tốt nghiệp đại học.",
+          "zh": "我大学毕业。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_499",
-        "sentence_vi_a1_500",
-        "sentence_vi_a1_501",
-        "sentence_vi_a1_502",
-        "sentence_vi_a1_503",
-        "sentence_vi_a1_504"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「điểm mạnh của tôi là...」",
+      "explain": "回答优缺点时用「Điểm mạnh của tôi là...」（我的优点是……）和「Điểm yếu của tôi là...」（我的缺点是……）。",
+      "examples": [
         {
-            "point": "自我介绍「Tôi tên là...」",
-            "explain": "面试自我介绍通常以「Tôi tên là...」开头，然后介绍学历、经验和技能。",
-            "examples": [
-                {
-                    "vi": "Tôi tên là Nam, tôi 25 tuổi.",
-                    "zh": "我叫南，25 岁。"
-                },
-                {
-                    "vi": "Tôi tốt nghiệp đại học.",
-                    "zh": "我大学毕业。"
-                }
-            ]
+          "vi": "Điểm mạnh của tôi là chăm chỉ.",
+          "zh": "我的优点是勤奋。"
         },
         {
-            "point": "「điểm mạnh của tôi là...」",
-            "explain": "回答优缺点时用「Điểm mạnh của tôi là...」（我的优点是……）和「Điểm yếu của tôi là...」（我的缺点是……）。",
-            "examples": [
-                {
-                    "vi": "Điểm mạnh của tôi là chăm chỉ.",
-                    "zh": "我的优点是勤奋。"
-                },
-                {
-                    "vi": "Điểm yếu của tôi là thiếu kinh nghiệm.",
-                    "zh": "我的缺点是经验不足。"
-                }
-            ]
+          "vi": "Điểm yếu của tôi là thiếu kinh nghiệm.",
+          "zh": "我的缺点是经验不足。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「我的优点是勤奋」用越南语怎么说？",
-            "options": [
-                "Điểm mạnh của tôi là chăm chỉ",
-                "Điểm mạnh tôi là của chăm chỉ",
-                "Của tôi điểm mạnh chăm chỉ là"
-            ],
-            "answer": "Điểm mạnh của tôi là chăm chỉ"
-        },
-        {
-            "type": "fill",
-            "question": "Điểm ___ của tôi là thiếu kinh nghiệm.",
-            "answer": "yếu"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「面试」的越南语",
-            "answer": "phỏng vấn"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「我的优点是勤奋」用越南语怎么说？",
+      "options": ["Điểm mạnh của tôi là chăm chỉ", "Điểm mạnh tôi là của chăm chỉ", "Của tôi điểm mạnh chăm chỉ là"],
+      "answer": "Điểm mạnh của tôi là chăm chỉ"
+    },
+    {
+      "type": "fill",
+      "question": "Điểm ___ của tôi là thiếu kinh nghiệm.",
+      "answer": "yếu"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「面试」的越南语",
+      "answer": "phỏng vấn"
+    }
+  ]
 }

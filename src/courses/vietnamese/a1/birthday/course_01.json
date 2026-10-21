@@ -1,191 +1,128 @@
 {
-    "id": "course_vi_54",
-    "title": "第 1 课：年份与出生年",
-    "titleVi": "Bài 1: Năm và năm sinh",
-    "order": 1,
-    "scenario": "birthday",
-    "goals": [
-        "能说出年份、出生年的越南语说法",
-        "能用「sinh năm + 年份」表达出生年",
-        "能用「bao nhiêu / mấy」问年份和年龄",
-        "能说出自己的生日日期"
-    ],
-    "words": [
+  "id": "course_vi_54",
+  "title": "第 1 课：年份与出生年",
+  "titleVi": "Bài 1: Năm và năm sinh",
+  "order": 1,
+  "scenario": "birthday",
+  "goals": [
+    "能说出年份、出生年的越南语说法",
+    "能用「sinh năm + 年份」表达出生年",
+    "能用「bao nhiêu / mấy」问年份和年龄",
+    "能说出自己的生日日期"
+  ],
+  "words": [
+    {
+      "id": "vi_nam",
+      "name": "năm",
+      "trans": ["年"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_nam_sinh",
+      "name": "năm sinh",
+      "trans": ["出生年份"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_sinh",
+      "name": "sinh",
+      "trans": ["出生", "生"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_sinh_nhat",
+      "name": "sinh nhật",
+      "trans": ["生日"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_tuoi",
+      "name": "tuổi",
+      "trans": ["年龄", "岁"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_may",
+      "name": "mấy",
+      "trans": ["几（问小数字）"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_bao_nhieu",
+      "name": "bao nhiêu",
+      "trans": ["多少"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_ngay_sinh",
+      "name": "ngày sinh",
+      "trans": ["出生日期"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_061",
+    "sentence_vi_a1_062",
+    "sentence_vi_a1_063",
+    "sentence_vi_a1_064",
+    "sentence_vi_a1_065",
+    "sentence_vi_a1_066"
+  ],
+  "grammar": [
+    {
+      "point": "问出生年份：sinh năm bao nhiêu?",
+      "explain": "「sinh năm bao nhiêu?」= 哪年出生？回答「Tôi sinh năm + 年份」。越南语年号直接连写，如「1995」读作「một nghìn chín trăm chín mươi lăm」，「năm 1995」= 1995 年。注意：「năm」既是「年」，也可表示「五」，靠上下文区分。",
+      "examples": [
         {
-            "id": "vi_nam",
-            "name": "năm",
-            "trans": [
-                "年"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Bạn sinh năm bao nhiêu?",
+          "zh": "你哪年出生？"
         },
         {
-            "id": "vi_nam_sinh",
-            "name": "năm sinh",
-            "trans": [
-                "出生年份"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_sinh",
-            "name": "sinh",
-            "trans": [
-                "出生",
-                "生"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_sinh_nhat",
-            "name": "sinh nhật",
-            "trans": [
-                "生日"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_tuoi",
-            "name": "tuổi",
-            "trans": [
-                "年龄",
-                "岁"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_may",
-            "name": "mấy",
-            "trans": [
-                "几（问小数字）"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_bao_nhieu",
-            "name": "bao nhiêu",
-            "trans": [
-                "多少"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_ngay_sinh",
-            "name": "ngày sinh",
-            "trans": [
-                "出生日期"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Tôi sinh năm 2000.",
+          "zh": "我 2000 年出生。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_061",
-        "sentence_vi_a1_062",
-        "sentence_vi_a1_063",
-        "sentence_vi_a1_064",
-        "sentence_vi_a1_065",
-        "sentence_vi_a1_066"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "问年龄：bao nhiêu tuổi / mấy tuổi",
+      "explain": "「bao nhiêu tuổi?」= 多大？「mấy tuổi?」= 几岁（问儿童更自然）。回答「Tôi + 数字 + tuổi」。注意越南语数词读法：mười lăm（15）、hai mươi（20）、ba mươi mốt（31）。亲属间问年龄很常见，不冒犯。",
+      "examples": [
         {
-            "point": "问出生年份：sinh năm bao nhiêu?",
-            "explain": "「sinh năm bao nhiêu?」= 哪年出生？回答「Tôi sinh năm + 年份」。越南语年号直接连写，如「1995」读作「một nghìn chín trăm chín mươi lăm」，「năm 1995」= 1995 年。注意：「năm」既是「年」，也可表示「五」，靠上下文区分。",
-            "examples": [
-                {
-                    "vi": "Bạn sinh năm bao nhiêu?",
-                    "zh": "你哪年出生？"
-                },
-                {
-                    "vi": "Tôi sinh năm 2000.",
-                    "zh": "我 2000 年出生。"
-                }
-            ]
+          "vi": "Năm nay bạn bao nhiêu tuổi?",
+          "zh": "今年你多大了？"
         },
         {
-            "point": "问年龄：bao nhiêu tuổi / mấy tuổi",
-            "explain": "「bao nhiêu tuổi?」= 多大？「mấy tuổi?」= 几岁（问儿童更自然）。回答「Tôi + 数字 + tuổi」。注意越南语数词读法：mười lăm（15）、hai mươi（20）、ba mươi mốt（31）。亲属间问年龄很常见，不冒犯。",
-            "examples": [
-                {
-                    "vi": "Năm nay bạn bao nhiêu tuổi?",
-                    "zh": "今年你多大了？"
-                },
-                {
-                    "vi": "Em tôi mười tuổi.",
-                    "zh": "我弟弟十岁。"
-                }
-            ]
+          "vi": "Em tôi mười tuổi.",
+          "zh": "我弟弟十岁。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「năm sinh」的意思是？",
-            "options": [
-                "年龄",
-                "生日",
-                "出生年份",
-                "日期"
-            ],
-            "answer": "出生年份"
-        },
-        {
-            "type": "fill",
-            "question": "Tôi ___ năm 1995.（我 1995 年出生）",
-            "answer": "sinh"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「你哪年出生？」的越南语",
-            "answer": "Bạn sinh năm bao nhiêu"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「năm sinh」的意思是？",
+      "options": ["年龄", "生日", "出生年份", "日期"],
+      "answer": "出生年份"
+    },
+    {
+      "type": "fill",
+      "question": "Tôi ___ năm 1995.（我 1995 年出生）",
+      "answer": "sinh"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「你哪年出生？」的越南语",
+      "answer": "Bạn sinh năm bao nhiêu"
+    }
+  ]
 }

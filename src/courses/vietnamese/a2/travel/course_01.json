@@ -1,315 +1,186 @@
 {
-    "id": "course_vi_121",
-    "title": "第 1 课：交通方式",
-    "titleVi": "Bài 1: Các phương tiện giao thông",
-    "order": 1,
-    "scenario": "travel",
-    "goals": [
-        "能说出 12 种以上常见交通工具",
-        "能用「bằng / đi」表达乘坐方式",
-        "能用「mất bao lâu」问时长",
-        "能对比不同交通方式的优劣"
-    ],
-    "words": [
+  "id": "course_vi_121",
+  "title": "第 1 课：交通方式",
+  "titleVi": "Bài 1: Các phương tiện giao thông",
+  "order": 1,
+  "scenario": "travel",
+  "goals": ["能说出 12 种以上常见交通工具", "能用「bằng / đi」表达乘坐方式", "能用「mất bao lâu」问时长", "能对比不同交通方式的优劣"],
+  "words": [
+    {
+      "id": "vi_a2_phuong_tien",
+      "name": "phương tiện",
+      "trans": ["交通工具", "手段"],
+      "tags": ["travel", "A2", "transport"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_xe_buyt",
+      "name": "xe buýt",
+      "trans": ["公交车"],
+      "tags": ["travel", "A2", "transport"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_tau_hoa",
+      "name": "tàu hỏa",
+      "trans": ["火车"],
+      "tags": ["travel", "A2", "transport"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_tau_dien",
+      "name": "tàu điện",
+      "trans": ["地铁", "电车"],
+      "tags": ["travel", "A2", "transport"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_xe_taxi",
+      "name": "xe taxi",
+      "trans": ["出租车"],
+      "tags": ["travel", "A2", "transport"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_xe_om",
+      "name": "xe ôm",
+      "trans": ["摩的"],
+      "tags": ["travel", "A2", "transport"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_xe_may",
+      "name": "xe máy",
+      "trans": ["摩托车"],
+      "tags": ["travel", "A2", "transport"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_xe_dap",
+      "name": "xe đạp",
+      "trans": ["自行车"],
+      "tags": ["travel", "A2", "transport"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_o_to",
+      "name": "ô tô",
+      "trans": ["汽车"],
+      "tags": ["travel", "A2", "transport"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_may_bay",
+      "name": "máy bay",
+      "trans": ["飞机"],
+      "tags": ["travel", "A2", "transport"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_thuyen",
+      "name": "thuyền",
+      "trans": ["船"],
+      "tags": ["travel", "A2", "transport"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_phà",
+      "name": "phà",
+      "trans": ["轮渡"],
+      "tags": ["travel", "A2", "transport"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_grab",
+      "name": "Grab",
+      "trans": ["Grab（打车软件）"],
+      "tags": ["travel", "A2", "transport"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_ve",
+      "name": "vé",
+      "trans": ["票"],
+      "tags": ["travel", "A2", "transport"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a2_017",
+    "sentence_vi_a2_018",
+    "sentence_vi_a2_019",
+    "sentence_vi_a2_020",
+    "sentence_vi_a2_021",
+    "sentence_vi_a2_022",
+    "sentence_vi_a2_023",
+    "sentence_vi_a2_024"
+  ],
+  "grammar": [
+    {
+      "point": "乘坐方式：đi bằng / đi + 工具",
+      "explain": "两种表达：「đi bằng + 交通工具」（= 坐…去，bằng 强调方式），「đi + 交通工具」（口语简洁）。如：đi bằng xe buýt = đi xe buýt。注意「đi bộ」是特例（步行，不加 bằng）。问句：「đi bằng gì?」= 坐什么去？",
+      "examples": [
         {
-            "id": "vi_a2_phuong_tien",
-            "name": "phương tiện",
-            "trans": [
-                "交通工具",
-                "手段"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "transport"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Tôi đi làm bằng xe buýt mỗi ngày.",
+          "zh": "我每天坐公交车上班。"
         },
         {
-            "id": "vi_a2_xe_buyt",
-            "name": "xe buýt",
-            "trans": [
-                "公交车"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "transport"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Từ Hà Nội đến Huế đi tàu hỏa mất khoảng 13 tiếng.",
+          "zh": "从河内到顺化坐火车大约 13 小时。"
         },
         {
-            "id": "vi_a2_tau_hoa",
-            "name": "tàu hỏa",
-            "trans": [
-                "火车"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "transport"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_tau_dien",
-            "name": "tàu điện",
-            "trans": [
-                "地铁",
-                "电车"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "transport"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_xe_taxi",
-            "name": "xe taxi",
-            "trans": [
-                "出租车"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "transport"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_xe_om",
-            "name": "xe ôm",
-            "trans": [
-                "摩的"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "transport"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_xe_may",
-            "name": "xe máy",
-            "trans": [
-                "摩托车"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "transport"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_xe_dap",
-            "name": "xe đạp",
-            "trans": [
-                "自行车"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "transport"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_o_to",
-            "name": "ô tô",
-            "trans": [
-                "汽车"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "transport"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_may_bay",
-            "name": "máy bay",
-            "trans": [
-                "飞机"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "transport"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_thuyen",
-            "name": "thuyền",
-            "trans": [
-                "船"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "transport"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_phà",
-            "name": "phà",
-            "trans": [
-                "轮渡"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "transport"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_grab",
-            "name": "Grab",
-            "trans": [
-                "Grab（打车软件）"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "transport"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_ve",
-            "name": "vé",
-            "trans": [
-                "票"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "transport"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Bạn thường đi học bằng gì?",
+          "zh": "你通常坐什么去上学？"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a2_017",
-        "sentence_vi_a2_018",
-        "sentence_vi_a2_019",
-        "sentence_vi_a2_020",
-        "sentence_vi_a2_021",
-        "sentence_vi_a2_022",
-        "sentence_vi_a2_023",
-        "sentence_vi_a2_024"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "问时长：mất bao lâu / mất bao nhiêu thời gian",
+      "explain": "「mất + 时长」= 花费…时间；「mất bao lâu?」= 要花多久？mất 在此是「耗费」义，主语是行程或路程。注意与汉语对比：汉语「从 A 到 B 要多久」，越南语说「Từ A đến B mất bao lâu?」顺序相反。",
+      "examples": [
         {
-            "point": "乘坐方式：đi bằng / đi + 工具",
-            "explain": "两种表达：「đi bằng + 交通工具」（= 坐…去，bằng 强调方式），「đi + 交通工具」（口语简洁）。如：đi bằng xe buýt = đi xe buýt。注意「đi bộ」是特例（步行，不加 bằng）。问句：「đi bằng gì?」= 坐什么去？",
-            "examples": [
-                {
-                    "vi": "Tôi đi làm bằng xe buýt mỗi ngày.",
-                    "zh": "我每天坐公交车上班。"
-                },
-                {
-                    "vi": "Từ Hà Nội đến Huế đi tàu hỏa mất khoảng 13 tiếng.",
-                    "zh": "从河内到顺化坐火车大约 13 小时。"
-                },
-                {
-                    "vi": "Bạn thường đi học bằng gì?",
-                    "zh": "你通常坐什么去上学？"
-                }
-            ]
+          "vi": "Từ đây đến sân bay mất bao lâu?",
+          "zh": "从这里到机场要多久？"
         },
         {
-            "point": "问时长：mất bao lâu / mất bao nhiêu thời gian",
-            "explain": "「mất + 时长」= 花费…时间；「mất bao lâu?」= 要花多久？mất 在此是「耗费」义，主语是行程或路程。注意与汉语对比：汉语「从 A 到 B 要多久」，越南语说「Từ A đến B mất bao lâu?」顺序相反。",
-            "examples": [
-                {
-                    "vi": "Từ đây đến sân bay mất bao lâu?",
-                    "zh": "从这里到机场要多久？"
-                },
-                {
-                    "vi": "Đi xe máy từ nhà đến chợ mất khoảng 15 phút.",
-                    "zh": "从家骑摩托车到市场大约 15 分钟。"
-                },
-                {
-                    "vi": "Đi bộ đến ga tàu mất 10 phút, không xa lắm.",
-                    "zh": "步行到火车站要 10 分钟，不算远。"
-                }
-            ]
+          "vi": "Đi xe máy từ nhà đến chợ mất khoảng 15 phút.",
+          "zh": "从家骑摩托车到市场大约 15 分钟。"
+        },
+        {
+          "vi": "Đi bộ đến ga tàu mất 10 phút, không xa lắm.",
+          "zh": "步行到火车站要 10 分钟，不算远。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「xe ôm」的意思是？",
-            "options": [
-                "出租车",
-                "摩的",
-                "公交车",
-                "地铁"
-            ],
-            "answer": "摩的"
-        },
-        {
-            "type": "choose",
-            "question": "哪句正确？",
-            "options": [
-                "Tôi đi bằng bộ đến trường.",
-                "Tôi đi bộ đến trường.",
-                "Tôi đi bộ bằng trường.",
-                "Tôi bằng đi bộ trường."
-            ],
-            "answer": "Tôi đi bộ đến trường."
-        },
-        {
-            "type": "fill",
-            "question": "Từ đây đến sân bay ___ bao lâu?（从这里到机场要多久？）",
-            "answer": "mất"
-        },
-        {
-            "type": "fill",
-            "question": "Tôi đi làm ___ xe buýt mỗi ngày.（我每天坐公交车上班）",
-            "answer": "bằng"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「我坐火车去」的越南语",
-            "answer": "Tôi đi bằng tàu hỏa"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「xe ôm」的意思是？",
+      "options": ["出租车", "摩的", "公交车", "地铁"],
+      "answer": "摩的"
+    },
+    {
+      "type": "choose",
+      "question": "哪句正确？",
+      "options": ["Tôi đi bằng bộ đến trường.", "Tôi đi bộ đến trường.", "Tôi đi bộ bằng trường.", "Tôi bằng đi bộ trường."],
+      "answer": "Tôi đi bộ đến trường."
+    },
+    {
+      "type": "fill",
+      "question": "Từ đây đến sân bay ___ bao lâu?（从这里到机场要多久？）",
+      "answer": "mất"
+    },
+    {
+      "type": "fill",
+      "question": "Tôi đi làm ___ xe buýt mỗi ngày.（我每天坐公交车上班）",
+      "answer": "bằng"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「我坐火车去」的越南语",
+      "answer": "Tôi đi bằng tàu hỏa"
+    }
+  ]
 }

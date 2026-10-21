@@ -1,198 +1,128 @@
 {
-    "id": "course_vi_26",
-    "title": "第 8 课：厨房餐具与容器",
-    "titleVi": "Bài 8: Đồ dùng nhà bếp và đồ chứa",
-    "order": 8,
-    "scenario": "objects",
-    "goals": [
-        "能说出常见餐具与容器名称",
-        "能用「đôi + 名词」表达成对物品（筷子）",
-        "能用「trong / trên / ở」表达物品位置",
-        "能在餐桌与厨房场景描述物品"
-    ],
-    "words": [
+  "id": "course_vi_26",
+  "title": "第 8 课：厨房餐具与容器",
+  "titleVi": "Bài 8: Đồ dùng nhà bếp và đồ chứa",
+  "order": 8,
+  "scenario": "objects",
+  "goals": [
+    "能说出常见餐具与容器名称",
+    "能用「đôi + 名词」表达成对物品（筷子）",
+    "能用「trong / trên / ở」表达物品位置",
+    "能在餐桌与厨房场景描述物品"
+  ],
+  "words": [
+    {
+      "id": "vi_cai_bat",
+      "name": "cái bát",
+      "trans": ["碗"],
+      "tags": ["objects", "A1", "kitchen"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_cai_dia",
+      "name": "cái đĩa",
+      "trans": ["盘子"],
+      "tags": ["objects", "A1", "kitchen"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_doi_dua",
+      "name": "đôi đũa",
+      "trans": ["筷子（一双）"],
+      "tags": ["objects", "A1", "kitchen"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_cai_thia",
+      "name": "cái thìa",
+      "trans": ["勺子"],
+      "tags": ["objects", "A1", "kitchen"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_cai_coc",
+      "name": "cái cốc",
+      "trans": ["杯子"],
+      "tags": ["objects", "A1", "kitchen"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_cai_chai",
+      "name": "cái chai",
+      "trans": ["瓶子"],
+      "tags": ["objects", "A1", "container"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_cai_hop",
+      "name": "cái hộp",
+      "trans": ["盒子"],
+      "tags": ["objects", "A1", "container"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_cai_tui",
+      "name": "cái túi",
+      "trans": ["袋子", "包"],
+      "tags": ["objects", "A1", "container"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_701",
+    "sentence_vi_a1_702",
+    "sentence_vi_a1_703",
+    "sentence_vi_a1_704",
+    "sentence_vi_a1_705",
+    "sentence_vi_a1_706"
+  ],
+  "grammar": [
+    {
+      "point": "成对量词 đôi",
+      "explain": "「đôi」用于成对物品（đôi đũa 一双筷子 / đôi giày 一双鞋 / đôi tất 一双袜子）。其他无生命物品用「cái」，与「第 1 课：日常物品与量词」一致。数量放在量词前：một đôi đũa、hai cái bát。",
+      "examples": [
         {
-            "id": "vi_cai_bat",
-            "name": "cái bát",
-            "trans": [
-                "碗"
-            ],
-            "tags": [
-                "objects",
-                "A1",
-                "kitchen"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Một đôi đũa.",
+          "zh": "一双筷子。"
         },
         {
-            "id": "vi_cai_dia",
-            "name": "cái đĩa",
-            "trans": [
-                "盘子"
-            ],
-            "tags": [
-                "objects",
-                "A1",
-                "kitchen"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_doi_dua",
-            "name": "đôi đũa",
-            "trans": [
-                "筷子（一双）"
-            ],
-            "tags": [
-                "objects",
-                "A1",
-                "kitchen"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_cai_thia",
-            "name": "cái thìa",
-            "trans": [
-                "勺子"
-            ],
-            "tags": [
-                "objects",
-                "A1",
-                "kitchen"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_cai_coc",
-            "name": "cái cốc",
-            "trans": [
-                "杯子"
-            ],
-            "tags": [
-                "objects",
-                "A1",
-                "kitchen"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_cai_chai",
-            "name": "cái chai",
-            "trans": [
-                "瓶子"
-            ],
-            "tags": [
-                "objects",
-                "A1",
-                "container"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_cai_hop",
-            "name": "cái hộp",
-            "trans": [
-                "盒子"
-            ],
-            "tags": [
-                "objects",
-                "A1",
-                "container"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_cai_tui",
-            "name": "cái túi",
-            "trans": [
-                "袋子",
-                "包"
-            ],
-            "tags": [
-                "objects",
-                "A1",
-                "container"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Hai cái bát.",
+          "zh": "两个碗。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_701",
-        "sentence_vi_a1_702",
-        "sentence_vi_a1_703",
-        "sentence_vi_a1_704",
-        "sentence_vi_a1_705",
-        "sentence_vi_a1_706"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "位置介词 trong / trên / ở",
+      "explain": "「trong」= 在……里（盒子、冰箱、袋子内部）；「trên」= 在……上（桌面、货架表面）；「ở」= 在（地点/位置）。三者语序都是「介词 + 名词 + 动词/谓语」或「名词 + 介词 + 名词」。",
+      "examples": [
         {
-            "point": "成对量词 đôi",
-            "explain": "「đôi」用于成对物品（đôi đũa 一双筷子 / đôi giày 一双鞋 / đôi tất 一双袜子）。其他无生命物品用「cái」，与「第 1 课：日常物品与量词」一致。数量放在量词前：một đôi đũa、hai cái bát。",
-            "examples": [
-                {
-                    "vi": "Một đôi đũa.",
-                    "zh": "一双筷子。"
-                },
-                {
-                    "vi": "Hai cái bát.",
-                    "zh": "两个碗。"
-                }
-            ]
+          "vi": "Chai nước ở trong tủ lạnh.",
+          "zh": "水瓶在冰箱里。"
         },
         {
-            "point": "位置介词 trong / trên / ở",
-            "explain": "「trong」= 在……里（盒子、冰箱、袋子内部）；「trên」= 在……上（桌面、货架表面）；「ở」= 在（地点/位置）。三者语序都是「介词 + 名词 + 动词/谓语」或「名词 + 介词 + 名词」。",
-            "examples": [
-                {
-                    "vi": "Chai nước ở trong tủ lạnh.",
-                    "zh": "水瓶在冰箱里。"
-                },
-                {
-                    "vi": "Bát ở trên bàn.",
-                    "zh": "碗在桌上。"
-                }
-            ]
+          "vi": "Bát ở trên bàn.",
+          "zh": "碗在桌上。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「碗」的越南语是？",
-            "options": [
-                "cái bát",
-                "cái đĩa",
-                "cái cốc",
-                "cái chai"
-            ],
-            "answer": "cái bát"
-        },
-        {
-            "type": "fill",
-            "question": "「勺子」的越南语是 cái ___。",
-            "answer": "thìa"
-        },
-        {
-            "type": "telex_input",
-            "question": "用 Telex 输入「bát」（碗）",
-            "answer": "bát"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「碗」的越南语是？",
+      "options": ["cái bát", "cái đĩa", "cái cốc", "cái chai"],
+      "answer": "cái bát"
+    },
+    {
+      "type": "fill",
+      "question": "「勺子」的越南语是 cái ___。",
+      "answer": "thìa"
+    },
+    {
+      "type": "telex_input",
+      "question": "用 Telex 输入「bát」（碗）",
+      "answer": "bát"
+    }
+  ]
 }

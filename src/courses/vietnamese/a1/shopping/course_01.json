@@ -1,191 +1,128 @@
 {
-    "id": "course_vi_78",
-    "title": "第 1 课：商店类型",
-    "titleVi": "Bài 1: Các loại cửa hàng",
-    "order": 1,
-    "scenario": "shopping",
-    "goals": [
-        "能说出 8 种常见商店类型",
-        "能用「đi + 地点」表达去哪购物",
-        "能用「ở + 地点 + có...」描述商店里有卖什么",
-        "能问「… ở đâu?」（…在哪里？）"
-    ],
-    "words": [
+  "id": "course_vi_78",
+  "title": "第 1 课：商店类型",
+  "titleVi": "Bài 1: Các loại cửa hàng",
+  "order": 1,
+  "scenario": "shopping",
+  "goals": [
+    "能说出 8 种常见商店类型",
+    "能用「đi + 地点」表达去哪购物",
+    "能用「ở + 地点 + có...」描述商店里有卖什么",
+    "能问「… ở đâu?」（…在哪里？）"
+  ],
+  "words": [
+    {
+      "id": "vi_cua_hang",
+      "name": "cửa hàng",
+      "trans": ["商店"],
+      "tags": ["shopping", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_sieu_thi",
+      "name": "siêu thị",
+      "trans": ["超市"],
+      "tags": ["shopping", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_cho",
+      "name": "chợ",
+      "trans": ["市场", "集市"],
+      "tags": ["shopping", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_cua_hang_tien_loi",
+      "name": "cửa hàng tiện lợi",
+      "trans": ["便利店"],
+      "tags": ["shopping", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_trung_tam_thuong_mai",
+      "name": "trung tâm thương mại",
+      "trans": ["购物中心"],
+      "tags": ["shopping", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_hieu_sach",
+      "name": "hiệu sách",
+      "trans": ["书店"],
+      "tags": ["shopping", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_hieu_thuoc",
+      "name": "hiệu thuốc",
+      "trans": ["药店"],
+      "tags": ["shopping", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_tiem_banh",
+      "name": "tiệm bánh",
+      "trans": ["面包店", "糕点店"],
+      "tags": ["shopping", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_085",
+    "sentence_vi_a1_086",
+    "sentence_vi_a1_087",
+    "sentence_vi_a1_088",
+    "sentence_vi_a1_089",
+    "sentence_vi_a1_090"
+  ],
+  "grammar": [
+    {
+      "point": "去哪购物：đi + 商店名",
+      "explain": "「đi + 商店名」= 去某商店。越南语中「đi」后可直接接地点，无需介词。如「đi chợ」= 去市场，「đi siêu thị」= 去超市。加「để + V」表目的：「đi siêu thị để mua đồ ăn」（去超市买食物）。",
+      "examples": [
         {
-            "id": "vi_cua_hang",
-            "name": "cửa hàng",
-            "trans": [
-                "商店"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Tôi đi siêu thị mua đồ ăn.",
+          "zh": "我去超市买食物。"
         },
         {
-            "id": "vi_sieu_thi",
-            "name": "siêu thị",
-            "trans": [
-                "超市"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_cho",
-            "name": "chợ",
-            "trans": [
-                "市场",
-                "集市"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_cua_hang_tien_loi",
-            "name": "cửa hàng tiện lợi",
-            "trans": [
-                "便利店"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_trung_tam_thuong_mai",
-            "name": "trung tâm thương mại",
-            "trans": [
-                "购物中心"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_hieu_sach",
-            "name": "hiệu sách",
-            "trans": [
-                "书店"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_hieu_thuoc",
-            "name": "hiệu thuốc",
-            "trans": [
-                "药店"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_tiem_banh",
-            "name": "tiệm bánh",
-            "trans": [
-                "面包店",
-                "糕点店"
-            ],
-            "tags": [
-                "shopping",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Cô ấy đi chợ mỗi sáng.",
+          "zh": "她每天早上都去市场。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_085",
-        "sentence_vi_a1_086",
-        "sentence_vi_a1_087",
-        "sentence_vi_a1_088",
-        "sentence_vi_a1_089",
-        "sentence_vi_a1_090"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "问地点：… ở đâu?",
+      "explain": "「A ở đâu?」= A 在哪里？回答：「A ở + 地点」。例：「Siêu thị ở đâu?」→「Siêu thị ở gần nhà tôi」。要问「哪里有…」用「Ở đâu có A?」（倒装）。",
+      "examples": [
         {
-            "point": "去哪购物：đi + 商店名",
-            "explain": "「đi + 商店名」= 去某商店。越南语中「đi」后可直接接地点，无需介词。如「đi chợ」= 去市场，「đi siêu thị」= 去超市。加「để + V」表目的：「đi siêu thị để mua đồ ăn」（去超市买食物）。",
-            "examples": [
-                {
-                    "vi": "Tôi đi siêu thị mua đồ ăn.",
-                    "zh": "我去超市买食物。"
-                },
-                {
-                    "vi": "Cô ấy đi chợ mỗi sáng.",
-                    "zh": "她每天早上都去市场。"
-                }
-            ]
+          "vi": "Hiệu thuốc ở đâu?",
+          "zh": "药店在哪里？"
         },
         {
-            "point": "问地点：… ở đâu?",
-            "explain": "「A ở đâu?」= A 在哪里？回答：「A ở + 地点」。例：「Siêu thị ở đâu?」→「Siêu thị ở gần nhà tôi」。要问「哪里有…」用「Ở đâu có A?」（倒装）。",
-            "examples": [
-                {
-                    "vi": "Hiệu thuốc ở đâu?",
-                    "zh": "药店在哪里？"
-                },
-                {
-                    "vi": "Chợ ở gần nhà tôi.",
-                    "zh": "市场在我家附近。"
-                }
-            ]
+          "vi": "Chợ ở gần nhà tôi.",
+          "zh": "市场在我家附近。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「siêu thị」的意思是？",
-            "options": [
-                "市场",
-                "超市",
-                "书店",
-                "药店"
-            ],
-            "answer": "超市"
-        },
-        {
-            "type": "fill",
-            "question": "Tôi đi ___ mua đồ ăn.（我去超市买食物）",
-            "answer": "siêu thị"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「药店在哪里？」的越南语",
-            "answer": "Hiệu thuốc ở đâu"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「siêu thị」的意思是？",
+      "options": ["市场", "超市", "书店", "药店"],
+      "answer": "超市"
+    },
+    {
+      "type": "fill",
+      "question": "Tôi đi ___ mua đồ ăn.（我去超市买食物）",
+      "answer": "siêu thị"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「药店在哪里？」的越南语",
+      "answer": "Hiệu thuốc ở đâu"
+    }
+  ]
 }

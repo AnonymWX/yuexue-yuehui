@@ -1,38 +1,38 @@
 {
-    "id": "services",
-    "stage": "a2",
-    "title": "服务与预约",
-    "titleVi": "Dịch vụ và đặt lịch",
-    "courses": [
-        {
-            "id": "course_vi_131",
-            "file": "course_01.json",
-            "title": "第 1 课：银行",
-            "titleVi": "Bài 1: Ngân hàng"
-        },
-        {
-            "id": "course_vi_132",
-            "file": "course_02.json",
-            "title": "第 2 课：邮局与快递",
-            "titleVi": "Bài 2: Bưu điện và chuyển phát"
-        },
-        {
-            "id": "course_vi_133",
-            "file": "course_03.json",
-            "title": "第 3 课：理发与美容",
-            "titleVi": "Bài 3: Cắt tóc và làm đẹp"
-        },
-        {
-            "id": "course_vi_134",
-            "file": "course_04.json",
-            "title": "第 4 课：维修与上门服务",
-            "titleVi": "Bài 4: Sửa chữa và dịch vụ tại nhà"
-        },
-        {
-            "id": "course_vi_135",
-            "file": "course_05.json",
-            "title": "第 5 课：投诉与退换货",
-            "titleVi": "Bài 5: Khiếu nại và đổi trả hàng"
-        }
-    ]
+  "id": "services",
+  "stage": "a2",
+  "title": "服务与预约",
+  "titleVi": "Dịch vụ và đặt lịch",
+  "courses": [
+    {
+      "id": "course_vi_131",
+      "file": "course_01.json",
+      "title": "第 1 课：银行",
+      "titleVi": "Bài 1: Ngân hàng"
+    },
+    {
+      "id": "course_vi_132",
+      "file": "course_02.json",
+      "title": "第 2 课：邮局与快递",
+      "titleVi": "Bài 2: Bưu điện và chuyển phát"
+    },
+    {
+      "id": "course_vi_133",
+      "file": "course_03.json",
+      "title": "第 3 课：理发与美容",
+      "titleVi": "Bài 3: Cắt tóc và làm đẹp"
+    },
+    {
+      "id": "course_vi_134",
+      "file": "course_04.json",
+      "title": "第 4 课：维修与上门服务",
+      "titleVi": "Bài 4: Sửa chữa và dịch vụ tại nhà"
+    },
+    {
+      "id": "course_vi_135",
+      "file": "course_05.json",
+      "title": "第 5 课：投诉与退换货",
+      "titleVi": "Bài 5: Khiếu nại và đổi trả hàng"
+    }
+  ]
 }

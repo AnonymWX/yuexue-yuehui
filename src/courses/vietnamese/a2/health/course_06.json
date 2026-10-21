@@ -1,319 +1,186 @@
 {
-    "id": "course_vi_110",
-    "title": "第 6 课：看病对话与医嘱",
-    "titleVi": "Bài 6: Hội thoại khám bệnh và lời dặn của bác sĩ",
-    "order": 6,
-    "scenario": "health",
-    "goals": [
-        "能听懂医生的问诊与医嘱",
-        "能用被动句 được / bị 描述看病经历",
-        "能转述医生的话（直接引语 → 间接引语）",
-        "能复述完整的看病过程"
-    ],
-    "words": [
+  "id": "course_vi_110",
+  "title": "第 6 课：看病对话与医嘱",
+  "titleVi": "Bài 6: Hội thoại khám bệnh và lời dặn của bác sĩ",
+  "order": 6,
+  "scenario": "health",
+  "goals": ["能听懂医生的问诊与医嘱", "能用被动句 được / bị 描述看病经历", "能转述医生的话（直接引语 → 间接引语）", "能复述完整的看病过程"],
+  "words": [
+    {
+      "id": "vi_a2_kham_benh",
+      "name": "khám bệnh",
+      "trans": ["看诊", "就诊"],
+      "tags": ["health", "A2", "consult"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_chan_doan",
+      "name": "chẩn đoán",
+      "trans": ["诊断"],
+      "tags": ["health", "A2", "consult"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_ke_don",
+      "name": "kê đơn",
+      "trans": ["开处方"],
+      "tags": ["health", "A2", "consult"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_dan_do",
+      "name": "dặn dò",
+      "trans": ["叮嘱", "嘱咐"],
+      "tags": ["health", "A2", "consult"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_xet_nghiem",
+      "name": "xét nghiệm",
+      "trans": ["化验", "检验"],
+      "tags": ["health", "A2", "consult"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_sieu_am",
+      "name": "siêu âm",
+      "trans": ["B超", "超声波检查"],
+      "tags": ["health", "A2", "consult"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_chup_x_quang",
+      "name": "chụp X-quang",
+      "trans": ["拍X光"],
+      "tags": ["health", "A2", "consult"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_ket_qua",
+      "name": "kết quả",
+      "trans": ["结果"],
+      "tags": ["health", "A2", "consult"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_dieu_tri",
+      "name": "điều trị",
+      "trans": ["治疗"],
+      "tags": ["health", "A2", "consult"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_hoi_phuc",
+      "name": "hồi phục",
+      "trans": ["康复"],
+      "tags": ["health", "A2", "consult"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_an_kieng",
+      "name": "ăn kiêng",
+      "trans": ["忌口", "节制饮食"],
+      "tags": ["health", "A2", "consult"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_nghi_ngoi",
+      "name": "nghỉ ngơi",
+      "trans": ["休息"],
+      "tags": ["health", "A2", "consult"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_uong_thuoc_dung_gio",
+      "name": "uống thuốc đúng giờ",
+      "trans": ["按时服药"],
+      "tags": ["health", "A2", "consult"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_suc_khoe",
+      "name": "sức khỏe",
+      "trans": ["健康", "身体状况"],
+      "tags": ["health", "A2", "consult"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a2_321",
+    "sentence_vi_a2_322",
+    "sentence_vi_a2_323",
+    "sentence_vi_a2_324",
+    "sentence_vi_a2_325",
+    "sentence_vi_a2_326",
+    "sentence_vi_a2_327",
+    "sentence_vi_a2_328"
+  ],
+  "grammar": [
+    {
+      "point": "被动语态 được / bị",
+      "explain": "được = 得到（正面）被动；bị = 遭遇（负面）被动。规律：được 后接对主语有利的事（được khen 被表扬、được bác sĩ khám 被医生看诊）；bị 后接对主语不利的事（bị bệnh 生病、bị phạt 被罚）。注意与汉语对比：汉语「被」中性，越南语必须区分正负，用错语义反转。",
+      "examples": [
         {
-            "id": "vi_a2_kham_benh",
-            "name": "khám bệnh",
-            "trans": [
-                "看诊",
-                "就诊"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "consult"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Tôi được bác sĩ khám và kê đơn.",
+          "zh": "我被医生看诊并开了处方。"
         },
         {
-            "id": "vi_a2_chan_doan",
-            "name": "chẩn đoán",
-            "trans": [
-                "诊断"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "consult"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Anh ấy bị chẩn đoán là viêm dạ dày.",
+          "zh": "他被诊断为胃炎。"
         },
         {
-            "id": "vi_a2_ke_don",
-            "name": "kê đơn",
-            "trans": [
-                "开处方"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "consult"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_dan_do",
-            "name": "dặn dò",
-            "trans": [
-                "叮嘱",
-                "嘱咐"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "consult"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_xet_nghiem",
-            "name": "xét nghiệm",
-            "trans": [
-                "化验",
-                "检验"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "consult"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_sieu_am",
-            "name": "siêu âm",
-            "trans": [
-                "B超",
-                "超声波检查"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "consult"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_chup_x_quang",
-            "name": "chụp X-quang",
-            "trans": [
-                "拍X光"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "consult"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_ket_qua",
-            "name": "kết quả",
-            "trans": [
-                "结果"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "consult"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_dieu_tri",
-            "name": "điều trị",
-            "trans": [
-                "治疗"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "consult"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_hoi_phuc",
-            "name": "hồi phục",
-            "trans": [
-                "康复"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "consult"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_an_kieng",
-            "name": "ăn kiêng",
-            "trans": [
-                "忌口",
-                "节制饮食"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "consult"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_nghi_ngoi",
-            "name": "nghỉ ngơi",
-            "trans": [
-                "休息"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "consult"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_uong_thuoc_dung_gio",
-            "name": "uống thuốc đúng giờ",
-            "trans": [
-                "按时服药"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "consult"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_suc_khoe",
-            "name": "sức khỏe",
-            "trans": [
-                "健康",
-                "身体状况"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "consult"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Nhờ uống thuốc đúng giờ nên tôi được hồi phục nhanh chóng.",
+          "zh": "因为按时服药，我得以很快康复。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a2_321",
-        "sentence_vi_a2_322",
-        "sentence_vi_a2_323",
-        "sentence_vi_a2_324",
-        "sentence_vi_a2_325",
-        "sentence_vi_a2_326",
-        "sentence_vi_a2_327",
-        "sentence_vi_a2_328"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "转述医嘱（间接引语：dặn / nói rằng / bảo）",
+      "explain": "转述他人话语用 dặn（叮嘱）、nói rằng（说）、bảo（让/叫）。结构：「主语 + dặn/nói/bảo + 对象 + 动词原形」或「主语 + nói rằng + 完整小句」。转述时人称需按逻辑调整：tôi → anh ấy / cô ấy（第三人称）。越南语不像汉语需加「了」，动词保持原形。",
+      "examples": [
         {
-            "point": "被动语态 được / bị",
-            "explain": "được = 得到（正面）被动；bị = 遭遇（负面）被动。规律：được 后接对主语有利的事（được khen 被表扬、được bác sĩ khám 被医生看诊）；bị 后接对主语不利的事（bị bệnh 生病、bị phạt 被罚）。注意与汉语对比：汉语「被」中性，越南语必须区分正负，用错语义反转。",
-            "examples": [
-                {
-                    "vi": "Tôi được bác sĩ khám và kê đơn.",
-                    "zh": "我被医生看诊并开了处方。"
-                },
-                {
-                    "vi": "Anh ấy bị chẩn đoán là viêm dạ dày.",
-                    "zh": "他被诊断为胃炎。"
-                },
-                {
-                    "vi": "Nhờ uống thuốc đúng giờ nên tôi được hồi phục nhanh chóng.",
-                    "zh": "因为按时服药，我得以很快康复。"
-                }
-            ]
+          "vi": "Bác sĩ dặn tôi nghỉ ngơi và uống nhiều nước.",
+          "zh": "医生叮嘱我休息和多喝水。"
         },
         {
-            "point": "转述医嘱（间接引语：dặn / nói rằng / bảo）",
-            "explain": "转述他人话语用 dặn（叮嘱）、nói rằng（说）、bảo（让/叫）。结构：「主语 + dặn/nói/bảo + 对象 + 动词原形」或「主语 + nói rằng + 完整小句」。转述时人称需按逻辑调整：tôi → anh ấy / cô ấy（第三人称）。越南语不像汉语需加「了」，动词保持原形。",
-            "examples": [
-                {
-                    "vi": "Bác sĩ dặn tôi nghỉ ngơi và uống nhiều nước.",
-                    "zh": "医生叮嘱我休息和多喝水。"
-                },
-                {
-                    "vi": "Bác sĩ nói rằng tôi cần ăn kiêng đồ cay trong một tuần.",
-                    "zh": "医生说我需要忌口辣食一周。"
-                },
-                {
-                    "vi": "Y tá bảo bệnh nhân uống thuốc đúng giờ.",
-                    "zh": "护士让病人按时服药。"
-                }
-            ]
+          "vi": "Bác sĩ nói rằng tôi cần ăn kiêng đồ cay trong một tuần.",
+          "zh": "医生说我需要忌口辣食一周。"
+        },
+        {
+          "vi": "Y tá bảo bệnh nhân uống thuốc đúng giờ.",
+          "zh": "护士让病人按时服药。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "哪句用 bị 更合适？",
-            "options": [
-                "Tôi bị bác sĩ khen.",
-                "Tôi bị cảm nặng.",
-                "Tôi bị được khám.",
-                "Tôi bị hồi phục."
-            ],
-            "answer": "Tôi bị cảm nặng."
-        },
-        {
-            "type": "choose",
-            "question": "「Bác sĩ dặn tôi nghỉ ngơi」的意思是？",
-            "options": [
-                "医生让我休息",
-                "我问医生休息",
-                "医生和我一起休息",
-                "医生在休息"
-            ],
-            "answer": "医生让我休息"
-        },
-        {
-            "type": "fill",
-            "question": "Bác sĩ ___ đơn cho tôi sau khi xét nghiệm.（医生化验后给我开了处方）",
-            "answer": "kê"
-        },
-        {
-            "type": "fill",
-            "question": "Nhờ uống thuốc đúng giờ nên tôi ___ hồi phục rất nhanh.（因为按时吃药，我得以很快康复）",
-            "answer": "được"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「医生叮嘱我多喝水」的越南语",
-            "answer": "Bác sĩ dặn tôi uống nhiều nước"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "哪句用 bị 更合适？",
+      "options": ["Tôi bị bác sĩ khen.", "Tôi bị cảm nặng.", "Tôi bị được khám.", "Tôi bị hồi phục."],
+      "answer": "Tôi bị cảm nặng."
+    },
+    {
+      "type": "choose",
+      "question": "「Bác sĩ dặn tôi nghỉ ngơi」的意思是？",
+      "options": ["医生让我休息", "我问医生休息", "医生和我一起休息", "医生在休息"],
+      "answer": "医生让我休息"
+    },
+    {
+      "type": "fill",
+      "question": "Bác sĩ ___ đơn cho tôi sau khi xét nghiệm.（医生化验后给我开了处方）",
+      "answer": "kê"
+    },
+    {
+      "type": "fill",
+      "question": "Nhờ uống thuốc đúng giờ nên tôi ___ hồi phục rất nhanh.（因为按时吃药，我得以很快康复）",
+      "answer": "được"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「医生叮嘱我多喝水」的越南语",
+      "answer": "Bác sĩ dặn tôi uống nhiều nước"
+    }
+  ]
 }

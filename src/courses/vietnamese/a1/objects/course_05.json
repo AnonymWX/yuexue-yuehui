@@ -1,190 +1,123 @@
 {
-    "id": "course_vi_23",
-    "title": "第 5 课：文具与办公用品",
-    "titleVi": "Bài 5: Dụng cụ học tập và văn phòng phẩm",
-    "order": 5,
-    "scenario": "objects",
-    "goals": [
-        "掌握常见文具名称",
-        "掌握办公用品名称",
-        "学会用「dùng」表使用",
-        "能描述学习用品"
-    ],
-    "words": [
+  "id": "course_vi_23",
+  "title": "第 5 课：文具与办公用品",
+  "titleVi": "Bài 5: Dụng cụ học tập và văn phòng phẩm",
+  "order": 5,
+  "scenario": "objects",
+  "goals": ["掌握常见文具名称", "掌握办公用品名称", "学会用「dùng」表使用", "能描述学习用品"],
+  "words": [
+    {
+      "id": "vi_vo_notebook",
+      "name": "vở",
+      "trans": ["笔记本", "作业本"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_but",
+      "name": "bút",
+      "trans": ["笔"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_but_chi",
+      "name": "bút chì",
+      "trans": ["铅笔"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_thuoc",
+      "name": "thước",
+      "trans": ["尺子"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_tay",
+      "name": "tẩy",
+      "trans": ["橡皮"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_keo",
+      "name": "kéo",
+      "trans": ["剪刀"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_giay",
+      "name": "giấy",
+      "trans": ["纸"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_cap",
+      "name": "cặp",
+      "trans": ["书包", "公文包"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_427",
+    "sentence_vi_a1_428",
+    "sentence_vi_a1_429",
+    "sentence_vi_a1_430",
+    "sentence_vi_a1_431",
+    "sentence_vi_a1_432"
+  ],
+  "grammar": [
+    {
+      "point": "「dùng + 名词 + để + 动词」表用途",
+      "explain": "表示「用某物来做某事」用「dùng + 名词 + để + 动词」，如「dùng bút để viết」（用笔写字）。",
+      "examples": [
         {
-            "id": "vi_vo_notebook",
-            "name": "vở",
-            "trans": [
-                "笔记本",
-                "作业本"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Tôi dùng bút để viết.",
+          "zh": "我用笔写字。"
         },
         {
-            "id": "vi_but",
-            "name": "bút",
-            "trans": [
-                "笔"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_but_chi",
-            "name": "bút chì",
-            "trans": [
-                "铅笔"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_thuoc",
-            "name": "thước",
-            "trans": [
-                "尺子"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_tay",
-            "name": "tẩy",
-            "trans": [
-                "橡皮"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_keo",
-            "name": "kéo",
-            "trans": [
-                "剪刀"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_giay",
-            "name": "giấy",
-            "trans": [
-                "纸"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_cap",
-            "name": "cặp",
-            "trans": [
-                "书包",
-                "公文包"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Tôi dùng thước để vẽ.",
+          "zh": "我用尺子画图。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_427",
-        "sentence_vi_a1_428",
-        "sentence_vi_a1_429",
-        "sentence_vi_a1_430",
-        "sentence_vi_a1_431",
-        "sentence_vi_a1_432"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "文具量词「cái / quyển / tờ」",
+      "explain": "文具类量词：笔、尺、橡皮等用「cái」；书本、笔记本用「quyển」；纸用「tờ」。",
+      "examples": [
         {
-            "point": "「dùng + 名词 + để + 动词」表用途",
-            "explain": "表示「用某物来做某事」用「dùng + 名词 + để + 动词」，如「dùng bút để viết」（用笔写字）。",
-            "examples": [
-                {
-                    "vi": "Tôi dùng bút để viết.",
-                    "zh": "我用笔写字。"
-                },
-                {
-                    "vi": "Tôi dùng thước để vẽ.",
-                    "zh": "我用尺子画图。"
-                }
-            ]
+          "vi": "Đây là cái bút.",
+          "zh": "这是笔。"
         },
         {
-            "point": "文具量词「cái / quyển / tờ」",
-            "explain": "文具类量词：笔、尺、橡皮等用「cái」；书本、笔记本用「quyển」；纸用「tờ」。",
-            "examples": [
-                {
-                    "vi": "Đây là cái bút.",
-                    "zh": "这是笔。"
-                },
-                {
-                    "vi": "Đây là quyển vở.",
-                    "zh": "这是笔记本。"
-                }
-            ]
+          "vi": "Đây là quyển vở.",
+          "zh": "这是笔记本。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「铅笔」用越南语怎么说？",
-            "options": [
-                "bút chì",
-                "bút",
-                "thước"
-            ],
-            "answer": "bút chì"
-        },
-        {
-            "type": "fill",
-            "question": "Tôi dùng bút để ___.",
-            "answer": "viết"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「橡皮」的越南语",
-            "answer": "tẩy"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「铅笔」用越南语怎么说？",
+      "options": ["bút chì", "bút", "thước"],
+      "answer": "bút chì"
+    },
+    {
+      "type": "fill",
+      "question": "Tôi dùng bút để ___.",
+      "answer": "viết"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「橡皮」的越南语",
+      "answer": "tẩy"
+    }
+  ]
 }

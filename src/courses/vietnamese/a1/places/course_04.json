@@ -1,188 +1,123 @@
 {
-    "id": "course_vi_68",
-    "title": "第 4 课：城市与省份",
-    "titleVi": "Bài 4: Thành phố và Tỉnh",
-    "order": 4,
-    "scenario": "places",
-    "goals": [
-        "掌握越南主要城市名称",
-        "掌握越南主要省份名称",
-        "能说「来自某地」",
-        "能描述城市特征"
-    ],
-    "words": [
+  "id": "course_vi_68",
+  "title": "第 4 课：城市与省份",
+  "titleVi": "Bài 4: Thành phố và Tỉnh",
+  "order": 4,
+  "scenario": "places",
+  "goals": ["掌握越南主要城市名称", "掌握越南主要省份名称", "能说「来自某地」", "能描述城市特征"],
+  "words": [
+    {
+      "id": "vi_ha_noi",
+      "name": "Hà Nội",
+      "trans": ["河内"],
+      "tags": ["places", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_ho_chi_minh",
+      "name": "Hồ Chí Minh",
+      "trans": ["胡志明市"],
+      "tags": ["places", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_da_nang",
+      "name": "Đà Nẵng",
+      "trans": ["岘港"],
+      "tags": ["places", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_hue",
+      "name": "Huế",
+      "trans": ["顺化"],
+      "tags": ["places", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_hai_phong",
+      "name": "Hải Phòng",
+      "trans": ["海防"],
+      "tags": ["places", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_can_tho",
+      "name": "Cần Thơ",
+      "trans": ["芹苴"],
+      "tags": ["places", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_mien_bac",
+      "name": "miền Bắc",
+      "trans": ["北方"],
+      "tags": ["places", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_mien_nam",
+      "name": "miền Nam",
+      "trans": ["南方"],
+      "tags": ["places", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_373",
+    "sentence_vi_a1_374",
+    "sentence_vi_a1_375",
+    "sentence_vi_a1_376",
+    "sentence_vi_a1_377",
+    "sentence_vi_a1_378"
+  ],
+  "grammar": [
+    {
+      "point": "「ở + 城市名」表在某城市",
+      "explain": "表示在某城市用「ở + 城市名」，如「ở Hà Nội」（在河内）。",
+      "examples": [
         {
-            "id": "vi_ha_noi",
-            "name": "Hà Nội",
-            "trans": [
-                "河内"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Tôi ở Hà Nội.",
+          "zh": "我在河内。"
         },
         {
-            "id": "vi_ho_chi_minh",
-            "name": "Hồ Chí Minh",
-            "trans": [
-                "胡志明市"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_da_nang",
-            "name": "Đà Nẵng",
-            "trans": [
-                "岘港"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_hue",
-            "name": "Huế",
-            "trans": [
-                "顺化"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_hai_phong",
-            "name": "Hải Phòng",
-            "trans": [
-                "海防"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_can_tho",
-            "name": "Cần Thơ",
-            "trans": [
-                "芹苴"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_mien_bac",
-            "name": "miền Bắc",
-            "trans": [
-                "北方"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_mien_nam",
-            "name": "miền Nam",
-            "trans": [
-                "南方"
-            ],
-            "tags": [
-                "places",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Anh ấy ở Đà Nẵng.",
+          "zh": "他在岘港。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_373",
-        "sentence_vi_a1_374",
-        "sentence_vi_a1_375",
-        "sentence_vi_a1_376",
-        "sentence_vi_a1_377",
-        "sentence_vi_a1_378"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「người + 城市名」表某地人",
+      "explain": "表示某地人用「người + 城市名」，如「người Hà Nội」（河内人）。",
+      "examples": [
         {
-            "point": "「ở + 城市名」表在某城市",
-            "explain": "表示在某城市用「ở + 城市名」，如「ở Hà Nội」（在河内）。",
-            "examples": [
-                {
-                    "vi": "Tôi ở Hà Nội.",
-                    "zh": "我在河内。"
-                },
-                {
-                    "vi": "Anh ấy ở Đà Nẵng.",
-                    "zh": "他在岘港。"
-                }
-            ]
+          "vi": "Tôi là người Hà Nội.",
+          "zh": "我是河内人。"
         },
         {
-            "point": "「người + 城市名」表某地人",
-            "explain": "表示某地人用「người + 城市名」，如「người Hà Nội」（河内人）。",
-            "examples": [
-                {
-                    "vi": "Tôi là người Hà Nội.",
-                    "zh": "我是河内人。"
-                },
-                {
-                    "vi": "Cô ấy là người Huế.",
-                    "zh": "她是顺化人。"
-                }
-            ]
+          "vi": "Cô ấy là người Huế.",
+          "zh": "她是顺化人。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「河内」用越南语怎么说？",
-            "options": [
-                "Hà Nội",
-                "Hồ Chí Minh",
-                "Đà Nẵng"
-            ],
-            "answer": "Hà Nội"
-        },
-        {
-            "type": "fill",
-            "question": "Tôi ở Hà ___.",
-            "answer": "Nội"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「胡志明市」的越南语",
-            "answer": "Hồ Chí Minh"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「河内」用越南语怎么说？",
+      "options": ["Hà Nội", "Hồ Chí Minh", "Đà Nẵng"],
+      "answer": "Hà Nội"
+    },
+    {
+      "type": "fill",
+      "question": "Tôi ở Hà ___.",
+      "answer": "Nội"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「胡志明市」的越南语",
+      "answer": "Hồ Chí Minh"
+    }
+  ]
 }

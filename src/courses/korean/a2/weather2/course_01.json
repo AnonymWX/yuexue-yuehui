@@ -1,269 +1,165 @@
 {
-    "id": "course_ko_103",
-    "title": "第 1 课：내일 비가 올 것 같습니다（明天好像会下雨）",
-    "titleVi": "제1과: 내일 비가 올 것 같습니다",
-    "order": 1,
-    "scenario": "weather2",
-    "goals": [
-        "掌握「-(으)ㄹ 것 같다」（好像…）",
-        "掌握「-겠-」（推测/意志）",
-        "能说出四季与天气现象",
-        "能描述天气预测"
-    ],
-    "words": [
+  "id": "course_ko_103",
+  "title": "第 1 课：내일 비가 올 것 같습니다（明天好像会下雨）",
+  "titleVi": "제1과: 내일 비가 올 것 같습니다",
+  "order": 1,
+  "scenario": "weather2",
+  "goals": ["掌握「-(으)ㄹ 것 같다」（好像…）", "掌握「-겠-」（推测/意志）", "能说出四季与天气现象", "能描述天气预测"],
+  "words": [
+    {
+      "id": "ko_a2_bom",
+      "name": "봄",
+      "trans": ["春天"],
+      "tags": ["weather2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_yeoreum",
+      "name": "여름",
+      "trans": ["夏天"],
+      "tags": ["weather2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_gaeul",
+      "name": "가을",
+      "trans": ["秋天"],
+      "tags": ["weather2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_gyeoul",
+      "name": "겨울",
+      "trans": ["冬天"],
+      "tags": ["weather2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_gureum",
+      "name": "구름",
+      "trans": ["云"],
+      "tags": ["weather2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_baram",
+      "name": "바람",
+      "trans": ["风"],
+      "tags": ["weather2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_haessbit",
+      "name": "햇빛",
+      "trans": ["阳光"],
+      "tags": ["weather2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_sonagi",
+      "name": "소나기",
+      "trans": ["阵雨"],
+      "tags": ["weather2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_gion",
+      "name": "기온",
+      "trans": ["气温"],
+      "tags": ["weather2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_seupdo",
+      "name": "습도",
+      "trans": ["湿度"],
+      "tags": ["weather2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_yebo",
+      "name": "예보",
+      "trans": ["预报"],
+      "tags": ["weather2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_geuchida",
+      "name": "그치다",
+      "trans": ["（雨）停"],
+      "tags": ["weather2", "A2"],
+      "source": ["korean_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_ko_a2_017",
+    "sentence_ko_a2_018",
+    "sentence_ko_a2_019",
+    "sentence_ko_a2_020",
+    "sentence_ko_a2_021",
+    "sentence_ko_a2_022",
+    "sentence_ko_a2_023",
+    "sentence_ko_a2_024"
+  ],
+  "grammar": [
+    {
+      "point": "「-(으)ㄹ 것 같다」（好像…）",
+      "explain": "词干有收音用 -을 것 같다，无收音用 -ㄹ 것 같다：오다 → 올 것 같다（好像会来）；먹다 → 먹을 것 같다（好像会吃）。表推测，比 -겠- 更不确定。中文「好像/可能」对应这个结构。注意 것 是「事情」，같다 是「像」。",
+      "examples": [
         {
-            "id": "ko_a2_bom",
-            "name": "봄",
-            "trans": [
-                "春天"
-            ],
-            "tags": [
-                "weather2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
+          "vi": "내일 비가 올 것 같습니다.",
+          "zh": "明天好像会下雨。"
         },
         {
-            "id": "ko_a2_yeoreum",
-            "name": "여름",
-            "trans": [
-                "夏天"
-            ],
-            "tags": [
-                "weather2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_gaeul",
-            "name": "가을",
-            "trans": [
-                "秋天"
-            ],
-            "tags": [
-                "weather2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_gyeoul",
-            "name": "겨울",
-            "trans": [
-                "冬天"
-            ],
-            "tags": [
-                "weather2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_gureum",
-            "name": "구름",
-            "trans": [
-                "云"
-            ],
-            "tags": [
-                "weather2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_baram",
-            "name": "바람",
-            "trans": [
-                "风"
-            ],
-            "tags": [
-                "weather2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_haessbit",
-            "name": "햇빛",
-            "trans": [
-                "阳光"
-            ],
-            "tags": [
-                "weather2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_sonagi",
-            "name": "소나기",
-            "trans": [
-                "阵雨"
-            ],
-            "tags": [
-                "weather2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_gion",
-            "name": "기온",
-            "trans": [
-                "气温"
-            ],
-            "tags": [
-                "weather2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_seupdo",
-            "name": "습도",
-            "trans": [
-                "湿度"
-            ],
-            "tags": [
-                "weather2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_yebo",
-            "name": "예보",
-            "trans": [
-                "预报"
-            ],
-            "tags": [
-                "weather2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_geuchida",
-            "name": "그치다",
-            "trans": [
-                "（雨）停"
-            ],
-            "tags": [
-                "weather2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
+          "vi": "오늘은 더울 것 같습니다.",
+          "zh": "今天好像会热。"
         }
-    ],
-    "sentences": [
-        "sentence_ko_a2_017",
-        "sentence_ko_a2_018",
-        "sentence_ko_a2_019",
-        "sentence_ko_a2_020",
-        "sentence_ko_a2_021",
-        "sentence_ko_a2_022",
-        "sentence_ko_a2_023",
-        "sentence_ko_a2_024"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「-겠-」（推测 / 意志）",
+      "explain": "-겠- 接词干后，表推测「大概/应该」或第一人称意志「我来…」。例：비가 오겠습니다（大概会下雨）；제가 하겠습니다（我来做）。与 -ㄹ 것 같다 比：-겠- 更确定，常用于天气预报/正式场合。中文「会/将」对应 -겠-。",
+      "examples": [
         {
-            "point": "「-(으)ㄹ 것 같다」（好像…）",
-            "explain": "词干有收音用 -을 것 같다，无收音用 -ㄹ 것 같다：오다 → 올 것 같다（好像会来）；먹다 → 먹을 것 같다（好像会吃）。表推测，比 -겠- 更不确定。中文「好像/可能」对应这个结构。注意 것 是「事情」，같다 是「像」。",
-            "examples": [
-                {
-                    "vi": "내일 비가 올 것 같습니다.",
-                    "zh": "明天好像会下雨。"
-                },
-                {
-                    "vi": "오늘은 더울 것 같습니다.",
-                    "zh": "今天好像会热。"
-                }
-            ]
+          "vi": "내일은 춥겠습니다.",
+          "zh": "明天大概会冷。"
         },
         {
-            "point": "「-겠-」（推测 / 意志）",
-            "explain": "-겠- 接词干后，表推测「大概/应该」或第一人称意志「我来…」。例：비가 오겠습니다（大概会下雨）；제가 하겠습니다（我来做）。与 -ㄹ 것 같다 比：-겠- 更确定，常用于天气预报/正式场合。中文「会/将」对应 -겠-。",
-            "examples": [
-                {
-                    "vi": "내일은 춥겠습니다.",
-                    "zh": "明天大概会冷。"
-                },
-                {
-                    "vi": "제가 도와 드리겠습니다.",
-                    "zh": "我来帮您。"
-                }
-            ]
+          "vi": "제가 도와 드리겠습니다.",
+          "zh": "我来帮您。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「好像会下雨」的韩语是？",
-            "options": [
-                "비가 올 것 같습니다",
-                "비가 오고 싶습니다",
-                "비가 왔습니다",
-                "비가 옵니다"
-            ],
-            "answer": "비가 올 것 같습니다"
-        },
-        {
-            "type": "choose",
-            "question": "天气预报说「明天大概会冷」，用哪个词尾？",
-            "options": [
-                "-겠습니다",
-                "-고 싶습니다",
-                "-았습니다",
-                "-고 있습니다"
-            ],
-            "answer": "-겠습니다"
-        },
-        {
-            "type": "choose",
-            "question": "「夏天」的韩语是？",
-            "options": [
-                "여름",
-                "겨울",
-                "봄",
-                "가을"
-            ],
-            "answer": "여름"
-        },
-        {
-            "type": "fill",
-            "question": "「好像会吃」→ 먹__ 것 같습니다.（填入正确连接）",
-            "answer": "을"
-        },
-        {
-            "type": "fill",
-            "question": "「雨停了」→ 비가 ___.（填入「停」的过去时正式体）",
-            "answer": "그쳤습니다"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「好像会下雨」的韩语是？",
+      "options": ["비가 올 것 같습니다", "비가 오고 싶습니다", "비가 왔습니다", "비가 옵니다"],
+      "answer": "비가 올 것 같습니다"
+    },
+    {
+      "type": "choose",
+      "question": "天气预报说「明天大概会冷」，用哪个词尾？",
+      "options": ["-겠습니다", "-고 싶습니다", "-았습니다", "-고 있습니다"],
+      "answer": "-겠습니다"
+    },
+    {
+      "type": "choose",
+      "question": "「夏天」的韩语是？",
+      "options": ["여름", "겨울", "봄", "가을"],
+      "answer": "여름"
+    },
+    {
+      "type": "fill",
+      "question": "「好像会吃」→ 먹__ 것 같습니다.（填入正确连接）",
+      "answer": "을"
+    },
+    {
+      "type": "fill",
+      "question": "「雨停了」→ 비가 ___.（填入「停」的过去时正式体）",
+      "answer": "그쳤습니다"
+    }
+  ]
 }

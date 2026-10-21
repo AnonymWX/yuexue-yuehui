@@ -1,189 +1,123 @@
 {
-    "id": "course_vi_91",
-    "title": "第 1 课：电话基本礼仪",
-    "titleVi": "Bài 1: Phép lịch sự khi gọi điện",
-    "order": 1,
-    "scenario": "phone",
-    "goals": [
-        "掌握接电话的招呼语",
-        "学会电话基本礼貌用语",
-        "掌握「A lô / Xin nghe」的用法",
-        "能进行简单的电话寒暄"
-    ],
-    "words": [
+  "id": "course_vi_91",
+  "title": "第 1 课：电话基本礼仪",
+  "titleVi": "Bài 1: Phép lịch sự khi gọi điện",
+  "order": 1,
+  "scenario": "phone",
+  "goals": ["掌握接电话的招呼语", "学会电话基本礼貌用语", "掌握「A lô / Xin nghe」的用法", "能进行简单的电话寒暄"],
+  "words": [
+    {
+      "id": "vi_a_lo",
+      "name": "a lô",
+      "trans": ["喂（电话用语）"],
+      "tags": ["phone", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_xin_nghe",
+      "name": "xin nghe",
+      "trans": ["请讲（接电话用语）"],
+      "tags": ["phone", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_dien_thoai_phone",
+      "name": "điện thoại",
+      "trans": ["电话", "手机"],
+      "tags": ["phone", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_goi_dien",
+      "name": "gọi điện",
+      "trans": ["打电话"],
+      "tags": ["phone", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_tin_hieu",
+      "name": "tín hiệu",
+      "trans": ["信号"],
+      "tags": ["phone", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_am_thanh",
+      "name": "âm thanh",
+      "trans": ["声音"],
+      "tags": ["phone", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_duong_day",
+      "name": "đường dây",
+      "trans": ["线路"],
+      "tags": ["phone", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_nghe_ro",
+      "name": "nghe rõ",
+      "trans": ["听得清楚"],
+      "tags": ["phone", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_103",
+    "sentence_vi_a1_104",
+    "sentence_vi_a1_105",
+    "sentence_vi_a1_106",
+    "sentence_vi_a1_107",
+    "sentence_vi_a1_108"
+  ],
+  "grammar": [
+    {
+      "point": "「A lô」与「Xin nghe」的区别",
+      "explain": "「A lô」是接电话时的招呼语，相当于汉语的「喂」。「Xin nghe」更正式，意为「请讲」，多用于商务场合。",
+      "examples": [
         {
-            "id": "vi_a_lo",
-            "name": "a lô",
-            "trans": [
-                "喂（电话用语）"
-            ],
-            "tags": [
-                "phone",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "A lô, tôi nghe đây.",
+          "zh": "喂，我在听。"
         },
         {
-            "id": "vi_xin_nghe",
-            "name": "xin nghe",
-            "trans": [
-                "请讲（接电话用语）"
-            ],
-            "tags": [
-                "phone",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_dien_thoai_phone",
-            "name": "điện thoại",
-            "trans": [
-                "电话",
-                "手机"
-            ],
-            "tags": [
-                "phone",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_goi_dien",
-            "name": "gọi điện",
-            "trans": [
-                "打电话"
-            ],
-            "tags": [
-                "phone",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_tin_hieu",
-            "name": "tín hiệu",
-            "trans": [
-                "信号"
-            ],
-            "tags": [
-                "phone",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_am_thanh",
-            "name": "âm thanh",
-            "trans": [
-                "声音"
-            ],
-            "tags": [
-                "phone",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_duong_day",
-            "name": "đường dây",
-            "trans": [
-                "线路"
-            ],
-            "tags": [
-                "phone",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_nghe_ro",
-            "name": "nghe rõ",
-            "trans": [
-                "听得清楚"
-            ],
-            "tags": [
-                "phone",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Xin nghe, ai đấy ạ?",
+          "zh": "请讲，请问是哪位？"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_103",
-        "sentence_vi_a1_104",
-        "sentence_vi_a1_105",
-        "sentence_vi_a1_106",
-        "sentence_vi_a1_107",
-        "sentence_vi_a1_108"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "问对方是谁「Ai đấy ạ?」",
+      "explain": "电话中问对方是谁用「Ai đấy ạ?」（是哪位？），比「Ai đấy?」更礼貌。",
+      "examples": [
         {
-            "point": "「A lô」与「Xin nghe」的区别",
-            "explain": "「A lô」是接电话时的招呼语，相当于汉语的「喂」。「Xin nghe」更正式，意为「请讲」，多用于商务场合。",
-            "examples": [
-                {
-                    "vi": "A lô, tôi nghe đây.",
-                    "zh": "喂，我在听。"
-                },
-                {
-                    "vi": "Xin nghe, ai đấy ạ?",
-                    "zh": "请讲，请问是哪位？"
-                }
-            ]
+          "vi": "A lô, ai đấy ạ?",
+          "zh": "喂，请问是哪位？"
         },
         {
-            "point": "问对方是谁「Ai đấy ạ?」",
-            "explain": "电话中问对方是谁用「Ai đấy ạ?」（是哪位？），比「Ai đấy?」更礼貌。",
-            "examples": [
-                {
-                    "vi": "A lô, ai đấy ạ?",
-                    "zh": "喂，请问是哪位？"
-                },
-                {
-                    "vi": "Xin nghe, ai đấy ạ?",
-                    "zh": "请讲，请问是哪位？"
-                }
-            ]
+          "vi": "Xin nghe, ai đấy ạ?",
+          "zh": "请讲，请问是哪位？"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "接电话时最常用的招呼语是？",
-            "options": [
-                "A lô",
-                "Xin chào",
-                "Cảm ơn"
-            ],
-            "answer": "A lô"
-        },
-        {
-            "type": "fill",
-            "question": "A lô, ai ___ ạ?",
-            "answer": "đấy"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「打电话」的越南语",
-            "answer": "gọi điện"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "接电话时最常用的招呼语是？",
+      "options": ["A lô", "Xin chào", "Cảm ơn"],
+      "answer": "A lô"
+    },
+    {
+      "type": "fill",
+      "question": "A lô, ai ___ ạ?",
+      "answer": "đấy"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「打电话」的越南语",
+      "answer": "gọi điện"
+    }
+  ]
 }

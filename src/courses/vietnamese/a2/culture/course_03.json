@@ -1,319 +1,191 @@
 {
-    "id": "course_vi_173",
-    "title": "第 3 课：饮食文化",
-    "titleVi": "Bài 3: Văn hóa ẩm thực",
-    "order": 3,
-    "scenario": "culture",
-    "goals": [
-        "能说出越南代表性美食",
-        "能描述越南饮食文化特点",
-        "能用「đặc sản / nổi tiếng」介绍地方美食",
-        "能对比中越饮食习惯差异"
-    ],
-    "words": [
+  "id": "course_vi_173",
+  "title": "第 3 课：饮食文化",
+  "titleVi": "Bài 3: Văn hóa ẩm thực",
+  "order": 3,
+  "scenario": "culture",
+  "goals": ["能说出越南代表性美食", "能描述越南饮食文化特点", "能用「đặc sản / nổi tiếng」介绍地方美食", "能对比中越饮食习惯差异"],
+  "words": [
+    {
+      "id": "vi_a2_am_thuc",
+      "name": "ẩm thực",
+      "trans": ["饮食", "美食"],
+      "tags": ["culture", "A2", "food"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_mon_an",
+      "name": "món ăn",
+      "trans": ["菜肴", "菜品"],
+      "tags": ["culture", "A2", "food"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_dac_san",
+      "name": "đặc sản",
+      "trans": ["特产", "名菜"],
+      "tags": ["culture", "A2", "food"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_noi_tieng",
+      "name": "nổi tiếng",
+      "trans": ["著名", "有名"],
+      "tags": ["culture", "A2", "food"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_pho",
+      "name": "phở",
+      "trans": ["河粉"],
+      "tags": ["culture", "A2", "food"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_banh_mi",
+      "name": "bánh mì",
+      "trans": ["法棍面包", "越南三明治"],
+      "tags": ["culture", "A2", "food"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_banh_xeo",
+      "name": "bánh xèo",
+      "trans": ["越南煎饼"],
+      "tags": ["culture", "A2", "food"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_goi_cuon",
+      "name": "gỏi cuốn",
+      "trans": ["越南春卷（生）"],
+      "tags": ["culture", "A2", "food"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_cha_gio",
+      "name": "chả giò",
+      "trans": ["油炸春卷"],
+      "tags": ["culture", "A2", "food"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_bun_bo",
+      "name": "bún bò",
+      "trans": ["牛肉米线"],
+      "tags": ["culture", "A2", "food"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_ca_phe_sua",
+      "name": "cà phê sữa",
+      "trans": ["奶咖啡"],
+      "tags": ["culture", "A2", "food"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_nuoc_mam",
+      "name": "nước mắm",
+      "trans": ["鱼露"],
+      "tags": ["culture", "A2", "food"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_gia_vi",
+      "name": "gia vị",
+      "trans": ["调料", "香料"],
+      "tags": ["culture", "A2", "food"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_khau_vi",
+      "name": "khẩu vị",
+      "trans": ["口味"],
+      "tags": ["culture", "A2", "food"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a2_185",
+    "sentence_vi_a2_186",
+    "sentence_vi_a2_187",
+    "sentence_vi_a2_188",
+    "sentence_vi_a2_189",
+    "sentence_vi_a2_190",
+    "sentence_vi_a2_191",
+    "sentence_vi_a2_192"
+  ],
+  "grammar": [
+    {
+      "point": "介绍特产：nổi tiếng / nổi tiếng với / đặc sản của",
+      "explain": "「nổi tiếng」= 著名（形容词）；「nổi tiếng với + 名词」= 以…而著名；「đặc sản của + 地方」= …的特产。介绍美食时高频：「Phở là đặc sản nổi tiếng của Việt Nam」（河粉是越南著名的特产）。",
+      "examples": [
         {
-            "id": "vi_a2_am_thuc",
-            "name": "ẩm thực",
-            "trans": [
-                "饮食",
-                "美食"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "food"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Phở là món ăn nổi tiếng nhất của Việt Nam.",
+          "zh": "河粉是越南最著名的菜肴。"
         },
         {
-            "id": "vi_a2_mon_an",
-            "name": "món ăn",
-            "trans": [
-                "菜肴",
-                "菜品"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "food"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Huế nổi tiếng với các món ăn cung đình.",
+          "zh": "顺化以宫廷菜著名。"
         },
         {
-            "id": "vi_a2_dac_san",
-            "name": "đặc sản",
-            "trans": [
-                "特产",
-                "名菜"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "food"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_noi_tieng",
-            "name": "nổi tiếng",
-            "trans": [
-                "著名",
-                "有名"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "food"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_pho",
-            "name": "phở",
-            "trans": [
-                "河粉"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "food"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_banh_mi",
-            "name": "bánh mì",
-            "trans": [
-                "法棍面包",
-                "越南三明治"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "food"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_banh_xeo",
-            "name": "bánh xèo",
-            "trans": [
-                "越南煎饼"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "food"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_goi_cuon",
-            "name": "gỏi cuốn",
-            "trans": [
-                "越南春卷（生）"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "food"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_cha_gio",
-            "name": "chả giò",
-            "trans": [
-                "油炸春卷"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "food"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_bun_bo",
-            "name": "bún bò",
-            "trans": [
-                "牛肉米线"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "food"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_ca_phe_sua",
-            "name": "cà phê sữa",
-            "trans": [
-                "奶咖啡"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "food"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_nuoc_mam",
-            "name": "nước mắm",
-            "trans": [
-                "鱼露"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "food"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_gia_vi",
-            "name": "gia vị",
-            "trans": [
-                "调料",
-                "香料"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "food"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_khau_vi",
-            "name": "khẩu vị",
-            "trans": [
-                "口味"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "food"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Bánh mì là đặc sản đường phố của Sài Gòn.",
+          "zh": "法棍面包是西贡的街头特产。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a2_185",
-        "sentence_vi_a2_186",
-        "sentence_vi_a2_187",
-        "sentence_vi_a2_188",
-        "sentence_vi_a2_189",
-        "sentence_vi_a2_190",
-        "sentence_vi_a2_191",
-        "sentence_vi_a2_192"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "饮食描述：có vị / ăn kèm / chấm",
+      "explain": "「có vị + 味觉」= 有…味道（có vị cay 辣味、có vị ngọt 甜味）；「ăn kèm + 食物」= 搭配…一起吃；「chấm + 酱」= 蘸…。三个都是越南饮食描述高频词。",
+      "examples": [
         {
-            "point": "介绍特产：nổi tiếng / nổi tiếng với / đặc sản của",
-            "explain": "「nổi tiếng」= 著名（形容词）；「nổi tiếng với + 名词」= 以…而著名；「đặc sản của + 地方」= …的特产。介绍美食时高频：「Phở là đặc sản nổi tiếng của Việt Nam」（河粉是越南著名的特产）。",
-            "examples": [
-                {
-                    "vi": "Phở là món ăn nổi tiếng nhất của Việt Nam.",
-                    "zh": "河粉是越南最著名的菜肴。"
-                },
-                {
-                    "vi": "Huế nổi tiếng với các món ăn cung đình.",
-                    "zh": "顺化以宫廷菜著名。"
-                },
-                {
-                    "vi": "Bánh mì là đặc sản đường phố của Sài Gòn.",
-                    "zh": "法棍面包是西贡的街头特产。"
-                }
-            ]
+          "vi": "Món này có vị chua ngọt rất ngon.",
+          "zh": "这道菜酸甜可口，很好吃。"
         },
         {
-            "point": "饮食描述：có vị / ăn kèm / chấm",
-            "explain": "「có vị + 味觉」= 有…味道（có vị cay 辣味、có vị ngọt 甜味）；「ăn kèm + 食物」= 搭配…一起吃；「chấm + 酱」= 蘸…。三个都是越南饮食描述高频词。",
-            "examples": [
-                {
-                    "vi": "Món này có vị chua ngọt rất ngon.",
-                    "zh": "这道菜酸甜可口，很好吃。"
-                },
-                {
-                    "vi": "Phở thường ăn kèm với rau thơm và giá đỗ.",
-                    "zh": "河粉通常配香菜和豆芽一起吃。"
-                },
-                {
-                    "vi": "Người Việt hay chấm trái cây với muối ớt.",
-                    "zh": "越南人常把水果蘸辣椒盐吃。"
-                }
-            ]
+          "vi": "Phở thường ăn kèm với rau thơm và giá đỗ.",
+          "zh": "河粉通常配香菜和豆芽一起吃。"
+        },
+        {
+          "vi": "Người Việt hay chấm trái cây với muối ớt.",
+          "zh": "越南人常把水果蘸辣椒盐吃。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「nước mắm」的意思是？",
-            "options": [
-                "酱油",
-                "鱼露",
-                "醋",
-                "辣椒酱"
-            ],
-            "answer": "鱼露"
-        },
-        {
-            "type": "choose",
-            "question": "哪句正确表达「河粉是越南著名的菜肴」？",
-            "options": [
-                "Phở là món ăn nổi tiếng của Việt Nam.",
-                "Phở nổi tiếng là món ăn Việt Nam của.",
-                "Phở là Việt Nam nổi tiếng món ăn.",
-                "Việt Nam phở nổi tiếng món ăn."
-            ],
-            "answer": "Phở là món ăn nổi tiếng của Việt Nam."
-        },
-        {
-            "type": "fill",
-            "question": "Huế ___ tiếng với các món ăn cung đình.（顺化以宫廷菜著名）",
-            "answer": "nổi"
-        },
-        {
-            "type": "fill",
-            "question": "Phở thường ăn ___ với rau thơm và giá đỗ.（河粉通常配香菜和豆芽一起吃）",
-            "answer": "kèm"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「河粉非常好吃」的越南语",
-            "answer": "Phở rất ngon"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「nước mắm」的意思是？",
+      "options": ["酱油", "鱼露", "醋", "辣椒酱"],
+      "answer": "鱼露"
+    },
+    {
+      "type": "choose",
+      "question": "哪句正确表达「河粉是越南著名的菜肴」？",
+      "options": [
+        "Phở là món ăn nổi tiếng của Việt Nam.",
+        "Phở nổi tiếng là món ăn Việt Nam của.",
+        "Phở là Việt Nam nổi tiếng món ăn.",
+        "Việt Nam phở nổi tiếng món ăn."
+      ],
+      "answer": "Phở là món ăn nổi tiếng của Việt Nam."
+    },
+    {
+      "type": "fill",
+      "question": "Huế ___ tiếng với các món ăn cung đình.（顺化以宫廷菜著名）",
+      "answer": "nổi"
+    },
+    {
+      "type": "fill",
+      "question": "Phở thường ăn ___ với rau thơm và giá đỗ.（河粉通常配香菜和豆芽一起吃）",
+      "answer": "kèm"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「河粉非常好吃」的越南语",
+      "answer": "Phở rất ngon"
+    }
+  ]
 }

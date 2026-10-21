@@ -1,273 +1,165 @@
 {
-    "id": "course_ko_109",
-    "title": "第 1 课：감기 증상이 있습니다（有感冒症状）",
-    "titleVi": "제1과: 감기 증상이 있습니다",
-    "order": 1,
-    "scenario": "health2",
-    "goals": [
-        "掌握「-(으)ㄴ 지」（自从…以来）",
-        "掌握「-는데」（但是/背景说明）",
-        "能描述感冒症状",
-        "能表达买药、就医流程"
-    ],
-    "words": [
+  "id": "course_ko_109",
+  "title": "第 1 课：감기 증상이 있습니다（有感冒症状）",
+  "titleVi": "제1과: 감기 증상이 있습니다",
+  "order": 1,
+  "scenario": "health2",
+  "goals": ["掌握「-(으)ㄴ 지」（自从…以来）", "掌握「-는데」（但是/背景说明）", "能描述感冒症状", "能表达买药、就医流程"],
+  "words": [
+    {
+      "id": "ko_a2_jeungsang",
+      "name": "증상",
+      "trans": ["症状"],
+      "tags": ["health2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_yeol",
+      "name": "열",
+      "trans": ["发烧", "热"],
+      "tags": ["health2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_gichim",
+      "name": "기침",
+      "trans": ["咳嗽"],
+      "tags": ["health2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_kongmul",
+      "name": "콧물",
+      "trans": ["鼻涕"],
+      "tags": ["health2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_dutong",
+      "name": "두통",
+      "trans": ["头痛"],
+      "tags": ["health2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_yakguk",
+      "name": "약국",
+      "trans": ["药店"],
+      "tags": ["health2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_cheobangjeon",
+      "name": "처방전",
+      "trans": ["处方"],
+      "tags": ["health2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_jusa",
+      "name": "주사",
+      "trans": ["打针", "注射"],
+      "tags": ["health2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_chiryohada",
+      "name": "치료하다",
+      "trans": ["治疗"],
+      "tags": ["health2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_ibwonhada",
+      "name": "입원하다",
+      "trans": ["住院"],
+      "tags": ["health2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_natda",
+      "name": "낫다",
+      "trans": ["好转", "痊愈"],
+      "tags": ["health2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_dahaengida",
+      "name": "다행이다",
+      "trans": ["万幸", "幸好"],
+      "tags": ["health2", "A2"],
+      "source": ["korean_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_ko_a2_065",
+    "sentence_ko_a2_066",
+    "sentence_ko_a2_067",
+    "sentence_ko_a2_068",
+    "sentence_ko_a2_069",
+    "sentence_ko_a2_070",
+    "sentence_ko_a2_071",
+    "sentence_ko_a2_072"
+  ],
+  "grammar": [
+    {
+      "point": "「-(으)ㄴ 지」（自从…以来）",
+      "explain": "动词词干有收音用 -은 지，无收音用 -ㄴ 지，后接时间 + 되다。例：아프다 → 아픈 지 사흘 됐습니다（病了三天了）；시작하다 → 시작한 지 일주일 됩니다（开始一周了）。中文「…已经多久了」对应这个结构。注意前面用过去时 -(으)ㄴ，后面用现在时 되다。",
+      "examples": [
         {
-            "id": "ko_a2_jeungsang",
-            "name": "증상",
-            "trans": [
-                "症状"
-            ],
-            "tags": [
-                "health2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
+          "vi": "감기에 걸린 지 사흘 됐습니다.",
+          "zh": "感冒已经三天了。"
         },
         {
-            "id": "ko_a2_yeol",
-            "name": "열",
-            "trans": [
-                "发烧",
-                "热"
-            ],
-            "tags": [
-                "health2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_gichim",
-            "name": "기침",
-            "trans": [
-                "咳嗽"
-            ],
-            "tags": [
-                "health2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_kongmul",
-            "name": "콧물",
-            "trans": [
-                "鼻涕"
-            ],
-            "tags": [
-                "health2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_dutong",
-            "name": "두통",
-            "trans": [
-                "头痛"
-            ],
-            "tags": [
-                "health2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_yakguk",
-            "name": "약국",
-            "trans": [
-                "药店"
-            ],
-            "tags": [
-                "health2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_cheobangjeon",
-            "name": "처방전",
-            "trans": [
-                "处方"
-            ],
-            "tags": [
-                "health2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_jusa",
-            "name": "주사",
-            "trans": [
-                "打针",
-                "注射"
-            ],
-            "tags": [
-                "health2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_chiryohada",
-            "name": "치료하다",
-            "trans": [
-                "治疗"
-            ],
-            "tags": [
-                "health2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_ibwonhada",
-            "name": "입원하다",
-            "trans": [
-                "住院"
-            ],
-            "tags": [
-                "health2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_natda",
-            "name": "낫다",
-            "trans": [
-                "好转",
-                "痊愈"
-            ],
-            "tags": [
-                "health2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_dahaengida",
-            "name": "다행이다",
-            "trans": [
-                "万幸",
-                "幸好"
-            ],
-            "tags": [
-                "health2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
+          "vi": "기침한 지 일주일 됩니다.",
+          "zh": "咳嗽已经一周了。"
         }
-    ],
-    "sentences": [
-        "sentence_ko_a2_065",
-        "sentence_ko_a2_066",
-        "sentence_ko_a2_067",
-        "sentence_ko_a2_068",
-        "sentence_ko_a2_069",
-        "sentence_ko_a2_070",
-        "sentence_ko_a2_071",
-        "sentence_ko_a2_072"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「-는데」（但是 / 背景说明）",
+      "explain": "动词词干 + 는데，形容词词干 + -(으)ㄴ데，名词 + 인데。表转折「但是」或铺垫背景「…可是」。例：열이 있는데 약을 안 먹었습니다（发烧了但没吃药）；지금 약국인데 문이 닫혔습니다（现在是药店但门关了）。中文「…但…」或「…可是…」对应。",
+      "examples": [
         {
-            "point": "「-(으)ㄴ 지」（自从…以来）",
-            "explain": "动词词干有收音用 -은 지，无收音用 -ㄴ 지，后接时间 + 되다。例：아프다 → 아픈 지 사흘 됐습니다（病了三天了）；시작하다 → 시작한 지 일주일 됩니다（开始一周了）。中文「…已经多久了」对应这个结构。注意前面用过去时 -(으)ㄴ，后面用现在时 되다。",
-            "examples": [
-                {
-                    "vi": "감기에 걸린 지 사흘 됐습니다.",
-                    "zh": "感冒已经三天了。"
-                },
-                {
-                    "vi": "기침한 지 일주일 됩니다.",
-                    "zh": "咳嗽已经一周了。"
-                }
-            ]
+          "vi": "열이 있는데 약을 안 먹었습니다.",
+          "zh": "发烧了但没吃药。"
         },
         {
-            "point": "「-는데」（但是 / 背景说明）",
-            "explain": "动词词干 + 는데，形容词词干 + -(으)ㄴ데，名词 + 인데。表转折「但是」或铺垫背景「…可是」。例：열이 있는데 약을 안 먹었습니다（发烧了但没吃药）；지금 약국인데 문이 닫혔습니다（现在是药店但门关了）。中文「…但…」或「…可是…」对应。",
-            "examples": [
-                {
-                    "vi": "열이 있는데 약을 안 먹었습니다.",
-                    "zh": "发烧了但没吃药。"
-                },
-                {
-                    "vi": "약을 먹었는데 아직 안 낫습니다.",
-                    "zh": "吃了药但还没好。"
-                }
-            ]
+          "vi": "약을 먹었는데 아직 안 낫습니다.",
+          "zh": "吃了药但还没好。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「感冒已经三天了」的韩语是？",
-            "options": [
-                "감기에 걸린 지 사흘 됐습니다",
-                "감기에 걸리고 싶습니다",
-                "감기에 걸릴 겁니다",
-                "감기에 걸렸지만 좋습니다"
-            ],
-            "answer": "감기에 걸린 지 사흘 됐습니다"
-        },
-        {
-            "type": "choose",
-            "question": "「发烧了但没吃药」的韩语是？",
-            "options": [
-                "열이 있는데 약을 안 먹었습니다",
-                "열이 있으면 약을 먹습니다",
-                "열이 있어서 약을 먹습니다",
-                "열이 있고 약을 먹습니다"
-            ],
-            "answer": "열이 있는데 약을 안 먹었습니다"
-        },
-        {
-            "type": "choose",
-            "question": "「药店」的韩语是？",
-            "options": [
-                "약국",
-                "병원",
-                "주사",
-                "처방전"
-            ],
-            "answer": "약국"
-        },
-        {
-            "type": "fill",
-            "question": "「咳嗽」的韩语是？",
-            "answer": "기침"
-        },
-        {
-            "type": "fill",
-            "question": "「住院」的韩语是？",
-            "answer": "입원하다"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「感冒已经三天了」的韩语是？",
+      "options": ["감기에 걸린 지 사흘 됐습니다", "감기에 걸리고 싶습니다", "감기에 걸릴 겁니다", "감기에 걸렸지만 좋습니다"],
+      "answer": "감기에 걸린 지 사흘 됐습니다"
+    },
+    {
+      "type": "choose",
+      "question": "「发烧了但没吃药」的韩语是？",
+      "options": ["열이 있는데 약을 안 먹었습니다", "열이 있으면 약을 먹습니다", "열이 있어서 약을 먹습니다", "열이 있고 약을 먹습니다"],
+      "answer": "열이 있는데 약을 안 먹었습니다"
+    },
+    {
+      "type": "choose",
+      "question": "「药店」的韩语是？",
+      "options": ["약국", "병원", "주사", "처방전"],
+      "answer": "약국"
+    },
+    {
+      "type": "fill",
+      "question": "「咳嗽」的韩语是？",
+      "answer": "기침"
+    },
+    {
+      "type": "fill",
+      "question": "「住院」的韩语是？",
+      "answer": "입원하다"
+    }
+  ]
 }

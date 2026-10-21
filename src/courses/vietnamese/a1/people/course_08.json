@@ -1,197 +1,123 @@
 {
-    "id": "course_vi_34",
-    "title": "第 8 课：职业名称",
-    "titleVi": "Bài 8: Tên các nghề nghiệp",
-    "order": 8,
-    "scenario": "people",
-    "goals": [
-        "能说出 8 种常见职业名称",
-        "能用「làm + 职业」表达从事某职业",
-        "能问对方职业并回答",
-        "能区分「học sinh / sinh viên」的年龄段"
-    ],
-    "words": [
+  "id": "course_vi_34",
+  "title": "第 8 课：职业名称",
+  "titleVi": "Bài 8: Tên các nghề nghiệp",
+  "order": 8,
+  "scenario": "people",
+  "goals": ["能说出 8 种常见职业名称", "能用「làm + 职业」表达从事某职业", "能问对方职业并回答", "能区分「học sinh / sinh viên」的年龄段"],
+  "words": [
+    {
+      "id": "vi_giao_vien",
+      "name": "giáo viên",
+      "trans": ["教师"],
+      "tags": ["people", "A1", "job"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_bac_si",
+      "name": "bác sĩ",
+      "trans": ["医生"],
+      "tags": ["people", "A1", "job"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_ky_su",
+      "name": "kỹ sư",
+      "trans": ["工程师"],
+      "tags": ["people", "A1", "job"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_cong_nhan",
+      "name": "công nhân",
+      "trans": ["工人"],
+      "tags": ["people", "A1", "job"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_nong_dan",
+      "name": "nông dân",
+      "trans": ["农民"],
+      "tags": ["people", "A1", "job"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_hoc_sinh",
+      "name": "học sinh",
+      "trans": ["学生（中小学）"],
+      "tags": ["people", "A1", "job"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_sinh_vien",
+      "name": "sinh viên",
+      "trans": ["大学生"],
+      "tags": ["people", "A1", "job"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_canh_sat",
+      "name": "cảnh sát",
+      "trans": ["警察"],
+      "tags": ["people", "A1", "job"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_707",
+    "sentence_vi_a1_708",
+    "sentence_vi_a1_709",
+    "sentence_vi_a1_710",
+    "sentence_vi_a1_711",
+    "sentence_vi_a1_712"
+  ],
+  "grammar": [
+    {
+      "point": "询问职业：làm nghề gì? / làm gì?",
+      "explain": "「Bạn làm nghề gì?」= 你做什么职业？回答用「Tôi làm + 职业」或「Tôi là + 职业」。「làm」更强调动作（从事），「là」更强调身份（是）。日常口语两种都可。",
+      "examples": [
         {
-            "id": "vi_giao_vien",
-            "name": "giáo viên",
-            "trans": [
-                "教师"
-            ],
-            "tags": [
-                "people",
-                "A1",
-                "job"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Bạn làm nghề gì?",
+          "zh": "你做什么工作？"
         },
         {
-            "id": "vi_bac_si",
-            "name": "bác sĩ",
-            "trans": [
-                "医生"
-            ],
-            "tags": [
-                "people",
-                "A1",
-                "job"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_ky_su",
-            "name": "kỹ sư",
-            "trans": [
-                "工程师"
-            ],
-            "tags": [
-                "people",
-                "A1",
-                "job"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_cong_nhan",
-            "name": "công nhân",
-            "trans": [
-                "工人"
-            ],
-            "tags": [
-                "people",
-                "A1",
-                "job"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_nong_dan",
-            "name": "nông dân",
-            "trans": [
-                "农民"
-            ],
-            "tags": [
-                "people",
-                "A1",
-                "job"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_hoc_sinh",
-            "name": "học sinh",
-            "trans": [
-                "学生（中小学）"
-            ],
-            "tags": [
-                "people",
-                "A1",
-                "job"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_sinh_vien",
-            "name": "sinh viên",
-            "trans": [
-                "大学生"
-            ],
-            "tags": [
-                "people",
-                "A1",
-                "job"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_canh_sat",
-            "name": "cảnh sát",
-            "trans": [
-                "警察"
-            ],
-            "tags": [
-                "people",
-                "A1",
-                "job"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Tôi là giáo viên.",
+          "zh": "我是教师。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_707",
-        "sentence_vi_a1_708",
-        "sentence_vi_a1_709",
-        "sentence_vi_a1_710",
-        "sentence_vi_a1_711",
-        "sentence_vi_a1_712"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "职业名词不加量词",
+      "explain": "职业名词在句中一般不加量词（不同于「cái bát」）。当指具体某人时才加「người / anh / chị」等：một người giáo viên（一位教师）——口语里更常说「một giáo viên」。中文「一个医生」对应「một bác sĩ」。",
+      "examples": [
         {
-            "point": "询问职业：làm nghề gì? / làm gì?",
-            "explain": "「Bạn làm nghề gì?」= 你做什么职业？回答用「Tôi làm + 职业」或「Tôi là + 职业」。「làm」更强调动作（从事），「là」更强调身份（是）。日常口语两种都可。",
-            "examples": [
-                {
-                    "vi": "Bạn làm nghề gì?",
-                    "zh": "你做什么工作？"
-                },
-                {
-                    "vi": "Tôi là giáo viên.",
-                    "zh": "我是教师。"
-                }
-            ]
+          "vi": "Anh ấy là bác sĩ.",
+          "zh": "他是医生。"
         },
         {
-            "point": "职业名词不加量词",
-            "explain": "职业名词在句中一般不加量词（不同于「cái bát」）。当指具体某人时才加「người / anh / chị」等：một người giáo viên（一位教师）——口语里更常说「một giáo viên」。中文「一个医生」对应「một bác sĩ」。",
-            "examples": [
-                {
-                    "vi": "Anh ấy là bác sĩ.",
-                    "zh": "他是医生。"
-                },
-                {
-                    "vi": "Có hai giáo viên trong lớp.",
-                    "zh": "教室里有两位老师。"
-                }
-            ]
+          "vi": "Có hai giáo viên trong lớp.",
+          "zh": "教室里有两位老师。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「教师」的越南语是？",
-            "options": [
-                "giáo viên",
-                "bác sĩ",
-                "kỹ sư",
-                "công nhân"
-            ],
-            "answer": "giáo viên"
-        },
-        {
-            "type": "fill",
-            "question": "「医生」的越南语是 ___。",
-            "answer": "bác sĩ"
-        },
-        {
-            "type": "telex_input",
-            "question": "用 Telex 输入「giáo viên」（教师）",
-            "answer": "giáo viên"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「教师」的越南语是？",
+      "options": ["giáo viên", "bác sĩ", "kỹ sư", "công nhân"],
+      "answer": "giáo viên"
+    },
+    {
+      "type": "fill",
+      "question": "「医生」的越南语是 ___。",
+      "answer": "bác sĩ"
+    },
+    {
+      "type": "telex_input",
+      "question": "用 Telex 输入「giáo viên」（教师）",
+      "answer": "giáo viên"
+    }
+  ]
 }

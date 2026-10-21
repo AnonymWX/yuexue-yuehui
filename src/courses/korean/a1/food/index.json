@@ -1,26 +1,26 @@
 {
-    "id": "food",
-    "stage": "a1",
-    "title": "食物与味道",
-    "titleVi": "음식과 맛",
-    "courses": [
-        {
-            "id": "course_ko_007",
-            "file": "course_01.json",
-            "title": "第 1 课：맛있습니다",
-            "titleVi": "제1과: 맛있습니다"
-        },
-        {
-            "id": "course_ko_020",
-            "file": "course_02.json",
-            "title": "第 2 课：이 음식은 매워요",
-            "titleVi": "제2과: 이 음식은 매워요"
-        },
-        {
-            "id": "course_ko_030",
-            "file": "course_03.json",
-            "title": "第 3 课：뭐 드시겠습니까?",
-            "titleVi": "제3과: 뭐 드시겠습니까?"
-        }
-    ]
+  "id": "food",
+  "stage": "a1",
+  "title": "食物与味道",
+  "titleVi": "음식과 맛",
+  "courses": [
+    {
+      "id": "course_ko_007",
+      "file": "course_01.json",
+      "title": "第 1 课：맛있습니다",
+      "titleVi": "제1과: 맛있습니다"
+    },
+    {
+      "id": "course_ko_020",
+      "file": "course_02.json",
+      "title": "第 2 课：이 음식은 매워요",
+      "titleVi": "제2과: 이 음식은 매워요"
+    },
+    {
+      "id": "course_ko_030",
+      "file": "course_03.json",
+      "title": "第 3 课：뭐 드시겠습니까?",
+      "titleVi": "제3과: 뭐 드시겠습니까?"
+    }
+  ]
 }

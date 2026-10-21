@@ -1,191 +1,123 @@
 {
-    "id": "course_vi_62",
-    "title": "第 3 课：路标与街道名称",
-    "titleVi": "Bài 3: Biển báo và tên đường",
-    "order": 3,
-    "scenario": "directions",
-    "goals": [
-        "掌握街道相关名词",
-        "掌握路标词汇",
-        "能看懂简单路标",
-        "能描述街道特征"
-    ],
-    "words": [
+  "id": "course_vi_62",
+  "title": "第 3 课：路标与街道名称",
+  "titleVi": "Bài 3: Biển báo và tên đường",
+  "order": 3,
+  "scenario": "directions",
+  "goals": ["掌握街道相关名词", "掌握路标词汇", "能看懂简单路标", "能描述街道特征"],
+  "words": [
+    {
+      "id": "vi_pho_street",
+      "name": "phố",
+      "trans": ["街", "街道"],
+      "tags": ["directions", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_ngo",
+      "name": "ngõ",
+      "trans": ["巷", "巷子"],
+      "tags": ["directions", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_nga_tu",
+      "name": "ngã tư",
+      "trans": ["十字路口"],
+      "tags": ["directions", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_nga_ba",
+      "name": "ngã ba",
+      "trans": ["三岔路口"],
+      "tags": ["directions", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_den_giao_thong",
+      "name": "đèn giao thông",
+      "trans": ["红绿灯"],
+      "tags": ["directions", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_bien_bao",
+      "name": "biển báo",
+      "trans": ["标志", "指示牌"],
+      "tags": ["directions", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_cau_bridge",
+      "name": "cầu",
+      "trans": ["桥"],
+      "tags": ["directions", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_ben_xe",
+      "name": "bến xe",
+      "trans": ["车站"],
+      "tags": ["directions", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_265",
+    "sentence_vi_a1_266",
+    "sentence_vi_a1_267",
+    "sentence_vi_a1_268",
+    "sentence_vi_a1_269",
+    "sentence_vi_a1_270"
+  ],
+  "grammar": [
+    {
+      "point": "「ở ngã tư / ngã ba」表在路口",
+      "explain": "「ở ngã tư」意为「在十字路口」，「ở ngã ba」意为「在三岔路口」。",
+      "examples": [
         {
-            "id": "vi_pho_street",
-            "name": "phố",
-            "trans": [
-                "街",
-                "街道"
-            ],
-            "tags": [
-                "directions",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Tôi ở ngã tư.",
+          "zh": "我在十字路口。"
         },
         {
-            "id": "vi_ngo",
-            "name": "ngõ",
-            "trans": [
-                "巷",
-                "巷子"
-            ],
-            "tags": [
-                "directions",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_nga_tu",
-            "name": "ngã tư",
-            "trans": [
-                "十字路口"
-            ],
-            "tags": [
-                "directions",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_nga_ba",
-            "name": "ngã ba",
-            "trans": [
-                "三岔路口"
-            ],
-            "tags": [
-                "directions",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_den_giao_thong",
-            "name": "đèn giao thông",
-            "trans": [
-                "红绿灯"
-            ],
-            "tags": [
-                "directions",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_bien_bao",
-            "name": "biển báo",
-            "trans": [
-                "标志",
-                "指示牌"
-            ],
-            "tags": [
-                "directions",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_cau_bridge",
-            "name": "cầu",
-            "trans": [
-                "桥"
-            ],
-            "tags": [
-                "directions",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_ben_xe",
-            "name": "bến xe",
-            "trans": [
-                "车站"
-            ],
-            "tags": [
-                "directions",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Rẽ trái ở ngã ba.",
+          "zh": "在三岔路口左转。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_265",
-        "sentence_vi_a1_266",
-        "sentence_vi_a1_267",
-        "sentence_vi_a1_268",
-        "sentence_vi_a1_269",
-        "sentence_vi_a1_270"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「qua + 地点」表穿过",
+      "explain": "「qua」意为「过、穿过」，如「qua cầu」（过桥）。",
+      "examples": [
         {
-            "point": "「ở ngã tư / ngã ba」表在路口",
-            "explain": "「ở ngã tư」意为「在十字路口」，「ở ngã ba」意为「在三岔路口」。",
-            "examples": [
-                {
-                    "vi": "Tôi ở ngã tư.",
-                    "zh": "我在十字路口。"
-                },
-                {
-                    "vi": "Rẽ trái ở ngã ba.",
-                    "zh": "在三岔路口左转。"
-                }
-            ]
+          "vi": "Đi qua cầu.",
+          "zh": "过桥。"
         },
         {
-            "point": "「qua + 地点」表穿过",
-            "explain": "「qua」意为「过、穿过」，如「qua cầu」（过桥）。",
-            "examples": [
-                {
-                    "vi": "Đi qua cầu.",
-                    "zh": "过桥。"
-                },
-                {
-                    "vi": "Đi qua ngã tư.",
-                    "zh": "穿过十字路口。"
-                }
-            ]
+          "vi": "Đi qua ngã tư.",
+          "zh": "穿过十字路口。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「十字路口」用越南语怎么说？",
-            "options": [
-                "ngã tư",
-                "ngã ba",
-                "bến xe"
-            ],
-            "answer": "ngã tư"
-        },
-        {
-            "type": "fill",
-            "question": "Đi qua ___.",
-            "answer": "cầu"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「红绿灯」的越南语",
-            "answer": "đèn giao thông"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「十字路口」用越南语怎么说？",
+      "options": ["ngã tư", "ngã ba", "bến xe"],
+      "answer": "ngã tư"
+    },
+    {
+      "type": "fill",
+      "question": "Đi qua ___.",
+      "answer": "cầu"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「红绿灯」的越南语",
+      "answer": "đèn giao thông"
+    }
+  ]
 }

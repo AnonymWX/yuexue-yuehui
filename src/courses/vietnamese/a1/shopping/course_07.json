@@ -1,191 +1,123 @@
 {
-    "id": "course_vi_84",
-    "title": "第 7 课：支付方式",
-    "titleVi": "Bài 7: Phương thức thanh toán",
-    "order": 7,
-    "scenario": "shopping",
-    "goals": [
-        "掌握各种支付方式",
-        "学会说「用……付款」",
-        "掌握二维码扫码支付",
-        "能完成一次支付对话"
-    ],
-    "words": [
+  "id": "course_vi_84",
+  "title": "第 7 课：支付方式",
+  "titleVi": "Bài 7: Phương thức thanh toán",
+  "order": 7,
+  "scenario": "shopping",
+  "goals": ["掌握各种支付方式", "学会说「用……付款」", "掌握二维码扫码支付", "能完成一次支付对话"],
+  "words": [
+    {
+      "id": "vi_chuyen_khoan",
+      "name": "chuyển khoản",
+      "trans": ["转账"],
+      "tags": ["shopping", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_the_tin_dung",
+      "name": "thẻ tín dụng",
+      "trans": ["信用卡"],
+      "tags": ["shopping", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_vi_dien_tu",
+      "name": "ví điện tử",
+      "trans": ["电子钱包"],
+      "tags": ["shopping", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_ma",
+      "name": "mã",
+      "trans": ["码", "代码"],
+      "tags": ["shopping", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_quet",
+      "name": "quét",
+      "trans": ["扫", "扫描"],
+      "tags": ["shopping", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_thanh_toan_shopping",
+      "name": "thanh toán",
+      "trans": ["支付", "结账"],
+      "tags": ["shopping", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_tien_luong",
+      "name": "tiền lương",
+      "trans": ["工资"],
+      "tags": ["shopping", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_giao_dich",
+      "name": "giao dịch",
+      "trans": ["交易"],
+      "tags": ["shopping", "A2"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_589",
+    "sentence_vi_a1_590",
+    "sentence_vi_a1_591",
+    "sentence_vi_a1_592",
+    "sentence_vi_a1_593",
+    "sentence_vi_a1_594"
+  ],
+  "grammar": [
+    {
+      "point": "「trả bằng + 支付方式」表用……付款",
+      "explain": "「trả bằng」意为「用……付」，后接支付方式，如「trả bằng tiền mặt」（用现金付）、「trả bằng thẻ」（用卡付）。",
+      "examples": [
         {
-            "id": "vi_chuyen_khoan",
-            "name": "chuyển khoản",
-            "trans": [
-                "转账"
-            ],
-            "tags": [
-                "shopping",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Tôi trả bằng tiền mặt.",
+          "zh": "我用现金付。"
         },
         {
-            "id": "vi_the_tin_dung",
-            "name": "thẻ tín dụng",
-            "trans": [
-                "信用卡"
-            ],
-            "tags": [
-                "shopping",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_vi_dien_tu",
-            "name": "ví điện tử",
-            "trans": [
-                "电子钱包"
-            ],
-            "tags": [
-                "shopping",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_ma",
-            "name": "mã",
-            "trans": [
-                "码",
-                "代码"
-            ],
-            "tags": [
-                "shopping",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_quet",
-            "name": "quét",
-            "trans": [
-                "扫",
-                "扫描"
-            ],
-            "tags": [
-                "shopping",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_thanh_toan_shopping",
-            "name": "thanh toán",
-            "trans": [
-                "支付",
-                "结账"
-            ],
-            "tags": [
-                "shopping",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_tien_luong",
-            "name": "tiền lương",
-            "trans": [
-                "工资"
-            ],
-            "tags": [
-                "shopping",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_giao_dich",
-            "name": "giao dịch",
-            "trans": [
-                "交易"
-            ],
-            "tags": [
-                "shopping",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Anh trả bằng thẻ được không?",
+          "zh": "您能用卡付吗？"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_589",
-        "sentence_vi_a1_590",
-        "sentence_vi_a1_591",
-        "sentence_vi_a1_592",
-        "sentence_vi_a1_593",
-        "sentence_vi_a1_594"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「quét mã + 平台」表扫码支付",
+      "explain": "扫码支付用「quét mã」+ 平台名称，如「quét mã ngân hàng」（扫银行码）。",
+      "examples": [
         {
-            "point": "「trả bằng + 支付方式」表用……付款",
-            "explain": "「trả bằng」意为「用……付」，后接支付方式，如「trả bằng tiền mặt」（用现金付）、「trả bằng thẻ」（用卡付）。",
-            "examples": [
-                {
-                    "vi": "Tôi trả bằng tiền mặt.",
-                    "zh": "我用现金付。"
-                },
-                {
-                    "vi": "Anh trả bằng thẻ được không?",
-                    "zh": "您能用卡付吗？"
-                }
-            ]
+          "vi": "Tôi quét mã để thanh toán.",
+          "zh": "我扫码支付。"
         },
         {
-            "point": "「quét mã + 平台」表扫码支付",
-            "explain": "扫码支付用「quét mã」+ 平台名称，如「quét mã ngân hàng」（扫银行码）。",
-            "examples": [
-                {
-                    "vi": "Tôi quét mã để thanh toán.",
-                    "zh": "我扫码支付。"
-                },
-                {
-                    "vi": "Quét mã bằng ví điện tử.",
-                    "zh": "用电子钱包扫码。"
-                }
-            ]
+          "vi": "Quét mã bằng ví điện tử.",
+          "zh": "用电子钱包扫码。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「电子钱包」用越南语怎么说？",
-            "options": [
-                "ví điện tử",
-                "thẻ tín dụng",
-                "tiền mặt"
-            ],
-            "answer": "ví điện tử"
-        },
-        {
-            "type": "fill",
-            "question": "Tôi trả ___ tiền mặt.",
-            "answer": "bằng"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「扫」的越南语",
-            "answer": "quét"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「电子钱包」用越南语怎么说？",
+      "options": ["ví điện tử", "thẻ tín dụng", "tiền mặt"],
+      "answer": "ví điện tử"
+    },
+    {
+      "type": "fill",
+      "question": "Tôi trả ___ tiền mặt.",
+      "answer": "bằng"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「扫」的越南语",
+      "answer": "quét"
+    }
+  ]
 }

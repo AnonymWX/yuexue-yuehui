@@ -1,190 +1,123 @@
 {
-    "id": "course_vi_74",
-    "title": "第 5 课：特殊要求",
-    "titleVi": "Bài 5: Yêu cầu đặc biệt",
-    "order": 5,
-    "scenario": "dining",
-    "goals": [
-        "掌握饮食禁忌与过敏表达",
-        "学会说「不要放……」「少放……」",
-        "能表达口味偏好",
-        "能要求特殊做法"
-    ],
-    "words": [
+  "id": "course_vi_74",
+  "title": "第 5 课：特殊要求",
+  "titleVi": "Bài 5: Yêu cầu đặc biệt",
+  "order": 5,
+  "scenario": "dining",
+  "goals": ["掌握饮食禁忌与过敏表达", "学会说「不要放……」「少放……」", "能表达口味偏好", "能要求特殊做法"],
+  "words": [
+    {
+      "id": "vi_di_ung",
+      "name": "dị ứng",
+      "trans": ["过敏"],
+      "tags": ["dining", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_kieng",
+      "name": "kiêng",
+      "trans": ["忌口", "戒"],
+      "tags": ["dining", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_an_chay",
+      "name": "ăn chay",
+      "trans": ["吃素"],
+      "tags": ["dining", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_cay",
+      "name": "cay",
+      "trans": ["辣"],
+      "tags": ["dining", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_man",
+      "name": "mặn",
+      "trans": ["咸"],
+      "tags": ["dining", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_ngot",
+      "name": "ngọt",
+      "trans": ["甜"],
+      "tags": ["dining", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_chua",
+      "name": "chua",
+      "trans": ["酸"],
+      "tags": ["dining", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_it",
+      "name": "ít",
+      "trans": ["少", "少量"],
+      "tags": ["dining", "A2"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_475",
+    "sentence_vi_a1_476",
+    "sentence_vi_a1_477",
+    "sentence_vi_a1_478",
+    "sentence_vi_a1_479",
+    "sentence_vi_a1_480"
+  ],
+  "grammar": [
+    {
+      "point": "「không + 动词」表不要",
+      "explain": "表示「不要」用「không + 动词」，如「không cho đường」（不要放糖）、「không cho đá」（不要冰）。",
+      "examples": [
         {
-            "id": "vi_di_ung",
-            "name": "dị ứng",
-            "trans": [
-                "过敏"
-            ],
-            "tags": [
-                "dining",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Cho tôi cà phê không đường.",
+          "zh": "给我不加糖的咖啡。"
         },
         {
-            "id": "vi_kieng",
-            "name": "kiêng",
-            "trans": [
-                "忌口",
-                "戒"
-            ],
-            "tags": [
-                "dining",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_an_chay",
-            "name": "ăn chay",
-            "trans": [
-                "吃素"
-            ],
-            "tags": [
-                "dining",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_cay",
-            "name": "cay",
-            "trans": [
-                "辣"
-            ],
-            "tags": [
-                "dining",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_man",
-            "name": "mặn",
-            "trans": [
-                "咸"
-            ],
-            "tags": [
-                "dining",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_ngot",
-            "name": "ngọt",
-            "trans": [
-                "甜"
-            ],
-            "tags": [
-                "dining",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_chua",
-            "name": "chua",
-            "trans": [
-                "酸"
-            ],
-            "tags": [
-                "dining",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_it",
-            "name": "ít",
-            "trans": [
-                "少",
-                "少量"
-            ],
-            "tags": [
-                "dining",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Nước cam không đá.",
+          "zh": "橙汁不加冰。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_475",
-        "sentence_vi_a1_476",
-        "sentence_vi_a1_477",
-        "sentence_vi_a1_478",
-        "sentence_vi_a1_479",
-        "sentence_vi_a1_480"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「ít / nhiều + 形容词」表少/多",
+      "explain": "「ít」意为「少」，「nhiều」意为「多」，放在形容词前。",
+      "examples": [
         {
-            "point": "「không + 动词」表不要",
-            "explain": "表示「不要」用「không + 动词」，如「không cho đường」（不要放糖）、「không cho đá」（不要冰）。",
-            "examples": [
-                {
-                    "vi": "Cho tôi cà phê không đường.",
-                    "zh": "给我不加糖的咖啡。"
-                },
-                {
-                    "vi": "Nước cam không đá.",
-                    "zh": "橙汁不加冰。"
-                }
-            ]
+          "vi": "Cho ít đường.",
+          "zh": "少放糖。"
         },
         {
-            "point": "「ít / nhiều + 形容词」表少/多",
-            "explain": "「ít」意为「少」，「nhiều」意为「多」，放在形容词前。",
-            "examples": [
-                {
-                    "vi": "Cho ít đường.",
-                    "zh": "少放糖。"
-                },
-                {
-                    "vi": "Cho nhiều đá.",
-                    "zh": "多放冰。"
-                }
-            ]
+          "vi": "Cho nhiều đá.",
+          "zh": "多放冰。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「辣」用越南语怎么说？",
-            "options": [
-                "cay",
-                "mặn",
-                "ngọt"
-            ],
-            "answer": "cay"
-        },
-        {
-            "type": "fill",
-            "question": "Cho tôi cà phê không ___.",
-            "answer": "đường"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「过敏」的越南语",
-            "answer": "dị ứng"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「辣」用越南语怎么说？",
+      "options": ["cay", "mặn", "ngọt"],
+      "answer": "cay"
+    },
+    {
+      "type": "fill",
+      "question": "Cho tôi cà phê không ___.",
+      "answer": "đường"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「过敏」的越南语",
+      "answer": "dị ứng"
+    }
+  ]
 }

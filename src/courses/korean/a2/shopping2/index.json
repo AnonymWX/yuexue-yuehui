@@ -1,14 +1,14 @@
 {
-    "id": "study",
-    "stage": "a2",
-    "title": "学习与学校",
-    "titleVi": "학습과 학교",
-    "courses": [
-        {
-            "id": "course_ko_105",
-            "file": "course_01.json",
-            "title": "第 1 课：시험이 있기 때문에 공부해야 합니다",
-            "titleVi": "제1과: 시험이 있기 때문에 공부해야 합니다"
-        }
-    ]
+  "id": "study",
+  "stage": "a2",
+  "title": "学习与学校",
+  "titleVi": "학습과 학교",
+  "courses": [
+    {
+      "id": "course_ko_105",
+      "file": "course_01.json",
+      "title": "第 1 课：시험이 있기 때문에 공부해야 합니다",
+      "titleVi": "제1과: 시험이 있기 때문에 공부해야 합니다"
+    }
+  ]
 }

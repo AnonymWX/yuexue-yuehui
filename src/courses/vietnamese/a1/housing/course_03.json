@@ -1,192 +1,123 @@
 {
-    "id": "course_vi_37",
-    "title": "第 3 课：房屋类型",
-    "titleVi": "Bài 3: Các loại nhà ở",
-    "order": 3,
-    "scenario": "housing",
-    "goals": [
-        "掌握常见房屋类型的越南语名称",
-        "学会说「住在……」",
-        "掌握楼层表达",
-        "能描述自己居住的房屋类型"
-    ],
-    "words": [
+  "id": "course_vi_37",
+  "title": "第 3 课：房屋类型",
+  "titleVi": "Bài 3: Các loại nhà ở",
+  "order": 3,
+  "scenario": "housing",
+  "goals": ["掌握常见房屋类型的越南语名称", "学会说「住在……」", "掌握楼层表达", "能描述自己居住的房屋类型"],
+  "words": [
+    {
+      "id": "vi_nha",
+      "name": "nhà",
+      "trans": ["房子", "家"],
+      "tags": ["housing", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_can_ho",
+      "name": "căn hộ",
+      "trans": ["公寓"],
+      "tags": ["housing", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_biet_thu",
+      "name": "biệt thự",
+      "trans": ["别墅"],
+      "tags": ["housing", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_nha_pho",
+      "name": "nhà phố",
+      "trans": ["排屋", "沿街房"],
+      "tags": ["housing", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_nha_tran",
+      "name": "nhà tranh",
+      "trans": ["茅草屋"],
+      "tags": ["housing", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_tang_floor",
+      "name": "tầng",
+      "trans": ["层", "楼"],
+      "tags": ["housing", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_lau",
+      "name": "lầu",
+      "trans": ["楼（南方用）"],
+      "tags": ["housing", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_san",
+      "name": "sân",
+      "trans": ["院子", "院子"],
+      "tags": ["housing", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_241",
+    "sentence_vi_a1_242",
+    "sentence_vi_a1_243",
+    "sentence_vi_a1_244",
+    "sentence_vi_a1_245",
+    "sentence_vi_a1_246"
+  ],
+  "grammar": [
+    {
+      "point": "「sống ở + 地点」表居住",
+      "explain": "表示「住在某处」用「sống ở + 地点」或「ở + 地点」。",
+      "examples": [
         {
-            "id": "vi_nha",
-            "name": "nhà",
-            "trans": [
-                "房子",
-                "家"
-            ],
-            "tags": [
-                "housing",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Tôi sống ở căn hộ.",
+          "zh": "我住在公寓。"
         },
         {
-            "id": "vi_can_ho",
-            "name": "căn hộ",
-            "trans": [
-                "公寓"
-            ],
-            "tags": [
-                "housing",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_biet_thu",
-            "name": "biệt thự",
-            "trans": [
-                "别墅"
-            ],
-            "tags": [
-                "housing",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_nha_pho",
-            "name": "nhà phố",
-            "trans": [
-                "排屋",
-                "沿街房"
-            ],
-            "tags": [
-                "housing",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_nha_tran",
-            "name": "nhà tranh",
-            "trans": [
-                "茅草屋"
-            ],
-            "tags": [
-                "housing",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_tang_floor",
-            "name": "tầng",
-            "trans": [
-                "层",
-                "楼"
-            ],
-            "tags": [
-                "housing",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_lau",
-            "name": "lầu",
-            "trans": [
-                "楼（南方用）"
-            ],
-            "tags": [
-                "housing",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_san",
-            "name": "sân",
-            "trans": [
-                "院子",
-                "院子"
-            ],
-            "tags": [
-                "housing",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Anh ấy sống ở biệt thự.",
+          "zh": "他住在别墅。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_241",
-        "sentence_vi_a1_242",
-        "sentence_vi_a1_243",
-        "sentence_vi_a1_244",
-        "sentence_vi_a1_245",
-        "sentence_vi_a1_246"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "楼层表达「tầng + 数字」",
+      "explain": "楼层用「tầng + 数字」。北方用「tầng」，南方用「lầu」。越南语中「tầng 1」通常指地面层。",
+      "examples": [
         {
-            "point": "「sống ở + 地点」表居住",
-            "explain": "表示「住在某处」用「sống ở + 地点」或「ở + 地点」。",
-            "examples": [
-                {
-                    "vi": "Tôi sống ở căn hộ.",
-                    "zh": "我住在公寓。"
-                },
-                {
-                    "vi": "Anh ấy sống ở biệt thự.",
-                    "zh": "他住在别墅。"
-                }
-            ]
+          "vi": "Tôi ở tầng 3.",
+          "zh": "我住 3 楼。"
         },
         {
-            "point": "楼层表达「tầng + 数字」",
-            "explain": "楼层用「tầng + 数字」。北方用「tầng」，南方用「lầu」。越南语中「tầng 1」通常指地面层。",
-            "examples": [
-                {
-                    "vi": "Tôi ở tầng 3.",
-                    "zh": "我住 3 楼。"
-                },
-                {
-                    "vi": "Anh ấy ở tầng 1.",
-                    "zh": "他住 1 楼。"
-                }
-            ]
+          "vi": "Anh ấy ở tầng 1.",
+          "zh": "他住 1 楼。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「公寓」用越南语怎么说？",
-            "options": [
-                "căn hộ",
-                "biệt thự",
-                "nhà phố"
-            ],
-            "answer": "căn hộ"
-        },
-        {
-            "type": "fill",
-            "question": "Tôi sống ở tầng ___.",
-            "answer": "3"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「别墅」的越南语",
-            "answer": "biệt thự"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「公寓」用越南语怎么说？",
+      "options": ["căn hộ", "biệt thự", "nhà phố"],
+      "answer": "căn hộ"
+    },
+    {
+      "type": "fill",
+      "question": "Tôi sống ở tầng ___.",
+      "answer": "3"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「别墅」的越南语",
+      "answer": "biệt thự"
+    }
+  ]
 }

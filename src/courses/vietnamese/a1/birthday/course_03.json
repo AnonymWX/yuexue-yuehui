@@ -1,188 +1,123 @@
 {
-    "id": "course_vi_56",
-    "title": "第 3 课：数字 1-100",
-    "titleVi": "Bài 3: Số đếm từ 1 đến 100",
-    "order": 3,
-    "scenario": "birthday",
-    "goals": [
-        "掌握越南语 1-10 的基本数字",
-        "掌握十位、百位的构词规律",
-        "能说出任意数字 1-100",
-        "能用数字表达年龄与年份"
-    ],
-    "words": [
+  "id": "course_vi_56",
+  "title": "第 3 课：数字 1-100",
+  "titleVi": "Bài 3: Số đếm từ 1 đến 100",
+  "order": 3,
+  "scenario": "birthday",
+  "goals": ["掌握越南语 1-10 的基本数字", "掌握十位、百位的构词规律", "能说出任意数字 1-100", "能用数字表达年龄与年份"],
+  "words": [
+    {
+      "id": "vi_so_mot",
+      "name": "một",
+      "trans": ["一"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_so_hai",
+      "name": "hai",
+      "trans": ["二"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_so_ba",
+      "name": "ba",
+      "trans": ["三"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_so_bon",
+      "name": "bốn",
+      "trans": ["四"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_so_nam",
+      "name": "năm",
+      "trans": ["五"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_so_sau",
+      "name": "sáu",
+      "trans": ["六"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_so_muoi",
+      "name": "mười",
+      "trans": ["十"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_so_tram",
+      "name": "trăm",
+      "trans": ["百"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_259",
+    "sentence_vi_a1_260",
+    "sentence_vi_a1_261",
+    "sentence_vi_a1_262",
+    "sentence_vi_a1_263",
+    "sentence_vi_a1_264"
+  ],
+  "grammar": [
+    {
+      "point": "数字 1-10 与进位规律",
+      "explain": "越南语数字 1-9：một / hai / ba / bốn / năm / sáu / bảy / tám / chín；10 是 mười。11 = mười một，20 = hai mươi，21 = hai mươi mốt。",
+      "examples": [
         {
-            "id": "vi_so_mot",
-            "name": "một",
-            "trans": [
-                "一"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Một, hai, ba, bốn, năm.",
+          "zh": "一、二、三、四、五。"
         },
         {
-            "id": "vi_so_hai",
-            "name": "hai",
-            "trans": [
-                "二"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_so_ba",
-            "name": "ba",
-            "trans": [
-                "三"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_so_bon",
-            "name": "bốn",
-            "trans": [
-                "四"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_so_nam",
-            "name": "năm",
-            "trans": [
-                "五"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_so_sau",
-            "name": "sáu",
-            "trans": [
-                "六"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_so_muoi",
-            "name": "mười",
-            "trans": [
-                "十"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_so_tram",
-            "name": "trăm",
-            "trans": [
-                "百"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Mười, hai mươi, ba mươi.",
+          "zh": "十、二十、三十。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_259",
-        "sentence_vi_a1_260",
-        "sentence_vi_a1_261",
-        "sentence_vi_a1_262",
-        "sentence_vi_a1_263",
-        "sentence_vi_a1_264"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「mươi」与「mười」的区别",
+      "explain": "单独说 10 用「mười」；10 作为十位时用「mươi」（如 20 = hai mươi）。注意 15 = mười lăm（不是 mười năm）。",
+      "examples": [
         {
-            "point": "数字 1-10 与进位规律",
-            "explain": "越南语数字 1-9：một / hai / ba / bốn / năm / sáu / bảy / tám / chín；10 是 mười。11 = mười một，20 = hai mươi，21 = hai mươi mốt。",
-            "examples": [
-                {
-                    "vi": "Một, hai, ba, bốn, năm.",
-                    "zh": "一、二、三、四、五。"
-                },
-                {
-                    "vi": "Mười, hai mươi, ba mươi.",
-                    "zh": "十、二十、三十。"
-                }
-            ]
+          "vi": "Tôi ba mươi tuổi.",
+          "zh": "我三十岁。"
         },
         {
-            "point": "「mươi」与「mười」的区别",
-            "explain": "单独说 10 用「mười」；10 作为十位时用「mươi」（如 20 = hai mươi）。注意 15 = mười lăm（不是 mười năm）。",
-            "examples": [
-                {
-                    "vi": "Tôi ba mươi tuổi.",
-                    "zh": "我三十岁。"
-                },
-                {
-                    "vi": "Có hai mươi người.",
-                    "zh": "有二十个人。"
-                }
-            ]
+          "vi": "Có hai mươi người.",
+          "zh": "有二十个人。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「二十」用越南语怎么说？",
-            "options": [
-                "hai mươi",
-                "hai mười",
-                "mươi hai"
-            ],
-            "answer": "hai mươi"
-        },
-        {
-            "type": "fill",
-            "question": "Tôi ___ mươi tuổi.",
-            "answer": "ba"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「十」的越南语",
-            "answer": "mười"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「二十」用越南语怎么说？",
+      "options": ["hai mươi", "hai mười", "mươi hai"],
+      "answer": "hai mươi"
+    },
+    {
+      "type": "fill",
+      "question": "Tôi ___ mươi tuổi.",
+      "answer": "ba"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「十」的越南语",
+      "answer": "mười"
+    }
+  ]
 }

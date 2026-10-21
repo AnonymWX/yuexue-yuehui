@@ -1,190 +1,123 @@
 {
-    "id": "course_vi_48",
-    "title": "第 6 课：日常作息描述",
-    "titleVi": "Bài 6: Miêu tả sinh hoạt hàng ngày",
-    "order": 6,
-    "scenario": "time",
-    "goals": [
-        "掌握日常作息动词",
-        "能描述自己的一天",
-        "学会用时间状语连接句子",
-        "能听懂他人的作息安排"
-    ],
-    "words": [
+  "id": "course_vi_48",
+  "title": "第 6 课：日常作息描述",
+  "titleVi": "Bài 6: Miêu tả sinh hoạt hàng ngày",
+  "order": 6,
+  "scenario": "time",
+  "goals": ["掌握日常作息动词", "能描述自己的一天", "学会用时间状语连接句子", "能听懂他人的作息安排"],
+  "words": [
+    {
+      "id": "vi_thuc_day",
+      "name": "thức dậy",
+      "trans": ["起床", "醒来"],
+      "tags": ["time", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_ngu",
+      "name": "ngủ",
+      "trans": ["睡", "睡觉"],
+      "tags": ["time", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_an_sang",
+      "name": "ăn sáng",
+      "trans": ["吃早饭"],
+      "tags": ["time", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_an_trua",
+      "name": "ăn trưa",
+      "trans": ["吃午饭"],
+      "tags": ["time", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_an_toi",
+      "name": "ăn tối",
+      "trans": ["吃晚饭"],
+      "tags": ["time", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_di_lam",
+      "name": "đi làm",
+      "trans": ["去上班"],
+      "tags": ["time", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_di_hoc",
+      "name": "đi học",
+      "trans": ["去上学"],
+      "tags": ["time", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_ve_nha",
+      "name": "về nhà",
+      "trans": ["回家"],
+      "tags": ["time", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_523",
+    "sentence_vi_a1_524",
+    "sentence_vi_a1_525",
+    "sentence_vi_a1_526",
+    "sentence_vi_a1_527",
+    "sentence_vi_a1_528"
+  ],
+  "grammar": [
+    {
+      "point": "时间状语「lúc + 时间」",
+      "explain": "用「lúc + 时间」表示动作发生的时间，如「lúc 6 giờ」（6 点时）。",
+      "examples": [
         {
-            "id": "vi_thuc_day",
-            "name": "thức dậy",
-            "trans": [
-                "起床",
-                "醒来"
-            ],
-            "tags": [
-                "time",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Lúc 6 giờ tôi thức dậy.",
+          "zh": "我 6 点起床。"
         },
         {
-            "id": "vi_ngu",
-            "name": "ngủ",
-            "trans": [
-                "睡",
-                "睡觉"
-            ],
-            "tags": [
-                "time",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_an_sang",
-            "name": "ăn sáng",
-            "trans": [
-                "吃早饭"
-            ],
-            "tags": [
-                "time",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_an_trua",
-            "name": "ăn trưa",
-            "trans": [
-                "吃午饭"
-            ],
-            "tags": [
-                "time",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_an_toi",
-            "name": "ăn tối",
-            "trans": [
-                "吃晚饭"
-            ],
-            "tags": [
-                "time",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_di_lam",
-            "name": "đi làm",
-            "trans": [
-                "去上班"
-            ],
-            "tags": [
-                "time",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_di_hoc",
-            "name": "đi học",
-            "trans": [
-                "去上学"
-            ],
-            "tags": [
-                "time",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_ve_nha",
-            "name": "về nhà",
-            "trans": [
-                "回家"
-            ],
-            "tags": [
-                "time",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Lúc 7 giờ tôi ăn sáng.",
+          "zh": "我 7 点吃早饭。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_523",
-        "sentence_vi_a1_524",
-        "sentence_vi_a1_525",
-        "sentence_vi_a1_526",
-        "sentence_vi_a1_527",
-        "sentence_vi_a1_528"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「sau đó / rồi」表顺序",
+      "explain": "表示动作顺序用「sau đó」或「rồi」，意为「然后」。",
+      "examples": [
         {
-            "point": "时间状语「lúc + 时间」",
-            "explain": "用「lúc + 时间」表示动作发生的时间，如「lúc 6 giờ」（6 点时）。",
-            "examples": [
-                {
-                    "vi": "Lúc 6 giờ tôi thức dậy.",
-                    "zh": "我 6 点起床。"
-                },
-                {
-                    "vi": "Lúc 7 giờ tôi ăn sáng.",
-                    "zh": "我 7 点吃早饭。"
-                }
-            ]
+          "vi": "Tôi thức dậy, sau đó ăn sáng.",
+          "zh": "我起床，然后吃早饭。"
         },
         {
-            "point": "「sau đó / rồi」表顺序",
-            "explain": "表示动作顺序用「sau đó」或「rồi」，意为「然后」。",
-            "examples": [
-                {
-                    "vi": "Tôi thức dậy, sau đó ăn sáng.",
-                    "zh": "我起床，然后吃早饭。"
-                },
-                {
-                    "vi": "Tôi đi làm, rồi về nhà.",
-                    "zh": "我去上班，然后回家。"
-                }
-            ]
+          "vi": "Tôi đi làm, rồi về nhà.",
+          "zh": "我去上班，然后回家。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「我 6 点起床」的正确说法是？",
-            "options": [
-                "Lúc 6 giờ tôi thức dậy",
-                "Tôi thức dậy lúc 6 giờ",
-                "两者都对"
-            ],
-            "answer": "两者都对"
-        },
-        {
-            "type": "fill",
-            "question": "Lúc 7 giờ tôi ăn ___.",
-            "answer": "sáng"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「去上班」的越南语",
-            "answer": "đi làm"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「我 6 点起床」的正确说法是？",
+      "options": ["Lúc 6 giờ tôi thức dậy", "Tôi thức dậy lúc 6 giờ", "两者都对"],
+      "answer": "两者都对"
+    },
+    {
+      "type": "fill",
+      "question": "Lúc 7 giờ tôi ăn ___.",
+      "answer": "sáng"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「去上班」的越南语",
+      "answer": "đi làm"
+    }
+  ]
 }

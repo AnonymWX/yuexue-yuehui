@@ -1,321 +1,191 @@
 {
-    "id": "course_vi_161",
-    "title": "第 1 课：基本情绪",
-    "titleVi": "Bài 1: Cảm xúc cơ bản",
-    "order": 1,
-    "scenario": "emotions",
-    "goals": [
-        "能说出 12 种以上基本情绪的越南语说法",
-        "能用「cảm thấy / thấy」表达自己的感受",
-        "能用「rất / hơi / quá」修饰情绪强度",
-        "能询问他人的情绪状态"
-    ],
-    "words": [
+  "id": "course_vi_161",
+  "title": "第 1 课：基本情绪",
+  "titleVi": "Bài 1: Cảm xúc cơ bản",
+  "order": 1,
+  "scenario": "emotions",
+  "goals": [
+    "能说出 12 种以上基本情绪的越南语说法",
+    "能用「cảm thấy / thấy」表达自己的感受",
+    "能用「rất / hơi / quá」修饰情绪强度",
+    "能询问他人的情绪状态"
+  ],
+  "words": [
+    {
+      "id": "vi_a2_cam_xuc",
+      "name": "cảm xúc",
+      "trans": ["情感", "情绪"],
+      "tags": ["emotions", "A2", "basic"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_vui",
+      "name": "vui",
+      "trans": ["高兴", "开心"],
+      "tags": ["emotions", "A2", "basic"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_buon",
+      "name": "buồn",
+      "trans": ["伤心", "难过"],
+      "tags": ["emotions", "A2", "basic"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_tuc_gian",
+      "name": "tức giận",
+      "trans": ["生气", "愤怒"],
+      "tags": ["emotions", "A2", "basic"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_lo_lang",
+      "name": "lo lắng",
+      "trans": ["担心", "焦虑"],
+      "tags": ["emotions", "A2", "basic"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_so_hai",
+      "name": "sợ hãi",
+      "trans": ["害怕"],
+      "tags": ["emotions", "A2", "basic"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_ngac_nhien",
+      "name": "ngạc nhiên",
+      "trans": ["惊讶"],
+      "tags": ["emotions", "A2", "basic"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_hanh_phuc",
+      "name": "hạnh phúc",
+      "trans": ["幸福"],
+      "tags": ["emotions", "A2", "basic"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_met_moi",
+      "name": "mệt mỏi",
+      "trans": ["疲惫"],
+      "tags": ["emotions", "A2", "basic"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_phat_cau",
+      "name": "phấn khởi",
+      "trans": ["兴奋", "振奋"],
+      "tags": ["emotions", "A2", "basic"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_binh_tinh",
+      "name": "bình tĩnh",
+      "trans": ["冷静", "镇定"],
+      "tags": ["emotions", "A2", "basic"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_xau_ho",
+      "name": "xấu hổ",
+      "trans": ["尴尬", "羞愧"],
+      "tags": ["emotions", "A2", "basic"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_that_vong",
+      "name": "thất vọng",
+      "trans": ["失望"],
+      "tags": ["emotions", "A2", "basic"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_tu_hao",
+      "name": "tự hào",
+      "trans": ["自豪"],
+      "tags": ["emotions", "A2", "basic"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a2_049",
+    "sentence_vi_a2_050",
+    "sentence_vi_a2_051",
+    "sentence_vi_a2_052",
+    "sentence_vi_a2_053",
+    "sentence_vi_a2_054",
+    "sentence_vi_a2_055",
+    "sentence_vi_a2_056"
+  ],
+  "grammar": [
+    {
+      "point": "表达感受：cảm thấy / thấy + 情绪",
+      "explain": "「cảm thấy」= 感觉（较正式）；「thấy」= 觉得（口语常用）。二者都可接情绪形容词。结构：Tôi cảm thấy + 情绪；Tôi thấy + 情绪。强调原因可加 vì/bởi vì：「Tôi cảm thấy vui vì...」（我因为…而感到高兴）。",
+      "examples": [
         {
-            "id": "vi_a2_cam_xuc",
-            "name": "cảm xúc",
-            "trans": [
-                "情感",
-                "情绪"
-            ],
-            "tags": [
-                "emotions",
-                "A2",
-                "basic"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Hôm nay tôi cảm thấy rất vui vì được gặp bạn.",
+          "zh": "今天能见到你，我感到很高兴。"
         },
         {
-            "id": "vi_a2_vui",
-            "name": "vui",
-            "trans": [
-                "高兴",
-                "开心"
-            ],
-            "tags": [
-                "emotions",
-                "A2",
-                "basic"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Tôi thấy hơi mệt mỏi sau một ngày làm việc.",
+          "zh": "工作一天之后我觉得有点累。"
         },
         {
-            "id": "vi_a2_buon",
-            "name": "buồn",
-            "trans": [
-                "伤心",
-                "难过"
-            ],
-            "tags": [
-                "emotions",
-                "A2",
-                "basic"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_tuc_gian",
-            "name": "tức giận",
-            "trans": [
-                "生气",
-                "愤怒"
-            ],
-            "tags": [
-                "emotions",
-                "A2",
-                "basic"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_lo_lang",
-            "name": "lo lắng",
-            "trans": [
-                "担心",
-                "焦虑"
-            ],
-            "tags": [
-                "emotions",
-                "A2",
-                "basic"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_so_hai",
-            "name": "sợ hãi",
-            "trans": [
-                "害怕"
-            ],
-            "tags": [
-                "emotions",
-                "A2",
-                "basic"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_ngac_nhien",
-            "name": "ngạc nhiên",
-            "trans": [
-                "惊讶"
-            ],
-            "tags": [
-                "emotions",
-                "A2",
-                "basic"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_hanh_phuc",
-            "name": "hạnh phúc",
-            "trans": [
-                "幸福"
-            ],
-            "tags": [
-                "emotions",
-                "A2",
-                "basic"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_met_moi",
-            "name": "mệt mỏi",
-            "trans": [
-                "疲惫"
-            ],
-            "tags": [
-                "emotions",
-                "A2",
-                "basic"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_phat_cau",
-            "name": "phấn khởi",
-            "trans": [
-                "兴奋",
-                "振奋"
-            ],
-            "tags": [
-                "emotions",
-                "A2",
-                "basic"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_binh_tinh",
-            "name": "bình tĩnh",
-            "trans": [
-                "冷静",
-                "镇定"
-            ],
-            "tags": [
-                "emotions",
-                "A2",
-                "basic"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_xau_ho",
-            "name": "xấu hổ",
-            "trans": [
-                "尴尬",
-                "羞愧"
-            ],
-            "tags": [
-                "emotions",
-                "A2",
-                "basic"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_that_vong",
-            "name": "thất vọng",
-            "trans": [
-                "失望"
-            ],
-            "tags": [
-                "emotions",
-                "A2",
-                "basic"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_tu_hao",
-            "name": "tự hào",
-            "trans": [
-                "自豪"
-            ],
-            "tags": [
-                "emotions",
-                "A2",
-                "basic"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Cô ấy cảm thấy lo lắng vì kết quả thi sắp công bố.",
+          "zh": "她因为考试结果即将公布而感到担心。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a2_049",
-        "sentence_vi_a2_050",
-        "sentence_vi_a2_051",
-        "sentence_vi_a2_052",
-        "sentence_vi_a2_053",
-        "sentence_vi_a2_054",
-        "sentence_vi_a2_055",
-        "sentence_vi_a2_056"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "询问情绪：thế nào / có...không",
+      "explain": "「Bạn cảm thấy thế nào?」= 你感觉怎样？「Bạn có vui không?」= 你高兴吗？前者开放，后者是非问句。「Dạo này bạn thế nào?」= 最近你怎样（问候）。回答用形容词直接答：Vui / Buồn / Bình thường。",
+      "examples": [
         {
-            "point": "表达感受：cảm thấy / thấy + 情绪",
-            "explain": "「cảm thấy」= 感觉（较正式）；「thấy」= 觉得（口语常用）。二者都可接情绪形容词。结构：Tôi cảm thấy + 情绪；Tôi thấy + 情绪。强调原因可加 vì/bởi vì：「Tôi cảm thấy vui vì...」（我因为…而感到高兴）。",
-            "examples": [
-                {
-                    "vi": "Hôm nay tôi cảm thấy rất vui vì được gặp bạn.",
-                    "zh": "今天能见到你，我感到很高兴。"
-                },
-                {
-                    "vi": "Tôi thấy hơi mệt mỏi sau một ngày làm việc.",
-                    "zh": "工作一天之后我觉得有点累。"
-                },
-                {
-                    "vi": "Cô ấy cảm thấy lo lắng vì kết quả thi sắp công bố.",
-                    "zh": "她因为考试结果即将公布而感到担心。"
-                }
-            ]
+          "vi": "Dạo này bạn cảm thấy thế nào?",
+          "zh": "最近你感觉怎样？"
         },
         {
-            "point": "询问情绪：thế nào / có...không",
-            "explain": "「Bạn cảm thấy thế nào?」= 你感觉怎样？「Bạn có vui không?」= 你高兴吗？前者开放，后者是非问句。「Dạo này bạn thế nào?」= 最近你怎样（问候）。回答用形容词直接答：Vui / Buồn / Bình thường。",
-            "examples": [
-                {
-                    "vi": "Dạo này bạn cảm thấy thế nào?",
-                    "zh": "最近你感觉怎样？"
-                },
-                {
-                    "vi": "Nghe tin đó, bạn có ngạc nhiên không?",
-                    "zh": "听到那个消息，你惊讶吗？"
-                },
-                {
-                    "vi": "Sao trông anh buồn thế? Có chuyện gì à?",
-                    "zh": "怎么看起来你很伤心？发生什么事了吗？"
-                }
-            ]
+          "vi": "Nghe tin đó, bạn có ngạc nhiên không?",
+          "zh": "听到那个消息，你惊讶吗？"
+        },
+        {
+          "vi": "Sao trông anh buồn thế? Có chuyện gì à?",
+          "zh": "怎么看起来你很伤心？发生什么事了吗？"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「thất vọng」的意思是？",
-            "options": [
-                "自豪",
-                "失望",
-                "惊讶",
-                "尴尬"
-            ],
-            "answer": "失望"
-        },
-        {
-            "type": "choose",
-            "question": "哪句正确表达「我因为考试而担心」？",
-            "options": [
-                "Tôi lo lắng vì kỳ thi.",
-                "Tôi vì lo lắng kỳ thi.",
-                "Tôi kỳ thi lo lắng vì.",
-                "Vì tôi kỳ thi lo lắng."
-            ],
-            "answer": "Tôi lo lắng vì kỳ thi."
-        },
-        {
-            "type": "fill",
-            "question": "Hôm nay tôi cảm ___ rất vui.（今天我感到很高兴）",
-            "answer": "thấy"
-        },
-        {
-            "type": "fill",
-            "question": "Sao trông anh ___ thế? Có chuyện gì à?（怎么看起来你很伤心？发生什么事了吗？）",
-            "answer": "buồn"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「我很开心」的越南语",
-            "answer": "Tôi rất vui"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「thất vọng」的意思是？",
+      "options": ["自豪", "失望", "惊讶", "尴尬"],
+      "answer": "失望"
+    },
+    {
+      "type": "choose",
+      "question": "哪句正确表达「我因为考试而担心」？",
+      "options": ["Tôi lo lắng vì kỳ thi.", "Tôi vì lo lắng kỳ thi.", "Tôi kỳ thi lo lắng vì.", "Vì tôi kỳ thi lo lắng."],
+      "answer": "Tôi lo lắng vì kỳ thi."
+    },
+    {
+      "type": "fill",
+      "question": "Hôm nay tôi cảm ___ rất vui.（今天我感到很高兴）",
+      "answer": "thấy"
+    },
+    {
+      "type": "fill",
+      "question": "Sao trông anh ___ thế? Có chuyện gì à?（怎么看起来你很伤心？发生什么事了吗？）",
+      "answer": "buồn"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「我很开心」的越南语",
+      "answer": "Tôi rất vui"
+    }
+  ]
 }

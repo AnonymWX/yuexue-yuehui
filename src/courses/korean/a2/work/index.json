@@ -1,14 +1,14 @@
 {
-    "id": "work",
-    "stage": "a2",
-    "title": "工作与职业",
-    "titleVi": "직업과 직장",
-    "courses": [
-        {
-            "id": "course_ko_107",
-            "file": "course_01.json",
-            "title": "第 1 课：저는 회사원이 되었습니다",
-            "titleVi": "제1과: 저는 회사원이 되었습니다"
-        }
-    ]
+  "id": "work",
+  "stage": "a2",
+  "title": "工作与职业",
+  "titleVi": "직업과 직장",
+  "courses": [
+    {
+      "id": "course_ko_107",
+      "file": "course_01.json",
+      "title": "第 1 课：저는 회사원이 되었습니다",
+      "titleVi": "제1과: 저는 회사원이 되었습니다"
+    }
+  ]
 }

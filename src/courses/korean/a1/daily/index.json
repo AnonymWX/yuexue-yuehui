@@ -1,26 +1,26 @@
 {
-    "id": "daily",
-    "stage": "a1",
-    "title": "日常生活",
-    "titleVi": "일상생활",
-    "courses": [
-        {
-            "id": "course_ko_011",
-            "file": "course_01.json",
-            "title": "第 1 课：아침에 무엇을 합니까?",
-            "titleVi": "제1과: 아침에 무엇을 합니까?"
-        },
-        {
-            "id": "course_ko_021",
-            "file": "course_02.json",
-            "title": "第 2 课：아침에 운동하고 샤워합니다",
-            "titleVi": "제2과: 아침에 운동하고 샤워합니다"
-        },
-        {
-            "id": "course_ko_034",
-            "file": "course_03.json",
-            "title": "第 3 课：지금은 자고 있습니다",
-            "titleVi": "제3과: 지금은 자고 있습니다"
-        }
-    ]
+  "id": "daily",
+  "stage": "a1",
+  "title": "日常生活",
+  "titleVi": "일상생활",
+  "courses": [
+    {
+      "id": "course_ko_011",
+      "file": "course_01.json",
+      "title": "第 1 课：아침에 무엇을 합니까?",
+      "titleVi": "제1과: 아침에 무엇을 합니까?"
+    },
+    {
+      "id": "course_ko_021",
+      "file": "course_02.json",
+      "title": "第 2 课：아침에 운동하고 샤워합니다",
+      "titleVi": "제2과: 아침에 운동하고 샤워합니다"
+    },
+    {
+      "id": "course_ko_034",
+      "file": "course_03.json",
+      "title": "第 3 课：지금은 자고 있습니다",
+      "titleVi": "제3과: 지금은 자고 있습니다"
+    }
+  ]
 }

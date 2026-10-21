@@ -1,194 +1,123 @@
 {
-    "id": "course_vi_32",
-    "title": "第 6 课：负面性格形容词",
-    "titleVi": "Bài 6: Tính từ chỉ tính cách tiêu cực",
-    "order": 6,
-    "scenario": "people",
-    "goals": [
-        "掌握负面性格形容词",
-        "能委婉表达负面评价",
-        "学会用「hơi / không được」软化语气",
-        "能听懂他人性格描述"
-    ],
-    "words": [
+  "id": "course_vi_32",
+  "title": "第 6 课：负面性格形容词",
+  "titleVi": "Bài 6: Tính từ chỉ tính cách tiêu cực",
+  "order": 6,
+  "scenario": "people",
+  "goals": ["掌握负面性格形容词", "能委婉表达负面评价", "学会用「hơi / không được」软化语气", "能听懂他人性格描述"],
+  "words": [
+    {
+      "id": "vi_luoi",
+      "name": "lười",
+      "trans": ["懒"],
+      "tags": ["people", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_dot",
+      "name": "dốt",
+      "trans": ["笨", "差"],
+      "tags": ["people", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_tham",
+      "name": "tham",
+      "trans": ["贪", "贪心"],
+      "tags": ["people", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_nong_tinh",
+      "name": "nóng tính",
+      "trans": ["急躁", "性子急"],
+      "tags": ["people", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_keo_kiet",
+      "name": "keo kiệt",
+      "trans": ["吝啬", "小气"],
+      "tags": ["people", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_kieu_ngao",
+      "name": "kiêu ngạo",
+      "trans": ["傲慢", "骄傲"],
+      "tags": ["people", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_ich_ky",
+      "name": "ích kỷ",
+      "trans": ["自私"],
+      "tags": ["people", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_nhut_nhat",
+      "name": "nhút nhát",
+      "trans": ["胆怯", "害羞"],
+      "tags": ["people", "A2"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_511",
+    "sentence_vi_a1_512",
+    "sentence_vi_a1_513",
+    "sentence_vi_a1_514",
+    "sentence_vi_a1_515",
+    "sentence_vi_a1_516"
+  ],
+  "grammar": [
+    {
+      "point": "「hơi + 形容词」缓和语气",
+      "explain": "「hơi」意为「有点」，加在形容词前可缓和批评语气，如「hơi lười」（有点懒）。",
+      "examples": [
         {
-            "id": "vi_luoi",
-            "name": "lười",
-            "trans": [
-                "懒"
-            ],
-            "tags": [
-                "people",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Anh ấy hơi lười.",
+          "zh": "他有点懒。"
         },
         {
-            "id": "vi_dot",
-            "name": "dốt",
-            "trans": [
-                "笨",
-                "差"
-            ],
-            "tags": [
-                "people",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_tham",
-            "name": "tham",
-            "trans": [
-                "贪",
-                "贪心"
-            ],
-            "tags": [
-                "people",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_nong_tinh",
-            "name": "nóng tính",
-            "trans": [
-                "急躁",
-                "性子急"
-            ],
-            "tags": [
-                "people",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_keo_kiet",
-            "name": "keo kiệt",
-            "trans": [
-                "吝啬",
-                "小气"
-            ],
-            "tags": [
-                "people",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_kieu_ngao",
-            "name": "kiêu ngạo",
-            "trans": [
-                "傲慢",
-                "骄傲"
-            ],
-            "tags": [
-                "people",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_ich_ky",
-            "name": "ích kỷ",
-            "trans": [
-                "自私"
-            ],
-            "tags": [
-                "people",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_nhut_nhat",
-            "name": "nhút nhát",
-            "trans": [
-                "胆怯",
-                "害羞"
-            ],
-            "tags": [
-                "people",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Cô ấy hơi nóng tính.",
+          "zh": "她有点急躁。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_511",
-        "sentence_vi_a1_512",
-        "sentence_vi_a1_513",
-        "sentence_vi_a1_514",
-        "sentence_vi_a1_515",
-        "sentence_vi_a1_516"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「không được + 形容词」表不适合",
+      "explain": "「không được」加形容词表示「不太好」，用于委婉评价。",
+      "examples": [
         {
-            "point": "「hơi + 形容词」缓和语气",
-            "explain": "「hơi」意为「有点」，加在形容词前可缓和批评语气，如「hơi lười」（有点懒）。",
-            "examples": [
-                {
-                    "vi": "Anh ấy hơi lười.",
-                    "zh": "他有点懒。"
-                },
-                {
-                    "vi": "Cô ấy hơi nóng tính.",
-                    "zh": "她有点急躁。"
-                }
-            ]
+          "vi": "Anh ấy không được chăm chỉ.",
+          "zh": "他不太勤奋。"
         },
         {
-            "point": "「không được + 形容词」表不适合",
-            "explain": "「không được」加形容词表示「不太好」，用于委婉评价。",
-            "examples": [
-                {
-                    "vi": "Anh ấy không được chăm chỉ.",
-                    "zh": "他不太勤奋。"
-                },
-                {
-                    "vi": "Cô ấy không được thân thiện.",
-                    "zh": "她不太友好。"
-                }
-            ]
+          "vi": "Cô ấy không được thân thiện.",
+          "zh": "她不太友好。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「他有点懒」的正确说法是？",
-            "options": [
-                "Anh ấy hơi lười",
-                "Anh ấy lười hơi",
-                "Hơi anh ấy lười"
-            ],
-            "answer": "Anh ấy hơi lười"
-        },
-        {
-            "type": "fill",
-            "question": "Cô ấy hơi ___ tính.",
-            "answer": "nóng"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「自私」的越南语",
-            "answer": "ích kỷ"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「他有点懒」的正确说法是？",
+      "options": ["Anh ấy hơi lười", "Anh ấy lười hơi", "Hơi anh ấy lười"],
+      "answer": "Anh ấy hơi lười"
+    },
+    {
+      "type": "fill",
+      "question": "Cô ấy hơi ___ tính.",
+      "answer": "nóng"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「自私」的越南语",
+      "answer": "ích kỷ"
+    }
+  ]
 }

@@ -1,188 +1,123 @@
 {
-    "id": "course_ja_001",
-    "title": "第 1 课：初次见面",
-    "titleVi": "第1課：はじめまして",
-    "order": 1,
-    "scenario": "greeting",
-    "goals": [
-        "掌握判断句「N は N です」",
-        "掌握否定「N は N じゃありません」",
-        "掌握疑问「N は N ですか」",
-        "能用「も」表达「也」"
-    ],
-    "words": [
+  "id": "course_ja_001",
+  "title": "第 1 课：初次见面",
+  "titleVi": "第1課：はじめまして",
+  "order": 1,
+  "scenario": "greeting",
+  "goals": ["掌握判断句「N は N です」", "掌握否定「N は N じゃありません」", "掌握疑问「N は N ですか」", "能用「も」表达「也」"],
+  "words": [
+    {
+      "id": "ja_a1_watashi",
+      "name": "私",
+      "trans": ["我"],
+      "tags": ["greeting", "A1"],
+      "source": ["japanese_a1"]
+    },
+    {
+      "id": "ja_a1_anata",
+      "name": "あなた",
+      "trans": ["你"],
+      "tags": ["greeting", "A1"],
+      "source": ["japanese_a1"]
+    },
+    {
+      "id": "ja_a1_gakusei",
+      "name": "学生",
+      "trans": ["学生"],
+      "tags": ["greeting", "A1"],
+      "source": ["japanese_a1"]
+    },
+    {
+      "id": "ja_a1_kaishain",
+      "name": "会社員",
+      "trans": ["公司职员"],
+      "tags": ["greeting", "A1"],
+      "source": ["japanese_a1"]
+    },
+    {
+      "id": "ja_a1_sensei",
+      "name": "先生",
+      "trans": ["老师"],
+      "tags": ["greeting", "A1"],
+      "source": ["japanese_a1"]
+    },
+    {
+      "id": "ja_a1_ryuugakusei",
+      "name": "留学生",
+      "trans": ["留学生"],
+      "tags": ["greeting", "A1"],
+      "source": ["japanese_a1"]
+    },
+    {
+      "id": "ja_a1_nihon",
+      "name": "日本",
+      "trans": ["日本"],
+      "tags": ["greeting", "A1"],
+      "source": ["japanese_a1"]
+    },
+    {
+      "id": "ja_a1_chuugoku",
+      "name": "中国",
+      "trans": ["中国"],
+      "tags": ["greeting", "A1"],
+      "source": ["japanese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_ja_a1_001",
+    "sentence_ja_a1_002",
+    "sentence_ja_a1_003",
+    "sentence_ja_a1_004",
+    "sentence_ja_a1_005",
+    "sentence_ja_a1_006"
+  ],
+  "grammar": [
+    {
+      "point": "判断句「N は N です」",
+      "explain": "「は」是主题助词，读作 wa，标记句子的主题。「です」是判断助动词，表肯定。否定用「じゃありません」（口语）或「ではありません」（正式）。疑问句在句末加「か」。",
+      "examples": [
         {
-            "id": "ja_a1_watashi",
-            "name": "私",
-            "trans": [
-                "我"
-            ],
-            "tags": [
-                "greeting",
-                "A1"
-            ],
-            "source": [
-                "japanese_a1"
-            ]
+          "vi": "私は学生です。",
+          "zh": "我是学生。"
         },
         {
-            "id": "ja_a1_anata",
-            "name": "あなた",
-            "trans": [
-                "你"
-            ],
-            "tags": [
-                "greeting",
-                "A1"
-            ],
-            "source": [
-                "japanese_a1"
-            ]
-        },
-        {
-            "id": "ja_a1_gakusei",
-            "name": "学生",
-            "trans": [
-                "学生"
-            ],
-            "tags": [
-                "greeting",
-                "A1"
-            ],
-            "source": [
-                "japanese_a1"
-            ]
-        },
-        {
-            "id": "ja_a1_kaishain",
-            "name": "会社員",
-            "trans": [
-                "公司职员"
-            ],
-            "tags": [
-                "greeting",
-                "A1"
-            ],
-            "source": [
-                "japanese_a1"
-            ]
-        },
-        {
-            "id": "ja_a1_sensei",
-            "name": "先生",
-            "trans": [
-                "老师"
-            ],
-            "tags": [
-                "greeting",
-                "A1"
-            ],
-            "source": [
-                "japanese_a1"
-            ]
-        },
-        {
-            "id": "ja_a1_ryuugakusei",
-            "name": "留学生",
-            "trans": [
-                "留学生"
-            ],
-            "tags": [
-                "greeting",
-                "A1"
-            ],
-            "source": [
-                "japanese_a1"
-            ]
-        },
-        {
-            "id": "ja_a1_nihon",
-            "name": "日本",
-            "trans": [
-                "日本"
-            ],
-            "tags": [
-                "greeting",
-                "A1"
-            ],
-            "source": [
-                "japanese_a1"
-            ]
-        },
-        {
-            "id": "ja_a1_chuugoku",
-            "name": "中国",
-            "trans": [
-                "中国"
-            ],
-            "tags": [
-                "greeting",
-                "A1"
-            ],
-            "source": [
-                "japanese_a1"
-            ]
+          "vi": "ミラーさんは会社員じゃありません。",
+          "zh": "米勒先生不是公司职员。"
         }
-    ],
-    "sentences": [
-        "sentence_ja_a1_001",
-        "sentence_ja_a1_002",
-        "sentence_ja_a1_003",
-        "sentence_ja_a1_004",
-        "sentence_ja_a1_005",
-        "sentence_ja_a1_006"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "疑问与「も」",
+      "explain": "句末加「か」构成疑问，语序不变。「も」代替「は」，表「也」。注意回答用「はい」或「いいえ」。",
+      "examples": [
         {
-            "point": "判断句「N は N です」",
-            "explain": "「は」是主题助词，读作 wa，标记句子的主题。「です」是判断助动词，表肯定。否定用「じゃありません」（口语）或「ではありません」（正式）。疑问句在句末加「か」。",
-            "examples": [
-                {
-                    "vi": "私は学生です。",
-                    "zh": "我是学生。"
-                },
-                {
-                    "vi": "ミラーさんは会社員じゃありません。",
-                    "zh": "米勒先生不是公司职员。"
-                }
-            ]
+          "vi": "ミラーさんは会社員ですか。",
+          "zh": "米勒先生是公司职员吗？"
         },
         {
-            "point": "疑问与「も」",
-            "explain": "句末加「か」构成疑问，语序不变。「も」代替「は」，表「也」。注意回答用「はい」或「いいえ」。",
-            "examples": [
-                {
-                    "vi": "ミラーさんは会社員ですか。",
-                    "zh": "米勒先生是公司职员吗？"
-                },
-                {
-                    "vi": "サントスさんも会社員です。",
-                    "zh": "桑托斯先生也是公司职员。"
-                }
-            ]
+          "vi": "サントスさんも会社員です。",
+          "zh": "桑托斯先生也是公司职员。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「私は田中___。」填入正确的词：",
-            "options": [
-                "です",
-                "ます",
-                "でした"
-            ],
-            "answer": "です"
-        },
-        {
-            "type": "fill",
-            "question": "彼女___学生です。（填入助词）",
-            "answer": "は"
-        },
-        {
-            "type": "fill",
-            "question": "输入「初次见面，请多关照」的开头问候语（罗马字）",
-            "answer": "hajimemashite"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「私は田中___。」填入正确的词：",
+      "options": ["です", "ます", "でした"],
+      "answer": "です"
+    },
+    {
+      "type": "fill",
+      "question": "彼女___学生です。（填入助词）",
+      "answer": "は"
+    },
+    {
+      "type": "fill",
+      "question": "输入「初次见面，请多关照」的开头问候语（罗马字）",
+      "answer": "hajimemashite"
+    }
+  ]
 }

@@ -1,192 +1,123 @@
 {
-    "id": "course_vi_12",
-    "title": "第 7 课：工资与福利",
-    "titleVi": "Bài 7: Lương và phúc lợi",
-    "order": 7,
-    "scenario": "career",
-    "goals": [
-        "掌握工资与福利相关词汇",
-        "学会谈薪资",
-        "了解越南常见福利项目",
-        "能看懂简单劳动合同条款"
-    ],
-    "words": [
+  "id": "course_vi_12",
+  "title": "第 7 课：工资与福利",
+  "titleVi": "Bài 7: Lương và phúc lợi",
+  "order": 7,
+  "scenario": "career",
+  "goals": ["掌握工资与福利相关词汇", "学会谈薪资", "了解越南常见福利项目", "能看懂简单劳动合同条款"],
+  "words": [
+    {
+      "id": "vi_luong",
+      "name": "lương",
+      "trans": ["工资", "薪水"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_thuong",
+      "name": "thưởng",
+      "trans": ["奖金", "奖励"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_phu_cap",
+      "name": "phụ cấp",
+      "trans": ["补贴", "津贴"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_bao_hiem",
+      "name": "bảo hiểm",
+      "trans": ["保险"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_nghi_phep",
+      "name": "nghỉ phép",
+      "trans": ["休假", "请假"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_hop_dong",
+      "name": "hợp đồng",
+      "trans": ["合同"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_tang_ca",
+      "name": "tăng ca",
+      "trans": ["加班"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_phuc_loi",
+      "name": "phúc lợi",
+      "trans": ["福利"],
+      "tags": ["career", "A2"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_559",
+    "sentence_vi_a1_560",
+    "sentence_vi_a1_561",
+    "sentence_vi_a1_562",
+    "sentence_vi_a1_563",
+    "sentence_vi_a1_564"
+  ],
+  "grammar": [
+    {
+      "point": "问薪资「Lương bao nhiêu?」",
+      "explain": "问工资用「Lương bao nhiêu?」（工资多少？），正式场合可用「Mức lương là bao nhiêu?」。",
+      "examples": [
         {
-            "id": "vi_luong",
-            "name": "lương",
-            "trans": [
-                "工资",
-                "薪水"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Lương của anh bao nhiêu?",
+          "zh": "你工资多少？"
         },
         {
-            "id": "vi_thuong",
-            "name": "thưởng",
-            "trans": [
-                "奖金",
-                "奖励"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_phu_cap",
-            "name": "phụ cấp",
-            "trans": [
-                "补贴",
-                "津贴"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_bao_hiem",
-            "name": "bảo hiểm",
-            "trans": [
-                "保险"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_nghi_phep",
-            "name": "nghỉ phép",
-            "trans": [
-                "休假",
-                "请假"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_hop_dong",
-            "name": "hợp đồng",
-            "trans": [
-                "合同"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_tang_ca",
-            "name": "tăng ca",
-            "trans": [
-                "加班"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_phuc_loi",
-            "name": "phúc lợi",
-            "trans": [
-                "福利"
-            ],
-            "tags": [
-                "career",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Mức lương là bao nhiêu?",
+          "zh": "薪资是多少？"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_559",
-        "sentence_vi_a1_560",
-        "sentence_vi_a1_561",
-        "sentence_vi_a1_562",
-        "sentence_vi_a1_563",
-        "sentence_vi_a1_564"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「có + 名词 + không?」疑问句",
+      "explain": "问是否有某福利用「Có + 名词 + không?」，如「Có bảo hiểm không?」（有保险吗？）。",
+      "examples": [
         {
-            "point": "问薪资「Lương bao nhiêu?」",
-            "explain": "问工资用「Lương bao nhiêu?」（工资多少？），正式场合可用「Mức lương là bao nhiêu?」。",
-            "examples": [
-                {
-                    "vi": "Lương của anh bao nhiêu?",
-                    "zh": "你工资多少？"
-                },
-                {
-                    "vi": "Mức lương là bao nhiêu?",
-                    "zh": "薪资是多少？"
-                }
-            ]
+          "vi": "Công ty có bảo hiểm không?",
+          "zh": "公司有保险吗？"
         },
         {
-            "point": "「có + 名词 + không?」疑问句",
-            "explain": "问是否有某福利用「Có + 名词 + không?」，如「Có bảo hiểm không?」（有保险吗？）。",
-            "examples": [
-                {
-                    "vi": "Công ty có bảo hiểm không?",
-                    "zh": "公司有保险吗？"
-                },
-                {
-                    "vi": "Có phụ cấp không?",
-                    "zh": "有补贴吗？"
-                }
-            ]
+          "vi": "Có phụ cấp không?",
+          "zh": "有补贴吗？"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「公司有保险吗？」的正确说法是？",
-            "options": [
-                "Công ty có bảo hiểm không?",
-                "Công ty bảo hiểm có không?",
-                "Có không công ty bảo hiểm?"
-            ],
-            "answer": "Công ty có bảo hiểm không?"
-        },
-        {
-            "type": "fill",
-            "question": "Lương của anh ___ nhiêu?",
-            "answer": "bao"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「加班」的越南语",
-            "answer": "tăng ca"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「公司有保险吗？」的正确说法是？",
+      "options": ["Công ty có bảo hiểm không?", "Công ty bảo hiểm có không?", "Có không công ty bảo hiểm?"],
+      "answer": "Công ty có bảo hiểm không?"
+    },
+    {
+      "type": "fill",
+      "question": "Lương của anh ___ nhiêu?",
+      "answer": "bao"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「加班」的越南语",
+      "answer": "tăng ca"
+    }
+  ]
 }

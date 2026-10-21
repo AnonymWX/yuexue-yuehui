@@ -1,193 +1,123 @@
 {
-    "id": "course_vi_20",
-    "title": "第 2 课：这是什么？",
-    "titleVi": "Bài 2: Đây là cái gì?",
-    "order": 2,
-    "scenario": "objects",
-    "goals": [
-        "学会问「这是什么？」",
-        "掌握「Đây là...」句型",
-        "掌握「Kia là...」句型",
-        "能进行简单的是非问答"
-    ],
-    "words": [
+  "id": "course_vi_20",
+  "title": "第 2 课：这是什么？",
+  "titleVi": "Bài 2: Đây là cái gì?",
+  "order": 2,
+  "scenario": "objects",
+  "goals": ["学会问「这是什么？」", "掌握「Đây là...」句型", "掌握「Kia là...」句型", "能进行简单的是非问答"],
+  "words": [
+    {
+      "id": "vi_day_here",
+      "name": "đây",
+      "trans": ["这", "这里"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_kia",
+      "name": "kia",
+      "trans": ["那（较远）"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_do_kia",
+      "name": "đó",
+      "trans": ["那（较近）"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_nao",
+      "name": "nào",
+      "trans": ["哪", "哪个"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_phai_khong",
+      "name": "phải không",
+      "trans": ["是吗", "对吗"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_cau_tra_loi",
+      "name": "câu trả lời",
+      "trans": ["回答", "答案"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_cau_hoi_obj",
+      "name": "câu hỏi",
+      "trans": ["问题"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_vat",
+      "name": "vật",
+      "trans": ["物体", "东西"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_133",
+    "sentence_vi_a1_134",
+    "sentence_vi_a1_135",
+    "sentence_vi_a1_136",
+    "sentence_vi_a1_137",
+    "sentence_vi_a1_138"
+  ],
+  "grammar": [
+    {
+      "point": "「Đây là + 名词」介绍物品",
+      "explain": "「Đây là...」意为「这是……」，用于介绍身边或近处的物品。「Kia là...」意为「那是……」，用于较远的物品。",
+      "examples": [
         {
-            "id": "vi_day_here",
-            "name": "đây",
-            "trans": [
-                "这",
-                "这里"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Đây là cái bàn.",
+          "zh": "这是桌子。"
         },
         {
-            "id": "vi_kia",
-            "name": "kia",
-            "trans": [
-                "那（较远）"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_do_kia",
-            "name": "đó",
-            "trans": [
-                "那（较近）"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_nao",
-            "name": "nào",
-            "trans": [
-                "哪",
-                "哪个"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_phai_khong",
-            "name": "phải không",
-            "trans": [
-                "是吗",
-                "对吗"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_cau_tra_loi",
-            "name": "câu trả lời",
-            "trans": [
-                "回答",
-                "答案"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_cau_hoi_obj",
-            "name": "câu hỏi",
-            "trans": [
-                "问题"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_vat",
-            "name": "vật",
-            "trans": [
-                "物体",
-                "东西"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Kia là quyển sách.",
+          "zh": "那是书。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_133",
-        "sentence_vi_a1_134",
-        "sentence_vi_a1_135",
-        "sentence_vi_a1_136",
-        "sentence_vi_a1_137",
-        "sentence_vi_a1_138"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "是非问句「... có phải là ... không?」",
+      "explain": "问「是不是」用「... có phải là ... không?」，回答用「Đúng」（对）或「Không phải」（不是）。",
+      "examples": [
         {
-            "point": "「Đây là + 名词」介绍物品",
-            "explain": "「Đây là...」意为「这是……」，用于介绍身边或近处的物品。「Kia là...」意为「那是……」，用于较远的物品。",
-            "examples": [
-                {
-                    "vi": "Đây là cái bàn.",
-                    "zh": "这是桌子。"
-                },
-                {
-                    "vi": "Kia là quyển sách.",
-                    "zh": "那是书。"
-                }
-            ]
+          "vi": "Đây có phải là cái bàn không?",
+          "zh": "这是桌子吗？"
         },
         {
-            "point": "是非问句「... có phải là ... không?」",
-            "explain": "问「是不是」用「... có phải là ... không?」，回答用「Đúng」（对）或「Không phải」（不是）。",
-            "examples": [
-                {
-                    "vi": "Đây có phải là cái bàn không?",
-                    "zh": "这是桌子吗？"
-                },
-                {
-                    "vi": "Đúng, đây là cái bàn.",
-                    "zh": "对，这是桌子。"
-                }
-            ]
+          "vi": "Đúng, đây là cái bàn.",
+          "zh": "对，这是桌子。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「这是什么？」的正确说法是？",
-            "options": [
-                "Đây là cái gì?",
-                "Cái gì đây là?",
-                "Là đây cái gì?"
-            ],
-            "answer": "Đây là cái gì?"
-        },
-        {
-            "type": "fill",
-            "question": "Đây có ___ là cái bàn không?",
-            "answer": "phải"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「那（较远）」的越南语",
-            "answer": "kia"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「这是什么？」的正确说法是？",
+      "options": ["Đây là cái gì?", "Cái gì đây là?", "Là đây cái gì?"],
+      "answer": "Đây là cái gì?"
+    },
+    {
+      "type": "fill",
+      "question": "Đây có ___ là cái bàn không?",
+      "answer": "phải"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「那（较远）」的越南语",
+      "answer": "kia"
+    }
+  ]
 }

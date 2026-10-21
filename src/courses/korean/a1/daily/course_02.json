@@ -1,213 +1,137 @@
 {
-    "id": "course_ko_021",
-    "title": "第 2 课：아침에 운동하고 샤워합니다（早上运动后洗澡）",
-    "titleVi": "제2과: 아침에 운동하고 샤워합니다",
-    "order": 2,
-    "scenario": "daily",
-    "goals": [
-        "掌握并列连接「-고」（…并且）",
-        "掌握「-고 나서」（…之后）",
-        "能说出更多日常活动动词",
-        "能描述一天的动作顺序"
-    ],
-    "words": [
+  "id": "course_ko_021",
+  "title": "第 2 课：아침에 운동하고 샤워합니다（早上运动后洗澡）",
+  "titleVi": "제2과: 아침에 운동하고 샤워합니다",
+  "order": 2,
+  "scenario": "daily",
+  "goals": ["掌握并列连接「-고」（…并且）", "掌握「-고 나서」（…之后）", "能说出更多日常活动动词", "能描述一天的动作顺序"],
+  "words": [
+    {
+      "id": "ko_a1_undonghada",
+      "name": "운동하다",
+      "trans": ["运动"],
+      "tags": ["daily", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_syawohada",
+      "name": "샤워하다",
+      "trans": ["洗澡"],
+      "tags": ["daily", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_itdakkda",
+      "name": "이를 닦다",
+      "trans": ["刷牙"],
+      "tags": ["daily", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_ot",
+      "name": "옷",
+      "trans": ["衣服"],
+      "tags": ["daily", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_ipda",
+      "name": "입다",
+      "trans": ["穿"],
+      "tags": ["daily", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_sanchaek",
+      "name": "산책",
+      "trans": ["散步"],
+      "tags": ["daily", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_ilhada",
+      "name": "일하다",
+      "trans": ["工作"],
+      "tags": ["daily", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_swida",
+      "name": "쉬다",
+      "trans": ["休息"],
+      "tags": ["daily", "A1"],
+      "source": ["korean_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_ko_a1_159",
+    "sentence_ko_a1_160",
+    "sentence_ko_a1_161",
+    "sentence_ko_a1_162",
+    "sentence_ko_a1_163",
+    "sentence_ko_a1_164",
+    "sentence_ko_a1_165",
+    "sentence_ko_a1_166"
+  ],
+  "grammar": [
+    {
+      "point": "并列连接「-고」（…并且）",
+      "explain": "动词/形容词词干 + 고，表并列「…并且…」。例：운동하고 샤워합니다（运动后洗澡）；먹고 마십니다（吃了又喝）；바쁘고 피곤합니다（又忙又累）。中文「…和/并且」对应。注意 -고 只并列，不表顺序（顺序用 -고 나서）；-고 前不接时态。",
+      "examples": [
         {
-            "id": "ko_a1_undonghada",
-            "name": "운동하다",
-            "trans": [
-                "运动"
-            ],
-            "tags": [
-                "daily",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
+          "vi": "아침에 운동하고 샤워합니다.",
+          "zh": "早上运动后洗澡。"
         },
         {
-            "id": "ko_a1_syawohada",
-            "name": "샤워하다",
-            "trans": [
-                "洗澡"
-            ],
-            "tags": [
-                "daily",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_itdakkda",
-            "name": "이를 닦다",
-            "trans": [
-                "刷牙"
-            ],
-            "tags": [
-                "daily",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_ot",
-            "name": "옷",
-            "trans": [
-                "衣服"
-            ],
-            "tags": [
-                "daily",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_ipda",
-            "name": "입다",
-            "trans": [
-                "穿"
-            ],
-            "tags": [
-                "daily",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_sanchaek",
-            "name": "산책",
-            "trans": [
-                "散步"
-            ],
-            "tags": [
-                "daily",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_ilhada",
-            "name": "일하다",
-            "trans": [
-                "工作"
-            ],
-            "tags": [
-                "daily",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_swida",
-            "name": "쉬다",
-            "trans": [
-                "休息"
-            ],
-            "tags": [
-                "daily",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
+          "vi": "옷을 입고 신발을 신습니다.",
+          "zh": "穿衣服穿鞋。"
         }
-    ],
-    "sentences": [
-        "sentence_ko_a1_159",
-        "sentence_ko_a1_160",
-        "sentence_ko_a1_161",
-        "sentence_ko_a1_162",
-        "sentence_ko_a1_163",
-        "sentence_ko_a1_164",
-        "sentence_ko_a1_165",
-        "sentence_ko_a1_166"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「-고 나서」（…之后）",
+      "explain": "动词词干 + 고 나서，表「做完…之后」。例：운동하고 나서（运动完之后）；먹고 나서（吃完之后）；씻고 나서（洗完之- 后）。与 -고 的区别：-고 只是并列，-고 나서 强调「完成之后再」。中文「…之后」对应。",
+      "examples": [
         {
-            "point": "并列连接「-고」（…并且）",
-            "explain": "动词/形容词词干 + 고，表并列「…并且…」。例：운동하고 샤워합니다（运动后洗澡）；먹고 마십니다（吃了又喝）；바쁘고 피곤합니다（又忙又累）。中文「…和/并且」对应。注意 -고 只并列，不表顺序（顺序用 -고 나서）；-고 前不接时态。",
-            "examples": [
-                {
-                    "vi": "아침에 운동하고 샤워합니다.",
-                    "zh": "早上运动后洗澡。"
-                },
-                {
-                    "vi": "옷을 입고 신발을 신습니다.",
-                    "zh": "穿衣服穿鞋。"
-                }
-            ]
+          "vi": "운동하고 나서 샤워합니다.",
+          "zh": "运动完之后洗澡。"
         },
         {
-            "point": "「-고 나서」（…之后）",
-            "explain": "动词词干 + 고 나서，表「做完…之后」。例：운동하고 나서（运动完之后）；먹고 나서（吃完之后）；씻고 나서（洗完之- 后）。与 -고 的区别：-고 只是并列，-고 나서 强调「完成之后再」。中文「…之后」对应。",
-            "examples": [
-                {
-                    "vi": "운동하고 나서 샤워합니다.",
-                    "zh": "运动完之后洗澡。"
-                },
-                {
-                    "vi": "밥을 먹고 나서 산책합니다.",
-                    "zh": "吃完饭之后散步。"
-                }
-            ]
+          "vi": "밥을 먹고 나서 산책합니다.",
+          "zh": "吃完饭之后散步。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「运动后洗澡」的韩语是？",
-            "options": [
-                "운동하고 나서 샤워합니다",
-                "운동하고 싶습니다",
-                "운동했습니다",
-                "운동할 겁니다"
-            ],
-            "answer": "운동하고 나서 샤워합니다"
-        },
-        {
-            "type": "choose",
-            "question": "「又忙又累」的韩语是？",
-            "options": [
-                "바쁘고 피곤합니다",
-                "바쁘지만 피곤합니다",
-                "바쁘면 피곤합니다",
-                "바빠서 피곤합니다"
-            ],
-            "answer": "바쁘고 피곤합니다"
-        },
-        {
-            "type": "choose",
-            "question": "「散步」的韩语是？",
-            "options": [
-                "산책",
-                "운동",
-                "샤워",
-                "휴식"
-            ],
-            "answer": "산책"
-        },
-        {
-            "type": "fill",
-            "question": "「工作」的韩语是？",
-            "answer": "일하다"
-        },
-        {
-            "type": "fill",
-            "question": "「刷牙」→ 이를 ___.（填入「刷」的正式体）",
-            "answer": "닦습니다"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「运动后洗澡」的韩语是？",
+      "options": ["운동하고 나서 샤워합니다", "운동하고 싶습니다", "운동했습니다", "운동할 겁니다"],
+      "answer": "운동하고 나서 샤워합니다"
+    },
+    {
+      "type": "choose",
+      "question": "「又忙又累」的韩语是？",
+      "options": ["바쁘고 피곤합니다", "바쁘지만 피곤합니다", "바쁘면 피곤합니다", "바빠서 피곤합니다"],
+      "answer": "바쁘고 피곤합니다"
+    },
+    {
+      "type": "choose",
+      "question": "「散步」的韩语是？",
+      "options": ["산책", "운동", "샤워", "휴식"],
+      "answer": "산책"
+    },
+    {
+      "type": "fill",
+      "question": "「工作」的韩语是？",
+      "answer": "일하다"
+    },
+    {
+      "type": "fill",
+      "question": "「刷牙」→ 이를 ___.（填入「刷」的正式体）",
+      "answer": "닦습니다"
+    }
+  ]
 }

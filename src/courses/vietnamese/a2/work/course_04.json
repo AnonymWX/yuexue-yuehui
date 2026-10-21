@@ -1,318 +1,186 @@
 {
-    "id": "course_vi_154",
-    "title": "第 4 课：会议",
-    "titleVi": "Bài 4: Cuộc họp",
-    "order": 4,
-    "scenario": "work",
-    "goals": [
-        "能参加公司会议并发言",
-        "能用「ý kiến / đề xuất」表达意见与建议",
-        "能听懂会议中的主要流程词",
-        "能做会议纪要的基本表达"
-    ],
-    "words": [
+  "id": "course_vi_154",
+  "title": "第 4 课：会议",
+  "titleVi": "Bài 4: Cuộc họp",
+  "order": 4,
+  "scenario": "work",
+  "goals": ["能参加公司会议并发言", "能用「ý kiến / đề xuất」表达意见与建议", "能听懂会议中的主要流程词", "能做会议纪要的基本表达"],
+  "words": [
+    {
+      "id": "vi_a2_cuoc_hop",
+      "name": "cuộc họp",
+      "trans": ["会议"],
+      "tags": ["work", "A2", "meeting"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_chu_tri",
+      "name": "chủ trì",
+      "trans": ["主持"],
+      "tags": ["work", "A2", "meeting"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_tham_du",
+      "name": "tham dự",
+      "trans": ["出席"],
+      "tags": ["work", "A2", "meeting"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_y_kien",
+      "name": "ý kiến",
+      "trans": ["意见"],
+      "tags": ["work", "A2", "meeting"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_de_xuat",
+      "name": "đề xuất",
+      "trans": ["建议", "提案"],
+      "tags": ["work", "A2", "meeting"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_thao_luan",
+      "name": "thảo luận",
+      "trans": ["讨论"],
+      "tags": ["work", "A2", "meeting"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_bieu_quyet",
+      "name": "biểu quyết",
+      "trans": ["表决", "投票"],
+      "tags": ["work", "A2", "meeting"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_dong_y",
+      "name": "đồng ý",
+      "trans": ["同意"],
+      "tags": ["work", "A2", "meeting"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_phan_doi",
+      "name": "phản đối",
+      "trans": ["反对"],
+      "tags": ["work", "A2", "meeting"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_bien_ban",
+      "name": "biên bản",
+      "trans": ["纪要", "会议记录"],
+      "tags": ["work", "A2", "meeting"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_ket_luan",
+      "name": "kết luận",
+      "trans": ["结论"],
+      "tags": ["work", "A2", "meeting"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_nghi_giai_lao",
+      "name": "nghỉ giải lao",
+      "trans": ["休息", "茶歇"],
+      "tags": ["work", "A2", "meeting"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_noi_dung",
+      "name": "nội dung",
+      "trans": ["内容"],
+      "tags": ["work", "A2", "meeting"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_chuong_trinh",
+      "name": "chương trình",
+      "trans": ["议程", "节目"],
+      "tags": ["work", "A2", "meeting"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a2_233",
+    "sentence_vi_a2_234",
+    "sentence_vi_a2_235",
+    "sentence_vi_a2_236",
+    "sentence_vi_a2_237",
+    "sentence_vi_a2_238",
+    "sentence_vi_a2_239",
+    "sentence_vi_a2_240"
+  ],
+  "grammar": [
+    {
+      "point": "表达观点：theo tôi / tôi nghĩ / tôi cho rằng",
+      "explain": "三种常用：「theo tôi」= 依我看（最常用，口语）；「tôi nghĩ」= 我觉得（中性）；「tôi cho rằng」= 我认为（书面）。结构：短语 + 完整小句。温和表达分歧：「Tôi hiểu ý anh, nhưng...」（我理解你的意思，但是…）。",
+      "examples": [
         {
-            "id": "vi_a2_cuoc_hop",
-            "name": "cuộc họp",
-            "trans": [
-                "会议"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "meeting"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Theo tôi, chúng ta nên tập trung vào khách hàng trước.",
+          "zh": "依我看，我们应该先关注客户。"
         },
         {
-            "id": "vi_a2_chu_tri",
-            "name": "chủ trì",
-            "trans": [
-                "主持"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "meeting"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Tôi cho rằng kế hoạch này cần thêm thời gian chuẩn bị.",
+          "zh": "我认为这个计划需要更多准备时间。"
         },
         {
-            "id": "vi_a2_tham_du",
-            "name": "tham dự",
-            "trans": [
-                "出席"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "meeting"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_y_kien",
-            "name": "ý kiến",
-            "trans": [
-                "意见"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "meeting"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_de_xuat",
-            "name": "đề xuất",
-            "trans": [
-                "建议",
-                "提案"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "meeting"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_thao_luan",
-            "name": "thảo luận",
-            "trans": [
-                "讨论"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "meeting"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_bieu_quyet",
-            "name": "biểu quyết",
-            "trans": [
-                "表决",
-                "投票"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "meeting"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_dong_y",
-            "name": "đồng ý",
-            "trans": [
-                "同意"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "meeting"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_phan_doi",
-            "name": "phản đối",
-            "trans": [
-                "反对"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "meeting"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_bien_ban",
-            "name": "biên bản",
-            "trans": [
-                "纪要",
-                "会议记录"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "meeting"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_ket_luan",
-            "name": "kết luận",
-            "trans": [
-                "结论"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "meeting"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_nghi_giai_lao",
-            "name": "nghỉ giải lao",
-            "trans": [
-                "休息",
-                "茶歇"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "meeting"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_noi_dung",
-            "name": "nội dung",
-            "trans": [
-                "内容"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "meeting"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_chuong_trinh",
-            "name": "chương trình",
-            "trans": [
-                "议程",
-                "节目"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "meeting"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Tôi hiểu ý anh, nhưng tôi nghĩ phương án khác sẽ hiệu quả hơn.",
+          "zh": "我理解你的意思，但我认为另一个方案会更有效。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a2_233",
-        "sentence_vi_a2_234",
-        "sentence_vi_a2_235",
-        "sentence_vi_a2_236",
-        "sentence_vi_a2_237",
-        "sentence_vi_a2_238",
-        "sentence_vi_a2_239",
-        "sentence_vi_a2_240"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "会议流程：bắt đầu / tiếp theo / kết thúc",
+      "explain": "会议高频词：「bắt đầu cuộc họp」= 会议开始；「tiếp theo」= 接下来；「chuyển sang vấn đề...」= 转到…话题；「tóm lại」= 总结；「kết thúc」= 结束。「tóm lại」用于收束讨论，比「kết luận」更口语。",
+      "examples": [
         {
-            "point": "表达观点：theo tôi / tôi nghĩ / tôi cho rằng",
-            "explain": "三种常用：「theo tôi」= 依我看（最常用，口语）；「tôi nghĩ」= 我觉得（中性）；「tôi cho rằng」= 我认为（书面）。结构：短语 + 完整小句。温和表达分歧：「Tôi hiểu ý anh, nhưng...」（我理解你的意思，但是…）。",
-            "examples": [
-                {
-                    "vi": "Theo tôi, chúng ta nên tập trung vào khách hàng trước.",
-                    "zh": "依我看，我们应该先关注客户。"
-                },
-                {
-                    "vi": "Tôi cho rằng kế hoạch này cần thêm thời gian chuẩn bị.",
-                    "zh": "我认为这个计划需要更多准备时间。"
-                },
-                {
-                    "vi": "Tôi hiểu ý anh, nhưng tôi nghĩ phương án khác sẽ hiệu quả hơn.",
-                    "zh": "我理解你的意思，但我认为另一个方案会更有效。"
-                }
-            ]
+          "vi": "Chúng ta bắt đầu cuộc họp với nội dung chính hôm nay.",
+          "zh": "我们以今天的核心内容开始会议。"
         },
         {
-            "point": "会议流程：bắt đầu / tiếp theo / kết thúc",
-            "explain": "会议高频词：「bắt đầu cuộc họp」= 会议开始；「tiếp theo」= 接下来；「chuyển sang vấn đề...」= 转到…话题；「tóm lại」= 总结；「kết thúc」= 结束。「tóm lại」用于收束讨论，比「kết luận」更口语。",
-            "examples": [
-                {
-                    "vi": "Chúng ta bắt đầu cuộc họp với nội dung chính hôm nay.",
-                    "zh": "我们以今天的核心内容开始会议。"
-                },
-                {
-                    "vi": "Tiếp theo, chúng ta sẽ chuyển sang vấn đề ngân sách.",
-                    "zh": "接下来，我们将转到预算问题。"
-                },
-                {
-                    "vi": "Tóm lại, chúng ta thống nhất ba điểm quan trọng.",
-                    "zh": "总结一下，我们达成了三点重要共识。"
-                }
-            ]
+          "vi": "Tiếp theo, chúng ta sẽ chuyển sang vấn đề ngân sách.",
+          "zh": "接下来，我们将转到预算问题。"
+        },
+        {
+          "vi": "Tóm lại, chúng ta thống nhất ba điểm quan trọng.",
+          "zh": "总结一下，我们达成了三点重要共识。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「biên bản」的意思是？",
-            "options": [
-                "文件",
-                "会议纪要",
-                "报告",
-                "合同"
-            ],
-            "answer": "会议纪要"
-        },
-        {
-            "type": "choose",
-            "question": "哪句最礼貌地表达不同意见？",
-            "options": [
-                "Anh sai rồi.",
-                "Tôi không đồng ý.",
-                "Tôi hiểu ý anh, nhưng tôi nghĩ phương án khác hiệu quả hơn.",
-                "Không đúng."
-            ],
-            "answer": "Tôi hiểu ý anh, nhưng tôi nghĩ phương án khác hiệu quả hơn."
-        },
-        {
-            "type": "fill",
-            "question": "___ tôi, chúng ta nên tập trung vào khách hàng trước.（依我看，我们应该先关注客户）",
-            "answer": "Theo"
-        },
-        {
-            "type": "fill",
-            "question": "Tiếp ___, chúng ta sẽ chuyển sang vấn đề ngân sách.（接下来，我们将转到预算问题）",
-            "answer": "theo"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「我们开始会议吧」的越南语",
-            "answer": "Chúng ta bắt đầu cuộc họp"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「biên bản」的意思是？",
+      "options": ["文件", "会议纪要", "报告", "合同"],
+      "answer": "会议纪要"
+    },
+    {
+      "type": "choose",
+      "question": "哪句最礼貌地表达不同意见？",
+      "options": ["Anh sai rồi.", "Tôi không đồng ý.", "Tôi hiểu ý anh, nhưng tôi nghĩ phương án khác hiệu quả hơn.", "Không đúng."],
+      "answer": "Tôi hiểu ý anh, nhưng tôi nghĩ phương án khác hiệu quả hơn."
+    },
+    {
+      "type": "fill",
+      "question": "___ tôi, chúng ta nên tập trung vào khách hàng trước.（依我看，我们应该先关注客户）",
+      "answer": "Theo"
+    },
+    {
+      "type": "fill",
+      "question": "Tiếp ___, chúng ta sẽ chuyển sang vấn đề ngân sách.（接下来，我们将转到预算问题）",
+      "answer": "theo"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「我们开始会议吧」的越南语",
+      "answer": "Chúng ta bắt đầu cuộc họp"
+    }
+  ]
 }

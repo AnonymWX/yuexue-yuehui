@@ -1,194 +1,123 @@
 {
-    "id": "course_vi_76",
-    "title": "第 7 课：买单",
-    "titleVi": "Bài 7: Thanh toán",
-    "order": 7,
-    "scenario": "dining",
-    "goals": [
-        "掌握买单相关表达",
-        "学会问价格与账单",
-        "掌握 AA 制与请客说法",
-        "能完成买单对话"
-    ],
-    "words": [
+  "id": "course_vi_76",
+  "title": "第 7 课：买单",
+  "titleVi": "Bài 7: Thanh toán",
+  "order": 7,
+  "scenario": "dining",
+  "goals": ["掌握买单相关表达", "学会问价格与账单", "掌握 AA 制与请客说法", "能完成买单对话"],
+  "words": [
+    {
+      "id": "vi_thanh_toan",
+      "name": "thanh toán",
+      "trans": ["结账", "付账"],
+      "tags": ["dining", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_tra_tien",
+      "name": "trả tiền",
+      "trans": ["付钱"],
+      "tags": ["dining", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_hoa_don",
+      "name": "hóa đơn",
+      "trans": ["账单", "发票"],
+      "tags": ["dining", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_tinh_tien",
+      "name": "tính tiền",
+      "trans": ["算钱", "计算费用"],
+      "tags": ["dining", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_tien_mat",
+      "name": "tiền mặt",
+      "trans": ["现金"],
+      "tags": ["dining", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_the",
+      "name": "thẻ",
+      "trans": ["卡", "银行卡"],
+      "tags": ["dining", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_chia",
+      "name": "chia",
+      "trans": ["分", "分担"],
+      "tags": ["dining", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_dai",
+      "name": "đãi",
+      "trans": ["请客", "招待"],
+      "tags": ["dining", "A2"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_583",
+    "sentence_vi_a1_584",
+    "sentence_vi_a1_585",
+    "sentence_vi_a1_586",
+    "sentence_vi_a1_587",
+    "sentence_vi_a1_588"
+  ],
+  "grammar": [
+    {
+      "point": "「Cho tôi hóa đơn」表要账单",
+      "explain": "要求结账用「Cho tôi hóa đơn」（给我账单）或「Tính tiền」（算钱）。",
+      "examples": [
         {
-            "id": "vi_thanh_toan",
-            "name": "thanh toán",
-            "trans": [
-                "结账",
-                "付账"
-            ],
-            "tags": [
-                "dining",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Cho tôi hóa đơn.",
+          "zh": "给我账单。"
         },
         {
-            "id": "vi_tra_tien",
-            "name": "trả tiền",
-            "trans": [
-                "付钱"
-            ],
-            "tags": [
-                "dining",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_hoa_don",
-            "name": "hóa đơn",
-            "trans": [
-                "账单",
-                "发票"
-            ],
-            "tags": [
-                "dining",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_tinh_tien",
-            "name": "tính tiền",
-            "trans": [
-                "算钱",
-                "计算费用"
-            ],
-            "tags": [
-                "dining",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_tien_mat",
-            "name": "tiền mặt",
-            "trans": [
-                "现金"
-            ],
-            "tags": [
-                "dining",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_the",
-            "name": "thẻ",
-            "trans": [
-                "卡",
-                "银行卡"
-            ],
-            "tags": [
-                "dining",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_chia",
-            "name": "chia",
-            "trans": [
-                "分",
-                "分担"
-            ],
-            "tags": [
-                "dining",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_dai",
-            "name": "đãi",
-            "trans": [
-                "请客",
-                "招待"
-            ],
-            "tags": [
-                "dining",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Anh tính tiền giúp tôi.",
+          "zh": "请帮我算钱。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_583",
-        "sentence_vi_a1_584",
-        "sentence_vi_a1_585",
-        "sentence_vi_a1_586",
-        "sentence_vi_a1_587",
-        "sentence_vi_a1_588"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「chia tiền / đãi」AA 与请客",
+      "explain": "「chia tiền」表示 AA 制分摊，「đãi」表示请客。",
+      "examples": [
         {
-            "point": "「Cho tôi hóa đơn」表要账单",
-            "explain": "要求结账用「Cho tôi hóa đơn」（给我账单）或「Tính tiền」（算钱）。",
-            "examples": [
-                {
-                    "vi": "Cho tôi hóa đơn.",
-                    "zh": "给我账单。"
-                },
-                {
-                    "vi": "Anh tính tiền giúp tôi.",
-                    "zh": "请帮我算钱。"
-                }
-            ]
+          "vi": "Chúng ta chia tiền nhé.",
+          "zh": "我们 AA 吧。"
         },
         {
-            "point": "「chia tiền / đãi」AA 与请客",
-            "explain": "「chia tiền」表示 AA 制分摊，「đãi」表示请客。",
-            "examples": [
-                {
-                    "vi": "Chúng ta chia tiền nhé.",
-                    "zh": "我们 AA 吧。"
-                },
-                {
-                    "vi": "Hôm nay tôi đãi.",
-                    "zh": "今天我请客。"
-                }
-            ]
+          "vi": "Hôm nay tôi đãi.",
+          "zh": "今天我请客。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「账单」用越南语怎么说？",
-            "options": [
-                "hóa đơn",
-                "tiền mặt",
-                "thẻ"
-            ],
-            "answer": "hóa đơn"
-        },
-        {
-            "type": "fill",
-            "question": "Cho tôi hóa ___.",
-            "answer": "đơn"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「请客」的越南语",
-            "answer": "đãi"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「账单」用越南语怎么说？",
+      "options": ["hóa đơn", "tiền mặt", "thẻ"],
+      "answer": "hóa đơn"
+    },
+    {
+      "type": "fill",
+      "question": "Cho tôi hóa ___.",
+      "answer": "đơn"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「请客」的越南语",
+      "answer": "đãi"
+    }
+  ]
 }

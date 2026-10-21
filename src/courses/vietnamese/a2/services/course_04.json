@@ -1,317 +1,191 @@
 {
-    "id": "course_vi_134",
-    "title": "第 4 课：维修与上门服务",
-    "titleVi": "Bài 4: Sửa chữa và dịch vụ tại nhà",
-    "order": 4,
-    "scenario": "services",
-    "goals": [
-        "能描述家中设备故障",
-        "能预约维修师傅上门",
-        "能询问维修费用与保修期",
-        "能用「bị hỏng / không hoạt động」描述故障"
-    ],
-    "words": [
+  "id": "course_vi_134",
+  "title": "第 4 课：维修与上门服务",
+  "titleVi": "Bài 4: Sửa chữa và dịch vụ tại nhà",
+  "order": 4,
+  "scenario": "services",
+  "goals": ["能描述家中设备故障", "能预约维修师傅上门", "能询问维修费用与保修期", "能用「bị hỏng / không hoạt động」描述故障"],
+  "words": [
+    {
+      "id": "vi_a2_sua_chua",
+      "name": "sửa chữa",
+      "trans": ["修理"],
+      "tags": ["services", "A2", "repair"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_tho_sua",
+      "name": "thợ sửa",
+      "trans": ["维修师傅"],
+      "tags": ["services", "A2", "repair"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_hu_hong",
+      "name": "hư hỏng",
+      "trans": ["损坏", "故障"],
+      "tags": ["services", "A2", "repair"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_bi_hong",
+      "name": "bị hỏng",
+      "trans": ["坏了"],
+      "tags": ["services", "A2", "repair"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_hoat_dong",
+      "name": "hoạt động",
+      "trans": ["运行", "运作"],
+      "tags": ["services", "A2", "repair"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_kiem_tra",
+      "name": "kiểm tra",
+      "trans": ["检查"],
+      "tags": ["services", "A2", "repair"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_thay_the",
+      "name": "thay thế",
+      "trans": ["替换", "更换"],
+      "tags": ["services", "A2", "repair"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_linh_kien",
+      "name": "linh kiện",
+      "trans": ["零件", "配件"],
+      "tags": ["services", "A2", "repair"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_bao_hanh",
+      "name": "bảo hành",
+      "trans": ["保修"],
+      "tags": ["services", "A2", "repair"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_het_bao_hanh",
+      "name": "hết bảo hành",
+      "trans": ["过保修期"],
+      "tags": ["services", "A2", "repair"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_phi_sua_chua",
+      "name": "phí sửa chữa",
+      "trans": ["维修费"],
+      "tags": ["services", "A2", "repair"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_den_tan_noi",
+      "name": "đến tận nơi",
+      "trans": ["上门"],
+      "tags": ["services", "A2", "repair"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_dien",
+      "name": "điện",
+      "trans": ["电"],
+      "tags": ["services", "A2", "repair"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_nuoc",
+      "name": "nước",
+      "trans": ["水"],
+      "tags": ["services", "A2", "repair"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a2_217",
+    "sentence_vi_a2_218",
+    "sentence_vi_a2_219",
+    "sentence_vi_a2_220",
+    "sentence_vi_a2_221",
+    "sentence_vi_a2_222",
+    "sentence_vi_a2_223",
+    "sentence_vi_a2_224"
+  ],
+  "grammar": [
+    {
+      "point": "描述故障：bị hỏng / không + V + được",
+      "explain": "「bị hỏng」= 坏了（负面被动）；「không + V + được」= 不能…（能力/功能受阻）。例：Máy giặt bị hỏng（洗衣机坏了）；Máy lạnh không bật được（空调打不开）。注意：không…được 是越南语特有的「不能」结构，不能用 không có thể 替换。",
+      "examples": [
         {
-            "id": "vi_a2_sua_chua",
-            "name": "sửa chữa",
-            "trans": [
-                "修理"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "repair"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Máy giặt nhà tôi bị hỏng, không giặt được nữa.",
+          "zh": "我家的洗衣机坏了，不能再洗了。"
         },
         {
-            "id": "vi_a2_tho_sua",
-            "name": "thợ sửa",
-            "trans": [
-                "维修师傅"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "repair"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Điều hòa không bật được, chắc là hỏng rồi.",
+          "zh": "空调打不开，估计是坏了。"
         },
         {
-            "id": "vi_a2_hu_hong",
-            "name": "hư hỏng",
-            "trans": [
-                "损坏",
-                "故障"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "repair"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_bi_hong",
-            "name": "bị hỏng",
-            "trans": [
-                "坏了"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "repair"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_hoat_dong",
-            "name": "hoạt động",
-            "trans": [
-                "运行",
-                "运作"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "repair"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_kiem_tra",
-            "name": "kiểm tra",
-            "trans": [
-                "检查"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "repair"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_thay_the",
-            "name": "thay thế",
-            "trans": [
-                "替换",
-                "更换"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "repair"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_linh_kien",
-            "name": "linh kiện",
-            "trans": [
-                "零件",
-                "配件"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "repair"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_bao_hanh",
-            "name": "bảo hành",
-            "trans": [
-                "保修"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "repair"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_het_bao_hanh",
-            "name": "hết bảo hành",
-            "trans": [
-                "过保修期"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "repair"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_phi_sua_chua",
-            "name": "phí sửa chữa",
-            "trans": [
-                "维修费"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "repair"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_den_tan_noi",
-            "name": "đến tận nơi",
-            "trans": [
-                "上门"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "repair"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_dien",
-            "name": "điện",
-            "trans": [
-                "电"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "repair"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_nuoc",
-            "name": "nước",
-            "trans": [
-                "水"
-            ],
-            "tags": [
-                "services",
-                "A2",
-                "repair"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Vòi nước bị rò rỉ, làm ơn gọi thợ sửa đến xem.",
+          "zh": "水龙头漏水了，请叫维修师傅来看看。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a2_217",
-        "sentence_vi_a2_218",
-        "sentence_vi_a2_219",
-        "sentence_vi_a2_220",
-        "sentence_vi_a2_221",
-        "sentence_vi_a2_222",
-        "sentence_vi_a2_223",
-        "sentence_vi_a2_224"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "询问保修与服务：còn bảo hành không / có đến tận nơi không",
+      "explain": "「còn bảo hành không?」= 还在保修期内吗？「có đến tận nơi không?」= 有上门服务吗？「phí sửa chữa là bao nhiêu?」= 维修费多少？注意：「còn」在此表「还有（剩余）」义，与「vẫn còn」（仍然还有）通用。",
+      "examples": [
         {
-            "point": "描述故障：bị hỏng / không + V + được",
-            "explain": "「bị hỏng」= 坏了（负面被动）；「không + V + được」= 不能…（能力/功能受阻）。例：Máy giặt bị hỏng（洗衣机坏了）；Máy lạnh không bật được（空调打不开）。注意：không…được 是越南语特有的「不能」结构，不能用 không có thể 替换。",
-            "examples": [
-                {
-                    "vi": "Máy giặt nhà tôi bị hỏng, không giặt được nữa.",
-                    "zh": "我家的洗衣机坏了，不能再洗了。"
-                },
-                {
-                    "vi": "Điều hòa không bật được, chắc là hỏng rồi.",
-                    "zh": "空调打不开，估计是坏了。"
-                },
-                {
-                    "vi": "Vòi nước bị rò rỉ, làm ơn gọi thợ sửa đến xem.",
-                    "zh": "水龙头漏水了，请叫维修师傅来看看。"
-                }
-            ]
+          "vi": "Máy này còn bảo hành không, hay là hết bảo hành rồi?",
+          "zh": "这台机器还在保修期内吗，还是已经过保了？"
         },
         {
-            "point": "询问保修与服务：còn bảo hành không / có đến tận nơi không",
-            "explain": "「còn bảo hành không?」= 还在保修期内吗？「có đến tận nơi không?」= 有上门服务吗？「phí sửa chữa là bao nhiêu?」= 维修费多少？注意：「còn」在此表「还有（剩余）」义，与「vẫn còn」（仍然还有）通用。",
-            "examples": [
-                {
-                    "vi": "Máy này còn bảo hành không, hay là hết bảo hành rồi?",
-                    "zh": "这台机器还在保修期内吗，还是已经过保了？"
-                },
-                {
-                    "vi": "Dịch vụ sửa chữa của anh có đến tận nơi không?",
-                    "zh": "你们的维修服务有上门吗？"
-                },
-                {
-                    "vi": "Phí kiểm tra là bao nhiêu nếu máy không sửa được?",
-                    "zh": "如果机器修不好，检查费是多少？"
-                }
-            ]
+          "vi": "Dịch vụ sửa chữa của anh có đến tận nơi không?",
+          "zh": "你们的维修服务有上门吗？"
+        },
+        {
+          "vi": "Phí kiểm tra là bao nhiêu nếu máy không sửa được?",
+          "zh": "如果机器修不好，检查费是多少？"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「hết bảo hành」的意思是？",
-            "options": [
-                "在保修期",
-                "过保修期",
-                "免费维修",
-                "换新机"
-            ],
-            "answer": "过保修期"
-        },
-        {
-            "type": "choose",
-            "question": "哪句正确表达「洗衣机坏了，不能洗了」？",
-            "options": [
-                "Máy giặt bị hỏng, không giặt được nữa.",
-                "Máy giặt được hỏng, không giặt nữa.",
-                "Máy giặt không giặt bị hỏng.",
-                "Máy giặt hỏng bị, không giặt."
-            ],
-            "answer": "Máy giặt bị hỏng, không giặt được nữa."
-        },
-        {
-            "type": "fill",
-            "question": "Máy lạnh không bật ___, chắc là hỏng rồi.（空调打不开，估计坏了）",
-            "answer": "được"
-        },
-        {
-            "type": "fill",
-            "question": "Dịch vụ sửa chữa của anh có đến tận ___ không?（你们的维修服务有上门吗？）",
-            "answer": "nơi"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「我的洗衣机坏了」的越南语",
-            "answer": "Máy giặt của tôi bị hỏng"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「hết bảo hành」的意思是？",
+      "options": ["在保修期", "过保修期", "免费维修", "换新机"],
+      "answer": "过保修期"
+    },
+    {
+      "type": "choose",
+      "question": "哪句正确表达「洗衣机坏了，不能洗了」？",
+      "options": [
+        "Máy giặt bị hỏng, không giặt được nữa.",
+        "Máy giặt được hỏng, không giặt nữa.",
+        "Máy giặt không giặt bị hỏng.",
+        "Máy giặt hỏng bị, không giặt."
+      ],
+      "answer": "Máy giặt bị hỏng, không giặt được nữa."
+    },
+    {
+      "type": "fill",
+      "question": "Máy lạnh không bật ___, chắc là hỏng rồi.（空调打不开，估计坏了）",
+      "answer": "được"
+    },
+    {
+      "type": "fill",
+      "question": "Dịch vụ sửa chữa của anh có đến tận ___ không?（你们的维修服务有上门吗？）",
+      "answer": "nơi"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「我的洗衣机坏了」的越南语",
+      "answer": "Máy giặt của tôi bị hỏng"
+    }
+  ]
 }

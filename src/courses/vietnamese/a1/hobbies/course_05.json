@@ -1,191 +1,123 @@
 {
-    "id": "course_vi_101",
-    "title": "第 5 课：运动与健身",
-    "titleVi": "Bài 5: Thể thao và thể dục",
-    "order": 5,
-    "scenario": "hobbies",
-    "goals": [
-        "掌握常见运动项目名称",
-        "学会「chơi / tập + 运动」",
-        "掌握健身相关表达",
-        "能描述运动习惯"
-    ],
-    "words": [
+  "id": "course_vi_101",
+  "title": "第 5 课：运动与健身",
+  "titleVi": "Bài 5: Thể thao và thể dục",
+  "order": 5,
+  "scenario": "hobbies",
+  "goals": ["掌握常见运动项目名称", "学会「chơi / tập + 运动」", "掌握健身相关表达", "能描述运动习惯"],
+  "words": [
+    {
+      "id": "vi_the_thao",
+      "name": "thể thao",
+      "trans": ["体育", "运动"],
+      "tags": ["hobbies", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_the_duc",
+      "name": "thể dục",
+      "trans": ["体操", "健身"],
+      "tags": ["hobbies", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_bong_da",
+      "name": "bóng đá",
+      "trans": ["足球"],
+      "tags": ["hobbies", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_bong_ro",
+      "name": "bóng rổ",
+      "trans": ["篮球"],
+      "tags": ["hobbies", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_cau_long",
+      "name": "cầu lông",
+      "trans": ["羽毛球"],
+      "tags": ["hobbies", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_boi",
+      "name": "bơi",
+      "trans": ["游泳"],
+      "tags": ["hobbies", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_chay_bo",
+      "name": "chạy bộ",
+      "trans": ["跑步"],
+      "tags": ["hobbies", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_tap_the_duc",
+      "name": "tập thể dục",
+      "trans": ["做运动", "锻炼"],
+      "tags": ["hobbies", "A2"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_415",
+    "sentence_vi_a1_416",
+    "sentence_vi_a1_417",
+    "sentence_vi_a1_418",
+    "sentence_vi_a1_419",
+    "sentence_vi_a1_420"
+  ],
+  "grammar": [
+    {
+      "point": "「chơi + 球类运动」表玩球",
+      "explain": "球类运动用「chơi + 运动名」，如「chơi bóng đá」（踢足球）、「chơi bóng rổ」（打篮球）。",
+      "examples": [
         {
-            "id": "vi_the_thao",
-            "name": "thể thao",
-            "trans": [
-                "体育",
-                "运动"
-            ],
-            "tags": [
-                "hobbies",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Tôi chơi bóng đá.",
+          "zh": "我踢足球。"
         },
         {
-            "id": "vi_the_duc",
-            "name": "thể dục",
-            "trans": [
-                "体操",
-                "健身"
-            ],
-            "tags": [
-                "hobbies",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_bong_da",
-            "name": "bóng đá",
-            "trans": [
-                "足球"
-            ],
-            "tags": [
-                "hobbies",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_bong_ro",
-            "name": "bóng rổ",
-            "trans": [
-                "篮球"
-            ],
-            "tags": [
-                "hobbies",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_cau_long",
-            "name": "cầu lông",
-            "trans": [
-                "羽毛球"
-            ],
-            "tags": [
-                "hobbies",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_boi",
-            "name": "bơi",
-            "trans": [
-                "游泳"
-            ],
-            "tags": [
-                "hobbies",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_chay_bo",
-            "name": "chạy bộ",
-            "trans": [
-                "跑步"
-            ],
-            "tags": [
-                "hobbies",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_tap_the_duc",
-            "name": "tập thể dục",
-            "trans": [
-                "做运动",
-                "锻炼"
-            ],
-            "tags": [
-                "hobbies",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Anh ấy chơi cầu lông.",
+          "zh": "他打羽毛球。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_415",
-        "sentence_vi_a1_416",
-        "sentence_vi_a1_417",
-        "sentence_vi_a1_418",
-        "sentence_vi_a1_419",
-        "sentence_vi_a1_420"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「tập + 运动/健身」表锻炼",
+      "explain": "「tập」表示「练习、锻炼」，如「tập thể dục」（做运动）、「tập bơi」（练游泳）。",
+      "examples": [
         {
-            "point": "「chơi + 球类运动」表玩球",
-            "explain": "球类运动用「chơi + 运动名」，如「chơi bóng đá」（踢足球）、「chơi bóng rổ」（打篮球）。",
-            "examples": [
-                {
-                    "vi": "Tôi chơi bóng đá.",
-                    "zh": "我踢足球。"
-                },
-                {
-                    "vi": "Anh ấy chơi cầu lông.",
-                    "zh": "他打羽毛球。"
-                }
-            ]
+          "vi": "Tôi tập thể dục mỗi sáng.",
+          "zh": "我每天早上做运动。"
         },
         {
-            "point": "「tập + 运动/健身」表锻炼",
-            "explain": "「tập」表示「练习、锻炼」，如「tập thể dục」（做运动）、「tập bơi」（练游泳）。",
-            "examples": [
-                {
-                    "vi": "Tôi tập thể dục mỗi sáng.",
-                    "zh": "我每天早上做运动。"
-                },
-                {
-                    "vi": "Cô ấy tập bơi.",
-                    "zh": "她练游泳。"
-                }
-            ]
+          "vi": "Cô ấy tập bơi.",
+          "zh": "她练游泳。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「足球」用越南语怎么说？",
-            "options": [
-                "bóng đá",
-                "bóng rổ",
-                "cầu lông"
-            ],
-            "answer": "bóng đá"
-        },
-        {
-            "type": "fill",
-            "question": "Tôi ___ thể dục mỗi sáng.",
-            "answer": "tập"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「游泳」的越南语",
-            "answer": "bơi"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「足球」用越南语怎么说？",
+      "options": ["bóng đá", "bóng rổ", "cầu lông"],
+      "answer": "bóng đá"
+    },
+    {
+      "type": "fill",
+      "question": "Tôi ___ thể dục mỗi sáng.",
+      "answer": "tập"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「游泳」的越南语",
+      "answer": "bơi"
+    }
+  ]
 }

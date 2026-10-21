@@ -1,190 +1,123 @@
 {
-    "id": "course_vi_42",
-    "title": "第 8 课：家务与家庭活动",
-    "titleVi": "Bài 8: Việc nhà và hoạt động gia đình",
-    "order": 8,
-    "scenario": "housing",
-    "goals": [
-        "掌握家务活动的越南语说法",
-        "学会说「谁负责做……」",
-        "能描述家庭日常活动",
-        "能分配家务"
-    ],
-    "words": [
+  "id": "course_vi_42",
+  "title": "第 8 课：家务与家庭活动",
+  "titleVi": "Bài 8: Việc nhà và hoạt động gia đình",
+  "order": 8,
+  "scenario": "housing",
+  "goals": ["掌握家务活动的越南语说法", "学会说「谁负责做……」", "能描述家庭日常活动", "能分配家务"],
+  "words": [
+    {
+      "id": "vi_don_dep",
+      "name": "dọn dẹp",
+      "trans": ["打扫", "收拾"],
+      "tags": ["housing", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_rua_chen",
+      "name": "rửa chén",
+      "trans": ["洗碗"],
+      "tags": ["housing", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_giat_do",
+      "name": "giặt đồ",
+      "trans": ["洗衣服"],
+      "tags": ["housing", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_nau_an",
+      "name": "nấu ăn",
+      "trans": ["做饭"],
+      "tags": ["housing", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_xem_tivi",
+      "name": "xem tivi",
+      "trans": ["看电视"],
+      "tags": ["housing", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_noi_chuyen",
+      "name": "nói chuyện",
+      "trans": ["聊天", "说话"],
+      "tags": ["housing", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_di_choi",
+      "name": "đi chơi",
+      "trans": ["出去玩"],
+      "tags": ["housing", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_nghi_ngoi",
+      "name": "nghỉ ngơi",
+      "trans": ["休息"],
+      "tags": ["housing", "A2"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_607",
+    "sentence_vi_a1_608",
+    "sentence_vi_a1_609",
+    "sentence_vi_a1_610",
+    "sentence_vi_a1_611",
+    "sentence_vi_a1_612"
+  ],
+  "grammar": [
+    {
+      "point": "「phụ trách + 名词」表负责",
+      "explain": "表示负责某项事务用「phụ trách + 名词」，如「phụ trách nấu ăn」（负责做饭）。",
+      "examples": [
         {
-            "id": "vi_don_dep",
-            "name": "dọn dẹp",
-            "trans": [
-                "打扫",
-                "收拾"
-            ],
-            "tags": [
-                "housing",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Mẹ tôi phụ trách nấu ăn.",
+          "zh": "我妈妈负责做饭。"
         },
         {
-            "id": "vi_rua_chen",
-            "name": "rửa chén",
-            "trans": [
-                "洗碗"
-            ],
-            "tags": [
-                "housing",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_giat_do",
-            "name": "giặt đồ",
-            "trans": [
-                "洗衣服"
-            ],
-            "tags": [
-                "housing",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_nau_an",
-            "name": "nấu ăn",
-            "trans": [
-                "做饭"
-            ],
-            "tags": [
-                "housing",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_xem_tivi",
-            "name": "xem tivi",
-            "trans": [
-                "看电视"
-            ],
-            "tags": [
-                "housing",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_noi_chuyen",
-            "name": "nói chuyện",
-            "trans": [
-                "聊天",
-                "说话"
-            ],
-            "tags": [
-                "housing",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_di_choi",
-            "name": "đi chơi",
-            "trans": [
-                "出去玩"
-            ],
-            "tags": [
-                "housing",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_nghi_ngoi",
-            "name": "nghỉ ngơi",
-            "trans": [
-                "休息"
-            ],
-            "tags": [
-                "housing",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Tôi phụ trách rửa chén.",
+          "zh": "我负责洗碗。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_607",
-        "sentence_vi_a1_608",
-        "sentence_vi_a1_609",
-        "sentence_vi_a1_610",
-        "sentence_vi_a1_611",
-        "sentence_vi_a1_612"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「cùng + 动词」表一起做",
+      "explain": "「cùng」意为「一起」，后接动词表示一起做某事。",
+      "examples": [
         {
-            "point": "「phụ trách + 名词」表负责",
-            "explain": "表示负责某项事务用「phụ trách + 名词」，如「phụ trách nấu ăn」（负责做饭）。",
-            "examples": [
-                {
-                    "vi": "Mẹ tôi phụ trách nấu ăn.",
-                    "zh": "我妈妈负责做饭。"
-                },
-                {
-                    "vi": "Tôi phụ trách rửa chén.",
-                    "zh": "我负责洗碗。"
-                }
-            ]
+          "vi": "Cả nhà cùng ăn cơm.",
+          "zh": "全家一起吃饭。"
         },
         {
-            "point": "「cùng + 动词」表一起做",
-            "explain": "「cùng」意为「一起」，后接动词表示一起做某事。",
-            "examples": [
-                {
-                    "vi": "Cả nhà cùng ăn cơm.",
-                    "zh": "全家一起吃饭。"
-                },
-                {
-                    "vi": "Chúng tôi cùng xem tivi.",
-                    "zh": "我们一起看电视。"
-                }
-            ]
+          "vi": "Chúng tôi cùng xem tivi.",
+          "zh": "我们一起看电视。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「洗碗」用越南语怎么说？",
-            "options": [
-                "rửa chén",
-                "giặt đồ",
-                "nấu ăn"
-            ],
-            "answer": "rửa chén"
-        },
-        {
-            "type": "fill",
-            "question": "Mẹ tôi phụ trách ___ ăn.",
-            "answer": "nấu"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「打扫」的越南语",
-            "answer": "dọn dẹp"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「洗碗」用越南语怎么说？",
+      "options": ["rửa chén", "giặt đồ", "nấu ăn"],
+      "answer": "rửa chén"
+    },
+    {
+      "type": "fill",
+      "question": "Mẹ tôi phụ trách ___ ăn.",
+      "answer": "nấu"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「打扫」的越南语",
+      "answer": "dọn dẹp"
+    }
+  ]
 }

@@ -1,14 +1,14 @@
 {
-    "id": "phone2",
-    "stage": "a2",
-    "title": "电话与联系进阶",
-    "titleVi": "전화와 연락 심화",
-    "courses": [
-        {
-            "id": "course_ko_110",
-            "file": "course_01.json",
-            "title": "第 1 课：전화를 걸어 놓았습니다",
-            "titleVi": "제1과: 전화를 걸어 놓았습니다"
-        }
-    ]
+  "id": "phone2",
+  "stage": "a2",
+  "title": "电话与联系进阶",
+  "titleVi": "전화와 연락 심화",
+  "courses": [
+    {
+      "id": "course_ko_110",
+      "file": "course_01.json",
+      "title": "第 1 课：전화를 걸어 놓았습니다",
+      "titleVi": "제1과: 전화를 걸어 놓았습니다"
+    }
+  ]
 }

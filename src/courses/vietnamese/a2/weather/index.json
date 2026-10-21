@@ -1,38 +1,38 @@
 {
-    "id": "weather",
-    "stage": "a2",
-    "title": "天气与季节",
-    "titleVi": "Thời tiết và các mùa",
-    "courses": [
-        {
-            "id": "course_vi_111",
-            "file": "course_01.json",
-            "title": "第 1 课：基本天气",
-            "titleVi": "Bài 1: Thời tiết cơ bản"
-        },
-        {
-            "id": "course_vi_112",
-            "file": "course_02.json",
-            "title": "第 2 课：四季与气候",
-            "titleVi": "Bài 2: Bốn mùa và khí hậu"
-        },
-        {
-            "id": "course_vi_113",
-            "file": "course_03.json",
-            "title": "第 3 课：温度与体感",
-            "titleVi": "Bài 3: Nhiệt độ và cảm giác"
-        },
-        {
-            "id": "course_vi_114",
-            "file": "course_04.json",
-            "title": "第 4 课：天气预报",
-            "titleVi": "Bài 4: Dự báo thời tiết"
-        },
-        {
-            "id": "course_vi_115",
-            "file": "course_05.json",
-            "title": "第 5 课：应对极端天气",
-            "titleVi": "Bài 5: Ứng phó với thời tiết cực đoan"
-        }
-    ]
+  "id": "weather",
+  "stage": "a2",
+  "title": "天气与季节",
+  "titleVi": "Thời tiết và các mùa",
+  "courses": [
+    {
+      "id": "course_vi_111",
+      "file": "course_01.json",
+      "title": "第 1 课：基本天气",
+      "titleVi": "Bài 1: Thời tiết cơ bản"
+    },
+    {
+      "id": "course_vi_112",
+      "file": "course_02.json",
+      "title": "第 2 课：四季与气候",
+      "titleVi": "Bài 2: Bốn mùa và khí hậu"
+    },
+    {
+      "id": "course_vi_113",
+      "file": "course_03.json",
+      "title": "第 3 课：温度与体感",
+      "titleVi": "Bài 3: Nhiệt độ và cảm giác"
+    },
+    {
+      "id": "course_vi_114",
+      "file": "course_04.json",
+      "title": "第 4 课：天气预报",
+      "titleVi": "Bài 4: Dự báo thời tiết"
+    },
+    {
+      "id": "course_vi_115",
+      "file": "course_05.json",
+      "title": "第 5 课：应对极端天气",
+      "titleVi": "Bài 5: Ứng phó với thời tiết cực đoan"
+    }
+  ]
 }

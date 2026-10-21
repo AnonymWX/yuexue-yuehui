@@ -1,197 +1,126 @@
 {
-    "id": "course_ko_015",
-    "title": "第 1 课：여행을 좋아합니까?（喜欢旅行吗？）",
-    "titleVi": "제1과: 여행을 좋아합니까?",
-    "order": 1,
-    "scenario": "travel",
-    "goals": [
-        "掌握「-아/어 보다」（尝试）",
-        "掌握「같이」（一起）",
-        "能说出旅行相关名词",
-        "能表达喜欢/尝试做某事"
-    ],
-    "words": [
+  "id": "course_ko_015",
+  "title": "第 1 课：여행을 좋아합니까?（喜欢旅行吗？）",
+  "titleVi": "제1과: 여행을 좋아합니까?",
+  "order": 1,
+  "scenario": "travel",
+  "goals": ["掌握「-아/어 보다」（尝试）", "掌握「같이」（一起）", "能说出旅行相关名词", "能表达喜欢/尝试做某事"],
+  "words": [
+    {
+      "id": "ko_a1_yeohaeng",
+      "name": "여행",
+      "trans": ["旅行"],
+      "tags": ["travel", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_bada",
+      "name": "바다",
+      "trans": ["大海"],
+      "tags": ["travel", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_san",
+      "name": "산",
+      "trans": ["山"],
+      "tags": ["travel", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_sajin",
+      "name": "사진",
+      "trans": ["照片"],
+      "tags": ["travel", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_jjikda",
+      "name": "찍다",
+      "trans": ["拍（照）"],
+      "tags": ["travel", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_gachi",
+      "name": "같이",
+      "trans": ["一起"],
+      "tags": ["travel", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_nara",
+      "name": "나라",
+      "trans": ["国家"],
+      "tags": ["travel", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_saram",
+      "name": "사람",
+      "trans": ["人"],
+      "tags": ["travel", "A1"],
+      "source": ["korean_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_ko_a1_111",
+    "sentence_ko_a1_112",
+    "sentence_ko_a1_113",
+    "sentence_ko_a1_114",
+    "sentence_ko_a1_115",
+    "sentence_ko_a1_116",
+    "sentence_ko_a1_117",
+    "sentence_ko_a1_118"
+  ],
+  "grammar": [
+    {
+      "point": "「-아/어 보다」（尝试）",
+      "explain": "词干 ㅏ/ㅗ 用 -아 보다，其他用 -어 보다，하다 用 -해 보다。表「尝试做某事」：가 보다 → 가 봅니다（去看看）、먹어 보다 → 먹어 봅니다（尝尝）、여행해 보다 → 여행해 봅니다（旅行看看）。正式体：-아/어 봅니다。",
+      "examples": [
         {
-            "id": "ko_a1_yeohaeng",
-            "name": "여행",
-            "trans": [
-                "旅行"
-            ],
-            "tags": [
-                "travel",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
+          "vi": "한국에 가 봅니다.",
+          "zh": "去韩国看看。"
         },
         {
-            "id": "ko_a1_bada",
-            "name": "바다",
-            "trans": [
-                "大海"
-            ],
-            "tags": [
-                "travel",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_san",
-            "name": "산",
-            "trans": [
-                "山"
-            ],
-            "tags": [
-                "travel",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_sajin",
-            "name": "사진",
-            "trans": [
-                "照片"
-            ],
-            "tags": [
-                "travel",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_jjikda",
-            "name": "찍다",
-            "trans": [
-                "拍（照）"
-            ],
-            "tags": [
-                "travel",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_gachi",
-            "name": "같이",
-            "trans": [
-                "一起"
-            ],
-            "tags": [
-                "travel",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_nara",
-            "name": "나라",
-            "trans": [
-                "国家"
-            ],
-            "tags": [
-                "travel",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_saram",
-            "name": "사람",
-            "trans": [
-                "人"
-            ],
-            "tags": [
-                "travel",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
+          "vi": "김치를 먹어 봅니다.",
+          "zh": "尝尝泡菜。"
         }
-    ],
-    "sentences": [
-        "sentence_ko_a1_111",
-        "sentence_ko_a1_112",
-        "sentence_ko_a1_113",
-        "sentence_ko_a1_114",
-        "sentence_ko_a1_115",
-        "sentence_ko_a1_116",
-        "sentence_ko_a1_117",
-        "sentence_ko_a1_118"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「같이」（一起）+ 推荐表达",
+      "explain": "같이 = 一起，修饰动词：같이 갑니다（一起去）、같이 여행합니다（一起旅行）。注意 같이 是副词，位置在动词前。邀请别人用「같이 ~(으)ㅂ시다」或「같이 ~(으)ㄹ까요?」，本课先掌握 같이 + 普通叙述。",
+      "examples": [
         {
-            "point": "「-아/어 보다」（尝试）",
-            "explain": "词干 ㅏ/ㅗ 用 -아 보다，其他用 -어 보다，하다 用 -해 보다。表「尝试做某事」：가 보다 → 가 봅니다（去看看）、먹어 보다 → 먹어 봅니다（尝尝）、여행해 보다 → 여행해 봅니다（旅行看看）。正式体：-아/어 봅니다。",
-            "examples": [
-                {
-                    "vi": "한국에 가 봅니다.",
-                    "zh": "去韩国看看。"
-                },
-                {
-                    "vi": "김치를 먹어 봅니다.",
-                    "zh": "尝尝泡菜。"
-                }
-            ]
+          "vi": "같이 여행합니다.",
+          "zh": "一起旅行。"
         },
         {
-            "point": "「같이」（一起）+ 推荐表达",
-            "explain": "같이 = 一起，修饰动词：같이 갑니다（一起去）、같이 여행합니다（一起旅行）。注意 같이 是副词，位置在动词前。邀请别人用「같이 ~(으)ㅂ시다」或「같이 ~(으)ㄹ까요?」，本课先掌握 같이 + 普通叙述。",
-            "examples": [
-                {
-                    "vi": "같이 여행합니다.",
-                    "zh": "一起旅行。"
-                },
-                {
-                    "vi": "같이 사진을 찍습니다.",
-                    "zh": "一起拍照。"
-                }
-            ]
+          "vi": "같이 사진을 찍습니다.",
+          "zh": "一起拍照。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「여행」的意思是？",
-            "options": [
-                "旅行",
-                "照片",
-                "大海",
-                "山"
-            ],
-            "answer": "旅行"
-        },
-        {
-            "type": "choose",
-            "question": "「같이」的意思是？",
-            "options": [
-                "一起",
-                "单独",
-                "马上",
-                "已经"
-            ],
-            "answer": "一起"
-        },
-        {
-            "type": "fill",
-            "question": "「拍照」→ 사진을 ___.（填入「拍」的正式体）",
-            "answer": "찍습니다"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「여행」的意思是？",
+      "options": ["旅行", "照片", "大海", "山"],
+      "answer": "旅行"
+    },
+    {
+      "type": "choose",
+      "question": "「같이」的意思是？",
+      "options": ["一起", "单独", "马上", "已经"],
+      "answer": "一起"
+    },
+    {
+      "type": "fill",
+      "question": "「拍照」→ 사진을 ___.（填入「拍」的正式体）",
+      "answer": "찍습니다"
+    }
+  ]
 }

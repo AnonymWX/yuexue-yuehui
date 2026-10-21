@@ -1,317 +1,191 @@
 {
-    "id": "course_vi_151",
-    "title": "第 1 课：求职",
-    "titleVi": "Bài 1: Tìm việc làm",
-    "order": 1,
-    "scenario": "work",
-    "goals": [
-        "能说出 12 种以上求职相关词汇",
-        "能读懂并撰写简单的招聘信息",
-        "能用「tuyển / cần tuyển」表达招聘需求",
-        "能打电话或发邮件应聘"
-    ],
-    "words": [
+  "id": "course_vi_151",
+  "title": "第 1 课：求职",
+  "titleVi": "Bài 1: Tìm việc làm",
+  "order": 1,
+  "scenario": "work",
+  "goals": ["能说出 12 种以上求职相关词汇", "能读懂并撰写简单的招聘信息", "能用「tuyển / cần tuyển」表达招聘需求", "能打电话或发邮件应聘"],
+  "words": [
+    {
+      "id": "vi_a2_viec_lam",
+      "name": "việc làm",
+      "trans": ["工作", "就业"],
+      "tags": ["work", "A2", "job"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_cong_viec",
+      "name": "công việc",
+      "trans": ["工作", "职务"],
+      "tags": ["work", "A2", "job"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_tuyen_dung",
+      "name": "tuyển dụng",
+      "trans": ["招聘"],
+      "tags": ["work", "A2", "job"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_ung_vien",
+      "name": "ứng viên",
+      "trans": ["应聘者", "候选人"],
+      "tags": ["work", "A2", "job"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_nha_tuyen_dung",
+      "name": "nhà tuyển dụng",
+      "trans": ["招聘方"],
+      "tags": ["work", "A2", "job"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_ho_so",
+      "name": "hồ sơ",
+      "trans": ["简历", "档案"],
+      "tags": ["work", "A2", "job"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_cv",
+      "name": "CV",
+      "trans": ["简历"],
+      "tags": ["work", "A2", "job"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_don_xin_viec",
+      "name": "đơn xin việc",
+      "trans": ["求职信"],
+      "tags": ["work", "A2", "job"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_kinh_nghiem_lam_viec",
+      "name": "kinh nghiệm làm việc",
+      "trans": ["工作经验"],
+      "tags": ["work", "A2", "job"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_muc_luong",
+      "name": "mức lương",
+      "trans": ["薪资水平"],
+      "tags": ["work", "A2", "job"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_luong",
+      "name": "lương",
+      "trans": ["工资"],
+      "tags": ["work", "A2", "job"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_toan_thoi_gian",
+      "name": "toàn thời gian",
+      "trans": ["全职"],
+      "tags": ["work", "A2", "job"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_ban_thoi_gian",
+      "name": "bán thời gian",
+      "trans": ["兼职"],
+      "tags": ["work", "A2", "job"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_hop_dong",
+      "name": "hợp đồng",
+      "trans": ["合同"],
+      "tags": ["work", "A2", "job"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a2_041",
+    "sentence_vi_a2_042",
+    "sentence_vi_a2_043",
+    "sentence_vi_a2_044",
+    "sentence_vi_a2_045",
+    "sentence_vi_a2_046",
+    "sentence_vi_a2_047",
+    "sentence_vi_a2_048"
+  ],
+  "grammar": [
+    {
+      "point": "招聘表达：tuyển / cần tuyển / đang tuyển",
+      "explain": "「tuyển」= 招（招人）；「cần tuyển」= 需要招；「đang tuyển」= 正在招。招聘广告常见结构：「Công ty X cần tuyển + 职位 + 数量」。应聘方说：「Tôi muốn ứng tuyển vào vị trí...」（我想应聘…岗位）。注意：「tuyển dụng」是名词，「tuyển」是动词。",
+      "examples": [
         {
-            "id": "vi_a2_viec_lam",
-            "name": "việc làm",
-            "trans": [
-                "工作",
-                "就业"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "job"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Công ty này đang tuyển hai nhân viên kinh doanh.",
+          "zh": "这家公司正在招两名销售。"
         },
         {
-            "id": "vi_a2_cong_viec",
-            "name": "công việc",
-            "trans": [
-                "工作",
-                "职务"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "job"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Chúng tôi cần tuyển người có kinh nghiệm ít nhất hai năm.",
+          "zh": "我们需要招至少有两年经验的人。"
         },
         {
-            "id": "vi_a2_tuyen_dung",
-            "name": "tuyển dụng",
-            "trans": [
-                "招聘"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "job"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_ung_vien",
-            "name": "ứng viên",
-            "trans": [
-                "应聘者",
-                "候选人"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "job"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_nha_tuyen_dung",
-            "name": "nhà tuyển dụng",
-            "trans": [
-                "招聘方"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "job"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_ho_so",
-            "name": "hồ sơ",
-            "trans": [
-                "简历",
-                "档案"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "job"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_cv",
-            "name": "CV",
-            "trans": [
-                "简历"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "job"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_don_xin_viec",
-            "name": "đơn xin việc",
-            "trans": [
-                "求职信"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "job"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_kinh_nghiem_lam_viec",
-            "name": "kinh nghiệm làm việc",
-            "trans": [
-                "工作经验"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "job"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_muc_luong",
-            "name": "mức lương",
-            "trans": [
-                "薪资水平"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "job"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_luong",
-            "name": "lương",
-            "trans": [
-                "工资"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "job"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_toan_thoi_gian",
-            "name": "toàn thời gian",
-            "trans": [
-                "全职"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "job"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_ban_thoi_gian",
-            "name": "bán thời gian",
-            "trans": [
-                "兼职"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "job"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_hop_dong",
-            "name": "hợp đồng",
-            "trans": [
-                "合同"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "job"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Tôi muốn ứng tuyển vào vị trí phiên dịch tiếng Việt.",
+          "zh": "我想应聘越南语翻译岗位。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a2_041",
-        "sentence_vi_a2_042",
-        "sentence_vi_a2_043",
-        "sentence_vi_a2_044",
-        "sentence_vi_a2_045",
-        "sentence_vi_a2_046",
-        "sentence_vi_a2_047",
-        "sentence_vi_a2_048"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "求职常用：xin việc / tìm việc / ứng tuyển",
+      "explain": "「xin việc」= 求职（强调申请）；「tìm việc」= 找工作（强调寻找过程）；「ứng tuyển」= 应聘（正式，向某岗位投递）。三者句法：「xin việc ở/tại + 公司」「tìm việc + 地点」「ứng tuyển vào + 职位」。",
+      "examples": [
         {
-            "point": "招聘表达：tuyển / cần tuyển / đang tuyển",
-            "explain": "「tuyển」= 招（招人）；「cần tuyển」= 需要招；「đang tuyển」= 正在招。招聘广告常见结构：「Công ty X cần tuyển + 职位 + 数量」。应聘方说：「Tôi muốn ứng tuyển vào vị trí...」（我想应聘…岗位）。注意：「tuyển dụng」是名词，「tuyển」是动词。",
-            "examples": [
-                {
-                    "vi": "Công ty này đang tuyển hai nhân viên kinh doanh.",
-                    "zh": "这家公司正在招两名销售。"
-                },
-                {
-                    "vi": "Chúng tôi cần tuyển người có kinh nghiệm ít nhất hai năm.",
-                    "zh": "我们需要招至少有两年经验的人。"
-                },
-                {
-                    "vi": "Tôi muốn ứng tuyển vào vị trí phiên dịch tiếng Việt.",
-                    "zh": "我想应聘越南语翻译岗位。"
-                }
-            ]
+          "vi": "Tôi đang tìm việc làm thêm vào buổi tối.",
+          "zh": "我正在找晚上的兼职。"
         },
         {
-            "point": "求职常用：xin việc / tìm việc / ứng tuyển",
-            "explain": "「xin việc」= 求职（强调申请）；「tìm việc」= 找工作（强调寻找过程）；「ứng tuyển」= 应聘（正式，向某岗位投递）。三者句法：「xin việc ở/tại + 公司」「tìm việc + 地点」「ứng tuyển vào + 职位」。",
-            "examples": [
-                {
-                    "vi": "Tôi đang tìm việc làm thêm vào buổi tối.",
-                    "zh": "我正在找晚上的兼职。"
-                },
-                {
-                    "vi": "Cô ấy xin việc ở một công ty xuất nhập khẩu.",
-                    "zh": "她在一家进出口公司求职。"
-                },
-                {
-                    "vi": "Tôi đã ứng tuyển vào ba công ty khác nhau.",
-                    "zh": "我已经向三家公司投了简历。"
-                }
-            ]
+          "vi": "Cô ấy xin việc ở một công ty xuất nhập khẩu.",
+          "zh": "她在一家进出口公司求职。"
+        },
+        {
+          "vi": "Tôi đã ứng tuyển vào ba công ty khác nhau.",
+          "zh": "我已经向三家公司投了简历。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「ứng viên」的意思是？",
-            "options": [
-                "招聘方",
-                "应聘者",
-                "人事",
-                "同事"
-            ],
-            "answer": "应聘者"
-        },
-        {
-            "type": "choose",
-            "question": "哪句正确表达「我想应聘翻译岗位」？",
-            "options": [
-                "Tôi muốn ứng tuyển vào vị trí phiên dịch.",
-                "Tôi muốn tuyển ứng vào vị trí phiên dịch.",
-                "Tôi vị trí phiên dịch muốn ứng tuyển.",
-                "Tôi ứng muốn tuyển vị trí phiên dịch."
-            ],
-            "answer": "Tôi muốn ứng tuyển vào vị trí phiên dịch."
-        },
-        {
-            "type": "fill",
-            "question": "Công ty này đang ___ hai nhân viên kinh doanh.（这家公司正在招两名销售）",
-            "answer": "tuyển"
-        },
-        {
-            "type": "fill",
-            "question": "Tôi muốn ứng ___ vào vị trí phiên dịch tiếng Việt.（我想应聘越南语翻译岗位）",
-            "answer": "tuyển"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「我在找工作」的越南语",
-            "answer": "Tôi đang tìm việc làm"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「ứng viên」的意思是？",
+      "options": ["招聘方", "应聘者", "人事", "同事"],
+      "answer": "应聘者"
+    },
+    {
+      "type": "choose",
+      "question": "哪句正确表达「我想应聘翻译岗位」？",
+      "options": [
+        "Tôi muốn ứng tuyển vào vị trí phiên dịch.",
+        "Tôi muốn tuyển ứng vào vị trí phiên dịch.",
+        "Tôi vị trí phiên dịch muốn ứng tuyển.",
+        "Tôi ứng muốn tuyển vị trí phiên dịch."
+      ],
+      "answer": "Tôi muốn ứng tuyển vào vị trí phiên dịch."
+    },
+    {
+      "type": "fill",
+      "question": "Công ty này đang ___ hai nhân viên kinh doanh.（这家公司正在招两名销售）",
+      "answer": "tuyển"
+    },
+    {
+      "type": "fill",
+      "question": "Tôi muốn ứng ___ vào vị trí phiên dịch tiếng Việt.（我想应聘越南语翻译岗位）",
+      "answer": "tuyển"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「我在找工作」的越南语",
+      "answer": "Tôi đang tìm việc làm"
+    }
+  ]
 }

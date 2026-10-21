@@ -1,192 +1,123 @@
 {
-    "id": "course_vi_55",
-    "title": "第 2 课：问年龄",
-    "titleVi": "Bài 2: Hỏi tuổi",
-    "order": 2,
-    "scenario": "birthday",
-    "goals": [
-        "掌握不同年龄段的问年龄方式",
-        "学会说具体年龄",
-        "能用不同问法问不同人的年龄",
-        "能描述年龄阶段"
-    ],
-    "words": [
+  "id": "course_vi_55",
+  "title": "第 2 课：问年龄",
+  "titleVi": "Bài 2: Hỏi tuổi",
+  "order": 2,
+  "scenario": "birthday",
+  "goals": ["掌握不同年龄段的问年龄方式", "学会说具体年龄", "能用不同问法问不同人的年龄", "能描述年龄阶段"],
+  "words": [
+    {
+      "id": "vi_bao_nhieu_tuoi",
+      "name": "bao nhiêu tuổi",
+      "trans": ["多少岁"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_may_tuoi",
+      "name": "mấy tuổi",
+      "trans": ["几岁（对小孩）"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_tuoi_tac",
+      "name": "tuổi tác",
+      "trans": ["年纪", "年龄"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_truong_thanh",
+      "name": "trưởng thành",
+      "trans": ["长大", "成年"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_tuoi_tho",
+      "name": "tuổi thơ",
+      "trans": ["童年"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_thanh_xuan",
+      "name": "thanh xuân",
+      "trans": ["青春"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_cao_tuoi",
+      "name": "cao tuổi",
+      "trans": ["高龄", "年长"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_trung_binh",
+      "name": "trung bình",
+      "trans": ["平均", "中等"],
+      "tags": ["birthday", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_163",
+    "sentence_vi_a1_164",
+    "sentence_vi_a1_165",
+    "sentence_vi_a1_166",
+    "sentence_vi_a1_167",
+    "sentence_vi_a1_168"
+  ],
+  "grammar": [
+    {
+      "point": "「bao nhiêu tuổi」问年龄",
+      "explain": "对成人问年龄用「bao nhiêu tuổi」，对小孩用「mấy tuổi」。回答用「số + tuổi」。",
+      "examples": [
         {
-            "id": "vi_bao_nhieu_tuoi",
-            "name": "bao nhiêu tuổi",
-            "trans": [
-                "多少岁"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Anh bao nhiêu tuổi?",
+          "zh": "你多大了？"
         },
         {
-            "id": "vi_may_tuoi",
-            "name": "mấy tuổi",
-            "trans": [
-                "几岁（对小孩）"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_tuoi_tac",
-            "name": "tuổi tác",
-            "trans": [
-                "年纪",
-                "年龄"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_truong_thanh",
-            "name": "trưởng thành",
-            "trans": [
-                "长大",
-                "成年"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_tuoi_tho",
-            "name": "tuổi thơ",
-            "trans": [
-                "童年"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_thanh_xuan",
-            "name": "thanh xuân",
-            "trans": [
-                "青春"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_cao_tuoi",
-            "name": "cao tuổi",
-            "trans": [
-                "高龄",
-                "年长"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_trung_binh",
-            "name": "trung bình",
-            "trans": [
-                "平均",
-                "中等"
-            ],
-            "tags": [
-                "birthday",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Em mấy tuổi?",
+          "zh": "你几岁了？"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_163",
-        "sentence_vi_a1_164",
-        "sentence_vi_a1_165",
-        "sentence_vi_a1_166",
-        "sentence_vi_a1_167",
-        "sentence_vi_a1_168"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "年龄段的表达",
+      "explain": "用「tuổi thơ」（童年）、「thanh xuân」（青春）、「trung niên」（中年，已引入）、「cao tuổi」（高龄）描述人生阶段。",
+      "examples": [
         {
-            "point": "「bao nhiêu tuổi」问年龄",
-            "explain": "对成人问年龄用「bao nhiêu tuổi」，对小孩用「mấy tuổi」。回答用「số + tuổi」。",
-            "examples": [
-                {
-                    "vi": "Anh bao nhiêu tuổi?",
-                    "zh": "你多大了？"
-                },
-                {
-                    "vi": "Em mấy tuổi?",
-                    "zh": "你几岁了？"
-                }
-            ]
+          "vi": "Tuổi thơ của tôi rất đẹp.",
+          "zh": "我的童年很美好。"
         },
         {
-            "point": "年龄段的表达",
-            "explain": "用「tuổi thơ」（童年）、「thanh xuân」（青春）、「trung niên」（中年，已引入）、「cao tuổi」（高龄）描述人生阶段。",
-            "examples": [
-                {
-                    "vi": "Tuổi thơ của tôi rất đẹp.",
-                    "zh": "我的童年很美好。"
-                },
-                {
-                    "vi": "Bà tôi đã cao tuổi.",
-                    "zh": "我奶奶已经高龄了。"
-                }
-            ]
+          "vi": "Bà tôi đã cao tuổi.",
+          "zh": "我奶奶已经高龄了。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "对小孩问年龄用？",
-            "options": [
-                "bao nhiêu tuổi",
-                "mấy tuổi",
-                "两者都可以"
-            ],
-            "answer": "mấy tuổi"
-        },
-        {
-            "type": "fill",
-            "question": "Anh ___ nhiêu tuổi?",
-            "answer": "bao"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「童年」的越南语",
-            "answer": "tuổi thơ"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "对小孩问年龄用？",
+      "options": ["bao nhiêu tuổi", "mấy tuổi", "两者都可以"],
+      "answer": "mấy tuổi"
+    },
+    {
+      "type": "fill",
+      "question": "Anh ___ nhiêu tuổi?",
+      "answer": "bao"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「童年」的越南语",
+      "answer": "tuổi thơ"
+    }
+  ]
 }

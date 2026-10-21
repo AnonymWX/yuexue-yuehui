@@ -1,190 +1,123 @@
 {
-    "id": "course_vi_102",
-    "title": "第 6 课：休闲活动",
-    "titleVi": "Bài 6: Hoạt động giải trí",
-    "order": 6,
-    "scenario": "hobbies",
-    "goals": [
-        "掌握常见休闲活动表达",
-        "学会说「周末做什么」",
-        "掌握「đi chơi / đi du lịch」",
-        "能描述休闲生活方式"
-    ],
-    "words": [
+  "id": "course_vi_102",
+  "title": "第 6 课：休闲活动",
+  "titleVi": "Bài 6: Hoạt động giải trí",
+  "order": 6,
+  "scenario": "hobbies",
+  "goals": ["掌握常见休闲活动表达", "学会说「周末做什么」", "掌握「đi chơi / đi du lịch」", "能描述休闲生活方式"],
+  "words": [
+    {
+      "id": "vi_du_lich",
+      "name": "du lịch",
+      "trans": ["旅游", "旅行"],
+      "tags": ["hobbies", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_cam_trai",
+      "name": "cắm trại",
+      "trans": ["露营"],
+      "tags": ["hobbies", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_cau_ca",
+      "name": "câu cá",
+      "trans": ["钓鱼"],
+      "tags": ["hobbies", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_chup_anh",
+      "name": "chụp ảnh",
+      "trans": ["拍照"],
+      "tags": ["hobbies", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_dan_guitar",
+      "name": "đàn guitar",
+      "trans": ["弹吉他"],
+      "tags": ["hobbies", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_hat",
+      "name": "hát",
+      "trans": ["唱歌"],
+      "tags": ["hobbies", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_ve",
+      "name": "vẽ",
+      "trans": ["画画"],
+      "tags": ["hobbies", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_nau_an_hobby",
+      "name": "nấu ăn",
+      "trans": ["做饭", "烹饪"],
+      "tags": ["hobbies", "A2"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_493",
+    "sentence_vi_a1_494",
+    "sentence_vi_a1_495",
+    "sentence_vi_a1_496",
+    "sentence_vi_a1_497",
+    "sentence_vi_a1_498"
+  ],
+  "grammar": [
+    {
+      "point": "「đi + 休闲活动」表去做某事",
+      "explain": "外出休闲用「đi + 活动」，如「đi du lịch」（去旅游）、「đi cắm trại」（去露营）、「đi câu cá」（去钓鱼）。",
+      "examples": [
         {
-            "id": "vi_du_lich",
-            "name": "du lịch",
-            "trans": [
-                "旅游",
-                "旅行"
-            ],
-            "tags": [
-                "hobbies",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Cuối tuần tôi đi du lịch.",
+          "zh": "周末我去旅游。"
         },
         {
-            "id": "vi_cam_trai",
-            "name": "cắm trại",
-            "trans": [
-                "露营"
-            ],
-            "tags": [
-                "hobbies",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_cau_ca",
-            "name": "câu cá",
-            "trans": [
-                "钓鱼"
-            ],
-            "tags": [
-                "hobbies",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_chup_anh",
-            "name": "chụp ảnh",
-            "trans": [
-                "拍照"
-            ],
-            "tags": [
-                "hobbies",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_dan_guitar",
-            "name": "đàn guitar",
-            "trans": [
-                "弹吉他"
-            ],
-            "tags": [
-                "hobbies",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_hat",
-            "name": "hát",
-            "trans": [
-                "唱歌"
-            ],
-            "tags": [
-                "hobbies",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_ve",
-            "name": "vẽ",
-            "trans": [
-                "画画"
-            ],
-            "tags": [
-                "hobbies",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_nau_an_hobby",
-            "name": "nấu ăn",
-            "trans": [
-                "做饭",
-                "烹饪"
-            ],
-            "tags": [
-                "hobbies",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Anh ấy đi câu cá.",
+          "zh": "他去钓鱼。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_493",
-        "sentence_vi_a1_494",
-        "sentence_vi_a1_495",
-        "sentence_vi_a1_496",
-        "sentence_vi_a1_497",
-        "sentence_vi_a1_498"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「chụp ảnh / đàn guitar / vẽ」艺术类活动",
+      "explain": "艺术类活动用动词原形，如「chụp ảnh」（拍照）、「đàn guitar」（弹吉他）、「vẽ」（画画）。",
+      "examples": [
         {
-            "point": "「đi + 休闲活动」表去做某事",
-            "explain": "外出休闲用「đi + 活动」，如「đi du lịch」（去旅游）、「đi cắm trại」（去露营）、「đi câu cá」（去钓鱼）。",
-            "examples": [
-                {
-                    "vi": "Cuối tuần tôi đi du lịch.",
-                    "zh": "周末我去旅游。"
-                },
-                {
-                    "vi": "Anh ấy đi câu cá.",
-                    "zh": "他去钓鱼。"
-                }
-            ]
+          "vi": "Tôi thích chụp ảnh.",
+          "zh": "我喜欢拍照。"
         },
         {
-            "point": "「chụp ảnh / đàn guitar / vẽ」艺术类活动",
-            "explain": "艺术类活动用动词原形，如「chụp ảnh」（拍照）、「đàn guitar」（弹吉他）、「vẽ」（画画）。",
-            "examples": [
-                {
-                    "vi": "Tôi thích chụp ảnh.",
-                    "zh": "我喜欢拍照。"
-                },
-                {
-                    "vi": "Cô ấy biết đàn guitar.",
-                    "zh": "她会弹吉他。"
-                }
-            ]
+          "vi": "Cô ấy biết đàn guitar.",
+          "zh": "她会弹吉他。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「旅游」用越南语怎么说？",
-            "options": [
-                "du lịch",
-                "cắm trại",
-                "câu cá"
-            ],
-            "answer": "du lịch"
-        },
-        {
-            "type": "fill",
-            "question": "Tôi thích ___ ảnh.",
-            "answer": "chụp"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「弹吉他」的越南语",
-            "answer": "đàn guitar"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「旅游」用越南语怎么说？",
+      "options": ["du lịch", "cắm trại", "câu cá"],
+      "answer": "du lịch"
+    },
+    {
+      "type": "fill",
+      "question": "Tôi thích ___ ảnh.",
+      "answer": "chụp"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「弹吉他」的越南语",
+      "answer": "đàn guitar"
+    }
+  ]
 }

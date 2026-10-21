@@ -1,14 +1,14 @@
 {
-    "id": "daily_life",
-    "stage": "a2",
-    "title": "日常生活进阶",
-    "titleVi": "일상생활 심화",
-    "courses": [
-        {
-            "id": "course_ko_101",
-            "file": "course_01.json",
-            "title": "第 1 课：어제 무엇을 했습니까?",
-            "titleVi": "제1과: 어제 무엇을 했습니까?"
-        }
-    ]
+  "id": "daily_life",
+  "stage": "a2",
+  "title": "日常生活进阶",
+  "titleVi": "일상생활 심화",
+  "courses": [
+    {
+      "id": "course_ko_101",
+      "file": "course_01.json",
+      "title": "第 1 课：어제 무엇을 했습니까?",
+      "titleVi": "제1과: 어제 무엇을 했습니까?"
+    }
+  ]
 }

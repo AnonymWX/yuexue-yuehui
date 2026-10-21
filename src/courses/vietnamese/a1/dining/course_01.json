@@ -1,192 +1,123 @@
 {
-    "id": "course_vi_70",
-    "title": "第 1 课：餐厅类型与选择",
-    "titleVi": "Bài 1: Các loại nhà hàng và lựa chọn",
-    "order": 1,
-    "scenario": "dining",
-    "goals": [
-        "掌握不同餐厅类型的越南语说法",
-        "学会说「去哪家餐厅」",
-        "掌握「quán」与「nhà hàng」的区别",
-        "能描述餐厅特点"
-    ],
-    "words": [
+  "id": "course_vi_70",
+  "title": "第 1 课：餐厅类型与选择",
+  "titleVi": "Bài 1: Các loại nhà hàng và lựa chọn",
+  "order": 1,
+  "scenario": "dining",
+  "goals": ["掌握不同餐厅类型的越南语说法", "学会说「去哪家餐厅」", "掌握「quán」与「nhà hàng」的区别", "能描述餐厅特点"],
+  "words": [
+    {
+      "id": "vi_quan_an",
+      "name": "quán ăn",
+      "trans": ["饭馆", "小餐馆"],
+      "tags": ["dining", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_quan_nuoc",
+      "name": "quán nước",
+      "trans": ["饮品店", "水摊"],
+      "tags": ["dining", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_quan_cafe",
+      "name": "quán cà phê",
+      "trans": ["咖啡店"],
+      "tags": ["dining", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_nha_hang_dining",
+      "name": "nhà hàng",
+      "trans": ["餐厅"],
+      "tags": ["dining", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_quan_an_via_he",
+      "name": "quán vỉa hè",
+      "trans": ["路边摊", "街边店"],
+      "tags": ["dining", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_quan_chay",
+      "name": "quán chay",
+      "trans": ["素菜馆"],
+      "tags": ["dining", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_quan_nuong",
+      "name": "quán nướng",
+      "trans": ["烧烤店"],
+      "tags": ["dining", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_chon",
+      "name": "chọn",
+      "trans": ["选择", "挑选"],
+      "tags": ["dining", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_079",
+    "sentence_vi_a1_080",
+    "sentence_vi_a1_081",
+    "sentence_vi_a1_082",
+    "sentence_vi_a1_083",
+    "sentence_vi_a1_084"
+  ],
+  "grammar": [
+    {
+      "point": "「quán + 品类」表专门店",
+      "explain": "「quán」意为「店、馆」，后接品类表示专门店，如「quán ăn」（饭馆）、「quán cà phê」（咖啡店）。「nhà hàng」更正式，指正式餐厅。",
+      "examples": [
         {
-            "id": "vi_quan_an",
-            "name": "quán ăn",
-            "trans": [
-                "饭馆",
-                "小餐馆"
-            ],
-            "tags": [
-                "dining",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Chúng ta đi quán ăn nhé.",
+          "zh": "我们去饭馆吧。"
         },
         {
-            "id": "vi_quan_nuoc",
-            "name": "quán nước",
-            "trans": [
-                "饮品店",
-                "水摊"
-            ],
-            "tags": [
-                "dining",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_quan_cafe",
-            "name": "quán cà phê",
-            "trans": [
-                "咖啡店"
-            ],
-            "tags": [
-                "dining",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_nha_hang_dining",
-            "name": "nhà hàng",
-            "trans": [
-                "餐厅"
-            ],
-            "tags": [
-                "dining",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_quan_an_via_he",
-            "name": "quán vỉa hè",
-            "trans": [
-                "路边摊",
-                "街边店"
-            ],
-            "tags": [
-                "dining",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_quan_chay",
-            "name": "quán chay",
-            "trans": [
-                "素菜馆"
-            ],
-            "tags": [
-                "dining",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_quan_nuong",
-            "name": "quán nướng",
-            "trans": [
-                "烧烤店"
-            ],
-            "tags": [
-                "dining",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_chon",
-            "name": "chọn",
-            "trans": [
-                "选择",
-                "挑选"
-            ],
-            "tags": [
-                "dining",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Đây là nhà hàng lớn.",
+          "zh": "这是家大餐厅。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_079",
-        "sentence_vi_a1_080",
-        "sentence_vi_a1_081",
-        "sentence_vi_a1_082",
-        "sentence_vi_a1_083",
-        "sentence_vi_a1_084"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「chọn + 名词」表选择",
+      "explain": "「chọn」意为「选择」，后接名词，如「chọn quán」（选店）。",
+      "examples": [
         {
-            "point": "「quán + 品类」表专门店",
-            "explain": "「quán」意为「店、馆」，后接品类表示专门店，如「quán ăn」（饭馆）、「quán cà phê」（咖啡店）。「nhà hàng」更正式，指正式餐厅。",
-            "examples": [
-                {
-                    "vi": "Chúng ta đi quán ăn nhé.",
-                    "zh": "我们去饭馆吧。"
-                },
-                {
-                    "vi": "Đây là nhà hàng lớn.",
-                    "zh": "这是家大餐厅。"
-                }
-            ]
+          "vi": "Tôi chọn quán này.",
+          "zh": "我选这家店。"
         },
         {
-            "point": "「chọn + 名词」表选择",
-            "explain": "「chọn」意为「选择」，后接名词，如「chọn quán」（选店）。",
-            "examples": [
-                {
-                    "vi": "Tôi chọn quán này.",
-                    "zh": "我选这家店。"
-                },
-                {
-                    "vi": "Bạn chọn nhà hàng nào?",
-                    "zh": "你选哪家餐厅？"
-                }
-            ]
+          "vi": "Bạn chọn nhà hàng nào?",
+          "zh": "你选哪家餐厅？"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「咖啡店」用越南语怎么说？",
-            "options": [
-                "quán cà phê",
-                "quán ăn",
-                "quán nước"
-            ],
-            "answer": "quán cà phê"
-        },
-        {
-            "type": "fill",
-            "question": "Chúng ta đi quán ___ nhé.",
-            "answer": "ăn"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「选择」的越南语",
-            "answer": "chọn"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「咖啡店」用越南语怎么说？",
+      "options": ["quán cà phê", "quán ăn", "quán nước"],
+      "answer": "quán cà phê"
+    },
+    {
+      "type": "fill",
+      "question": "Chúng ta đi quán ___ nhé.",
+      "answer": "ăn"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「选择」的越南语",
+      "answer": "chọn"
+    }
+  ]
 }

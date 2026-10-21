@@ -1,189 +1,123 @@
 {
-    "id": "course_vi_21",
-    "title": "第 3 课：物品特征描述",
-    "titleVi": "Bài 3: Miêu tả đặc điểm đồ vật",
-    "order": 3,
-    "scenario": "objects",
-    "goals": [
-        "掌握描述物品特征的形容词",
-        "学会「形容词 + 名词」结构",
-        "能用「này / kia」指代物品",
-        "能对比两个物品的特征"
-    ],
-    "words": [
+  "id": "course_vi_21",
+  "title": "第 3 课：物品特征描述",
+  "titleVi": "Bài 3: Miêu tả đặc điểm đồ vật",
+  "order": 3,
+  "scenario": "objects",
+  "goals": ["掌握描述物品特征的形容词", "学会「形容词 + 名词」结构", "能用「này / kia」指代物品", "能对比两个物品的特征"],
+  "words": [
+    {
+      "id": "vi_to",
+      "name": "to",
+      "trans": ["大"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_nho",
+      "name": "nhỏ",
+      "trans": ["小"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_moi",
+      "name": "mới",
+      "trans": ["新"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_cu",
+      "name": "cũ",
+      "trans": ["旧"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_dai_long",
+      "name": "dài",
+      "trans": ["长"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_ngan",
+      "name": "ngắn",
+      "trans": ["短"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_cao",
+      "name": "cao",
+      "trans": ["高"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_thap",
+      "name": "thấp",
+      "trans": ["矮", "低"],
+      "tags": ["objects", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_229",
+    "sentence_vi_a1_230",
+    "sentence_vi_a1_231",
+    "sentence_vi_a1_232",
+    "sentence_vi_a1_233",
+    "sentence_vi_a1_234"
+  ],
+  "grammar": [
+    {
+      "point": "形容词作谓语「名词 + 形容词」",
+      "explain": "越南语中形容词可直接跟在名词后作谓语，不需要「是」。如「Cái bàn này to」（这张桌子大）。",
+      "examples": [
         {
-            "id": "vi_to",
-            "name": "to",
-            "trans": [
-                "大"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Cái bàn này to.",
+          "zh": "这张桌子大。"
         },
         {
-            "id": "vi_nho",
-            "name": "nhỏ",
-            "trans": [
-                "小"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_moi",
-            "name": "mới",
-            "trans": [
-                "新"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_cu",
-            "name": "cũ",
-            "trans": [
-                "旧"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_dai_long",
-            "name": "dài",
-            "trans": [
-                "长"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_ngan",
-            "name": "ngắn",
-            "trans": [
-                "短"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_cao",
-            "name": "cao",
-            "trans": [
-                "高"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_thap",
-            "name": "thấp",
-            "trans": [
-                "矮",
-                "低"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Quyển sách này nhỏ.",
+          "zh": "这本书小。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_229",
-        "sentence_vi_a1_230",
-        "sentence_vi_a1_231",
-        "sentence_vi_a1_232",
-        "sentence_vi_a1_233",
-        "sentence_vi_a1_234"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "指示词「này / kia」后置",
+      "explain": "「này」（这）和「kia」（那）放在名词之后，如「cái bàn này」（这张桌子）、「cái bàn kia」（那张桌子）。",
+      "examples": [
         {
-            "point": "形容词作谓语「名词 + 形容词」",
-            "explain": "越南语中形容词可直接跟在名词后作谓语，不需要「是」。如「Cái bàn này to」（这张桌子大）。",
-            "examples": [
-                {
-                    "vi": "Cái bàn này to.",
-                    "zh": "这张桌子大。"
-                },
-                {
-                    "vi": "Quyển sách này nhỏ.",
-                    "zh": "这本书小。"
-                }
-            ]
+          "vi": "Cái ghế này mới.",
+          "zh": "这把椅子新。"
         },
         {
-            "point": "指示词「này / kia」后置",
-            "explain": "「này」（这）和「kia」（那）放在名词之后，如「cái bàn này」（这张桌子）、「cái bàn kia」（那张桌子）。",
-            "examples": [
-                {
-                    "vi": "Cái ghế này mới.",
-                    "zh": "这把椅子新。"
-                },
-                {
-                    "vi": "Cái bàn kia cũ.",
-                    "zh": "那张桌子旧。"
-                }
-            ]
+          "vi": "Cái bàn kia cũ.",
+          "zh": "那张桌子旧。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「这张桌子大」的正确说法是？",
-            "options": [
-                "Cái bàn này to",
-                "Cái bàn to này",
-                "To cái bàn này"
-            ],
-            "answer": "Cái bàn này to"
-        },
-        {
-            "type": "fill",
-            "question": "Quyển sách này ___.",
-            "answer": "nhỏ"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「新」的越南语",
-            "answer": "mới"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「这张桌子大」的正确说法是？",
+      "options": ["Cái bàn này to", "Cái bàn to này", "To cái bàn này"],
+      "answer": "Cái bàn này to"
+    },
+    {
+      "type": "fill",
+      "question": "Quyển sách này ___.",
+      "answer": "nhỏ"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「新」的越南语",
+      "answer": "mới"
+    }
+  ]
 }

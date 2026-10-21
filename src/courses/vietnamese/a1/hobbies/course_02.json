@@ -1,191 +1,123 @@
 {
-    "id": "course_vi_98",
-    "title": "第 2 课：问爱好",
-    "titleVi": "Bài 2: Hỏi về sở thích",
-    "order": 2,
-    "scenario": "hobbies",
-    "goals": [
-        "学会问对方爱好",
-        "掌握「sở thích là gì」句型",
-        "掌握「có thích... không」问法",
-        "能进行爱好问答"
-    ],
-    "words": [
+  "id": "course_vi_98",
+  "title": "第 2 课：问爱好",
+  "titleVi": "Bài 2: Hỏi về sở thích",
+  "order": 2,
+  "scenario": "hobbies",
+  "goals": ["学会问对方爱好", "掌握「sở thích là gì」句型", "掌握「có thích... không」问法", "能进行爱好问答"],
+  "words": [
+    {
+      "id": "vi_so_thich_gi",
+      "name": "sở thích gì",
+      "trans": ["什么爱好"],
+      "tags": ["hobbies", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_hoi",
+      "name": "hỏi",
+      "trans": ["问", "询问"],
+      "tags": ["hobbies", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_tra_loi_hobby",
+      "name": "trả lời",
+      "trans": ["回答"],
+      "tags": ["hobbies", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_ranh",
+      "name": "rảnh",
+      "trans": ["空闲", "有空"],
+      "tags": ["hobbies", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_ban_ron_hobby",
+      "name": "bận rộn",
+      "trans": ["忙碌"],
+      "tags": ["hobbies", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_thoi_gian_ranh",
+      "name": "thời gian rảnh",
+      "trans": ["空闲时间"],
+      "tags": ["hobbies", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_thu_gian",
+      "name": "thư giãn",
+      "trans": ["放松", "休闲"],
+      "tags": ["hobbies", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_giai_tri",
+      "name": "giải trí",
+      "trans": ["娱乐"],
+      "tags": ["hobbies", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_205",
+    "sentence_vi_a1_206",
+    "sentence_vi_a1_207",
+    "sentence_vi_a1_208",
+    "sentence_vi_a1_209",
+    "sentence_vi_a1_210"
+  ],
+  "grammar": [
+    {
+      "point": "「Sở thích của bạn là gì?」问爱好",
+      "explain": "问爱好用「Sở thích của bạn là gì?」，回答用「Sở thích của tôi là...」或「Tôi thích...」。",
+      "examples": [
         {
-            "id": "vi_so_thich_gi",
-            "name": "sở thích gì",
-            "trans": [
-                "什么爱好"
-            ],
-            "tags": [
-                "hobbies",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Sở thích của bạn là gì?",
+          "zh": "你的爱好是什么？"
         },
         {
-            "id": "vi_hoi",
-            "name": "hỏi",
-            "trans": [
-                "问",
-                "询问"
-            ],
-            "tags": [
-                "hobbies",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_tra_loi_hobby",
-            "name": "trả lời",
-            "trans": [
-                "回答"
-            ],
-            "tags": [
-                "hobbies",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_ranh",
-            "name": "rảnh",
-            "trans": [
-                "空闲",
-                "有空"
-            ],
-            "tags": [
-                "hobbies",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_ban_ron_hobby",
-            "name": "bận rộn",
-            "trans": [
-                "忙碌"
-            ],
-            "tags": [
-                "hobbies",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_thoi_gian_ranh",
-            "name": "thời gian rảnh",
-            "trans": [
-                "空闲时间"
-            ],
-            "tags": [
-                "hobbies",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_thu_gian",
-            "name": "thư giãn",
-            "trans": [
-                "放松",
-                "休闲"
-            ],
-            "tags": [
-                "hobbies",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_giai_tri",
-            "name": "giải trí",
-            "trans": [
-                "娱乐"
-            ],
-            "tags": [
-                "hobbies",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Sở thích của tôi là đọc sách.",
+          "zh": "我的爱好是读书。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_205",
-        "sentence_vi_a1_206",
-        "sentence_vi_a1_207",
-        "sentence_vi_a1_208",
-        "sentence_vi_a1_209",
-        "sentence_vi_a1_210"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「Có thích... không?」问是否喜欢",
+      "explain": "问「你喜欢……吗」用「Bạn có thích... không?」，回答「Có, tôi thích」或「Không, tôi không thích」。",
+      "examples": [
         {
-            "point": "「Sở thích của bạn là gì?」问爱好",
-            "explain": "问爱好用「Sở thích của bạn là gì?」，回答用「Sở thích của tôi là...」或「Tôi thích...」。",
-            "examples": [
-                {
-                    "vi": "Sở thích của bạn là gì?",
-                    "zh": "你的爱好是什么？"
-                },
-                {
-                    "vi": "Sở thích của tôi là đọc sách.",
-                    "zh": "我的爱好是读书。"
-                }
-            ]
+          "vi": "Bạn có thích nghe nhạc không?",
+          "zh": "你喜欢听音乐吗？"
         },
         {
-            "point": "「Có thích... không?」问是否喜欢",
-            "explain": "问「你喜欢……吗」用「Bạn có thích... không?」，回答「Có, tôi thích」或「Không, tôi không thích」。",
-            "examples": [
-                {
-                    "vi": "Bạn có thích nghe nhạc không?",
-                    "zh": "你喜欢听音乐吗？"
-                },
-                {
-                    "vi": "Có, tôi rất thích.",
-                    "zh": "是的，我很喜欢。"
-                }
-            ]
+          "vi": "Có, tôi rất thích.",
+          "zh": "是的，我很喜欢。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「你的爱好是什么？」的正确说法是？",
-            "options": [
-                "Sở thích của bạn là gì?",
-                "Bạn sở thích là gì?",
-                "Là gì sở thích của bạn?"
-            ],
-            "answer": "Sở thích của bạn là gì?"
-        },
-        {
-            "type": "fill",
-            "question": "Bạn có thích ___ nhạc không?",
-            "answer": "nghe"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「空闲时间」的越南语",
-            "answer": "thời gian rảnh"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「你的爱好是什么？」的正确说法是？",
+      "options": ["Sở thích của bạn là gì?", "Bạn sở thích là gì?", "Là gì sở thích của bạn?"],
+      "answer": "Sở thích của bạn là gì?"
+    },
+    {
+      "type": "fill",
+      "question": "Bạn có thích ___ nhạc không?",
+      "answer": "nghe"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「空闲时间」的越南语",
+      "answer": "thời gian rảnh"
+    }
+  ]
 }

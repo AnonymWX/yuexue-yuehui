@@ -1,270 +1,165 @@
 {
-    "id": "course_ko_115",
-    "title": "第 1 课：길을 건너면 은행이 있습니다（过了马路就是银行）",
-    "titleVi": "제1과: 길을 건너면 은행이 있습니다",
-    "order": 1,
-    "scenario": "transport2",
-    "goals": [
-        "掌握方向词（왼쪽/오른쪽/앞/뒤）",
-        "掌握「-는 길에」（在…路上）",
-        "能问路和指路",
-        "能描述距离远近"
-    ],
-    "words": [
+  "id": "course_ko_115",
+  "title": "第 1 课：길을 건너면 은행이 있습니다（过了马路就是银行）",
+  "titleVi": "제1과: 길을 건너면 은행이 있습니다",
+  "order": 1,
+  "scenario": "transport2",
+  "goals": ["掌握方向词（왼쪽/오른쪽/앞/뒤）", "掌握「-는 길에」（在…路上）", "能问路和指路", "能描述距离远近"],
+  "words": [
+    {
+      "id": "ko_a2_gil",
+      "name": "길",
+      "trans": ["路"],
+      "tags": ["transport2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_banghyang",
+      "name": "방향",
+      "trans": ["方向"],
+      "tags": ["transport2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_oenjjok",
+      "name": "왼쪽",
+      "trans": ["左边"],
+      "tags": ["transport2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_oreunjjok",
+      "name": "오른쪽",
+      "trans": ["右边"],
+      "tags": ["transport2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_ap",
+      "name": "앞",
+      "trans": ["前"],
+      "tags": ["transport2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_dwi",
+      "name": "뒤",
+      "trans": ["后"],
+      "tags": ["transport2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_geonneopyeon",
+      "name": "건너편",
+      "trans": ["对面"],
+      "tags": ["transport2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_sinhodeung",
+      "name": "신호등",
+      "trans": ["红绿灯"],
+      "tags": ["transport2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_hoengdanbodo",
+      "name": "횡단보도",
+      "trans": ["人行横道"],
+      "tags": ["transport2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_dolda",
+      "name": "돌다",
+      "trans": ["转", "拐"],
+      "tags": ["transport2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_gakkapda",
+      "name": "가깝다",
+      "trans": ["近"],
+      "tags": ["transport2", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_meolda",
+      "name": "멀다",
+      "trans": ["远"],
+      "tags": ["transport2", "A2"],
+      "source": ["korean_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_ko_a2_113",
+    "sentence_ko_a2_114",
+    "sentence_ko_a2_115",
+    "sentence_ko_a2_116",
+    "sentence_ko_a2_117",
+    "sentence_ko_a2_118",
+    "sentence_ko_a2_119",
+    "sentence_ko_a2_120"
+  ],
+  "grammar": [
+    {
+      "point": "「-는 길에」（在…路上）",
+      "explain": "动词词干 + 는 길에，表「在做…的路上 / 顺便」。例：가다 → 가는 길에（去…的路上）；집에 가는 길에（回家路上）；오는 길에（来的路上）。中文「…的路上」对应。길 就是「路」，本课词条也收录。",
+      "examples": [
         {
-            "id": "ko_a2_gil",
-            "name": "길",
-            "trans": [
-                "路"
-            ],
-            "tags": [
-                "transport2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
+          "vi": "집에 가는 길에 은행에 들렀습니다.",
+          "zh": "回家路上去了银行。"
         },
         {
-            "id": "ko_a2_banghyang",
-            "name": "방향",
-            "trans": [
-                "方向"
-            ],
-            "tags": [
-                "transport2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_oenjjok",
-            "name": "왼쪽",
-            "trans": [
-                "左边"
-            ],
-            "tags": [
-                "transport2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_oreunjjok",
-            "name": "오른쪽",
-            "trans": [
-                "右边"
-            ],
-            "tags": [
-                "transport2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_ap",
-            "name": "앞",
-            "trans": [
-                "前"
-            ],
-            "tags": [
-                "transport2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_dwi",
-            "name": "뒤",
-            "trans": [
-                "后"
-            ],
-            "tags": [
-                "transport2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_geonneopyeon",
-            "name": "건너편",
-            "trans": [
-                "对面"
-            ],
-            "tags": [
-                "transport2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_sinhodeung",
-            "name": "신호등",
-            "trans": [
-                "红绿灯"
-            ],
-            "tags": [
-                "transport2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_hoengdanbodo",
-            "name": "횡단보도",
-            "trans": [
-                "人行横道"
-            ],
-            "tags": [
-                "transport2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_dolda",
-            "name": "돌다",
-            "trans": [
-                "转",
-                "拐"
-            ],
-            "tags": [
-                "transport2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_gakkapda",
-            "name": "가깝다",
-            "trans": [
-                "近"
-            ],
-            "tags": [
-                "transport2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_meolda",
-            "name": "멀다",
-            "trans": [
-                "远"
-            ],
-            "tags": [
-                "transport2",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
+          "vi": "학교에 오는 길에 친구를 만났습니다.",
+          "zh": "来学校的路上遇到了朋友。"
         }
-    ],
-    "sentences": [
-        "sentence_ko_a2_113",
-        "sentence_ko_a2_114",
-        "sentence_ko_a2_115",
-        "sentence_ko_a2_116",
-        "sentence_ko_a2_117",
-        "sentence_ko_a2_118",
-        "sentence_ko_a2_119",
-        "sentence_ko_a2_120"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "方向词 + 「-쪽 / -에」",
+      "explain": "方向词：왼쪽（左边）、오른쪽（右边）、앞（前）、뒤（后）、건너편（对面）。后接 에（位置）或 로（方向）：왼쪽에 있습니다（在左边）；오른쪽으로 가세요（往右走）。中文「往左/在右」对应。注意 쪽 是「方向」，可省略。",
+      "examples": [
         {
-            "point": "「-는 길에」（在…路上）",
-            "explain": "动词词干 + 는 길에，表「在做…的路上 / 顺便」。例：가다 → 가는 길에（去…的路上）；집에 가는 길에（回家路上）；오는 길에（来的路上）。中文「…的路上」对应。길 就是「路」，本课词条也收录。",
-            "examples": [
-                {
-                    "vi": "집에 가는 길에 은행에 들렀습니다.",
-                    "zh": "回家路上去了银行。"
-                },
-                {
-                    "vi": "학교에 오는 길에 친구를 만났습니다.",
-                    "zh": "来学校的路上遇到了朋友。"
-                }
-            ]
+          "vi": "은행은 왼쪽에 있습니다.",
+          "zh": "银行在左边。"
         },
         {
-            "point": "方向词 + 「-쪽 / -에」",
-            "explain": "方向词：왼쪽（左边）、오른쪽（右边）、앞（前）、뒤（后）、건너편（对面）。后接 에（位置）或 로（方向）：왼쪽에 있습니다（在左边）；오른쪽으로 가세요（往右走）。中文「往左/在右」对应。注意 쪽 是「方向」，可省略。",
-            "examples": [
-                {
-                    "vi": "은행은 왼쪽에 있습니다.",
-                    "zh": "银行在左边。"
-                },
-                {
-                    "vi": "오른쪽으로 가세요.",
-                    "zh": "请往右走。"
-                }
-            ]
+          "vi": "오른쪽으로 가세요.",
+          "zh": "请往右走。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「回家路上」的韩语是？",
-            "options": [
-                "집에 가는 길에",
-                "집에 가고 싶어서",
-                "집에 가면",
-                "집에 갔지만"
-            ],
-            "answer": "집에 가는 길에"
-        },
-        {
-            "type": "choose",
-            "question": "「请往右走」的韩语是？",
-            "options": [
-                "오른쪽으로 가세요",
-                "오른쪽에 있습니다",
-                "오른쪽이 좋습니다",
-                "오른쪽에서 왔습니다"
-            ],
-            "answer": "오른쪽으로 가세요"
-        },
-        {
-            "type": "choose",
-            "question": "「人行横道」的韩语是？",
-            "options": [
-                "횡단보도",
-                "신호등",
-                "건너편",
-                "방향"
-            ],
-            "answer": "횡단보도"
-        },
-        {
-            "type": "fill",
-            "question": "「远」的韩语是？",
-            "answer": "멀다"
-        },
-        {
-            "type": "fill",
-            "question": "「对面」的韩语是？",
-            "answer": "건너편"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「回家路上」的韩语是？",
+      "options": ["집에 가는 길에", "집에 가고 싶어서", "집에 가면", "집에 갔지만"],
+      "answer": "집에 가는 길에"
+    },
+    {
+      "type": "choose",
+      "question": "「请往右走」的韩语是？",
+      "options": ["오른쪽으로 가세요", "오른쪽에 있습니다", "오른쪽이 좋습니다", "오른쪽에서 왔습니다"],
+      "answer": "오른쪽으로 가세요"
+    },
+    {
+      "type": "choose",
+      "question": "「人行横道」的韩语是？",
+      "options": ["횡단보도", "신호등", "건너편", "방향"],
+      "answer": "횡단보도"
+    },
+    {
+      "type": "fill",
+      "question": "「远」的韩语是？",
+      "answer": "멀다"
+    },
+    {
+      "type": "fill",
+      "question": "「对面」的韩语是？",
+      "answer": "건너편"
+    }
+  ]
 }

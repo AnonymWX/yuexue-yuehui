@@ -1,191 +1,123 @@
 {
-    "id": "course_vi_61",
-    "title": "第 2 课：方向指示",
-    "titleVi": "Bài 2: Chỉ hướng",
-    "order": 2,
-    "scenario": "directions",
-    "goals": [
-        "掌握左右直走的方向表达",
-        "学会「rẽ trái / rẽ phải」结构",
-        "掌握南方、北方的转法说法",
-        "能听懂并使用方向指示"
-    ],
-    "words": [
+  "id": "course_vi_61",
+  "title": "第 2 课：方向指示",
+  "titleVi": "Bài 2: Chỉ hướng",
+  "order": 2,
+  "scenario": "directions",
+  "goals": ["掌握左右直走的方向表达", "学会「rẽ trái / rẽ phải」结构", "掌握南方、北方的转法说法", "能听懂并使用方向指示"],
+  "words": [
+    {
+      "id": "vi_trai",
+      "name": "trái",
+      "trans": ["左"],
+      "tags": ["directions", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_phai",
+      "name": "phải",
+      "trans": ["右"],
+      "tags": ["directions", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_thang_straight",
+      "name": "thẳng",
+      "trans": ["直"],
+      "tags": ["directions", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_re",
+      "name": "rẽ",
+      "trans": ["拐", "转（北方用）"],
+      "tags": ["directions", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_queo",
+      "name": "quẹo",
+      "trans": ["拐", "转（南方用）"],
+      "tags": ["directions", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_quay",
+      "name": "quay",
+      "trans": ["转", "转身"],
+      "tags": ["directions", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_di_thang",
+      "name": "đi thẳng",
+      "trans": ["直走"],
+      "tags": ["directions", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_dung_lai",
+      "name": "dừng lại",
+      "trans": ["停下来"],
+      "tags": ["directions", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_169",
+    "sentence_vi_a1_170",
+    "sentence_vi_a1_171",
+    "sentence_vi_a1_172",
+    "sentence_vi_a1_173",
+    "sentence_vi_a1_174"
+  ],
+  "grammar": [
+    {
+      "point": "「rẽ trái / rẽ phải」表向左/右转",
+      "explain": "表示「向左转」用「rẽ trái」，「向右转」用「rẽ phải」。南方用「quẹo trái / quẹo phải」。",
+      "examples": [
         {
-            "id": "vi_trai",
-            "name": "trái",
-            "trans": [
-                "左"
-            ],
-            "tags": [
-                "directions",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Rẽ trái ở ngã tư.",
+          "zh": "在十字路口左转。"
         },
         {
-            "id": "vi_phai",
-            "name": "phải",
-            "trans": [
-                "右"
-            ],
-            "tags": [
-                "directions",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_thang_straight",
-            "name": "thẳng",
-            "trans": [
-                "直"
-            ],
-            "tags": [
-                "directions",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_re",
-            "name": "rẽ",
-            "trans": [
-                "拐",
-                "转（北方用）"
-            ],
-            "tags": [
-                "directions",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_queo",
-            "name": "quẹo",
-            "trans": [
-                "拐",
-                "转（南方用）"
-            ],
-            "tags": [
-                "directions",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_quay",
-            "name": "quay",
-            "trans": [
-                "转",
-                "转身"
-            ],
-            "tags": [
-                "directions",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_di_thang",
-            "name": "đi thẳng",
-            "trans": [
-                "直走"
-            ],
-            "tags": [
-                "directions",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_dung_lai",
-            "name": "dừng lại",
-            "trans": [
-                "停下来"
-            ],
-            "tags": [
-                "directions",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Quẹo phải ở ngã ba.",
+          "zh": "在三岔路口右转。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_169",
-        "sentence_vi_a1_170",
-        "sentence_vi_a1_171",
-        "sentence_vi_a1_172",
-        "sentence_vi_a1_173",
-        "sentence_vi_a1_174"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「đi thẳng + 距离」表直走多远",
+      "explain": "表示「直走多远」用「đi thẳng + 距离」，如「đi thẳng 100 mét」（直走 100 米）。",
+      "examples": [
         {
-            "point": "「rẽ trái / rẽ phải」表向左/右转",
-            "explain": "表示「向左转」用「rẽ trái」，「向右转」用「rẽ phải」。南方用「quẹo trái / quẹo phải」。",
-            "examples": [
-                {
-                    "vi": "Rẽ trái ở ngã tư.",
-                    "zh": "在十字路口左转。"
-                },
-                {
-                    "vi": "Quẹo phải ở ngã ba.",
-                    "zh": "在三岔路口右转。"
-                }
-            ]
+          "vi": "Đi thẳng 100 mét.",
+          "zh": "直走 100 米。"
         },
         {
-            "point": "「đi thẳng + 距离」表直走多远",
-            "explain": "表示「直走多远」用「đi thẳng + 距离」，如「đi thẳng 100 mét」（直走 100 米）。",
-            "examples": [
-                {
-                    "vi": "Đi thẳng 100 mét.",
-                    "zh": "直走 100 米。"
-                },
-                {
-                    "vi": "Đi thẳng rồi rẽ trái.",
-                    "zh": "直走然后左转。"
-                }
-            ]
+          "vi": "Đi thẳng rồi rẽ trái.",
+          "zh": "直走然后左转。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「向左转」用越南语怎么说？",
-            "options": [
-                "rẽ trái",
-                "rẽ phải",
-                "đi thẳng"
-            ],
-            "answer": "rẽ trái"
-        },
-        {
-            "type": "fill",
-            "question": "Đi ___ 100 mét.",
-            "answer": "thẳng"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「右」的越南语",
-            "answer": "phải"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「向左转」用越南语怎么说？",
+      "options": ["rẽ trái", "rẽ phải", "đi thẳng"],
+      "answer": "rẽ trái"
+    },
+    {
+      "type": "fill",
+      "question": "Đi ___ 100 mét.",
+      "answer": "thẳng"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「右」的越南语",
+      "answer": "phải"
+    }
+  ]
 }

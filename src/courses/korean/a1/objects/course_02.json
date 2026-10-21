@@ -1,213 +1,137 @@
 {
-    "id": "course_ko_018",
-    "title": "第 2 课：책상 위에 있습니다（在桌子上）",
-    "titleVi": "제2과: 책상 위에 있습니다",
-    "order": 2,
-    "scenario": "objects",
-    "goals": [
-        "掌握位置名词「위 / 아래 / 앞 / 뒤 / 옆」",
-        "掌握「N이/가 N에 있습니다」存在句",
-        "能说出常见日常物品",
-        "能描述物品位置"
-    ],
-    "words": [
+  "id": "course_ko_018",
+  "title": "第 2 课：책상 위에 있습니다（在桌子上）",
+  "titleVi": "제2과: 책상 위에 있습니다",
+  "order": 2,
+  "scenario": "objects",
+  "goals": ["掌握位置名词「위 / 아래 / 앞 / 뒤 / 옆」", "掌握「N이/가 N에 있습니다」存在句", "能说出常见日常物品", "能描述物品位置"],
+  "words": [
+    {
+      "id": "ko_a1_chaeksang",
+      "name": "책상",
+      "trans": ["书桌"],
+      "tags": ["objects", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_uija",
+      "name": "의자",
+      "trans": ["椅子"],
+      "tags": ["objects", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_keompyuteo",
+      "name": "컴퓨터",
+      "trans": ["电脑"],
+      "tags": ["objects", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_hyudaepon",
+      "name": "휴대폰",
+      "trans": ["手机"],
+      "tags": ["objects", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_yeolsoe",
+      "name": "열쇠",
+      "trans": ["钥匙"],
+      "tags": ["objects", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_angyeong",
+      "name": "안경",
+      "trans": ["眼镜"],
+      "tags": ["objects", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_usan",
+      "name": "우산",
+      "trans": ["雨伞"],
+      "tags": ["objects", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_gawui",
+      "name": "가위",
+      "trans": ["剪刀"],
+      "tags": ["objects", "A1"],
+      "source": ["korean_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_ko_a1_135",
+    "sentence_ko_a1_136",
+    "sentence_ko_a1_137",
+    "sentence_ko_a1_138",
+    "sentence_ko_a1_139",
+    "sentence_ko_a1_140",
+    "sentence_ko_a1_141",
+    "sentence_ko_a1_142"
+  ],
+  "grammar": [
+    {
+      "point": "位置名词「위 / 아래 / 앞 / 뒤 / 옆」",
+      "explain": "位置名词：위（上）、아래（下）、앞（前）、뒤（后）、옆（旁边）、안（里）、밖（外）。用法「N + 위치명사 + 에」：책상 위에（在桌上）、의자 아래에（在椅下）。中文「在…上」对应「N 위에」。注意这些是名词，不是介词，不能单独放动词前。",
+      "examples": [
         {
-            "id": "ko_a1_chaeksang",
-            "name": "책상",
-            "trans": [
-                "书桌"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
+          "vi": "책상 위에 있습니다.",
+          "zh": "在桌子上面。"
         },
         {
-            "id": "ko_a1_uija",
-            "name": "의자",
-            "trans": [
-                "椅子"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_keompyuteo",
-            "name": "컴퓨터",
-            "trans": [
-                "电脑"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_hyudaepon",
-            "name": "휴대폰",
-            "trans": [
-                "手机"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_yeolsoe",
-            "name": "열쇠",
-            "trans": [
-                "钥匙"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_angyeong",
-            "name": "안경",
-            "trans": [
-                "眼镜"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_usan",
-            "name": "우산",
-            "trans": [
-                "雨伞"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_gawui",
-            "name": "가위",
-            "trans": [
-                "剪刀"
-            ],
-            "tags": [
-                "objects",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
+          "vi": "의자 아래에 있습니다.",
+          "zh": "在椅子下面。"
         }
-    ],
-    "sentences": [
-        "sentence_ko_a1_135",
-        "sentence_ko_a1_136",
-        "sentence_ko_a1_137",
-        "sentence_ko_a1_138",
-        "sentence_ko_a1_139",
-        "sentence_ko_a1_140",
-        "sentence_ko_a1_141",
-        "sentence_ko_a1_142"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「N이/가 N에 있습니다/없습니다」",
+      "explain": "存在句：主语用 이/가（有收音用 이，无收音用 가），位置用 에。例：책이 책상 위에 있습니다（书在桌上）；휴대폰이 가방에 없습니다（手机不在包里）。中文「…在…」对应。注意 이/가 是主语助词，에 是位置助词，别混。",
+      "examples": [
         {
-            "point": "位置名词「위 / 아래 / 앞 / 뒤 / 옆」",
-            "explain": "位置名词：위（上）、아래（下）、앞（前）、뒤（后）、옆（旁边）、안（里）、밖（外）。用法「N + 위치명사 + 에」：책상 위에（在桌上）、의자 아래에（在椅下）。中文「在…上」对应「N 위에」。注意这些是名词，不是介词，不能单独放动词前。",
-            "examples": [
-                {
-                    "vi": "책상 위에 있습니다.",
-                    "zh": "在桌子上面。"
-                },
-                {
-                    "vi": "의자 아래에 있습니다.",
-                    "zh": "在椅子下面。"
-                }
-            ]
+          "vi": "책이 책상 위에 있습니다.",
+          "zh": "书在桌上。"
         },
         {
-            "point": "「N이/가 N에 있습니다/없습니다」",
-            "explain": "存在句：主语用 이/가（有收音用 이，无收音用 가），位置用 에。例：책이 책상 위에 있습니다（书在桌上）；휴대폰이 가방에 없습니다（手机不在包里）。中文「…在…」对应。注意 이/가 是主语助词，에 是位置助词，别混。",
-            "examples": [
-                {
-                    "vi": "책이 책상 위에 있습니다.",
-                    "zh": "书在桌上。"
-                },
-                {
-                    "vi": "휴대폰이 가방에 없습니다.",
-                    "zh": "手机不在包里。"
-                }
-            ]
+          "vi": "휴대폰이 가방에 없습니다.",
+          "zh": "手机不在包里。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「在桌子上面」的韩语是？",
-            "options": [
-                "책상 위에",
-                "책상 아래에",
-                "책상 앞에",
-                "책상 뒤에"
-            ],
-            "answer": "책상 위에"
-        },
-        {
-            "type": "choose",
-            "question": "「书在桌上」的韩语是？",
-            "options": [
-                "책이 책상 위에 있습니다",
-                "책이 책상 위에 없습니다",
-                "책을 책상 위에 있습니다",
-                "책은 책상 위가 있습니다"
-            ],
-            "answer": "책이 책상 위에 있습니다"
-        },
-        {
-            "type": "choose",
-            "question": "「眼镜」的韩语是？",
-            "options": [
-                "안경",
-                "우산",
-                "열쇠",
-                "가위"
-            ],
-            "answer": "안경"
-        },
-        {
-            "type": "fill",
-            "question": "「手机」的韩语是？",
-            "answer": "휴대폰"
-        },
-        {
-            "type": "fill",
-            "question": "「椅子」的韩语是？",
-            "answer": "의자"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「在桌子上面」的韩语是？",
+      "options": ["책상 위에", "책상 아래에", "책상 앞에", "책상 뒤에"],
+      "answer": "책상 위에"
+    },
+    {
+      "type": "choose",
+      "question": "「书在桌上」的韩语是？",
+      "options": ["책이 책상 위에 있습니다", "책이 책상 위에 없습니다", "책을 책상 위에 있습니다", "책은 책상 위가 있습니다"],
+      "answer": "책이 책상 위에 있습니다"
+    },
+    {
+      "type": "choose",
+      "question": "「眼镜」的韩语是？",
+      "options": ["안경", "우산", "열쇠", "가위"],
+      "answer": "안경"
+    },
+    {
+      "type": "fill",
+      "question": "「手机」的韩语是？",
+      "answer": "휴대폰"
+    },
+    {
+      "type": "fill",
+      "question": "「椅子」的韩语是？",
+      "answer": "의자"
+    }
+  ]
 }

@@ -1,191 +1,123 @@
 {
-    "id": "course_vi_27",
-    "title": "第 1 课：外貌描述",
-    "titleVi": "Bài 1: Miêu tả ngoại hình",
-    "order": 1,
-    "scenario": "people",
-    "goals": [
-        "能说出 8 个基本外貌形容词",
-        "能用「người + 形容词」描述人的外表",
-        "能用「rất / hơi / quá」调节程度",
-        "能对比两人的外貌差异"
-    ],
-    "words": [
+  "id": "course_vi_27",
+  "title": "第 1 课：外貌描述",
+  "titleVi": "Bài 1: Miêu tả ngoại hình",
+  "order": 1,
+  "scenario": "people",
+  "goals": ["能说出 8 个基本外貌形容词", "能用「người + 形容词」描述人的外表", "能用「rất / hơi / quá」调节程度", "能对比两人的外貌差异"],
+  "words": [
+    {
+      "id": "vi_cao",
+      "name": "cao",
+      "trans": ["高"],
+      "tags": ["people", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_thap",
+      "name": "thấp",
+      "trans": ["矮"],
+      "tags": ["people", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_gay",
+      "name": "gầy",
+      "trans": ["瘦"],
+      "tags": ["people", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_beo",
+      "name": "béo",
+      "trans": ["胖"],
+      "tags": ["people", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_tre",
+      "name": "trẻ",
+      "trans": ["年轻"],
+      "tags": ["people", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_gia",
+      "name": "già",
+      "trans": ["老", "年长"],
+      "tags": ["people", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_dep",
+      "name": "đẹp",
+      "trans": ["漂亮", "好看"],
+      "tags": ["people", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_de_thuong",
+      "name": "dễ thương",
+      "trans": ["可爱"],
+      "tags": ["people", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_031",
+    "sentence_vi_a1_032",
+    "sentence_vi_a1_033",
+    "sentence_vi_a1_034",
+    "sentence_vi_a1_035",
+    "sentence_vi_a1_036"
+  ],
+  "grammar": [
+    {
+      "point": "形容词语序：「người + 形容词」",
+      "explain": "越南语描述人的外貌用「người + 形容词」结构，người 在此作主语，等于「这个人/那人」。口语中 người 可省略，直接说「Anh ấy cao」。形容词直接跟主语，不加「là」。",
+      "examples": [
         {
-            "id": "vi_cao",
-            "name": "cao",
-            "trans": [
-                "高"
-            ],
-            "tags": [
-                "people",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Anh ấy cao và gầy.",
+          "zh": "他又高又瘦。"
         },
         {
-            "id": "vi_thap",
-            "name": "thấp",
-            "trans": [
-                "矮"
-            ],
-            "tags": [
-                "people",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_gay",
-            "name": "gầy",
-            "trans": [
-                "瘦"
-            ],
-            "tags": [
-                "people",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_beo",
-            "name": "béo",
-            "trans": [
-                "胖"
-            ],
-            "tags": [
-                "people",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_tre",
-            "name": "trẻ",
-            "trans": [
-                "年轻"
-            ],
-            "tags": [
-                "people",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_gia",
-            "name": "già",
-            "trans": [
-                "老",
-                "年长"
-            ],
-            "tags": [
-                "people",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_dep",
-            "name": "đẹp",
-            "trans": [
-                "漂亮",
-                "好看"
-            ],
-            "tags": [
-                "people",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_de_thuong",
-            "name": "dễ thương",
-            "trans": [
-                "可爱"
-            ],
-            "tags": [
-                "people",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Cô ấy đẹp và trẻ.",
+          "zh": "她又漂亮又年轻。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_031",
-        "sentence_vi_a1_032",
-        "sentence_vi_a1_033",
-        "sentence_vi_a1_034",
-        "sentence_vi_a1_035",
-        "sentence_vi_a1_036"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "程度副词：rất / hơi / quá",
+      "explain": "「rất + 形容词」= 很…（书面，放前）；「hơi + 形容词」= 有点…（放前）；「quá」= 太…（放后，感叹）。三者在 A1 高频，描述外貌时常用 hơi 缓解语气（hơi béo = 有点胖，礼貌）。",
+      "examples": [
         {
-            "point": "形容词语序：「người + 形容词」",
-            "explain": "越南语描述人的外貌用「người + 形容词」结构，người 在此作主语，等于「这个人/那人」。口语中 người 可省略，直接说「Anh ấy cao」。形容词直接跟主语，不加「là」。",
-            "examples": [
-                {
-                    "vi": "Anh ấy cao và gầy.",
-                    "zh": "他又高又瘦。"
-                },
-                {
-                    "vi": "Cô ấy đẹp và trẻ.",
-                    "zh": "她又漂亮又年轻。"
-                }
-            ]
+          "vi": "Em ấy hơi béo.",
+          "zh": "他/她有点胖。"
         },
         {
-            "point": "程度副词：rất / hơi / quá",
-            "explain": "「rất + 形容词」= 很…（书面，放前）；「hơi + 形容词」= 有点…（放前）；「quá」= 太…（放后，感叹）。三者在 A1 高频，描述外貌时常用 hơi 缓解语气（hơi béo = 有点胖，礼貌）。",
-            "examples": [
-                {
-                    "vi": "Em ấy hơi béo.",
-                    "zh": "他/她有点胖。"
-                },
-                {
-                    "vi": "Bạn tôi rất cao.",
-                    "zh": "我朋友很高。"
-                }
-            ]
+          "vi": "Bạn tôi rất cao.",
+          "zh": "我朋友很高。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「gầy」的意思是？",
-            "options": [
-                "高",
-                "瘦",
-                "胖",
-                "矮"
-            ],
-            "answer": "瘦"
-        },
-        {
-            "type": "fill",
-            "question": "Anh ấy ___ và gầy.（他又高又瘦）",
-            "answer": "cao"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「她很漂亮」的越南语",
-            "answer": "Cô ấy rất đẹp"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「gầy」的意思是？",
+      "options": ["高", "瘦", "胖", "矮"],
+      "answer": "瘦"
+    },
+    {
+      "type": "fill",
+      "question": "Anh ấy ___ và gầy.（他又高又瘦）",
+      "answer": "cao"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「她很漂亮」的越南语",
+      "answer": "Cô ấy rất đẹp"
+    }
+  ]
 }

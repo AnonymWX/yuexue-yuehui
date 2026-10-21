@@ -1,79 +1,50 @@
 [
-    {
-        "id": "sentence_ja_a1_001",
-        "text": "私はマイク・ミラーです。",
-        "translation": "我是迈克·米勒。",
-        "words": [
-            "ja_a1_watashi"
-        ],
-        "course": "course_ja_001",
-        "tags": [
-            "greeting",
-            "A1"
-        ]
-    },
-    {
-        "id": "sentence_ja_a1_002",
-        "text": "私は学生です。",
-        "translation": "我是学生。",
-        "words": [
-            "ja_a1_watashi",
-            "ja_a1_gakusei"
-        ],
-        "course": "course_ja_001",
-        "tags": [
-            "greeting",
-            "A1"
-        ]
-    },
-    {
-        "id": "sentence_ja_a1_003",
-        "text": "サントスさんは学生じゃありません。",
-        "translation": "桑托斯先生不是学生。",
-        "words": [
-            "ja_a1_gakusei"
-        ],
-        "course": "course_ja_001",
-        "tags": [
-            "greeting",
-            "A1"
-        ]
-    },
-    {
-        "id": "sentence_ja_a1_004",
-        "text": "ミラーさんは会社員ですか。",
-        "translation": "米勒先生是公司职员吗？",
-        "words": [
-            "ja_a1_kaishain"
-        ],
-        "course": "course_ja_001",
-        "tags": [
-            "greeting",
-            "A1"
-        ]
-    },
-    {
-        "id": "sentence_ja_a1_005",
-        "text": "サントスさんも会社員です。",
-        "translation": "桑托斯先生也是公司职员。",
-        "words": [
-            "ja_a1_kaishain"
-        ],
-        "course": "course_ja_001",
-        "tags": [
-            "greeting",
-            "A1"
-        ]
-    },
-    {
-        "id": "sentence_ja_a1_006",
-        "text": "初めまして、どうぞよろしく。",
-        "translation": "初次见面，请多关照。",
-        "words": [],
-        "course": "course_ja_001",
-        "tags": [
-            "greeting",
-            "A1"
-        ]
-    }
+  {
+    "id": "sentence_ja_a1_001",
+    "text": "私はマイク・ミラーです。",
+    "translation": "我是迈克·米勒。",
+    "words": ["ja_a1_watashi"],
+    "course": "course_ja_001",
+    "tags": ["greeting", "A1"]
+  },
+  {
+    "id": "sentence_ja_a1_002",
+    "text": "私は学生です。",
+    "translation": "我是学生。",
+    "words": ["ja_a1_watashi", "ja_a1_gakusei"],
+    "course": "course_ja_001",
+    "tags": ["greeting", "A1"]
+  },
+  {
+    "id": "sentence_ja_a1_003",
+    "text": "サントスさんは学生じゃありません。",
+    "translation": "桑托斯先生不是学生。",
+    "words": ["ja_a1_gakusei"],
+    "course": "course_ja_001",
+    "tags": ["greeting", "A1"]
+  },
+  {
+    "id": "sentence_ja_a1_004",
+    "text": "ミラーさんは会社員ですか。",
+    "translation": "米勒先生是公司职员吗？",
+    "words": ["ja_a1_kaishain"],
+    "course": "course_ja_001",
+    "tags": ["greeting", "A1"]
+  },
+  {
+    "id": "sentence_ja_a1_005",
+    "text": "サントスさんも会社員です。",
+    "translation": "桑托斯先生也是公司职员。",
+    "words": ["ja_a1_kaishain"],
+    "course": "course_ja_001",
+    "tags": ["greeting", "A1"]
+  },
+  {
+    "id": "sentence_ja_a1_006",
+    "text": "初めまして、どうぞよろしく。",
+    "translation": "初次见面，请多关照。",
+    "words": [],
+    "course": "course_ja_001",
+    "tags": ["greeting", "A1"]
+  }
 ]

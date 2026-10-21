@@ -1,317 +1,186 @@
 {
-    "id": "course_vi_155",
-    "title": "第 5 课：邮件与电话",
-    "titleVi": "Bài 5: Email và điện thoại",
-    "order": 5,
-    "scenario": "work",
-    "goals": [
-        "能撰写简单的商务邮件",
-        "能电话沟通工作事务",
-        "能用正式与半正式开场白",
-        "能礼貌地请对方重复或留言"
-    ],
-    "words": [
+  "id": "course_vi_155",
+  "title": "第 5 课：邮件与电话",
+  "titleVi": "Bài 5: Email và điện thoại",
+  "order": 5,
+  "scenario": "work",
+  "goals": ["能撰写简单的商务邮件", "能电话沟通工作事务", "能用正式与半正式开场白", "能礼貌地请对方重复或留言"],
+  "words": [
+    {
+      "id": "vi_a2_email",
+      "name": "email",
+      "trans": ["电子邮件"],
+      "tags": ["work", "A2", "email"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_tieu_de",
+      "name": "tiêu đề",
+      "trans": ["标题"],
+      "tags": ["work", "A2", "email"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_nguoi_gui",
+      "name": "người gửi",
+      "trans": ["发件人"],
+      "tags": ["work", "A2", "email"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_nguoi_nhan",
+      "name": "người nhận",
+      "trans": ["收件人"],
+      "tags": ["work", "A2", "email"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_dinh_kem",
+      "name": "đính kèm",
+      "trans": ["附件", "附带"],
+      "tags": ["work", "A2", "email"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_tra_loi",
+      "name": "trả lời",
+      "trans": ["回复"],
+      "tags": ["work", "A2", "email"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_chuyen_tiep",
+      "name": "chuyển tiếp",
+      "trans": ["转发"],
+      "tags": ["work", "A2", "email"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_kinh_gui",
+      "name": "kính gửi",
+      "trans": ["尊敬的…（邮件开头）"],
+      "tags": ["work", "A2", "email"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_tran_trong",
+      "name": "trân trọng",
+      "trans": ["谨启（邮件结尾）"],
+      "tags": ["work", "A2", "email"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_duong_day",
+      "name": "đường dây",
+      "trans": ["电话线路", "热线"],
+      "tags": ["work", "A2", "email"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_goi_lai",
+      "name": "gọi lại",
+      "trans": ["回电", "再打"],
+      "tags": ["work", "A2", "email"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_de_lai_loi_nhan",
+      "name": "để lại lời nhắn",
+      "trans": ["留言"],
+      "tags": ["work", "A2", "email"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_may_ban",
+      "name": "máy bận",
+      "trans": ["占线"],
+      "tags": ["work", "A2", "email"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_lich_su",
+      "name": "lịch sự",
+      "trans": ["礼貌", "客气"],
+      "tags": ["work", "A2", "email"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a2_297",
+    "sentence_vi_a2_298",
+    "sentence_vi_a2_299",
+    "sentence_vi_a2_300",
+    "sentence_vi_a2_301",
+    "sentence_vi_a2_302",
+    "sentence_vi_a2_303",
+    "sentence_vi_a2_304"
+  ],
+  "grammar": [
+    {
+      "point": "商务邮件格式：kính gửi / trân trọng",
+      "explain": "越南语商务邮件格式：开头「Kính gửi + 称谓/公司」（尊敬的…）；结尾「Trân trọng」（谨启）或「Trân trọng cảm ơn」（谨此致谢）。较随和的同事邮件可用「Chào anh/chị」（你好）+「Cảm ơn anh/chị」（感谢）。注意：kính gửi 比 chào 正式得多。",
+      "examples": [
         {
-            "id": "vi_a2_email",
-            "name": "email",
-            "trans": [
-                "电子邮件"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "email"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Kính gửi anh Nam, tôi xin gửi anh báo cáo tháng này.",
+          "zh": "尊敬的南先生，我向您发送本月报告。"
         },
         {
-            "id": "vi_a2_tieu_de",
-            "name": "tiêu đề",
-            "trans": [
-                "标题"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "email"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Trân trọng cảm ơn anh đã phản hồi sớm.",
+          "zh": "衷心感谢您及时回复。"
         },
         {
-            "id": "vi_a2_nguoi_gui",
-            "name": "người gửi",
-            "trans": [
-                "发件人"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "email"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_nguoi_nhan",
-            "name": "người nhận",
-            "trans": [
-                "收件人"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "email"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_dinh_kem",
-            "name": "đính kèm",
-            "trans": [
-                "附件",
-                "附带"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "email"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_tra_loi",
-            "name": "trả lời",
-            "trans": [
-                "回复"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "email"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_chuyen_tiep",
-            "name": "chuyển tiếp",
-            "trans": [
-                "转发"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "email"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_kinh_gui",
-            "name": "kính gửi",
-            "trans": [
-                "尊敬的…（邮件开头）"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "email"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_tran_trong",
-            "name": "trân trọng",
-            "trans": [
-                "谨启（邮件结尾）"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "email"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_duong_day",
-            "name": "đường dây",
-            "trans": [
-                "电话线路",
-                "热线"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "email"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_goi_lai",
-            "name": "gọi lại",
-            "trans": [
-                "回电",
-                "再打"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "email"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_de_lai_loi_nhan",
-            "name": "để lại lời nhắn",
-            "trans": [
-                "留言"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "email"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_may_ban",
-            "name": "máy bận",
-            "trans": [
-                "占线"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "email"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_lich_su",
-            "name": "lịch sự",
-            "trans": [
-                "礼貌",
-                "客气"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "email"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Chào chị Lan, em gửi chị file đính kèm, chị kiểm tra giúp em nhé.",
+          "zh": "兰姐你好，我把附件发给你，请帮我检查一下。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a2_297",
-        "sentence_vi_a2_298",
-        "sentence_vi_a2_299",
-        "sentence_vi_a2_300",
-        "sentence_vi_a2_301",
-        "sentence_vi_a2_302",
-        "sentence_vi_a2_303",
-        "sentence_vi_a2_304"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "电话沟通：xin nghe / làm ơn nhắc lại",
+      "explain": "接电话：「Xin nghe, tôi là...」（您好，我是…，正式）；「Alo, tôi là...」（喂，我是…，口语）。请求重复：「Làm ơn nhắc lại giúp tôi」（请帮我再说一遍）；「Xin lỗi, tôi chưa nghe rõ」（抱歉，我没听清）。留言：「Tôi có thể để lại lời nhắn không?」（我可以留言吗？）",
+      "examples": [
         {
-            "point": "商务邮件格式：kính gửi / trân trọng",
-            "explain": "越南语商务邮件格式：开头「Kính gửi + 称谓/公司」（尊敬的…）；结尾「Trân trọng」（谨启）或「Trân trọng cảm ơn」（谨此致谢）。较随和的同事邮件可用「Chào anh/chị」（你好）+「Cảm ơn anh/chị」（感谢）。注意：kính gửi 比 chào 正式得多。",
-            "examples": [
-                {
-                    "vi": "Kính gửi anh Nam, tôi xin gửi anh báo cáo tháng này.",
-                    "zh": "尊敬的南先生，我向您发送本月报告。"
-                },
-                {
-                    "vi": "Trân trọng cảm ơn anh đã phản hồi sớm.",
-                    "zh": "衷心感谢您及时回复。"
-                },
-                {
-                    "vi": "Chào chị Lan, em gửi chị file đính kèm, chị kiểm tra giúp em nhé.",
-                    "zh": "兰姐你好，我把附件发给你，请帮我检查一下。"
-                }
-            ]
+          "vi": "Xin nghe, tôi là Minh từ công ty ABC.",
+          "zh": "您好，我是 ABC 公司的明。"
         },
         {
-            "point": "电话沟通：xin nghe / làm ơn nhắc lại",
-            "explain": "接电话：「Xin nghe, tôi là...」（您好，我是…，正式）；「Alo, tôi là...」（喂，我是…，口语）。请求重复：「Làm ơn nhắc lại giúp tôi」（请帮我再说一遍）；「Xin lỗi, tôi chưa nghe rõ」（抱歉，我没听清）。留言：「Tôi có thể để lại lời nhắn không?」（我可以留言吗？）",
-            "examples": [
-                {
-                    "vi": "Xin nghe, tôi là Minh từ công ty ABC.",
-                    "zh": "您好，我是 ABC 公司的明。"
-                },
-                {
-                    "vi": "Xin lỗi, tôi chưa nghe rõ, làm ơn nhắc lại giúp tôi.",
-                    "zh": "抱歉，我没听清，请帮我再说一遍。"
-                },
-                {
-                    "vi": "Anh ấy đang họp, chị có muốn để lại lời nhắn không?",
-                    "zh": "他正在开会，你想留言吗？"
-                }
-            ]
+          "vi": "Xin lỗi, tôi chưa nghe rõ, làm ơn nhắc lại giúp tôi.",
+          "zh": "抱歉，我没听清，请帮我再说一遍。"
+        },
+        {
+          "vi": "Anh ấy đang họp, chị có muốn để lại lời nhắn không?",
+          "zh": "他正在开会，你想留言吗？"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「đính kèm」的意思是？",
-            "options": [
-                "转发",
-                "附件",
-                "标题",
-                "回复"
-            ],
-            "answer": "附件"
-        },
-        {
-            "type": "choose",
-            "question": "哪句是正式邮件的开头？",
-            "options": [
-                "Alo, tôi là Nam.",
-                "Kính gửi anh Nam.",
-                "Chào Nam, có gì không?",
-                "Nam ơi!"
-            ],
-            "answer": "Kính gửi anh Nam."
-        },
-        {
-            "type": "fill",
-            "question": "Kính ___ anh Nam, tôi xin gửi anh báo cáo tháng này.（尊敬的南先生，我向您发送本月报告）",
-            "answer": "gửi"
-        },
-        {
-            "type": "fill",
-            "question": "Xin lỗi, tôi chưa nghe rõ, làm ơn nhắc ___ giúp tôi.（抱歉，我没听清，请帮我再说一遍）",
-            "answer": "lại"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「我可以留言吗？」的越南语",
-            "answer": "Tôi có thể để lại lời nhắn không"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「đính kèm」的意思是？",
+      "options": ["转发", "附件", "标题", "回复"],
+      "answer": "附件"
+    },
+    {
+      "type": "choose",
+      "question": "哪句是正式邮件的开头？",
+      "options": ["Alo, tôi là Nam.", "Kính gửi anh Nam.", "Chào Nam, có gì không?", "Nam ơi!"],
+      "answer": "Kính gửi anh Nam."
+    },
+    {
+      "type": "fill",
+      "question": "Kính ___ anh Nam, tôi xin gửi anh báo cáo tháng này.（尊敬的南先生，我向您发送本月报告）",
+      "answer": "gửi"
+    },
+    {
+      "type": "fill",
+      "question": "Xin lỗi, tôi chưa nghe rõ, làm ơn nhắc ___ giúp tôi.（抱歉，我没听清，请帮我再说一遍）",
+      "answer": "lại"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「我可以留言吗？」的越南语",
+      "answer": "Tôi có thể để lại lời nhắn không"
+    }
+  ]
 }

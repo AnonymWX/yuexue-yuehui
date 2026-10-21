@@ -1,192 +1,123 @@
 {
-    "id": "course_vi_18",
-    "title": "第 5 课：国籍与语言综合表达",
-    "titleVi": "Bài 5: Diễn đạt tổng hợp về quốc tịch và ngôn ngữ",
-    "order": 5,
-    "scenario": "language",
-    "goals": [
-        "能综合表达国籍与语言",
-        "学会介绍自己会说的语言",
-        "能进行语言交换对话",
-        "掌握语言学习相关表达"
-    ],
-    "words": [
+  "id": "course_vi_18",
+  "title": "第 5 课：国籍与语言综合表达",
+  "titleVi": "Bài 5: Diễn đạt tổng hợp về quốc tịch và ngôn ngữ",
+  "order": 5,
+  "scenario": "language",
+  "goals": ["能综合表达国籍与语言", "学会介绍自己会说的语言", "能进行语言交换对话", "掌握语言学习相关表达"],
+  "words": [
+    {
+      "id": "vi_hoc",
+      "name": "học",
+      "trans": ["学", "学习"],
+      "tags": ["language", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_day",
+      "name": "dạy",
+      "trans": ["教"],
+      "tags": ["language", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_luyen_tap",
+      "name": "luyện tập",
+      "trans": ["练习"],
+      "tags": ["language", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_giao_tiep",
+      "name": "giao tiếp",
+      "trans": ["交流", "沟通"],
+      "tags": ["language", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_trao_doi",
+      "name": "trao đổi",
+      "trans": ["交换", "交流"],
+      "tags": ["language", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_cung",
+      "name": "cùng",
+      "trans": ["一起", "共同"],
+      "tags": ["language", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_giup",
+      "name": "giúp",
+      "trans": ["帮助"],
+      "tags": ["language", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_thuong_xuyen",
+      "name": "thường xuyên",
+      "trans": ["经常"],
+      "tags": ["language", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_421",
+    "sentence_vi_a1_422",
+    "sentence_vi_a1_423",
+    "sentence_vi_a1_424",
+    "sentence_vi_a1_425",
+    "sentence_vi_a1_426"
+  ],
+  "grammar": [
+    {
+      "point": "综合介绍「Tôi là người... , tôi nói tiếng...」",
+      "explain": "综合介绍国籍和语言时，可把两句合并，用逗号或「và」连接。",
+      "examples": [
         {
-            "id": "vi_hoc",
-            "name": "học",
-            "trans": [
-                "学",
-                "学习"
-            ],
-            "tags": [
-                "language",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Tôi là người Việt Nam, tôi nói tiếng Việt và tiếng Anh.",
+          "zh": "我是越南人，我说越南语和英语。"
         },
         {
-            "id": "vi_day",
-            "name": "dạy",
-            "trans": [
-                "教"
-            ],
-            "tags": [
-                "language",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_luyen_tap",
-            "name": "luyện tập",
-            "trans": [
-                "练习"
-            ],
-            "tags": [
-                "language",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_giao_tiep",
-            "name": "giao tiếp",
-            "trans": [
-                "交流",
-                "沟通"
-            ],
-            "tags": [
-                "language",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_trao_doi",
-            "name": "trao đổi",
-            "trans": [
-                "交换",
-                "交流"
-            ],
-            "tags": [
-                "language",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_cung",
-            "name": "cùng",
-            "trans": [
-                "一起",
-                "共同"
-            ],
-            "tags": [
-                "language",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_giup",
-            "name": "giúp",
-            "trans": [
-                "帮助"
-            ],
-            "tags": [
-                "language",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_thuong_xuyen",
-            "name": "thường xuyên",
-            "trans": [
-                "经常"
-            ],
-            "tags": [
-                "language",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Tôi là người Trung Quốc, tôi đang học tiếng Việt.",
+          "zh": "我是中国人，我正在学越南语。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_421",
-        "sentence_vi_a1_422",
-        "sentence_vi_a1_423",
-        "sentence_vi_a1_424",
-        "sentence_vi_a1_425",
-        "sentence_vi_a1_426"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「cùng + 动词」表一起做某事",
+      "explain": "「cùng」意为「一起」，后接动词表示共同做某事，如「cùng học」（一起学）。",
+      "examples": [
         {
-            "point": "综合介绍「Tôi là người... , tôi nói tiếng...」",
-            "explain": "综合介绍国籍和语言时，可把两句合并，用逗号或「và」连接。",
-            "examples": [
-                {
-                    "vi": "Tôi là người Việt Nam, tôi nói tiếng Việt và tiếng Anh.",
-                    "zh": "我是越南人，我说越南语和英语。"
-                },
-                {
-                    "vi": "Tôi là người Trung Quốc, tôi đang học tiếng Việt.",
-                    "zh": "我是中国人，我正在学越南语。"
-                }
-            ]
+          "vi": "Chúng ta cùng học tiếng Việt.",
+          "zh": "我们一起学越南语。"
         },
         {
-            "point": "「cùng + 动词」表一起做某事",
-            "explain": "「cùng」意为「一起」，后接动词表示共同做某事，如「cùng học」（一起学）。",
-            "examples": [
-                {
-                    "vi": "Chúng ta cùng học tiếng Việt.",
-                    "zh": "我们一起学越南语。"
-                },
-                {
-                    "vi": "Tôi và bạn cùng luyện tập.",
-                    "zh": "我和朋友一起练习。"
-                }
-            ]
+          "vi": "Tôi và bạn cùng luyện tập.",
+          "zh": "我和朋友一起练习。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「我们一起学越南语」的正确说法是？",
-            "options": [
-                "Chúng ta cùng học tiếng Việt",
-                "Chúng ta học cùng tiếng Việt",
-                "Cùng chúng ta học tiếng Việt"
-            ],
-            "answer": "Chúng ta cùng học tiếng Việt"
-        },
-        {
-            "type": "fill",
-            "question": "Tôi và bạn cùng ___ tập.",
-            "answer": "luyện"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「交流」的越南语",
-            "answer": "giao tiếp"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「我们一起学越南语」的正确说法是？",
+      "options": ["Chúng ta cùng học tiếng Việt", "Chúng ta học cùng tiếng Việt", "Cùng chúng ta học tiếng Việt"],
+      "answer": "Chúng ta cùng học tiếng Việt"
+    },
+    {
+      "type": "fill",
+      "question": "Tôi và bạn cùng ___ tập.",
+      "answer": "luyện"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「交流」的越南语",
+      "answer": "giao tiếp"
+    }
+  ]
 }

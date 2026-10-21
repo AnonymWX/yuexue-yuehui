@@ -1,191 +1,123 @@
 {
-    "id": "course_vi_96",
-    "title": "第 6 课：紧急电话",
-    "titleVi": "Bài 6: Gọi điện khẩn cấp",
-    "order": 6,
-    "scenario": "phone",
-    "goals": [
-        "掌握紧急电话相关词汇",
-        "掌握越南紧急电话号",
-        "能清晰描述紧急情况",
-        "能完成紧急报警对话"
-    ],
-    "words": [
+  "id": "course_vi_96",
+  "title": "第 6 课：紧急电话",
+  "titleVi": "Bài 6: Gọi điện khẩn cấp",
+  "order": 6,
+  "scenario": "phone",
+  "goals": ["掌握紧急电话相关词汇", "掌握越南紧急电话号", "能清晰描述紧急情况", "能完成紧急报警对话"],
+  "words": [
+    {
+      "id": "vi_khan_cap",
+      "name": "khẩn cấp",
+      "trans": ["紧急"],
+      "tags": ["phone", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_cap_cuu",
+      "name": "cấp cứu",
+      "trans": ["急救"],
+      "tags": ["phone", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_cong_an",
+      "name": "công an",
+      "trans": ["公安", "警察"],
+      "tags": ["phone", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_cuu_hoa",
+      "name": "cứu hỏa",
+      "trans": ["消防", "救火"],
+      "tags": ["phone", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_bao_phone",
+      "name": "báo",
+      "trans": ["报告", "报警"],
+      "tags": ["phone", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_tai_nan_phone",
+      "name": "tai nạn",
+      "trans": ["事故"],
+      "tags": ["phone", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_nguy_hiem",
+      "name": "nguy hiểm",
+      "trans": ["危险"],
+      "tags": ["phone", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_giup_do_phone",
+      "name": "giúp đỡ",
+      "trans": ["帮助"],
+      "tags": ["phone", "A2"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_547",
+    "sentence_vi_a1_548",
+    "sentence_vi_a1_549",
+    "sentence_vi_a1_550",
+    "sentence_vi_a1_551",
+    "sentence_vi_a1_552"
+  ],
+  "grammar": [
+    {
+      "point": "越南紧急电话号",
+      "explain": "越南三大紧急号码：公安 113、消防 114、急救 115。打电话时说「Tôi cần gọi cấp cứu」（我需要叫急救）。",
+      "examples": [
         {
-            "id": "vi_khan_cap",
-            "name": "khẩn cấp",
-            "trans": [
-                "紧急"
-            ],
-            "tags": [
-                "phone",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Tôi cần gọi cấp cứu 115.",
+          "zh": "我需要打 115 叫急救。"
         },
         {
-            "id": "vi_cap_cuu",
-            "name": "cấp cứu",
-            "trans": [
-                "急救"
-            ],
-            "tags": [
-                "phone",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_cong_an",
-            "name": "công an",
-            "trans": [
-                "公安",
-                "警察"
-            ],
-            "tags": [
-                "phone",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_cuu_hoa",
-            "name": "cứu hỏa",
-            "trans": [
-                "消防",
-                "救火"
-            ],
-            "tags": [
-                "phone",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_bao_phone",
-            "name": "báo",
-            "trans": [
-                "报告",
-                "报警"
-            ],
-            "tags": [
-                "phone",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_tai_nan_phone",
-            "name": "tai nạn",
-            "trans": [
-                "事故"
-            ],
-            "tags": [
-                "phone",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_nguy_hiem",
-            "name": "nguy hiểm",
-            "trans": [
-                "危险"
-            ],
-            "tags": [
-                "phone",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_giup_do_phone",
-            "name": "giúp đỡ",
-            "trans": [
-                "帮助"
-            ],
-            "tags": [
-                "phone",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Gọi công an 113.",
+          "zh": "打 113 报警。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_547",
-        "sentence_vi_a1_548",
-        "sentence_vi_a1_549",
-        "sentence_vi_a1_550",
-        "sentence_vi_a1_551",
-        "sentence_vi_a1_552"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「Có + 名词 + ở + 地点」表发生",
+      "explain": "报告紧急事件用「Có + 名词 + ở + 地点」，如「Có tai nạn ở đường Nguyễn Huệ」（阮惠街发生事故）。",
+      "examples": [
         {
-            "point": "越南紧急电话号",
-            "explain": "越南三大紧急号码：公安 113、消防 114、急救 115。打电话时说「Tôi cần gọi cấp cứu」（我需要叫急救）。",
-            "examples": [
-                {
-                    "vi": "Tôi cần gọi cấp cứu 115.",
-                    "zh": "我需要打 115 叫急救。"
-                },
-                {
-                    "vi": "Gọi công an 113.",
-                    "zh": "打 113 报警。"
-                }
-            ]
+          "vi": "Có tai nạn ở đường Nguyễn Huệ.",
+          "zh": "阮惠街发生事故。"
         },
         {
-            "point": "「Có + 名词 + ở + 地点」表发生",
-            "explain": "报告紧急事件用「Có + 名词 + ở + 地点」，如「Có tai nạn ở đường Nguyễn Huệ」（阮惠街发生事故）。",
-            "examples": [
-                {
-                    "vi": "Có tai nạn ở đường Nguyễn Huệ.",
-                    "zh": "阮惠街发生事故。"
-                },
-                {
-                    "vi": "Có cháy ở nhà tôi.",
-                    "zh": "我家着火了。"
-                }
-            ]
+          "vi": "Có cháy ở nhà tôi.",
+          "zh": "我家着火了。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "越南急救电话是？",
-            "options": [
-                "113",
-                "114",
-                "115"
-            ],
-            "answer": "115"
-        },
-        {
-            "type": "fill",
-            "question": "Tôi cần gọi ___ cứu.",
-            "answer": "cấp"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「紧急」的越南语",
-            "answer": "khẩn cấp"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "越南急救电话是？",
+      "options": ["113", "114", "115"],
+      "answer": "115"
+    },
+    {
+      "type": "fill",
+      "question": "Tôi cần gọi ___ cứu.",
+      "answer": "cấp"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「紧急」的越南语",
+      "answer": "khẩn cấp"
+    }
+  ]
 }

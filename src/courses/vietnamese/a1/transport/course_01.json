@@ -1,189 +1,123 @@
 {
-    "id": "course_vi_86",
-    "title": "第 1 课：常见交通工具",
-    "titleVi": "Bài 1: Các phương tiện giao thông phổ biến",
-    "order": 1,
-    "scenario": "transport",
-    "goals": [
-        "能说出 8 种常见交通工具",
-        "能用「đi bằng + 工具」表达乘坐方式",
-        "能对比不同交通工具的快慢",
-        "能谈论日常出行"
-    ],
-    "words": [
+  "id": "course_vi_86",
+  "title": "第 1 课：常见交通工具",
+  "titleVi": "Bài 1: Các phương tiện giao thông phổ biến",
+  "order": 1,
+  "scenario": "transport",
+  "goals": ["能说出 8 种常见交通工具", "能用「đi bằng + 工具」表达乘坐方式", "能对比不同交通工具的快慢", "能谈论日常出行"],
+  "words": [
+    {
+      "id": "vi_xe_may",
+      "name": "xe máy",
+      "trans": ["摩托车"],
+      "tags": ["transport", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_xe_dap",
+      "name": "xe đạp",
+      "trans": ["自行车"],
+      "tags": ["transport", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_xe_buyt",
+      "name": "xe buýt",
+      "trans": ["公交车"],
+      "tags": ["transport", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_o_to",
+      "name": "ô tô",
+      "trans": ["汽车"],
+      "tags": ["transport", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_taxi",
+      "name": "taxi",
+      "trans": ["出租车"],
+      "tags": ["transport", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_tau_hoa",
+      "name": "tàu hỏa",
+      "trans": ["火车"],
+      "tags": ["transport", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_may_bay",
+      "name": "máy bay",
+      "trans": ["飞机"],
+      "tags": ["transport", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_xe_om",
+      "name": "xe ôm",
+      "trans": ["摩的"],
+      "tags": ["transport", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_097",
+    "sentence_vi_a1_098",
+    "sentence_vi_a1_099",
+    "sentence_vi_a1_100",
+    "sentence_vi_a1_101",
+    "sentence_vi_a1_102"
+  ],
+  "grammar": [
+    {
+      "point": "乘坐方式：đi bằng + 工具",
+      "explain": "「đi bằng + 交通工具」= 坐…去。bằng 强调方式。口语中可省略 bằng，直接说「đi xe đạp」。但「đi bộ」是特例（步行），不加 bằng。",
+      "examples": [
         {
-            "id": "vi_xe_may",
-            "name": "xe máy",
-            "trans": [
-                "摩托车"
-            ],
-            "tags": [
-                "transport",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Tôi đi học bằng xe đạp.",
+          "zh": "我骑自行车上学。"
         },
         {
-            "id": "vi_xe_dap",
-            "name": "xe đạp",
-            "trans": [
-                "自行车"
-            ],
-            "tags": [
-                "transport",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_xe_buyt",
-            "name": "xe buýt",
-            "trans": [
-                "公交车"
-            ],
-            "tags": [
-                "transport",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_o_to",
-            "name": "ô tô",
-            "trans": [
-                "汽车"
-            ],
-            "tags": [
-                "transport",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_taxi",
-            "name": "taxi",
-            "trans": [
-                "出租车"
-            ],
-            "tags": [
-                "transport",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_tau_hoa",
-            "name": "tàu hỏa",
-            "trans": [
-                "火车"
-            ],
-            "tags": [
-                "transport",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_may_bay",
-            "name": "máy bay",
-            "trans": [
-                "飞机"
-            ],
-            "tags": [
-                "transport",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_xe_om",
-            "name": "xe ôm",
-            "trans": [
-                "摩的"
-            ],
-            "tags": [
-                "transport",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Chúng tôi đi Hà Nội bằng tàu hỏa.",
+          "zh": "我们坐火车去河内。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_097",
-        "sentence_vi_a1_098",
-        "sentence_vi_a1_099",
-        "sentence_vi_a1_100",
-        "sentence_vi_a1_101",
-        "sentence_vi_a1_102"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "比较快慢：nhanh hơn / chậm hơn",
+      "explain": "「A + 形容词 + hơn + B」= A 比 B 更…。nhanh = 快，chậm = 慢。例：「Máy bay nhanh hơn tàu hỏa」（飞机比火车快）。否定比较用「không … bằng」（不如）。",
+      "examples": [
         {
-            "point": "乘坐方式：đi bằng + 工具",
-            "explain": "「đi bằng + 交通工具」= 坐…去。bằng 强调方式。口语中可省略 bằng，直接说「đi xe đạp」。但「đi bộ」是特例（步行），不加 bằng。",
-            "examples": [
-                {
-                    "vi": "Tôi đi học bằng xe đạp.",
-                    "zh": "我骑自行车上学。"
-                },
-                {
-                    "vi": "Chúng tôi đi Hà Nội bằng tàu hỏa.",
-                    "zh": "我们坐火车去河内。"
-                }
-            ]
+          "vi": "Đi máy bay nhanh hơn đi tàu.",
+          "zh": "坐飞机比坐火车快。"
         },
         {
-            "point": "比较快慢：nhanh hơn / chậm hơn",
-            "explain": "「A + 形容词 + hơn + B」= A 比 B 更…。nhanh = 快，chậm = 慢。例：「Máy bay nhanh hơn tàu hỏa」（飞机比火车快）。否定比较用「không … bằng」（不如）。",
-            "examples": [
-                {
-                    "vi": "Đi máy bay nhanh hơn đi tàu.",
-                    "zh": "坐飞机比坐火车快。"
-                },
-                {
-                    "vi": "Xe đạp chậm hơn xe máy.",
-                    "zh": "自行车比摩托车慢。"
-                }
-            ]
+          "vi": "Xe đạp chậm hơn xe máy.",
+          "zh": "自行车比摩托车慢。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「xe buýt」的意思是？",
-            "options": [
-                "出租车",
-                "公交车",
-                "摩托车",
-                "自行车"
-            ],
-            "answer": "公交车"
-        },
-        {
-            "type": "fill",
-            "question": "Tôi đi học bằng ___ đạp.（我骑自行车上学）",
-            "answer": "xe"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「飞机比火车快」的越南语",
-            "answer": "Máy bay nhanh hơn tàu hỏa"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「xe buýt」的意思是？",
+      "options": ["出租车", "公交车", "摩托车", "自行车"],
+      "answer": "公交车"
+    },
+    {
+      "type": "fill",
+      "question": "Tôi đi học bằng ___ đạp.（我骑自行车上学）",
+      "answer": "xe"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「飞机比火车快」的越南语",
+      "answer": "Máy bay nhanh hơn tàu hỏa"
+    }
+  ]
 }

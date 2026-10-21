@@ -1,314 +1,196 @@
 {
-    "id": "course_vi_112",
-    "title": "第 2 课：四季与气候",
-    "titleVi": "Bài 2: Bốn mùa và khí hậu",
-    "order": 2,
-    "scenario": "weather",
-    "goals": [
-        "能说出四季与越南三大区域的气候特点",
-        "能熟练使用比较级 hơn / nhất / bằng 比较气候",
-        "能描述不同季节的活动",
-        "能对比越南与中国的气候差异"
-    ],
-    "words": [
+  "id": "course_vi_112",
+  "title": "第 2 课：四季与气候",
+  "titleVi": "Bài 2: Bốn mùa và khí hậu",
+  "order": 2,
+  "scenario": "weather",
+  "goals": [
+    "能说出四季与越南三大区域的气候特点",
+    "能熟练使用比较级 hơn / nhất / bằng 比较气候",
+    "能描述不同季节的活动",
+    "能对比越南与中国的气候差异"
+  ],
+  "words": [
+    {
+      "id": "vi_a2_mua",
+      "name": "mùa",
+      "trans": ["季节"],
+      "tags": ["weather", "A2", "season"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_mua_xuan",
+      "name": "mùa xuân",
+      "trans": ["春天"],
+      "tags": ["weather", "A2", "season"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_mua_he",
+      "name": "mùa hè",
+      "trans": ["夏天"],
+      "tags": ["weather", "A2", "season"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_mua_thu",
+      "name": "mùa thu",
+      "trans": ["秋天"],
+      "tags": ["weather", "A2", "season"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_mua_dong",
+      "name": "mùa đông",
+      "trans": ["冬天"],
+      "tags": ["weather", "A2", "season"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_khi_hau",
+      "name": "khí hậu",
+      "trans": ["气候"],
+      "tags": ["weather", "A2", "season"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_mien_bac",
+      "name": "miền Bắc",
+      "trans": ["北方"],
+      "tags": ["weather", "A2", "season"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_mien_trung",
+      "name": "miền Trung",
+      "trans": ["中部"],
+      "tags": ["weather", "A2", "season"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_mien_nam",
+      "name": "miền Nam",
+      "trans": ["南方"],
+      "tags": ["weather", "A2", "season"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_nhiet_doi",
+      "name": "nhiệt đới",
+      "trans": ["热带"],
+      "tags": ["weather", "A2", "season"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_gio_mua",
+      "name": "gió mùa",
+      "trans": ["季风"],
+      "tags": ["weather", "A2", "season"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_mua_mua",
+      "name": "mùa mưa",
+      "trans": ["雨季"],
+      "tags": ["weather", "A2", "season"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_mua_kho",
+      "name": "mùa khô",
+      "trans": ["旱季"],
+      "tags": ["weather", "A2", "season"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_dac_trung",
+      "name": "đặc trưng",
+      "trans": ["特征", "典型"],
+      "tags": ["weather", "A2", "season"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a2_073",
+    "sentence_vi_a2_074",
+    "sentence_vi_a2_075",
+    "sentence_vi_a2_076",
+    "sentence_vi_a2_077",
+    "sentence_vi_a2_078",
+    "sentence_vi_a2_079",
+    "sentence_vi_a2_080"
+  ],
+  "grammar": [
+    {
+      "point": "比较级 hơn / 最高级 nhất / 等同 bằng（复习强化）",
+      "explain": "A + adj + hơn + B = A 比 B 更…；A + adj + nhất = A 最…；A + không + adj + bằng + B = A 不如 B。注意「nhất」放在形容词后，与汉语「最…」位置相反；「hơn」前不能加「rất」（❌ rất nóng hơn）。",
+      "examples": [
         {
-            "id": "vi_a2_mua",
-            "name": "mùa",
-            "trans": [
-                "季节"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "season"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Miền Nam nóng hơn miền Bắc quanh năm.",
+          "zh": "南方全年比北方热。"
         },
         {
-            "id": "vi_a2_mua_xuan",
-            "name": "mùa xuân",
-            "trans": [
-                "春天"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "season"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Mùa thu là mùa đẹp nhất ở Hà Nội.",
+          "zh": "秋天是河内最美的季节。"
         },
         {
-            "id": "vi_a2_mua_he",
-            "name": "mùa hè",
-            "trans": [
-                "夏天"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "season"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_mua_thu",
-            "name": "mùa thu",
-            "trans": [
-                "秋天"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "season"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_mua_dong",
-            "name": "mùa đông",
-            "trans": [
-                "冬天"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "season"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_khi_hau",
-            "name": "khí hậu",
-            "trans": [
-                "气候"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "season"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_mien_bac",
-            "name": "miền Bắc",
-            "trans": [
-                "北方"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "season"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_mien_trung",
-            "name": "miền Trung",
-            "trans": [
-                "中部"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "season"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_mien_nam",
-            "name": "miền Nam",
-            "trans": [
-                "南方"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "season"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_nhiet_doi",
-            "name": "nhiệt đới",
-            "trans": [
-                "热带"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "season"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_gio_mua",
-            "name": "gió mùa",
-            "trans": [
-                "季风"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "season"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_mua_mua",
-            "name": "mùa mưa",
-            "trans": [
-                "雨季"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "season"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_mua_kho",
-            "name": "mùa khô",
-            "trans": [
-                "旱季"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "season"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_dac_trung",
-            "name": "đặc trưng",
-            "trans": [
-                "特征",
-                "典型"
-            ],
-            "tags": [
-                "weather",
-                "A2",
-                "season"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Mùa đông ở Sài Gòn không lạnh bằng mùa đông ở Hà Nội.",
+          "zh": "西贡的冬天没有河内的冬天冷。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a2_073",
-        "sentence_vi_a2_074",
-        "sentence_vi_a2_075",
-        "sentence_vi_a2_076",
-        "sentence_vi_a2_077",
-        "sentence_vi_a2_078",
-        "sentence_vi_a2_079",
-        "sentence_vi_a2_080"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "đặc trưng / đặc điểm 描述特征",
+      "explain": "「đặc trưng」= 典型特征（区别于其他）；「đặc điểm」= 特点（中性）。常用结构：「X có đặc trưng là...」或「đặc trưng của X là...」。写说明文时非常好用。",
+      "examples": [
         {
-            "point": "比较级 hơn / 最高级 nhất / 等同 bằng（复习强化）",
-            "explain": "A + adj + hơn + B = A 比 B 更…；A + adj + nhất = A 最…；A + không + adj + bằng + B = A 不如 B。注意「nhất」放在形容词后，与汉语「最…」位置相反；「hơn」前不能加「rất」（❌ rất nóng hơn）。",
-            "examples": [
-                {
-                    "vi": "Miền Nam nóng hơn miền Bắc quanh năm.",
-                    "zh": "南方全年比北方热。"
-                },
-                {
-                    "vi": "Mùa thu là mùa đẹp nhất ở Hà Nội.",
-                    "zh": "秋天是河内最美的季节。"
-                },
-                {
-                    "vi": "Mùa đông ở Sài Gòn không lạnh bằng mùa đông ở Hà Nội.",
-                    "zh": "西贡的冬天没有河内的冬天冷。"
-                }
-            ]
+          "vi": "Khí hậu nhiệt đới gió mùa là đặc trưng của Việt Nam.",
+          "zh": "热带季风气候是越南的典型特征。"
         },
         {
-            "point": "đặc trưng / đặc điểm 描述特征",
-            "explain": "「đặc trưng」= 典型特征（区别于其他）；「đặc điểm」= 特点（中性）。常用结构：「X có đặc trưng là...」或「đặc trưng của X là...」。写说明文时非常好用。",
-            "examples": [
-                {
-                    "vi": "Khí hậu nhiệt đới gió mùa là đặc trưng của Việt Nam.",
-                    "zh": "热带季风气候是越南的典型特征。"
-                },
-                {
-                    "vi": "Đặc trưng của mùa khô là ít mưa và nắng nhiều.",
-                    "zh": "旱季的特征是雨少阳光多。"
-                },
-                {
-                    "vi": "Mỗi vùng miền có đặc điểm khí hậu khác nhau.",
-                    "zh": "每个地区的气候特点不同。"
-                }
-            ]
+          "vi": "Đặc trưng của mùa khô là ít mưa và nắng nhiều.",
+          "zh": "旱季的特征是雨少阳光多。"
+        },
+        {
+          "vi": "Mỗi vùng miền có đặc điểm khí hậu khác nhau.",
+          "zh": "每个地区的气候特点不同。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「mùa khô」的意思是？",
-            "options": [
-                "雨季",
-                "旱季",
-                "春天",
-                "秋天"
-            ],
-            "answer": "旱季"
-        },
-        {
-            "type": "choose",
-            "question": "哪句正确？",
-            "options": [
-                "Miền Nam rất nóng hơn miền Bắc.",
-                "Miền Nam nóng hơn miền Bắc.",
-                "Miền Nam hơn nóng miền Bắc.",
-                "Miền Nam nóng nhất miền Bắc."
-            ],
-            "answer": "Miền Nam nóng hơn miền Bắc."
-        },
-        {
-            "type": "fill",
-            "question": "Mùa thu là mùa đẹp ___ ở Hà Nội.（秋天是河内最美的季节）",
-            "answer": "nhất"
-        },
-        {
-            "type": "fill",
-            "question": "Khí hậu nhiệt đới gió mùa là đặc ___ của Việt Nam.（热带季风气候是越南的典型特征）",
-            "answer": "trưng"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「南方比北方热」的越南语",
-            "answer": "Miền Nam nóng hơn miền Bắc"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「mùa khô」的意思是？",
+      "options": ["雨季", "旱季", "春天", "秋天"],
+      "answer": "旱季"
+    },
+    {
+      "type": "choose",
+      "question": "哪句正确？",
+      "options": [
+        "Miền Nam rất nóng hơn miền Bắc.",
+        "Miền Nam nóng hơn miền Bắc.",
+        "Miền Nam hơn nóng miền Bắc.",
+        "Miền Nam nóng nhất miền Bắc."
+      ],
+      "answer": "Miền Nam nóng hơn miền Bắc."
+    },
+    {
+      "type": "fill",
+      "question": "Mùa thu là mùa đẹp ___ ở Hà Nội.（秋天是河内最美的季节）",
+      "answer": "nhất"
+    },
+    {
+      "type": "fill",
+      "question": "Khí hậu nhiệt đới gió mùa là đặc ___ của Việt Nam.（热带季风气候是越南的典型特征）",
+      "answer": "trưng"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「南方比北方热」的越南语",
+      "answer": "Miền Nam nóng hơn miền Bắc"
+    }
+  ]
 }

@@ -1,192 +1,123 @@
 {
-    "id": "course_vi_89",
-    "title": "第 4 课：问路与交通",
-    "titleVi": "Bài 4: Hỏi đường và giao thông",
-    "order": 4,
-    "scenario": "transport",
-    "goals": [
-        "掌握交通工具与问路结合表达",
-        "学会问「坐什么车去」",
-        "掌握到某地所需时间",
-        "能完成交通路线咨询"
-    ],
-    "words": [
+  "id": "course_vi_89",
+  "title": "第 4 课：问路与交通",
+  "titleVi": "Bài 4: Hỏi đường và giao thông",
+  "order": 4,
+  "scenario": "transport",
+  "goals": ["掌握交通工具与问路结合表达", "学会问「坐什么车去」", "掌握到某地所需时间", "能完成交通路线咨询"],
+  "words": [
+    {
+      "id": "vi_di_den",
+      "name": "đi đến",
+      "trans": ["去往", "到达"],
+      "tags": ["transport", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_mat",
+      "name": "mất",
+      "trans": ["花费（时间）"],
+      "tags": ["transport", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_bao_lau",
+      "name": "bao lâu",
+      "trans": ["多久"],
+      "tags": ["transport", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_tuyen",
+      "name": "tuyến",
+      "trans": ["线路", "路线"],
+      "tags": ["transport", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_lo_trinh_transport",
+      "name": "lộ trình",
+      "trans": ["路线", "行程"],
+      "tags": ["transport", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_tuyen_xe",
+      "name": "tuyến xe",
+      "trans": ["公交线路"],
+      "tags": ["transport", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_cach",
+      "name": "cách",
+      "trans": ["方式", "方法"],
+      "tags": ["transport", "A2"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_gan_nhat",
+      "name": "gần nhất",
+      "trans": ["最近的"],
+      "tags": ["transport", "A2"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_391",
+    "sentence_vi_a1_392",
+    "sentence_vi_a1_393",
+    "sentence_vi_a1_394",
+    "sentence_vi_a1_395",
+    "sentence_vi_a1_396"
+  ],
+  "grammar": [
+    {
+      "point": "「Đi đến + 地点 + bằng gì?」表怎么去",
+      "explain": "问怎么去某地用「Đi đến + 地点 + bằng gì?」，回答用「bằng + 交通工具」。",
+      "examples": [
         {
-            "id": "vi_di_den",
-            "name": "đi đến",
-            "trans": [
-                "去往",
-                "到达"
-            ],
-            "tags": [
-                "transport",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Đi đến sân bay bằng gì?",
+          "zh": "怎么去机场？"
         },
         {
-            "id": "vi_mat",
-            "name": "mất",
-            "trans": [
-                "花费（时间）"
-            ],
-            "tags": [
-                "transport",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_bao_lau",
-            "name": "bao lâu",
-            "trans": [
-                "多久"
-            ],
-            "tags": [
-                "transport",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_tuyen",
-            "name": "tuyến",
-            "trans": [
-                "线路",
-                "路线"
-            ],
-            "tags": [
-                "transport",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_lo_trinh_transport",
-            "name": "lộ trình",
-            "trans": [
-                "路线",
-                "行程"
-            ],
-            "tags": [
-                "transport",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_tuyen_xe",
-            "name": "tuyến xe",
-            "trans": [
-                "公交线路"
-            ],
-            "tags": [
-                "transport",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_cach",
-            "name": "cách",
-            "trans": [
-                "方式",
-                "方法"
-            ],
-            "tags": [
-                "transport",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_gan_nhat",
-            "name": "gần nhất",
-            "trans": [
-                "最近的"
-            ],
-            "tags": [
-                "transport",
-                "A2"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Đi bằng xe buýt.",
+          "zh": "坐公交去。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_391",
-        "sentence_vi_a1_392",
-        "sentence_vi_a1_393",
-        "sentence_vi_a1_394",
-        "sentence_vi_a1_395",
-        "sentence_vi_a1_396"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「mất + 时间」表花费时间",
+      "explain": "表示「花费多少时间」用「mất + 时间」，如「mất 30 phút」（花 30 分钟）。",
+      "examples": [
         {
-            "point": "「Đi đến + 地点 + bằng gì?」表怎么去",
-            "explain": "问怎么去某地用「Đi đến + 地点 + bằng gì?」，回答用「bằng + 交通工具」。",
-            "examples": [
-                {
-                    "vi": "Đi đến sân bay bằng gì?",
-                    "zh": "怎么去机场？"
-                },
-                {
-                    "vi": "Đi bằng xe buýt.",
-                    "zh": "坐公交去。"
-                }
-            ]
+          "vi": "Đi đến đó mất 30 phút.",
+          "zh": "到那里要 30 分钟。"
         },
         {
-            "point": "「mất + 时间」表花费时间",
-            "explain": "表示「花费多少时间」用「mất + 时间」，如「mất 30 phút」（花 30 分钟）。",
-            "examples": [
-                {
-                    "vi": "Đi đến đó mất 30 phút.",
-                    "zh": "到那里要 30 分钟。"
-                },
-                {
-                    "vi": "Mất bao lâu để đến?",
-                    "zh": "到那里要多久？"
-                }
-            ]
+          "vi": "Mất bao lâu để đến?",
+          "zh": "到那里要多久？"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「怎么去机场？」的正确说法是？",
-            "options": [
-                "Đi đến sân bay bằng gì?",
-                "Bằng gì đi đến sân bay?",
-                "Sân bay đi bằng gì đến?"
-            ],
-            "answer": "Đi đến sân bay bằng gì?"
-        },
-        {
-            "type": "fill",
-            "question": "Đi đến đó ___ 30 phút.",
-            "answer": "mất"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「多久」的越南语",
-            "answer": "bao lâu"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「怎么去机场？」的正确说法是？",
+      "options": ["Đi đến sân bay bằng gì?", "Bằng gì đi đến sân bay?", "Sân bay đi bằng gì đến?"],
+      "answer": "Đi đến sân bay bằng gì?"
+    },
+    {
+      "type": "fill",
+      "question": "Đi đến đó ___ 30 phút.",
+      "answer": "mất"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「多久」的越南语",
+      "answer": "bao lâu"
+    }
+  ]
 }

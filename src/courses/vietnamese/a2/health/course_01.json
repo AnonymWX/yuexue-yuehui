@@ -1,352 +1,205 @@
 {
-    "id": "course_vi_105",
-    "title": "第 1 课：身体部位",
-    "titleVi": "Bài 1: Các bộ phận cơ thể",
-    "order": 1,
-    "scenario": "health",
-    "goals": [
-        "能说出人体主要部位的越南语名称（头部、五官、四肢、躯干）",
-        "能用指示代词 này / đó / kia 区分身体部位的位置远近",
-        "能用所属关系「của」表达「……的」，并知道可以省略",
-        "能简单描述自己或他人的身体外观特征（大小、长短、颜色）"
-    ],
-    "words": [
+  "id": "course_vi_105",
+  "title": "第 1 课：身体部位",
+  "titleVi": "Bài 1: Các bộ phận cơ thể",
+  "order": 1,
+  "scenario": "health",
+  "goals": [
+    "能说出人体主要部位的越南语名称（头部、五官、四肢、躯干）",
+    "能用指示代词 này / đó / kia 区分身体部位的位置远近",
+    "能用所属关系「của」表达「……的」，并知道可以省略",
+    "能简单描述自己或他人的身体外观特征（大小、长短、颜色）"
+  ],
+  "words": [
+    {
+      "id": "vi_a2_dau",
+      "name": "đầu",
+      "trans": ["头", "头部"],
+      "tags": ["health", "A2", "body"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_mat",
+      "name": "mặt",
+      "trans": ["脸", "面部"],
+      "tags": ["health", "A2", "body"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_mat_eye",
+      "name": "mắt",
+      "trans": ["眼睛"],
+      "tags": ["health", "A2", "body"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_mui",
+      "name": "mũi",
+      "trans": ["鼻子"],
+      "tags": ["health", "A2", "body"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_mieng",
+      "name": "miệng",
+      "trans": ["嘴", "口"],
+      "tags": ["health", "A2", "body"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_tai",
+      "name": "tai",
+      "trans": ["耳朵"],
+      "tags": ["health", "A2", "body"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_co",
+      "name": "cổ",
+      "trans": ["脖子", "颈部"],
+      "tags": ["health", "A2", "body"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_vai",
+      "name": "vai",
+      "trans": ["肩膀"],
+      "tags": ["health", "A2", "body"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_tay",
+      "name": "tay",
+      "trans": ["手", "胳膊"],
+      "tags": ["health", "A2", "body"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_ban_tay",
+      "name": "bàn tay",
+      "trans": ["手掌"],
+      "tags": ["health", "A2", "body"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_chan",
+      "name": "chân",
+      "trans": ["腿", "脚"],
+      "tags": ["health", "A2", "body"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_nguc",
+      "name": "ngực",
+      "trans": ["胸", "胸部"],
+      "tags": ["health", "A2", "body"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_bung",
+      "name": "bụng",
+      "trans": ["肚子", "腹部"],
+      "tags": ["health", "A2", "body"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_lung",
+      "name": "lưng",
+      "trans": ["背", "背部"],
+      "tags": ["health", "A2", "body"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_rang",
+      "name": "răng",
+      "trans": ["牙齿"],
+      "tags": ["health", "A2", "body"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_toc",
+      "name": "tóc",
+      "trans": ["头发"],
+      "tags": ["health", "A2", "body"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a2_001",
+    "sentence_vi_a2_002",
+    "sentence_vi_a2_003",
+    "sentence_vi_a2_004",
+    "sentence_vi_a2_005",
+    "sentence_vi_a2_006",
+    "sentence_vi_a2_007",
+    "sentence_vi_a2_008"
+  ],
+  "grammar": [
+    {
+      "point": "指示代词 này / đó / kia 后置",
+      "explain": "越南语的指示代词放在名词后面（与中文相反）。này = 这个（近）；đó = 那个（中距离）；kia = 那个（远）。常与量词连用：cái đầu này（这个头）。",
+      "examples": [
         {
-            "id": "vi_a2_dau",
-            "name": "đầu",
-            "trans": [
-                "头",
-                "头部"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "body"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Cái đầu này đau lắm.",
+          "zh": "这个头很疼。"
         },
         {
-            "id": "vi_a2_mat",
-            "name": "mặt",
-            "trans": [
-                "脸",
-                "面部"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "body"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Mắt đó rất đẹp.",
+          "zh": "那双眼睛很美。"
         },
         {
-            "id": "vi_a2_mat_eye",
-            "name": "mắt",
-            "trans": [
-                "眼睛"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "body"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_mui",
-            "name": "mũi",
-            "trans": [
-                "鼻子"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "body"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_mieng",
-            "name": "miệng",
-            "trans": [
-                "嘴",
-                "口"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "body"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_tai",
-            "name": "tai",
-            "trans": [
-                "耳朵"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "body"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_co",
-            "name": "cổ",
-            "trans": [
-                "脖子",
-                "颈部"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "body"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_vai",
-            "name": "vai",
-            "trans": [
-                "肩膀"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "body"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_tay",
-            "name": "tay",
-            "trans": [
-                "手",
-                "胳膊"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "body"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_ban_tay",
-            "name": "bàn tay",
-            "trans": [
-                "手掌"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "body"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_chan",
-            "name": "chân",
-            "trans": [
-                "腿",
-                "脚"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "body"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_nguc",
-            "name": "ngực",
-            "trans": [
-                "胸",
-                "胸部"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "body"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_bung",
-            "name": "bụng",
-            "trans": [
-                "肚子",
-                "腹部"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "body"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_lung",
-            "name": "lưng",
-            "trans": [
-                "背",
-                "背部"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "body"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_rang",
-            "name": "răng",
-            "trans": [
-                "牙齿"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "body"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_toc",
-            "name": "tóc",
-            "trans": [
-                "头发"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "body"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Bàn tay kia bị thương rồi.",
+          "zh": "那只手受伤了。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a2_001",
-        "sentence_vi_a2_002",
-        "sentence_vi_a2_003",
-        "sentence_vi_a2_004",
-        "sentence_vi_a2_005",
-        "sentence_vi_a2_006",
-        "sentence_vi_a2_007",
-        "sentence_vi_a2_008"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "所属关系「của」（……的）",
+      "explain": "结构：A + của + B = B 的 A。của 可以省略，尤其在口语中，但当 B 是代词时通常保留以避免歧义。",
+      "examples": [
         {
-            "point": "指示代词 này / đó / kia 后置",
-            "explain": "越南语的指示代词放在名词后面（与中文相反）。này = 这个（近）；đó = 那个（中距离）；kia = 那个（远）。常与量词连用：cái đầu này（这个头）。",
-            "examples": [
-                {
-                    "vi": "Cái đầu này đau lắm.",
-                    "zh": "这个头很疼。"
-                },
-                {
-                    "vi": "Mắt đó rất đẹp.",
-                    "zh": "那双眼睛很美。"
-                },
-                {
-                    "vi": "Bàn tay kia bị thương rồi.",
-                    "zh": "那只手受伤了。"
-                }
-            ]
+          "vi": "Mắt của tôi rất to.",
+          "zh": "我的眼睛很大。"
         },
         {
-            "point": "所属关系「của」（……的）",
-            "explain": "结构：A + của + B = B 的 A。của 可以省略，尤其在口语中，但当 B 是代词时通常保留以避免歧义。",
-            "examples": [
-                {
-                    "vi": "Mắt của tôi rất to.",
-                    "zh": "我的眼睛很大。"
-                },
-                {
-                    "vi": "Tóc cô ấy dài và đen.",
-                    "zh": "她的头发又长又黑。（省略 của）"
-                },
-                {
-                    "vi": "Bàn tay của em bé rất nhỏ.",
-                    "zh": "宝宝的手很小。"
-                }
-            ]
+          "vi": "Tóc cô ấy dài và đen.",
+          "zh": "她的头发又长又黑。（省略 của）"
+        },
+        {
+          "vi": "Bàn tay của em bé rất nhỏ.",
+          "zh": "宝宝的手很小。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「这个头」用越南语怎么说？",
-            "options": [
-                "này cái đầu",
-                "cái đầu này",
-                "đầu này cái",
-                "này đầu cái"
-            ],
-            "answer": "cái đầu này"
-        },
-        {
-            "type": "choose",
-            "question": "下列关于越南语指示代词位置的说法，哪一句正确？",
-            "options": [
-                "này 放在名词前面",
-                "này 放在名词后面",
-                "này 可以放在名词前后，意思一样",
-                "以上都不对"
-            ],
-            "answer": "này 放在名词后面"
-        },
-        {
-            "type": "fill",
-            "question": "Mắt ___ tôi rất to.（我的眼睛很大）",
-            "answer": "của"
-        },
-        {
-            "type": "fill",
-            "question": "Tóc cô ấy dài ___ đen.（她的头发又长又黑）",
-            "answer": "và"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「我的头很疼」的越南语",
-            "answer": "đầu tôi đau lắm"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「这个头」用越南语怎么说？",
+      "options": ["này cái đầu", "cái đầu này", "đầu này cái", "này đầu cái"],
+      "answer": "cái đầu này"
+    },
+    {
+      "type": "choose",
+      "question": "下列关于越南语指示代词位置的说法，哪一句正确？",
+      "options": ["này 放在名词前面", "này 放在名词后面", "này 可以放在名词前后，意思一样", "以上都不对"],
+      "answer": "này 放在名词后面"
+    },
+    {
+      "type": "fill",
+      "question": "Mắt ___ tôi rất to.（我的眼睛很大）",
+      "answer": "của"
+    },
+    {
+      "type": "fill",
+      "question": "Tóc cô ấy dài ___ đen.（她的头发又长又黑）",
+      "answer": "và"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「我的头很疼」的越南语",
+      "answer": "đầu tôi đau lắm"
+    }
+  ]
 }

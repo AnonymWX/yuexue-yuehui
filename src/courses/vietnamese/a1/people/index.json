@@ -1,56 +1,56 @@
 {
-    "id": "people",
-    "stage": "a1",
-    "title": "人物与性格",
-    "titleVi": "Người và Tính cách",
-    "courses": [
-        {
-            "id": "course_vi_27",
-            "file": "course_01.json",
-            "title": "第 1 课：外貌描述",
-            "titleVi": "Bài 1: Miêu tả ngoại hình"
-        },
-        {
-            "id": "course_vi_28",
-            "file": "course_02.json",
-            "title": "第 2 课：面部特征",
-            "titleVi": "Bài 2: Đặc điểm khuôn mặt"
-        },
-        {
-            "id": "course_vi_29",
-            "file": "course_03.json",
-            "title": "第 3 课：穿着与打扮",
-            "titleVi": "Bài 3: Trang phục và ăn mặc"
-        },
-        {
-            "id": "course_vi_30",
-            "file": "course_04.json",
-            "title": "第 4 课：年龄与代际",
-            "titleVi": "Bài 4: Tuổi tác và thế hệ"
-        },
-        {
-            "id": "course_vi_31",
-            "file": "course_05.json",
-            "title": "第 5 课：正面性格形容词",
-            "titleVi": "Bài 5: Tính từ chỉ tính cách tích cực"
-        },
-        {
-            "id": "course_vi_32",
-            "file": "course_06.json",
-            "title": "第 6 课：负面性格形容词",
-            "titleVi": "Bài 6: Tính từ chỉ tính cách tiêu cực"
-        },
-        {
-            "id": "course_vi_33",
-            "file": "course_07.json",
-            "title": "第 7 课：情绪表达",
-            "titleVi": "Bài 7: Diễn đạt cảm xúc"
-        },
-        {
-            "id": "course_vi_34",
-            "file": "course_08.json",
-            "title": "第 8 课：职业名称",
-            "titleVi": "Bài 8: Tên các nghề nghiệp"
-        }
-    ]
+  "id": "people",
+  "stage": "a1",
+  "title": "人物与性格",
+  "titleVi": "Người và Tính cách",
+  "courses": [
+    {
+      "id": "course_vi_27",
+      "file": "course_01.json",
+      "title": "第 1 课：外貌描述",
+      "titleVi": "Bài 1: Miêu tả ngoại hình"
+    },
+    {
+      "id": "course_vi_28",
+      "file": "course_02.json",
+      "title": "第 2 课：面部特征",
+      "titleVi": "Bài 2: Đặc điểm khuôn mặt"
+    },
+    {
+      "id": "course_vi_29",
+      "file": "course_03.json",
+      "title": "第 3 课：穿着与打扮",
+      "titleVi": "Bài 3: Trang phục và ăn mặc"
+    },
+    {
+      "id": "course_vi_30",
+      "file": "course_04.json",
+      "title": "第 4 课：年龄与代际",
+      "titleVi": "Bài 4: Tuổi tác và thế hệ"
+    },
+    {
+      "id": "course_vi_31",
+      "file": "course_05.json",
+      "title": "第 5 课：正面性格形容词",
+      "titleVi": "Bài 5: Tính từ chỉ tính cách tích cực"
+    },
+    {
+      "id": "course_vi_32",
+      "file": "course_06.json",
+      "title": "第 6 课：负面性格形容词",
+      "titleVi": "Bài 6: Tính từ chỉ tính cách tiêu cực"
+    },
+    {
+      "id": "course_vi_33",
+      "file": "course_07.json",
+      "title": "第 7 课：情绪表达",
+      "titleVi": "Bài 7: Diễn đạt cảm xúc"
+    },
+    {
+      "id": "course_vi_34",
+      "file": "course_08.json",
+      "title": "第 8 课：职业名称",
+      "titleVi": "Bài 8: Tên các nghề nghiệp"
+    }
+  ]
 }

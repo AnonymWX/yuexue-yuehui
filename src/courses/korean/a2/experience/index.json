@@ -1,14 +1,14 @@
 {
-    "id": "experience",
-    "stage": "a2",
-    "title": "经历与经验",
-    "titleVi": "경험과 경력",
-    "courses": [
-        {
-            "id": "course_ko_113",
-            "file": "course_01.json",
-            "title": "第 1 课：한국에 가 본 적이 있습니까?",
-            "titleVi": "제1과: 한국에 가 본 적이 있습니까?"
-        }
-    ]
+  "id": "experience",
+  "stage": "a2",
+  "title": "经历与经验",
+  "titleVi": "경험과 경력",
+  "courses": [
+    {
+      "id": "course_ko_113",
+      "file": "course_01.json",
+      "title": "第 1 课：한국에 가 본 적이 있습니까?",
+      "titleVi": "제1과: 한국에 가 본 적이 있습니까?"
+    }
+  ]
 }

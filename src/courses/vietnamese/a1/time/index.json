@@ -1,44 +1,44 @@
 {
-    "id": "time",
-    "stage": "a1",
-    "title": "时间表达",
-    "titleVi": "Hỏi đáp giờ",
-    "courses": [
-        {
-            "id": "course_vi_43",
-            "file": "course_01.json",
-            "title": "第 1 课：问时间",
-            "titleVi": "Bài 1: Hỏi giờ"
-        },
-        {
-            "id": "course_vi_44",
-            "file": "course_02.json",
-            "title": "第 2 课：说时间（整点与半点）",
-            "titleVi": "Bài 2: Nói giờ (đúng và rưỡi)"
-        },
-        {
-            "id": "course_vi_45",
-            "file": "course_03.json",
-            "title": "第 3 课：说时间（分钟）",
-            "titleVi": "Bài 3: Nói giờ (phút)"
-        },
-        {
-            "id": "course_vi_46",
-            "file": "course_04.json",
-            "title": "第 4 课：上午、下午、晚上",
-            "titleVi": "Bài 4: Buổi sáng, buổi chiều, buổi tối"
-        },
-        {
-            "id": "course_vi_47",
-            "file": "course_05.json",
-            "title": "第 5 课：时间段表达",
-            "titleVi": "Bài 5: Diễn đạt khoảng thời gian"
-        },
-        {
-            "id": "course_vi_48",
-            "file": "course_06.json",
-            "title": "第 6 课：日常作息描述",
-            "titleVi": "Bài 6: Miêu tả sinh hoạt hàng ngày"
-        }
-    ]
+  "id": "time",
+  "stage": "a1",
+  "title": "时间表达",
+  "titleVi": "Hỏi đáp giờ",
+  "courses": [
+    {
+      "id": "course_vi_43",
+      "file": "course_01.json",
+      "title": "第 1 课：问时间",
+      "titleVi": "Bài 1: Hỏi giờ"
+    },
+    {
+      "id": "course_vi_44",
+      "file": "course_02.json",
+      "title": "第 2 课：说时间（整点与半点）",
+      "titleVi": "Bài 2: Nói giờ (đúng và rưỡi)"
+    },
+    {
+      "id": "course_vi_45",
+      "file": "course_03.json",
+      "title": "第 3 课：说时间（分钟）",
+      "titleVi": "Bài 3: Nói giờ (phút)"
+    },
+    {
+      "id": "course_vi_46",
+      "file": "course_04.json",
+      "title": "第 4 课：上午、下午、晚上",
+      "titleVi": "Bài 4: Buổi sáng, buổi chiều, buổi tối"
+    },
+    {
+      "id": "course_vi_47",
+      "file": "course_05.json",
+      "title": "第 5 课：时间段表达",
+      "titleVi": "Bài 5: Diễn đạt khoảng thời gian"
+    },
+    {
+      "id": "course_vi_48",
+      "file": "course_06.json",
+      "title": "第 6 课：日常作息描述",
+      "titleVi": "Bài 6: Miêu tả sinh hoạt hàng ngày"
+    }
+  ]
 }

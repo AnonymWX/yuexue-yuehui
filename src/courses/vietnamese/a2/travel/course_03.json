@@ -1,313 +1,191 @@
 {
-    "id": "course_vi_123",
-    "title": "第 3 课：酒店住宿",
-    "titleVi": "Bài 3: Ở khách sạn",
-    "order": 3,
-    "scenario": "travel",
-    "goals": [
-        "能完成预订 / 入住 / 退房全套对话",
-        "能询问与反馈房间设施问题",
-        "能用「có...không」问服务设施",
-        "能用「có thể...không」礼貌请求"
-    ],
-    "words": [
+  "id": "course_vi_123",
+  "title": "第 3 课：酒店住宿",
+  "titleVi": "Bài 3: Ở khách sạn",
+  "order": 3,
+  "scenario": "travel",
+  "goals": [
+    "能完成预订 / 入住 / 退房全套对话",
+    "能询问与反馈房间设施问题",
+    "能用「có...không」问服务设施",
+    "能用「có thể...không」礼貌请求"
+  ],
+  "words": [
+    {
+      "id": "vi_a2_khach_san",
+      "name": "khách sạn",
+      "trans": ["酒店"],
+      "tags": ["travel", "A2", "hotel"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_dat_phong",
+      "name": "đặt phòng",
+      "trans": ["订房"],
+      "tags": ["travel", "A2", "hotel"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_nhan_phong",
+      "name": "nhận phòng",
+      "trans": ["入住"],
+      "tags": ["travel", "A2", "hotel"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_tra_phong",
+      "name": "trả phòng",
+      "trans": ["退房"],
+      "tags": ["travel", "A2", "hotel"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_phong_don",
+      "name": "phòng đơn",
+      "trans": ["单人间"],
+      "tags": ["travel", "A2", "hotel"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_phong_doi",
+      "name": "phòng đôi",
+      "trans": ["双人间"],
+      "tags": ["travel", "A2", "hotel"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_phong_deluxe",
+      "name": "phòng deluxe",
+      "trans": ["豪华房"],
+      "tags": ["travel", "A2", "hotel"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_tang",
+      "name": "tầng",
+      "trans": ["楼层"],
+      "tags": ["travel", "A2", "hotel"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_the_tu",
+      "name": "thẻ từ",
+      "trans": ["房卡"],
+      "tags": ["travel", "A2", "hotel"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_ho_boi",
+      "name": "hồ bơi",
+      "trans": ["游泳池"],
+      "tags": ["travel", "A2", "hotel"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_phong_tap",
+      "name": "phòng tập",
+      "trans": ["健身房"],
+      "tags": ["travel", "A2", "hotel"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_bua_sang",
+      "name": "bữa sáng",
+      "trans": ["早餐"],
+      "tags": ["travel", "A2", "hotel"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_dich_vu",
+      "name": "dịch vụ",
+      "trans": ["服务"],
+      "tags": ["travel", "A2", "hotel"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_wifi",
+      "name": "wifi",
+      "trans": ["无线网络"],
+      "tags": ["travel", "A2", "hotel"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a2_145",
+    "sentence_vi_a2_146",
+    "sentence_vi_a2_147",
+    "sentence_vi_a2_148",
+    "sentence_vi_a2_149",
+    "sentence_vi_a2_150",
+    "sentence_vi_a2_151",
+    "sentence_vi_a2_152"
+  ],
+  "grammar": [
+    {
+      "point": "礼貌请求：có thể...không? / xin / làm ơn",
+      "explain": "「Bạn có thể + V + không?」= 你能…吗？（最常用礼貌请求）；「Xin + V」= 请…（更正式）；「Làm ơn + V」= 劳驾…（书面/正式）。注意：「có...không」是一种「yes/no」问句结构，回答「Có」（有/可以）或「Không」（没有/不行）。",
+      "examples": [
         {
-            "id": "vi_a2_khach_san",
-            "name": "khách sạn",
-            "trans": [
-                "酒店"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "hotel"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Bạn có thể cho tôi xem phòng không?",
+          "zh": "你能让我看看房间吗？"
         },
         {
-            "id": "vi_a2_dat_phong",
-            "name": "đặt phòng",
-            "trans": [
-                "订房"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "hotel"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Xin vui lòng cho tôi mượn một chiếc ô.",
+          "zh": "请借我一把伞。"
         },
         {
-            "id": "vi_a2_nhan_phong",
-            "name": "nhận phòng",
-            "trans": [
-                "入住"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "hotel"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_tra_phong",
-            "name": "trả phòng",
-            "trans": [
-                "退房"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "hotel"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_phong_don",
-            "name": "phòng đơn",
-            "trans": [
-                "单人间"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "hotel"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_phong_doi",
-            "name": "phòng đôi",
-            "trans": [
-                "双人间"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "hotel"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_phong_deluxe",
-            "name": "phòng deluxe",
-            "trans": [
-                "豪华房"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "hotel"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_tang",
-            "name": "tầng",
-            "trans": [
-                "楼层"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "hotel"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_the_tu",
-            "name": "thẻ từ",
-            "trans": [
-                "房卡"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "hotel"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_ho_boi",
-            "name": "hồ bơi",
-            "trans": [
-                "游泳池"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "hotel"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_phong_tap",
-            "name": "phòng tập",
-            "trans": [
-                "健身房"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "hotel"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_bua_sang",
-            "name": "bữa sáng",
-            "trans": [
-                "早餐"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "hotel"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_dich_vu",
-            "name": "dịch vụ",
-            "trans": [
-                "服务"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "hotel"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_wifi",
-            "name": "wifi",
-            "trans": [
-                "无线网络"
-            ],
-            "tags": [
-                "travel",
-                "A2",
-                "hotel"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Làm ơn đưa giúp tôi hành lý lên phòng.",
+          "zh": "劳驾帮我把行李送到房间。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a2_145",
-        "sentence_vi_a2_146",
-        "sentence_vi_a2_147",
-        "sentence_vi_a2_148",
-        "sentence_vi_a2_149",
-        "sentence_vi_a2_150",
-        "sentence_vi_a2_151",
-        "sentence_vi_a2_152"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "询问设施：có...không?",
+      "explain": "问是否有某物/某服务：「Khách sạn có + 名词 + không?」（酒店有…吗？）；「Phòng có + 名词 + không?」（房间有…吗？）。回答：Có（有）/ Không（没有）/ Không có（不提供）。可加「ạ」表示礼貌。",
+      "examples": [
         {
-            "point": "礼貌请求：có thể...không? / xin / làm ơn",
-            "explain": "「Bạn có thể + V + không?」= 你能…吗？（最常用礼貌请求）；「Xin + V」= 请…（更正式）；「Làm ơn + V」= 劳驾…（书面/正式）。注意：「có...không」是一种「yes/no」问句结构，回答「Có」（有/可以）或「Không」（没有/不行）。",
-            "examples": [
-                {
-                    "vi": "Bạn có thể cho tôi xem phòng không?",
-                    "zh": "你能让我看看房间吗？"
-                },
-                {
-                    "vi": "Xin vui lòng cho tôi mượn một chiếc ô.",
-                    "zh": "请借我一把伞。"
-                },
-                {
-                    "vi": "Làm ơn đưa giúp tôi hành lý lên phòng.",
-                    "zh": "劳驾帮我把行李送到房间。"
-                }
-            ]
+          "vi": "Khách sạn này có hồ bơi không ạ?",
+          "zh": "这家酒店有游泳池吗？"
         },
         {
-            "point": "询问设施：có...không?",
-            "explain": "问是否有某物/某服务：「Khách sạn có + 名词 + không?」（酒店有…吗？）；「Phòng có + 名词 + không?」（房间有…吗？）。回答：Có（有）/ Không（没有）/ Không có（不提供）。可加「ạ」表示礼貌。",
-            "examples": [
-                {
-                    "vi": "Khách sạn này có hồ bơi không ạ?",
-                    "zh": "这家酒店有游泳池吗？"
-                },
-                {
-                    "vi": "Phòng có wifi miễn phí không?",
-                    "zh": "房间有免费 Wi-Fi 吗？"
-                },
-                {
-                    "vi": "Ở đây có dịch vụ giặt ủi không?",
-                    "zh": "这里有洗衣服务吗？"
-                }
-            ]
+          "vi": "Phòng có wifi miễn phí không?",
+          "zh": "房间有免费 Wi-Fi 吗？"
+        },
+        {
+          "vi": "Ở đây có dịch vụ giặt ủi không?",
+          "zh": "这里有洗衣服务吗？"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「trả phòng」的意思是？",
-            "options": [
-                "入住",
-                "退房",
-                "订房",
-                "换房"
-            ],
-            "answer": "退房"
-        },
-        {
-            "type": "choose",
-            "question": "哪句是礼貌请求？",
-            "options": [
-                "Cho tôi xem phòng.",
-                "Bạn có thể cho tôi xem phòng không?",
-                "Xem phòng đi.",
-                "Phòng xem tôi."
-            ],
-            "answer": "Bạn có thể cho tôi xem phòng không?"
-        },
-        {
-            "type": "fill",
-            "question": "Khách sạn này ___ hồ bơi không ạ?（这家酒店有游泳池吗？）",
-            "answer": "có"
-        },
-        {
-            "type": "fill",
-            "question": "Tôi muốn ___ phòng đôi cho hai đêm.（我想订双人间两晚）",
-            "answer": "đặt"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「房间有 Wi-Fi 吗？」的越南语",
-            "answer": "Phòng có wifi không"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「trả phòng」的意思是？",
+      "options": ["入住", "退房", "订房", "换房"],
+      "answer": "退房"
+    },
+    {
+      "type": "choose",
+      "question": "哪句是礼貌请求？",
+      "options": ["Cho tôi xem phòng.", "Bạn có thể cho tôi xem phòng không?", "Xem phòng đi.", "Phòng xem tôi."],
+      "answer": "Bạn có thể cho tôi xem phòng không?"
+    },
+    {
+      "type": "fill",
+      "question": "Khách sạn này ___ hồ bơi không ạ?（这家酒店有游泳池吗？）",
+      "answer": "có"
+    },
+    {
+      "type": "fill",
+      "question": "Tôi muốn ___ phòng đôi cho hai đêm.（我想订双人间两晚）",
+      "answer": "đặt"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「房间有 Wi-Fi 吗？」的越南语",
+      "answer": "Phòng có wifi không"
+    }
+  ]
 }

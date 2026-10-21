@@ -1,20 +1,20 @@
 {
-    "id": "travel",
-    "stage": "a1",
-    "title": "旅行与风景",
-    "titleVi": "여행과 풍경",
-    "courses": [
-        {
-            "id": "course_ko_015",
-            "file": "course_01.json",
-            "title": "第 1 课：여행을 좋아합니까?",
-            "titleVi": "제1과: 여행을 좋아합니까?"
-        },
-        {
-            "id": "course_ko_038",
-            "file": "course_02.json",
-            "title": "第 2 课：제주도에 가려고 합니다",
-            "titleVi": "제2과: 제주도에 가려고 합니다"
-        }
-    ]
+  "id": "travel",
+  "stage": "a1",
+  "title": "旅行与风景",
+  "titleVi": "여행과 풍경",
+  "courses": [
+    {
+      "id": "course_ko_015",
+      "file": "course_01.json",
+      "title": "第 1 课：여행을 좋아합니까?",
+      "titleVi": "제1과: 여행을 좋아합니까?"
+    },
+    {
+      "id": "course_ko_038",
+      "file": "course_02.json",
+      "title": "第 2 课：제주도에 가려고 합니다",
+      "titleVi": "제2과: 제주도에 가려고 합니다"
+    }
+  ]
 }

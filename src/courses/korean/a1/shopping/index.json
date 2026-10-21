@@ -1,26 +1,26 @@
 {
-    "id": "shopping",
-    "stage": "a1",
-    "title": "购物与价格",
-    "titleVi": "쇼핑과 가격",
-    "courses": [
-        {
-            "id": "course_ko_006",
-            "file": "course_01.json",
-            "title": "第 1 课：얼마입니까?",
-            "titleVi": "제1과: 얼마입니까?"
-        },
-        {
-            "id": "course_ko_028",
-            "file": "course_02.json",
-            "title": "第 2 课：빨간색으로 주세요",
-            "titleVi": "제2과: 빨간색으로 주세요"
-        },
-        {
-            "id": "course_ko_029",
-            "file": "course_03.json",
-            "title": "第 3 课：교환하고 싶습니다",
-            "titleVi": "제3과: 교환하고 싶습니다"
-        }
-    ]
+  "id": "shopping",
+  "stage": "a1",
+  "title": "购物与价格",
+  "titleVi": "쇼핑과 가격",
+  "courses": [
+    {
+      "id": "course_ko_006",
+      "file": "course_01.json",
+      "title": "第 1 课：얼마입니까?",
+      "titleVi": "제1과: 얼마입니까?"
+    },
+    {
+      "id": "course_ko_028",
+      "file": "course_02.json",
+      "title": "第 2 课：빨간색으로 주세요",
+      "titleVi": "제2과: 빨간색으로 주세요"
+    },
+    {
+      "id": "course_ko_029",
+      "file": "course_03.json",
+      "title": "第 3 课：교환하고 싶습니다",
+      "titleVi": "제3과: 교환하고 싶습니다"
+    }
+  ]
 }

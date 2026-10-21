@@ -1,20 +1,20 @@
 {
-    "id": "phone",
-    "stage": "a1",
-    "title": "电话与联系",
-    "titleVi": "전화와 연락",
-    "courses": [
-        {
-            "id": "course_ko_009",
-            "file": "course_01.json",
-            "title": "第 1 课：전화를 걸어 보세요",
-            "titleVi": "제1과: 전화를 걸어 보세요"
-        },
-        {
-            "id": "course_ko_032",
-            "file": "course_02.json",
-            "title": "第 2 课：주말에 무엇을 합니까?",
-            "titleVi": "제2과: 주말에 무엇을 합니까?"
-        }
-    ]
+  "id": "phone",
+  "stage": "a1",
+  "title": "电话与联系",
+  "titleVi": "전화와 연락",
+  "courses": [
+    {
+      "id": "course_ko_009",
+      "file": "course_01.json",
+      "title": "第 1 课：전화를 걸어 보세요",
+      "titleVi": "제1과: 전화를 걸어 보세요"
+    },
+    {
+      "id": "course_ko_032",
+      "file": "course_02.json",
+      "title": "第 2 课：주말에 무엇을 합니까?",
+      "titleVi": "제2과: 주말에 무엇을 합니까?"
+    }
+  ]
 }

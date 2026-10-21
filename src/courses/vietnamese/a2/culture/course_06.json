@@ -1,315 +1,191 @@
 {
-    "id": "course_vi_176",
-    "title": "第 6 课：传统服饰与艺术",
-    "titleVi": "Bài 6: Trang phục và nghệ thuật truyền thống",
-    "order": 6,
-    "scenario": "culture",
-    "goals": [
-        "能说出越南传统服饰",
-        "能介绍越南传统艺术形式",
-        "能用「được làm bằng / có nguồn gốc」描述工艺",
-        "能谈论文化传承"
-    ],
-    "words": [
+  "id": "course_vi_176",
+  "title": "第 6 课：传统服饰与艺术",
+  "titleVi": "Bài 6: Trang phục và nghệ thuật truyền thống",
+  "order": 6,
+  "scenario": "culture",
+  "goals": ["能说出越南传统服饰", "能介绍越南传统艺术形式", "能用「được làm bằng / có nguồn gốc」描述工艺", "能谈论文化传承"],
+  "words": [
+    {
+      "id": "vi_a2_trang_phuc",
+      "name": "trang phục",
+      "trans": ["服饰", "服装"],
+      "tags": ["culture", "A2", "art"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_ao_dai",
+      "name": "áo dài",
+      "trans": ["奥黛（越南长衫）"],
+      "tags": ["culture", "A2", "art"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_non_la",
+      "name": "nón lá",
+      "trans": ["斗笠"],
+      "tags": ["culture", "A2", "art"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_khan_dong",
+      "name": "khăn đóng",
+      "trans": ["盘头巾"],
+      "tags": ["culture", "A2", "art"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_ao_tu_than",
+      "name": "áo tứ thân",
+      "trans": ["四身袄"],
+      "tags": ["culture", "A2", "art"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_nghe_thuat",
+      "name": "nghệ thuật",
+      "trans": ["艺术"],
+      "tags": ["culture", "A2", "art"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_mua_roi_nuoc",
+      "name": "múa rối nước",
+      "trans": ["水上木偶戏"],
+      "tags": ["culture", "A2", "art"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_nhac_cu",
+      "name": "nhạc cụ",
+      "trans": ["乐器"],
+      "tags": ["culture", "A2", "art"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_dan_bau",
+      "name": "đàn bầu",
+      "trans": ["独弦琴"],
+      "tags": ["culture", "A2", "art"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_dan_tranh",
+      "name": "đàn tranh",
+      "trans": ["古筝"],
+      "tags": ["culture", "A2", "art"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_ca_tru",
+      "name": "ca trù",
+      "trans": ["歌筹"],
+      "tags": ["culture", "A2", "art"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_quan_ho",
+      "name": "quan họ",
+      "trans": ["官贺民歌"],
+      "tags": ["culture", "A2", "art"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_thu_cong_my_nghe",
+      "name": "thủ công mỹ nghệ",
+      "trans": ["手工艺"],
+      "tags": ["culture", "A2", "art"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_giu_gin",
+      "name": "giữ gìn",
+      "trans": ["维护", "保存"],
+      "tags": ["culture", "A2", "art"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a2_345",
+    "sentence_vi_a2_346",
+    "sentence_vi_a2_347",
+    "sentence_vi_a2_348",
+    "sentence_vi_a2_349",
+    "sentence_vi_a2_350",
+    "sentence_vi_a2_351",
+    "sentence_vi_a2_352"
+  ],
+  "grammar": [
+    {
+      "point": "材料与来源：được làm bằng / có nguồn gốc từ",
+      "explain": "「được làm bằng + 材料」= 由…制成（被动）；「có nguồn gốc từ + 地方/时间」= 起源于…。前者描述工艺材料，后者描述历史来源。注意：làm bằng 用于材料，làm từ 也可（稍书面），làm bởi 用于人。",
+      "examples": [
         {
-            "id": "vi_a2_trang_phuc",
-            "name": "trang phục",
-            "trans": [
-                "服饰",
-                "服装"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "art"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Nón lá được làm bằng lá cọ và tre.",
+          "zh": "斗笠用棕叶和竹子制成。"
         },
         {
-            "id": "vi_a2_ao_dai",
-            "name": "áo dài",
-            "trans": [
-                "奥黛（越南长衫）"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "art"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Áo dài có nguồn gốc từ trang phục truyền thống của người Việt.",
+          "zh": "奥黛起源于越南人的传统服饰。"
         },
         {
-            "id": "vi_a2_non_la",
-            "name": "nón lá",
-            "trans": [
-                "斗笠"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "art"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_khan_dong",
-            "name": "khăn đóng",
-            "trans": [
-                "盘头巾"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "art"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_ao_tu_than",
-            "name": "áo tứ thân",
-            "trans": [
-                "四身袄"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "art"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_nghe_thuat",
-            "name": "nghệ thuật",
-            "trans": [
-                "艺术"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "art"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_mua_roi_nuoc",
-            "name": "múa rối nước",
-            "trans": [
-                "水上木偶戏"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "art"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_nhac_cu",
-            "name": "nhạc cụ",
-            "trans": [
-                "乐器"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "art"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_dan_bau",
-            "name": "đàn bầu",
-            "trans": [
-                "独弦琴"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "art"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_dan_tranh",
-            "name": "đàn tranh",
-            "trans": [
-                "古筝"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "art"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_ca_tru",
-            "name": "ca trù",
-            "trans": [
-                "歌筹"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "art"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_quan_ho",
-            "name": "quan họ",
-            "trans": [
-                "官贺民歌"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "art"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_thu_cong_my_nghe",
-            "name": "thủ công mỹ nghệ",
-            "trans": [
-                "手工艺"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "art"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_giu_gin",
-            "name": "giữ gìn",
-            "trans": [
-                "维护",
-                "保存"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "art"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Múa rối nước là loại hình nghệ thuật có nguồn gốc từ đồng bằng Bắc Bộ.",
+          "zh": "水上木偶戏是起源于北部平原的艺术形式。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a2_345",
-        "sentence_vi_a2_346",
-        "sentence_vi_a2_347",
-        "sentence_vi_a2_348",
-        "sentence_vi_a2_349",
-        "sentence_vi_a2_350",
-        "sentence_vi_a2_351",
-        "sentence_vi_a2_352"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "文化传承：giữ gìn / bảo tồn / truyền lại",
+      "explain": "「giữ gìn」= 维护、保持（口语）；「bảo tồn」= 保护、保存（正式，多指文化遗产）；「truyền lại」= 传承、留给后代。三者常用于文化讨论：「giữ gìn bản sắc」（保持本色）、「bảo tồn di sản」（保护遗产）、「truyền lại cho con cháu」（传给子孙）。",
+      "examples": [
         {
-            "point": "材料与来源：được làm bằng / có nguồn gốc từ",
-            "explain": "「được làm bằng + 材料」= 由…制成（被动）；「có nguồn gốc từ + 地方/时间」= 起源于…。前者描述工艺材料，后者描述历史来源。注意：làm bằng 用于材料，làm từ 也可（稍书面），làm bởi 用于人。",
-            "examples": [
-                {
-                    "vi": "Nón lá được làm bằng lá cọ và tre.",
-                    "zh": "斗笠用棕叶和竹子制成。"
-                },
-                {
-                    "vi": "Áo dài có nguồn gốc từ trang phục truyền thống của người Việt.",
-                    "zh": "奥黛起源于越南人的传统服饰。"
-                },
-                {
-                    "vi": "Múa rối nước là loại hình nghệ thuật có nguồn gốc từ đồng bằng Bắc Bộ.",
-                    "zh": "水上木偶戏是起源于北部平原的艺术形式。"
-                }
-            ]
+          "vi": "Chúng ta cần giữ gìn và phát huy bản sắc văn hóa dân tộc.",
+          "zh": "我们需要保持并发扬民族文化的本色。"
         },
         {
-            "point": "文化传承：giữ gìn / bảo tồn / truyền lại",
-            "explain": "「giữ gìn」= 维护、保持（口语）；「bảo tồn」= 保护、保存（正式，多指文化遗产）；「truyền lại」= 传承、留给后代。三者常用于文化讨论：「giữ gìn bản sắc」（保持本色）、「bảo tồn di sản」（保护遗产）、「truyền lại cho con cháu」（传给子孙）。",
-            "examples": [
-                {
-                    "vi": "Chúng ta cần giữ gìn và phát huy bản sắc văn hóa dân tộc.",
-                    "zh": "我们需要保持并发扬民族文化的本色。"
-                },
-                {
-                    "vi": "UNESCO đã công nhận và bảo tồn nhiều di sản văn hóa Việt Nam.",
-                    "zh": "联合国教科文组织已认可并保护多项越南文化遗产。"
-                },
-                {
-                    "vi": "Ông bà tôi truyền lại nghề làm nón cho con cháu.",
-                    "zh": "我的祖父母把做斗笠的手艺传给了子孙。"
-                }
-            ]
+          "vi": "UNESCO đã công nhận và bảo tồn nhiều di sản văn hóa Việt Nam.",
+          "zh": "联合国教科文组织已认可并保护多项越南文化遗产。"
+        },
+        {
+          "vi": "Ông bà tôi truyền lại nghề làm nón cho con cháu.",
+          "zh": "我的祖父母把做斗笠的手艺传给了子孙。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「nón lá」的意思是？",
-            "options": [
-                "头巾",
-                "斗笠",
-                "帽子",
-                "面纱"
-            ],
-            "answer": "斗笠"
-        },
-        {
-            "type": "choose",
-            "question": "哪句正确表达「斗笠用棕叶制成」？",
-            "options": [
-                "Nón lá được làm bằng lá cọ.",
-                "Nón lá làm lá cọ bằng được.",
-                "Lá cọ nón lá được làm bằng.",
-                "Bằng lá cọ nón lá được làm."
-            ],
-            "answer": "Nón lá được làm bằng lá cọ."
-        },
-        {
-            "type": "fill",
-            "question": "Áo dài ___ nguồn gốc từ trang phục truyền thống của người Việt.（奥黛起源于越南人的传统服饰）",
-            "answer": "có"
-        },
-        {
-            "type": "fill",
-            "question": "Chúng ta cần ___ gìn bản sắc văn hóa dân tộc.（我们需要保持民族文化的本色）",
-            "answer": "giữ"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「奥黛是越南的传统服饰」的越南语",
-            "answer": "Áo dài là trang phục truyền thống của Việt Nam"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「nón lá」的意思是？",
+      "options": ["头巾", "斗笠", "帽子", "面纱"],
+      "answer": "斗笠"
+    },
+    {
+      "type": "choose",
+      "question": "哪句正确表达「斗笠用棕叶制成」？",
+      "options": [
+        "Nón lá được làm bằng lá cọ.",
+        "Nón lá làm lá cọ bằng được.",
+        "Lá cọ nón lá được làm bằng.",
+        "Bằng lá cọ nón lá được làm."
+      ],
+      "answer": "Nón lá được làm bằng lá cọ."
+    },
+    {
+      "type": "fill",
+      "question": "Áo dài ___ nguồn gốc từ trang phục truyền thống của người Việt.（奥黛起源于越南人的传统服饰）",
+      "answer": "có"
+    },
+    {
+      "type": "fill",
+      "question": "Chúng ta cần ___ gìn bản sắc văn hóa dân tộc.（我们需要保持民族文化的本色）",
+      "answer": "giữ"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「奥黛是越南的传统服饰」的越南语",
+      "answer": "Áo dài là trang phục truyền thống của Việt Nam"
+    }
+  ]
 }

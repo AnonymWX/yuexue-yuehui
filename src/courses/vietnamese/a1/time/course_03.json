@@ -1,193 +1,123 @@
 {
-    "id": "course_vi_45",
-    "title": "第 3 课：说时间（分钟）",
-    "titleVi": "Bài 3: Nói giờ (phút)",
-    "order": 3,
-    "scenario": "time",
-    "goals": [
-        "掌握分钟表达",
-        "学会「kém」表差几分",
-        "掌握「hơn」表过几分",
-        "能准确表达具体分钟数"
-    ],
-    "words": [
+  "id": "course_vi_45",
+  "title": "第 3 课：说时间（分钟）",
+  "titleVi": "Bài 3: Nói giờ (phút)",
+  "order": 3,
+  "scenario": "time",
+  "goals": ["掌握分钟表达", "学会「kém」表差几分", "掌握「hơn」表过几分", "能准确表达具体分钟数"],
+  "words": [
+    {
+      "id": "vi_phut",
+      "name": "phút",
+      "trans": ["分钟"],
+      "tags": ["time", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_giay_second",
+      "name": "giây",
+      "trans": ["秒"],
+      "tags": ["time", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_kem",
+      "name": "kém",
+      "trans": ["差（差几分）"],
+      "tags": ["time", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_hon",
+      "name": "hơn",
+      "trans": ["过（过几分）", "多"],
+      "tags": ["time", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_chinh_xac",
+      "name": "chính xác",
+      "trans": ["准确", "精确"],
+      "tags": ["time", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_khoang",
+      "name": "khoảng",
+      "trans": ["大约", "左右"],
+      "tags": ["time", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_uoc_chung",
+      "name": "ước chừng",
+      "trans": ["大约", "估计"],
+      "tags": ["time", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_gan",
+      "name": "gần",
+      "trans": ["将近", "差不多"],
+      "tags": ["time", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_247",
+    "sentence_vi_a1_248",
+    "sentence_vi_a1_249",
+    "sentence_vi_a1_250",
+    "sentence_vi_a1_251",
+    "sentence_vi_a1_252"
+  ],
+  "grammar": [
+    {
+      "point": "「số giờ + số phút」表几点几分",
+      "explain": "表达几点几分用「数字 + giờ + 数字 + phút」，如「bảy giờ mười lăm phút」（7 点 15 分）。口语可省略「phút」。",
+      "examples": [
         {
-            "id": "vi_phut",
-            "name": "phút",
-            "trans": [
-                "分钟"
-            ],
-            "tags": [
-                "time",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Bây giờ là bảy giờ mười lăm.",
+          "zh": "现在 7 点 15。"
         },
         {
-            "id": "vi_giay_second",
-            "name": "giây",
-            "trans": [
-                "秒"
-            ],
-            "tags": [
-                "time",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_kem",
-            "name": "kém",
-            "trans": [
-                "差（差几分）"
-            ],
-            "tags": [
-                "time",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_hon",
-            "name": "hơn",
-            "trans": [
-                "过（过几分）",
-                "多"
-            ],
-            "tags": [
-                "time",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_chinh_xac",
-            "name": "chính xác",
-            "trans": [
-                "准确",
-                "精确"
-            ],
-            "tags": [
-                "time",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_khoang",
-            "name": "khoảng",
-            "trans": [
-                "大约",
-                "左右"
-            ],
-            "tags": [
-                "time",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_uoc_chung",
-            "name": "ước chừng",
-            "trans": [
-                "大约",
-                "估计"
-            ],
-            "tags": [
-                "time",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_gan",
-            "name": "gần",
-            "trans": [
-                "将近",
-                "差不多"
-            ],
-            "tags": [
-                "time",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Tám giờ ba mươi phút tôi đến.",
+          "zh": "我 8 点 30 到。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_247",
-        "sentence_vi_a1_248",
-        "sentence_vi_a1_249",
-        "sentence_vi_a1_250",
-        "sentence_vi_a1_251",
-        "sentence_vi_a1_252"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「kém」表差几分",
+      "explain": "表示「差几分到几点」用「kém + 数字 + phút」，如「bảy giờ kém mười lăm」（差 15 分 7 点，即 6:45）。",
+      "examples": [
         {
-            "point": "「số giờ + số phút」表几点几分",
-            "explain": "表达几点几分用「数字 + giờ + 数字 + phút」，如「bảy giờ mười lăm phút」（7 点 15 分）。口语可省略「phút」。",
-            "examples": [
-                {
-                    "vi": "Bây giờ là bảy giờ mười lăm.",
-                    "zh": "现在 7 点 15。"
-                },
-                {
-                    "vi": "Tám giờ ba mươi phút tôi đến.",
-                    "zh": "我 8 点 30 到。"
-                }
-            ]
+          "vi": "Bây giờ là tám giờ kém mười lăm.",
+          "zh": "现在差 15 分 8 点。"
         },
         {
-            "point": "「kém」表差几分",
-            "explain": "表示「差几分到几点」用「kém + 数字 + phút」，如「bảy giờ kém mười lăm」（差 15 分 7 点，即 6:45）。",
-            "examples": [
-                {
-                    "vi": "Bây giờ là tám giờ kém mười lăm.",
-                    "zh": "现在差 15 分 8 点。"
-                },
-                {
-                    "vi": "Mười giờ kém năm tôi về.",
-                    "zh": "我差 5 分 10 点回家。"
-                }
-            ]
+          "vi": "Mười giờ kém năm tôi về.",
+          "zh": "我差 5 分 10 点回家。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「分钟」用越南语怎么说？",
-            "options": [
-                "phút",
-                "giây",
-                "giờ"
-            ],
-            "answer": "phút"
-        },
-        {
-            "type": "fill",
-            "question": "Bây giờ là bảy giờ ba mươi ___.",
-            "answer": "phút"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「差（差几分）」的越南语",
-            "answer": "kém"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「分钟」用越南语怎么说？",
+      "options": ["phút", "giây", "giờ"],
+      "answer": "phút"
+    },
+    {
+      "type": "fill",
+      "question": "Bây giờ là bảy giờ ba mươi ___.",
+      "answer": "phút"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「差（差几分）」的越南语",
+      "answer": "kém"
+    }
+  ]
 }

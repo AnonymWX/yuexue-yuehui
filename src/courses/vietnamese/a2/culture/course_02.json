@@ -1,318 +1,191 @@
 {
-    "id": "course_vi_172",
-    "title": "第 2 课：风俗习惯",
-    "titleVi": "Bài 2: Phong tục tập quán",
-    "order": 2,
-    "scenario": "culture",
-    "goals": [
-        "能说出越南常见风俗习惯",
-        "能用「có tục / theo phong tục」表达习俗",
-        "能对比中越风俗差异",
-        "能描述拜年、祭祖等民俗活动"
-    ],
-    "words": [
+  "id": "course_vi_172",
+  "title": "第 2 课：风俗习惯",
+  "titleVi": "Bài 2: Phong tục tập quán",
+  "order": 2,
+  "scenario": "culture",
+  "goals": ["能说出越南常见风俗习惯", "能用「có tục / theo phong tục」表达习俗", "能对比中越风俗差异", "能描述拜年、祭祖等民俗活动"],
+  "words": [
+    {
+      "id": "vi_a2_phong_tuc",
+      "name": "phong tục",
+      "trans": ["风俗"],
+      "tags": ["culture", "A2", "custom"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_tap_quan",
+      "name": "tập quán",
+      "trans": ["习惯", "习俗"],
+      "tags": ["culture", "A2", "custom"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_truyen_thong",
+      "name": "truyền thống",
+      "trans": ["传统"],
+      "tags": ["culture", "A2", "custom"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_tho_cung",
+      "name": "thờ cúng",
+      "trans": ["供奉", "祭拜"],
+      "tags": ["culture", "A2", "custom"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_ban_tho",
+      "name": "bàn thờ",
+      "trans": ["供桌", "神台"],
+      "tags": ["culture", "A2", "custom"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_to_tien",
+      "name": "tổ tiên",
+      "trans": ["祖先"],
+      "tags": ["culture", "A2", "custom"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_giỗ",
+      "name": "giỗ",
+      "trans": ["忌日", "祭日"],
+      "tags": ["culture", "A2", "custom"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_chuc_tet",
+      "name": "chúc Tết",
+      "trans": ["拜年"],
+      "tags": ["culture", "A2", "custom"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_xong_dat",
+      "name": "xông đất",
+      "trans": ["冲地（初一第一位访客）"],
+      "tags": ["culture", "A2", "custom"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_mung_tho",
+      "name": "mừng thọ",
+      "trans": ["祝寿"],
+      "tags": ["culture", "A2", "custom"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_cuoi_hoi",
+      "name": "cưới hỏi",
+      "trans": ["婚嫁"],
+      "tags": ["culture", "A2", "custom"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_le_phep",
+      "name": "lễ phép",
+      "trans": ["礼貌", "知礼"],
+      "tags": ["culture", "A2", "custom"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_kinh_trong",
+      "name": "kính trọng",
+      "trans": ["尊敬"],
+      "tags": ["culture", "A2", "custom"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_hieu_khach",
+      "name": "hiếu khách",
+      "trans": ["好客"],
+      "tags": ["culture", "A2", "custom"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a2_121",
+    "sentence_vi_a2_122",
+    "sentence_vi_a2_123",
+    "sentence_vi_a2_124",
+    "sentence_vi_a2_125",
+    "sentence_vi_a2_126",
+    "sentence_vi_a2_127",
+    "sentence_vi_a2_128"
+  ],
+  "grammar": [
+    {
+      "point": "习俗表达：có tục / theo phong tục / theo truyền thống",
+      "explain": "「có tục + V」= 有…习俗；「theo phong tục」= 按照风俗；「theo truyền thống」= 按照传统。三者都可作状语。注意：「theo」在此表「依照」义，与「theo + 人」（跟随）不同。",
+      "examples": [
         {
-            "id": "vi_a2_phong_tuc",
-            "name": "phong tục",
-            "trans": [
-                "风俗"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "custom"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Người Việt có tục thờ cúng tổ tiên trong nhà.",
+          "zh": "越南人有在家中供奉祖先的习俗。"
         },
         {
-            "id": "vi_a2_tap_quan",
-            "name": "tập quán",
-            "trans": [
-                "习惯",
-                "习俗"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "custom"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Theo phong tục, con cháu phải chúc Tết ông bà vào ngày mùng một.",
+          "zh": "按照风俗，子孙要在大年初一给祖父母拜年。"
         },
         {
-            "id": "vi_a2_truyen_thong",
-            "name": "truyền thống",
-            "trans": [
-                "传统"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "custom"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_tho_cung",
-            "name": "thờ cúng",
-            "trans": [
-                "供奉",
-                "祭拜"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "custom"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_ban_tho",
-            "name": "bàn thờ",
-            "trans": [
-                "供桌",
-                "神台"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "custom"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_to_tien",
-            "name": "tổ tiên",
-            "trans": [
-                "祖先"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "custom"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_giỗ",
-            "name": "giỗ",
-            "trans": [
-                "忌日",
-                "祭日"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "custom"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_chuc_tet",
-            "name": "chúc Tết",
-            "trans": [
-                "拜年"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "custom"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_xong_dat",
-            "name": "xông đất",
-            "trans": [
-                "冲地（初一第一位访客）"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "custom"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_mung_tho",
-            "name": "mừng thọ",
-            "trans": [
-                "祝寿"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "custom"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_cuoi_hoi",
-            "name": "cưới hỏi",
-            "trans": [
-                "婚嫁"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "custom"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_le_phep",
-            "name": "lễ phép",
-            "trans": [
-                "礼貌",
-                "知礼"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "custom"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_kinh_trong",
-            "name": "kính trọng",
-            "trans": [
-                "尊敬"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "custom"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_hieu_khach",
-            "name": "hiếu khách",
-            "trans": [
-                "好客"
-            ],
-            "tags": [
-                "culture",
-                "A2",
-                "custom"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Theo truyền thống, gia đình sum họp vào dịp Tết.",
+          "zh": "按照传统，春节时家人团聚。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a2_121",
-        "sentence_vi_a2_122",
-        "sentence_vi_a2_123",
-        "sentence_vi_a2_124",
-        "sentence_vi_a2_125",
-        "sentence_vi_a2_126",
-        "sentence_vi_a2_127",
-        "sentence_vi_a2_128"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "文化对比：giống / khác / cũng như",
+      "explain": "对比用法：「giống」= 像、相同；「khác」= 不同；「cũng như」= 也如同（书面）。结构：「A giống B ở chỗ...」（A 与 B 相同在…）；「A khác B ở chỗ...」（A 与 B 不同在…）。A2 讨论文化差异高频。",
+      "examples": [
         {
-            "point": "习俗表达：có tục / theo phong tục / theo truyền thống",
-            "explain": "「có tục + V」= 有…习俗；「theo phong tục」= 按照风俗；「theo truyền thống」= 按照传统。三者都可作状语。注意：「theo」在此表「依照」义，与「theo + 人」（跟随）不同。",
-            "examples": [
-                {
-                    "vi": "Người Việt có tục thờ cúng tổ tiên trong nhà.",
-                    "zh": "越南人有在家中供奉祖先的习俗。"
-                },
-                {
-                    "vi": "Theo phong tục, con cháu phải chúc Tết ông bà vào ngày mùng một.",
-                    "zh": "按照风俗，子孙要在大年初一给祖父母拜年。"
-                },
-                {
-                    "vi": "Theo truyền thống, gia đình sum họp vào dịp Tết.",
-                    "zh": "按照传统，春节时家人团聚。"
-                }
-            ]
+          "vi": "Việt Nam và Trung Quốc đều có tục thờ cúng tổ tiên.",
+          "zh": "越南和中国都有供奉祖先的习俗。"
         },
         {
-            "point": "文化对比：giống / khác / cũng như",
-            "explain": "对比用法：「giống」= 像、相同；「khác」= 不同；「cũng như」= 也如同（书面）。结构：「A giống B ở chỗ...」（A 与 B 相同在…）；「A khác B ở chỗ...」（A 与 B 不同在…）。A2 讨论文化差异高频。",
-            "examples": [
-                {
-                    "vi": "Việt Nam và Trung Quốc đều có tục thờ cúng tổ tiên.",
-                    "zh": "越南和中国都有供奉祖先的习俗。"
-                },
-                {
-                    "vi": "Phong tục ăn Tết của Việt Nam có nhiều điểm khác với Trung Quốc.",
-                    "zh": "越南的春节习俗与中国有很多不同。"
-                },
-                {
-                    "vi": "Cũng như nhiều nước châu Á, Việt Nam coi trọng gia đình.",
-                    "zh": "如同许多亚洲国家一样，越南重视家庭。"
-                }
-            ]
+          "vi": "Phong tục ăn Tết của Việt Nam có nhiều điểm khác với Trung Quốc.",
+          "zh": "越南的春节习俗与中国有很多不同。"
+        },
+        {
+          "vi": "Cũng như nhiều nước châu Á, Việt Nam coi trọng gia đình.",
+          "zh": "如同许多亚洲国家一样，越南重视家庭。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「xông đất」的意思是？",
-            "options": [
-                "初一访客",
-                "扫墓",
-                "祭祖",
-                "拜年"
-            ],
-            "answer": "初一访客"
-        },
-        {
-            "type": "choose",
-            "question": "哪句正确表达「越南人有供奉祖先的习俗」？",
-            "options": [
-                "Người Việt có tục thờ cúng tổ tiên.",
-                "Người Việt tục có thờ cúng tổ tiên.",
-                "Người Việt thờ cúng tục tổ tiên có.",
-                "Có người Việt tục thờ tổ tiên cúng."
-            ],
-            "answer": "Người Việt có tục thờ cúng tổ tiên."
-        },
-        {
-            "type": "fill",
-            "question": "Người Việt ___ tục thờ cúng tổ tiên trong nhà.（越南人有在家中供奉祖先的习俗）",
-            "answer": "có"
-        },
-        {
-            "type": "fill",
-            "question": "___ phong tục, con cháu phải chúc Tết ông bà.（按照风俗，子孙要给祖父母拜年）",
-            "answer": "Theo"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「春节拜年」的越南语",
-            "answer": "Chúc Tết"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「xông đất」的意思是？",
+      "options": ["初一访客", "扫墓", "祭祖", "拜年"],
+      "answer": "初一访客"
+    },
+    {
+      "type": "choose",
+      "question": "哪句正确表达「越南人有供奉祖先的习俗」？",
+      "options": [
+        "Người Việt có tục thờ cúng tổ tiên.",
+        "Người Việt tục có thờ cúng tổ tiên.",
+        "Người Việt thờ cúng tục tổ tiên có.",
+        "Có người Việt tục thờ tổ tiên cúng."
+      ],
+      "answer": "Người Việt có tục thờ cúng tổ tiên."
+    },
+    {
+      "type": "fill",
+      "question": "Người Việt ___ tục thờ cúng tổ tiên trong nhà.（越南人有在家中供奉祖先的习俗）",
+      "answer": "có"
+    },
+    {
+      "type": "fill",
+      "question": "___ phong tục, con cháu phải chúc Tết ông bà.（按照风俗，子孙要给祖父母拜年）",
+      "answer": "Theo"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「春节拜年」的越南语",
+      "answer": "Chúc Tết"
+    }
+  ]
 }

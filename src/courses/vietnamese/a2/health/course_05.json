@@ -1,318 +1,196 @@
 {
-    "id": "course_vi_109",
-    "title": "第 5 课：健康习惯",
-    "titleVi": "Bài 5: Thói quen sống khỏe mạnh",
-    "order": 5,
-    "scenario": "health",
-    "goals": [
-        "能谈论日常健康习惯（锻炼、饮食、睡眠）",
-        "能用 tuy...nhưng 表达让步（虽然…但是）",
-        "能用 nếu...thì 表达条件（如果…就）",
-        "能给出改善健康的具体建议"
-    ],
-    "words": [
+  "id": "course_vi_109",
+  "title": "第 5 课：健康习惯",
+  "titleVi": "Bài 5: Thói quen sống khỏe mạnh",
+  "order": 5,
+  "scenario": "health",
+  "goals": [
+    "能谈论日常健康习惯（锻炼、饮食、睡眠）",
+    "能用 tuy...nhưng 表达让步（虽然…但是）",
+    "能用 nếu...thì 表达条件（如果…就）",
+    "能给出改善健康的具体建议"
+  ],
+  "words": [
+    {
+      "id": "vi_a2_tap_the_duc",
+      "name": "tập thể dục",
+      "trans": ["锻炼", "运动"],
+      "tags": ["health", "A2", "lifestyle"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_an_uong_dieu_do",
+      "name": "ăn uống điều độ",
+      "trans": ["饮食规律", "饮食有节制"],
+      "tags": ["health", "A2", "lifestyle"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_ngu_du_giac",
+      "name": "ngủ đủ giấc",
+      "trans": ["睡眠充足"],
+      "tags": ["health", "A2", "lifestyle"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_thuc_khuya",
+      "name": "thức khuya",
+      "trans": ["熬夜"],
+      "tags": ["health", "A2", "lifestyle"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_giu_gin_suc_khoe",
+      "name": "giữ gìn sức khỏe",
+      "trans": ["保重身体"],
+      "tags": ["health", "A2", "lifestyle"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_cang_thang",
+      "name": "căng thẳng",
+      "trans": ["紧张", "压力大"],
+      "tags": ["health", "A2", "lifestyle"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_thu_gian",
+      "name": "thư giãn",
+      "trans": ["放松"],
+      "tags": ["health", "A2", "lifestyle"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_can_nang",
+      "name": "cân nặng",
+      "trans": ["体重"],
+      "tags": ["health", "A2", "lifestyle"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_giam_can",
+      "name": "giảm cân",
+      "trans": ["减肥", "减重"],
+      "tags": ["health", "A2", "lifestyle"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_khoe_manh",
+      "name": "khỏe mạnh",
+      "trans": ["健康", "强壮"],
+      "tags": ["health", "A2", "lifestyle"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_loi_song",
+      "name": "lối sống",
+      "trans": ["生活方式"],
+      "tags": ["health", "A2", "lifestyle"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_thoi_quen",
+      "name": "thói quen",
+      "trans": ["习惯"],
+      "tags": ["health", "A2", "lifestyle"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_chay_bo",
+      "name": "chạy bộ",
+      "trans": ["跑步"],
+      "tags": ["health", "A2", "lifestyle"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_rau_xanh",
+      "name": "rau xanh",
+      "trans": ["绿色蔬菜"],
+      "tags": ["health", "A2", "lifestyle"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a2_257",
+    "sentence_vi_a2_258",
+    "sentence_vi_a2_259",
+    "sentence_vi_a2_260",
+    "sentence_vi_a2_261",
+    "sentence_vi_a2_262",
+    "sentence_vi_a2_263",
+    "sentence_vi_a2_264"
+  ],
+  "grammar": [
+    {
+      "point": "让步句 tuy...nhưng（虽然…但是）",
+      "explain": "「tuy A nhưng B」= 虽然 A，但是 B。口语中常省略「tuy」，只用「nhưng」开头半句；书面正式场合则用「mặc dù...nhưng」或「dù...nhưng」，意思相同。注意越南语不像汉语可以省略「但是」，nhưng 一般不能省。",
+      "examples": [
         {
-            "id": "vi_a2_tap_the_duc",
-            "name": "tập thể dục",
-            "trans": [
-                "锻炼",
-                "运动"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "lifestyle"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Tuy công việc rất bận nhưng tôi vẫn tập thể dục mỗi ngày.",
+          "zh": "虽然工作很忙，但我还是每天锻炼。"
         },
         {
-            "id": "vi_a2_an_uong_dieu_do",
-            "name": "ăn uống điều độ",
-            "trans": [
-                "饮食规律",
-                "饮食有节制"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "lifestyle"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Tuy thức khuya có hại cho sức khỏe nhưng nhiều người vẫn không bỏ được.",
+          "zh": "虽然熬夜有害健康，但很多人还是戒不掉。"
         },
         {
-            "id": "vi_a2_ngu_du_giac",
-            "name": "ngủ đủ giấc",
-            "trans": [
-                "睡眠充足"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "lifestyle"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_thuc_khuya",
-            "name": "thức khuya",
-            "trans": [
-                "熬夜"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "lifestyle"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_giu_gin_suc_khoe",
-            "name": "giữ gìn sức khỏe",
-            "trans": [
-                "保重身体"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "lifestyle"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_cang_thang",
-            "name": "căng thẳng",
-            "trans": [
-                "紧张",
-                "压力大"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "lifestyle"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_thu_gian",
-            "name": "thư giãn",
-            "trans": [
-                "放松"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "lifestyle"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_can_nang",
-            "name": "cân nặng",
-            "trans": [
-                "体重"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "lifestyle"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_giam_can",
-            "name": "giảm cân",
-            "trans": [
-                "减肥",
-                "减重"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "lifestyle"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_khoe_manh",
-            "name": "khỏe mạnh",
-            "trans": [
-                "健康",
-                "强壮"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "lifestyle"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_loi_song",
-            "name": "lối sống",
-            "trans": [
-                "生活方式"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "lifestyle"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_thoi_quen",
-            "name": "thói quen",
-            "trans": [
-                "习惯"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "lifestyle"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_chay_bo",
-            "name": "chạy bộ",
-            "trans": [
-                "跑步"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "lifestyle"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_rau_xanh",
-            "name": "rau xanh",
-            "trans": [
-                "绿色蔬菜"
-            ],
-            "tags": [
-                "health",
-                "A2",
-                "lifestyle"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Mặc dù trời mưa to nhưng cô ấy vẫn đi chạy bộ.",
+          "zh": "尽管雨很大，她还是去跑步了。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a2_257",
-        "sentence_vi_a2_258",
-        "sentence_vi_a2_259",
-        "sentence_vi_a2_260",
-        "sentence_vi_a2_261",
-        "sentence_vi_a2_262",
-        "sentence_vi_a2_263",
-        "sentence_vi_a2_264"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "条件句 nếu...thì（如果…就）",
+      "explain": "「nếu A thì B」= 如果 A，就 B。口语中「thì」常省略，但书面/正式写作保留会更严谨。与汉语不同：越南语的「nếu」从句在前，「thì」引出的主句在后，位置较固定。变体：「nếu không thì」= 否则。",
+      "examples": [
         {
-            "point": "让步句 tuy...nhưng（虽然…但是）",
-            "explain": "「tuy A nhưng B」= 虽然 A，但是 B。口语中常省略「tuy」，只用「nhưng」开头半句；书面正式场合则用「mặc dù...nhưng」或「dù...nhưng」，意思相同。注意越南语不像汉语可以省略「但是」，nhưng 一般不能省。",
-            "examples": [
-                {
-                    "vi": "Tuy công việc rất bận nhưng tôi vẫn tập thể dục mỗi ngày.",
-                    "zh": "虽然工作很忙，但我还是每天锻炼。"
-                },
-                {
-                    "vi": "Tuy thức khuya có hại cho sức khỏe nhưng nhiều người vẫn không bỏ được.",
-                    "zh": "虽然熬夜有害健康，但很多人还是戒不掉。"
-                },
-                {
-                    "vi": "Mặc dù trời mưa to nhưng cô ấy vẫn đi chạy bộ.",
-                    "zh": "尽管雨很大，她还是去跑步了。"
-                }
-            ]
+          "vi": "Nếu bạn thức khuya thường xuyên thì sức khỏe sẽ giảm sút.",
+          "zh": "如果你经常熬夜，健康就会变差。"
         },
         {
-            "point": "条件句 nếu...thì（如果…就）",
-            "explain": "「nếu A thì B」= 如果 A，就 B。口语中「thì」常省略，但书面/正式写作保留会更严谨。与汉语不同：越南语的「nếu」从句在前，「thì」引出的主句在后，位置较固定。变体：「nếu không thì」= 否则。",
-            "examples": [
-                {
-                    "vi": "Nếu bạn thức khuya thường xuyên thì sức khỏe sẽ giảm sút.",
-                    "zh": "如果你经常熬夜，健康就会变差。"
-                },
-                {
-                    "vi": "Nếu muốn giảm cân, bạn nên ăn nhiều rau xanh và tập thể dục.",
-                    "zh": "如果想减肥，你应该多吃蔬菜多锻炼。"
-                },
-                {
-                    "vi": "Phải ngủ đủ giấc, nếu không thì cơ thể rất mệt mỏi.",
-                    "zh": "要睡够，否则身体会很累。"
-                }
-            ]
+          "vi": "Nếu muốn giảm cân, bạn nên ăn nhiều rau xanh và tập thể dục.",
+          "zh": "如果想减肥，你应该多吃蔬菜多锻炼。"
+        },
+        {
+          "vi": "Phải ngủ đủ giấc, nếu không thì cơ thể rất mệt mỏi.",
+          "zh": "要睡够，否则身体会很累。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「thức khuya」的意思是？",
-            "options": [
-                "早睡",
-                "熬夜",
-                "午睡",
-                "打盹"
-            ],
-            "answer": "熬夜"
-        },
-        {
-            "type": "choose",
-            "question": "哪句正确使用「tuy...nhưng」？",
-            "options": [
-                "Tuy tôi bận nhưng tôi vẫn tập thể dục.",
-                "Tuy tôi bận nhưng nên tôi vẫn tập thể dục.",
-                "Tuy tôi bận nhưng mà tôi vẫn tập thể dục.",
-                "Tuy tôi bận nhưng tôi vẫn tập thể dục nhưng."
-            ],
-            "answer": "Tuy tôi bận nhưng tôi vẫn tập thể dục."
-        },
-        {
-            "type": "fill",
-            "question": "Tuy công việc bận rộn ___ tôi vẫn chạy bộ mỗi sáng.（虽然工作忙，但我还是每天早上跑步）",
-            "answer": "nhưng"
-        },
-        {
-            "type": "fill",
-            "question": "___ bạn thức khuya thường xuyên thì sức khỏe sẽ kém đi.（如果你经常熬夜，健康就会变差）",
-            "answer": "Nếu"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「虽然工作很忙，但我还是每天锻炼」的越南语",
-            "answer": "Tuy công việc rất bận nhưng tôi vẫn tập thể dục mỗi ngày"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「thức khuya」的意思是？",
+      "options": ["早睡", "熬夜", "午睡", "打盹"],
+      "answer": "熬夜"
+    },
+    {
+      "type": "choose",
+      "question": "哪句正确使用「tuy...nhưng」？",
+      "options": [
+        "Tuy tôi bận nhưng tôi vẫn tập thể dục.",
+        "Tuy tôi bận nhưng nên tôi vẫn tập thể dục.",
+        "Tuy tôi bận nhưng mà tôi vẫn tập thể dục.",
+        "Tuy tôi bận nhưng tôi vẫn tập thể dục nhưng."
+      ],
+      "answer": "Tuy tôi bận nhưng tôi vẫn tập thể dục."
+    },
+    {
+      "type": "fill",
+      "question": "Tuy công việc bận rộn ___ tôi vẫn chạy bộ mỗi sáng.（虽然工作忙，但我还是每天早上跑步）",
+      "answer": "nhưng"
+    },
+    {
+      "type": "fill",
+      "question": "___ bạn thức khuya thường xuyên thì sức khỏe sẽ kém đi.（如果你经常熬夜，健康就会变差）",
+      "answer": "Nếu"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「虽然工作很忙，但我还是每天锻炼」的越南语",
+      "answer": "Tuy công việc rất bận nhưng tôi vẫn tập thể dục mỗi ngày"
+    }
+  ]
 }

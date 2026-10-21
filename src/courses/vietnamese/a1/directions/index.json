@@ -1,38 +1,38 @@
 {
-    "id": "directions",
-    "stage": "a1",
-    "title": "问路与街道",
-    "titleVi": "Hỏi đường và Đường phố",
-    "courses": [
-        {
-            "id": "course_vi_60",
-            "file": "course_01.json",
-            "title": "第 1 课：问地点",
-            "titleVi": "Bài 1: Hỏi địa điểm"
-        },
-        {
-            "id": "course_vi_61",
-            "file": "course_02.json",
-            "title": "第 2 课：方向指示",
-            "titleVi": "Bài 2: Chỉ hướng"
-        },
-        {
-            "id": "course_vi_62",
-            "file": "course_03.json",
-            "title": "第 3 课：路标与街道名称",
-            "titleVi": "Bài 3: Biển báo và tên đường"
-        },
-        {
-            "id": "course_vi_63",
-            "file": "course_04.json",
-            "title": "第 4 课：问路对话",
-            "titleVi": "Bài 4: Hội thoại hỏi đường"
-        },
-        {
-            "id": "course_vi_64",
-            "file": "course_05.json",
-            "title": "第 5 课：描述位置关系",
-            "titleVi": "Bài 5: Miêu tả vị trí"
-        }
-    ]
+  "id": "directions",
+  "stage": "a1",
+  "title": "问路与街道",
+  "titleVi": "Hỏi đường và Đường phố",
+  "courses": [
+    {
+      "id": "course_vi_60",
+      "file": "course_01.json",
+      "title": "第 1 课：问地点",
+      "titleVi": "Bài 1: Hỏi địa điểm"
+    },
+    {
+      "id": "course_vi_61",
+      "file": "course_02.json",
+      "title": "第 2 课：方向指示",
+      "titleVi": "Bài 2: Chỉ hướng"
+    },
+    {
+      "id": "course_vi_62",
+      "file": "course_03.json",
+      "title": "第 3 课：路标与街道名称",
+      "titleVi": "Bài 3: Biển báo và tên đường"
+    },
+    {
+      "id": "course_vi_63",
+      "file": "course_04.json",
+      "title": "第 4 课：问路对话",
+      "titleVi": "Bài 4: Hội thoại hỏi đường"
+    },
+    {
+      "id": "course_vi_64",
+      "file": "course_05.json",
+      "title": "第 5 课：描述位置关系",
+      "titleVi": "Bài 5: Miêu tả vị trí"
+    }
+  ]
 }

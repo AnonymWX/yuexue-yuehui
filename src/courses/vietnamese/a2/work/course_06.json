@@ -1,315 +1,191 @@
 {
-    "id": "course_vi_156",
-    "title": "第 6 课：辞职与跳槽",
-    "titleVi": "Bài 6: Nghỉ việc và chuyển việc",
-    "order": 6,
-    "scenario": "work",
-    "goals": [
-        "能礼貌地向公司提出辞职",
-        "能说明辞职的理由（不伤和气）",
-        "能用「xin nghỉ / chuyển công tác」表达",
-        "能得体告别同事"
-    ],
-    "words": [
+  "id": "course_vi_156",
+  "title": "第 6 课：辞职与跳槽",
+  "titleVi": "Bài 6: Nghỉ việc và chuyển việc",
+  "order": 6,
+  "scenario": "work",
+  "goals": ["能礼貌地向公司提出辞职", "能说明辞职的理由（不伤和气）", "能用「xin nghỉ / chuyển công tác」表达", "能得体告别同事"],
+  "words": [
+    {
+      "id": "vi_a2_nghi_viec",
+      "name": "nghỉ việc",
+      "trans": ["辞职", "离职"],
+      "tags": ["work", "A2", "resign"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_don_xin_nghi",
+      "name": "đơn xin nghỉ việc",
+      "trans": ["辞职信"],
+      "tags": ["work", "A2", "resign"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_chuyen_viec",
+      "name": "chuyển việc",
+      "trans": ["换工作"],
+      "tags": ["work", "A2", "resign"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_nhay_viec",
+      "name": "nhảy việc",
+      "trans": ["跳槽"],
+      "tags": ["work", "A2", "resign"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_ly_do",
+      "name": "lý do",
+      "trans": ["理由"],
+      "tags": ["work", "A2", "resign"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_thong_bao_truoc",
+      "name": "thông báo trước",
+      "trans": ["提前通知"],
+      "tags": ["work", "A2", "resign"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_ban_giao",
+      "name": "bàn giao",
+      "trans": ["交接"],
+      "tags": ["work", "A2", "resign"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_ban_giao_cong_viec",
+      "name": "bàn giao công việc",
+      "trans": ["交接工作"],
+      "tags": ["work", "A2", "resign"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_vi_tri_moi",
+      "name": "vị trí mới",
+      "trans": ["新职位"],
+      "tags": ["work", "A2", "resign"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_co_hoi_moi",
+      "name": "cơ hội mới",
+      "trans": ["新机会"],
+      "tags": ["work", "A2", "resign"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_phat_trien",
+      "name": "phát triển",
+      "trans": ["发展", "成长"],
+      "tags": ["work", "A2", "resign"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_chia_tay",
+      "name": "chia tay",
+      "trans": ["告别"],
+      "tags": ["work", "A2", "resign"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_giu_lien_lac",
+      "name": "giữ liên lạc",
+      "trans": ["保持联系"],
+      "tags": ["work", "A2", "resign"],
+      "source": ["vietnamese_a2"]
+    },
+    {
+      "id": "vi_a2_cam_on",
+      "name": "cảm ơn",
+      "trans": ["感谢"],
+      "tags": ["work", "A2", "resign"],
+      "source": ["vietnamese_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a2_337",
+    "sentence_vi_a2_338",
+    "sentence_vi_a2_339",
+    "sentence_vi_a2_340",
+    "sentence_vi_a2_341",
+    "sentence_vi_a2_342",
+    "sentence_vi_a2_343",
+    "sentence_vi_a2_344"
+  ],
+  "grammar": [
+    {
+      "point": "委婉表达辞职：xin / muốn / quyết định",
+      "explain": "「Tôi xin nghỉ việc」= 我请求辞职（正式、谦恭）；「Tôi muốn nghỉ việc」= 我想辞职（口语）；「Tôi quyết định chuyển việc」= 我决定换工作（说明决定）。注意：xin 表示恭敬地请示，越南语辞职信通常用 xin。",
+      "examples": [
         {
-            "id": "vi_a2_nghi_viec",
-            "name": "nghỉ việc",
-            "trans": [
-                "辞职",
-                "离职"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "resign"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Tôi xin gửi đơn nghỉ việc lên phòng nhân sự.",
+          "zh": "我向人事部提交辞职信。"
         },
         {
-            "id": "vi_a2_don_xin_nghi",
-            "name": "đơn xin nghỉ việc",
-            "trans": [
-                "辞职信"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "resign"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Tôi quyết định chuyển việc vì muốn phát triển bản thân hơn.",
+          "zh": "我决定换工作是因为想让自己更好地发展。"
         },
         {
-            "id": "vi_a2_chuyen_viec",
-            "name": "chuyển việc",
-            "trans": [
-                "换工作"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "resign"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_nhay_viec",
-            "name": "nhảy việc",
-            "trans": [
-                "跳槽"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "resign"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_ly_do",
-            "name": "lý do",
-            "trans": [
-                "理由"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "resign"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_thong_bao_truoc",
-            "name": "thông báo trước",
-            "trans": [
-                "提前通知"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "resign"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_ban_giao",
-            "name": "bàn giao",
-            "trans": [
-                "交接"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "resign"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_ban_giao_cong_viec",
-            "name": "bàn giao công việc",
-            "trans": [
-                "交接工作"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "resign"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_vi_tri_moi",
-            "name": "vị trí mới",
-            "trans": [
-                "新职位"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "resign"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_co_hoi_moi",
-            "name": "cơ hội mới",
-            "trans": [
-                "新机会"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "resign"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_phat_trien",
-            "name": "phát triển",
-            "trans": [
-                "发展",
-                "成长"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "resign"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_chia_tay",
-            "name": "chia tay",
-            "trans": [
-                "告别"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "resign"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_giu_lien_lac",
-            "name": "giữ liên lạc",
-            "trans": [
-                "保持联系"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "resign"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
-        },
-        {
-            "id": "vi_a2_cam_on",
-            "name": "cảm ơn",
-            "trans": [
-                "感谢"
-            ],
-            "tags": [
-                "work",
-                "A2",
-                "resign"
-            ],
-            "source": [
-                "vietnamese_a2"
-            ]
+          "vi": "Tôi muốn thông báo trước một tháng theo đúng quy định.",
+          "zh": "我想按公司规定提前一个月通知。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a2_337",
-        "sentence_vi_a2_338",
-        "sentence_vi_a2_339",
-        "sentence_vi_a2_340",
-        "sentence_vi_a2_341",
-        "sentence_vi_a2_342",
-        "sentence_vi_a2_343",
-        "sentence_vi_a2_344"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "保持礼貌：cảm ơn / rất tiếc / hy vọng",
+      "explain": "辞职时得体表达：「Cảm ơn công ty đã tạo điều kiện cho tôi...」（感谢公司给我…的机会）；「Tôi rất tiếc phải rời công ty」（很遗憾要离开公司）；「Hy vọng chúng ta vẫn giữ liên lạc」（希望我们保持联系）。避免吐槽公司或同事。",
+      "examples": [
         {
-            "point": "委婉表达辞职：xin / muốn / quyết định",
-            "explain": "「Tôi xin nghỉ việc」= 我请求辞职（正式、谦恭）；「Tôi muốn nghỉ việc」= 我想辞职（口语）；「Tôi quyết định chuyển việc」= 我决定换工作（说明决定）。注意：xin 表示恭敬地请示，越南语辞职信通常用 xin。",
-            "examples": [
-                {
-                    "vi": "Tôi xin gửi đơn nghỉ việc lên phòng nhân sự.",
-                    "zh": "我向人事部提交辞职信。"
-                },
-                {
-                    "vi": "Tôi quyết định chuyển việc vì muốn phát triển bản thân hơn.",
-                    "zh": "我决定换工作是因为想让自己更好地发展。"
-                },
-                {
-                    "vi": "Tôi muốn thông báo trước một tháng theo đúng quy định.",
-                    "zh": "我想按公司规定提前一个月通知。"
-                }
-            ]
+          "vi": "Cảm ơn anh chị đã giúp đỡ tôi trong suốt thời gian qua.",
+          "zh": "感谢各位一直以来的帮助。"
         },
         {
-            "point": "保持礼貌：cảm ơn / rất tiếc / hy vọng",
-            "explain": "辞职时得体表达：「Cảm ơn công ty đã tạo điều kiện cho tôi...」（感谢公司给我…的机会）；「Tôi rất tiếc phải rời công ty」（很遗憾要离开公司）；「Hy vọng chúng ta vẫn giữ liên lạc」（希望我们保持联系）。避免吐槽公司或同事。",
-            "examples": [
-                {
-                    "vi": "Cảm ơn anh chị đã giúp đỡ tôi trong suốt thời gian qua.",
-                    "zh": "感谢各位一直以来的帮助。"
-                },
-                {
-                    "vi": "Tôi rất tiếc phải rời công ty, nhưng đây là quyết định của tôi.",
-                    "zh": "很遗憾要离开公司，但这是我的决定。"
-                },
-                {
-                    "vi": "Hy vọng chúng ta vẫn giữ liên lạc sau khi tôi chuyển việc.",
-                    "zh": "希望我换工作后我们仍然保持联系。"
-                }
-            ]
+          "vi": "Tôi rất tiếc phải rời công ty, nhưng đây là quyết định của tôi.",
+          "zh": "很遗憾要离开公司，但这是我的决定。"
+        },
+        {
+          "vi": "Hy vọng chúng ta vẫn giữ liên lạc sau khi tôi chuyển việc.",
+          "zh": "希望我换工作后我们仍然保持联系。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「bàn giao công việc」的意思是？",
-            "options": [
-                "布置工作",
-                "交接工作",
-                "加班",
-                "汇报工作"
-            ],
-            "answer": "交接工作"
-        },
-        {
-            "type": "choose",
-            "question": "哪句是最得体的辞职表达？",
-            "options": [
-                "Tôi chán công ty rồi, tôi nghỉ.",
-                "Tôi xin gửi đơn nghỉ việc lên phòng nhân sự.",
-                "Công ty này tệ quá, tôi đi.",
-                "Tôi không muốn làm nữa."
-            ],
-            "answer": "Tôi xin gửi đơn nghỉ việc lên phòng nhân sự."
-        },
-        {
-            "type": "fill",
-            "question": "Cảm ơn anh chị đã giúp ___ tôi trong suốt thời gian qua.（感谢各位一直以来的帮助）",
-            "answer": "đỡ"
-        },
-        {
-            "type": "fill",
-            "question": "Tôi quyết định chuyển việc vì muốn ___ triển bản thân hơn.（我决定换工作是因为想让自己更好地发展）",
-            "answer": "phát"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「我决定换工作」的越南语",
-            "answer": "Tôi quyết định chuyển việc"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「bàn giao công việc」的意思是？",
+      "options": ["布置工作", "交接工作", "加班", "汇报工作"],
+      "answer": "交接工作"
+    },
+    {
+      "type": "choose",
+      "question": "哪句是最得体的辞职表达？",
+      "options": [
+        "Tôi chán công ty rồi, tôi nghỉ.",
+        "Tôi xin gửi đơn nghỉ việc lên phòng nhân sự.",
+        "Công ty này tệ quá, tôi đi.",
+        "Tôi không muốn làm nữa."
+      ],
+      "answer": "Tôi xin gửi đơn nghỉ việc lên phòng nhân sự."
+    },
+    {
+      "type": "fill",
+      "question": "Cảm ơn anh chị đã giúp ___ tôi trong suốt thời gian qua.（感谢各位一直以来的帮助）",
+      "answer": "đỡ"
+    },
+    {
+      "type": "fill",
+      "question": "Tôi quyết định chuyển việc vì muốn ___ triển bản thân hơn.（我决定换工作是因为想让自己更好地发展）",
+      "answer": "phát"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「我决定换工作」的越南语",
+      "answer": "Tôi quyết định chuyển việc"
+    }
+  ]
 }

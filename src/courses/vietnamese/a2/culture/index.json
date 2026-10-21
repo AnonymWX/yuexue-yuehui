@@ -1,44 +1,44 @@
 {
-    "id": "culture",
-    "stage": "a2",
-    "title": "文化与传统",
-    "titleVi": "Văn hóa và truyền thống",
-    "courses": [
-        {
-            "id": "course_vi_171",
-            "file": "course_01.json",
-            "title": "第 1 课：节庆",
-            "titleVi": "Bài 1: Các ngày lễ, Tết"
-        },
-        {
-            "id": "course_vi_172",
-            "file": "course_02.json",
-            "title": "第 2 课：风俗习惯",
-            "titleVi": "Bài 2: Phong tục tập quán"
-        },
-        {
-            "id": "course_vi_173",
-            "file": "course_03.json",
-            "title": "第 3 课：饮食文化",
-            "titleVi": "Bài 3: Văn hóa ẩm thực"
-        },
-        {
-            "id": "course_vi_174",
-            "file": "course_04.json",
-            "title": "第 4 课：婚丧礼仪",
-            "titleVi": "Bài 4: Lễ cưới và tang lễ"
-        },
-        {
-            "id": "course_vi_175",
-            "file": "course_05.json",
-            "title": "第 5 课：信仰与宗教",
-            "titleVi": "Bài 5: Tín ngưỡng và tôn giáo"
-        },
-        {
-            "id": "course_vi_176",
-            "file": "course_06.json",
-            "title": "第 6 课：传统服饰与艺术",
-            "titleVi": "Bài 6: Trang phục và nghệ thuật truyền thống"
-        }
-    ]
+  "id": "culture",
+  "stage": "a2",
+  "title": "文化与传统",
+  "titleVi": "Văn hóa và truyền thống",
+  "courses": [
+    {
+      "id": "course_vi_171",
+      "file": "course_01.json",
+      "title": "第 1 课：节庆",
+      "titleVi": "Bài 1: Các ngày lễ, Tết"
+    },
+    {
+      "id": "course_vi_172",
+      "file": "course_02.json",
+      "title": "第 2 课：风俗习惯",
+      "titleVi": "Bài 2: Phong tục tập quán"
+    },
+    {
+      "id": "course_vi_173",
+      "file": "course_03.json",
+      "title": "第 3 课：饮食文化",
+      "titleVi": "Bài 3: Văn hóa ẩm thực"
+    },
+    {
+      "id": "course_vi_174",
+      "file": "course_04.json",
+      "title": "第 4 课：婚丧礼仪",
+      "titleVi": "Bài 4: Lễ cưới và tang lễ"
+    },
+    {
+      "id": "course_vi_175",
+      "file": "course_05.json",
+      "title": "第 5 课：信仰与宗教",
+      "titleVi": "Bài 5: Tín ngưỡng và tôn giáo"
+    },
+    {
+      "id": "course_vi_176",
+      "file": "course_06.json",
+      "title": "第 6 课：传统服饰与艺术",
+      "titleVi": "Bài 6: Trang phục và nghệ thuật truyền thống"
+    }
+  ]
 }

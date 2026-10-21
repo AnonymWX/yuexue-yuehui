@@ -1,215 +1,137 @@
 {
-    "id": "course_ko_019",
-    "title": "第 2 课：한국어를 잘 못합니다（韩语说不好）",
-    "titleVi": "제2과: 한국어를 잘 못합니다",
-    "order": 2,
-    "scenario": "actions",
-    "goals": [
-        "掌握否定「-지 않다」",
-        "掌握「못 + 动词」（不能/不会）",
-        "掌握程度副词「잘 / 잘 못 / 못」",
-        "能说出更多日常动词"
-    ],
-    "words": [
+  "id": "course_ko_019",
+  "title": "第 2 课：한국어를 잘 못합니다（韩语说不好）",
+  "titleVi": "제2과: 한국어를 잘 못합니다",
+  "order": 2,
+  "scenario": "actions",
+  "goals": ["掌握否定「-지 않다」", "掌握「못 + 动词」（不能/不会）", "掌握程度副词「잘 / 잘 못 / 못」", "能说出更多日常动词"],
+  "words": [
+    {
+      "id": "ko_a1_mannada",
+      "name": "만나다",
+      "trans": ["见", "遇见"],
+      "tags": ["actions", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_chajda",
+      "name": "찾다",
+      "trans": ["找"],
+      "tags": ["actions", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_sayonghada",
+      "name": "사용하다",
+      "trans": ["使用"],
+      "tags": ["actions", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_mandeulda",
+      "name": "만들다",
+      "trans": ["做", "制作"],
+      "tags": ["actions", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_yeolda",
+      "name": "열다",
+      "trans": ["打开"],
+      "tags": ["actions", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_datda",
+      "name": "닫다",
+      "trans": ["关"],
+      "tags": ["actions", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_sijakhada",
+      "name": "시작하다",
+      "trans": ["开始"],
+      "tags": ["actions", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_kkeutnada",
+      "name": "끝나다",
+      "trans": ["结束"],
+      "tags": ["actions", "A1"],
+      "source": ["korean_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_ko_a1_143",
+    "sentence_ko_a1_144",
+    "sentence_ko_a1_145",
+    "sentence_ko_a1_146",
+    "sentence_ko_a1_147",
+    "sentence_ko_a1_148",
+    "sentence_ko_a1_149",
+    "sentence_ko_a1_150"
+  ],
+  "grammar": [
+    {
+      "point": "否定「-지 않다」",
+      "explain": "动词/形容词词干 + 지 않다，表否定「不…」。例：가다 → 가지 않습니다（不去）；먹다 → 먹지 않습니다（不吃）；바쁘다 → 바쁘지 않습니다（不忙）。比「안 + 动词」正式，写作里更常用。中文「不…」对应。注意 지 않다 前不能接时态。",
+      "examples": [
         {
-            "id": "ko_a1_mannada",
-            "name": "만나다",
-            "trans": [
-                "见",
-                "遇见"
-            ],
-            "tags": [
-                "actions",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
+          "vi": "오늘은 학교에 가지 않습니다.",
+          "zh": "今天不去学校。"
         },
         {
-            "id": "ko_a1_chajda",
-            "name": "찾다",
-            "trans": [
-                "找"
-            ],
-            "tags": [
-                "actions",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_sayonghada",
-            "name": "사용하다",
-            "trans": [
-                "使用"
-            ],
-            "tags": [
-                "actions",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_mandeulda",
-            "name": "만들다",
-            "trans": [
-                "做",
-                "制作"
-            ],
-            "tags": [
-                "actions",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_yeolda",
-            "name": "열다",
-            "trans": [
-                "打开"
-            ],
-            "tags": [
-                "actions",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_datda",
-            "name": "닫다",
-            "trans": [
-                "关"
-            ],
-            "tags": [
-                "actions",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_sijakhada",
-            "name": "시작하다",
-            "trans": [
-                "开始"
-            ],
-            "tags": [
-                "actions",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_kkeutnada",
-            "name": "끝나다",
-            "trans": [
-                "结束"
-            ],
-            "tags": [
-                "actions",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
+          "vi": "그 책을 찾지 않았습니다.",
+          "zh": "没找那本书。"
         }
-    ],
-    "sentences": [
-        "sentence_ko_a1_143",
-        "sentence_ko_a1_144",
-        "sentence_ko_a1_145",
-        "sentence_ko_a1_146",
-        "sentence_ko_a1_147",
-        "sentence_ko_a1_148",
-        "sentence_ko_a1_149",
-        "sentence_ko_a1_150"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「못 + 动词」+ 程度「잘 / 잘 못 / 못」",
+      "explain": "못 放动词前表「不能/不会」：못 갑니다（去不了）；못 먹습니다（吃不了）。程度三档：잘 하다（做得好）、잘 못 하다（做得不好）、못 하다（不会/不能）。例：한국어를 잘합니다（韩语说得好）；한국어를 잘 못합니다（韩语说得不好）；한국어를 못합니다（不会韩语）。中文「不怎么会」对应「잘 못」。",
+      "examples": [
         {
-            "point": "否定「-지 않다」",
-            "explain": "动词/形容词词干 + 지 않다，表否定「不…」。例：가다 → 가지 않습니다（不去）；먹다 → 먹지 않습니다（不吃）；바쁘다 → 바쁘지 않습니다（不忙）。比「안 + 动词」正式，写作里更常用。中文「不…」对应。注意 지 않다 前不能接时态。",
-            "examples": [
-                {
-                    "vi": "오늘은 학교에 가지 않습니다.",
-                    "zh": "今天不去学校。"
-                },
-                {
-                    "vi": "그 책을 찾지 않았습니다.",
-                    "zh": "没找那本书。"
-                }
-            ]
+          "vi": "한국어를 잘 못합니다.",
+          "zh": "韩语说得不好。"
         },
         {
-            "point": "「못 + 动词」+ 程度「잘 / 잘 못 / 못」",
-            "explain": "못 放动词前表「不能/不会」：못 갑니다（去不了）；못 먹습니다（吃不了）。程度三档：잘 하다（做得好）、잘 못 하다（做得不好）、못 하다（不会/不能）。例：한국어를 잘합니다（韩语说得好）；한국어를 잘 못합니다（韩语说得不好）；한국어를 못합니다（不会韩语）。中文「不怎么会」对应「잘 못」。",
-            "examples": [
-                {
-                    "vi": "한국어를 잘 못합니다.",
-                    "zh": "韩语说得不好。"
-                },
-                {
-                    "vi": "오늘은 못 갑니다.",
-                    "zh": "今天去不了。"
-                }
-            ]
+          "vi": "오늘은 못 갑니다.",
+          "zh": "今天去不了。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「不去」的韩语是？",
-            "options": [
-                "가지 않습니다",
-                "가고 싶습니다",
-                "갈 겁니다",
-                "갔습니다"
-            ],
-            "answer": "가지 않습니다"
-        },
-        {
-            "type": "choose",
-            "question": "「韩语说得不好」的韩语是？",
-            "options": [
-                "한국어를 잘 못합니다",
-                "한국어를 잘합니다",
-                "한국어를 못합니다",
-                "한국어를 합니다"
-            ],
-            "answer": "한국어를 잘 못합니다"
-        },
-        {
-            "type": "choose",
-            "question": "「找」的韩语是？",
-            "options": [
-                "찾다",
-                "만나다",
-                "열다",
-                "닫다"
-            ],
-            "answer": "찾다"
-        },
-        {
-            "type": "fill",
-            "question": "「打开」的韩语是？",
-            "answer": "열다"
-        },
-        {
-            "type": "fill",
-            "question": "「结束」的韩语是？",
-            "answer": "끝나다"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「不去」的韩语是？",
+      "options": ["가지 않습니다", "가고 싶습니다", "갈 겁니다", "갔습니다"],
+      "answer": "가지 않습니다"
+    },
+    {
+      "type": "choose",
+      "question": "「韩语说得不好」的韩语是？",
+      "options": ["한국어를 잘 못합니다", "한국어를 잘합니다", "한국어를 못합니다", "한국어를 합니다"],
+      "answer": "한국어를 잘 못합니다"
+    },
+    {
+      "type": "choose",
+      "question": "「找」的韩语是？",
+      "options": ["찾다", "만나다", "열다", "닫다"],
+      "answer": "찾다"
+    },
+    {
+      "type": "fill",
+      "question": "「打开」的韩语是？",
+      "answer": "열다"
+    },
+    {
+      "type": "fill",
+      "question": "「结束」的韩语是？",
+      "answer": "끝나다"
+    }
+  ]
 }

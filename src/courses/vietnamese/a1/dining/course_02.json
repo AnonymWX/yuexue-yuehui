@@ -1,191 +1,123 @@
 {
-    "id": "course_vi_71",
-    "title": "第 2 课：预订与等位",
-    "titleVi": "Bài 2: Đặt bàn và chờ bàn",
-    "order": 2,
-    "scenario": "dining",
-    "goals": [
-        "掌握预订餐桌的用语",
-        "学会说「有几位」",
-        "掌握等位相关表达",
-        "能完成电话订位"
-    ],
-    "words": [
+  "id": "course_vi_71",
+  "title": "第 2 课：预订与等位",
+  "titleVi": "Bài 2: Đặt bàn và chờ bàn",
+  "order": 2,
+  "scenario": "dining",
+  "goals": ["掌握预订餐桌的用语", "学会说「有几位」", "掌握等位相关表达", "能完成电话订位"],
+  "words": [
+    {
+      "id": "vi_dat_ban",
+      "name": "đặt bàn",
+      "trans": ["订桌", "预订桌位"],
+      "tags": ["dining", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_ban_dining",
+      "name": "bàn",
+      "trans": ["桌（餐桌）"],
+      "tags": ["dining", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_cho_ban",
+      "name": "chờ bàn",
+      "trans": ["等位"],
+      "tags": ["dining", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_con_ban",
+      "name": "còn bàn",
+      "trans": ["还有空桌"],
+      "tags": ["dining", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_het_ban",
+      "name": "hết bàn",
+      "trans": ["满座", "没桌了"],
+      "tags": ["dining", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_may_nguoi_dining",
+      "name": "mấy người",
+      "trans": ["几位"],
+      "tags": ["dining", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_bao_nhieu_nguoi",
+      "name": "bao nhiêu người",
+      "trans": ["多少人"],
+      "tags": ["dining", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_hen",
+      "name": "hẹn",
+      "trans": ["约", "预约"],
+      "tags": ["dining", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_181",
+    "sentence_vi_a1_182",
+    "sentence_vi_a1_183",
+    "sentence_vi_a1_184",
+    "sentence_vi_a1_185",
+    "sentence_vi_a1_186"
+  ],
+  "grammar": [
+    {
+      "point": "「đặt bàn + số người」表订桌人数",
+      "explain": "订桌用「đặt bàn」，问人数用「cho mấy người?」（给几位？）。",
+      "examples": [
         {
-            "id": "vi_dat_ban",
-            "name": "đặt bàn",
-            "trans": [
-                "订桌",
-                "预订桌位"
-            ],
-            "tags": [
-                "dining",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Tôi muốn đặt bàn cho 4 người.",
+          "zh": "我想订 4 人的桌。"
         },
         {
-            "id": "vi_ban_dining",
-            "name": "bàn",
-            "trans": [
-                "桌（餐桌）"
-            ],
-            "tags": [
-                "dining",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_cho_ban",
-            "name": "chờ bàn",
-            "trans": [
-                "等位"
-            ],
-            "tags": [
-                "dining",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_con_ban",
-            "name": "còn bàn",
-            "trans": [
-                "还有空桌"
-            ],
-            "tags": [
-                "dining",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_het_ban",
-            "name": "hết bàn",
-            "trans": [
-                "满座",
-                "没桌了"
-            ],
-            "tags": [
-                "dining",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_may_nguoi_dining",
-            "name": "mấy người",
-            "trans": [
-                "几位"
-            ],
-            "tags": [
-                "dining",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_bao_nhieu_nguoi",
-            "name": "bao nhiêu người",
-            "trans": [
-                "多少人"
-            ],
-            "tags": [
-                "dining",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_hen",
-            "name": "hẹn",
-            "trans": [
-                "约",
-                "预约"
-            ],
-            "tags": [
-                "dining",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Anh đặt bàn mấy người?",
+          "zh": "您订几位的桌？"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_181",
-        "sentence_vi_a1_182",
-        "sentence_vi_a1_183",
-        "sentence_vi_a1_184",
-        "sentence_vi_a1_185",
-        "sentence_vi_a1_186"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「còn / hết + bàn」表还有/没桌",
+      "explain": "「còn bàn」表示还有空桌，「hết bàn」表示满座。",
+      "examples": [
         {
-            "point": "「đặt bàn + số người」表订桌人数",
-            "explain": "订桌用「đặt bàn」，问人数用「cho mấy người?」（给几位？）。",
-            "examples": [
-                {
-                    "vi": "Tôi muốn đặt bàn cho 4 người.",
-                    "zh": "我想订 4 人的桌。"
-                },
-                {
-                    "vi": "Anh đặt bàn mấy người?",
-                    "zh": "您订几位的桌？"
-                }
-            ]
+          "vi": "Còn bàn không?",
+          "zh": "还有空桌吗？"
         },
         {
-            "point": "「còn / hết + bàn」表还有/没桌",
-            "explain": "「còn bàn」表示还有空桌，「hết bàn」表示满座。",
-            "examples": [
-                {
-                    "vi": "Còn bàn không?",
-                    "zh": "还有空桌吗？"
-                },
-                {
-                    "vi": "Xin lỗi, hết bàn rồi.",
-                    "zh": "抱歉，满座了。"
-                }
-            ]
+          "vi": "Xin lỗi, hết bàn rồi.",
+          "zh": "抱歉，满座了。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「我想订 4 人的桌」的正确说法是？",
-            "options": [
-                "Tôi muốn đặt bàn cho 4 người",
-                "Tôi muốn bàn đặt cho 4 người",
-                "Cho 4 người đặt bàn tôi muốn"
-            ],
-            "answer": "Tôi muốn đặt bàn cho 4 người"
-        },
-        {
-            "type": "fill",
-            "question": "Còn bàn ___?",
-            "answer": "không"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「满座」的越南语",
-            "answer": "hết bàn"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「我想订 4 人的桌」的正确说法是？",
+      "options": ["Tôi muốn đặt bàn cho 4 người", "Tôi muốn bàn đặt cho 4 người", "Cho 4 người đặt bàn tôi muốn"],
+      "answer": "Tôi muốn đặt bàn cho 4 người"
+    },
+    {
+      "type": "fill",
+      "question": "Còn bàn ___?",
+      "answer": "không"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「满座」的越南语",
+      "answer": "hết bàn"
+    }
+  ]
 }

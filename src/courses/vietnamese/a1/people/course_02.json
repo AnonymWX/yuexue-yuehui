@@ -1,188 +1,123 @@
 {
-    "id": "course_vi_28",
-    "title": "第 2 课：面部特征",
-    "titleVi": "Bài 2: Đặc điểm khuôn mặt",
-    "order": 2,
-    "scenario": "people",
-    "goals": [
-        "掌握面部五官的越南语名称",
-        "学会描述面部特征",
-        "能用「có + 名词 + 形容词」描述",
-        "能进行面部特征问答"
-    ],
-    "words": [
+  "id": "course_vi_28",
+  "title": "第 2 课：面部特征",
+  "titleVi": "Bài 2: Đặc điểm khuôn mặt",
+  "order": 2,
+  "scenario": "people",
+  "goals": ["掌握面部五官的越南语名称", "学会描述面部特征", "能用「có + 名词 + 形容词」描述", "能进行面部特征问答"],
+  "words": [
+    {
+      "id": "vi_mat_face",
+      "name": "mặt",
+      "trans": ["脸"],
+      "tags": ["people", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_mat_eye",
+      "name": "mắt",
+      "trans": ["眼睛"],
+      "tags": ["people", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_mui",
+      "name": "mũi",
+      "trans": ["鼻子"],
+      "tags": ["people", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_mieng",
+      "name": "miệng",
+      "trans": ["嘴巴"],
+      "tags": ["people", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_tai",
+      "name": "tai",
+      "trans": ["耳朵"],
+      "tags": ["people", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_toc",
+      "name": "tóc",
+      "trans": ["头发"],
+      "tags": ["people", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_long_may",
+      "name": "lông mày",
+      "trans": ["眉毛"],
+      "tags": ["people", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_rang",
+      "name": "răng",
+      "trans": ["牙齿"],
+      "tags": ["people", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_139",
+    "sentence_vi_a1_140",
+    "sentence_vi_a1_141",
+    "sentence_vi_a1_142",
+    "sentence_vi_a1_143",
+    "sentence_vi_a1_144"
+  ],
+  "grammar": [
+    {
+      "point": "「có + 名词 + 形容词」描述特征",
+      "explain": "描述某人某部位特征用「主语 + có + 名词 + 形容词」，如「Cô ấy có mắt đẹp」（她的眼睛漂亮）。",
+      "examples": [
         {
-            "id": "vi_mat_face",
-            "name": "mặt",
-            "trans": [
-                "脸"
-            ],
-            "tags": [
-                "people",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Cô ấy có mắt đẹp.",
+          "zh": "她的眼睛漂亮。"
         },
         {
-            "id": "vi_mat_eye",
-            "name": "mắt",
-            "trans": [
-                "眼睛"
-            ],
-            "tags": [
-                "people",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_mui",
-            "name": "mũi",
-            "trans": [
-                "鼻子"
-            ],
-            "tags": [
-                "people",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_mieng",
-            "name": "miệng",
-            "trans": [
-                "嘴巴"
-            ],
-            "tags": [
-                "people",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_tai",
-            "name": "tai",
-            "trans": [
-                "耳朵"
-            ],
-            "tags": [
-                "people",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_toc",
-            "name": "tóc",
-            "trans": [
-                "头发"
-            ],
-            "tags": [
-                "people",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_long_may",
-            "name": "lông mày",
-            "trans": [
-                "眉毛"
-            ],
-            "tags": [
-                "people",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_rang",
-            "name": "răng",
-            "trans": [
-                "牙齿"
-            ],
-            "tags": [
-                "people",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Anh ấy có tóc dài.",
+          "zh": "他头发长。"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_139",
-        "sentence_vi_a1_140",
-        "sentence_vi_a1_141",
-        "sentence_vi_a1_142",
-        "sentence_vi_a1_143",
-        "sentence_vi_a1_144"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「mặt + 形容词」表脸型",
+      "explain": "描述脸型用「mặt + 形容词」，如「mặt tròn」（圆脸）、「mặt dài」（长脸）。",
+      "examples": [
         {
-            "point": "「có + 名词 + 形容词」描述特征",
-            "explain": "描述某人某部位特征用「主语 + có + 名词 + 形容词」，如「Cô ấy có mắt đẹp」（她的眼睛漂亮）。",
-            "examples": [
-                {
-                    "vi": "Cô ấy có mắt đẹp.",
-                    "zh": "她的眼睛漂亮。"
-                },
-                {
-                    "vi": "Anh ấy có tóc dài.",
-                    "zh": "他头发长。"
-                }
-            ]
+          "vi": "Cô ấy có mặt tròn.",
+          "zh": "她是圆脸。"
         },
         {
-            "point": "「mặt + 形容词」表脸型",
-            "explain": "描述脸型用「mặt + 形容词」，如「mặt tròn」（圆脸）、「mặt dài」（长脸）。",
-            "examples": [
-                {
-                    "vi": "Cô ấy có mặt tròn.",
-                    "zh": "她是圆脸。"
-                },
-                {
-                    "vi": "Anh ấy có mặt dài.",
-                    "zh": "他是长脸。"
-                }
-            ]
+          "vi": "Anh ấy có mặt dài.",
+          "zh": "他是长脸。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「眼睛」用越南语怎么说？",
-            "options": [
-                "mắt",
-                "mặt",
-                "mũi"
-            ],
-            "answer": "mắt"
-        },
-        {
-            "type": "fill",
-            "question": "Cô ấy có ___ đẹp.",
-            "answer": "mắt"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「头发」的越南语",
-            "answer": "tóc"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「眼睛」用越南语怎么说？",
+      "options": ["mắt", "mặt", "mũi"],
+      "answer": "mắt"
+    },
+    {
+      "type": "fill",
+      "question": "Cô ấy có ___ đẹp.",
+      "answer": "mắt"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「头发」的越南语",
+      "answer": "tóc"
+    }
+  ]
 }

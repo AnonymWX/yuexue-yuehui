@@ -1,188 +1,123 @@
 {
-    "id": "course_vi_03",
-    "title": "第 3 课：人称代词",
-    "titleVi": "Bài 3: Đại từ nhân xưng",
-    "order": 3,
-    "scenario": "greeting",
-    "goals": [
-        "掌握越南语基本人称代词",
-        "了解越南语人称代词的年龄与辈分特征",
-        "学会根据对方年龄选择称呼",
-        "能用正确的人称代词造句"
-    ],
-    "words": [
+  "id": "course_vi_03",
+  "title": "第 3 课：人称代词",
+  "titleVi": "Bài 3: Đại từ nhân xưng",
+  "order": 3,
+  "scenario": "greeting",
+  "goals": ["掌握越南语基本人称代词", "了解越南语人称代词的年龄与辈分特征", "学会根据对方年龄选择称呼", "能用正确的人称代词造句"],
+  "words": [
+    {
+      "id": "vi_toi",
+      "name": "tôi",
+      "trans": ["我（正式）"],
+      "tags": ["pronoun", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_minh",
+      "name": "mình",
+      "trans": ["我（亲切）"],
+      "tags": ["pronoun", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_ong",
+      "name": "ông",
+      "trans": ["您/爷爷（对年长男性）"],
+      "tags": ["pronoun", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_ba",
+      "name": "bà",
+      "trans": ["您/奶奶（对年长女性）"],
+      "tags": ["pronoun", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_anh",
+      "name": "anh",
+      "trans": ["哥（对稍年长男性）"],
+      "tags": ["pronoun", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_chi",
+      "name": "chị",
+      "trans": ["姐（对稍年长女性）"],
+      "tags": ["pronoun", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_em",
+      "name": "em",
+      "trans": ["弟/妹（对年幼者）"],
+      "tags": ["pronoun", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_chung_toi",
+      "name": "chúng tôi",
+      "trans": ["我们"],
+      "tags": ["pronoun", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_211",
+    "sentence_vi_a1_212",
+    "sentence_vi_a1_213",
+    "sentence_vi_a1_214",
+    "sentence_vi_a1_215",
+    "sentence_vi_a1_216"
+  ],
+  "grammar": [
+    {
+      "point": "人称代词按年龄和辈分选择",
+      "explain": "越南语人称代词与汉语不同，不是简单的「你、我、他」，而是根据对方年龄、性别、与说话人的关系来选择。对年长男性用「ông」或「anh」，对年长女性用「bà」或「chị」，对年幼者用「em」。",
+      "examples": [
         {
-            "id": "vi_toi",
-            "name": "tôi",
-            "trans": [
-                "我（正式）"
-            ],
-            "tags": [
-                "pronoun",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Chào anh!",
+          "zh": "哥哥你好！"
         },
         {
-            "id": "vi_minh",
-            "name": "mình",
-            "trans": [
-                "我（亲切）"
-            ],
-            "tags": [
-                "pronoun",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_ong",
-            "name": "ông",
-            "trans": [
-                "您/爷爷（对年长男性）"
-            ],
-            "tags": [
-                "pronoun",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_ba",
-            "name": "bà",
-            "trans": [
-                "您/奶奶（对年长女性）"
-            ],
-            "tags": [
-                "pronoun",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_anh",
-            "name": "anh",
-            "trans": [
-                "哥（对稍年长男性）"
-            ],
-            "tags": [
-                "pronoun",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_chi",
-            "name": "chị",
-            "trans": [
-                "姐（对稍年长女性）"
-            ],
-            "tags": [
-                "pronoun",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_em",
-            "name": "em",
-            "trans": [
-                "弟/妹（对年幼者）"
-            ],
-            "tags": [
-                "pronoun",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_chung_toi",
-            "name": "chúng tôi",
-            "trans": [
-                "我们"
-            ],
-            "tags": [
-                "pronoun",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Chào em!",
+          "zh": "妹妹你好！"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_211",
-        "sentence_vi_a1_212",
-        "sentence_vi_a1_213",
-        "sentence_vi_a1_214",
-        "sentence_vi_a1_215",
-        "sentence_vi_a1_216"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "自称「tôi」与「mình」",
+      "explain": "「tôi」是正式的自称，「mình」更亲切、口语化。与朋友交谈时常用「mình」。",
+      "examples": [
         {
-            "point": "人称代词按年龄和辈分选择",
-            "explain": "越南语人称代词与汉语不同，不是简单的「你、我、他」，而是根据对方年龄、性别、与说话人的关系来选择。对年长男性用「ông」或「anh」，对年长女性用「bà」或「chị」，对年幼者用「em」。",
-            "examples": [
-                {
-                    "vi": "Chào anh!",
-                    "zh": "哥哥你好！"
-                },
-                {
-                    "vi": "Chào em!",
-                    "zh": "妹妹你好！"
-                }
-            ]
+          "vi": "Tôi là giáo viên.",
+          "zh": "我是老师。（正式）"
         },
         {
-            "point": "自称「tôi」与「mình」",
-            "explain": "「tôi」是正式的自称，「mình」更亲切、口语化。与朋友交谈时常用「mình」。",
-            "examples": [
-                {
-                    "vi": "Tôi là giáo viên.",
-                    "zh": "我是老师。（正式）"
-                },
-                {
-                    "vi": "Mình là sinh viên.",
-                    "zh": "我是学生。（亲切）"
-                }
-            ]
+          "vi": "Mình là sinh viên.",
+          "zh": "我是学生。（亲切）"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "对一位稍年长的女性，应该称呼她为？",
-            "options": [
-                "anh",
-                "chị",
-                "em"
-            ],
-            "answer": "chị"
-        },
-        {
-            "type": "fill",
-            "question": "Chào ___, em chào anh ạ!",
-            "answer": "anh"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「我们」的越南语",
-            "answer": "chúng tôi"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "对一位稍年长的女性，应该称呼她为？",
+      "options": ["anh", "chị", "em"],
+      "answer": "chị"
+    },
+    {
+      "type": "fill",
+      "question": "Chào ___, em chào anh ạ!",
+      "answer": "anh"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「我们」的越南语",
+      "answer": "chúng tôi"
+    }
+  ]
 }

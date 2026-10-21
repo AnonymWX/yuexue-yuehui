@@ -1,14 +1,14 @@
 {
-    "id": "health2",
-    "stage": "a2",
-    "title": "健康进阶",
-    "titleVi": "건강 심화",
-    "courses": [
-        {
-            "id": "course_ko_109",
-            "file": "course_01.json",
-            "title": "第 1 课：감기 증상이 있습니다",
-            "titleVi": "제1과: 감기 증상이 있습니다"
-        }
-    ]
+  "id": "health2",
+  "stage": "a2",
+  "title": "健康进阶",
+  "titleVi": "건강 심화",
+  "courses": [
+    {
+      "id": "course_ko_109",
+      "file": "course_01.json",
+      "title": "第 1 课：감기 증상이 있습니다",
+      "titleVi": "제1과: 감기 증상이 있습니다"
+    }
+  ]
 }

@@ -1,191 +1,123 @@
 {
-    "id": "course_vi_60",
-    "title": "第 1 课：问地点",
-    "titleVi": "Bài 1: Hỏi địa điểm",
-    "order": 1,
-    "scenario": "directions",
-    "goals": [
-        "掌握问地点的句型",
-        "学会说「……在哪里」",
-        "掌握地点相关名词",
-        "能进行简单地点问答"
-    ],
-    "words": [
+  "id": "course_vi_60",
+  "title": "第 1 课：问地点",
+  "titleVi": "Bài 1: Hỏi địa điểm",
+  "order": 1,
+  "scenario": "directions",
+  "goals": ["掌握问地点的句型", "学会说「……在哪里」", "掌握地点相关名词", "能进行简单地点问答"],
+  "words": [
+    {
+      "id": "vi_dia_diem",
+      "name": "địa điểm",
+      "trans": ["地点"],
+      "tags": ["directions", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_vi_tri",
+      "name": "vị trí",
+      "trans": ["位置"],
+      "tags": ["directions", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_khu_vuc",
+      "name": "khu vực",
+      "trans": ["区域", "地区"],
+      "tags": ["directions", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_phia",
+      "name": "phía",
+      "trans": ["方向", "侧"],
+      "tags": ["directions", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_ben",
+      "name": "bên",
+      "trans": ["边", "侧"],
+      "tags": ["directions", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_gan_day",
+      "name": "gần đây",
+      "trans": ["附近"],
+      "tags": ["directions", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_xung_quanh",
+      "name": "xung quanh",
+      "trans": ["周围"],
+      "tags": ["directions", "A1"],
+      "source": ["vietnamese_a1"]
+    },
+    {
+      "id": "vi_cho",
+      "name": "chợ",
+      "trans": ["市场"],
+      "tags": ["directions", "A1"],
+      "source": ["vietnamese_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_vi_a1_067",
+    "sentence_vi_a1_068",
+    "sentence_vi_a1_069",
+    "sentence_vi_a1_070",
+    "sentence_vi_a1_071",
+    "sentence_vi_a1_072"
+  ],
+  "grammar": [
+    {
+      "point": "「... ở đâu?」问地点",
+      "explain": "问某地在哪用「地点 + ở đâu?」，如「Chợ ở đâu?」（市场在哪？）。",
+      "examples": [
         {
-            "id": "vi_dia_diem",
-            "name": "địa điểm",
-            "trans": [
-                "地点"
-            ],
-            "tags": [
-                "directions",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Chợ ở đâu?",
+          "zh": "市场在哪？"
         },
         {
-            "id": "vi_vi_tri",
-            "name": "vị trí",
-            "trans": [
-                "位置"
-            ],
-            "tags": [
-                "directions",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_khu_vuc",
-            "name": "khu vực",
-            "trans": [
-                "区域",
-                "地区"
-            ],
-            "tags": [
-                "directions",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_phia",
-            "name": "phía",
-            "trans": [
-                "方向",
-                "侧"
-            ],
-            "tags": [
-                "directions",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_ben",
-            "name": "bên",
-            "trans": [
-                "边",
-                "侧"
-            ],
-            "tags": [
-                "directions",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_gan_day",
-            "name": "gần đây",
-            "trans": [
-                "附近"
-            ],
-            "tags": [
-                "directions",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_xung_quanh",
-            "name": "xung quanh",
-            "trans": [
-                "周围"
-            ],
-            "tags": [
-                "directions",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
-        },
-        {
-            "id": "vi_cho",
-            "name": "chợ",
-            "trans": [
-                "市场"
-            ],
-            "tags": [
-                "directions",
-                "A1"
-            ],
-            "source": [
-                "vietnamese_a1"
-            ]
+          "vi": "Bệnh viện ở đâu?",
+          "zh": "医院在哪？"
         }
-    ],
-    "sentences": [
-        "sentence_vi_a1_067",
-        "sentence_vi_a1_068",
-        "sentence_vi_a1_069",
-        "sentence_vi_a1_070",
-        "sentence_vi_a1_071",
-        "sentence_vi_a1_072"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「ở + 地点」表在某处",
+      "explain": "「ở」意为「在」，后接地点名词，如「ở chợ」（在市场）。",
+      "examples": [
         {
-            "point": "「... ở đâu?」问地点",
-            "explain": "问某地在哪用「地点 + ở đâu?」，如「Chợ ở đâu?」（市场在哪？）。",
-            "examples": [
-                {
-                    "vi": "Chợ ở đâu?",
-                    "zh": "市场在哪？"
-                },
-                {
-                    "vi": "Bệnh viện ở đâu?",
-                    "zh": "医院在哪？"
-                }
-            ]
+          "vi": "Chợ ở gần đây.",
+          "zh": "市场在附近。"
         },
         {
-            "point": "「ở + 地点」表在某处",
-            "explain": "「ở」意为「在」，后接地点名词，如「ở chợ」（在市场）。",
-            "examples": [
-                {
-                    "vi": "Chợ ở gần đây.",
-                    "zh": "市场在附近。"
-                },
-                {
-                    "vi": "Bệnh viện ở phía bắc.",
-                    "zh": "医院在北边。"
-                }
-            ]
+          "vi": "Bệnh viện ở phía bắc.",
+          "zh": "医院在北边。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「市场在哪？」的正确说法是？",
-            "options": [
-                "Chợ ở đâu?",
-                "Ở đâu chợ?",
-                "Chợ đâu ở?"
-            ],
-            "answer": "Chợ ở đâu?"
-        },
-        {
-            "type": "fill",
-            "question": "Bệnh viện ở ___ đây.",
-            "answer": "gần"
-        },
-        {
-            "type": "telex_input",
-            "question": "输入「地点」的越南语",
-            "answer": "địa điểm"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「市场在哪？」的正确说法是？",
+      "options": ["Chợ ở đâu?", "Ở đâu chợ?", "Chợ đâu ở?"],
+      "answer": "Chợ ở đâu?"
+    },
+    {
+      "type": "fill",
+      "question": "Bệnh viện ở ___ đây.",
+      "answer": "gần"
+    },
+    {
+      "type": "telex_input",
+      "question": "输入「地点」的越南语",
+      "answer": "địa điểm"
+    }
+  ]
 }

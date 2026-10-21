@@ -1,219 +1,138 @@
 {
-    "id": "course_ko_032",
-    "title": "第 2 课：주말에 무엇을 합니까?（周末做什么？）",
-    "titleVi": "제2과: 주말에 무엇을 합니까?",
-    "order": 2,
-    "scenario": "hobbies",
-    "goals": [
-        "掌握「-(으)ㄹ 때」（…的时候）",
-        "掌握「-아/어 보다」（尝试）",
-        "掌握周末活动与频率词",
-        "能谈论周末安排与爱好"
-    ],
-    "words": [
+  "id": "course_ko_032",
+  "title": "第 2 课：주말에 무엇을 합니까?（周末做什么？）",
+  "titleVi": "제2과: 주말에 무엇을 합니까?",
+  "order": 2,
+  "scenario": "hobbies",
+  "goals": ["掌握「-(으)ㄹ 때」（…的时候）", "掌握「-아/어 보다」（尝试）", "掌握周末活动与频率词", "能谈论周末安排与爱好"],
+  "words": [
+    {
+      "id": "ko_a1_jumal",
+      "name": "주말",
+      "trans": ["周末"],
+      "tags": ["hobbies", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_deungsan",
+      "name": "등산",
+      "trans": ["登山"],
+      "tags": ["hobbies", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_naksi",
+      "name": "낚시",
+      "trans": ["钓鱼"],
+      "tags": ["hobbies", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_sajin",
+      "name": "사진",
+      "trans": ["照片"],
+      "tags": ["hobbies", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_jjikda",
+      "name": "찍다",
+      "trans": ["拍（照）"],
+      "tags": ["hobbies", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_geurim",
+      "name": "그림",
+      "trans": ["画"],
+      "tags": ["hobbies", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_jaju",
+      "name": "자주",
+      "trans": ["经常"],
+      "tags": ["hobbies", "A1"],
+      "source": ["korean_a1"]
+    },
+    {
+      "id": "ko_a1_gakkeum",
+      "name": "가끔",
+      "trans": ["偶尔"],
+      "tags": ["hobbies", "A1"],
+      "source": ["korean_a1"]
+    }
+  ],
+  "sentences": [
+    "sentence_ko_a1_199",
+    "sentence_ko_a1_200",
+    "sentence_ko_a1_201",
+    "sentence_ko_a1_202",
+    "sentence_ko_a1_203",
+    "sentence_ko_a1_204",
+    "sentence_ko_a1_205",
+    "sentence_ko_a1_206"
+  ],
+  "grammar": [
+    {
+      "point": "「-(으)ㄹ 때」（…的时候）",
+      "explain": "动词词干有收音用 -을 때，无收音用 -ㄹ 때。表「做…的时候」。例：시간이 있을 때（有时间的时候）；주말일 때（周末的时候）；심심할 때（无聊的时候）；사진을 찍을 때（拍照的时候）。注意：形容词用 -(으)ㄴ 때，动词用 -(으)ㄹ 때。中文「…的时候」对应。",
+      "examples": [
         {
-            "id": "ko_a1_jumal",
-            "name": "주말",
-            "trans": [
-                "周末"
-            ],
-            "tags": [
-                "hobbies",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
+          "vi": "시간이 있을 때 사진을 찍습니다.",
+          "zh": "有时间的时候拍照。"
         },
         {
-            "id": "ko_a1_deungsan",
-            "name": "등산",
-            "trans": [
-                "登山"
-            ],
-            "tags": [
-                "hobbies",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_naksi",
-            "name": "낚시",
-            "trans": [
-                "钓鱼"
-            ],
-            "tags": [
-                "hobbies",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_sajin",
-            "name": "사진",
-            "trans": [
-                "照片"
-            ],
-            "tags": [
-                "hobbies",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_jjikda",
-            "name": "찍다",
-            "trans": [
-                "拍（照）"
-            ],
-            "tags": [
-                "hobbies",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_geurim",
-            "name": "그림",
-            "trans": [
-                "画"
-            ],
-            "tags": [
-                "hobbies",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_jaju",
-            "name": "자주",
-            "trans": [
-                "经常"
-            ],
-            "tags": [
-                "hobbies",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
-        },
-        {
-            "id": "ko_a1_gakkeum",
-            "name": "가끔",
-            "trans": [
-                "偶尔"
-            ],
-            "tags": [
-                "hobbies",
-                "A1"
-            ],
-            "source": [
-                "korean_a1"
-            ]
+          "vi": "주말일 때 등산을 합니다.",
+          "zh": "周末的时候去登山。"
         }
-    ],
-    "sentences": [
-        "sentence_ko_a1_199",
-        "sentence_ko_a1_200",
-        "sentence_ko_a1_201",
-        "sentence_ko_a1_202",
-        "sentence_ko_a1_203",
-        "sentence_ko_a1_204",
-        "sentence_ko_a1_205",
-        "sentence_ko_a1_206"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「-아/어 보다」（尝试）+ 频率词",
+      "explain": "-아/어 보다 表「尝试做」：등산해 보다（试试登山）；낚시를 해 보다（试试钓鱼）；찍어 보다（试着拍）。频率词：자주（经常）、가끔（偶尔）、항상（总是）、거의（几乎）。例：가끔 낚시를 해 봅니다（偶尔试试钓鱼）。中文「试试 / 经常 / 偶尔」对应。注意 -아/어 보다 后接过去时表「做过」。",
+      "examples": [
         {
-            "point": "「-(으)ㄹ 때」（…的时候）",
-            "explain": "动词词干有收音用 -을 때，无收音用 -ㄹ 때。表「做…的时候」。例：시간이 있을 때（有时间的时候）；주말일 때（周末的时候）；심심할 때（无聊的时候）；사진을 찍을 때（拍照的时候）。注意：形容词用 -(으)ㄴ 때，动词用 -(으)ㄹ 때。中文「…的时候」对应。",
-            "examples": [
-                {
-                    "vi": "시간이 있을 때 사진을 찍습니다.",
-                    "zh": "有时间的时候拍照。"
-                },
-                {
-                    "vi": "주말일 때 등산을 합니다.",
-                    "zh": "周末的时候去登山。"
-                }
-            ]
+          "vi": "등산을 해 봅니다.",
+          "zh": "试试登山。"
         },
         {
-            "point": "「-아/어 보다」（尝试）+ 频率词",
-            "explain": "-아/어 보다 表「尝试做」：등산해 보다（试试登山）；낚시를 해 보다（试试钓鱼）；찍어 보다（试着拍）。频率词：자주（经常）、가끔（偶尔）、항상（总是）、거의（几乎）。例：가끔 낚시를 해 봅니다（偶尔试试钓鱼）。中文「试试 / 经常 / 偶尔」对应。注意 -아/어 보다 后接过去时表「做过」。",
-            "examples": [
-                {
-                    "vi": "등산을 해 봅니다.",
-                    "zh": "试试登山。"
-                },
-                {
-                    "vi": "가끔 사진을 찍습니다.",
-                    "zh": "偶尔拍照。"
-                }
-            ]
+          "vi": "가끔 사진을 찍습니다.",
+          "zh": "偶尔拍照。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「有时间的时候」的韩语是？",
-            "options": [
-                "시간이 있을 때",
-                "시간이 있으면",
-                "시간이 있지만",
-                "시간이 있어서"
-            ],
-            "answer": "시간이 있을 때"
-        },
-        {
-            "type": "choose",
-            "question": "「试试登山」的韩语是？",
-            "options": [
-                "등산을 해 봅니다",
-                "등산을 하고 있습니다",
-                "등산을 갈 겁니다",
-                "등산을 해야 합니다"
-            ],
-            "answer": "등산을 해 봅니다"
-        },
-        {
-            "type": "choose",
-            "question": "「拍照」的韩语是？",
-            "options": [
-                "사진을 찍다",
-                "사진을 그리다",
-                "사진을 보다",
-                "사진을 사다"
-            ],
-            "answer": "사진을 찍다"
-        },
-        {
-            "type": "choose",
-            "question": "「偶尔」的韩语是？",
-            "options": [
-                "가끔",
-                "자주",
-                "항상",
-                "거의"
-            ],
-            "answer": "가끔"
-        },
-        {
-            "type": "fill",
-            "question": "「钓鱼」的韩语是？",
-            "answer": "낚시"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「有时间的时候」的韩语是？",
+      "options": ["시간이 있을 때", "시간이 있으면", "시간이 있지만", "시간이 있어서"],
+      "answer": "시간이 있을 때"
+    },
+    {
+      "type": "choose",
+      "question": "「试试登山」的韩语是？",
+      "options": ["등산을 해 봅니다", "등산을 하고 있습니다", "등산을 갈 겁니다", "등산을 해야 합니다"],
+      "answer": "등산을 해 봅니다"
+    },
+    {
+      "type": "choose",
+      "question": "「拍照」的韩语是？",
+      "options": ["사진을 찍다", "사진을 그리다", "사진을 보다", "사진을 사다"],
+      "answer": "사진을 찍다"
+    },
+    {
+      "type": "choose",
+      "question": "「偶尔」的韩语是？",
+      "options": ["가끔", "자주", "항상", "거의"],
+      "answer": "가끔"
+    },
+    {
+      "type": "fill",
+      "question": "「钓鱼」的韩语是？",
+      "answer": "낚시"
+    }
+  ]
 }

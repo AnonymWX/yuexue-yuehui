@@ -1,271 +1,165 @@
 {
-    "id": "course_ko_104",
-    "title": "第 1 课：불고기 하나 주세요（请给我一份烤肉）",
-    "titleVi": "제1과: 불고기 하나 주세요",
-    "order": 1,
-    "scenario": "food_order",
-    "goals": [
-        "掌握「-아/어 주다」（为某人做）",
-        "掌握「-아/어도 되다」（可以…吗）",
-        "能点餐、结账",
-        "能说出常见韩国菜名"
-    ],
-    "words": [
+  "id": "course_ko_104",
+  "title": "第 1 课：불고기 하나 주세요（请给我一份烤肉）",
+  "titleVi": "제1과: 불고기 하나 주세요",
+  "order": 1,
+  "scenario": "food_order",
+  "goals": ["掌握「-아/어 주다」（为某人做）", "掌握「-아/어도 되다」（可以…吗）", "能点餐、结账", "能说出常见韩国菜名"],
+  "words": [
+    {
+      "id": "ko_a2_menyu",
+      "name": "메뉴",
+      "trans": ["菜单"],
+      "tags": ["food_order", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_jumunhada",
+      "name": "주문하다",
+      "trans": ["点餐", "订购"],
+      "tags": ["food_order", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_bulgogi",
+      "name": "불고기",
+      "trans": ["烤肉"],
+      "tags": ["food_order", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_bibimbap",
+      "name": "비빔밥",
+      "trans": ["拌饭"],
+      "tags": ["food_order", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_naengmyeon",
+      "name": "냉면",
+      "trans": ["冷面"],
+      "tags": ["food_order", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_guksu",
+      "name": "국수",
+      "trans": ["面条"],
+      "tags": ["food_order", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_gyeran",
+      "name": "계란",
+      "trans": ["鸡蛋"],
+      "tags": ["food_order", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_keopi",
+      "name": "커피",
+      "trans": ["咖啡"],
+      "tags": ["food_order", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_cha",
+      "name": "차",
+      "trans": ["茶"],
+      "tags": ["food_order", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_juseu",
+      "name": "주스",
+      "trans": ["果汁"],
+      "tags": ["food_order", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_dijeoteu",
+      "name": "디저트",
+      "trans": ["甜点"],
+      "tags": ["food_order", "A2"],
+      "source": ["korean_a2"]
+    },
+    {
+      "id": "ko_a2_gyesanhada",
+      "name": "계산하다",
+      "trans": ["结账", "计算"],
+      "tags": ["food_order", "A2"],
+      "source": ["korean_a2"]
+    }
+  ],
+  "sentences": [
+    "sentence_ko_a2_025",
+    "sentence_ko_a2_026",
+    "sentence_ko_a2_027",
+    "sentence_ko_a2_028",
+    "sentence_ko_a2_029",
+    "sentence_ko_a2_030",
+    "sentence_ko_a2_031",
+    "sentence_ko_a2_032"
+  ],
+  "grammar": [
+    {
+      "point": "「-아/어 주다」（为某人做）",
+      "explain": "词干 ㅏ/ㅗ 用 -아 주다，其他用 -어 주다，하다 用 -해 주다。表「为别人做某事」：주세요（请给我…）是 주다 的敬语命令形。例：불고기 하나 주세요（请给我一份烤肉）；도와주세요（请帮我）。中文「请给我…」对应「N 주세요」。",
+      "examples": [
         {
-            "id": "ko_a2_menyu",
-            "name": "메뉴",
-            "trans": [
-                "菜单"
-            ],
-            "tags": [
-                "food_order",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
+          "vi": "불고기 하나 주세요.",
+          "zh": "请给我一份烤肉。"
         },
         {
-            "id": "ko_a2_jumunhada",
-            "name": "주문하다",
-            "trans": [
-                "点餐",
-                "订购"
-            ],
-            "tags": [
-                "food_order",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_bulgogi",
-            "name": "불고기",
-            "trans": [
-                "烤肉"
-            ],
-            "tags": [
-                "food_order",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_bibimbap",
-            "name": "비빔밥",
-            "trans": [
-                "拌饭"
-            ],
-            "tags": [
-                "food_order",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_naengmyeon",
-            "name": "냉면",
-            "trans": [
-                "冷面"
-            ],
-            "tags": [
-                "food_order",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_guksu",
-            "name": "국수",
-            "trans": [
-                "面条"
-            ],
-            "tags": [
-                "food_order",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_gyeran",
-            "name": "계란",
-            "trans": [
-                "鸡蛋"
-            ],
-            "tags": [
-                "food_order",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_keopi",
-            "name": "커피",
-            "trans": [
-                "咖啡"
-            ],
-            "tags": [
-                "food_order",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_cha",
-            "name": "차",
-            "trans": [
-                "茶"
-            ],
-            "tags": [
-                "food_order",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_juseu",
-            "name": "주스",
-            "trans": [
-                "果汁"
-            ],
-            "tags": [
-                "food_order",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_dijeoteu",
-            "name": "디저트",
-            "trans": [
-                "甜点"
-            ],
-            "tags": [
-                "food_order",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
-        },
-        {
-            "id": "ko_a2_gyesanhada",
-            "name": "계산하다",
-            "trans": [
-                "结账",
-                "计算"
-            ],
-            "tags": [
-                "food_order",
-                "A2"
-            ],
-            "source": [
-                "korean_a2"
-            ]
+          "vi": "물 좀 주세요.",
+          "zh": "请给我点水。"
         }
-    ],
-    "sentences": [
-        "sentence_ko_a2_025",
-        "sentence_ko_a2_026",
-        "sentence_ko_a2_027",
-        "sentence_ko_a2_028",
-        "sentence_ko_a2_029",
-        "sentence_ko_a2_030",
-        "sentence_ko_a2_031",
-        "sentence_ko_a2_032"
-    ],
-    "grammar": [
+      ]
+    },
+    {
+      "point": "「-아/어도 되다」（可以…吗）",
+      "explain": "词干 + 아/어도 되다，表许可「可以做…」。例：먹어도 됩니까?（可以吃吗？）；앉아도 됩니다（可以坐）。否定「不可以」用 -(으)면 안 되다。中文「可以…吗」对应这个结构，比「괜찮아요?」正式。",
+      "examples": [
         {
-            "point": "「-아/어 주다」（为某人做）",
-            "explain": "词干 ㅏ/ㅗ 用 -아 주다，其他用 -어 주다，하다 用 -해 주다。表「为别人做某事」：주세요（请给我…）是 주다 的敬语命令形。例：불고기 하나 주세요（请给我一份烤肉）；도와주세요（请帮我）。中文「请给我…」对应「N 주세요」。",
-            "examples": [
-                {
-                    "vi": "불고기 하나 주세요.",
-                    "zh": "请给我一份烤肉。"
-                },
-                {
-                    "vi": "물 좀 주세요.",
-                    "zh": "请给我点水。"
-                }
-            ]
+          "vi": "여기 앉아도 됩니까?",
+          "zh": "可以坐这里吗？"
         },
         {
-            "point": "「-아/어도 되다」（可以…吗）",
-            "explain": "词干 + 아/어도 되다，表许可「可以做…」。例：먹어도 됩니까?（可以吃吗？）；앉아도 됩니다（可以坐）。否定「不可以」用 -(으)면 안 되다。中文「可以…吗」对应这个结构，比「괜찮아요?」正式。",
-            "examples": [
-                {
-                    "vi": "여기 앉아도 됩니까?",
-                    "zh": "可以坐这里吗？"
-                },
-                {
-                    "vi": "메뉴 좀 주세요.",
-                    "zh": "请给我菜单。"
-                }
-            ]
+          "vi": "메뉴 좀 주세요.",
+          "zh": "请给我菜单。"
         }
-    ],
-    "telex": [],
-    "exercises": [
-        {
-            "type": "choose",
-            "question": "「请给我一份拌饭」的韩语是？",
-            "options": [
-                "비빔밥 하나 주세요",
-                "비빔밥을 먹습니다",
-                "비빔밥이 있습니다",
-                "비빔밥을 삽니다"
-            ],
-            "answer": "비빔밥 하나 주세요"
-        },
-        {
-            "type": "choose",
-            "question": "「可以坐这里吗？」的韩语是？",
-            "options": [
-                "여기 앉아도 됩니까?",
-                "여기 앉고 싶습니다",
-                "여기 앉았습니다",
-                "여기 앉습니다"
-            ],
-            "answer": "여기 앉아도 됩니까?"
-        },
-        {
-            "type": "choose",
-            "question": "「结账」的韩语是？",
-            "options": [
-                "계산하다",
-                "주문하다",
-                "먹다",
-                "마시다"
-            ],
-            "answer": "계산하다"
-        },
-        {
-            "type": "fill",
-            "question": "「请给我水」→ 물 좀 ___.（填入「请给」）",
-            "answer": "주세요"
-        },
-        {
-            "type": "fill",
-            "question": "「冷面」的韩语是？",
-            "answer": "냉면"
-        }
-    ]
+      ]
+    }
+  ],
+  "telex": [],
+  "exercises": [
+    {
+      "type": "choose",
+      "question": "「请给我一份拌饭」的韩语是？",
+      "options": ["비빔밥 하나 주세요", "비빔밥을 먹습니다", "비빔밥이 있습니다", "비빔밥을 삽니다"],
+      "answer": "비빔밥 하나 주세요"
+    },
+    {
+      "type": "choose",
+      "question": "「可以坐这里吗？」的韩语是？",
+      "options": ["여기 앉아도 됩니까?", "여기 앉고 싶습니다", "여기 앉았습니다", "여기 앉습니다"],
+      "answer": "여기 앉아도 됩니까?"
+    },
+    {
+      "type": "choose",
+      "question": "「结账」的韩语是？",
+      "options": ["계산하다", "주문하다", "먹다", "마시다"],
+      "answer": "계산하다"
+    },
+    {
+      "type": "fill",
+      "question": "「请给我水」→ 물 좀 ___.（填入「请给」）",
+      "answer": "주세요"
+    },
+    {
+      "type": "fill",
+      "question": "「冷面」的韩语是？",
+      "answer": "냉면"
+    }
+  ]
 }
