@@ -67,7 +67,10 @@ export default function HomePage() {
   const reviewFinished = hasEnough && reviewDone >= reviewTotal
   const reviewPct = hasEnough ? Math.round((reviewDone / reviewTotal) * 100) : 0
 
-  const finishedCoursesCount = useMemo(() => Object.values(progressMap).filter((p) => p.finished).length, [progressMap])
+  const finishedCoursesCount = useMemo(() => {
+    // viCourses 变量名虽然带 vi，但实际上它存储的是当前语言的所有课程
+    return viCourses.filter((c) => progressMap[c.id]?.finished).length
+  }, [viCourses, progressMap])
 
   const quote = DAILY_QUOTES[currentLang as keyof typeof DAILY_QUOTES] || DAILY_QUOTES.en
   const { speak, speaking } = useSpeech(quote.text)
@@ -209,46 +212,36 @@ export default function HomePage() {
       {/* 4. 今天的练习区块 */}
       <section className="mb-8 md:mb-10">
         <h2 className="mb-3 text-lg font-semibold text-primary md:mb-4 md:text-xl">今天的练习</h2>
-        {currentLang === 'vi' ? (
-          <button
-            type="button"
-            onClick={() => navigate('/review')}
-            className="group block w-full rounded-xl border border-subtle bg-page p-4 text-left shadow-primary/30 transition-all hover:-translate-y-1 hover:shadow-primary dark:border-gray-700 dark:bg-gray-900 md:p-6"
-          >
-            <div className="mb-3 flex items-center justify-between">
-              <div className="text-sm text-gray-500 dark:text-gray-400">今日复习 · 10 词</div>
-              {reviewFinished && (
-                <span className="rounded-full bg-green-500/10 px-3 py-1 text-xs font-medium text-green-600 dark:bg-green-900/30 dark:text-green-400">
-                  已完成 ✅
-                </span>
-              )}
-            </div>
-            <div className="text-xl font-bold text-primary md:text-2xl">
-              {reviewLoading
-                ? '—'
-                : !hasEnough
-                ? '未开始'
-                : reviewFinished
-                ? `${reviewTotal} / ${reviewTotal}`
-                : `${reviewDone} / ${reviewTotal}`}
-            </div>
-            <div className="mt-4 h-2 w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700">
-              <div className="h-full rounded-full bg-primary transition-all duration-500" style={{ width: `${reviewPct}%` }} />
-            </div>
-            <div className="mt-3 flex items-center justify-between text-xs text-gray-500 dark:text-gray-400">
-              <span>{!hasEnough && !reviewLoading ? '学完至少一课再来' : reviewFinished ? '明天再来' : '随机抽 10 个学过的词'}</span>
-              <span className="font-medium text-primary transition-transform group-hover:translate-x-1">进入 →</span>
-            </div>
-          </button>
-        ) : (
-          <div className="rounded-xl border-2 border-dashed border-subtle bg-page p-6 text-center dark:border-gray-700 dark:bg-gray-900 md:p-8">
-            <div className="mb-2 text-3xl">🎯</div>
-            <div className="mb-1 text-sm font-medium text-gray-700 dark:text-gray-200 md:text-base">该语言暂无每日复习功能</div>
-            <p className="text-xs text-gray-500 dark:text-gray-400 md:text-sm">
-              SM-2 记忆曲线复习目前仅支持越南语，快去「专项练习」巩固基础吧！
-            </p>
+        <button
+          type="button"
+          onClick={() => navigate('/review')}
+          className="group block w-full rounded-xl border border-subtle bg-page p-4 text-left shadow-primary/30 transition-all hover:-translate-y-1 hover:shadow-primary dark:border-gray-700 dark:bg-gray-900 md:p-6"
+        >
+          <div className="mb-3 flex items-center justify-between">
+            <div className="text-sm text-gray-500 dark:text-gray-400">今日复习 · 10 词</div>
+            {reviewFinished && (
+              <span className="rounded-full bg-green-500/10 px-3 py-1 text-xs font-medium text-green-600 dark:bg-green-900/30 dark:text-green-400">
+                已完成 ✅
+              </span>
+            )}
           </div>
-        )}
+          <div className="text-xl font-bold text-primary md:text-2xl">
+            {reviewLoading
+              ? '—'
+              : !hasEnough
+              ? '未开始'
+              : reviewFinished
+              ? `${reviewTotal} / ${reviewTotal}`
+              : `${reviewDone} / ${reviewTotal}`}
+          </div>
+          <div className="mt-4 h-2 w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700">
+            <div className="h-full rounded-full bg-primary transition-all duration-500" style={{ width: `${reviewPct}%` }} />
+          </div>
+          <div className="mt-3 flex items-center justify-between text-xs text-gray-500 dark:text-gray-400">
+            <span>{!hasEnough && !reviewLoading ? '学完至少一课再来' : reviewFinished ? '明天再来' : '随机抽 10 个学过的词'}</span>
+            <span className="font-medium text-primary transition-transform group-hover:translate-x-1">进入 →</span>
+          </div>
+        </button>
       </section>
 
       {/* 5. 快捷入口网格 */}
