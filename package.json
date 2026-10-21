@@ -65,7 +65,8 @@
     "dev": "vite",
     "start": "vite",
     "build": "cross-env CI=false vite build --base=./",
-    "test": "echo \"No tests\"",
+    "test": "vitest run src",
+    "test:watch": "vitest src",
     "test:e2e": "playwright test",
     "lint": "eslint .",
     "prettier": "prettier --write .",
@@ -130,6 +131,7 @@
     "tailwindcss": "^3.3.1",
     "typescript-plugin-css-modules": "^5.0.1",
     "unplugin-icons": "^0.16.1",
-    "vite": "^4.1.1"
+    "vite": "^4.1.1",
+    "vitest": "^3.2.6"
   }
 }

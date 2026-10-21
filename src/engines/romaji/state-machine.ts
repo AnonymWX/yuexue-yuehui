@@ -1,11 +1,5 @@
 // src/engines/romaji/state-machine.ts
-// 日语罗马字输入状态机
-// 规则：训令式 + ヘボン式（多入口）
-// 特点：最左最长匹配 + 前缀等待 + 促音 + 拨音
-
-/** 罗马字 → 假名映射 */
 const ROMAJI_MAP: Record<string, string> = {
-  // ===== 五十音 =====
   a: 'あ',
   i: 'い',
   u: 'う',
@@ -58,8 +52,6 @@ const ROMAJI_MAP: Record<string, string> = {
   n: 'ん',
   "n'": 'ん',
   nn: 'ん',
-
-  // ===== 浊音 / 半浊音 =====
   ga: 'が',
   gi: 'ぎ',
   gu: 'ぐ',
@@ -86,8 +78,6 @@ const ROMAJI_MAP: Record<string, string> = {
   pu: 'ぷ',
   pe: 'ぺ',
   po: 'ぽ',
-
-  // ===== 拗音 =====
   kya: 'きゃ',
   kyu: 'きゅ',
   kyo: 'きょ',
@@ -130,8 +120,6 @@ const ROMAJI_MAP: Record<string, string> = {
   pya: 'ぴゃ',
   pyu: 'ぴゅ',
   pyo: 'ぴょ',
-
-  // ===== 小写假名 =====
   la: 'ぁ',
   li: 'ぃ',
   lu: 'ぅ',
@@ -153,34 +141,20 @@ const ROMAJI_MAP: Record<string, string> = {
   xtu: 'っ',
   xtsu: 'っ',
 }
-
-/** 预计算：所有「可能是更长 key 前缀」的字符串 */
 const ALL_PREFIXES: Record<string, true> = {}
 ;(function buildPrefixes() {
-  const keys = Object.keys(ROMAJI_MAP)
-  for (let i = 0; i < keys.length; i++) {
-    const k = keys[i]
-    for (let j = 1; j < k.length; j++) {
-      ALL_PREFIXES[k.slice(0, j)] = true
-    }
-  }
+  Object.keys(ROMAJI_MAP).forEach((k) => {
+    for (let i = 1; i < k.length; i++) ALL_PREFIXES[k.slice(0, i)] = true
+  })
 })()
-
-/** 促音前置辅音（不含 l / x，它们用于小写假名） */
 const CONSONANTS = 'bcdfghjkmnpqrstvwxyz'
-
 function isConsonant(ch: string): boolean {
   return CONSONANTS.indexOf(ch.toLowerCase()) >= 0
 }
-
-/** 匹配最长的罗马字（最多 4 字符） */
 function longestMatch(s: string): { kana: string; len: number } | null {
-  const maxLen = Math.min(4, s.length)
-  for (let len = maxLen; len >= 1; len--) {
+  for (let len = Math.min(4, s.length); len >= 1; len--) {
     const sub = s.slice(0, len)
-    if (ROMAJI_MAP[sub]) {
-      return { kana: ROMAJI_MAP[sub], len }
-    }
+    if (ROMAJI_MAP[sub]) return { kana: ROMAJI_MAP[sub], len }
   }
   return null
 }
@@ -192,64 +166,41 @@ export interface RomajiEngine {
 }
 
 export function createRomajiEngine(): RomajiEngine {
-  let output = ''
-  let pending = ''
-
-  /** 反复从 pending 开头消除，直到剩下「可能成为更长 key 前缀」的部分 */
+  let output = '',
+    pending = ''
   function tryParse(): 'ok' | 'reject' {
     while (pending.length > 0) {
-      // 整体是更长 key 的前缀 → 等待更多输入
       if (ALL_PREFIXES[pending]) return 'ok'
-
-      // 最长匹配
       const m = longestMatch(pending)
       if (m) {
         output += m.kana
         pending = pending.slice(m.len)
         continue
       }
-
-      // 促音：连续两个相同辅音
       if (pending.length >= 2 && pending.charAt(0) === pending.charAt(1) && isConsonant(pending.charAt(0))) {
         output += 'っ'
         pending = pending.slice(1)
         continue
       }
-
-      // 无法消除 → pending 开头非法
       return 'reject'
     }
     return 'ok'
   }
-
-  function currentDisplay(): string {
-    return output + pending
-  }
-
   return {
     feed(key: string) {
-      if (key.length !== 1) {
-        return { status: 'reject', display: currentDisplay() }
-      }
-      if (!/[a-zA-Z']/.test(key)) {
-        return { status: 'reject', display: currentDisplay() }
-      }
-
-      const prevOutput = output
-      const prevPending = pending
-
+      if (key.length !== 1 || !/[a-zA-Z']/.test(key)) return { status: 'reject', display: output + pending }
+      const prevOutput = output,
+        prevPending = pending
       pending += key.toLowerCase()
-      const r = tryParse()
-
-      if (r === 'reject') {
+      if (tryParse() === 'reject') {
         output = prevOutput
         pending = prevPending
-        return { status: 'reject', display: currentDisplay() }
+        return { status: 'reject', display: output + pending }
       }
-      return { status: 'ok', display: currentDisplay() }
+      return { status: 'ok', display: output + pending }
     },
     get display() {
-      return currentDisplay()
+      return output + pending
     },
     reset() {
       output = ''

@@ -32,8 +32,11 @@ jobs:
       - name: Course data
         run: npm run check:courses
 
+      - name: Test
+        run: npm run test
+
+      - name: TypeScript
+        run: npx tsc --noEmit
+
       - name: Build (Linux 大小写敏感)
         run: npm run build
-
-      - name: TypeScript (观察期，暂不阻断)
-        run: npx tsc --noEmit
