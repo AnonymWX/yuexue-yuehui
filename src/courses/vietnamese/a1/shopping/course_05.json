@@ -1,124 +1,132 @@
 {
     "id": "course_vi_82",
-    "title": "第 1 课：常见交通工具",
-    "titleVi": "Bài 1: Các phương tiện giao thông phổ biến",
-    "order": 1,
-    "scenario": "transport",
+    "title": "第 5 课：超市内部设施与场所",
+    "titleVi": "Bài 5: Cơ sở vật chất trong siêu thị",
+    "order": 5,
+    "scenario": "shopping",
     "goals": [
-        "掌握常见交通工具的越南语名称",
-        "学会用「đi bằng + 交通工具」",
-        "能区分陆海空交通工具",
-        "能说出自己常用的交通方式"
+        "能说出超市内 8 种设施/场所名称",
+        "能用「ở + 地点」表达位置",
+        "能用「... ở đâu?」问设施位置",
+        "能说出购物流程中的工具（购物车、购物篮）"
     ],
     "words": [
         {
-            "id": "vi_phuong_tien",
-            "name": "phương tiện",
+            "id": "vi_quay_tinh_tien",
+            "name": "quầy tính tiền",
             "trans": [
-                "工具",
-                "交通工具"
+                "收银台"
             ],
             "tags": [
-                "transport",
-                "A1"
+                "shopping",
+                "A1",
+                "place"
             ],
             "source": [
                 "vietnamese_a1"
             ]
         },
         {
-            "id": "vi_xe_dap",
-            "name": "xe đạp",
+            "id": "vi_ke_hang",
+            "name": "kệ hàng",
             "trans": [
-                "自行车"
+                "货架"
             ],
             "tags": [
-                "transport",
-                "A1"
+                "shopping",
+                "A1",
+                "place"
             ],
             "source": [
                 "vietnamese_a1"
             ]
         },
         {
-            "id": "vi_xe_may",
-            "name": "xe máy",
+            "id": "vi_loi_vao",
+            "name": "lối vào",
             "trans": [
-                "摩托车"
+                "入口"
             ],
             "tags": [
-                "transport",
-                "A1"
+                "shopping",
+                "A1",
+                "place"
             ],
             "source": [
                 "vietnamese_a1"
             ]
         },
         {
-            "id": "vi_o_to",
-            "name": "ô tô",
+            "id": "vi_loi_ra",
+            "name": "lối ra",
             "trans": [
-                "汽车"
+                "出口"
             ],
             "tags": [
-                "transport",
-                "A1"
+                "shopping",
+                "A1",
+                "place"
             ],
             "source": [
                 "vietnamese_a1"
             ]
         },
         {
-            "id": "vi_xe_buyt",
-            "name": "xe buýt",
+            "id": "vi_thang_may",
+            "name": "thang máy",
             "trans": [
-                "公交车"
+                "电梯"
             ],
             "tags": [
-                "transport",
-                "A1"
+                "shopping",
+                "A1",
+                "place"
             ],
             "source": [
                 "vietnamese_a1"
             ]
         },
         {
-            "id": "vi_tac_xi",
-            "name": "tắc xi",
+            "id": "vi_bai_do_xe",
+            "name": "bãi đỗ xe",
             "trans": [
-                "出租车"
+                "停车场"
             ],
             "tags": [
-                "transport",
-                "A1"
+                "shopping",
+                "A1",
+                "place"
             ],
             "source": [
                 "vietnamese_a1"
             ]
         },
         {
-            "id": "vi_tau_hoa",
-            "name": "tàu hỏa",
+            "id": "vi_xe_day",
+            "name": "xe đẩy",
             "trans": [
-                "火车"
+                "购物车",
+                "推车"
             ],
             "tags": [
-                "transport",
-                "A1"
+                "shopping",
+                "A1",
+                "tool"
             ],
             "source": [
                 "vietnamese_a1"
             ]
         },
         {
-            "id": "vi_may_bay",
-            "name": "máy bay",
+            "id": "vi_gio_hang",
+            "name": "giỏ hàng",
             "trans": [
-                "飞机"
+                "购物篮"
             ],
             "tags": [
-                "transport",
-                "A1"
+                "shopping",
+                "A1",
+                "tool"
             ],
             "source": [
                 "vietnamese_a1"
@@ -126,39 +134,39 @@
         }
     ],
     "sentences": [
-        "sentence_vi_511",
-        "sentence_vi_512",
-        "sentence_vi_513",
-        "sentence_vi_514",
-        "sentence_vi_515",
-        "sentence_vi_516"
+        "sentence_vi_a1_713",
+        "sentence_vi_a1_714",
+        "sentence_vi_a1_715",
+        "sentence_vi_a1_716",
+        "sentence_vi_a1_717",
+        "sentence_vi_a1_718"
     ],
     "grammar": [
         {
-            "point": "「đi bằng + 交通工具」表乘坐方式",
-            "explain": "表示「乘……去」用「đi bằng + 交通工具」，如「đi bằng xe buýt」（乘公交去）、「đi bằng máy bay」（乘飞机去）。",
+            "point": "地点介词 ở + 地点",
+            "explain": "「ở」表示「在（某处）」，与中文「在」基本对应。位置：主语 + 动词 + ở + 地点，或「地点 + ở + 方位」。",
             "examples": [
                 {
-                    "vi": "Tôi đi bằng xe buýt.",
-                    "zh": "我乘公交去。"
+                    "vi": "Quầy tính tiền ở lối ra.",
+                    "zh": "收银台在出口处。"
                 },
                 {
-                    "vi": "Anh ấy đi bằng máy bay.",
-                    "zh": "他乘飞机去。"
+                    "vi": "Bãi đỗ xe ở tầng hầm.",
+                    "zh": "停车场在地下楼层。"
                 }
             ]
         },
         {
-            "point": "「xe」的泛指用法",
-            "explain": "「xe」泛指车辆，可单独使用或与品类组合：「xe đạp」自行车、「xe máy」摩托、「xe buýt」公交。「ô tô」是汽车的固定说法。",
+            "point": "问位置：... ở đâu?",
+            "explain": "「ở đâu」= 在哪里，疑问时放句末。礼貌形式在句首加「Cho tôi hỏi,」（请问……）或结尾加「ạ」。",
             "examples": [
                 {
-                    "vi": "Tôi có xe máy.",
-                    "zh": "我有摩托车。"
+                    "vi": "Kệ sữa ở đâu?",
+                    "zh": "牛奶货架在哪？"
                 },
                 {
-                    "vi": "Xe buýt đến rồi.",
-                    "zh": "公交车到了。"
+                    "vi": "Cho tôi hỏi, thang máy ở đâu ạ?",
+                    "zh": "请问，电梯在哪？"
                 }
             ]
         }
@@ -167,23 +175,24 @@
     "exercises": [
         {
             "type": "choose",
-            "question": "「摩托车」用越南语怎么说？",
+            "question": "「收银台」的越南语是？",
             "options": [
-                "xe máy",
-                "xe đạp",
-                "xe buýt"
+                "quầy tính tiền",
+                "kệ hàng",
+                "lối vào",
+                "thang máy"
             ],
-            "answer": "xe máy"
+            "answer": "quầy tính tiền"
         },
         {
             "type": "fill",
-            "question": "Tôi đi bằng xe ___.",
-            "answer": "buýt"
+            "question": "「购物篮」的越南语是 ___。",
+            "answer": "giỏ hàng"
         },
         {
             "type": "telex_input",
-            "question": "输入「飞机」的越南语",
-            "answer": "máy bay"
+            "question": "用 Telex 输入「kệ hàng」（货架）",
+            "answer": "kệ hàng"
         }
     ]
 }
