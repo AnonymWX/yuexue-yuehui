@@ -70,7 +70,10 @@
     "lint": "eslint .",
     "prettier": "prettier --write .",
     "prepare": "husky install",
-    "check:courses": "node scripts/check-courses.mjs"
+    "check:courses": "node scripts/check-courses.mjs",
+    "fix:cross-stage": "node scripts/fix-cross-stage-words.mjs",
+    "fix:telex": "node scripts/fix-telex-in-non-vi.mjs",
+    "quarantine:scenario": "node scripts/quarantine-misplaced-courses.mjs"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [

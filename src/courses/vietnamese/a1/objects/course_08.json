@@ -1,126 +1,132 @@
 {
     "id": "course_vi_26",
-    "title": "第 1 课：外貌描述",
-    "titleVi": "Bài 1: Miêu tả ngoại hình",
-    "order": 1,
-    "scenario": "people",
+    "title": "第 8 课：厨房餐具与容器",
+    "titleVi": "Bài 8: Đồ dùng nhà bếp và đồ chứa",
+    "order": 8,
+    "scenario": "objects",
     "goals": [
-        "掌握描述外貌的基本形容词",
-        "学会说「他/她长得……」",
-        "能用高矮胖瘦描述人物",
-        "能进行简单的人物外貌描述"
+        "能说出常见餐具与容器名称",
+        "能用「đôi + 名词」表达成对物品（筷子）",
+        "能用「trong / trên / ở」表达物品位置",
+        "能在餐桌与厨房场景描述物品"
     ],
     "words": [
         {
-            "id": "vi_map",
-            "name": "mập",
+            "id": "vi_cai_bat",
+            "name": "cái bát",
             "trans": [
-                "胖"
+                "碗"
             ],
             "tags": [
-                "people",
-                "A1"
+                "objects",
+                "A1",
+                "kitchen"
             ],
             "source": [
                 "vietnamese_a1"
             ]
         },
         {
-            "id": "vi_gay",
-            "name": "gầy",
+            "id": "vi_cai_dia",
+            "name": "cái đĩa",
             "trans": [
-                "瘦"
+                "盘子"
             ],
             "tags": [
-                "people",
-                "A1"
+                "objects",
+                "A1",
+                "kitchen"
             ],
             "source": [
                 "vietnamese_a1"
             ]
         },
         {
-            "id": "vi_dep",
-            "name": "đẹp",
+            "id": "vi_doi_dua",
+            "name": "đôi đũa",
             "trans": [
-                "漂亮",
-                "美"
+                "筷子（一双）"
             ],
             "tags": [
-                "people",
-                "A1"
+                "objects",
+                "A1",
+                "kitchen"
             ],
             "source": [
                 "vietnamese_a1"
             ]
         },
         {
-            "id": "vi_xinh",
-            "name": "xinh",
+            "id": "vi_cai_thia",
+            "name": "cái thìa",
             "trans": [
-                "可爱",
-                "漂亮（口语）"
+                "勺子"
             ],
             "tags": [
-                "people",
-                "A1"
+                "objects",
+                "A1",
+                "kitchen"
             ],
             "source": [
                 "vietnamese_a1"
             ]
         },
         {
-            "id": "vi_dep_trai",
-            "name": "đẹp trai",
+            "id": "vi_cai_coc",
+            "name": "cái cốc",
             "trans": [
-                "帅"
+                "杯子"
             ],
             "tags": [
-                "people",
-                "A1"
+                "objects",
+                "A1",
+                "kitchen"
             ],
             "source": [
                 "vietnamese_a1"
             ]
         },
         {
-            "id": "vi_ngoai_hinh",
-            "name": "ngoại hình",
+            "id": "vi_cai_chai",
+            "name": "cái chai",
             "trans": [
-                "外表",
-                "外形"
+                "瓶子"
             ],
             "tags": [
-                "people",
-                "A1"
+                "objects",
+                "A1",
+                "container"
             ],
             "source": [
                 "vietnamese_a1"
             ]
         },
         {
-            "id": "vi_dang_nguoi",
-            "name": "dáng người",
+            "id": "vi_cai_hop",
+            "name": "cái hộp",
             "trans": [
-                "身材"
+                "盒子"
             ],
             "tags": [
-                "people",
-                "A1"
+                "objects",
+                "A1",
+                "container"
             ],
             "source": [
                 "vietnamese_a1"
             ]
         },
         {
-            "id": "vi_can_nang",
-            "name": "cân nặng",
+            "id": "vi_cai_tui",
+            "name": "cái túi",
             "trans": [
-                "体重"
+                "袋子",
+                "包"
             ],
             "tags": [
-                "people",
-                "A1"
+                "objects",
+                "A1",
+                "container"
             ],
             "source": [
                 "vietnamese_a1"
@@ -128,39 +134,39 @@
         }
     ],
     "sentences": [
-        "sentence_vi_157",
-        "sentence_vi_158",
-        "sentence_vi_159",
-        "sentence_vi_160",
-        "sentence_vi_161",
-        "sentence_vi_162"
+        "sentence_vi_a1_701",
+        "sentence_vi_a1_702",
+        "sentence_vi_a1_703",
+        "sentence_vi_a1_704",
+        "sentence_vi_a1_705",
+        "sentence_vi_a1_706"
     ],
     "grammar": [
         {
-            "point": "形容词作谓语「主语 + 形容词」",
-            "explain": "越南语形容词可直接作谓语，不需要系动词，如「Anh ấy cao」（他高）。",
+            "point": "成对量词 đôi",
+            "explain": "「đôi」用于成对物品（đôi đũa 一双筷子 / đôi giày 一双鞋 / đôi tất 一双袜子）。其他无生命物品用「cái」，与「第 1 课：日常物品与量词」一致。数量放在量词前：một đôi đũa、hai cái bát。",
             "examples": [
                 {
-                    "vi": "Anh ấy cao.",
-                    "zh": "他高。"
+                    "vi": "Một đôi đũa.",
+                    "zh": "一双筷子。"
                 },
                 {
-                    "vi": "Cô ấy đẹp.",
-                    "zh": "她漂亮。"
+                    "vi": "Hai cái bát.",
+                    "zh": "两个碗。"
                 }
             ]
         },
         {
-            "point": "「trông + 形容词」表看起来",
-            "explain": "「trông」意为「看起来」，后接形容词表示外观给人印象。",
+            "point": "位置介词 trong / trên / ở",
+            "explain": "「trong」= 在……里（盒子、冰箱、袋子内部）；「trên」= 在……上（桌面、货架表面）；「ở」= 在（地点/位置）。三者语序都是「介词 + 名词 + 动词/谓语」或「名词 + 介词 + 名词」。",
             "examples": [
                 {
-                    "vi": "Cô ấy trông trẻ.",
-                    "zh": "她看起来很年轻。"
+                    "vi": "Chai nước ở trong tủ lạnh.",
+                    "zh": "水瓶在冰箱里。"
                 },
                 {
-                    "vi": "Anh ấy trông mập.",
-                    "zh": "他看起来很胖。"
+                    "vi": "Bát ở trên bàn.",
+                    "zh": "碗在桌上。"
                 }
             ]
         }
@@ -169,23 +175,24 @@
     "exercises": [
         {
             "type": "choose",
-            "question": "「他高」的正确说法是？",
+            "question": "「碗」的越南语是？",
             "options": [
-                "Anh ấy cao",
-                "Anh cao ấy",
-                "Cao anh ấy"
+                "cái bát",
+                "cái đĩa",
+                "cái cốc",
+                "cái chai"
             ],
-            "answer": "Anh ấy cao"
+            "answer": "cái bát"
         },
         {
             "type": "fill",
-            "question": "Cô ấy ___, rất xinh.",
-            "answer": "đẹp"
+            "question": "「勺子」的越南语是 cái ___。",
+            "answer": "thìa"
         },
         {
             "type": "telex_input",
-            "question": "输入「胖」的越南语",
-            "answer": "mập"
+            "question": "用 Telex 输入「bát」（碗）",
+            "answer": "bát"
         }
     ]
 }

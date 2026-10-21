@@ -125,12 +125,12 @@
         }
     ],
     "sentences": [
-        "sentence_ja_001",
-        "sentence_ja_002",
-        "sentence_ja_003",
-        "sentence_ja_004",
-        "sentence_ja_005",
-        "sentence_ja_006"
+        "sentence_ja_a1_001",
+        "sentence_ja_a1_002",
+        "sentence_ja_a1_003",
+        "sentence_ja_a1_004",
+        "sentence_ja_a1_005",
+        "sentence_ja_a1_006"
     ],
     "grammar": [
         {
@@ -180,7 +180,7 @@
             "answer": "は"
         },
         {
-            "type": "telex_input",
+            "type": "fill",
             "question": "输入「初次见面，请多关照」的开头问候语（罗马字）",
             "answer": "hajimemashite"
         }

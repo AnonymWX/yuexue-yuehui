@@ -125,12 +125,12 @@
         }
     ],
     "sentences": [
-        "sentence_ko_001",
-        "sentence_ko_002",
-        "sentence_ko_003",
-        "sentence_ko_004",
-        "sentence_ko_005",
-        "sentence_ko_006"
+        "sentence_ko_a1_001",
+        "sentence_ko_a1_002",
+        "sentence_ko_a1_003",
+        "sentence_ko_a1_004",
+        "sentence_ko_a1_005",
+        "sentence_ko_a1_006"
     ],
     "grammar": [
         {
@@ -180,7 +180,7 @@
             "answer": "입니까"
         },
         {
-            "type": "telex_input",
+            "type": "fill",
             "question": "输入「你好」的韩语罗马字",
             "answer": "annyeonghaseyo"
         }

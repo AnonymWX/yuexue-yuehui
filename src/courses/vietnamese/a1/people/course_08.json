@@ -1,126 +1,131 @@
 {
     "id": "course_vi_34",
-    "title": "第 1 课：商店类型",
-    "titleVi": "Bài 1: Các loại cửa hàng",
-    "order": 1,
-    "scenario": "shopping",
+    "title": "第 8 课：职业名称",
+    "titleVi": "Bài 8: Tên các nghề nghiệp",
+    "order": 8,
+    "scenario": "people",
     "goals": [
-        "掌握常见商店类型的说法",
-        "学会说「去某店买东西」",
-        "能区分不同类型购物场所",
-        "能描述商店特点"
+        "能说出 8 种常见职业名称",
+        "能用「làm + 职业」表达从事某职业",
+        "能问对方职业并回答",
+        "能区分「học sinh / sinh viên」的年龄段"
     ],
     "words": [
         {
-            "id": "vi_cua_hang_quan_ao",
-            "name": "cửa hàng quần áo",
+            "id": "vi_giao_vien",
+            "name": "giáo viên",
             "trans": [
-                "服装店"
+                "教师"
             ],
             "tags": [
-                "shopping",
-                "A1"
+                "people",
+                "A1",
+                "job"
             ],
             "source": [
                 "vietnamese_a1"
             ]
         },
         {
-            "id": "vi_cua_hang_giay_dep",
-            "name": "cửa hàng giày dép",
+            "id": "vi_bac_si",
+            "name": "bác sĩ",
             "trans": [
-                "鞋店"
+                "医生"
             ],
             "tags": [
-                "shopping",
-                "A1"
+                "people",
+                "A1",
+                "job"
             ],
             "source": [
                 "vietnamese_a1"
             ]
         },
         {
-            "id": "vi_cua_hang_tien_loi",
-            "name": "cửa hàng tiện lợi",
+            "id": "vi_ky_su",
+            "name": "kỹ sư",
             "trans": [
-                "便利店"
+                "工程师"
             ],
             "tags": [
-                "shopping",
-                "A1"
+                "people",
+                "A1",
+                "job"
             ],
             "source": [
                 "vietnamese_a1"
             ]
         },
         {
-            "id": "vi_cua_hang_sach",
-            "name": "cửa hàng sách",
+            "id": "vi_cong_nhan",
+            "name": "công nhân",
             "trans": [
-                "书店"
+                "工人"
             ],
             "tags": [
-                "shopping",
-                "A1"
+                "people",
+                "A1",
+                "job"
             ],
             "source": [
                 "vietnamese_a1"
             ]
         },
         {
-            "id": "vi_cua_hang_dien_tu",
-            "name": "cửa hàng điện tử",
+            "id": "vi_nong_dan",
+            "name": "nông dân",
             "trans": [
-                "电子产品店"
+                "农民"
             ],
             "tags": [
-                "shopping",
-                "A1"
+                "people",
+                "A1",
+                "job"
             ],
             "source": [
                 "vietnamese_a1"
             ]
         },
         {
-            "id": "vi_trung_tam_thuong_mai",
-            "name": "trung tâm thương mại",
+            "id": "vi_hoc_sinh",
+            "name": "học sinh",
             "trans": [
-                "购物中心",
-                "商场"
+                "学生（中小学）"
             ],
             "tags": [
-                "shopping",
-                "A1"
+                "people",
+                "A1",
+                "job"
             ],
             "source": [
                 "vietnamese_a1"
             ]
         },
         {
-            "id": "vi_quay_counter",
-            "name": "quầy",
+            "id": "vi_sinh_vien",
+            "name": "sinh viên",
             "trans": [
-                "柜台",
-                "摊位"
+                "大学生"
             ],
             "tags": [
-                "shopping",
-                "A1"
+                "people",
+                "A1",
+                "job"
             ],
             "source": [
                 "vietnamese_a1"
             ]
         },
         {
-            "id": "vi_nguoi_ban_hang",
-            "name": "người bán hàng",
+            "id": "vi_canh_sat",
+            "name": "cảnh sát",
             "trans": [
-                "售货员",
-                "卖家"
+                "警察"
             ],
             "tags": [
-                "shopping",
-                "A1"
+                "people",
+                "A1",
+                "job"
             ],
             "source": [
                 "vietnamese_a1"
@@ -128,39 +133,39 @@
         }
     ],
     "sentences": [
-        "sentence_vi_463",
-        "sentence_vi_464",
-        "sentence_vi_465",
-        "sentence_vi_466",
-        "sentence_vi_467",
-        "sentence_vi_468"
+        "sentence_vi_a1_707",
+        "sentence_vi_a1_708",
+        "sentence_vi_a1_709",
+        "sentence_vi_a1_710",
+        "sentence_vi_a1_711",
+        "sentence_vi_a1_712"
     ],
     "grammar": [
         {
-            "point": "「cửa hàng + 品类」表专门店",
-            "explain": "「cửa hàng」意为「店」，后接品类表示专门店，如「cửa hàng quần áo」（服装店）、「cửa hàng sách」（书店）。",
+            "point": "询问职业：làm nghề gì? / làm gì?",
+            "explain": "「Bạn làm nghề gì?」= 你做什么职业？回答用「Tôi làm + 职业」或「Tôi là + 职业」。「làm」更强调动作（从事），「là」更强调身份（是）。日常口语两种都可。",
             "examples": [
                 {
-                    "vi": "Tôi đi cửa hàng quần áo.",
-                    "zh": "我去服装店。"
+                    "vi": "Bạn làm nghề gì?",
+                    "zh": "你做什么工作？"
                 },
                 {
-                    "vi": "Cửa hàng sách ở gần đây.",
-                    "zh": "书店在附近。"
+                    "vi": "Tôi là giáo viên.",
+                    "zh": "我是教师。"
                 }
             ]
         },
         {
-            "point": "「siêu thị / chợ / trung tâm thương mại」三类场所对比",
-            "explain": "「siêu thị」超市（自选）、「chợ」市场（摊贩）、「trung tâm thương mại」购物中心（综合体）。",
+            "point": "职业名词不加量词",
+            "explain": "职业名词在句中一般不加量词（不同于「cái bát」）。当指具体某人时才加「người / anh / chị」等：một người giáo viên（一位教师）——口语里更常说「một giáo viên」。中文「一个医生」对应「một bác sĩ」。",
             "examples": [
                 {
-                    "vi": "Tôi đi siêu thị mua đồ.",
-                    "zh": "我去超市买东西。"
+                    "vi": "Anh ấy là bác sĩ.",
+                    "zh": "他是医生。"
                 },
                 {
-                    "vi": "Chợ đông người.",
-                    "zh": "市场人很多。"
+                    "vi": "Có hai giáo viên trong lớp.",
+                    "zh": "教室里有两位老师。"
                 }
             ]
         }
@@ -169,23 +174,24 @@
     "exercises": [
         {
             "type": "choose",
-            "question": "「便利店」用越南语怎么说？",
+            "question": "「教师」的越南语是？",
             "options": [
-                "cửa hàng tiện lợi",
-                "cửa hàng sách",
-                "cửa hàng quần áo"
+                "giáo viên",
+                "bác sĩ",
+                "kỹ sư",
+                "công nhân"
             ],
-            "answer": "cửa hàng tiện lợi"
+            "answer": "giáo viên"
         },
         {
             "type": "fill",
-            "question": "Tôi đi cửa hàng quần ___.",
-            "answer": "áo"
+            "question": "「医生」的越南语是 ___。",
+            "answer": "bác sĩ"
         },
         {
             "type": "telex_input",
-            "question": "输入「购物中心」的越南语",
-            "answer": "trung tâm thương mại"
+            "question": "用 Telex 输入「giáo viên」（教师）",
+            "answer": "giáo viên"
         }
     ]
 }

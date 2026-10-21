@@ -1,6 +1,6 @@
 [
     {
-        "id": "sentence_ko_001",
+        "id": "sentence_ko_a1_001",
         "text": "안녕하세요?",
         "translation": "你好？",
         "words": [
@@ -13,7 +13,7 @@
         ]
     },
     {
-        "id": "sentence_ko_002",
+        "id": "sentence_ko_a1_002",
         "text": "저는 학생입니다.",
         "translation": "我是学生。",
         "words": [
@@ -27,7 +27,7 @@
         ]
     },
     {
-        "id": "sentence_ko_003",
+        "id": "sentence_ko_a1_003",
         "text": "저는 학생이 아닙니다.",
         "translation": "我不是学生。",
         "words": [
@@ -41,7 +41,7 @@
         ]
     },
     {
-        "id": "sentence_ko_004",
+        "id": "sentence_ko_a1_004",
         "text": "선생님은 한국 사람입니까?",
         "translation": "老师是韩国人吗？",
         "words": [
@@ -55,7 +55,7 @@
         ]
     },
     {
-        "id": "sentence_ko_005",
+        "id": "sentence_ko_a1_005",
         "text": "저도 학생입니다.",
         "translation": "我也是学生。",
         "words": [
@@ -69,7 +69,7 @@
         ]
     },
     {
-        "id": "sentence_ko_006",
+        "id": "sentence_ko_a1_006",
         "text": "안녕히 가세요.",
         "translation": "再见（对离开的人说）。",
         "words": [
@@ -82,7 +82,7 @@
         ]
     },
     {
-        "id": "sentence_ko_007",
+        "id": "sentence_ko_a1_007",
         "text": "이것은 무엇입니까?",
         "translation": "这是什么？",
         "words": [
@@ -96,7 +96,7 @@
         ]
     },
     {
-        "id": "sentence_ko_008",
+        "id": "sentence_ko_a1_008",
         "text": "이것은 책입니다.",
         "translation": "这是书。",
         "words": [
@@ -110,7 +110,7 @@
         ]
     },
     {
-        "id": "sentence_ko_009",
+        "id": "sentence_ko_a1_009",
         "text": "그것은 가방입니다.",
         "translation": "那是包。",
         "words": [
@@ -124,7 +124,7 @@
         ]
     },
     {
-        "id": "sentence_ko_010",
+        "id": "sentence_ko_a1_010",
         "text": "저것은 무엇입니까?",
         "translation": "那个（远）是什么？",
         "words": [
@@ -138,7 +138,7 @@
         ]
     },
     {
-        "id": "sentence_ko_011",
+        "id": "sentence_ko_a1_011",
         "text": "저것은 시계입니다.",
         "translation": "那个是表。",
         "words": [
@@ -152,7 +152,7 @@
         ]
     },
     {
-        "id": "sentence_ko_012",
+        "id": "sentence_ko_a1_012",
         "text": "이것은 지갑입니까?",
         "translation": "这是钱包吗？",
         "words": [
@@ -166,7 +166,7 @@
         ]
     },
     {
-        "id": "sentence_ko_013",
+        "id": "sentence_ko_a1_013",
         "text": "아니요, 그것은 지갑이 아닙니다.",
         "translation": "不，那不是钱包。",
         "words": [
@@ -180,7 +180,7 @@
         ]
     },
     {
-        "id": "sentence_ko_014",
+        "id": "sentence_ko_a1_014",
         "text": "네, 이것은 제 지갑입니다.",
         "translation": "是的，这是我的钱包。",
         "words": [
@@ -194,7 +194,7 @@
         ]
     },
     {
-        "id": "sentence_ko_015",
+        "id": "sentence_ko_a1_015",
         "text": "저는 한국어를 공부합니다.",
         "translation": "我学习韩国语。",
         "words": [
@@ -209,7 +209,7 @@
         ]
     },
     {
-        "id": "sentence_ko_016",
+        "id": "sentence_ko_a1_016",
         "text": "영어를 공부합니까?",
         "translation": "你学习英语吗？",
         "words": [
@@ -223,7 +223,7 @@
         ]
     },
     {
-        "id": "sentence_ko_017",
+        "id": "sentence_ko_a1_017",
         "text": "네, 영어를 공부합니다.",
         "translation": "是的，我学习英语。",
         "words": [
@@ -237,7 +237,7 @@
         ]
     },
     {
-        "id": "sentence_ko_018",
+        "id": "sentence_ko_a1_018",
         "text": "저는 일본어를 공부하지 않습니다.",
         "translation": "我不学习日语。",
         "words": [
@@ -252,7 +252,7 @@
         ]
     },
     {
-        "id": "sentence_ko_019",
+        "id": "sentence_ko_a1_019",
         "text": "무엇을 읽습니까?",
         "translation": "你在读什么？",
         "words": [
@@ -266,7 +266,7 @@
         ]
     },
     {
-        "id": "sentence_ko_020",
+        "id": "sentence_ko_a1_020",
         "text": "책을 읽습니다.",
         "translation": "我在读书。",
         "words": [
@@ -280,7 +280,7 @@
         ]
     },
     {
-        "id": "sentence_ko_021",
+        "id": "sentence_ko_a1_021",
         "text": "한국어를 말합니까?",
         "translation": "你会说韩语吗？",
         "words": [
@@ -294,7 +294,7 @@
         ]
     },
     {
-        "id": "sentence_ko_022",
+        "id": "sentence_ko_a1_022",
         "text": "네, 조금 말합니다.",
         "translation": "是的，会说一点。",
         "words": [
@@ -307,7 +307,7 @@
         ]
     },
     {
-        "id": "sentence_ko_023",
+        "id": "sentence_ko_a1_023",
         "text": "여기는 학교입니다.",
         "translation": "这里是学校。",
         "words": [
@@ -321,7 +321,7 @@
         ]
     },
     {
-        "id": "sentence_ko_024",
+        "id": "sentence_ko_a1_024",
         "text": "거기는 어디입니까?",
         "translation": "那里是哪里？",
         "words": [
@@ -335,7 +335,7 @@
         ]
     },
     {
-        "id": "sentence_ko_025",
+        "id": "sentence_ko_a1_025",
         "text": "저기는 회사입니다.",
         "translation": "那里（远）是公司。",
         "words": [
@@ -349,7 +349,7 @@
         ]
     },
     {
-        "id": "sentence_ko_026",
+        "id": "sentence_ko_a1_026",
         "text": "화장실은 어디입니까?",
         "translation": "洗手间在哪里？",
         "words": [
@@ -363,7 +363,7 @@
         ]
     },
     {
-        "id": "sentence_ko_027",
+        "id": "sentence_ko_a1_027",
         "text": "화장실은 저기에 있습니다.",
         "translation": "洗手间在那边。",
         "words": [
@@ -377,7 +377,7 @@
         ]
     },
     {
-        "id": "sentence_ko_028",
+        "id": "sentence_ko_a1_028",
         "text": "집에 있습니까?",
         "translation": "在家吗？",
         "words": [
@@ -390,7 +390,7 @@
         ]
     },
     {
-        "id": "sentence_ko_029",
+        "id": "sentence_ko_a1_029",
         "text": "아니요, 집에 없습니다.",
         "translation": "不，不在家。",
         "words": [
@@ -403,7 +403,7 @@
         ]
     },
     {
-        "id": "sentence_ko_030",
+        "id": "sentence_ko_a1_030",
         "text": "저는 학교에 있습니다.",
         "translation": "我在学校。",
         "words": [
@@ -417,7 +417,7 @@
         ]
     },
     {
-        "id": "sentence_ko_031",
+        "id": "sentence_ko_a1_031",
         "text": "지금 몇 시입니까?",
         "translation": "现在几点？",
         "words": [
@@ -432,7 +432,7 @@
         ]
     },
     {
-        "id": "sentence_ko_032",
+        "id": "sentence_ko_a1_032",
         "text": "지금 두 시입니다.",
         "translation": "现在两点。",
         "words": [
@@ -446,7 +446,7 @@
         ]
     },
     {
-        "id": "sentence_ko_033",
+        "id": "sentence_ko_a1_033",
         "text": "오전 열 시에 약속이 있습니다.",
         "translation": "上午十点有约。",
         "words": [
@@ -461,7 +461,7 @@
         ]
     },
     {
-        "id": "sentence_ko_034",
+        "id": "sentence_ko_a1_034",
         "text": "오후 세 시에 시간이 있습니까?",
         "translation": "下午三点有时间吗？",
         "words": [
@@ -476,7 +476,7 @@
         ]
     },
     {
-        "id": "sentence_ko_035",
+        "id": "sentence_ko_a1_035",
         "text": "네, 시간이 있습니다.",
         "translation": "是的，有时间。",
         "words": [
@@ -489,7 +489,7 @@
         ]
     },
     {
-        "id": "sentence_ko_036",
+        "id": "sentence_ko_a1_036",
         "text": "아니요, 시간이 없습니다.",
         "translation": "不，没有时间。",
         "words": [
@@ -502,7 +502,7 @@
         ]
     },
     {
-        "id": "sentence_ko_037",
+        "id": "sentence_ko_a1_037",
         "text": "약속은 오전 아홉 시입니다.",
         "translation": "约在上午九点。",
         "words": [
@@ -517,7 +517,7 @@
         ]
     },
     {
-        "id": "sentence_ko_038",
+        "id": "sentence_ko_a1_038",
         "text": "지금은 오후 네 시입니다.",
         "translation": "现在是下午四点。",
         "words": [
@@ -532,7 +532,7 @@
         ]
     },
     {
-        "id": "sentence_ko_039",
+        "id": "sentence_ko_a1_039",
         "text": "이 책은 얼마입니까?",
         "translation": "这本书多少钱？",
         "words": [
@@ -546,7 +546,7 @@
         ]
     },
     {
-        "id": "sentence_ko_040",
+        "id": "sentence_ko_a1_040",
         "text": "만 원입니다.",
         "translation": "一万韩元。",
         "words": [
@@ -559,7 +559,7 @@
         ]
     },
     {
-        "id": "sentence_ko_041",
+        "id": "sentence_ko_a1_041",
         "text": "너무 비쌉니다.",
         "translation": "太贵了。",
         "words": [
@@ -572,7 +572,7 @@
         ]
     },
     {
-        "id": "sentence_ko_042",
+        "id": "sentence_ko_a1_042",
         "text": "이것은 쌉니다.",
         "translation": "这个便宜。",
         "words": [
@@ -586,7 +586,7 @@
         ]
     },
     {
-        "id": "sentence_ko_043",
+        "id": "sentence_ko_a1_043",
         "text": "시장에서 책을 삽니다.",
         "translation": "在市场买书。",
         "words": [
@@ -601,7 +601,7 @@
         ]
     },
     {
-        "id": "sentence_ko_044",
+        "id": "sentence_ko_a1_044",
         "text": "슈퍼마켓에서 무엇을 삽니까?",
         "translation": "在超市买什么？",
         "words": [
@@ -616,7 +616,7 @@
         ]
     },
     {
-        "id": "sentence_ko_045",
+        "id": "sentence_ko_a1_045",
         "text": "저는 시장에서 책을 팝니다.",
         "translation": "我在市场卖书。",
         "words": [
@@ -632,7 +632,7 @@
         ]
     },
     {
-        "id": "sentence_ko_046",
+        "id": "sentence_ko_a1_046",
         "text": "이 가방은 얼마입니까?",
         "translation": "这个包多少钱？",
         "words": [
@@ -646,7 +646,7 @@
         ]
     },
     {
-        "id": "sentence_ko_047",
+        "id": "sentence_ko_a1_047",
         "text": "한국 음식이 맛있습니다.",
         "translation": "韩国菜好吃。",
         "words": [
@@ -661,7 +661,7 @@
         ]
     },
     {
-        "id": "sentence_ko_048",
+        "id": "sentence_ko_a1_048",
         "text": "김치가 맛있습니다.",
         "translation": "泡菜好吃。",
         "words": [
@@ -675,7 +675,7 @@
         ]
     },
     {
-        "id": "sentence_ko_049",
+        "id": "sentence_ko_a1_049",
         "text": "이 음식은 맛없습니다.",
         "translation": "这个菜不好吃。",
         "words": [
@@ -689,7 +689,7 @@
         ]
     },
     {
-        "id": "sentence_ko_050",
+        "id": "sentence_ko_a1_050",
         "text": "밥을 먹습니다.",
         "translation": "吃饭。",
         "words": [
@@ -703,7 +703,7 @@
         ]
     },
     {
-        "id": "sentence_ko_051",
+        "id": "sentence_ko_a1_051",
         "text": "물을 마십니다.",
         "translation": "喝水。",
         "words": [
@@ -717,7 +717,7 @@
         ]
     },
     {
-        "id": "sentence_ko_052",
+        "id": "sentence_ko_a1_052",
         "text": "무엇을 먹습니까?",
         "translation": "吃什么？",
         "words": [
@@ -731,7 +731,7 @@
         ]
     },
     {
-        "id": "sentence_ko_053",
+        "id": "sentence_ko_a1_053",
         "text": "김치를 먹습니다.",
         "translation": "吃泡菜。",
         "words": [
@@ -745,7 +745,7 @@
         ]
     },
     {
-        "id": "sentence_ko_054",
+        "id": "sentence_ko_a1_054",
         "text": "지금 밥을 먹습니다.",
         "translation": "现在吃饭。",
         "words": [
@@ -760,7 +760,7 @@
         ]
     },
     {
-        "id": "sentence_ko_055",
+        "id": "sentence_ko_a1_055",
         "text": "날씨가 좋습니다.",
         "translation": "天气好。",
         "words": [
@@ -774,7 +774,7 @@
         ]
     },
     {
-        "id": "sentence_ko_056",
+        "id": "sentence_ko_a1_056",
         "text": "날씨가 나쁩니다.",
         "translation": "天气不好。",
         "words": [
@@ -788,7 +788,7 @@
         ]
     },
     {
-        "id": "sentence_ko_057",
+        "id": "sentence_ko_a1_057",
         "text": "지금은 덥습니다.",
         "translation": "现在热。",
         "words": [
@@ -802,7 +802,7 @@
         ]
     },
     {
-        "id": "sentence_ko_058",
+        "id": "sentence_ko_a1_058",
         "text": "아니요, 지금은 춥습니다.",
         "translation": "不，现在冷。",
         "words": [
@@ -816,7 +816,7 @@
         ]
     },
     {
-        "id": "sentence_ko_059",
+        "id": "sentence_ko_a1_059",
         "text": "비가 옵니다.",
         "translation": "下雨。",
         "words": [
@@ -830,7 +830,7 @@
         ]
     },
     {
-        "id": "sentence_ko_060",
+        "id": "sentence_ko_a1_060",
         "text": "눈이 옵니다.",
         "translation": "下雪。",
         "words": [
@@ -844,7 +844,7 @@
         ]
     },
     {
-        "id": "sentence_ko_061",
+        "id": "sentence_ko_a1_061",
         "text": "비가 옵니까?",
         "translation": "下雨吗？",
         "words": [
@@ -858,7 +858,7 @@
         ]
     },
     {
-        "id": "sentence_ko_062",
+        "id": "sentence_ko_a1_062",
         "text": "네, 비가 옵니다.",
         "translation": "是的，下雨。",
         "words": [
@@ -872,7 +872,7 @@
         ]
     },
     {
-        "id": "sentence_ko_063",
+        "id": "sentence_ko_a1_095",
         "text": "저는 영화를 좋아합니다.",
         "translation": "我喜欢电影。",
         "words": [
@@ -887,7 +887,7 @@
         ]
     },
     {
-        "id": "sentence_ko_064",
+        "id": "sentence_ko_a1_096",
         "text": "음악을 좋아합니까?",
         "translation": "喜欢音乐吗？",
         "words": [
@@ -901,7 +901,7 @@
         ]
     },
     {
-        "id": "sentence_ko_065",
+        "id": "sentence_ko_a1_097",
         "text": "네, 음악을 좋아합니다.",
         "translation": "是的，喜欢音乐。",
         "words": [
@@ -915,7 +915,7 @@
         ]
     },
     {
-        "id": "sentence_ko_066",
+        "id": "sentence_ko_a1_098",
         "text": "저는 운동을 싫어합니다.",
         "translation": "我讨厌运动。",
         "words": [
@@ -930,7 +930,7 @@
         ]
     },
     {
-        "id": "sentence_ko_067",
+        "id": "sentence_ko_a1_099",
         "text": "취미가 무엇입니까?",
         "translation": "你的爱好是什么？",
         "words": [
@@ -944,7 +944,7 @@
         ]
     },
     {
-        "id": "sentence_ko_068",
+        "id": "sentence_ko_a1_100",
         "text": "제 취미는 음악입니다.",
         "translation": "我的爱好是音乐。",
         "words": [
@@ -958,7 +958,7 @@
         ]
     },
     {
-        "id": "sentence_ko_069",
+        "id": "sentence_ko_a1_101",
         "text": "영화를 봅니다.",
         "translation": "看电影。",
         "words": [
@@ -972,7 +972,7 @@
         ]
     },
     {
-        "id": "sentence_ko_070",
+        "id": "sentence_ko_a1_102",
         "text": "음악을 듣습니다.",
         "translation": "听音乐。",
         "words": [
@@ -986,7 +986,7 @@
         ]
     },
     {
-        "id": "sentence_ko_071",
+        "id": "sentence_ko_a1_071",
         "text": "우리 가족은 네 명입니다.",
         "translation": "我家四口人。",
         "words": [
@@ -1000,7 +1000,7 @@
         ]
     },
     {
-        "id": "sentence_ko_072",
+        "id": "sentence_ko_a1_072",
         "text": "가족이 몇 명입니까?",
         "translation": "家里几口人？",
         "words": [
@@ -1014,7 +1014,7 @@
         ]
     },
     {
-        "id": "sentence_ko_073",
+        "id": "sentence_ko_a1_073",
         "text": "우리 가족은 세 명입니다.",
         "translation": "我家三口人。",
         "words": [
@@ -1028,7 +1028,7 @@
         ]
     },
     {
-        "id": "sentence_ko_074",
+        "id": "sentence_ko_a1_074",
         "text": "아버지의 이름은 무엇입니까?",
         "translation": "父亲的名字是什么？",
         "words": [
@@ -1043,7 +1043,7 @@
         ]
     },
     {
-        "id": "sentence_ko_075",
+        "id": "sentence_ko_a1_075",
         "text": "제 어머니는 선생님입니다.",
         "translation": "我母亲是老师。",
         "words": [
@@ -1057,7 +1057,7 @@
         ]
     },
     {
-        "id": "sentence_ko_076",
+        "id": "sentence_ko_a1_076",
         "text": "저는 동생이 있습니다.",
         "translation": "我有弟弟（妹妹）。",
         "words": [
@@ -1071,7 +1071,7 @@
         ]
     },
     {
-        "id": "sentence_ko_077",
+        "id": "sentence_ko_a1_077",
         "text": "동생은 열 살입니다.",
         "translation": "弟弟十岁。",
         "words": [
@@ -1085,7 +1085,7 @@
         ]
     },
     {
-        "id": "sentence_ko_078",
+        "id": "sentence_ko_a1_078",
         "text": "부모님과 할머니가 있습니다.",
         "translation": "有父母和奶奶。",
         "words": [
@@ -1099,7 +1099,7 @@
         ]
     },
     {
-        "id": "sentence_ko_079",
+        "id": "sentence_ko_a1_079",
         "text": "아침에 무엇을 합니까?",
         "translation": "早上做什么？",
         "words": [
@@ -1112,7 +1112,7 @@
         ]
     },
     {
-        "id": "sentence_ko_080",
+        "id": "sentence_ko_a1_080",
         "text": "아침에 일어납니다.",
         "translation": "早上起床。",
         "words": [
@@ -1126,7 +1126,7 @@
         ]
     },
     {
-        "id": "sentence_ko_081",
+        "id": "sentence_ko_a1_081",
         "text": "일어난 후에 씻습니다.",
         "translation": "起床之后洗漱。",
         "words": [
@@ -1141,7 +1141,7 @@
         ]
     },
     {
-        "id": "sentence_ko_082",
+        "id": "sentence_ko_a1_082",
         "text": "아침을 먹은 후에 학교에 갑니다.",
         "translation": "吃完早饭后去学校。",
         "words": [
@@ -1156,7 +1156,7 @@
         ]
     },
     {
-        "id": "sentence_ko_083",
+        "id": "sentence_ko_a1_083",
         "text": "자기 전에 씻습니다.",
         "translation": "睡前洗漱。",
         "words": [
@@ -1171,7 +1171,7 @@
         ]
     },
     {
-        "id": "sentence_ko_084",
+        "id": "sentence_ko_a1_084",
         "text": "점심에 친구를 만납니다.",
         "translation": "中午见朋友。",
         "words": [
@@ -1184,7 +1184,7 @@
         ]
     },
     {
-        "id": "sentence_ko_085",
+        "id": "sentence_ko_a1_085",
         "text": "저녁에 밥을 먹습니다.",
         "translation": "晚上吃饭。",
         "words": [
@@ -1199,7 +1199,7 @@
         ]
     },
     {
-        "id": "sentence_ko_086",
+        "id": "sentence_ko_a1_086",
         "text": "저녁을 먹기 전에 손을 씻습니다.",
         "translation": "吃晚饭之前洗手。",
         "words": [
@@ -1214,7 +1214,7 @@
         ]
     },
     {
-        "id": "sentence_ko_087",
+        "id": "sentence_ko_a1_087",
         "text": "학교에 어떻게 갑니까?",
         "translation": "怎么去学校？",
         "words": [
@@ -1228,7 +1228,7 @@
         ]
     },
     {
-        "id": "sentence_ko_088",
+        "id": "sentence_ko_a1_088",
         "text": "버스를 탑니다.",
         "translation": "坐公交车。",
         "words": [
@@ -1242,7 +1242,7 @@
         ]
     },
     {
-        "id": "sentence_ko_089",
+        "id": "sentence_ko_a1_089",
         "text": "지하철을 탑니다.",
         "translation": "坐地铁。",
         "words": [
@@ -1256,7 +1256,7 @@
         ]
     },
     {
-        "id": "sentence_ko_090",
+        "id": "sentence_ko_a1_090",
         "text": "택시를 탑니다.",
         "translation": "坐出租车。",
         "words": [
@@ -1270,7 +1270,7 @@
         ]
     },
     {
-        "id": "sentence_ko_091",
+        "id": "sentence_ko_a1_091",
         "text": "학교 앞에서 내립니다.",
         "translation": "在学校前下车。",
         "words": [
@@ -1284,7 +1284,7 @@
         ]
     },
     {
-        "id": "sentence_ko_092",
+        "id": "sentence_ko_a1_092",
         "text": "얼마나 걸립니까?",
         "translation": "花多久？",
         "words": [
@@ -1298,7 +1298,7 @@
         ]
     },
     {
-        "id": "sentence_ko_093",
+        "id": "sentence_ko_a1_093",
         "text": "삼십 분 걸립니다.",
         "translation": "花三十分钟。",
         "words": [
@@ -1311,7 +1311,7 @@
         ]
     },
     {
-        "id": "sentence_ko_094",
+        "id": "sentence_ko_a1_094",
         "text": "지하철이 빠릅니다.",
         "translation": "地铁快。",
         "words": [
@@ -1324,7 +1324,7 @@
         ]
     },
     {
-        "id": "sentence_ko_095",
+        "id": "sentence_ko_a1_063",
         "text": "전화번호가 무엇입니까?",
         "translation": "电话号码是多少？",
         "words": [
@@ -1338,7 +1338,7 @@
         ]
     },
     {
-        "id": "sentence_ko_096",
+        "id": "sentence_ko_a1_064",
         "text": "전화를 겁니다.",
         "translation": "打电话。",
         "words": [
@@ -1352,7 +1352,7 @@
         ]
     },
     {
-        "id": "sentence_ko_097",
+        "id": "sentence_ko_a1_065",
         "text": "전화를 받습니다.",
         "translation": "接电话。",
         "words": [
@@ -1366,7 +1366,7 @@
         ]
     },
     {
-        "id": "sentence_ko_098",
+        "id": "sentence_ko_a1_066",
         "text": "지금은 전화를 받을 수 없습니다.",
         "translation": "现在不能接电话。",
         "words": [
@@ -1380,7 +1380,7 @@
         ]
     },
     {
-        "id": "sentence_ko_099",
+        "id": "sentence_ko_a1_067",
         "text": "나중에 전화를 걸어 보세요.",
         "translation": "以后打个电话试试。",
         "words": [
@@ -1395,7 +1395,7 @@
         ]
     },
     {
-        "id": "sentence_ko_100",
+        "id": "sentence_ko_a1_068",
         "text": "메시지를 받았습니다.",
         "translation": "收到了消息。",
         "words": [
@@ -1409,7 +1409,7 @@
         ]
     },
     {
-        "id": "sentence_ko_101",
+        "id": "sentence_ko_a1_069",
         "text": "조금 기다려 주세요.",
         "translation": "请稍等。",
         "words": [
@@ -1422,7 +1422,7 @@
         ]
     },
     {
-        "id": "sentence_ko_102",
+        "id": "sentence_ko_a1_070",
         "text": "시간이 있습니까?",
         "translation": "有时间吗？",
         "words": [
@@ -1436,7 +1436,7 @@
         ]
     },
     {
-        "id": "sentence_ko_103",
+        "id": "sentence_ko_a1_103",
         "text": "몸이 아픕니까?",
         "translation": "身体不舒服吗？",
         "words": [
@@ -1449,7 +1449,7 @@
         ]
     },
     {
-        "id": "sentence_ko_104",
+        "id": "sentence_ko_a1_104",
         "text": "네, 머리가 아픕니다.",
         "translation": "是的，头疼。",
         "words": [
@@ -1463,7 +1463,7 @@
         ]
     },
     {
-        "id": "sentence_ko_105",
+        "id": "sentence_ko_a1_105",
         "text": "배가 아픕니다.",
         "translation": "肚子疼。",
         "words": [
@@ -1477,7 +1477,7 @@
         ]
     },
     {
-        "id": "sentence_ko_106",
+        "id": "sentence_ko_a1_106",
         "text": "머리가 아파서 약을 먹습니다.",
         "translation": "因为头疼所以吃药。",
         "words": [
@@ -1493,7 +1493,7 @@
         ]
     },
     {
-        "id": "sentence_ko_107",
+        "id": "sentence_ko_a1_107",
         "text": "감기에 걸려서 병원에 갑니다.",
         "translation": "因为感冒所以去医院。",
         "words": [
@@ -1507,7 +1507,7 @@
         ]
     },
     {
-        "id": "sentence_ko_108",
+        "id": "sentence_ko_a1_108",
         "text": "아프면 쉬세요.",
         "translation": "不舒服的话休息一下。",
         "words": [
@@ -1521,7 +1521,7 @@
         ]
     },
     {
-        "id": "sentence_ko_109",
+        "id": "sentence_ko_a1_109",
         "text": "건강이 좋습니다.",
         "translation": "身体健康。",
         "words": [
@@ -1535,7 +1535,7 @@
         ]
     },
     {
-        "id": "sentence_ko_110",
+        "id": "sentence_ko_a1_110",
         "text": "약을 먹고 쉽니다.",
         "translation": "吃了药休息。",
         "words": [
@@ -1550,7 +1550,7 @@
         ]
     },
     {
-        "id": "sentence_ko_111",
+        "id": "sentence_ko_a1_111",
         "text": "여행을 좋아합니까?",
         "translation": "喜欢旅行吗？",
         "words": [
@@ -1564,7 +1564,7 @@
         ]
     },
     {
-        "id": "sentence_ko_112",
+        "id": "sentence_ko_a1_112",
         "text": "네, 여행을 좋아합니다.",
         "translation": "是的，喜欢旅行。",
         "words": [
@@ -1578,7 +1578,7 @@
         ]
     },
     {
-        "id": "sentence_ko_113",
+        "id": "sentence_ko_a1_113",
         "text": "바다를 좋아합니다.",
         "translation": "喜欢大海。",
         "words": [
@@ -1592,7 +1592,7 @@
         ]
     },
     {
-        "id": "sentence_ko_114",
+        "id": "sentence_ko_a1_114",
         "text": "산에 가 봅니다.",
         "translation": "去山里看看。",
         "words": [
@@ -1605,7 +1605,7 @@
         ]
     },
     {
-        "id": "sentence_ko_115",
+        "id": "sentence_ko_a1_115",
         "text": "사진을 찍습니다.",
         "translation": "拍照。",
         "words": [
@@ -1619,7 +1619,7 @@
         ]
     },
     {
-        "id": "sentence_ko_116",
+        "id": "sentence_ko_a1_116",
         "text": "같이 여행합니다.",
         "translation": "一起旅行。",
         "words": [
@@ -1633,7 +1633,7 @@
         ]
     },
     {
-        "id": "sentence_ko_117",
+        "id": "sentence_ko_a1_117",
         "text": "어느 나라에 가 봅니까?",
         "translation": "想去哪个国家看看？",
         "words": [
@@ -1646,7 +1646,7 @@
         ]
     },
     {
-        "id": "sentence_ko_118",
+        "id": "sentence_ko_a1_118",
         "text": "한국 사람을 만납니다.",
         "translation": "见韩国人。",
         "words": [
@@ -1660,7 +1660,7 @@
         ]
     },
     {
-        "id": "sentence_ko_119",
+        "id": "sentence_ko_a1_119",
         "text": "주말에 무엇을 할 겁니까?",
         "translation": "周末打算做什么？",
         "words": [
@@ -1675,7 +1675,7 @@
         ]
     },
     {
-        "id": "sentence_ko_120",
+        "id": "sentence_ko_a1_120",
         "text": "영화를 볼 겁니다.",
         "translation": "打算看电影。",
         "words": [
@@ -1689,7 +1689,7 @@
         ]
     },
     {
-        "id": "sentence_ko_121",
+        "id": "sentence_ko_a1_121",
         "text": "공원에 갈 겁니다.",
         "translation": "打算去公园。",
         "words": [
@@ -1703,7 +1703,7 @@
         ]
     },
     {
-        "id": "sentence_ko_122",
+        "id": "sentence_ko_a1_122",
         "text": "친구를 만날 겁니다.",
         "translation": "打算见朋友。",
         "words": [
@@ -1716,7 +1716,7 @@
         ]
     },
     {
-        "id": "sentence_ko_123",
+        "id": "sentence_ko_a1_123",
         "text": "주말에 공원에서 친구를 만납니다.",
         "translation": "周末在公园见朋友。",
         "words": [
@@ -1731,7 +1731,7 @@
         ]
     },
     {
-        "id": "sentence_ko_124",
+        "id": "sentence_ko_a1_124",
         "text": "내일 극장에 갑니다.",
         "translation": "明天去电影院。",
         "words": [
@@ -1746,7 +1746,7 @@
         ]
     },
     {
-        "id": "sentence_ko_125",
+        "id": "sentence_ko_a1_125",
         "text": "계획이 있습니까?",
         "translation": "有计划吗？",
         "words": [
@@ -1759,7 +1759,7 @@
         ]
     },
     {
-        "id": "sentence_ko_126",
+        "id": "sentence_ko_a1_126",
         "text": "네, 계획이 있습니다.",
         "translation": "是的，有计划。",
         "words": [
@@ -1772,7 +1772,7 @@
         ]
     },
     {
-        "id": "sentence_ko_201",
+        "id": "sentence_ko_a2_001",
         "text": "어제 무엇을 했습니까?",
         "translation": "昨天做了什么？",
         "words": [
@@ -1786,7 +1786,7 @@
         ]
     },
     {
-        "id": "sentence_ko_202",
+        "id": "sentence_ko_a2_002",
         "text": "어제 청소하고 빨래했습니다.",
         "translation": "昨天打扫了也洗了衣服。",
         "words": [
@@ -1801,7 +1801,7 @@
         ]
     },
     {
-        "id": "sentence_ko_203",
+        "id": "sentence_ko_a2_003",
         "text": "오늘 아침에 요리했습니다.",
         "translation": "今天早上做了饭。",
         "words": [
@@ -1816,7 +1816,7 @@
         ]
     },
     {
-        "id": "sentence_ko_204",
+        "id": "sentence_ko_a2_004",
         "text": "지금 설거지하고 있습니다.",
         "translation": "现在正在洗碗。",
         "words": [
@@ -1830,7 +1830,7 @@
         ]
     },
     {
-        "id": "sentence_ko_205",
+        "id": "sentence_ko_a2_005",
         "text": "아직 청소하고 있습니다.",
         "translation": "还在打扫。",
         "words": [
@@ -1844,7 +1844,7 @@
         ]
     },
     {
-        "id": "sentence_ko_206",
+        "id": "sentence_ko_a2_006",
         "text": "벌써 출근했습니다.",
         "translation": "已经上班了。",
         "words": [
@@ -1858,7 +1858,7 @@
         ]
     },
     {
-        "id": "sentence_ko_207",
+        "id": "sentence_ko_a2_007",
         "text": "어제 아주 바빴습니다.",
         "translation": "昨天很忙。",
         "words": [
@@ -1872,7 +1872,7 @@
         ]
     },
     {
-        "id": "sentence_ko_208",
+        "id": "sentence_ko_a2_008",
         "text": "오늘은 피곤합니다.",
         "translation": "今天很累。",
         "words": [
@@ -1886,7 +1886,7 @@
         ]
     },
     {
-        "id": "sentence_ko_209",
+        "id": "sentence_ko_a2_009",
         "text": "기분이 좋아 보입니다.",
         "translation": "心情看起来不错。",
         "words": [
@@ -1900,7 +1900,7 @@
         ]
     },
     {
-        "id": "sentence_ko_210",
+        "id": "sentence_ko_a2_010",
         "text": "지금 자고 싶습니다.",
         "translation": "现在想睡。",
         "words": [
@@ -1914,7 +1914,7 @@
         ]
     },
     {
-        "id": "sentence_ko_211",
+        "id": "sentence_ko_a2_011",
         "text": "배고파서 밥을 먹고 싶습니다.",
         "translation": "因为饿所以想吃饭。",
         "words": [
@@ -1929,7 +1929,7 @@
         ]
     },
     {
-        "id": "sentence_ko_212",
+        "id": "sentence_ko_a2_012",
         "text": "동생이 기뻐합니다.",
         "translation": "弟弟很高兴。",
         "words": [
@@ -1943,7 +1943,7 @@
         ]
     },
     {
-        "id": "sentence_ko_213",
+        "id": "sentence_ko_a2_013",
         "text": "저는 슬픕니다.",
         "translation": "我很悲伤。",
         "words": [
@@ -1957,7 +1957,7 @@
         ]
     },
     {
-        "id": "sentence_ko_214",
+        "id": "sentence_ko_a2_014",
         "text": "요즘 스트레스가 많습니다.",
         "translation": "最近压力很大。",
         "words": [
@@ -1970,7 +1970,7 @@
         ]
     },
     {
-        "id": "sentence_ko_215",
+        "id": "sentence_ko_a2_015",
         "text": "걱정하지 마세요.",
         "translation": "别担心。",
         "words": [
@@ -1983,7 +1983,7 @@
         ]
     },
     {
-        "id": "sentence_ko_216",
+        "id": "sentence_ko_a2_016",
         "text": "그 사람은 부러워합니다.",
         "translation": "那个人很羡慕。",
         "words": [
@@ -1997,7 +1997,7 @@
         ]
     },
     {
-        "id": "sentence_ko_217",
+        "id": "sentence_ko_a2_017",
         "text": "내일 비가 올 것 같습니다.",
         "translation": "明天好像会下雨。",
         "words": [
@@ -2012,7 +2012,7 @@
         ]
     },
     {
-        "id": "sentence_ko_218",
+        "id": "sentence_ko_a2_018",
         "text": "오늘은 더울 것 같습니다.",
         "translation": "今天好像会热。",
         "words": [
@@ -2026,7 +2026,7 @@
         ]
     },
     {
-        "id": "sentence_ko_219",
+        "id": "sentence_ko_a2_019",
         "text": "내일은 춥겠습니다.",
         "translation": "明天大概会冷。",
         "words": [
@@ -2040,7 +2040,7 @@
         ]
     },
     {
-        "id": "sentence_ko_220",
+        "id": "sentence_ko_a2_020",
         "text": "여름에는 덥고 습도가 높습니다.",
         "translation": "夏天又热湿度又高。",
         "words": [
@@ -2055,7 +2055,7 @@
         ]
     },
     {
-        "id": "sentence_ko_221",
+        "id": "sentence_ko_a2_021",
         "text": "겨울에는 바람이 많이 붑니다.",
         "translation": "冬天风很大。",
         "words": [
@@ -2069,7 +2069,7 @@
         ]
     },
     {
-        "id": "sentence_ko_222",
+        "id": "sentence_ko_a2_022",
         "text": "오후에 소나기가 그쳤습니다.",
         "translation": "下午阵雨停了。",
         "words": [
@@ -2084,7 +2084,7 @@
         ]
     },
     {
-        "id": "sentence_ko_223",
+        "id": "sentence_ko_a2_023",
         "text": "일기 예보를 봅니다.",
         "translation": "看天气预报。",
         "words": [
@@ -2098,7 +2098,7 @@
         ]
     },
     {
-        "id": "sentence_ko_224",
+        "id": "sentence_ko_a2_024",
         "text": "봄에는 꽃이 예쁩니다.",
         "translation": "春天花很美。",
         "words": [
@@ -2111,7 +2111,7 @@
         ]
     },
     {
-        "id": "sentence_ko_225",
+        "id": "sentence_ko_a2_025",
         "text": "불고기 하나 주세요.",
         "translation": "请给我一份烤肉。",
         "words": [
@@ -2124,7 +2124,7 @@
         ]
     },
     {
-        "id": "sentence_ko_226",
+        "id": "sentence_ko_a2_026",
         "text": "비빔밥 하나 주세요.",
         "translation": "请给我一份拌饭。",
         "words": [
@@ -2137,7 +2137,7 @@
         ]
     },
     {
-        "id": "sentence_ko_227",
+        "id": "sentence_ko_a2_027",
         "text": "메뉴 좀 주세요.",
         "translation": "请给我菜单。",
         "words": [
@@ -2150,7 +2150,7 @@
         ]
     },
     {
-        "id": "sentence_ko_228",
+        "id": "sentence_ko_a2_028",
         "text": "여기 앉아도 됩니까?",
         "translation": "可以坐这里吗？",
         "words": [
@@ -2163,7 +2163,7 @@
         ]
     },
     {
-        "id": "sentence_ko_229",
+        "id": "sentence_ko_a2_029",
         "text": "커피 한 잔 주세요.",
         "translation": "请给我一杯咖啡。",
         "words": [
@@ -2176,7 +2176,7 @@
         ]
     },
     {
-        "id": "sentence_ko_230",
+        "id": "sentence_ko_a2_030",
         "text": "냉면과 국수를 주문합니다.",
         "translation": "点冷面和面条。",
         "words": [
@@ -2191,7 +2191,7 @@
         ]
     },
     {
-        "id": "sentence_ko_231",
+        "id": "sentence_ko_a2_031",
         "text": "디저트도 주세요.",
         "translation": "也请给我甜点。",
         "words": [
@@ -2204,7 +2204,7 @@
         ]
     },
     {
-        "id": "sentence_ko_232",
+        "id": "sentence_ko_a2_032",
         "text": "여기 계산해 주세요.",
         "translation": "请在这里结账。",
         "words": [
@@ -2218,7 +2218,7 @@
         ]
     },
     {
-        "id": "sentence_ko_233",
+        "id": "sentence_ko_a2_041",
         "text": "이 옷은 예쁘지만 너무 비쌉니다.",
         "translation": "这件衣服漂亮但太贵了。",
         "words": [
@@ -2232,7 +2232,7 @@
         ]
     },
     {
-        "id": "sentence_ko_234",
+        "id": "sentence_ko_a2_042",
         "text": "다른 색깔도 있습니까?",
         "translation": "有别的颜色吗？",
         "words": [
@@ -2247,7 +2247,7 @@
         ]
     },
     {
-        "id": "sentence_ko_235",
+        "id": "sentence_ko_a2_043",
         "text": "사이즈가 맞지 않습니다.",
         "translation": "尺码不合适。",
         "words": [
@@ -2260,7 +2260,7 @@
         ]
     },
     {
-        "id": "sentence_ko_236",
+        "id": "sentence_ko_a2_044",
         "text": "교환하고 싶습니다.",
         "translation": "想换货。",
         "words": [
@@ -2273,7 +2273,7 @@
         ]
     },
     {
-        "id": "sentence_ko_237",
+        "id": "sentence_ko_a2_045",
         "text": "영수증이 있어야 합니다.",
         "translation": "必须有收据。",
         "words": [
@@ -2286,7 +2286,7 @@
         ]
     },
     {
-        "id": "sentence_ko_238",
+        "id": "sentence_ko_a2_046",
         "text": "입어 봐도 됩니까?",
         "translation": "可以试穿吗？",
         "words": [
@@ -2299,7 +2299,7 @@
         ]
     },
     {
-        "id": "sentence_ko_239",
+        "id": "sentence_ko_a2_047",
         "text": "조금 할인해 주세요.",
         "translation": "请便宜一点。",
         "words": [
@@ -2313,7 +2313,7 @@
         ]
     },
     {
-        "id": "sentence_ko_240",
+        "id": "sentence_ko_a2_048",
         "text": "정말 싸고 좋습니다.",
         "translation": "真的很便宜很好。",
         "words": [
@@ -2328,7 +2328,7 @@
         ]
     },
     {
-        "id": "sentence_ko_241",
+        "id": "sentence_ko_a2_033",
         "text": "시험이 있기 때문에 공부해야 합니다.",
         "translation": "因为要考试必须学习。",
         "words": [
@@ -2342,7 +2342,7 @@
         ]
     },
     {
-        "id": "sentence_ko_242",
+        "id": "sentence_ko_a2_034",
         "text": "도서관에서 공부하기로 했습니다.",
         "translation": "决定在图书馆学习。",
         "words": [
@@ -2356,7 +2356,7 @@
         ]
     },
     {
-        "id": "sentence_ko_243",
+        "id": "sentence_ko_a2_035",
         "text": "수업이 몇 시에 시작합니까?",
         "translation": "课几点开始？",
         "words": [
@@ -2371,7 +2371,7 @@
         ]
     },
     {
-        "id": "sentence_ko_244",
+        "id": "sentence_ko_a2_036",
         "text": "숙제를 다 했습니까?",
         "translation": "作业都做了吗？",
         "words": [
@@ -2384,7 +2384,7 @@
         ]
     },
     {
-        "id": "sentence_ko_245",
+        "id": "sentence_ko_a2_037",
         "text": "시험 볼 때 긴장합니다.",
         "translation": "考试的时候会紧张。",
         "words": [
@@ -2397,7 +2397,7 @@
         ]
     },
     {
-        "id": "sentence_ko_246",
+        "id": "sentence_ko_a2_038",
         "text": "전공이 무엇입니까?",
         "translation": "专业是什么？",
         "words": [
@@ -2411,7 +2411,7 @@
         ]
     },
     {
-        "id": "sentence_ko_247",
+        "id": "sentence_ko_a2_039",
         "text": "성적이 좋습니다.",
         "translation": "成绩好。",
         "words": [
@@ -2425,7 +2425,7 @@
         ]
     },
     {
-        "id": "sentence_ko_248",
+        "id": "sentence_ko_a2_040",
         "text": "질문이 있습니다.",
         "translation": "有问题（要问）。",
         "words": [
@@ -2438,7 +2438,7 @@
         ]
     },
     {
-        "id": "sentence_ko_249",
+        "id": "sentence_ko_a2_049",
         "text": "직업이 무엇입니까?",
         "translation": "职业是什么？",
         "words": [
@@ -2452,7 +2452,7 @@
         ]
     },
     {
-        "id": "sentence_ko_250",
+        "id": "sentence_ko_a2_050",
         "text": "저는 회사원이 되었습니다.",
         "translation": "我成了公司职员。",
         "words": [
@@ -2466,7 +2466,7 @@
         ]
     },
     {
-        "id": "sentence_ko_251",
+        "id": "sentence_ko_a2_051",
         "text": "회의가 있기 때문에 바쁩니다.",
         "translation": "因为有会议所以忙。",
         "words": [
@@ -2480,7 +2480,7 @@
         ]
     },
     {
-        "id": "sentence_ko_252",
+        "id": "sentence_ko_a2_052",
         "text": "야근을 해야 합니다.",
         "translation": "必须加班。",
         "words": [
@@ -2493,7 +2493,7 @@
         ]
     },
     {
-        "id": "sentence_ko_253",
+        "id": "sentence_ko_a2_053",
         "text": "동료와 같이 점심을 먹습니다.",
         "translation": "和同事一起吃午饭。",
         "words": [
@@ -2509,7 +2509,7 @@
         ]
     },
     {
-        "id": "sentence_ko_254",
+        "id": "sentence_ko_a2_054",
         "text": "퇴근하고 싶습니다.",
         "translation": "想下班。",
         "words": [
@@ -2522,7 +2522,7 @@
         ]
     },
     {
-        "id": "sentence_ko_255",
+        "id": "sentence_ko_a2_055",
         "text": "면접을 준비하고 있습니다.",
         "translation": "正在准备面试。",
         "words": [
@@ -2536,7 +2536,7 @@
         ]
     },
     {
-        "id": "sentence_ko_256",
+        "id": "sentence_ko_a2_056",
         "text": "월급이 좋습니다.",
         "translation": "工资好。",
         "words": [
@@ -2550,7 +2550,7 @@
         ]
     },
     {
-        "id": "sentence_ko_257",
+        "id": "sentence_ko_a2_057",
         "text": "호텔을 예약하고 싶습니다.",
         "translation": "想预订酒店。",
         "words": [
@@ -2564,7 +2564,7 @@
         ]
     },
     {
-        "id": "sentence_ko_258",
+        "id": "sentence_ko_a2_058",
         "text": "여권을 준비해야 합니다.",
         "translation": "必须准备护照。",
         "words": [
@@ -2578,7 +2578,7 @@
         ]
     },
     {
-        "id": "sentence_ko_259",
+        "id": "sentence_ko_a2_059",
         "text": "비행기가 몇 시에 출발합니까?",
         "translation": "飞机几点出发？",
         "words": [
@@ -2594,7 +2594,7 @@
         ]
     },
     {
-        "id": "sentence_ko_260",
+        "id": "sentence_ko_a2_060",
         "text": "공항에 도착했습니다.",
         "translation": "到了机场。",
         "words": [
@@ -2608,7 +2608,7 @@
         ]
     },
     {
-        "id": "sentence_ko_261",
+        "id": "sentence_ko_a2_061",
         "text": "여행하는 것을 좋아합니다.",
         "translation": "喜欢旅行。",
         "words": [
@@ -2622,7 +2622,7 @@
         ]
     },
     {
-        "id": "sentence_ko_262",
+        "id": "sentence_ko_a2_062",
         "text": "비가 오니까 우산을 가져가세요.",
         "translation": "因为下雨，请带伞。",
         "words": [
@@ -2636,7 +2636,7 @@
         ]
     },
     {
-        "id": "sentence_ko_263",
+        "id": "sentence_ko_a2_063",
         "text": "짐이 많습니다.",
         "translation": "行李多。",
         "words": [
@@ -2649,7 +2649,7 @@
         ]
     },
     {
-        "id": "sentence_ko_264",
+        "id": "sentence_ko_a2_064",
         "text": "일정을 확인해 주세요.",
         "translation": "请确认日程。",
         "words": [
@@ -2662,7 +2662,7 @@
         ]
     },
     {
-        "id": "sentence_ko_265",
+        "id": "sentence_ko_a2_065",
         "text": "감기 증상이 있습니다.",
         "translation": "有感冒症状。",
         "words": [
@@ -2676,7 +2676,7 @@
         ]
     },
     {
-        "id": "sentence_ko_266",
+        "id": "sentence_ko_a2_066",
         "text": "열이 있고 기침도 합니다.",
         "translation": "发烧还咳嗽。",
         "words": [
@@ -2690,7 +2690,7 @@
         ]
     },
     {
-        "id": "sentence_ko_267",
+        "id": "sentence_ko_a2_067",
         "text": "콧물이 나고 두통이 있습니다.",
         "translation": "流鼻涕还头痛。",
         "words": [
@@ -2704,7 +2704,7 @@
         ]
     },
     {
-        "id": "sentence_ko_268",
+        "id": "sentence_ko_a2_068",
         "text": "감기에 걸린 지 사흘 됐습니다.",
         "translation": "感冒已经三天了。",
         "words": [
@@ -2717,7 +2717,7 @@
         ]
     },
     {
-        "id": "sentence_ko_269",
+        "id": "sentence_ko_a2_069",
         "text": "열이 있는데 약을 안 먹었습니다.",
         "translation": "发烧了但没吃药。",
         "words": [
@@ -2732,7 +2732,7 @@
         ]
     },
     {
-        "id": "sentence_ko_270",
+        "id": "sentence_ko_a2_070",
         "text": "약국에서 약을 삽니다.",
         "translation": "在药店买药。",
         "words": [
@@ -2747,7 +2747,7 @@
         ]
     },
     {
-        "id": "sentence_ko_271",
+        "id": "sentence_ko_a2_071",
         "text": "처방전이 필요합니다.",
         "translation": "需要处方。",
         "words": [
@@ -2760,7 +2760,7 @@
         ]
     },
     {
-        "id": "sentence_ko_272",
+        "id": "sentence_ko_a2_072",
         "text": "주사를 맞고 나았습니다.",
         "translation": "打了针好了。",
         "words": [
@@ -2774,7 +2774,7 @@
         ]
     },
     {
-        "id": "sentence_ko_273",
+        "id": "sentence_ko_a2_073",
         "text": "전화를 걸어 놓았습니다.",
         "translation": "已经打好电话了。",
         "words": [
@@ -2788,7 +2788,7 @@
         ]
     },
     {
-        "id": "sentence_ko_274",
+        "id": "sentence_ko_a2_074",
         "text": "부재중 전화가 있었습니다.",
         "translation": "有未接电话。",
         "words": [
@@ -2802,7 +2802,7 @@
         ]
     },
     {
-        "id": "sentence_ko_275",
+        "id": "sentence_ko_a2_075",
         "text": "문자를 보내 놓았습니다.",
         "translation": "已经发好短信了。",
         "words": [
@@ -2815,7 +2815,7 @@
         ]
     },
     {
-        "id": "sentence_ko_276",
+        "id": "sentence_ko_a2_076",
         "text": "기다리는 동안 연락처를 확인했습니다.",
         "translation": "等的时候确认了联系方式。",
         "words": [
@@ -2829,7 +2829,7 @@
         ]
     },
     {
-        "id": "sentence_ko_277",
+        "id": "sentence_ko_a2_077",
         "text": "통화하는 동안 조용히 해 주세요.",
         "translation": "通话期间请安静。",
         "words": [
@@ -2842,7 +2842,7 @@
         ]
     },
     {
-        "id": "sentence_ko_278",
+        "id": "sentence_ko_a2_078",
         "text": "핸드폰이 꺼져 있습니다.",
         "translation": "手机关机了。",
         "words": [
@@ -2855,7 +2855,7 @@
         ]
     },
     {
-        "id": "sentence_ko_279",
+        "id": "sentence_ko_a2_079",
         "text": "신호가 안 좋습니다.",
         "translation": "信号不好。",
         "words": [
@@ -2869,7 +2869,7 @@
         ]
     },
     {
-        "id": "sentence_ko_280",
+        "id": "sentence_ko_a2_080",
         "text": "나중에 다시 연락하겠습니다.",
         "translation": "以后再联系。",
         "words": [
@@ -2883,7 +2883,7 @@
         ]
     },
     {
-        "id": "sentence_ko_281",
+        "id": "sentence_ko_a2_081",
         "text": "한국의 명절에 대해 알아봅시다.",
         "translation": "了解一下韩国的节日吧。",
         "words": [
@@ -2897,7 +2897,7 @@
         ]
     },
     {
-        "id": "sentence_ko_282",
+        "id": "sentence_ko_a2_082",
         "text": "설날에는 세배를 합니다.",
         "translation": "春节拜年。",
         "words": [
@@ -2911,7 +2911,7 @@
         ]
     },
     {
-        "id": "sentence_ko_283",
+        "id": "sentence_ko_a2_083",
         "text": "추석에는 송편을 먹습니다.",
         "translation": "中秋吃松饼。",
         "words": [
@@ -2926,7 +2926,7 @@
         ]
     },
     {
-        "id": "sentence_ko_284",
+        "id": "sentence_ko_a2_084",
         "text": "한복을 입어 봅시다.",
         "translation": "试试穿韩服吧。",
         "words": [
@@ -2940,7 +2940,7 @@
         ]
     },
     {
-        "id": "sentence_ko_285",
+        "id": "sentence_ko_a2_085",
         "text": "한국 문화에 대해 이야기합니다.",
         "translation": "谈论韩国文化。",
         "words": [
@@ -2954,7 +2954,7 @@
         ]
     },
     {
-        "id": "sentence_ko_286",
+        "id": "sentence_ko_a2_086",
         "text": "전통 예절을 배웁니다.",
         "translation": "学习传统礼仪。",
         "words": [
@@ -2969,7 +2969,7 @@
         ]
     },
     {
-        "id": "sentence_ko_287",
+        "id": "sentence_ko_a2_087",
         "text": "궁에 관광객이 많습니다.",
         "translation": "宫里游客很多。",
         "words": [
@@ -2983,7 +2983,7 @@
         ]
     },
     {
-        "id": "sentence_ko_288",
+        "id": "sentence_ko_a2_088",
         "text": "명절에 가족이 모입니다.",
         "translation": "节日家人聚在一起。",
         "words": [
@@ -2997,7 +2997,7 @@
         ]
     },
     {
-        "id": "sentence_ko_289",
+        "id": "sentence_ko_a2_089",
         "text": "장래에 무엇을 하고 싶습니까?",
         "translation": "将来想做什么？",
         "words": [
@@ -3011,7 +3011,7 @@
         ]
     },
     {
-        "id": "sentence_ko_290",
+        "id": "sentence_ko_a2_090",
         "text": "제 꿈은 의사입니다.",
         "translation": "我的梦想是医生。",
         "words": [
@@ -3025,7 +3025,7 @@
         ]
     },
     {
-        "id": "sentence_ko_291",
+        "id": "sentence_ko_a2_091",
         "text": "유학을 가려고 합니다.",
         "translation": "打算去留学。",
         "words": [
@@ -3038,7 +3038,7 @@
         ]
     },
     {
-        "id": "sentence_ko_292",
+        "id": "sentence_ko_a2_092",
         "text": "창업할 생각입니다.",
         "translation": "计划创业。",
         "words": [
@@ -3051,7 +3051,7 @@
         ]
     },
     {
-        "id": "sentence_ko_293",
+        "id": "sentence_ko_a2_093",
         "text": "목표를 이루기 위해 노력합니다.",
         "translation": "为实现目标而努力。",
         "words": [
@@ -3065,7 +3065,7 @@
         ]
     },
     {
-        "id": "sentence_ko_294",
+        "id": "sentence_ko_a2_094",
         "text": "실패해도 포기하지 않습니다.",
         "translation": "即使失败也不放弃。",
         "words": [
@@ -3079,7 +3079,7 @@
         ]
     },
     {
-        "id": "sentence_ko_295",
+        "id": "sentence_ko_a2_095",
         "text": "새로운 일에 도전하고 싶습니다.",
         "translation": "想挑战新事物。",
         "words": [
@@ -3092,7 +3092,7 @@
         ]
     },
     {
-        "id": "sentence_ko_296",
+        "id": "sentence_ko_a2_096",
         "text": "성공을 위해 결심했습니다.",
         "translation": "为成功下定了决心。",
         "words": [
@@ -3106,7 +3106,7 @@
         ]
     },
     {
-        "id": "sentence_ko_297",
+        "id": "sentence_ko_a2_097",
         "text": "한국에 가 본 적이 있습니까?",
         "translation": "去过韩国吗？",
         "words": [
@@ -3119,7 +3119,7 @@
         ]
     },
     {
-        "id": "sentence_ko_298",
+        "id": "sentence_ko_a2_098",
         "text": "네, 두 번 가 본 적이 있습니다.",
         "translation": "是的，去过两次。",
         "words": [
@@ -3132,7 +3132,7 @@
         ]
     },
     {
-        "id": "sentence_ko_299",
+        "id": "sentence_ko_a2_099",
         "text": "김치를 먹어 본 적이 없습니다.",
         "translation": "没吃过泡菜。",
         "words": [
@@ -3146,7 +3146,7 @@
         ]
     },
     {
-        "id": "sentence_ko_300",
+        "id": "sentence_ko_a2_100",
         "text": "한국에서 갔던 곳을 기억합니다.",
         "translation": "记得在韩国去过的地方。",
         "words": [
@@ -3160,7 +3160,7 @@
         ]
     },
     {
-        "id": "sentence_ko_301",
+        "id": "sentence_ko_a2_101",
         "text": "처음 먹었던 음식이 맛있었습니다.",
         "translation": "第一次吃的食物很好吃。",
         "words": [
@@ -3175,7 +3175,7 @@
         ]
     },
     {
-        "id": "sentence_ko_302",
+        "id": "sentence_ko_a2_102",
         "text": "그 경험을 잊지 않았습니다.",
         "translation": "没有忘记那段经历。",
         "words": [
@@ -3189,7 +3189,7 @@
         ]
     },
     {
-        "id": "sentence_ko_303",
+        "id": "sentence_ko_a2_103",
         "text": "실수했지만 고쳤습니다.",
         "translation": "失误了但改正了。",
         "words": [
@@ -3203,7 +3203,7 @@
         ]
     },
     {
-        "id": "sentence_ko_304",
+        "id": "sentence_ko_a2_104",
         "text": "여행은 재미있었습니다.",
         "translation": "旅行很有趣。",
         "words": [
@@ -3217,7 +3217,7 @@
         ]
     },
     {
-        "id": "sentence_ko_305",
+        "id": "sentence_ko_a2_105",
         "text": "주말에는 등산을 곤 합니다.",
         "translation": "周末常去登山。",
         "words": [
@@ -3231,7 +3231,7 @@
         ]
     },
     {
-        "id": "sentence_ko_306",
+        "id": "sentence_ko_a2_106",
         "text": "시간이 있을 때 그림을 그립니다.",
         "translation": "有时间的时候画画。",
         "words": [
@@ -3246,7 +3246,7 @@
         ]
     },
     {
-        "id": "sentence_ko_307",
+        "id": "sentence_ko_a2_107",
         "text": "가끔 낚시를 하곤 합니다.",
         "translation": "偶尔钓鱼。",
         "words": [
@@ -3260,7 +3260,7 @@
         ]
     },
     {
-        "id": "sentence_ko_308",
+        "id": "sentence_ko_a2_108",
         "text": "노래를 잘 부릅니다.",
         "translation": "唱歌唱得好。",
         "words": [
@@ -3274,7 +3274,7 @@
         ]
     },
     {
-        "id": "sentence_ko_309",
+        "id": "sentence_ko_a2_109",
         "text": "춤을 추는 것을 좋아합니다.",
         "translation": "喜欢跳舞。",
         "words": [
@@ -3289,7 +3289,7 @@
         ]
     },
     {
-        "id": "sentence_ko_310",
+        "id": "sentence_ko_a2_110",
         "text": "자주 독서를 합니다.",
         "translation": "经常读书。",
         "words": [
@@ -3303,7 +3303,7 @@
         ]
     },
     {
-        "id": "sentence_ko_311",
+        "id": "sentence_ko_a2_111",
         "text": "악기를 배우고 싶습니다.",
         "translation": "想学乐器。",
         "words": [
@@ -3317,7 +3317,7 @@
         ]
     },
     {
-        "id": "sentence_ko_312",
+        "id": "sentence_ko_a2_112",
         "text": "심심할 때 음악을 듣습니다.",
         "translation": "无聊的时候听音乐。",
         "words": [
@@ -3331,7 +3331,7 @@
         ]
     },
     {
-        "id": "sentence_ko_313",
+        "id": "sentence_ko_a2_113",
         "text": "길을 건너면 은행이 있습니다.",
         "translation": "过了马路就是银行。",
         "words": [
@@ -3345,7 +3345,7 @@
         ]
     },
     {
-        "id": "sentence_ko_314",
+        "id": "sentence_ko_a2_114",
         "text": "은행은 왼쪽에 있습니다.",
         "translation": "银行在左边。",
         "words": [
@@ -3359,7 +3359,7 @@
         ]
     },
     {
-        "id": "sentence_ko_315",
+        "id": "sentence_ko_a2_115",
         "text": "오른쪽으로 가세요.",
         "translation": "请往右走。",
         "words": [
@@ -3372,7 +3372,7 @@
         ]
     },
     {
-        "id": "sentence_ko_316",
+        "id": "sentence_ko_a2_116",
         "text": "신호등 앞에서 기다리세요.",
         "translation": "请在红绿灯前等。",
         "words": [
@@ -3387,7 +3387,7 @@
         ]
     },
     {
-        "id": "sentence_ko_317",
+        "id": "sentence_ko_a2_117",
         "text": "횡단보도로 길을 건너세요.",
         "translation": "请走人行横道过马路。",
         "words": [
@@ -3401,7 +3401,7 @@
         ]
     },
     {
-        "id": "sentence_ko_318",
+        "id": "sentence_ko_a2_118",
         "text": "집에 가는 길에 은행에 들렀습니다.",
         "translation": "回家路上去了银行。",
         "words": [
@@ -3415,7 +3415,7 @@
         ]
     },
     {
-        "id": "sentence_ko_319",
+        "id": "sentence_ko_a2_119",
         "text": "여기서 가깝습니다.",
         "translation": "离这里很近。",
         "words": [
@@ -3429,7 +3429,7 @@
         ]
     },
     {
-        "id": "sentence_ko_320",
+        "id": "sentence_ko_a2_120",
         "text": "조금 멉니다.",
         "translation": "有点远。",
         "words": [
@@ -3443,7 +3443,7 @@
         ]
     },
     {
-        "id": "sentence_ko_321",
+        "id": "sentence_ko_a2_121",
         "text": "드디어 A2를 끝냈습니다.",
         "translation": "终于学完 A2 了。",
         "words": [
@@ -3456,7 +3456,7 @@
         ]
     },
     {
-        "id": "sentence_ko_322",
+        "id": "sentence_ko_a2_122",
         "text": "매일 복습하는 것이 중요합니다.",
         "translation": "每天复习很重要。",
         "words": [
@@ -3471,7 +3471,7 @@
         ]
     },
     {
-        "id": "sentence_ko_323",
+        "id": "sentence_ko_a2_123",
         "text": "어렵더라도 계속 공부하겠습니다.",
         "translation": "即使难也会继续学习。",
         "words": [
@@ -3486,7 +3486,7 @@
         ]
     },
     {
-        "id": "sentence_ko_324",
+        "id": "sentence_ko_a2_124",
         "text": "공부할수록 재미있어집니다.",
         "translation": "越学越有趣。",
         "words": [
@@ -3500,7 +3500,7 @@
         ]
     },
     {
-        "id": "sentence_ko_325",
+        "id": "sentence_ko_a2_125",
         "text": "한국어가 점점 익숙해집니다.",
         "translation": "韩语渐渐熟悉了。",
         "words": [
@@ -3514,7 +3514,7 @@
         ]
     },
     {
-        "id": "sentence_ko_326",
+        "id": "sentence_ko_a2_126",
         "text": "배운 것을 정리했습니다.",
         "translation": "整理了学过的内容。",
         "words": [
@@ -3528,7 +3528,7 @@
         ]
     },
     {
-        "id": "sentence_ko_327",
+        "id": "sentence_ko_a2_127",
         "text": "요약을 해 보세요.",
         "translation": "请试着总结一下。",
         "words": [
@@ -3541,7 +3541,7 @@
         ]
     },
     {
-        "id": "sentence_ko_328",
+        "id": "sentence_ko_a2_128",
         "text": "여러분은 정말 똑똑합니다.",
         "translation": "你们真的很聪明。",
         "words": [
@@ -3554,7 +3554,7 @@
         ]
     },
     {
-        "id": "sentence_ko_127",
+        "id": "sentence_ko_a1_127",
         "text": "처음 뵙겠습니다.",
         "translation": "初次见面。",
         "words": [
@@ -3568,7 +3568,7 @@
         ]
     },
     {
-        "id": "sentence_ko_128",
+        "id": "sentence_ko_a1_128",
         "text": "성함이 어떻게 되십니까?",
         "translation": "您贵姓？",
         "words": [
@@ -3581,7 +3581,7 @@
         ]
     },
     {
-        "id": "sentence_ko_129",
+        "id": "sentence_ko_a1_129",
         "text": "제 이름은 김민수입니다.",
         "translation": "我叫金民秀。",
         "words": [
@@ -3594,7 +3594,7 @@
         ]
     },
     {
-        "id": "sentence_ko_130",
+        "id": "sentence_ko_a1_130",
         "text": "김민수 씨, 반갑습니다.",
         "translation": "金民秀先生，很高兴见到您。",
         "words": [
@@ -3608,7 +3608,7 @@
         ]
     },
     {
-        "id": "sentence_ko_131",
+        "id": "sentence_ko_a1_131",
         "text": "저도 반갑습니다.",
         "translation": "我也很高兴。",
         "words": [
@@ -3622,7 +3622,7 @@
         ]
     },
     {
-        "id": "sentence_ko_132",
+        "id": "sentence_ko_a1_132",
         "text": "도와주셔서 감사합니다.",
         "translation": "谢谢您帮忙。",
         "words": [
@@ -3635,7 +3635,7 @@
         ]
     },
     {
-        "id": "sentence_ko_133",
+        "id": "sentence_ko_a1_133",
         "text": "늦어서 미안합니다.",
         "translation": "来晚了对不起。",
         "words": [
@@ -3648,7 +3648,7 @@
         ]
     },
     {
-        "id": "sentence_ko_134",
+        "id": "sentence_ko_a1_134",
         "text": "실례합니다, 잠시만요.",
         "translation": "打扰一下，请稍等。",
         "words": [
@@ -3661,7 +3661,7 @@
         ]
     },
     {
-        "id": "sentence_ko_135",
+        "id": "sentence_ko_a1_135",
         "text": "책이 책상 위에 있습니다.",
         "translation": "书在桌上。",
         "words": [
@@ -3675,7 +3675,7 @@
         ]
     },
     {
-        "id": "sentence_ko_136",
+        "id": "sentence_ko_a1_136",
         "text": "컴퓨터가 책상 위에 있습니다.",
         "translation": "电脑在桌上。",
         "words": [
@@ -3689,7 +3689,7 @@
         ]
     },
     {
-        "id": "sentence_ko_137",
+        "id": "sentence_ko_a1_137",
         "text": "가방이 의자 아래에 있습니다.",
         "translation": "包在椅子下面。",
         "words": [
@@ -3703,7 +3703,7 @@
         ]
     },
     {
-        "id": "sentence_ko_138",
+        "id": "sentence_ko_a1_138",
         "text": "휴대폰이 가방 안에 있습니다.",
         "translation": "手机在包里。",
         "words": [
@@ -3717,7 +3717,7 @@
         ]
     },
     {
-        "id": "sentence_ko_139",
+        "id": "sentence_ko_a1_139",
         "text": "열쇠가 어디에 있습니까?",
         "translation": "钥匙在哪里？",
         "words": [
@@ -3731,7 +3731,7 @@
         ]
     },
     {
-        "id": "sentence_ko_140",
+        "id": "sentence_ko_a1_140",
         "text": "안경이 책상 위에 없습니다.",
         "translation": "眼镜不在桌上。",
         "words": [
@@ -3745,7 +3745,7 @@
         ]
     },
     {
-        "id": "sentence_ko_141",
+        "id": "sentence_ko_a1_141",
         "text": "우산이 문 옆에 있습니다.",
         "translation": "雨伞在门旁边。",
         "words": [
@@ -3758,7 +3758,7 @@
         ]
     },
     {
-        "id": "sentence_ko_142",
+        "id": "sentence_ko_a1_142",
         "text": "가위가 책상 위에 있습니다.",
         "translation": "剪刀在桌上。",
         "words": [
@@ -3772,7 +3772,7 @@
         ]
     },
     {
-        "id": "sentence_ko_143",
+        "id": "sentence_ko_a1_143",
         "text": "친구를 만납니다.",
         "translation": "见朋友。",
         "words": [
@@ -3785,7 +3785,7 @@
         ]
     },
     {
-        "id": "sentence_ko_144",
+        "id": "sentence_ko_a1_144",
         "text": "책을 찾지 않습니다.",
         "translation": "不找书。",
         "words": [
@@ -3799,7 +3799,7 @@
         ]
     },
     {
-        "id": "sentence_ko_145",
+        "id": "sentence_ko_a1_145",
         "text": "컴퓨터를 사용합니다.",
         "translation": "使用电脑。",
         "words": [
@@ -3813,7 +3813,7 @@
         ]
     },
     {
-        "id": "sentence_ko_146",
+        "id": "sentence_ko_a1_146",
         "text": "한국어를 잘 못합니다.",
         "translation": "韩语说得不好。",
         "words": [
@@ -3826,7 +3826,7 @@
         ]
     },
     {
-        "id": "sentence_ko_147",
+        "id": "sentence_ko_a1_147",
         "text": "오늘은 못 갑니다.",
         "translation": "今天去不了。",
         "words": [
@@ -3840,7 +3840,7 @@
         ]
     },
     {
-        "id": "sentence_ko_148",
+        "id": "sentence_ko_a1_148",
         "text": "문을 엽니다.",
         "translation": "开门。",
         "words": [
@@ -3853,7 +3853,7 @@
         ]
     },
     {
-        "id": "sentence_ko_149",
+        "id": "sentence_ko_a1_149",
         "text": "수업이 끝났습니다.",
         "translation": "课结束了。",
         "words": [
@@ -3867,7 +3867,7 @@
         ]
     },
     {
-        "id": "sentence_ko_150",
+        "id": "sentence_ko_a1_150",
         "text": "지금 시작합니다.",
         "translation": "现在开始。",
         "words": [
@@ -3881,7 +3881,7 @@
         ]
     },
     {
-        "id": "sentence_ko_151",
+        "id": "sentence_ko_a1_151",
         "text": "이 음식은 매워요.",
         "translation": "这个菜很辣。",
         "words": [
@@ -3895,7 +3895,7 @@
         ]
     },
     {
-        "id": "sentence_ko_152",
+        "id": "sentence_ko_a1_152",
         "text": "김치는 조금 짭니다.",
         "translation": "泡菜有点咸。",
         "words": [
@@ -3909,7 +3909,7 @@
         ]
     },
     {
-        "id": "sentence_ko_153",
+        "id": "sentence_ko_a1_153",
         "text": "이 과일은 달아요.",
         "translation": "这个水果很甜。",
         "words": [
@@ -3922,7 +3922,7 @@
         ]
     },
     {
-        "id": "sentence_ko_154",
+        "id": "sentence_ko_a1_154",
         "text": "레몬은 시어요.",
         "translation": "柠檬很酸。",
         "words": [
@@ -3935,7 +3935,7 @@
         ]
     },
     {
-        "id": "sentence_ko_155",
+        "id": "sentence_ko_a1_155",
         "text": "커피가 써요.",
         "translation": "咖啡很苦。",
         "words": [
@@ -3949,7 +3949,7 @@
         ]
     },
     {
-        "id": "sentence_ko_156",
+        "id": "sentence_ko_a1_156",
         "text": "메뉴 좀 주세요.",
         "translation": "请给我菜单。",
         "words": [
@@ -3962,7 +3962,7 @@
         ]
     },
     {
-        "id": "sentence_ko_157",
+        "id": "sentence_ko_a1_157",
         "text": "음료는 무엇입니까?",
         "translation": "饮料是什么？",
         "words": [
@@ -3976,7 +3976,7 @@
         ]
     },
     {
-        "id": "sentence_ko_158",
+        "id": "sentence_ko_a1_158",
         "text": "식당에서 밥을 먹습니다.",
         "translation": "在餐厅吃饭。",
         "words": [
@@ -3991,7 +3991,7 @@
         ]
     },
     {
-        "id": "sentence_ko_159",
+        "id": "sentence_ko_a1_159",
         "text": "아침에 운동하고 샤워합니다.",
         "translation": "早上运动后洗澡。",
         "words": [
@@ -4006,7 +4006,7 @@
         ]
     },
     {
-        "id": "sentence_ko_160",
+        "id": "sentence_ko_a1_160",
         "text": "운동하고 나서 샤워합니다.",
         "translation": "运动完之后洗澡。",
         "words": [
@@ -4020,7 +4020,7 @@
         ]
     },
     {
-        "id": "sentence_ko_161",
+        "id": "sentence_ko_a1_161",
         "text": "이를 닦고 세수합니다.",
         "translation": "刷牙后洗脸。",
         "words": [
@@ -4033,7 +4033,7 @@
         ]
     },
     {
-        "id": "sentence_ko_162",
+        "id": "sentence_ko_a1_162",
         "text": "옷을 입습니다.",
         "translation": "穿衣服。",
         "words": [
@@ -4047,7 +4047,7 @@
         ]
     },
     {
-        "id": "sentence_ko_163",
+        "id": "sentence_ko_a1_163",
         "text": "밥을 먹고 나서 산책합니다.",
         "translation": "吃完饭之后散步。",
         "words": [
@@ -4062,7 +4062,7 @@
         ]
     },
     {
-        "id": "sentence_ko_164",
+        "id": "sentence_ko_a1_164",
         "text": "오후에는 일합니다.",
         "translation": "下午工作。",
         "words": [
@@ -4076,7 +4076,7 @@
         ]
     },
     {
-        "id": "sentence_ko_165",
+        "id": "sentence_ko_a1_165",
         "text": "저녁에 집에서 쉽니다.",
         "translation": "晚上在家休息。",
         "words": [
@@ -4091,7 +4091,7 @@
         ]
     },
     {
-        "id": "sentence_ko_166",
+        "id": "sentence_ko_a1_166",
         "text": "바쁘고 피곤합니다.",
         "translation": "又忙又累。",
         "words": [
@@ -4105,7 +4105,7 @@
         ]
     },
     {
-        "id": "sentence_ko_167",
+        "id": "sentence_ko_a1_255",
         "text": "나이가 어떻게 되십니까?",
         "translation": "您多大年纪？",
         "words": [
@@ -4118,7 +4118,7 @@
         ]
     },
     {
-        "id": "sentence_ko_168",
+        "id": "sentence_ko_a1_256",
         "text": "저는 스물 살입니다.",
         "translation": "我二十岁。",
         "words": [
@@ -4133,7 +4133,7 @@
         ]
     },
     {
-        "id": "sentence_ko_169",
+        "id": "sentence_ko_a1_257",
         "text": "동생은 열 살입니다.",
         "translation": "弟弟十岁。",
         "words": [
@@ -4148,7 +4148,7 @@
         ]
     },
     {
-        "id": "sentence_ko_170",
+        "id": "sentence_ko_a1_258",
         "text": "생일이 언제입니까?",
         "translation": "生日是什么时候？",
         "words": [
@@ -4161,7 +4161,7 @@
         ]
     },
     {
-        "id": "sentence_ko_171",
+        "id": "sentence_ko_a1_259",
         "text": "제 생일은 오월입니다.",
         "translation": "我的生日是五月。",
         "words": [
@@ -4174,7 +4174,7 @@
         ]
     },
     {
-        "id": "sentence_ko_172",
+        "id": "sentence_ko_a1_260",
         "text": "주소가 어디입니까?",
         "translation": "住址是哪里？",
         "words": [
@@ -4188,7 +4188,7 @@
         ]
     },
     {
-        "id": "sentence_ko_173",
+        "id": "sentence_ko_a1_261",
         "text": "저는 서울에 삽니다.",
         "translation": "我住在首尔。",
         "words": [
@@ -4201,7 +4201,7 @@
         ]
     },
     {
-        "id": "sentence_ko_174",
+        "id": "sentence_ko_a1_262",
         "text": "저는 학생이고 스물 살입니다.",
         "translation": "我是学生，二十岁。",
         "words": [
@@ -4217,7 +4217,7 @@
         ]
     },
     {
-        "id": "sentence_ko_401",
+        "id": "sentence_ko_a1_263",
         "text": "사과가 몇 개입니까?",
         "translation": "苹果有几个？",
         "words": [
@@ -4231,7 +4231,7 @@
         ]
     },
     {
-        "id": "sentence_ko_402",
+        "id": "sentence_ko_a1_264",
         "text": "세 개입니다.",
         "translation": "三个。",
         "words": [
@@ -4244,7 +4244,7 @@
         ]
     },
     {
-        "id": "sentence_ko_403",
+        "id": "sentence_ko_a1_265",
         "text": "책이 두 권 있습니다.",
         "translation": "有两本书。",
         "words": [
@@ -4259,7 +4259,7 @@
         ]
     },
     {
-        "id": "sentence_ko_404",
+        "id": "sentence_ko_a1_266",
         "text": "물 세 병을 삽니다.",
         "translation": "买三瓶水。",
         "words": [
@@ -4274,7 +4274,7 @@
         ]
     },
     {
-        "id": "sentence_ko_405",
+        "id": "sentence_ko_a1_267",
         "text": "커피 한 잔 주세요.",
         "translation": "请给我一杯咖啡。",
         "words": [
@@ -4288,7 +4288,7 @@
         ]
     },
     {
-        "id": "sentence_ko_406",
+        "id": "sentence_ko_a1_268",
         "text": "차가 몇 대입니까?",
         "translation": "车有几台？",
         "words": [
@@ -4302,7 +4302,7 @@
         ]
     },
     {
-        "id": "sentence_ko_407",
+        "id": "sentence_ko_a1_269",
         "text": "종이 두 장이 필요합니다.",
         "translation": "需要两张纸。",
         "words": [
@@ -4316,7 +4316,7 @@
         ]
     },
     {
-        "id": "sentence_ko_408",
+        "id": "sentence_ko_a1_270",
         "text": "지갑에 만 원이 있습니다.",
         "translation": "钱包里有一万韩元。",
         "words": [
@@ -4330,7 +4330,7 @@
         ]
     },
     {
-        "id": "sentence_ko_409",
+        "id": "sentence_ko_a1_271",
         "text": "한국에 가서 친구를 만났습니다.",
         "translation": "去韩国见了朋友。",
         "words": [
@@ -4344,7 +4344,7 @@
         ]
     },
     {
-        "id": "sentence_ko_410",
+        "id": "sentence_ko_a1_272",
         "text": "집에 와서 밥을 먹습니다.",
         "translation": "回家然后吃饭。",
         "words": [
@@ -4360,7 +4360,7 @@
         ]
     },
     {
-        "id": "sentence_ko_411",
+        "id": "sentence_ko_a1_273",
         "text": "비가 와서 집에 있었습니다.",
         "translation": "因为下雨待在家。",
         "words": [
@@ -4376,7 +4376,7 @@
         ]
     },
     {
-        "id": "sentence_ko_412",
+        "id": "sentence_ko_a1_274",
         "text": "학교에 다닙니다.",
         "translation": "上学。",
         "words": [
@@ -4390,7 +4390,7 @@
         ]
     },
     {
-        "id": "sentence_ko_413",
+        "id": "sentence_ko_a1_275",
         "text": "잠깐 나갑니다.",
         "translation": "出去一下。",
         "words": [
@@ -4403,7 +4403,7 @@
         ]
     },
     {
-        "id": "sentence_ko_414",
+        "id": "sentence_ko_a1_276",
         "text": "방에 들어갑니다.",
         "translation": "进房间。",
         "words": [
@@ -4416,7 +4416,7 @@
         ]
     },
     {
-        "id": "sentence_ko_415",
+        "id": "sentence_ko_a1_277",
         "text": "곧 돌아옵니다.",
         "translation": "马上回来。",
         "words": [
@@ -4429,7 +4429,7 @@
         ]
     },
     {
-        "id": "sentence_ko_416",
+        "id": "sentence_ko_a1_278",
         "text": "학교까지 걸어갑니다.",
         "translation": "走到学校。",
         "words": [
@@ -4443,7 +4443,7 @@
         ]
     },
     {
-        "id": "sentence_ko_417",
+        "id": "sentence_ko_a1_167",
         "text": "은행에 갑니다.",
         "translation": "去银行。",
         "words": [
@@ -4457,7 +4457,7 @@
         ]
     },
     {
-        "id": "sentence_ko_418",
+        "id": "sentence_ko_a1_168",
         "text": "공원에서 친구를 만납니다.",
         "translation": "在公园见朋友。",
         "words": [
@@ -4471,7 +4471,7 @@
         ]
     },
     {
-        "id": "sentence_ko_419",
+        "id": "sentence_ko_a1_169",
         "text": "백화점에 갑니다.",
         "translation": "去百货商店。",
         "words": [
@@ -4485,7 +4485,7 @@
         ]
     },
     {
-        "id": "sentence_ko_420",
+        "id": "sentence_ko_a1_170",
         "text": "서점에서 책을 삽니다.",
         "translation": "在书店买书。",
         "words": [
@@ -4500,7 +4500,7 @@
         ]
     },
     {
-        "id": "sentence_ko_421",
+        "id": "sentence_ko_a1_171",
         "text": "극장에 갑니다.",
         "translation": "去电影院。",
         "words": [
@@ -4514,7 +4514,7 @@
         ]
     },
     {
-        "id": "sentence_ko_422",
+        "id": "sentence_ko_a1_172",
         "text": "도서관에서 공부합니다.",
         "translation": "在图书馆学习。",
         "words": [
@@ -4528,7 +4528,7 @@
         ]
     },
     {
-        "id": "sentence_ko_423",
+        "id": "sentence_ko_a1_173",
         "text": "약국에 갑니다.",
         "translation": "去药店。",
         "words": [
@@ -4542,7 +4542,7 @@
         ]
     },
     {
-        "id": "sentence_ko_424",
+        "id": "sentence_ko_a1_174",
         "text": "집으로 돌아갑니다.",
         "translation": "往家回。",
         "words": [
@@ -4555,7 +4555,7 @@
         ]
     },
     {
-        "id": "sentence_ko_425",
+        "id": "sentence_ko_a1_279",
         "text": "집에서 학교까지 멉니까?",
         "translation": "从家到学校远吗？",
         "words": [
@@ -4570,7 +4570,7 @@
         ]
     },
     {
-        "id": "sentence_ko_426",
+        "id": "sentence_ko_a1_280",
         "text": "아니요, 가깝습니다.",
         "translation": "不，很近。",
         "words": [
@@ -4583,7 +4583,7 @@
         ]
     },
     {
-        "id": "sentence_ko_427",
+        "id": "sentence_ko_a1_281",
         "text": "여기에서 역까지 얼마나 걸립니까?",
         "translation": "从这里到车站要多久？",
         "words": [
@@ -4599,7 +4599,7 @@
         ]
     },
     {
-        "id": "sentence_ko_428",
+        "id": "sentence_ko_a1_282",
         "text": "십오 분 걸립니다.",
         "translation": "要十五分钟。",
         "words": [
@@ -4612,7 +4612,7 @@
         ]
     },
     {
-        "id": "sentence_ko_429",
+        "id": "sentence_ko_a1_283",
         "text": "버스로 갑니까?",
         "translation": "坐公交去吗？",
         "words": [
@@ -4626,7 +4626,7 @@
         ]
     },
     {
-        "id": "sentence_ko_430",
+        "id": "sentence_ko_a1_284",
         "text": "아니요, 지하철로 갑니다.",
         "translation": "不，坐地铁去。",
         "words": [
@@ -4640,7 +4640,7 @@
         ]
     },
     {
-        "id": "sentence_ko_431",
+        "id": "sentence_ko_a1_285",
         "text": "시청까지 어떻게 갑니까?",
         "translation": "怎么去市政府？",
         "words": [
@@ -4655,7 +4655,7 @@
         ]
     },
     {
-        "id": "sentence_ko_432",
+        "id": "sentence_ko_a1_286",
         "text": "걸어서 갑니다.",
         "translation": "走路去。",
         "words": [
@@ -4668,7 +4668,7 @@
         ]
     },
     {
-        "id": "sentence_ko_433",
+        "id": "sentence_ko_a1_175",
         "text": "월요일부터 금요일까지 바쁩니다.",
         "translation": "周一到周五很忙。",
         "words": [
@@ -4683,7 +4683,7 @@
         ]
     },
     {
-        "id": "sentence_ko_434",
+        "id": "sentence_ko_a1_176",
         "text": "아홉 시부터 여섯 시까지 일합니다.",
         "translation": "从九点工作到六点。",
         "words": [
@@ -4697,7 +4697,7 @@
         ]
     },
     {
-        "id": "sentence_ko_435",
+        "id": "sentence_ko_a1_177",
         "text": "월요일에 만납시다.",
         "translation": "周一见吧。",
         "words": [
@@ -4710,7 +4710,7 @@
         ]
     },
     {
-        "id": "sentence_ko_436",
+        "id": "sentence_ko_a1_178",
         "text": "수요일 오후 세 시에 만납니다.",
         "translation": "周三下午三点见。",
         "words": [
@@ -4725,7 +4725,7 @@
         ]
     },
     {
-        "id": "sentence_ko_437",
+        "id": "sentence_ko_a1_179",
         "text": "토요일은 쉽니다.",
         "translation": "周六休息。",
         "words": [
@@ -4739,7 +4739,7 @@
         ]
     },
     {
-        "id": "sentence_ko_438",
+        "id": "sentence_ko_a1_180",
         "text": "일요일에도 일합니까?",
         "translation": "周日也工作吗？",
         "words": [
@@ -4753,7 +4753,7 @@
         ]
     },
     {
-        "id": "sentence_ko_439",
+        "id": "sentence_ko_a1_181",
         "text": "오늘은 금요일입니다.",
         "translation": "今天是周五。",
         "words": [
@@ -4767,7 +4767,7 @@
         ]
     },
     {
-        "id": "sentence_ko_440",
+        "id": "sentence_ko_a1_182",
         "text": "내일은 토요일입니다.",
         "translation": "明天是周六。",
         "words": [
@@ -4781,7 +4781,7 @@
         ]
     },
     {
-        "id": "sentence_ko_441",
+        "id": "sentence_ko_a1_183",
         "text": "빨간색으로 주세요.",
         "translation": "请给我红色的。",
         "words": [
@@ -4794,7 +4794,7 @@
         ]
     },
     {
-        "id": "sentence_ko_442",
+        "id": "sentence_ko_a1_184",
         "text": "파란색도 있습니까?",
         "translation": "也有蓝色的吗？",
         "words": [
@@ -4808,7 +4808,7 @@
         ]
     },
     {
-        "id": "sentence_ko_443",
+        "id": "sentence_ko_a1_185",
         "text": "검은색으로 주세요.",
         "translation": "请给我黑色的。",
         "words": [
@@ -4821,7 +4821,7 @@
         ]
     },
     {
-        "id": "sentence_ko_444",
+        "id": "sentence_ko_a1_186",
         "text": "흰색이 좋습니다.",
         "translation": "白色好。",
         "words": [
@@ -4835,7 +4835,7 @@
         ]
     },
     {
-        "id": "sentence_ko_445",
+        "id": "sentence_ko_a1_187",
         "text": "입어 봐도 됩니까?",
         "translation": "可以试穿吗？",
         "words": [
@@ -4848,7 +4848,7 @@
         ]
     },
     {
-        "id": "sentence_ko_446",
+        "id": "sentence_ko_a1_188",
         "text": "큰 사이즈가 있습니까?",
         "translation": "有大码吗？",
         "words": [
@@ -4863,7 +4863,7 @@
         ]
     },
     {
-        "id": "sentence_ko_447",
+        "id": "sentence_ko_a1_189",
         "text": "작은 사이즈는 없습니다.",
         "translation": "没有小码。",
         "words": [
@@ -4877,7 +4877,7 @@
         ]
     },
     {
-        "id": "sentence_ko_448",
+        "id": "sentence_ko_a1_190",
         "text": "이 색깔이 예쁩니다.",
         "translation": "这个颜色很漂亮。",
         "words": [
@@ -4890,7 +4890,7 @@
         ]
     },
     {
-        "id": "sentence_ko_449",
+        "id": "sentence_ko_a1_287",
         "text": "교환하고 싶습니다.",
         "translation": "想换货。",
         "words": [
@@ -4903,7 +4903,7 @@
         ]
     },
     {
-        "id": "sentence_ko_450",
+        "id": "sentence_ko_a1_288",
         "text": "환불할 수 있습니까?",
         "translation": "可以退款吗？",
         "words": [
@@ -4916,7 +4916,7 @@
         ]
     },
     {
-        "id": "sentence_ko_451",
+        "id": "sentence_ko_a1_289",
         "text": "영수증이 필요합니다.",
         "translation": "需要收据。",
         "words": [
@@ -4929,7 +4929,7 @@
         ]
     },
     {
-        "id": "sentence_ko_452",
+        "id": "sentence_ko_a1_290",
         "text": "현금으로 계산합니다.",
         "translation": "付现金。",
         "words": [
@@ -4943,7 +4943,7 @@
         ]
     },
     {
-        "id": "sentence_ko_453",
+        "id": "sentence_ko_a1_291",
         "text": "카드로 계산해 주세요.",
         "translation": "请刷卡。",
         "words": [
@@ -4957,7 +4957,7 @@
         ]
     },
     {
-        "id": "sentence_ko_454",
+        "id": "sentence_ko_a1_292",
         "text": "포장해 주세요.",
         "translation": "请打包。",
         "words": [
@@ -4970,7 +4970,7 @@
         ]
     },
     {
-        "id": "sentence_ko_455",
+        "id": "sentence_ko_a1_293",
         "text": "여기에서 환전할 수 있습니까?",
         "translation": "这里可以换钱吗？",
         "words": [
@@ -4984,7 +4984,7 @@
         ]
     },
     {
-        "id": "sentence_ko_456",
+        "id": "sentence_ko_a1_294",
         "text": "다른 것으로 교환하고 싶습니다.",
         "translation": "想换别的。",
         "words": [
@@ -4997,7 +4997,7 @@
         ]
     },
     {
-        "id": "sentence_ko_457",
+        "id": "sentence_ko_a1_295",
         "text": "뭐 드시겠습니까?",
         "translation": "您吃什么？",
         "words": [
@@ -5010,7 +5010,7 @@
         ]
     },
     {
-        "id": "sentence_ko_458",
+        "id": "sentence_ko_a1_296",
         "text": "비빔밥을 먹겠습니다.",
         "translation": "我吃拌饭。",
         "words": [
@@ -5023,7 +5023,7 @@
         ]
     },
     {
-        "id": "sentence_ko_459",
+        "id": "sentence_ko_a1_297",
         "text": "추천해 주세요.",
         "translation": "请推荐一下。",
         "words": [
@@ -5036,7 +5036,7 @@
         ]
     },
     {
-        "id": "sentence_ko_460",
+        "id": "sentence_ko_a1_298",
         "text": "여기요, 주문할게요.",
         "translation": "劳驾，我点餐。",
         "words": [
@@ -5050,7 +5050,7 @@
         ]
     },
     {
-        "id": "sentence_ko_461",
+        "id": "sentence_ko_a1_299",
         "text": "물 좀 주세요.",
         "translation": "请给我点水。",
         "words": [
@@ -5063,7 +5063,7 @@
         ]
     },
     {
-        "id": "sentence_ko_462",
+        "id": "sentence_ko_a1_300",
         "text": "식사하셨습니까?",
         "translation": "您吃饭了吗？",
         "words": [
@@ -5076,7 +5076,7 @@
         ]
     },
     {
-        "id": "sentence_ko_463",
+        "id": "sentence_ko_a1_301",
         "text": "계산해 주세요.",
         "translation": "请结账。",
         "words": [
@@ -5089,7 +5089,7 @@
         ]
     },
     {
-        "id": "sentence_ko_464",
+        "id": "sentence_ko_a1_302",
         "text": "커피를 마시겠습니다.",
         "translation": "我喝咖啡。",
         "words": [
@@ -5102,7 +5102,7 @@
         ]
     },
     {
-        "id": "sentence_ko_465",
+        "id": "sentence_ko_a1_191",
         "text": "계절이 변합니다.",
         "translation": "季节在变。",
         "words": [
@@ -5115,7 +5115,7 @@
         ]
     },
     {
-        "id": "sentence_ko_466",
+        "id": "sentence_ko_a1_192",
         "text": "봄에는 따뜻합니다.",
         "translation": "春天温暖。",
         "words": [
@@ -5129,7 +5129,7 @@
         ]
     },
     {
-        "id": "sentence_ko_467",
+        "id": "sentence_ko_a1_193",
         "text": "여름에는 덥습니다.",
         "translation": "夏天热。",
         "words": [
@@ -5143,7 +5143,7 @@
         ]
     },
     {
-        "id": "sentence_ko_468",
+        "id": "sentence_ko_a1_194",
         "text": "가을에는 시원합니다.",
         "translation": "秋天凉爽。",
         "words": [
@@ -5157,7 +5157,7 @@
         ]
     },
     {
-        "id": "sentence_ko_469",
+        "id": "sentence_ko_a1_195",
         "text": "겨울에는 춥습니다.",
         "translation": "冬天冷。",
         "words": [
@@ -5171,7 +5171,7 @@
         ]
     },
     {
-        "id": "sentence_ko_470",
+        "id": "sentence_ko_a1_196",
         "text": "날씨가 따뜻해집니다.",
         "translation": "天气变暖了。",
         "words": [
@@ -5185,7 +5185,7 @@
         ]
     },
     {
-        "id": "sentence_ko_471",
+        "id": "sentence_ko_a1_197",
         "text": "오늘은 맑습니다.",
         "translation": "今天晴朗。",
         "words": [
@@ -5199,7 +5199,7 @@
         ]
     },
     {
-        "id": "sentence_ko_472",
+        "id": "sentence_ko_a1_198",
         "text": "내일은 흐리겠습니다.",
         "translation": "明天大概会阴。",
         "words": [
@@ -5212,7 +5212,7 @@
         ]
     },
     {
-        "id": "sentence_ko_473",
+        "id": "sentence_ko_a1_199",
         "text": "주말에 무엇을 합니까?",
         "translation": "周末做什么？",
         "words": [
@@ -5226,7 +5226,7 @@
         ]
     },
     {
-        "id": "sentence_ko_474",
+        "id": "sentence_ko_a1_200",
         "text": "주말에 등산을 합니다.",
         "translation": "周末去登山。",
         "words": [
@@ -5240,7 +5240,7 @@
         ]
     },
     {
-        "id": "sentence_ko_475",
+        "id": "sentence_ko_a1_201",
         "text": "시간이 있을 때 사진을 찍습니다.",
         "translation": "有时间的时候拍照。",
         "words": [
@@ -5255,7 +5255,7 @@
         ]
     },
     {
-        "id": "sentence_ko_476",
+        "id": "sentence_ko_a1_202",
         "text": "가끔 낚시를 해 봅니다.",
         "translation": "偶尔试试钓鱼。",
         "words": [
@@ -5269,7 +5269,7 @@
         ]
     },
     {
-        "id": "sentence_ko_477",
+        "id": "sentence_ko_a1_203",
         "text": "자주 그림을 그립니다.",
         "translation": "经常画画。",
         "words": [
@@ -5283,7 +5283,7 @@
         ]
     },
     {
-        "id": "sentence_ko_478",
+        "id": "sentence_ko_a1_204",
         "text": "등산을 해 봅니다.",
         "translation": "试试登山。",
         "words": [
@@ -5296,7 +5296,7 @@
         ]
     },
     {
-        "id": "sentence_ko_479",
+        "id": "sentence_ko_a1_205",
         "text": "주말일 때 등산을 합니다.",
         "translation": "周末的时候去登山。",
         "words": [
@@ -5310,7 +5310,7 @@
         ]
     },
     {
-        "id": "sentence_ko_480",
+        "id": "sentence_ko_a1_206",
         "text": "사진 찍는 것을 좋아합니다.",
         "translation": "喜欢拍照。",
         "words": [
@@ -5325,7 +5325,7 @@
         ]
     },
     {
-        "id": "sentence_ko_481",
+        "id": "sentence_ko_a1_207",
         "text": "우리 가족을 소개합니다.",
         "translation": "介绍我的家人。",
         "words": [
@@ -5339,7 +5339,7 @@
         ]
     },
     {
-        "id": "sentence_ko_482",
+        "id": "sentence_ko_a1_208",
         "text": "저는 형이 한 명 있습니다.",
         "translation": "我有一个哥哥（男说）。",
         "words": [
@@ -5354,7 +5354,7 @@
         ]
     },
     {
-        "id": "sentence_ko_483",
+        "id": "sentence_ko_a1_209",
         "text": "저는 언니가 두 명 있습니다.",
         "translation": "我有两个姐姐（女说）。",
         "words": [
@@ -5369,7 +5369,7 @@
         ]
     },
     {
-        "id": "sentence_ko_484",
+        "id": "sentence_ko_a1_210",
         "text": "아버지가 계시고 어머니가 계십니다.",
         "translation": "有父亲和母亲。",
         "words": [
@@ -5383,7 +5383,7 @@
         ]
     },
     {
-        "id": "sentence_ko_485",
+        "id": "sentence_ko_a1_211",
         "text": "부모님은 결혼하셨습니다.",
         "translation": "父母结婚了。",
         "words": [
@@ -5397,7 +5397,7 @@
         ]
     },
     {
-        "id": "sentence_ko_486",
+        "id": "sentence_ko_a1_212",
         "text": "자녀가 몇 명입니까?",
         "translation": "有几个子女？",
         "words": [
@@ -5411,7 +5411,7 @@
         ]
     },
     {
-        "id": "sentence_ko_487",
+        "id": "sentence_ko_a1_213",
         "text": "부부가 함께 삽니다.",
         "translation": "夫妇一起住。",
         "words": [
@@ -5424,7 +5424,7 @@
         ]
     },
     {
-        "id": "sentence_ko_488",
+        "id": "sentence_ko_a1_214",
         "text": "동생은 대학생입니다.",
         "translation": "弟弟（妹妹）是大学生。",
         "words": [
@@ -5438,7 +5438,7 @@
         ]
     },
     {
-        "id": "sentence_ko_489",
+        "id": "sentence_ko_a1_303",
         "text": "지금은 자고 있습니다.",
         "translation": "现在正在睡。",
         "words": [
@@ -5452,7 +5452,7 @@
         ]
     },
     {
-        "id": "sentence_ko_490",
+        "id": "sentence_ko_a1_304",
         "text": "아직 공부하고 있습니다.",
         "translation": "还在学习。",
         "words": [
@@ -5466,7 +5466,7 @@
         ]
     },
     {
-        "id": "sentence_ko_491",
+        "id": "sentence_ko_a1_305",
         "text": "문이 열려 있습니다.",
         "translation": "门开着。",
         "words": [
@@ -5479,7 +5479,7 @@
         ]
     },
     {
-        "id": "sentence_ko_492",
+        "id": "sentence_ko_a1_306",
         "text": "벌써 일어났습니다.",
         "translation": "已经起床了。",
         "words": [
@@ -5493,7 +5493,7 @@
         ]
     },
     {
-        "id": "sentence_ko_493",
+        "id": "sentence_ko_a1_307",
         "text": "일찍 일어납니다.",
         "translation": "早起。",
         "words": [
@@ -5507,7 +5507,7 @@
         ]
     },
     {
-        "id": "sentence_ko_494",
+        "id": "sentence_ko_a1_308",
         "text": "늦게 잡니다.",
         "translation": "晚睡。",
         "words": [
@@ -5521,7 +5521,7 @@
         ]
     },
     {
-        "id": "sentence_ko_495",
+        "id": "sentence_ko_a1_309",
         "text": "지금은 밥을 먹고 있습니다.",
         "translation": "现在正在吃饭。",
         "words": [
@@ -5536,7 +5536,7 @@
         ]
     },
     {
-        "id": "sentence_ko_496",
+        "id": "sentence_ko_a1_310",
         "text": "아직 안 먹었습니다.",
         "translation": "还没吃。",
         "words": [
@@ -5550,7 +5550,7 @@
         ]
     },
     {
-        "id": "sentence_ko_497",
+        "id": "sentence_ko_a1_215",
         "text": "교통카드로 탑니다.",
         "translation": "用交通卡乘坐。",
         "words": [
@@ -5564,7 +5564,7 @@
         ]
     },
     {
-        "id": "sentence_ko_498",
+        "id": "sentence_ko_a1_216",
         "text": "요금이 얼마입니까?",
         "translation": "票价多少？",
         "words": [
@@ -5578,7 +5578,7 @@
         ]
     },
     {
-        "id": "sentence_ko_499",
+        "id": "sentence_ko_a1_217",
         "text": "현금으로 삽니다.",
         "translation": "用现金买。",
         "words": [
@@ -5592,7 +5592,7 @@
         ]
     },
     {
-        "id": "sentence_ko_500",
+        "id": "sentence_ko_a1_218",
         "text": "2호선으로 갈아탑니다.",
         "translation": "换乘2号线。",
         "words": [
@@ -5606,7 +5606,7 @@
         ]
     },
     {
-        "id": "sentence_ko_501",
+        "id": "sentence_ko_a1_219",
         "text": "교통카드를 충전합니다.",
         "translation": "给交通卡充值。",
         "words": [
@@ -5620,7 +5620,7 @@
         ]
     },
     {
-        "id": "sentence_ko_502",
+        "id": "sentence_ko_a1_220",
         "text": "여기에서 갈아탑니까?",
         "translation": "在这里换乘吗？",
         "words": [
@@ -5634,7 +5634,7 @@
         ]
     },
     {
-        "id": "sentence_ko_503",
+        "id": "sentence_ko_a1_221",
         "text": "종착역까지 갑니다.",
         "translation": "去终点站。",
         "words": [
@@ -5648,7 +5648,7 @@
         ]
     },
     {
-        "id": "sentence_ko_504",
+        "id": "sentence_ko_a1_222",
         "text": "교환역에서 내립니다.",
         "translation": "在换乘站下车。",
         "words": [
@@ -5662,7 +5662,7 @@
         ]
     },
     {
-        "id": "sentence_ko_505",
+        "id": "sentence_ko_a1_223",
         "text": "지금 통화 중입니다.",
         "translation": "现在正在通话中。",
         "words": [
@@ -5675,7 +5675,7 @@
         ]
     },
     {
-        "id": "sentence_ko_506",
+        "id": "sentence_ko_a1_224",
         "text": "전원이 꺼져 있습니다.",
         "translation": "手机关机了。",
         "words": [
@@ -5689,7 +5689,7 @@
         ]
     },
     {
-        "id": "sentence_ko_507",
+        "id": "sentence_ko_a1_225",
         "text": "메시지를 남겨 주세요.",
         "translation": "请留言。",
         "words": [
@@ -5703,7 +5703,7 @@
         ]
     },
     {
-        "id": "sentence_ko_508",
+        "id": "sentence_ko_a1_226",
         "text": "내일 다시 전화한다고 전해 주세요.",
         "translation": "请转告我明天再打电话。",
         "words": [
@@ -5718,7 +5718,7 @@
         ]
     },
     {
-        "id": "sentence_ko_509",
+        "id": "sentence_ko_a1_227",
         "text": "회의하는 중입니다.",
         "translation": "正在开会中。",
         "words": [
@@ -5731,7 +5731,7 @@
         ]
     },
     {
-        "id": "sentence_ko_510",
+        "id": "sentence_ko_a1_228",
         "text": "다시 전화해 주세요.",
         "translation": "请再打一次。",
         "words": [
@@ -5744,7 +5744,7 @@
         ]
     },
     {
-        "id": "sentence_ko_511",
+        "id": "sentence_ko_a1_229",
         "text": "메시지를 받았습니다.",
         "translation": "收到了留言。",
         "words": [
@@ -5758,7 +5758,7 @@
         ]
     },
     {
-        "id": "sentence_ko_512",
+        "id": "sentence_ko_a1_230",
         "text": "전달해 주셔서 감사합니다.",
         "translation": "谢谢您转达。",
         "words": [
@@ -5772,7 +5772,7 @@
         ]
     },
     {
-        "id": "sentence_ko_513",
+        "id": "sentence_ko_a1_231",
         "text": "술을 마시지 마세요.",
         "translation": "请不要喝酒。",
         "words": [
@@ -5786,7 +5786,7 @@
         ]
     },
     {
-        "id": "sentence_ko_514",
+        "id": "sentence_ko_a1_232",
         "text": "술을 많이 마시면 안 됩니다.",
         "translation": "不可以喝太多酒。",
         "words": [
@@ -5800,7 +5800,7 @@
         ]
     },
     {
-        "id": "sentence_ko_515",
+        "id": "sentence_ko_a1_233",
         "text": "몸이 아픕니다.",
         "translation": "身体不舒服。",
         "words": [
@@ -5814,7 +5814,7 @@
         ]
     },
     {
-        "id": "sentence_ko_516",
+        "id": "sentence_ko_a1_234",
         "text": "다리가 아픕니다.",
         "translation": "腿疼。",
         "words": [
@@ -5828,7 +5828,7 @@
         ]
     },
     {
-        "id": "sentence_ko_517",
+        "id": "sentence_ko_a1_235",
         "text": "팔이 아픕니까?",
         "translation": "胳膊疼吗？",
         "words": [
@@ -5842,7 +5842,7 @@
         ]
     },
     {
-        "id": "sentence_ko_518",
+        "id": "sentence_ko_a1_236",
         "text": "눈이 아프면 안 됩니다.",
         "translation": "眼睛疼可不行。",
         "words": [
@@ -5856,7 +5856,7 @@
         ]
     },
     {
-        "id": "sentence_ko_519",
+        "id": "sentence_ko_a1_237",
         "text": "이를 잘 닦으세요.",
         "translation": "请好好刷牙。",
         "words": [
@@ -5870,7 +5870,7 @@
         ]
     },
     {
-        "id": "sentence_ko_520",
+        "id": "sentence_ko_a1_238",
         "text": "손을 씻으세요.",
         "translation": "请洗手。",
         "words": [
@@ -5884,7 +5884,7 @@
         ]
     },
     {
-        "id": "sentence_ko_521",
+        "id": "sentence_ko_a1_239",
         "text": "제주도에 가려고 합니다.",
         "translation": "打算去济州岛。",
         "words": [
@@ -5898,7 +5898,7 @@
         ]
     },
     {
-        "id": "sentence_ko_522",
+        "id": "sentence_ko_a1_240",
         "text": "호텔을 예약하려고 합니다.",
         "translation": "打算预订酒店。",
         "words": [
@@ -5912,7 +5912,7 @@
         ]
     },
     {
-        "id": "sentence_ko_523",
+        "id": "sentence_ko_a1_241",
         "text": "제주도에 갈까요?",
         "translation": "要不要去济州岛？",
         "words": [
@@ -5926,7 +5926,7 @@
         ]
     },
     {
-        "id": "sentence_ko_524",
+        "id": "sentence_ko_a1_242",
         "text": "비행기로 갑니다.",
         "translation": "坐飞机去。",
         "words": [
@@ -5940,7 +5940,7 @@
         ]
     },
     {
-        "id": "sentence_ko_525",
+        "id": "sentence_ko_a1_243",
         "text": "여권을 준비하세요.",
         "translation": "请准备护照。",
         "words": [
@@ -5953,7 +5953,7 @@
         ]
     },
     {
-        "id": "sentence_ko_526",
+        "id": "sentence_ko_a1_244",
         "text": "짐이 많습니다.",
         "translation": "行李很多。",
         "words": [
@@ -5966,7 +5966,7 @@
         ]
     },
     {
-        "id": "sentence_ko_527",
+        "id": "sentence_ko_a1_245",
         "text": "지도를 봅니다.",
         "translation": "看地图。",
         "words": [
@@ -5980,7 +5980,7 @@
         ]
     },
     {
-        "id": "sentence_ko_528",
+        "id": "sentence_ko_a1_246",
         "text": "같이 관광할까요?",
         "translation": "要不要一起去观光？",
         "words": [
@@ -5994,7 +5994,7 @@
         ]
     },
     {
-        "id": "sentence_ko_529",
+        "id": "sentence_ko_a1_247",
         "text": "방학에 한국에 가기로 했습니다.",
         "translation": "决定放假去韩国。",
         "words": [
@@ -6009,7 +6009,7 @@
         ]
     },
     {
-        "id": "sentence_ko_530",
+        "id": "sentence_ko_a1_248",
         "text": "여행하기 전에 계획을 세웁니다.",
         "translation": "旅行之前制定计划。",
         "words": [
@@ -6023,7 +6023,7 @@
         ]
     },
     {
-        "id": "sentence_ko_531",
+        "id": "sentence_ko_a1_249",
         "text": "이번 휴가에 무엇을 할 겁니까?",
         "translation": "这次休假打算做什么？",
         "words": [
@@ -6038,7 +6038,7 @@
         ]
     },
     {
-        "id": "sentence_ko_532",
+        "id": "sentence_ko_a1_250",
         "text": "제주도에 가기로 했습니다.",
         "translation": "决定去济州岛。",
         "words": [
@@ -6052,7 +6052,7 @@
         ]
     },
     {
-        "id": "sentence_ko_533",
+        "id": "sentence_ko_a1_251",
         "text": "약속이 있습니다.",
         "translation": "有约。",
         "words": [
@@ -6065,7 +6065,7 @@
         ]
     },
     {
-        "id": "sentence_ko_534",
+        "id": "sentence_ko_a1_252",
         "text": "다음 주에 만나기로 했습니다.",
         "translation": "决定下周见。",
         "words": [
@@ -6079,7 +6079,7 @@
         ]
     },
     {
-        "id": "sentence_ko_535",
+        "id": "sentence_ko_a1_253",
         "text": "준비를 다 했습니다.",
         "translation": "准备都做好了。",
         "words": [
@@ -6092,7 +6092,7 @@
         ]
     },
     {
-        "id": "sentence_ko_536",
+        "id": "sentence_ko_a1_254",
         "text": "이번 결정이 좋습니다.",
         "translation": "这次决定很好。",
         "words": [
