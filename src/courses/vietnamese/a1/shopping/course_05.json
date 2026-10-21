@@ -40,7 +40,7 @@
       "source": ["vietnamese_a1"]
     },
     {
-      "id": "vi_thang_may",
+      "id": "vi_thang_may_lift",
       "name": "thang máy",
       "trans": ["电梯"],
       "tags": ["shopping", "A1", "place"],

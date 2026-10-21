@@ -19,7 +19,7 @@
       "source": ["vietnamese_a2"]
     },
     {
-      "id": "vi_a2_mat",
+      "id": "vi_a2_mat_face",
       "name": "mặt",
       "trans": ["脸", "面部"],
       "tags": ["health", "A2", "body"],

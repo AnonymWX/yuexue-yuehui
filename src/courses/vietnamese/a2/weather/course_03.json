@@ -35,7 +35,7 @@
       "source": ["vietnamese_a2"]
     },
     {
-      "id": "vi_a2_mat",
+      "id": "vi_a2_mat_cool",
       "name": "mát",
       "trans": ["凉爽"],
       "tags": ["weather", "A2", "temp"],

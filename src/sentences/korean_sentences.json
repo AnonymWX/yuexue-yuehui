@@ -2611,7 +2611,7 @@
     "id": "sentence_ko_a1_279",
     "text": "집에서 학교까지 멉니까?",
     "translation": "从家到学校远吗？",
-    "words": ["ko_a1_jip", "ko_a1_hakgyo", "ko_a1_meolda"],
+    "words": ["ko_a1_jip", "ko_a1_hakgyo"],
     "course": "course_ko_026",
     "tags": ["places", "A1"]
   },
@@ -2619,7 +2619,7 @@
     "id": "sentence_ko_a1_280",
     "text": "아니요, 가깝습니다.",
     "translation": "不，很近。",
-    "words": ["ko_a1_gakkapda"],
+    "words": [],
     "course": "course_ko_026",
     "tags": ["places", "A1"]
   },

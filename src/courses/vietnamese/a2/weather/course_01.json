@@ -26,7 +26,7 @@
       "source": ["vietnamese_a2"]
     },
     {
-      "id": "vi_a2_mua",
+      "id": "vi_a2_mua_rain",
       "name": "mưa",
       "trans": ["雨", "下雨"],
       "tags": ["weather", "A2", "basic"],

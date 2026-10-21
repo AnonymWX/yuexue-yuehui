@@ -21,7 +21,7 @@
       "source": ["vietnamese_a1"]
     },
     {
-      "id": "vi_thang_may",
+      "id": "vi_thang_may_which",
       "name": "tháng mấy",
       "trans": ["几月"],
       "tags": ["calendar", "A1"],
