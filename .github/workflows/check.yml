@@ -37,4 +37,3 @@ jobs:
 
       - name: TypeScript (观察期，暂不阻断)
         run: npx tsc --noEmit
-        continue-on-error: true

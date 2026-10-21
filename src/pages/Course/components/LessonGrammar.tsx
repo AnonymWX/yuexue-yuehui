@@ -16,7 +16,9 @@ export default function LessonGrammar({ grammar }: Props) {
             {g.examples.length > 0 && (
               <ul className="mt-2 list-disc pl-5 text-sm text-gray-600 dark:text-gray-400">
                 {g.examples.map((ex, j) => (
-                  <li key={j}>{ex}</li>
+                  <li key={j}>
+                    {ex.vi} <span className="text-gray-400">- {ex.zh}</span>
+                  </li>
                 ))}
               </ul>
             )}

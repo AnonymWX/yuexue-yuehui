@@ -1,6 +1,6 @@
 import { renderChar } from './display'
 import { markToKey } from './parse'
-import type { CharState, InputResult, Syllable, TelexEngine, ToneType } from './types'
+import type { CharState, InputResult, Syllable, TelexEngine, ToneType, BackspaceResult } from './types'
 
 type ToneInfo = {
   keyIndex: number
@@ -284,7 +284,7 @@ export class StandardTelexEngine implements TelexEngine {
     return { status: 'pending', display: this.getDisplay(), completedChars: this.getCompletedChars() }
   }
 
-  backspace(): InputResult {
+  backspace(): BackspaceResult {
     if (this.typed.length === 0) {
       return { status: 'pending', display: '', completedChars: 0 }
     }

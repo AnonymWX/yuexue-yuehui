@@ -6,6 +6,7 @@ import { useAuth } from '@/pages/Login/useAuth'
 import { currentLanguageAtom } from '@/store/language'
 import { useAtomValue } from 'jotai'
 import { useState } from 'react'
+import { ReactNode } from 'react'
 import { NavLink, Outlet, useNavigate } from 'react-router-dom'
 
 interface NavItem {
@@ -36,7 +37,7 @@ const BOTTOM_TABS: NavItem[] = [
 const activeClass = 'bg-indigo-500 text-white shadow-primary'
 const normalClass = 'text-gray-600 hover:bg-indigo-50 dark:text-gray-300 dark:hover:bg-indigo-900/30'
 
-export default function Layout() {
+export default function Layout({ children }: { children?: ReactNode }) {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false)
   const { user, logout } = useAuth()
   const navigate = useNavigate()
